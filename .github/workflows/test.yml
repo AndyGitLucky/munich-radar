@@ -1,0 +1,28 @@
+name: Test
+
+on:
+  push:
+    paths-ignore:
+      - 'data/**'
+      - '**.md'
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python -m pytest -q
+      - run: python -m src.build
+      - run: python -m playwright install --with-deps chromium
+      - run: python scripts/browser_smoke.py

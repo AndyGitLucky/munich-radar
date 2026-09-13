@@ -1,0 +1,9 @@
+[project]
+name = "munich-radar"
+version = "0.1.0"
+description = "Eine kleine, nachvollziehbare Auswahl aus Münchens Veranstaltungskalendern"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

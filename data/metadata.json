@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "last_updated": "2026-09-13T14:26:01+02:00",
+  "timezone": "Europe/Berlin",
+  "sources_checked": 4,
+  "sources_successful": 4,
+  "events_collected": 121,
+  "events_after_deduplication": 92,
+  "stale_events": 0,
+  "sources": [
+    {
+      "id": "corso_leopold",
+      "name": "Corso Leopold",
+      "url": "https://www.corso-leopold.de/",
+      "status": "ok",
+      "events": 2,
+      "warnings": []
+    },
+    {
+      "id": "gasteig",
+      "name": "Gasteig",
+      "url": "https://www.gasteig.de/veranstaltungen/",
+      "status": "ok",
+      "events": 7,
+      "warnings": []
+    },
+    {
+      "id": "deutsches_museum",
+      "name": "Deutsches Museum",
+      "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
+      "status": "ok",
+      "events": 60,
+      "warnings": []
+    },
+    {
+      "id": "lenbachhaus",
+      "name": "Lenbachhaus",
+      "url": "https://www.lenbachhaus.de/besuchen/kalender",
+      "status": "ok",
+      "events": 52,
+      "warnings": []
+    }
+  ],
+  "selection": {
+    "min_score": 25,
+    "limit": 5,
+    "max_per_source": 3,
+    "max_per_series": 1,
+    "horizon_days": 30,
+    "new_hours": 72
+  },
+  "views": {
+    "today": [
+      "c7e6ad0fa3a3f61d318a",
+      "a8e3bdb9dbc8426c4089",
+      "ec70bce65159eab788bd",
+      "256d4cd727850f88b7da",
+      "d2a2139eb75a0ecf5ef2"
+    ],
+    "tomorrow": [
+      "48b7df271f6d12398238",
+      "0a7174095a64cd749b86",
+      "922d13ad1f8210e431fe",
+      "5086670b658c06ff0d5d",
+      "5487d8b2cbc0f5e74c51"
+    ],
+    "weekend": [
+      "c7e6ad0fa3a3f61d318a",
+      "a8e3bdb9dbc8426c4089",
+      "ec70bce65159eab788bd",
+      "256d4cd727850f88b7da",
+      "d2a2139eb75a0ecf5ef2"
+    ],
+    "upcoming": [
+      "07636ede2aab4da0c808",
+      "48b7df271f6d12398238",
+      "0a7174095a64cd749b86",
+      "922d13ad1f8210e431fe",
+      "a83643c87e6622a1853a"
+    ],
+    "new": [
+      "c7e6ad0fa3a3f61d318a",
+      "a8e3bdb9dbc8426c4089",
+      "ec70bce65159eab788bd",
+      "256d4cd727850f88b7da",
+      "d2a2139eb75a0ecf5ef2"
+    ]
+  },
+  "heads_up": [
+    {
+      "event_id": "48b7df271f6d12398238",
+      "days_until": 1
+    },
+    {
+      "event_id": "3a0cdd2344de597743f9",
+      "days_until": 3
+    },
+    {
+      "event_id": "f1601db58ffd78ed0a59",
+      "days_until": 3
+    }
+  ],
+  "heads_up_rules": {
+    "major_days": [
+      14,
+      7,
+      3,
+      1
+    ],
+    "other_days": [
+      3,
+      1
+    ],
+    "limit": 3
+  },
+  "data_hash": "ac0a1d374dfe01445658998f274444f1f8ef37ce3703df99eae7d06c35fe4f5f"
+}

@@ -1,0 +1,13 @@
+.venv/
+.python/
+.cache/
+.scratch/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+dist/
+data/raw/
+data/last-failure.json
+.env
+.env.*
+!.env.example

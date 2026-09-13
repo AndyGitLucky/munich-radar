@@ -1,0 +1,35 @@
+interests:
+  science: 1.0
+  technology: 1.0
+  museum: 0.8
+  exhibition: 0.8
+  family: 0.8
+  street_festival: 0.8
+  market: 0.5
+  culture: 0.5
+  concert: 0.3
+weights:
+  base: 15
+  interest: 20
+  major_event: 25
+  new_exhibition: 20
+  science_technology: 15
+  family: 10
+  free: 5
+  today: 10
+  weekend_only: 10
+  seasonal: 15
+  discovered: 4
+  recurring: -10
+  commercial: -10
+selection:
+  min_score: 25
+  limit: 5
+  max_per_source: 3
+  max_per_series: 1
+  horizon_days: 30
+  new_hours: 72
+heads_up:
+  major_days: [14, 7, 3, 1]
+  other_days: [3, 1]
+  limit: 3

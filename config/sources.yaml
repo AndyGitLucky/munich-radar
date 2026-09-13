@@ -1,0 +1,27 @@
+http:
+  user_agent: MunichRadar/0.1 (+local event overview)
+  timeout: 20
+  min_interval: 1.0
+sources:
+  - id: corso_leopold
+    name: Corso Leopold
+    url: https://www.corso-leopold.de/
+    enabled: true
+    priority: 10
+  - id: gasteig
+    name: Gasteig
+    url: https://www.gasteig.de/veranstaltungen/
+    enabled: true
+    priority: 10
+    max_details: 14
+  - id: deutsches_museum
+    name: Deutsches Museum
+    url: https://www.deutsches-museum.de/museumsinsel/programm/kalender
+    enabled: true
+    priority: 10
+    max_pages: 6
+  - id: lenbachhaus
+    name: Lenbachhaus
+    url: https://www.lenbachhaus.de/besuchen/kalender
+    enabled: true
+    priority: 10

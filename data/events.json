@@ -1,0 +1,3867 @@
+[
+  {
+    "title": "Corso Leopold",
+    "source_name": "Corso Leopold",
+    "source_url": "https://www.corso-leopold.de/cl/programm/2026-September.php",
+    "start": "2026-09-13T11:00:00+02:00",
+    "end": "2026-09-13T21:00:00+02:00",
+    "description": "Auch im September 2026 wird die Leopoldstraße wieder zur autofreien Kulturmeile voller Musik, Kunst, Inspiration und Begegnung. Mehr als 90 Aussteller:innen , über 200 Künstler:innen auf 10 Bühnen , dazu ein buntes Kinderprogramm , spannende Aktionen zur Nachhaltigkeit , kulinarische Vielfalt – und alles unter freiem Himmel .",
+    "location_name": "Leopoldstraße",
+    "address": null,
+    "district": null,
+    "category": "street_festival",
+    "tags": [
+      "culture",
+      "festival_day",
+      "major_event",
+      "outdoor",
+      "street_festival"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": null,
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.corso-leopold.de/cl/programm/2026-September.php",
+    "status": "scheduled",
+    "id": "c7e6ad0fa3a3f61d318a",
+    "discovered_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 90.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Straßenfeste",
+      "Highlight des Veranstalters",
+      "Für Familien",
+      "Heute im Programm",
+      "Termin an diesem Wochenende",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Corso Leopold",
+        "url": "https://www.corso-leopold.de/cl/programm/2026-September.php",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Hilfe, mein Fahrrad ist platt!",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/hilfe-mein-fahrrad-ist-platt#2026-09-13T14:30:00+02:00",
+    "start": "2026-09-13T14:30:00+02:00",
+    "end": "2026-09-13T15:30:00+02:00",
+    "description": "Ihr erhaltet einen spannenden Einblick in die Reparatur eines platten Fahrradreifen und beobachtet die einzelnen Arbeitsschritte. Dabei lernt ihr, wie ein Fahrradschlauch selbst wieder repariert werden kann.",
+    "location_name": "Deutsches Museum · Ausstellung Kinderreich",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/7/e/csm_Science_Summer_Fahrrad_Flickkurs_CD_L_7595_012_55d3a77c21.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/hilfe-mein-fahrrad-ist-platt",
+    "status": "scheduled",
+    "id": "a8e3bdb9dbc8426c4089",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 84.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Heute im Programm",
+      "Termin an diesem Wochenende",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/hilfe-mein-fahrrad-ist-platt#2026-09-13T14:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Ping Pong Night mit DJs",
+    "source_name": "Gasteig",
+    "source_url": "https://www.gasteig.de/veranstaltungen/ping-pong-night-mit-djs/",
+    "start": "2026-09-13T19:00:00+02:00",
+    "end": null,
+    "description": "Tischtennis trifft Clubsounds im Gasteig HP8: Die „Ping Pong Night“ bringt die Menschen an die Tischtennisplatten und – zu cooler DJ-Musik tauschen wir Bälle und Spielpartner*innen ganz nach Lust und Laune.",
+    "location_name": "Halle E, Gasteig HP8",
+    "address": "München",
+    "district": null,
+    "category": "culture",
+    "tags": [
+      "major_event"
+    ],
+    "price_text": "Kostenlos",
+    "is_free": true,
+    "family_friendly": null,
+    "image_url": "https://www.gasteig.de/imgs/GHP8-Pingpong-c-AndreasGebert-Gasteig-045-scaled.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.gasteig.de/veranstaltungen/ping-pong-night-mit-djs/",
+    "status": "scheduled",
+    "id": "ec70bce65159eab788bd",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 79.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Kultur",
+      "Highlight des Veranstalters",
+      "Kostenlos",
+      "Heute im Programm",
+      "Termin an diesem Wochenende",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Gasteig",
+        "url": "https://www.gasteig.de/veranstaltungen/ping-pong-night-mit-djs/",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Bergbauern erleben",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben#2026-09-13T09:00:00+02:00",
+    "start": "2026-09-13T09:00:00+02:00",
+    "end": "2026-09-13T17:00:00+02:00",
+    "description": "Kleine Sonderpräsentation über Leben und Arbeit von Bergbauern. Fotos, Interviews und ein Film bieten Einblicke in den bäuerlichen Alltag und die Herausforderungen im bayerischen Alpenraum.",
+    "location_name": "Deutsches Museum · Ausstellung Landwirtschaft und Ernährung",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/f/7/csm_Bergader_Mayr_Abendstimmung_Alm_4cb162e70c.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben",
+    "status": "scheduled",
+    "id": "256d4cd727850f88b7da",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 64.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Heute im Programm",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben#2026-09-13T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Rohstoffe abbauen, nutzen – und dann?",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann#2026-09-13T09:00:00+02:00",
+    "start": "2026-09-13T09:00:00+02:00",
+    "end": "2026-09-13T17:00:00+02:00",
+    "description": "Pop-up-Ausstellung zum Umgang mit Rohstoffen, Nachhaltigkeit und den Folgen des Bergbaus, ergänzt durch einen VR-Rundgang durch die ehemalige Bergbau-Ausstellung.",
+    "location_name": "Deutsches Museum · Science Communication Lab",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/9/7/csm_mining_cavern_and_sandvik_scoop_in_bernburg_mine_5b54d9606b.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann",
+    "status": "scheduled",
+    "id": "d2a2139eb75a0ecf5ef2",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 64.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Heute im Programm",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann#2026-09-13T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Musikinstrumente",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/musikinstrumente-fuehrung#2026-09-13T14:00:00+02:00",
+    "start": "2026-09-13T14:00:00+02:00",
+    "end": "2026-09-13T14:30:00+02:00",
+    "description": "Erfahren Sie mehr zu den vielfältigen Musikinstrumenten in der Ausstellung des Deutschen Museums, die vom Cembalo des 16. Jahrhunderts bis zum Synthesizer der Gegenwart reicht.",
+    "location_name": "Deutsches Museum · Ausstellung Musikinstrumente",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/7/3/csm_CD_87257_web_1c560da895.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/musikinstrumente-fuehrung",
+    "status": "scheduled",
+    "id": "fbcecad33b7acc2c7aa3",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 64.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Heute im Programm",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/musikinstrumente-fuehrung#2026-09-13T14:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Reise ins All",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/reise-ins-all#2026-09-13T14:30:00+02:00",
+    "start": "2026-09-13T14:30:00+02:00",
+    "end": "2026-09-13T14:55:00+02:00",
+    "description": "Völlig losgelöst von der Erde: Bei der Führung erfahren Sie mehr über die Raumfahrt und den Transport von Maschinen und Menschen ins All.",
+    "location_name": "Deutsches Museum · Ausstellung Raumfahrt",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/d/e/csm_Ausstellung_Astronomie_Spacelab_Weltraumlabor_CD_87180_416b5e70cf.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/reise-ins-all",
+    "status": "scheduled",
+    "id": "4a76f6114795dc30ad23",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 64.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Heute im Programm",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/reise-ins-all#2026-09-13T14:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Es geht aufwärts",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/es-geht-aufwaerts#2026-09-13T14:30:00+02:00",
+    "start": "2026-09-13T14:30:00+02:00",
+    "end": "2026-09-13T14:55:00+02:00",
+    "description": "Glanz und Schattenseiten der Fliegerei: Erfahren Sie mehr über den technischen Fortschritt in der Luftfahrt von 1918 bis 1945 und über die deutsche Luftfahrtindustrie im Zweiten Weltkrieg.",
+    "location_name": "Deutsches Museum · Ausstellung Historische Luftfahrt",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/f/3/csm_Ausstellung_Historische_Luftfahrt_Ju52_CD_L_7792_053_65929ae759.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/es-geht-aufwaerts",
+    "status": "scheduled",
+    "id": "77180acc7fe0ce82bd3f",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 64.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Heute im Programm",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/es-geht-aufwaerts#2026-09-13T14:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Schwungvolle Kurven",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/schwungvolle-kurven#2026-09-13T15:00:00+02:00",
+    "start": "2026-09-13T15:00:00+02:00",
+    "end": "2026-09-13T15:25:00+02:00",
+    "description": "Mathematik kann richtig schön sein: Lassen Sie sich von schwingenden Pendeln in den Bann ziehen und und verfolgen Sie, wie wunderschöne Zeichnungen auf dem Papier entstehen.",
+    "location_name": "Deutsches Museum · Ausstellung Mathematik",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/e/0/csm_Ausstellung_Mathematik_Harmonograf_CD_84740_11b581f05e.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/schwungvolle-kurven",
+    "status": "scheduled",
+    "id": "2c1cb3f707e47fd61f14",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 64.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Heute im Programm",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/schwungvolle-kurven#2026-09-13T15:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Einblicke in die Welt der Optik",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/einblicke-in-die-welt-der-optik#2026-09-13T15:00:00+02:00",
+    "start": "2026-09-13T15:00:00+02:00",
+    "end": "2026-09-13T15:25:00+02:00",
+    "description": "Entdecken Sie Experimente und Phänomene in unseren interaktiven Stationen oder die Geschichten, die die Instrumente in unserer Schatzkammer erzählen.",
+    "location_name": "Deutsches Museum · Ausstellung Klassische Optik",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/2/f/csm_Ausstellung_Klassische-Optik_Kepler-Teleskop_CD_88779_1571ce8ca6.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/einblicke-in-die-welt-der-optik",
+    "status": "scheduled",
+    "id": "98085cd50ece79567b61",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 64.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Heute im Programm",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/einblicke-in-die-welt-der-optik#2026-09-13T15:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Drucktechnik und Medienrevolution",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/drucktechnik-und-medienrevolution#2026-09-13T15:00:00+02:00",
+    "start": "2026-09-13T15:00:00+02:00",
+    "end": "2026-09-13T15:25:00+02:00",
+    "description": "Nicht nur Gutenbergs Buchdruck hat die Welt verändert. Entdecken Sie bei dieser Führung wichtige Meilensteine der Druck- und Mediengeschichte und deren Bedeutung im heutigen digitalen Informationszeitalter.",
+    "location_name": "Deutsches Museum · Ausstellung Bild Schrift Codes",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/6/4/csm_Ausstellung_Schrift_Bild_Codes_Offsetdruckmaschine_Rheingold_Modernisierung_53228_20151118_001_A0560_ND_KRainer_35e0183a3d.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/drucktechnik-und-medienrevolution",
+    "status": "scheduled",
+    "id": "9cfe6889baa9ee807cec",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 64.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Heute im Programm",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/drucktechnik-und-medienrevolution#2026-09-13T15:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Flugsimulator DA 42",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/flugsimulator-da-42#2026-09-13T15:30:00+02:00",
+    "start": "2026-09-13T15:30:00+02:00",
+    "end": "2026-09-13T15:55:00+02:00",
+    "description": "Der Traum vom Fliegen – ganz nah! Flugtechnisch erfahrene Mitarbeiter zeigen verschiedene Manöver. Alle Anzeigen aus dem Cockpit sind live zu sehen.",
+    "location_name": "Deutsches Museum · Ausstellung Moderne Luftfahrt",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/a/9/csm_Flugsimulator_CD_L_7731_007_ce69352c97.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/flugsimulator-da-42",
+    "status": "scheduled",
+    "id": "0b4fc8fd0424f7fc6b31",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 64.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Heute im Programm",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/flugsimulator-da-42#2026-09-13T15:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Für Deutschland?",
+    "source_name": "Gasteig",
+    "source_url": "https://www.gasteig.de/festivals/fuer-deutschland/",
+    "start": "2026-10-03T00:00:00+02:00",
+    "end": "2026-10-08T23:59:59+02:00",
+    "description": "Was bedeutet Demokratie heute? Welche Verantwortung tragen Kunst, Erinnerung und wir alle in einer Zeit, in der rechte Ideologien wieder an gesellschaftlichem Einfluss gewinnen? Die Ausstellung „Für Deutschland?“ lädt dazu ein, diesen Fragen gemeinsam nachzugehen.",
+    "location_name": "Gasteig HP8",
+    "address": "München",
+    "district": null,
+    "category": "festival",
+    "tags": [
+      "exhibition",
+      "festival",
+      "major_event"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.gasteig.de/imgs/KollektivLotse_HP8_Quer_FotoMaxGoetterd.jpg",
+    "all_day": true,
+    "source_priority": 10,
+    "series_id": "https://www.gasteig.de/festivals/fuer-deutschland/",
+    "status": "scheduled",
+    "id": "07636ede2aab4da0c808",
+    "discovered_at": "2026-09-13T14:14:51+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 60.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Ausstellungen",
+      "Highlight des Veranstalters",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Gasteig",
+        "url": "https://www.gasteig.de/festivals/fuer-deutschland/",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Salsa-Nacht im Gasteig HP8",
+    "source_name": "Gasteig",
+    "source_url": "https://www.gasteig.de/veranstaltungen/salsa-nacht-im-hp8-b8cba/",
+    "start": "2026-09-14T19:00:00+02:00",
+    "end": null,
+    "description": "Die beeindruckende Halle E im Gasteig HP8 ist als Tanz-Location bestens geeignet: Unsere Salsa-Nächte sind echte Renner. Der Eintritt ist wie immer frei.",
+    "location_name": "Halle E, Gasteig HP8",
+    "address": "München",
+    "district": null,
+    "category": "culture",
+    "tags": [
+      "major_event"
+    ],
+    "price_text": "Kostenlos",
+    "is_free": true,
+    "family_friendly": null,
+    "image_url": "https://www.gasteig.de/imgs/GHP8_Salsa_2402_c_SebastianMayer-105-scaled.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.gasteig.de/veranstaltungen/salsa-nacht-im-hp8-b8cba/",
+    "status": "scheduled",
+    "id": "48b7df271f6d12398238",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 59.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Kultur",
+      "Highlight des Veranstalters",
+      "Kostenlos",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Gasteig",
+        "url": "https://www.gasteig.de/veranstaltungen/salsa-nacht-im-hp8-b8cba/",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Planetary Health",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health#2026-09-13T09:00:00+02:00",
+    "start": "2026-09-13T09:00:00+02:00",
+    "end": "2026-09-13T17:00:00+02:00",
+    "description": "Am Puls von Mensch und Planet. Die Ausstellung zeigt, wie eng die Gesundheit von Mensch und Erde miteinander verflochten sind.",
+    "location_name": "Deutsches Museum · Auditorium Sonderausstellungsfläche",
+    "address": null,
+    "district": null,
+    "category": "exhibition",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/6/4/csm_planetary-health_CD_L_8048_01_4911fcdfa4.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health",
+    "status": "scheduled",
+    "id": "792471f80764ea6b0b10",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Heute im Programm",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health#2026-09-13T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Nächtliche Welten - Fotoausstellung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten#2026-09-13T09:00:00+02:00",
+    "start": "2026-09-13T09:00:00+02:00",
+    "end": "2026-09-13T17:00:00+02:00",
+    "description": "In der Sonderausstellung zeigen Freizeit-Astronomen faszinierende Astrofotos aus den Kategorien „Nachtlandschaften“, „Sonnensystem“, „Deep Sky“ und „München“.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "exhibition",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/a/7/csm_Naechtliche_Welten_220311_2762_Oststernwarte_Teleskop_Langzeit_ec4b988f18.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten",
+    "status": "scheduled",
+    "id": "e9e4ff5dda90f3c67c80",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Heute im Programm",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten#2026-09-13T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Übersichtsführung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung#2026-09-13T14:00:00+02:00",
+    "start": "2026-09-13T14:00:00+02:00",
+    "end": "2026-09-13T15:30:00+02:00",
+    "description": "Lernen Sie die Highlights kennen und erleben Sie unsere Themenvielfalt. Wir führen Sie durch ausgewählte Ausstellungen und zeigen Ihnen beliebte Exponate und erklären aktuelle Themen.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/6/7/csm_Ausstellung_Foucaultsches_Pendel_CD_L_7791_035_3076451892.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung",
+    "status": "scheduled",
+    "id": "10465e635d596dc37ef5",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Heute im Programm",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung#2026-09-13T14:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Bergbau-VR-Erlebnis",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbau-vr-erlebnis#2026-09-13T14:00:00+02:00",
+    "start": "2026-09-13T14:00:00+02:00",
+    "end": "2026-09-13T16:30:00+02:00",
+    "description": "Erleben Sie das ehemalige Anschauungsbergwerk des Deutschen Museums in VR. Der virtuelle Rundgang eröffnet einen immersiven Einblick in die Arbeitswelt unter Tage vergangener Zeiten.",
+    "location_name": "Deutsches Museum · Science Communication Lab",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Schulklassenprogramm_Salzbergwerk_CD_53969_64a5bbf0cf.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbau-vr-erlebnis",
+    "status": "scheduled",
+    "id": "58ede71b2496b4ef63ef",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Heute im Programm",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbau-vr-erlebnis#2026-09-13T14:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Gesundheit von Kopf bis Fuß",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/gesundheit-von-kopf-bis-fuss#2026-09-13T14:30:00+02:00",
+    "start": "2026-09-13T14:30:00+02:00",
+    "end": "2026-09-13T14:55:00+02:00",
+    "description": "Gesundheit ist unser höchstes Gut. Erleben Sie die heutigen Möglichkeiten der Medizin im Dienste des Menschen.",
+    "location_name": "Deutsches Museum · Ausstellung Gesundheit",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/5/c/csm_Ausstellung_Gesundheit_Glieder_und_Gelenke_CD_87191_12af5d01d2.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/gesundheit-von-kopf-bis-fuss",
+    "status": "scheduled",
+    "id": "5b55d4a7ef7d3dd05f83",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Heute im Programm",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/gesundheit-von-kopf-bis-fuss#2026-09-13T14:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Bergbauern erleben",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben#2026-09-14T09:00:00+02:00",
+    "start": "2026-09-14T09:00:00+02:00",
+    "end": "2026-09-14T17:00:00+02:00",
+    "description": "Kleine Sonderpräsentation über Leben und Arbeit von Bergbauern. Fotos, Interviews und ein Film bieten Einblicke in den bäuerlichen Alltag und die Herausforderungen im bayerischen Alpenraum.",
+    "location_name": "Deutsches Museum · Ausstellung Landwirtschaft und Ernährung",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/f/7/csm_Bergader_Mayr_Abendstimmung_Alm_4cb162e70c.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben",
+    "status": "scheduled",
+    "id": "0a7174095a64cd749b86",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben#2026-09-14T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Rohstoffe abbauen, nutzen – und dann?",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann#2026-09-14T09:00:00+02:00",
+    "start": "2026-09-14T09:00:00+02:00",
+    "end": "2026-09-14T17:00:00+02:00",
+    "description": "Pop-up-Ausstellung zum Umgang mit Rohstoffen, Nachhaltigkeit und den Folgen des Bergbaus, ergänzt durch einen VR-Rundgang durch die ehemalige Bergbau-Ausstellung.",
+    "location_name": "Deutsches Museum · Science Communication Lab",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/9/7/csm_mining_cavern_and_sandvik_scoop_in_bernburg_mine_5b54d9606b.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann",
+    "status": "scheduled",
+    "id": "922d13ad1f8210e431fe",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann#2026-09-14T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Bergbauern erleben",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben#2026-09-15T09:00:00+02:00",
+    "start": "2026-09-15T09:00:00+02:00",
+    "end": "2026-09-15T17:00:00+02:00",
+    "description": "Kleine Sonderpräsentation über Leben und Arbeit von Bergbauern. Fotos, Interviews und ein Film bieten Einblicke in den bäuerlichen Alltag und die Herausforderungen im bayerischen Alpenraum.",
+    "location_name": "Deutsches Museum · Ausstellung Landwirtschaft und Ernährung",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/f/7/csm_Bergader_Mayr_Abendstimmung_Alm_4cb162e70c.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben",
+    "status": "scheduled",
+    "id": "195ae244b4982e38c1fd",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben#2026-09-15T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Rohstoffe abbauen, nutzen – und dann?",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann#2026-09-15T09:00:00+02:00",
+    "start": "2026-09-15T09:00:00+02:00",
+    "end": "2026-09-15T17:00:00+02:00",
+    "description": "Pop-up-Ausstellung zum Umgang mit Rohstoffen, Nachhaltigkeit und den Folgen des Bergbaus, ergänzt durch einen VR-Rundgang durch die ehemalige Bergbau-Ausstellung.",
+    "location_name": "Deutsches Museum · Science Communication Lab",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/9/7/csm_mining_cavern_and_sandvik_scoop_in_bernburg_mine_5b54d9606b.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann",
+    "status": "scheduled",
+    "id": "6fd602d2ff6a3ce46296",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann#2026-09-15T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Quantendienstag",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/quantendienstag#2026-09-15T14:00:00+02:00",
+    "start": "2026-09-15T14:00:00+02:00",
+    "end": "2026-09-15T15:30:00+02:00",
+    "description": "Forschung verständlich gemacht: Updates aus der Wissenschaft, Expert*innengespräche und Games zum Mitmachen - rund um Quantentechnologien.",
+    "location_name": "Deutsches Museum · Auditorium",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/4/e/csm_Quantentr%C3%A4ume_News_20240629_120639_da6213f756.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/quantendienstag",
+    "status": "scheduled",
+    "id": "a83643c87e6622a1853a",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/quantendienstag#2026-09-15T14:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Live-Podcast \"Lifestyle of Longevity\"",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/live-podcast-lifestyle-of-longevity#2026-09-15T18:00:00+02:00",
+    "start": "2026-09-15T18:00:00+02:00",
+    "end": "2026-09-15T19:30:00+02:00",
+    "description": "Überlebenswichtig und dennoch gefährlich? Die Luft, die wir atmen.",
+    "location_name": "Deutsches Museum · Auditorium",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/9/d/csm_lifestyle_of_longevity_1015_691862a995.png",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/live-podcast-lifestyle-of-longevity",
+    "status": "scheduled",
+    "id": "87d23669a8bff79cc807",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/live-podcast-lifestyle-of-longevity#2026-09-15T18:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Bergbauern erleben",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben#2026-09-16T09:00:00+02:00",
+    "start": "2026-09-16T09:00:00+02:00",
+    "end": "2026-09-16T17:00:00+02:00",
+    "description": "Kleine Sonderpräsentation über Leben und Arbeit von Bergbauern. Fotos, Interviews und ein Film bieten Einblicke in den bäuerlichen Alltag und die Herausforderungen im bayerischen Alpenraum.",
+    "location_name": "Deutsches Museum · Ausstellung Landwirtschaft und Ernährung",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/f/7/csm_Bergader_Mayr_Abendstimmung_Alm_4cb162e70c.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben",
+    "status": "scheduled",
+    "id": "29584da22fa65761a817",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben#2026-09-16T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Rohstoffe abbauen, nutzen – und dann?",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann#2026-09-16T13:45:00+02:00",
+    "start": "2026-09-16T13:45:00+02:00",
+    "end": "2026-09-16T17:00:00+02:00",
+    "description": "Pop-up-Ausstellung zum Umgang mit Rohstoffen, Nachhaltigkeit und den Folgen des Bergbaus, ergänzt durch einen VR-Rundgang durch die ehemalige Bergbau-Ausstellung.",
+    "location_name": "Deutsches Museum · Science Communication Lab",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/9/7/csm_mining_cavern_and_sandvik_scoop_in_bernburg_mine_5b54d9606b.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann",
+    "status": "scheduled",
+    "id": "fae6730802ebf25355f4",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann#2026-09-16T13:45:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Deutscher Zukunftspreis 2026",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/deutscher-zukunftspreis-2026#2026-09-16T18:00:00+02:00",
+    "start": "2026-09-16T18:00:00+02:00",
+    "end": "2026-09-16T19:30:00+02:00",
+    "description": "Die Nominierungen zum Deutschen Zukunftspreis 2026 – Die Teams der nominierten Projekte präsentieren in Kurzvorträgen ihre Themen",
+    "location_name": "Deutsches Museum · Auditorium",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/1/e/csm_Deutscher_Zukunftspreis_e4f7b52487.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/deutscher-zukunftspreis-2026",
+    "status": "scheduled",
+    "id": "3a0cdd2344de597743f9",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/deutscher-zukunftspreis-2026#2026-09-16T18:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Bergbauern erleben",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben#2026-09-17T09:00:00+02:00",
+    "start": "2026-09-17T09:00:00+02:00",
+    "end": "2026-09-17T17:00:00+02:00",
+    "description": "Kleine Sonderpräsentation über Leben und Arbeit von Bergbauern. Fotos, Interviews und ein Film bieten Einblicke in den bäuerlichen Alltag und die Herausforderungen im bayerischen Alpenraum.",
+    "location_name": "Deutsches Museum · Ausstellung Landwirtschaft und Ernährung",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/f/7/csm_Bergader_Mayr_Abendstimmung_Alm_4cb162e70c.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben",
+    "status": "scheduled",
+    "id": "0f01b558684c1433efaf",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben#2026-09-17T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Rohstoffe abbauen, nutzen – und dann?",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann#2026-09-17T09:00:00+02:00",
+    "start": "2026-09-17T09:00:00+02:00",
+    "end": "2026-09-17T17:00:00+02:00",
+    "description": "Pop-up-Ausstellung zum Umgang mit Rohstoffen, Nachhaltigkeit und den Folgen des Bergbaus, ergänzt durch einen VR-Rundgang durch die ehemalige Bergbau-Ausstellung.",
+    "location_name": "Deutsches Museum · Science Communication Lab",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/9/7/csm_mining_cavern_and_sandvik_scoop_in_bernburg_mine_5b54d9606b.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann",
+    "status": "scheduled",
+    "id": "146d8484ebbcf3453a82",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann#2026-09-17T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Führung durch die Ausstellung Rohstoffe",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/fuehrung-durch-die-pop-up-ausstellung-rohstoffe#2026-09-17T12:30:00+02:00",
+    "start": "2026-09-17T12:30:00+02:00",
+    "end": "2026-09-17T12:50:00+02:00",
+    "description": "Führung durch die Pop-up-Ausstellung zum Umgang mit Rohstoffen, Nachhaltigkeit und den Folgen des Bergbaus.",
+    "location_name": "Deutsches Museum · Science Communication Lab",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/9/7/csm_mining_cavern_and_sandvik_scoop_in_bernburg_mine_5b54d9606b.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/fuehrung-durch-die-pop-up-ausstellung-rohstoffe",
+    "status": "scheduled",
+    "id": "63c138702f0734b8490c",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/fuehrung-durch-die-pop-up-ausstellung-rohstoffe#2026-09-17T12:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Bergbauern erleben",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben#2026-09-18T09:00:00+02:00",
+    "start": "2026-09-18T09:00:00+02:00",
+    "end": "2026-09-18T17:00:00+02:00",
+    "description": "Kleine Sonderpräsentation über Leben und Arbeit von Bergbauern. Fotos, Interviews und ein Film bieten Einblicke in den bäuerlichen Alltag und die Herausforderungen im bayerischen Alpenraum.",
+    "location_name": "Deutsches Museum · Ausstellung Landwirtschaft und Ernährung",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/f/7/csm_Bergader_Mayr_Abendstimmung_Alm_4cb162e70c.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben",
+    "status": "scheduled",
+    "id": "0e7f914ae2d02ff8d424",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben#2026-09-18T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Rohstoffe abbauen, nutzen – und dann?",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann#2026-09-18T09:00:00+02:00",
+    "start": "2026-09-18T09:00:00+02:00",
+    "end": "2026-09-18T17:00:00+02:00",
+    "description": "Pop-up-Ausstellung zum Umgang mit Rohstoffen, Nachhaltigkeit und den Folgen des Bergbaus, ergänzt durch einen VR-Rundgang durch die ehemalige Bergbau-Ausstellung.",
+    "location_name": "Deutsches Museum · Science Communication Lab",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/9/7/csm_mining_cavern_and_sandvik_scoop_in_bernburg_mine_5b54d9606b.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann",
+    "status": "scheduled",
+    "id": "7374208c8cd169271a78",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann#2026-09-18T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Führung durch die Ausstellung Rohstoffe",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/fuehrung-durch-die-pop-up-ausstellung-rohstoffe#2026-09-18T12:30:00+02:00",
+    "start": "2026-09-18T12:30:00+02:00",
+    "end": "2026-09-18T12:50:00+02:00",
+    "description": "Führung durch die Pop-up-Ausstellung zum Umgang mit Rohstoffen, Nachhaltigkeit und den Folgen des Bergbaus.",
+    "location_name": "Deutsches Museum · Science Communication Lab",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": true,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/9/7/csm_mining_cavern_and_sandvik_scoop_in_bernburg_mine_5b54d9606b.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/fuehrung-durch-die-pop-up-ausstellung-rohstoffe",
+    "status": "scheduled",
+    "id": "6218d7aeddda220d4175",
+    "discovered_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Für Familien",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/fuehrung-durch-die-pop-up-ausstellung-rohstoffe#2026-09-18T12:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "„Die drei ??? – Das Erbe des Meisterdiebes“",
+    "source_name": "Gasteig",
+    "source_url": "https://www.gasteig.de/veranstaltungen/die-drei-mitmachhoerspiel-tour/",
+    "start": "2026-09-22T19:00:00+02:00",
+    "end": "2026-09-22T21:30:00+02:00",
+    "description": "Die Stimme von Justus Jonas live erleben – und mit ein bisschen Glück und Talent selbst Teil eines spannenden Hörspiels werden: Genau das macht diese Show möglich. Ein unterhaltsamer Abend für Hörspiel-Fans jeden Alters – spannend, kreativ und einzigartig.",
+    "location_name": "Isarphilharmonie, Gasteig HP8",
+    "address": "München",
+    "district": null,
+    "category": "culture",
+    "tags": [
+      "major_event"
+    ],
+    "price_text": "Ab 35 €",
+    "is_free": false,
+    "family_friendly": null,
+    "image_url": "https://www.gasteig.de/imgs/Drei-Fragezeichen.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.gasteig.de/veranstaltungen/die-drei-mitmachhoerspiel-tour/",
+    "status": "scheduled",
+    "id": "e4248134456049e499f2",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 54.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Kultur",
+      "Highlight des Veranstalters",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Gasteig",
+        "url": "https://www.gasteig.de/veranstaltungen/die-drei-mitmachhoerspiel-tour/",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "„Spark“ – interaktive Videokunst-Installation",
+    "source_name": "Gasteig",
+    "source_url": "https://www.gasteig.de/veranstaltungen/we-are-video-spark-2/",
+    "start": "2026-07-27T00:00:00+02:00",
+    "end": "2026-09-20T23:59:00+02:00",
+    "description": "Das Kreativstudio We Are Video präsentiert im Gasteig HP8 eine neue, eigens für den Ort entwickelte interaktive Videokunst-Installation, die visuell funkelt und das Publikum aktiv einbindet.",
+    "location_name": "Halle E, Gasteig HP8",
+    "address": "München",
+    "district": null,
+    "category": "exhibition",
+    "tags": [
+      "exhibition"
+    ],
+    "price_text": "Kostenlos",
+    "is_free": true,
+    "family_friendly": null,
+    "image_url": "https://www.gasteig.de/imgs/Spark_c_We-Are-Video.jpg",
+    "all_day": true,
+    "source_priority": 10,
+    "series_id": "https://www.gasteig.de/veranstaltungen/we-are-video-spark-2/",
+    "status": "scheduled",
+    "id": "5086670b658c06ff0d5d",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 50.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Ausstellungen",
+      "Kostenlos",
+      "Heute im Programm",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Gasteig",
+        "url": "https://www.gasteig.de/veranstaltungen/we-are-video-spark-2/",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Münchner Philharmoniker: Ravel / Bernstein / Strawinsky",
+    "source_name": "Gasteig",
+    "source_url": "https://www.gasteig.de/veranstaltungen/ravel-bernstein-strawinsky/",
+    "start": "2026-09-17T19:30:00+02:00",
+    "end": "2026-09-17T21:45:00+02:00",
+    "description": "Mit einem Programm der Extraklasse starten die Münchner Philharmoniker mit ihrem neuen Chefdirigenten Lahav Shani in ihre erste gemeinsame Konzertsaison. Martha Argerich, ohne Zweifel eine der größten Künstlerinnen unserer Zeit, eröffnet den Konzertabend mit Maurice Ravels G-Dur-Klavierkonzert, einem schillernden Hybrid aus Jazzbar, Rokoko-Palast und feinster französischer Eleganz.",
+    "location_name": "Isarphilharmonie, Gasteig HP8",
+    "address": "München",
+    "district": null,
+    "category": "concert",
+    "tags": [
+      "concert",
+      "major_event"
+    ],
+    "price_text": "Ab 31 €",
+    "is_free": false,
+    "family_friendly": null,
+    "image_url": "https://www.gasteig.de/imgs/Martha_Argerich_23_4_Adriano_Heitman.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.gasteig.de/veranstaltungen/ravel-bernstein-strawinsky/",
+    "status": "scheduled",
+    "id": "fb53e036e6725e5b385b",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 50.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Musik",
+      "Highlight des Veranstalters",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Gasteig",
+        "url": "https://www.gasteig.de/veranstaltungen/ravel-bernstein-strawinsky/",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Planetary Health",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health#2026-09-14T09:00:00+02:00",
+    "start": "2026-09-14T09:00:00+02:00",
+    "end": "2026-09-14T17:00:00+02:00",
+    "description": "Am Puls von Mensch und Planet. Die Ausstellung zeigt, wie eng die Gesundheit von Mensch und Erde miteinander verflochten sind.",
+    "location_name": "Deutsches Museum · Auditorium Sonderausstellungsfläche",
+    "address": null,
+    "district": null,
+    "category": "exhibition",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/6/4/csm_planetary-health_CD_L_8048_01_4911fcdfa4.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health",
+    "status": "scheduled",
+    "id": "5487d8b2cbc0f5e74c51",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health#2026-09-14T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Nächtliche Welten - Fotoausstellung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten#2026-09-14T09:00:00+02:00",
+    "start": "2026-09-14T09:00:00+02:00",
+    "end": "2026-09-14T17:00:00+02:00",
+    "description": "In der Sonderausstellung zeigen Freizeit-Astronomen faszinierende Astrofotos aus den Kategorien „Nachtlandschaften“, „Sonnensystem“, „Deep Sky“ und „München“.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "exhibition",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/a/7/csm_Naechtliche_Welten_220311_2762_Oststernwarte_Teleskop_Langzeit_ec4b988f18.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten",
+    "status": "scheduled",
+    "id": "95ba786577bb50ec1e09",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten#2026-09-14T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Bergbau-VR-Erlebnis",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbau-vr-erlebnis#2026-09-14T09:30:00+02:00",
+    "start": "2026-09-14T09:30:00+02:00",
+    "end": "2026-09-14T11:30:00+02:00",
+    "description": "Erleben Sie das ehemalige Anschauungsbergwerk des Deutschen Museums in VR. Der virtuelle Rundgang eröffnet einen immersiven Einblick in die Arbeitswelt unter Tage vergangener Zeiten.",
+    "location_name": "Deutsches Museum · Science Communication Lab",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Schulklassenprogramm_Salzbergwerk_CD_53969_64a5bbf0cf.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbau-vr-erlebnis",
+    "status": "scheduled",
+    "id": "d090bb4ce7f3293b387d",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbau-vr-erlebnis#2026-09-14T09:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Future Box – Interaktive Führung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-14T10:30:00+02:00",
+    "start": "2026-09-14T10:30:00+02:00",
+    "end": "2026-09-14T12:00:00+02:00",
+    "description": "Quantencomputer, Raumschiffe, humanoide Roboter: Wie werden wir Menschen neueste Innovationen mit ihren Chancen und Risiken einsetzen, um die Zukunft zu gestalten? Lasst euch durch die Future Box im Forum der Zukunft führen.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Forum-der-Zukunft_Future-Box_CD_93027_4b0583aa22.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung",
+    "status": "scheduled",
+    "id": "a4e75fb01bd2a2b6cf95",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-14T10:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Interdependence – Ein Planet, verbunden",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/interdependence#2026-09-14T13:00:00+02:00",
+    "start": "2026-09-14T13:00:00+02:00",
+    "end": "2026-09-14T13:30:00+02:00",
+    "description": "Strategisches Gruppenspiel in der Sonderausstellung „Planetary Health – Am Puls von Mensch und Planet“.",
+    "location_name": "Deutsches Museum · Auditorium Sonderausstellungsfläche",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/f/7/csm_planetary_health_interaktives_spiel_img_9767_83fadd23d5.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/interdependence",
+    "status": "scheduled",
+    "id": "702d7fdee43a467aa48c",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/interdependence#2026-09-14T13:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Future Box – Interaktive Führung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-14T13:00:00+02:00",
+    "start": "2026-09-14T13:00:00+02:00",
+    "end": "2026-09-14T14:30:00+02:00",
+    "description": "Quantencomputer, Raumschiffe, humanoide Roboter: Wie werden wir Menschen neueste Innovationen mit ihren Chancen und Risiken einsetzen, um die Zukunft zu gestalten? Lasst euch durch die Future Box im Forum der Zukunft führen.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Forum-der-Zukunft_Future-Box_CD_93027_4b0583aa22.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung",
+    "status": "scheduled",
+    "id": "e68c005c318e26efb9f8",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-14T13:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Future Box – Interaktive Führung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-14T16:00:00+02:00",
+    "start": "2026-09-14T16:00:00+02:00",
+    "end": "2026-09-14T17:30:00+02:00",
+    "description": "Quantencomputer, Raumschiffe, humanoide Roboter: Wie werden wir Menschen neueste Innovationen mit ihren Chancen und Risiken einsetzen, um die Zukunft zu gestalten? Lasst euch durch die Future Box im Forum der Zukunft führen.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Forum-der-Zukunft_Future-Box_CD_93027_4b0583aa22.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung",
+    "status": "scheduled",
+    "id": "d4d803573c30bffd0e3c",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-14T16:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Planetary Health",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health#2026-09-15T09:00:00+02:00",
+    "start": "2026-09-15T09:00:00+02:00",
+    "end": "2026-09-15T17:00:00+02:00",
+    "description": "Am Puls von Mensch und Planet. Die Ausstellung zeigt, wie eng die Gesundheit von Mensch und Erde miteinander verflochten sind.",
+    "location_name": "Deutsches Museum · Auditorium Sonderausstellungsfläche",
+    "address": null,
+    "district": null,
+    "category": "exhibition",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/6/4/csm_planetary-health_CD_L_8048_01_4911fcdfa4.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health",
+    "status": "scheduled",
+    "id": "42115f1d58b85ba245a3",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health#2026-09-15T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Nächtliche Welten - Fotoausstellung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten#2026-09-15T09:00:00+02:00",
+    "start": "2026-09-15T09:00:00+02:00",
+    "end": "2026-09-15T17:00:00+02:00",
+    "description": "In der Sonderausstellung zeigen Freizeit-Astronomen faszinierende Astrofotos aus den Kategorien „Nachtlandschaften“, „Sonnensystem“, „Deep Sky“ und „München“.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "exhibition",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/a/7/csm_Naechtliche_Welten_220311_2762_Oststernwarte_Teleskop_Langzeit_ec4b988f18.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten",
+    "status": "scheduled",
+    "id": "b9bb72092ba1de49277f",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten#2026-09-15T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Bergbau-VR-Erlebnis",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbau-vr-erlebnis#2026-09-15T09:30:00+02:00",
+    "start": "2026-09-15T09:30:00+02:00",
+    "end": "2026-09-15T11:30:00+02:00",
+    "description": "Erleben Sie das ehemalige Anschauungsbergwerk des Deutschen Museums in VR. Der virtuelle Rundgang eröffnet einen immersiven Einblick in die Arbeitswelt unter Tage vergangener Zeiten.",
+    "location_name": "Deutsches Museum · Science Communication Lab",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Schulklassenprogramm_Salzbergwerk_CD_53969_64a5bbf0cf.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbau-vr-erlebnis",
+    "status": "scheduled",
+    "id": "859d58cc44b75ea3b132",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbau-vr-erlebnis#2026-09-15T09:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Future Box – Interaktive Führung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-15T10:30:00+02:00",
+    "start": "2026-09-15T10:30:00+02:00",
+    "end": "2026-09-15T12:00:00+02:00",
+    "description": "Quantencomputer, Raumschiffe, humanoide Roboter: Wie werden wir Menschen neueste Innovationen mit ihren Chancen und Risiken einsetzen, um die Zukunft zu gestalten? Lasst euch durch die Future Box im Forum der Zukunft führen.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Forum-der-Zukunft_Future-Box_CD_93027_4b0583aa22.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung",
+    "status": "scheduled",
+    "id": "4316b2696c94a565aac4",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-15T10:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Future Box – Interaktive Führung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-15T13:00:00+02:00",
+    "start": "2026-09-15T13:00:00+02:00",
+    "end": "2026-09-15T14:30:00+02:00",
+    "description": "Quantencomputer, Raumschiffe, humanoide Roboter: Wie werden wir Menschen neueste Innovationen mit ihren Chancen und Risiken einsetzen, um die Zukunft zu gestalten? Lasst euch durch die Future Box im Forum der Zukunft führen.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Forum-der-Zukunft_Future-Box_CD_93027_4b0583aa22.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung",
+    "status": "scheduled",
+    "id": "c7d82fbc63c8685de2cf",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-15T13:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Future Box – Interaktive Führung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-15T16:00:00+02:00",
+    "start": "2026-09-15T16:00:00+02:00",
+    "end": "2026-09-15T17:30:00+02:00",
+    "description": "Quantencomputer, Raumschiffe, humanoide Roboter: Wie werden wir Menschen neueste Innovationen mit ihren Chancen und Risiken einsetzen, um die Zukunft zu gestalten? Lasst euch durch die Future Box im Forum der Zukunft führen.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Forum-der-Zukunft_Future-Box_CD_93027_4b0583aa22.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung",
+    "status": "scheduled",
+    "id": "9d9f092d23c1361b04d2",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-15T16:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Nächtliche Welten - Fotoausstellung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten#2026-09-16T09:00:00+02:00",
+    "start": "2026-09-16T09:00:00+02:00",
+    "end": "2026-09-16T17:00:00+02:00",
+    "description": "In der Sonderausstellung zeigen Freizeit-Astronomen faszinierende Astrofotos aus den Kategorien „Nachtlandschaften“, „Sonnensystem“, „Deep Sky“ und „München“.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "exhibition",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/a/7/csm_Naechtliche_Welten_220311_2762_Oststernwarte_Teleskop_Langzeit_ec4b988f18.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten",
+    "status": "scheduled",
+    "id": "8c76432587252f6ea714",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten#2026-09-16T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Planetary Health",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health#2026-09-16T13:45:00+02:00",
+    "start": "2026-09-16T13:45:00+02:00",
+    "end": "2026-09-16T17:00:00+02:00",
+    "description": "Am Puls von Mensch und Planet. Die Ausstellung zeigt, wie eng die Gesundheit von Mensch und Erde miteinander verflochten sind.",
+    "location_name": "Deutsches Museum · Auditorium Sonderausstellungsfläche",
+    "address": null,
+    "district": null,
+    "category": "exhibition",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/6/4/csm_planetary-health_CD_L_8048_01_4911fcdfa4.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health",
+    "status": "scheduled",
+    "id": "b1bde00d6548cd911fd3",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health#2026-09-16T13:45:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Planetary Health",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health#2026-09-17T09:00:00+02:00",
+    "start": "2026-09-17T09:00:00+02:00",
+    "end": "2026-09-17T17:00:00+02:00",
+    "description": "Am Puls von Mensch und Planet. Die Ausstellung zeigt, wie eng die Gesundheit von Mensch und Erde miteinander verflochten sind.",
+    "location_name": "Deutsches Museum · Auditorium Sonderausstellungsfläche",
+    "address": null,
+    "district": null,
+    "category": "exhibition",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/6/4/csm_planetary-health_CD_L_8048_01_4911fcdfa4.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health",
+    "status": "scheduled",
+    "id": "439ea7bd105043201813",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health#2026-09-17T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Nächtliche Welten - Fotoausstellung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten#2026-09-17T09:00:00+02:00",
+    "start": "2026-09-17T09:00:00+02:00",
+    "end": "2026-09-17T17:00:00+02:00",
+    "description": "In der Sonderausstellung zeigen Freizeit-Astronomen faszinierende Astrofotos aus den Kategorien „Nachtlandschaften“, „Sonnensystem“, „Deep Sky“ und „München“.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "exhibition",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/a/7/csm_Naechtliche_Welten_220311_2762_Oststernwarte_Teleskop_Langzeit_ec4b988f18.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten",
+    "status": "scheduled",
+    "id": "5d73a11ada312e8ce025",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten#2026-09-17T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Future Box – Interaktive Führung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-17T10:30:00+02:00",
+    "start": "2026-09-17T10:30:00+02:00",
+    "end": "2026-09-17T12:00:00+02:00",
+    "description": "Quantencomputer, Raumschiffe, humanoide Roboter: Wie werden wir Menschen neueste Innovationen mit ihren Chancen und Risiken einsetzen, um die Zukunft zu gestalten? Lasst euch durch die Future Box im Forum der Zukunft führen.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Forum-der-Zukunft_Future-Box_CD_93027_4b0583aa22.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung",
+    "status": "scheduled",
+    "id": "6492a6983242763f2c0d",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-17T10:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Übersichtsführung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung#2026-09-17T11:30:00+02:00",
+    "start": "2026-09-17T11:30:00+02:00",
+    "end": "2026-09-17T13:00:00+02:00",
+    "description": "Lernen Sie die Highlights kennen und erleben Sie unsere Themenvielfalt. Wir führen Sie durch ausgewählte Ausstellungen und zeigen Ihnen beliebte Exponate und erklären aktuelle Themen.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/6/7/csm_Ausstellung_Foucaultsches_Pendel_CD_L_7791_035_3076451892.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung",
+    "status": "scheduled",
+    "id": "318d5519d94fb454cb54",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung#2026-09-17T11:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Future Box – Interaktive Führung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-17T13:00:00+02:00",
+    "start": "2026-09-17T13:00:00+02:00",
+    "end": "2026-09-17T14:30:00+02:00",
+    "description": "Quantencomputer, Raumschiffe, humanoide Roboter: Wie werden wir Menschen neueste Innovationen mit ihren Chancen und Risiken einsetzen, um die Zukunft zu gestalten? Lasst euch durch die Future Box im Forum der Zukunft führen.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Forum-der-Zukunft_Future-Box_CD_93027_4b0583aa22.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung",
+    "status": "scheduled",
+    "id": "90685e124427b96927f0",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-17T13:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Interdependence – Ein Planet, verbunden",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/interdependence#2026-09-17T13:30:00+02:00",
+    "start": "2026-09-17T13:30:00+02:00",
+    "end": "2026-09-17T14:00:00+02:00",
+    "description": "Strategisches Gruppenspiel in der Sonderausstellung „Planetary Health – Am Puls von Mensch und Planet“.",
+    "location_name": "Deutsches Museum · Auditorium Sonderausstellungsfläche",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/f/7/csm_planetary_health_interaktives_spiel_img_9767_83fadd23d5.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/interdependence",
+    "status": "scheduled",
+    "id": "e6cd8ff2043769c75057",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/interdependence#2026-09-17T13:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Übersichtsführung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung#2026-09-17T14:00:00+02:00",
+    "start": "2026-09-17T14:00:00+02:00",
+    "end": "2026-09-17T15:30:00+02:00",
+    "description": "Lernen Sie die Highlights kennen und erleben Sie unsere Themenvielfalt. Wir führen Sie durch ausgewählte Ausstellungen und zeigen Ihnen beliebte Exponate und erklären aktuelle Themen.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/6/7/csm_Ausstellung_Foucaultsches_Pendel_CD_L_7791_035_3076451892.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung",
+    "status": "scheduled",
+    "id": "00d056ca99d2279d87a7",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung#2026-09-17T14:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Bergbau-VR-Erlebnis",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbau-vr-erlebnis#2026-09-17T14:30:00+02:00",
+    "start": "2026-09-17T14:30:00+02:00",
+    "end": "2026-09-17T16:30:00+02:00",
+    "description": "Erleben Sie das ehemalige Anschauungsbergwerk des Deutschen Museums in VR. Der virtuelle Rundgang eröffnet einen immersiven Einblick in die Arbeitswelt unter Tage vergangener Zeiten.",
+    "location_name": "Deutsches Museum · Science Communication Lab",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Schulklassenprogramm_Salzbergwerk_CD_53969_64a5bbf0cf.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbau-vr-erlebnis",
+    "status": "scheduled",
+    "id": "335fbd0d668fdac1a038",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbau-vr-erlebnis#2026-09-17T14:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Future Box – Interaktive Führung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-17T16:00:00+02:00",
+    "start": "2026-09-17T16:00:00+02:00",
+    "end": "2026-09-17T17:30:00+02:00",
+    "description": "Quantencomputer, Raumschiffe, humanoide Roboter: Wie werden wir Menschen neueste Innovationen mit ihren Chancen und Risiken einsetzen, um die Zukunft zu gestalten? Lasst euch durch die Future Box im Forum der Zukunft führen.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Forum-der-Zukunft_Future-Box_CD_93027_4b0583aa22.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung",
+    "status": "scheduled",
+    "id": "5466504605a037d9f036",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-17T16:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Planetary Health",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health#2026-09-18T09:00:00+02:00",
+    "start": "2026-09-18T09:00:00+02:00",
+    "end": "2026-09-18T17:00:00+02:00",
+    "description": "Am Puls von Mensch und Planet. Die Ausstellung zeigt, wie eng die Gesundheit von Mensch und Erde miteinander verflochten sind.",
+    "location_name": "Deutsches Museum · Auditorium Sonderausstellungsfläche",
+    "address": null,
+    "district": null,
+    "category": "exhibition",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/6/4/csm_planetary-health_CD_L_8048_01_4911fcdfa4.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health",
+    "status": "scheduled",
+    "id": "bfbdcb7027c79d772cb4",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health#2026-09-18T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Nächtliche Welten - Fotoausstellung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten#2026-09-18T09:00:00+02:00",
+    "start": "2026-09-18T09:00:00+02:00",
+    "end": "2026-09-18T17:00:00+02:00",
+    "description": "In der Sonderausstellung zeigen Freizeit-Astronomen faszinierende Astrofotos aus den Kategorien „Nachtlandschaften“, „Sonnensystem“, „Deep Sky“ und „München“.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "exhibition",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/a/7/csm_Naechtliche_Welten_220311_2762_Oststernwarte_Teleskop_Langzeit_ec4b988f18.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten",
+    "status": "scheduled",
+    "id": "cf648d5a1e3f27c33aeb",
+    "discovered_at": "2026-09-13T14:05:17+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten#2026-09-18T09:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Bergbau-VR-Erlebnis",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbau-vr-erlebnis#2026-09-18T09:30:00+02:00",
+    "start": "2026-09-18T09:30:00+02:00",
+    "end": "2026-09-18T11:30:00+02:00",
+    "description": "Erleben Sie das ehemalige Anschauungsbergwerk des Deutschen Museums in VR. Der virtuelle Rundgang eröffnet einen immersiven Einblick in die Arbeitswelt unter Tage vergangener Zeiten.",
+    "location_name": "Deutsches Museum · Science Communication Lab",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Schulklassenprogramm_Salzbergwerk_CD_53969_64a5bbf0cf.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbau-vr-erlebnis",
+    "status": "scheduled",
+    "id": "de5111538d9e99c2bcb9",
+    "discovered_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbau-vr-erlebnis#2026-09-18T09:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Future Box – Interaktive Führung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-18T10:30:00+02:00",
+    "start": "2026-09-18T10:30:00+02:00",
+    "end": "2026-09-18T12:00:00+02:00",
+    "description": "Quantencomputer, Raumschiffe, humanoide Roboter: Wie werden wir Menschen neueste Innovationen mit ihren Chancen und Risiken einsetzen, um die Zukunft zu gestalten? Lasst euch durch die Future Box im Forum der Zukunft führen.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Forum-der-Zukunft_Future-Box_CD_93027_4b0583aa22.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung",
+    "status": "scheduled",
+    "id": "e2a19158b1dbc98ea249",
+    "discovered_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-18T10:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Übersichtsführung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung#2026-09-18T11:30:00+02:00",
+    "start": "2026-09-18T11:30:00+02:00",
+    "end": "2026-09-18T13:00:00+02:00",
+    "description": "Lernen Sie die Highlights kennen und erleben Sie unsere Themenvielfalt. Wir führen Sie durch ausgewählte Ausstellungen und zeigen Ihnen beliebte Exponate und erklären aktuelle Themen.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/6/7/csm_Ausstellung_Foucaultsches_Pendel_CD_L_7791_035_3076451892.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung",
+    "status": "scheduled",
+    "id": "43734c9157ff37f3c479",
+    "discovered_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung#2026-09-18T11:30:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Future Box – Interaktive Führung",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-18T13:00:00+02:00",
+    "start": "2026-09-18T13:00:00+02:00",
+    "end": "2026-09-18T14:30:00+02:00",
+    "description": "Quantencomputer, Raumschiffe, humanoide Roboter: Wie werden wir Menschen neueste Innovationen mit ihren Chancen und Risiken einsetzen, um die Zukunft zu gestalten? Lasst euch durch die Future Box im Forum der Zukunft führen.",
+    "location_name": "Deutsches Museum, Museumsinsel",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Forum-der-Zukunft_Future-Box_CD_93027_4b0583aa22.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung",
+    "status": "scheduled",
+    "id": "b74f9ac46e1420c3824d",
+    "discovered_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-18T13:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Up in die Laterne!",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/up-in-die-laterne-18979",
+    "start": "2026-09-13T13:00:00+02:00",
+    "end": "2026-09-13T16:00:00+02:00",
+    "description": "Mitmachen",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum",
+      "recurring"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/5/5/csm_UpindieLaterne_SimoneG%C3%A4nsheimer_5acfd99c72.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "up in die laterne!",
+    "status": "scheduled",
+    "id": "59e59d387df63e44aaec",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 35.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Heute im Programm",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/up-in-die-laterne-18979",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "I love sounds just as they are (J. Cage)",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/i-love-sounds-just-as-they-are-j-cage-18985",
+    "start": "2026-09-16T15:00:00+02:00",
+    "end": "2026-09-16T17:00:00+02:00",
+    "description": "Workshop",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/6/e/csm_IMG_0286_01f0bf97a9.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "i love sounds just as they are (j. cage)",
+    "status": "scheduled",
+    "id": "f1601db58ffd78ed0a59",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 35.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/i-love-sounds-just-as-they-are-j-cage-18985",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Tanz mit!",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/tanz-mit-18970",
+    "start": "2026-09-22T18:30:00+02:00",
+    "end": "2026-09-22T20:00:00+02:00",
+    "description": "Tanzangebot",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/5/9/csm_Credit_Franz_Kimmel_1a84e1fce0.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "tanz mit!",
+    "status": "scheduled",
+    "id": "8502cd34a8c50297cb48",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 35.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/tanz-mit-18970",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Lenbachhaus ganz leicht!",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/lenbachhaus-ganz-leicht-18968",
+    "start": "2026-09-26T14:15:00+02:00",
+    "end": "2026-09-26T15:00:00+02:00",
+    "description": "Führung",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/b/6/csm_BildWebsite_d0e7b9b1d9.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "lenbachhaus ganz leicht!",
+    "status": "scheduled",
+    "id": "e4f6eca9d47a73f103ac",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 35.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/lenbachhaus-ganz-leicht-18968",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Wieso, weshalb, warum. Sammlungsgeschichten aus dem Lenbachhaus",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/wieso-weshalb-warum-sammlungsgeschichten-aus-dem-lenbachhaus-19112",
+    "start": "2026-09-29T18:30:00+02:00",
+    "end": "2026-09-29T20:00:00+02:00",
+    "description": "Vortrag",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/3/3/csm_Sammlungsgeschichten_bb863fb81c.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "wieso, weshalb, warum. sammlungsgeschichten aus dem lenbachhaus",
+    "status": "scheduled",
+    "id": "404c1c8bb375310e9a7a",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 35.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/wieso-weshalb-warum-sammlungsgeschichten-aus-dem-lenbachhaus-19112",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "extra+ feat. Radio 80000",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/extra-feat-radio-80000-19047",
+    "start": "2026-10-01T18:00:00+02:00",
+    "end": "2026-10-01T22:00:00+02:00",
+    "description": "Open House mit Drinks & Music",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/9/e/csm_2026_01_Extra_Allgemein_630x450_f376b0defe.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "extra+ feat. radio 80000",
+    "status": "scheduled",
+    "id": "fc1cf897b808a4f102e7",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 35.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/extra-feat-radio-80000-19047",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Shifting the Silence. Sessizliğin Dönüşümü",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/shifting-the-silence-sessizligin-doenuesuemue-18908",
+    "start": "2026-10-04T14:15:00+02:00",
+    "end": "2026-10-04T15:15:00+02:00",
+    "description": "Türkçe Rehberli Sergi Turu / Öffentliche Führung in türkischer Sprache",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/9/d/csm_2025_Shifting-the-Silence_Eroeffnung_LBH_944_c99d7b97e8.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "shifting the silence. sessizliğin dönüşümü",
+    "status": "scheduled",
+    "id": "c4f0253fb675cf6d93e9",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 35.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/shifting-the-silence-sessizligin-doenuesuemue-18908",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Franz von Lenbach und das Lenbachhaus",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/franz-von-lenbach-und-das-lenbachhaus-19114",
+    "start": "2026-10-11T11:15:00+02:00",
+    "end": "2026-10-11T12:45:00+02:00",
+    "description": "Führung in Deutscher Gebärdensprache",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/7/f/csm_f%C3%BChrungarchitektur_website_70df03c6e5.png",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "franz von lenbach und das lenbachhaus",
+    "status": "scheduled",
+    "id": "7980ba020c94e8325883",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 35.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/franz-von-lenbach-und-das-lenbachhaus-19114",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Kreativecke: Zeichentreff",
+    "source_name": "Gasteig",
+    "source_url": "https://www.gasteig.de/veranstaltungen/zeichentreff-13/",
+    "start": "2026-09-14T16:00:00+02:00",
+    "end": "2026-09-14T18:00:00+02:00",
+    "description": "Der Zeichentreff bietet die Möglichkeit, die Grundlagen des Manga- und Comiczeichnens zu üben. Bleistifte und Papier werden bereitgestellt. Es wird empfohlen, ein eigenes Zeichenbuch mitzubringen, um die Fortschritte festzuhalten.",
+    "location_name": "Erdgeschoss, Mitmach Lab, Gasteig Motorama",
+    "address": "München",
+    "district": null,
+    "category": "culture",
+    "tags": [],
+    "price_text": "Kostenlos",
+    "is_free": true,
+    "family_friendly": null,
+    "image_url": "https://www.gasteig.de/imgs/MangaZeichnen_cJennEldreth-scaled.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.gasteig.de/veranstaltungen/zeichentreff-13/",
+    "status": "scheduled",
+    "id": "866900f4027e64f525f4",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 34.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Kultur",
+      "Kostenlos",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Gasteig",
+        "url": "https://www.gasteig.de/veranstaltungen/zeichentreff-13/",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Öffentliche Führung durch die MVHS",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/oeffentliche-fuehrung-durch-die-mvhs-18912",
+    "start": "2026-09-18T15:00:00+02:00",
+    "end": "2026-09-18T16:00:00+02:00",
+    "description": "Führung",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum",
+      "recurring"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/e/a/csm_GMS_646__MuenterG_scan_ONLINE_a42b12ebeb.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "öffentliche führung durch die mvhs",
+    "status": "scheduled",
+    "id": "b674723256db183d8c5e",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 25.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/oeffentliche-fuehrung-durch-die-mvhs-18912",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Up in die Laterne!",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/up-in-die-laterne-18980",
+    "start": "2026-09-18T15:00:00+02:00",
+    "end": "2026-09-18T18:00:00+02:00",
+    "description": "Mitmachen",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum",
+      "recurring"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/5/5/csm_UpindieLaterne_SimoneG%C3%A4nsheimer_5acfd99c72.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "up in die laterne!",
+    "status": "scheduled",
+    "id": "cb364687ef0ef84b3cdc",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 25.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/up-in-die-laterne-18980",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Führung durch die Ausstellung",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/fuehrung-durch-die-ausstellung-19037",
+    "start": "2026-09-18T16:15:00+02:00",
+    "end": "2026-09-18T17:15:00+02:00",
+    "description": "Öffentliche Führung",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum",
+      "recurring"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/4/8/csm_2025_Shifting-the-Silence_Eroeffnung_LBH_728_7a31dcb6c8.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "führung durch die ausstellung",
+    "status": "scheduled",
+    "id": "e845fc69258f5cc91724",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 25.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/fuehrung-durch-die-ausstellung-19037",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Führung durch die Ausstellung",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/fuehrung-durch-die-ausstellung-19033",
+    "start": "2026-09-20T11:15:00+02:00",
+    "end": "2026-09-20T12:15:00+02:00",
+    "description": "Öffentliche Führung",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum",
+      "recurring"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/b/9/csm_Kaete_Hoch_Bildnis_Dr_E_Mueller_Kamp_1929_SGL_2a6eef5bce.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "führung durch die ausstellung",
+    "status": "scheduled",
+    "id": "195062216f661ca48310",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 25.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/fuehrung-durch-die-ausstellung-19033",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Öffentliche Führung durch die MVHS",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/oeffentliche-fuehrung-durch-die-mvhs-18914",
+    "start": "2026-09-25T15:00:00+02:00",
+    "end": "2026-09-25T16:00:00+02:00",
+    "description": "Führung",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum",
+      "recurring"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/e/a/csm_GMS_646__MuenterG_scan_ONLINE_a42b12ebeb.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "öffentliche führung durch die mvhs",
+    "status": "scheduled",
+    "id": "9e0098ed7a48b257a25c",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 25.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/oeffentliche-fuehrung-durch-die-mvhs-18914",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Up in die Laterne!",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/up-in-die-laterne-18981",
+    "start": "2026-09-27T13:00:00+02:00",
+    "end": "2026-09-27T16:00:00+02:00",
+    "description": "Mitmachen",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum",
+      "recurring"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/5/5/csm_UpindieLaterne_SimoneG%C3%A4nsheimer_5acfd99c72.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "up in die laterne!",
+    "status": "scheduled",
+    "id": "f67194ae2d12d132ac65",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 25.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/up-in-die-laterne-18981",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Öffentliche Führung durch die MVHS",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/fuehrung-18996",
+    "start": "2026-10-02T15:00:00+02:00",
+    "end": "2026-10-02T16:00:00+02:00",
+    "description": "Führung",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum",
+      "recurring"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/e/a/csm_GMS_646__MuenterG_scan_ONLINE_a42b12ebeb.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "öffentliche führung durch die mvhs",
+    "status": "scheduled",
+    "id": "d0f4544ae65450a770b0",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 25.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/fuehrung-18996",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Türen-auf-Tag mit der Sendung mit der Maus 2026",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/tueren-auf-tag-mit-der-sendung-mit-der-maus-2026-19054",
+    "start": "2026-10-03T10:00:00+02:00",
+    "end": "2026-10-03T10:45:00+02:00",
+    "description": "Führung",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum",
+      "recurring"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/0/0/csm_2025_sendung-mit-der-maus-tag_lbh_011_2e67959d1c.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "türen-auf-tag mit der sendung mit der maus 2026",
+    "status": "scheduled",
+    "id": "823f8efc7edb5239014f",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 25.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/tueren-auf-tag-mit-der-sendung-mit-der-maus-2026-19054",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Türen-auf-Tag mit der Sendung mit der Maus 2026",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/tueren-auf-tag-mit-der-sendung-mit-der-maus-2026-19055",
+    "start": "2026-10-03T11:00:00+02:00",
+    "end": "2026-10-03T11:45:00+02:00",
+    "description": "Führung",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum",
+      "recurring"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/0/0/csm_2025_sendung-mit-der-maus-tag_lbh_011_2e67959d1c.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "türen-auf-tag mit der sendung mit der maus 2026",
+    "status": "scheduled",
+    "id": "f252a11d2ddf1f5e5591",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 25.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/tueren-auf-tag-mit-der-sendung-mit-der-maus-2026-19055",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Führung durch die Ausstellung",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/fuehrung-durch-die-ausstellung-19063",
+    "start": "2026-10-03T15:15:00+02:00",
+    "end": "2026-10-03T16:15:00+02:00",
+    "description": "Öffentliche Führung",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum",
+      "recurring"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/4/5/csm_G_1935_HeineThTh_pol_Kopie_ohneRahmen_8ba16e01af.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "führung durch die ausstellung",
+    "status": "scheduled",
+    "id": "f94fdd1cd70729d1700e",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 25.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/fuehrung-durch-die-ausstellung-19063",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Türen-auf-Tag mit der Sendung mit der Maus 2026",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/tueren-auf-tag-mit-der-sendung-mit-der-maus-2026-19056",
+    "start": "2026-10-04T12:00:00+02:00",
+    "end": "2026-10-04T12:45:00+02:00",
+    "description": "Führung",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum",
+      "recurring"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/0/0/csm_2025_sendung-mit-der-maus-tag_lbh_011_2e67959d1c.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "türen-auf-tag mit der sendung mit der maus 2026",
+    "status": "scheduled",
+    "id": "c87ced9106477015869c",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 25.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/tueren-auf-tag-mit-der-sendung-mit-der-maus-2026-19056",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Führung durch die Ausstellung",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/fuehrung-durch-die-ausstellung-19068",
+    "start": "2026-10-04T12:15:00+02:00",
+    "end": "2026-10-04T13:15:00+02:00",
+    "description": "Öffentliche Führung",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum",
+      "recurring"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/6/3/csm_FVL_45_Franck_MarcM_ONLINE_11743e2fbd.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "führung durch die ausstellung",
+    "status": "scheduled",
+    "id": "63a19d96511a91369c2f",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 25.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/fuehrung-durch-die-ausstellung-19068",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Türen-auf-Tag mit der Sendung mit der Maus 2026",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/tueren-auf-tag-mit-der-sendung-mit-der-maus-2026-19057",
+    "start": "2026-10-04T13:00:00+02:00",
+    "end": "2026-10-04T13:45:00+02:00",
+    "description": "Führung",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum",
+      "recurring"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/0/0/csm_2025_sendung-mit-der-maus-tag_lbh_011_2e67959d1c.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "türen-auf-tag mit der sendung mit der maus 2026",
+    "status": "scheduled",
+    "id": "644589e9fc7c906c6634",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 25.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/tueren-auf-tag-mit-der-sendung-mit-der-maus-2026-19057",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Führung durch die Ausstellung",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/fuehrung-durch-die-ausstellung-19069",
+    "start": "2026-10-08T17:15:00+02:00",
+    "end": "2026-10-08T18:15:00+02:00",
+    "description": "Öffentliche Führung",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum",
+      "recurring"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/6/3/csm_FVL_45_Franck_MarcM_ONLINE_11743e2fbd.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "führung durch die ausstellung",
+    "status": "scheduled",
+    "id": "743b75c7469fd65f534c",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 25.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/fuehrung-durch-die-ausstellung-19069",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Öffentliche Führung durch die MVHS",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/fuehrung-18997",
+    "start": "2026-10-09T15:00:00+02:00",
+    "end": "2026-10-09T16:00:00+02:00",
+    "description": "Führung",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum",
+      "recurring"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/e/a/csm_GMS_646__MuenterG_scan_ONLINE_a42b12ebeb.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "öffentliche führung durch die mvhs",
+    "status": "scheduled",
+    "id": "f73b6c26ad311fc982f8",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 25.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/fuehrung-18997",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Führung durch die Ausstellung",
+    "source_name": "Lenbachhaus",
+    "source_url": "https://www.lenbachhaus.de/besuchen/kalender/termin/fuehrung-durch-die-ausstellung-19070",
+    "start": "2026-10-11T14:15:00+02:00",
+    "end": "2026-10-11T15:15:00+02:00",
+    "description": "Öffentliche Führung",
+    "location_name": "Lenbachhaus",
+    "address": null,
+    "district": null,
+    "category": "museum",
+    "tags": [
+      "culture",
+      "museum",
+      "recurring"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.lenbachhaus.de/fileadmin/_processed_/6/3/csm_FVL_45_Franck_MarcM_ONLINE_11743e2fbd.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "führung durch die ausstellung",
+    "status": "scheduled",
+    "id": "58104c9ec06f5d46edb8",
+    "discovered_at": "2026-09-13T13:59:13+02:00",
+    "updated_at": "2026-09-13T14:26:01+02:00",
+    "relevance_score": 25.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Museen",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Lenbachhaus",
+        "url": "https://www.lenbachhaus.de/besuchen/kalender/termin/fuehrung-durch-die-ausstellung-19070",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  }
+]

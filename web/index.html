@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173e35">
+  <meta name="description" content="Was München heute interessant macht. Eine kleine Auswahl aus offiziellen Veranstaltungskalendern – mit guten Gründen statt endlosen Listen.">
+  <title>München Radar · Deine Stadt im Blick</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#selection">Zur Auswahl springen</a>
+  <div class="shell">
+    <header class="masthead">
+      <a class="brand" href="./" aria-label="München Radar Startseite">
+        <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="19"/><circle cx="22" cy="22" r="11"/><path d="M22 3v19l13-13"/><circle cx="22" cy="22" r="2.5" class="dot"/></svg>
+        <span>MÜNCHEN<span class="brand-light"> RADAR</span></span>
+      </a>
+      <span class="edition"><span class="status-dot"></span> Deine Stadt im Blick</span>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="hero-title">
+        <div>
+          <p class="eyebrow" id="today-date">MÜNCHEN · DEIN TÄGLICHER ÜBERBLICK</p>
+          <h1 id="hero-title">Weniger suchen.<br><span>Mehr München.</span></h1>
+          <p class="intro-copy">Was sich heute lohnt und was du dir vormerken solltest.<br class="desktop-break"> Eine kleine Auswahl. Mit guten Gründen.</p>
+        </div>
+        <div class="radar-art" aria-hidden="true">
+          <svg viewBox="0 0 280 220"><defs><linearGradient id="sweep" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#a8b6a3" stop-opacity="0"/><stop offset="1" stop-color="#a8b6a3" stop-opacity=".5"/></linearGradient></defs><g fill="none" stroke="#cbd3c5"><circle cx="140" cy="110" r="91"/><circle cx="140" cy="110" r="64"/><circle cx="140" cy="110" r="33"/><path d="M31 110h218M140 8v204"/></g><path d="M140 110V19a91 91 0 0 1 91 91Z" fill="url(#sweep)"/><path d="m140 110 65-65" stroke="#3a6654"/><g fill="#2b5849"><circle cx="175" cy="74" r="5"/><circle cx="83" cy="143" r="4"/><circle cx="184" cy="147" r="4"/><circle cx="140" cy="110" r="4"/></g><circle cx="175" cy="74" r="11" fill="none" stroke="#2b5849" opacity=".3"/><text x="195" y="64" font-size="10" fill="#55705d" font-family="monospace">ENTDECKEN</text><text x="46" y="179" font-size="10" fill="#55705d" font-family="monospace">48°08′ N 11°35′ E</text></svg>
+          <span>Gute Dinge liegen oft ganz nah.</span>
+        </div>
+      </section>
+
+      <nav class="view-nav" aria-label="Zeitraum">
+        <button type="button" class="view-button active" data-view="today" aria-pressed="true">Heute <span class="nav-dot"></span></button>
+        <button type="button" class="view-button" data-view="tomorrow" aria-pressed="false">Morgen</button>
+        <button type="button" class="view-button" data-view="weekend" aria-pressed="false">Wochenende</button>
+        <button type="button" class="view-button" data-view="upcoming" aria-pressed="false">Demnächst</button>
+        <button type="button" class="view-button" data-view="new" aria-pressed="false">Neu entdeckt</button>
+      </nav>
+
+      <p id="data-notice" class="notice" hidden></p>
+      <div class="content-grid">
+        <section id="selection" aria-labelledby="selection-title" tabindex="-1">
+          <div class="section-heading"><div><p class="eyebrow" id="view-date">DEINE AUSWAHL</p><h2 id="selection-title">Heute auf dem Radar</h2></div><span class="count" id="selection-count"></span></div>
+          <div class="filter-row" role="group" aria-label="Auswahl eingrenzen">
+            <button type="button" class="filter active" data-filter="all" aria-pressed="true">Alles</button>
+            <button type="button" class="filter" data-filter="free" aria-pressed="false">Kostenlos</button>
+            <button type="button" class="filter" data-filter="family" aria-pressed="false">Mit Kindern</button>
+            <span class="filter-note">Nach Relevanz sortiert</span>
+          </div>
+          <div id="events" aria-live="polite" aria-busy="true"><p class="empty-state">Deine Auswahl wird geladen …</p></div>
+          <noscript><p class="empty-state">Bitte aktiviere JavaScript, um die Termine nach Zeitraum zu sehen. Die <a href="./data/events.json">gesammelten Veranstaltungsdaten</a> sind auch direkt verfügbar.</p></noscript>
+          <p class="selection-footnote" id="selection-footnote" hidden>Bewusst überschaubar: höchstens fünf Tipps, mit Platz für verschiedene Quellen.</p>
+        </section>
+
+        <aside aria-label="Vorschau und Hintergründe">
+          <section class="heads-up" aria-labelledby="heads-up-title"><p class="eyebrow">EIN BISSCHEN VORFREUDE</p><h2 id="heads-up-title">Schon vormerken <span aria-hidden="true">↗</span></h2><div id="heads-up-events"><p class="aside-copy">Die nächsten Termine werden geladen.</p></div></section>
+          <section class="source-panel" aria-labelledby="sources-title"><div class="aside-heading"><h2 id="sources-title">Direkt von der Quelle</h2><span class="small-radar" aria-hidden="true">◎</span></div><p class="aside-copy">Offizielle Kalender. Regelmäßig gesammelt. Für dich eingeordnet.</p><ul id="sources" class="source-list"></ul><p id="updated" class="updated">Datenstand wird geladen …</p></section>
+          <details class="about"><summary>Wie kommt die Auswahl zustande? <span aria-hidden="true">+</span></summary><p>Straßenfeste, Wissenschaft, Technik, Museen und Kultur stehen im Mittelpunkt. Familienangebote, kostenlose Termine und Veranstalter-Highlights bekommen zusätzliche Punkte.</p><p>Die Auswahl entsteht durch feste Regeln. Unter jedem Tipp siehst du die Gründe. „Neu“ bedeutet neu entdeckt, nicht unbedingt neu eröffnet.</p><p>Wir zeigen einen Ausschnitt aus offiziellen Kalendern und Festivalprogrammen. Preise, freie Plätze und kurzfristige Änderungen bitte beim Veranstalter prüfen.</p></details>
+        </aside>
+      </div>
+    </main>
+    <footer><span>MÜNCHEN RADAR <span class="footer-divider">/</span> Weniger, aber interessanter.</span><span>Für neugierige Münchner:innen · v0.1</span></footer>
+  </div>
+</body>
+</html>
