@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-13T14:26:01+02:00",
+  "last_updated": "2026-09-13T14:34:40+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 4,
   "sources_successful": 4,
@@ -113,5 +113,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "ac0a1d374dfe01445658998f274444f1f8ef37ce3703df99eae7d06c35fe4f5f"
+  "data_hash": "a0e0b61f1ce15cd7b38e624ef41b5cd11846f771b8b6f0c390951e28fb1b49f0"
 }

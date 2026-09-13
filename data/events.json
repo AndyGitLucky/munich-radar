@@ -27,7 +27,7 @@
     "status": "scheduled",
     "id": "c7e6ad0fa3a3f61d318a",
     "discovered_at": "2026-09-13T14:26:01+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 90.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Straßenfeste",
@@ -71,7 +71,7 @@
     "status": "scheduled",
     "id": "a8e3bdb9dbc8426c4089",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 84.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -114,7 +114,7 @@
     "status": "scheduled",
     "id": "ec70bce65159eab788bd",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 79.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Kultur",
@@ -159,7 +159,7 @@
     "status": "scheduled",
     "id": "256d4cd727850f88b7da",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 64.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -203,7 +203,7 @@
     "status": "scheduled",
     "id": "d2a2139eb75a0ecf5ef2",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 64.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -216,50 +216,6 @@
       {
         "name": "Deutsches Museum",
         "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann#2026-09-13T09:00:00+02:00",
-        "priority": 10
-      }
-    ],
-    "stale": false
-  },
-  {
-    "title": "Musikinstrumente",
-    "source_name": "Deutsches Museum",
-    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/musikinstrumente-fuehrung#2026-09-13T14:00:00+02:00",
-    "start": "2026-09-13T14:00:00+02:00",
-    "end": "2026-09-13T14:30:00+02:00",
-    "description": "Erfahren Sie mehr zu den vielfältigen Musikinstrumenten in der Ausstellung des Deutschen Museums, die vom Cembalo des 16. Jahrhunderts bis zum Synthesizer der Gegenwart reicht.",
-    "location_name": "Deutsches Museum · Ausstellung Musikinstrumente",
-    "address": null,
-    "district": null,
-    "category": "science",
-    "tags": [
-      "museum",
-      "recurring",
-      "science"
-    ],
-    "price_text": null,
-    "is_free": null,
-    "family_friendly": true,
-    "image_url": "https://www.deutsches-museum.de/assets/_processed_/7/3/csm_CD_87257_web_1c560da895.jpg",
-    "all_day": false,
-    "source_priority": 10,
-    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/musikinstrumente-fuehrung",
-    "status": "scheduled",
-    "id": "fbcecad33b7acc2c7aa3",
-    "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
-    "relevance_score": 64.0,
-    "relevance_reasons": [
-      "Dein Schwerpunkt: Wissenschaft",
-      "Technik & Wissenschaft",
-      "Für Familien",
-      "Heute im Programm",
-      "Neu im Radar"
-    ],
-    "sources": [
-      {
-        "name": "Deutsches Museum",
-        "url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/musikinstrumente-fuehrung#2026-09-13T14:00:00+02:00",
         "priority": 10
       }
     ],
@@ -291,7 +247,7 @@
     "status": "scheduled",
     "id": "4a76f6114795dc30ad23",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 64.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -335,7 +291,7 @@
     "status": "scheduled",
     "id": "77180acc7fe0ce82bd3f",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 64.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -379,7 +335,7 @@
     "status": "scheduled",
     "id": "2c1cb3f707e47fd61f14",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 64.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -423,7 +379,7 @@
     "status": "scheduled",
     "id": "98085cd50ece79567b61",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 64.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -467,7 +423,7 @@
     "status": "scheduled",
     "id": "9cfe6889baa9ee807cec",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 64.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -511,7 +467,7 @@
     "status": "scheduled",
     "id": "0b4fc8fd0424f7fc6b31",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 64.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -555,7 +511,7 @@
     "status": "scheduled",
     "id": "07636ede2aab4da0c808",
     "discovered_at": "2026-09-13T14:14:51+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 60.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Ausstellungen",
@@ -595,7 +551,7 @@
     "status": "scheduled",
     "id": "48b7df271f6d12398238",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 59.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Kultur",
@@ -638,7 +594,7 @@
     "status": "scheduled",
     "id": "792471f80764ea6b0b10",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -681,7 +637,7 @@
     "status": "scheduled",
     "id": "e9e4ff5dda90f3c67c80",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -724,7 +680,7 @@
     "status": "scheduled",
     "id": "10465e635d596dc37ef5",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -767,7 +723,7 @@
     "status": "scheduled",
     "id": "58ede71b2496b4ef63ef",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -810,7 +766,7 @@
     "status": "scheduled",
     "id": "5b55d4a7ef7d3dd05f83",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -853,7 +809,7 @@
     "status": "scheduled",
     "id": "0a7174095a64cd749b86",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -896,7 +852,7 @@
     "status": "scheduled",
     "id": "922d13ad1f8210e431fe",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -939,7 +895,7 @@
     "status": "scheduled",
     "id": "195ae244b4982e38c1fd",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -982,7 +938,7 @@
     "status": "scheduled",
     "id": "6fd602d2ff6a3ce46296",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1024,7 +980,7 @@
     "status": "scheduled",
     "id": "a83643c87e6622a1853a",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1065,7 +1021,7 @@
     "status": "scheduled",
     "id": "87d23669a8bff79cc807",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1107,7 +1063,7 @@
     "status": "scheduled",
     "id": "29584da22fa65761a817",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1150,7 +1106,7 @@
     "status": "scheduled",
     "id": "fae6730802ebf25355f4",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1192,7 +1148,7 @@
     "status": "scheduled",
     "id": "3a0cdd2344de597743f9",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1234,7 +1190,7 @@
     "status": "scheduled",
     "id": "0f01b558684c1433efaf",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1277,7 +1233,7 @@
     "status": "scheduled",
     "id": "146d8484ebbcf3453a82",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1320,7 +1276,7 @@
     "status": "scheduled",
     "id": "63c138702f0734b8490c",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1363,7 +1319,7 @@
     "status": "scheduled",
     "id": "0e7f914ae2d02ff8d424",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1406,7 +1362,7 @@
     "status": "scheduled",
     "id": "7374208c8cd169271a78",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1449,7 +1405,7 @@
     "status": "scheduled",
     "id": "6218d7aeddda220d4175",
     "discovered_at": "2026-09-13T14:26:01+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1490,7 +1446,7 @@
     "status": "scheduled",
     "id": "e4248134456049e499f2",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 54.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Kultur",
@@ -1530,7 +1486,7 @@
     "status": "scheduled",
     "id": "5086670b658c06ff0d5d",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 50.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Ausstellungen",
@@ -1572,7 +1528,7 @@
     "status": "scheduled",
     "id": "fb53e036e6725e5b385b",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 50.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Musik",
@@ -1614,7 +1570,7 @@
     "status": "scheduled",
     "id": "5487d8b2cbc0f5e74c51",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1656,7 +1612,7 @@
     "status": "scheduled",
     "id": "95ba786577bb50ec1e09",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1698,7 +1654,7 @@
     "status": "scheduled",
     "id": "d090bb4ce7f3293b387d",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1740,7 +1696,7 @@
     "status": "scheduled",
     "id": "a4e75fb01bd2a2b6cf95",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1782,7 +1738,7 @@
     "status": "scheduled",
     "id": "702d7fdee43a467aa48c",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1824,7 +1780,7 @@
     "status": "scheduled",
     "id": "e68c005c318e26efb9f8",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1866,7 +1822,7 @@
     "status": "scheduled",
     "id": "d4d803573c30bffd0e3c",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1908,7 +1864,7 @@
     "status": "scheduled",
     "id": "42115f1d58b85ba245a3",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1950,7 +1906,7 @@
     "status": "scheduled",
     "id": "b9bb72092ba1de49277f",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -1992,7 +1948,7 @@
     "status": "scheduled",
     "id": "859d58cc44b75ea3b132",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2034,7 +1990,7 @@
     "status": "scheduled",
     "id": "4316b2696c94a565aac4",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2076,7 +2032,7 @@
     "status": "scheduled",
     "id": "c7d82fbc63c8685de2cf",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2118,7 +2074,7 @@
     "status": "scheduled",
     "id": "9d9f092d23c1361b04d2",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2160,7 +2116,7 @@
     "status": "scheduled",
     "id": "8c76432587252f6ea714",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2202,7 +2158,7 @@
     "status": "scheduled",
     "id": "b1bde00d6548cd911fd3",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2244,7 +2200,7 @@
     "status": "scheduled",
     "id": "439ea7bd105043201813",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2286,7 +2242,7 @@
     "status": "scheduled",
     "id": "5d73a11ada312e8ce025",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2328,7 +2284,7 @@
     "status": "scheduled",
     "id": "6492a6983242763f2c0d",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2370,7 +2326,7 @@
     "status": "scheduled",
     "id": "318d5519d94fb454cb54",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2412,7 +2368,7 @@
     "status": "scheduled",
     "id": "90685e124427b96927f0",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2454,7 +2410,7 @@
     "status": "scheduled",
     "id": "e6cd8ff2043769c75057",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2496,7 +2452,7 @@
     "status": "scheduled",
     "id": "00d056ca99d2279d87a7",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2538,7 +2494,7 @@
     "status": "scheduled",
     "id": "335fbd0d668fdac1a038",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2580,7 +2536,7 @@
     "status": "scheduled",
     "id": "5466504605a037d9f036",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2622,7 +2578,7 @@
     "status": "scheduled",
     "id": "bfbdcb7027c79d772cb4",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2664,7 +2620,7 @@
     "status": "scheduled",
     "id": "cf648d5a1e3f27c33aeb",
     "discovered_at": "2026-09-13T14:05:17+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2706,7 +2662,7 @@
     "status": "scheduled",
     "id": "de5111538d9e99c2bcb9",
     "discovered_at": "2026-09-13T14:26:01+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2748,7 +2704,7 @@
     "status": "scheduled",
     "id": "e2a19158b1dbc98ea249",
     "discovered_at": "2026-09-13T14:26:01+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2790,7 +2746,7 @@
     "status": "scheduled",
     "id": "43734c9157ff37f3c479",
     "discovered_at": "2026-09-13T14:26:01+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2832,7 +2788,7 @@
     "status": "scheduled",
     "id": "b74f9ac46e1420c3824d",
     "discovered_at": "2026-09-13T14:26:01+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 44.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Wissenschaft",
@@ -2843,6 +2799,48 @@
       {
         "name": "Deutsches Museum",
         "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-18T13:00:00+02:00",
+        "priority": 10
+      }
+    ],
+    "stale": false
+  },
+  {
+    "title": "Interdependence – Ein Planet, verbunden",
+    "source_name": "Deutsches Museum",
+    "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/interdependence#2026-09-18T13:30:00+02:00",
+    "start": "2026-09-18T13:30:00+02:00",
+    "end": "2026-09-18T14:00:00+02:00",
+    "description": "Strategisches Gruppenspiel in der Sonderausstellung „Planetary Health – Am Puls von Mensch und Planet“.",
+    "location_name": "Deutsches Museum · Auditorium Sonderausstellungsfläche",
+    "address": null,
+    "district": null,
+    "category": "science",
+    "tags": [
+      "museum",
+      "recurring",
+      "science"
+    ],
+    "price_text": null,
+    "is_free": null,
+    "family_friendly": null,
+    "image_url": "https://www.deutsches-museum.de/assets/_processed_/f/7/csm_planetary_health_interaktives_spiel_img_9767_83fadd23d5.jpg",
+    "all_day": false,
+    "source_priority": 10,
+    "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/interdependence",
+    "status": "scheduled",
+    "id": "96a5d008ab1b08622623",
+    "discovered_at": "2026-09-13T14:34:40+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
+    "relevance_score": 44.0,
+    "relevance_reasons": [
+      "Dein Schwerpunkt: Wissenschaft",
+      "Technik & Wissenschaft",
+      "Neu im Radar"
+    ],
+    "sources": [
+      {
+        "name": "Deutsches Museum",
+        "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/interdependence#2026-09-18T13:30:00+02:00",
         "priority": 10
       }
     ],
@@ -2874,7 +2872,7 @@
     "status": "scheduled",
     "id": "59e59d387df63e44aaec",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 35.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -2915,7 +2913,7 @@
     "status": "scheduled",
     "id": "f1601db58ffd78ed0a59",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 35.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -2955,7 +2953,7 @@
     "status": "scheduled",
     "id": "8502cd34a8c50297cb48",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 35.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -2995,7 +2993,7 @@
     "status": "scheduled",
     "id": "e4f6eca9d47a73f103ac",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 35.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3035,7 +3033,7 @@
     "status": "scheduled",
     "id": "404c1c8bb375310e9a7a",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 35.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3075,7 +3073,7 @@
     "status": "scheduled",
     "id": "fc1cf897b808a4f102e7",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 35.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3115,7 +3113,7 @@
     "status": "scheduled",
     "id": "c4f0253fb675cf6d93e9",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 35.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3155,7 +3153,7 @@
     "status": "scheduled",
     "id": "7980ba020c94e8325883",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 35.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3192,7 +3190,7 @@
     "status": "scheduled",
     "id": "866900f4027e64f525f4",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 34.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Kultur",
@@ -3234,7 +3232,7 @@
     "status": "scheduled",
     "id": "b674723256db183d8c5e",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 25.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3275,7 +3273,7 @@
     "status": "scheduled",
     "id": "cb364687ef0ef84b3cdc",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 25.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3316,7 +3314,7 @@
     "status": "scheduled",
     "id": "e845fc69258f5cc91724",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 25.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3357,7 +3355,7 @@
     "status": "scheduled",
     "id": "195062216f661ca48310",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 25.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3398,7 +3396,7 @@
     "status": "scheduled",
     "id": "9e0098ed7a48b257a25c",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 25.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3439,7 +3437,7 @@
     "status": "scheduled",
     "id": "f67194ae2d12d132ac65",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 25.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3480,7 +3478,7 @@
     "status": "scheduled",
     "id": "d0f4544ae65450a770b0",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 25.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3521,7 +3519,7 @@
     "status": "scheduled",
     "id": "823f8efc7edb5239014f",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 25.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3562,7 +3560,7 @@
     "status": "scheduled",
     "id": "f252a11d2ddf1f5e5591",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 25.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3603,7 +3601,7 @@
     "status": "scheduled",
     "id": "f94fdd1cd70729d1700e",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 25.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3644,7 +3642,7 @@
     "status": "scheduled",
     "id": "c87ced9106477015869c",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 25.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3685,7 +3683,7 @@
     "status": "scheduled",
     "id": "63a19d96511a91369c2f",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 25.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3726,7 +3724,7 @@
     "status": "scheduled",
     "id": "644589e9fc7c906c6634",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 25.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3767,7 +3765,7 @@
     "status": "scheduled",
     "id": "743b75c7469fd65f534c",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 25.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3808,7 +3806,7 @@
     "status": "scheduled",
     "id": "f73b6c26ad311fc982f8",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 25.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
@@ -3849,7 +3847,7 @@
     "status": "scheduled",
     "id": "58104c9ec06f5d46edb8",
     "discovered_at": "2026-09-13T13:59:13+02:00",
-    "updated_at": "2026-09-13T14:26:01+02:00",
+    "updated_at": "2026-09-13T14:34:40+02:00",
     "relevance_score": 25.0,
     "relevance_reasons": [
       "Dein Schwerpunkt: Museen",
