@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-13T14:34:40+02:00",
+  "last_updated": "2026-09-13T19:22:02+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 4,
   "sources_successful": 4,
@@ -52,10 +52,9 @@
   "views": {
     "today": [
       "c7e6ad0fa3a3f61d318a",
-      "a8e3bdb9dbc8426c4089",
       "ec70bce65159eab788bd",
-      "256d4cd727850f88b7da",
-      "d2a2139eb75a0ecf5ef2"
+      "5086670b658c06ff0d5d",
+      "59e59d387df63e44aaec"
     ],
     "tomorrow": [
       "48b7df271f6d12398238",
@@ -66,10 +65,9 @@
     ],
     "weekend": [
       "c7e6ad0fa3a3f61d318a",
-      "a8e3bdb9dbc8426c4089",
       "ec70bce65159eab788bd",
-      "256d4cd727850f88b7da",
-      "d2a2139eb75a0ecf5ef2"
+      "5086670b658c06ff0d5d",
+      "59e59d387df63e44aaec"
     ],
     "upcoming": [
       "07636ede2aab4da0c808",
@@ -80,10 +78,10 @@
     ],
     "new": [
       "c7e6ad0fa3a3f61d318a",
-      "a8e3bdb9dbc8426c4089",
       "ec70bce65159eab788bd",
-      "256d4cd727850f88b7da",
-      "d2a2139eb75a0ecf5ef2"
+      "07636ede2aab4da0c808",
+      "48b7df271f6d12398238",
+      "0a7174095a64cd749b86"
     ]
   },
   "heads_up": [
@@ -113,5 +111,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "a0e0b61f1ce15cd7b38e624ef41b5cd11846f771b8b6f0c390951e28fb1b49f0"
+  "data_hash": "aa9affc7a2fd67c8c213f4d842829c409108765442daa667a21ce56ecb975fdb"
 }
