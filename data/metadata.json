@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-13T19:22:02+02:00",
+  "last_updated": "2026-09-13T21:08:36+02:00",
   "timezone": "Europe/Berlin",
-  "sources_checked": 4,
-  "sources_successful": 4,
-  "events_collected": 121,
-  "events_after_deduplication": 92,
+  "sources_checked": 13,
+  "sources_successful": 13,
+  "events_collected": 423,
+  "events_after_deduplication": 346,
   "stale_events": 0,
   "sources": [
     {
@@ -39,6 +39,78 @@
       "status": "ok",
       "events": 52,
       "warnings": []
+    },
+    {
+      "id": "muenchen",
+      "name": "muenchen.de",
+      "url": "https://www.muenchen.de/veranstaltungen/event/",
+      "status": "ok",
+      "events": 132,
+      "warnings": []
+    },
+    {
+      "id": "stadtbibliothek",
+      "name": "Münchner Stadtbibliothek",
+      "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
+      "status": "ok",
+      "events": 39,
+      "warnings": []
+    },
+    {
+      "id": "stadtmuseum",
+      "name": "Münchner Stadtmuseum",
+      "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
+      "status": "ok",
+      "events": 28,
+      "warnings": []
+    },
+    {
+      "id": "haus_der_kunst",
+      "name": "Haus der Kunst",
+      "url": "https://www.hausderkunst.de/kalender",
+      "status": "ok",
+      "events": 40,
+      "warnings": []
+    },
+    {
+      "id": "pinakotheken",
+      "name": "Pinakotheken",
+      "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
+      "status": "ok",
+      "events": 34,
+      "warnings": []
+    },
+    {
+      "id": "olympiapark",
+      "name": "Olympiapark",
+      "url": "https://www.olympiapark.de/de/veranstaltungen",
+      "status": "ok",
+      "events": 19,
+      "warnings": []
+    },
+    {
+      "id": "tollwood",
+      "name": "Tollwood",
+      "url": "https://www.tollwood.de/tollwood-winterfestival/",
+      "status": "ok",
+      "events": 1,
+      "warnings": []
+    },
+    {
+      "id": "messe",
+      "name": "Messe München",
+      "url": "https://messe-muenchen.de/de/veranstaltungen/",
+      "status": "ok",
+      "events": 9,
+      "warnings": []
+    },
+    {
+      "id": "meetup_robotics",
+      "name": "Munichs Robotics Meetup",
+      "url": "https://www.meetup.com/de-DE/munichs-robotics-meetup/",
+      "status": "ok",
+      "events": 0,
+      "warnings": []
     }
   ],
   "selection": {
@@ -53,35 +125,37 @@
     "today": [
       "c7e6ad0fa3a3f61d318a",
       "ec70bce65159eab788bd",
-      "5086670b658c06ff0d5d",
-      "59e59d387df63e44aaec"
+      "27dc935f7ac9bdf20a6c",
+      "8b48abe6688c587b45e1",
+      "09495e59ec9ded146939"
     ],
     "tomorrow": [
       "48b7df271f6d12398238",
       "0a7174095a64cd749b86",
       "922d13ad1f8210e431fe",
-      "5086670b658c06ff0d5d",
-      "5487d8b2cbc0f5e74c51"
+      "67ad4c4088fbfbb57c75",
+      "5086670b658c06ff0d5d"
     ],
     "weekend": [
       "c7e6ad0fa3a3f61d318a",
       "ec70bce65159eab788bd",
-      "5086670b658c06ff0d5d",
-      "59e59d387df63e44aaec"
+      "27dc935f7ac9bdf20a6c",
+      "8b48abe6688c587b45e1",
+      "09495e59ec9ded146939"
     ],
     "upcoming": [
       "07636ede2aab4da0c808",
       "48b7df271f6d12398238",
       "0a7174095a64cd749b86",
       "922d13ad1f8210e431fe",
-      "a83643c87e6622a1853a"
+      "67ad4c4088fbfbb57c75"
     ],
     "new": [
       "c7e6ad0fa3a3f61d318a",
       "ec70bce65159eab788bd",
-      "07636ede2aab4da0c808",
-      "48b7df271f6d12398238",
-      "0a7174095a64cd749b86"
+      "27dc935f7ac9bdf20a6c",
+      "8b48abe6688c587b45e1",
+      "09495e59ec9ded146939"
     ]
   },
   "heads_up": [
@@ -90,11 +164,11 @@
       "days_until": 1
     },
     {
-      "event_id": "3a0cdd2344de597743f9",
-      "days_until": 3
+      "event_id": "67ad4c4088fbfbb57c75",
+      "days_until": 1
     },
     {
-      "event_id": "f1601db58ffd78ed0a59",
+      "event_id": "3a0cdd2344de597743f9",
       "days_until": 3
     }
   ],
@@ -111,5 +185,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "aa9affc7a2fd67c8c213f4d842829c409108765442daa667a21ce56ecb975fdb"
+  "data_hash": "4346f7413da19e18f407b57cb9de2f71a8857ad7b0004cd0f8e9202ad2737fc1"
 }

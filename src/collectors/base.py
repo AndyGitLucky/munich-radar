@@ -10,6 +10,7 @@ logger = logging.getLogger(__name__)
 
 class HttpClient(Protocol):
     def get(self, url: str) -> str: ...
+    def post(self, url: str, *, json: dict, headers: dict) -> str: ...
 
 
 class EventCollector(ABC):
@@ -18,6 +19,7 @@ class EventCollector(ABC):
         self.client = client
         self.now = now
         self.warnings: list[str] = []
+        self.empty_is_valid = False
 
     def warn(self, message: str) -> None:
         self.warnings.append(message)

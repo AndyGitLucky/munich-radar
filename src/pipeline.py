@@ -60,6 +60,7 @@ def run(root: Path, *, now: datetime | None = None, client=None, registry=None) 
         raise ValueError("No sources enabled")
     registry = registry if registry is not None else COLLECTORS
     origins = {f"{urlsplit(s['url']).scheme}://{urlsplit(s['url']).netloc}" for s in sources}
+    origins.update(origin for s in sources for origin in s.get("api_origins", []))
     client = client or PoliteHttpClient(sources_config["http"], origins)
     data_dir = root / "data"
     previous_state = load_json(data_dir / "source-state.json", {})
@@ -89,7 +90,7 @@ def run(root: Path, *, now: datetime | None = None, client=None, registry=None) 
                 except (ValueError, TypeError) as exc:
                     collector.warn(f"Termin verworfen: {exc}")
             status["warnings"] = collector.warnings
-            if not normalized:
+            if not normalized and not (not raw and collector.empty_is_valid and not collector.warnings):
                 raise ValueError("Keine gültigen Termine geliefert; vorherigen Stand beibehalten")
             successes += 1
             status["events"] = len(normalized)

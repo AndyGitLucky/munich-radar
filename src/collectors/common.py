@@ -78,8 +78,9 @@ def from_jsonld(item: dict, config: dict, url: str) -> RawEvent:
 
 def tag_topics(labels: list[str], fallback: str = "culture") -> tuple[str, list[str]]:
     text = " ".join(labels).casefold()
-    rules = [("festival", ("festival",)), ("exhibition", ("ausstellung", "installation")),
-             ("science", ("wissenschaft", "wissen", "science")), ("technology", ("technik", "technologie")),
+    rules = [("street_festival", ("straßenfest", "strassenfest")), ("festival", ("festival",)),
+             ("market", ("markt", "dult")), ("exhibition", ("ausstellung", "installation")),
+             ("science", ("wissenschaft", "wissen", "science")), ("technology", ("technik", "technologie", "robotik", "robotics")),
              ("family", ("familie", "kinder", "jugend")), ("concert", ("musik", "konzert", "klassik")),
              ("theatre", ("theater",)), ("outdoor", ("outdoor",))]
     tags = [category for category, words in rules if any(word in text for word in words)]

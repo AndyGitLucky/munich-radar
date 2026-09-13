@@ -1,0 +1,89 @@
+[
+  {
+    "date": "2026-09-13",
+    "entries": [
+      {
+        "_type": "gomus-event",
+        "_dateId": 6569,
+        "eventId": 1046,
+        "title": "Familienführung | Wahr oder wunderbar erfunden? Auf Spurensuche in Bildern",
+        "subtitle": "",
+        "location": "Alte Pinakothek",
+        "meetingPoint": "Foyer",
+        "startTime": "11:00:00",
+        "endTime": "12:00:00",
+        "category": "Kinder, Familien",
+        "audienceIds": [
+          "1",
+          "5"
+        ],
+        "catchWordIds": [
+          "1"
+        ],
+        "audiences": [
+          "Führungen & Rundgänge"
+        ],
+        "audiencesFilter": [
+          "guided"
+        ],
+        "languages": "Deutsch",
+        "ageGroups": "",
+        "catchWords": "Führung",
+        "availability": "",
+        "topic": "",
+        "richText": "Ist das wirklich passiert? Gibt es diese Figuren tatsächlich? Und woher wissen wir eigentlich, was in einem Bild gerade geschieht?\r\nGemeinsam gehen wir in der Ausstellung „Wie Bilder erzählen“ auf Spurensuche: Wir entdecken Helden und Heilige, Monster und ganz gewöhnliche Menschen, suchen nach geheimen Hinweisen und erfinden eigene Geschichten. Dabei finden wir heraus, dass Bilder nicht nur wahre oder erfundene Geschichten erzählen können – manchmal erzählen sie sogar mehrere Geschichten gleichzeitig. Eine Familienführung für alle, die genau hinschauen und Bildern nicht immer sofort glauben.\r\n\r\nFür Kinder mit Familien ab 5 Jahren. Begrenzte Anzahl an Teilnahmeplätzen.\r\n\r\nDieses Ticket berechtigt zur Teilnahme an der öffentlichen Familienführung in der Alten Pinakothek. Diese ist im Eintritt enthalten. Sie benötigen zusätzlich ein Eintrittsticket. Kinder und Jugendliche unter 18 Jahren erhalten ein kostenloses Eintrittsticket. Informationen zum Eintritt finden Sie auf unserer Website.\r\n\r\nErmäßigten bzw. freien Eintritt nur gegen Vorlage eines entsprechenden Nachweises am Einlass.\r\n\r\nDie Aufsichtspflicht liegt bei den erwachsenen Begleitpersonen/Eltern.",
+        "leads": [],
+        "imageUrl": "https://bsms.gomus.de/production/products/1046/original/ABB_AP_Familienfuehrung_jp.jpg?1750410937",
+        "imageCopyright": "© Severin Schweiger. Das Kraftbild",
+        "exhibitionUuid": 1,
+        "seatsAvailable": 12,
+        "entryFee": 0,
+        "isRemoved": false,
+        "isBookable": true
+      }
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "entries": [
+      {
+        "_type": "gomus-event",
+        "_dateId": 9313,
+        "eventId": 998,
+        "title": "We are family | Wie Bilder erzählen",
+        "subtitle": "Offener Familienworkshop",
+        "location": "Alte Pinakothek",
+        "meetingPoint": "Foyer",
+        "startTime": "11:00:00",
+        "endTime": "17:00:00",
+        "category": "Familien",
+        "audienceIds": [
+          "5"
+        ],
+        "catchWordIds": [
+          "17"
+        ],
+        "audiences": [
+          "Workshops"
+        ],
+        "audiencesFilter": [
+          "workshop"
+        ],
+        "languages": "Deutsch",
+        "ageGroups": "",
+        "catchWords": "Workshop",
+        "availability": "",
+        "topic": "",
+        "richText": "In manchen Bildern sind geheime Botschaften versteckt, die man auf den ersten Blick gar nicht sieht. Warum haben die Künstler das gemacht? Für wen waren die Bilder gedacht? Gemeinsam begeben wir uns auf die Suche nach Hinweisen, Zeichen und Symbolen, um den Geheimnissen der Bilder auf die Spur zu kommen. Für alle, die noch mehr Lust auf Geschichten haben, bieten wir anschließend die Möglichkeit, ihrer Fantasie und Kreativität in unserem offenen Workshop freien Lauf zu lassen. \r\n\r\nOhne Anmeldung | kostenfrei \r\nEinstieg jederzeit möglich. \r\nFür Familien mit Kindern ab 5 Jahren geeignet. \r\n\r\nDie Aufsichtspflicht liegt bei den Eltern oder den erwachsenen Begleitpersonen.",
+        "leads": [],
+        "imageUrl": "https://bsms.gomus.de/production/products/998/original/099_M1A7265%C2%A9SeverinSchweiger_DKB.jpg?1766411153",
+        "imageCopyright": "",
+        "exhibitionUuid": 1,
+        "seatsAvailable": 1000,
+        "entryFee": 0,
+        "isRemoved": false,
+        "isBookable": false
+      }
+    ]
+  }
+]

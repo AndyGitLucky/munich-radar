@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "page": {
+      "current": 1,
+      "total_pages": 1,
+      "total_results": 15,
+      "size": 100
+    }
+  },
+  "results": [
+    {
+      "url": {
+        "raw": "https://messe-muenchen.de/de/veranstaltungen/expopharm-2026.html"
+      },
+      "location_name": {
+        "raw": "Trade Fair Center Messe München"
+      },
+      "location_abbreviation": {
+        "raw": "MMG"
+      },
+      "event_start_date": {
+        "raw": "2026-09-15T00:00:00+00:00"
+      },
+      "event_end_date": {
+        "raw": "2026-09-17T00:00:00+00:00"
+      },
+      "event_status": {
+        "raw": "as_scheduled"
+      },
+      "event_name": {
+        "raw": "expopharm 2026"
+      },
+      "event_subtitle": {
+        "raw": "Internationale pharmazeutische Fachmesse und deutscher Apothekertag"
+      }
+    },
+    {
+      "url": {
+        "raw": "https://messe-muenchen.de/de/veranstaltungen/bauma-conexpo-india-2026.html"
+      },
+      "location_name": {
+        "raw": "India Expo Centre & Mart"
+      },
+      "location_abbreviation": {
+        "raw": "BCI"
+      },
+      "event_start_date": {
+        "raw": "2026-09-15T00:00:00+00:00"
+      },
+      "event_end_date": {
+        "raw": "2026-09-18T00:00:00+00:00"
+      },
+      "event_status": {
+        "raw": "as_scheduled"
+      },
+      "event_name": {
+        "raw": "bauma CONEXPO INDIA 2026"
+      },
+      "event_subtitle": {
+        "raw": "8th International Trade Fair for Construction Machinery, Building Material Machines, Mining Machines and Construction Vehicles"
+      }
+    },
+    {
+      "url": {
+        "raw": "https://messe-muenchen.de/de/veranstaltungen/intergeo-2026.html"
+      },
+      "location_name": {
+        "raw": "Trade Fair Center Messe München"
+      },
+      "event_start_date": {
+        "raw": "2026-09-15T00:00:00+00:00"
+      },
+      "event_end_date": {
+        "raw": "2026-09-17T00:00:00+00:00"
+      },
+      "event_status": {
+        "raw": "as_scheduled"
+      },
+      "event_name": {
+        "raw": "INTERGEO 2026"
+      }
+    }
+  ]
+}

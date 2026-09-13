@@ -80,3 +80,26 @@ def test_repeated_occurrences_marked_without_confusing_long_exhibitions(make_eve
     mark_recurring([first,second,exhibition])
     assert "recurring" in first.tags and "recurring" in second.tags
     assert "recurring" not in exhibition.tags
+
+
+def test_verified_empty_clears_previous_events_but_unverified_empty_does_not(root, now):
+    class Empty(EventCollector):
+        def collect(self):
+            return []
+
+    class VerifiedEmpty(Empty):
+        def collect(self):
+            self.empty_is_valid = True
+            return []
+
+    registry = dict.fromkeys(["gasteig", "deutsches_museum", "lenbachhaus"], Good)
+    run(root, now=now, client=object(), registry=registry)
+    registry.update(gasteig=VerifiedEmpty, deutsches_museum=Empty)
+    result = run(root, now=now + timedelta(hours=1), client=object(), registry=registry)
+    statuses = {s["id"]: s for s in result["sources"]}
+    assert statuses["gasteig"]["status"] == "ok"
+    assert statuses["gasteig"]["events"] == 0
+    assert statuses["deutsches_museum"]["status"] == "error"
+    state = json.loads((root / "data/source-state.json").read_text(encoding="utf-8"))
+    assert state["gasteig"] == []
+    assert state["deutsches_museum"][0]["stale"] is True

@@ -25,3 +25,60 @@ sources:
     url: https://www.lenbachhaus.de/besuchen/kalender
     enabled: true
     priority: 10
+  - id: muenchen
+    name: muenchen.de
+    url: https://www.muenchen.de/veranstaltungen/event/
+    enabled: true
+    priority: 100
+    categories: [feste-festivals, familie-kinder, "?field_category_one_target_id%5B%5D=27904&search=true"]
+    max_pages: 2
+  - id: stadtbibliothek
+    name: Münchner Stadtbibliothek
+    url: https://www.muenchner-stadtbibliothek.de/veranstaltungen
+    enabled: true
+    priority: 10
+    max_pages: 4
+  - id: stadtmuseum
+    name: Münchner Stadtmuseum
+    url: https://www.muenchner-stadtmuseum.de/veranstaltungen/details
+    enabled: true
+    priority: 10
+  - id: haus_der_kunst
+    name: Haus der Kunst
+    url: https://www.hausderkunst.de/kalender
+    enabled: true
+    priority: 10
+    max_pages: 4
+  - id: pinakotheken
+    name: Pinakotheken
+    url: https://www.pinakothek.de/de/programm/programm-uebersicht
+    enabled: true
+    priority: 10
+    days: 7
+    locations: [Alte Pinakothek, Neue Pinakothek, Pinakothek der Moderne, Museum Brandhorst, Sammlung Schack, Türkenstraße 15]
+  - id: olympiapark
+    name: Olympiapark
+    url: https://www.olympiapark.de/de/veranstaltungen
+    enabled: true
+    priority: 10
+  - id: tollwood
+    name: Tollwood
+    url: https://www.tollwood.de/tollwood-winterfestival/
+    enabled: true
+    priority: 10
+    location: Theresienwiese, München
+  - id: messe
+    name: Messe München
+    url: https://messe-muenchen.de/de/veranstaltungen/
+    enabled: true
+    priority: 10
+    max_pages: 2
+    locations: [MMG, ICM, MOC, CCN]
+    location_names: [Trade Fair Center Messe München]
+    api_origins: [https://mmgelasticsearch-we-es-508d2a.ent.westeurope.azure.elastic-cloud.com]
+  - id: meetup_robotics
+    name: Munichs Robotics Meetup
+    url: https://www.meetup.com/de-DE/munichs-robotics-meetup/
+    enabled: true
+    priority: 10
+    group: munichs-robotics-meetup

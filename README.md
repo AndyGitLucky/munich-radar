@@ -4,7 +4,7 @@ Eine kleine tägliche Auswahl aus Münchens offiziellen Veranstaltungskalendern.
 
 **Website:** [München Radar öffnen](https://andygitlucky.github.io/munich-radar/) · [GitHub-Repository](https://github.com/AndyGitLucky/munich-radar)
 
-MVP mit vier echten Quellen und Veröffentlichung über GitHub Pages. Die mitgelieferten JSON-Daten sind echte Abrufe, keine Beispieldaten. Auf dem iPhone die Website in Safari öffnen; über **Teilen → Zum Home-Bildschirm** lässt sie sich als direkter Einstieg ablegen. Der eigene PC muss für die veröffentlichte Seite nicht laufen.
+MVP mit 13 angebundenen Quellen und Veröffentlichung über GitHub Pages. Die mitgelieferten JSON-Daten sind echte Abrufe, keine Beispieldaten. Auf dem iPhone die Website in Safari öffnen; über **Teilen → Zum Home-Bildschirm** lässt sie sich als direkter Einstieg ablegen. Der eigene PC muss für die veröffentlichte Seite nicht laufen.
 
 ## Hier lokal starten
 
@@ -63,12 +63,21 @@ Die Browseransichten rechnen immer in `Europe/Berlin`, unabhängig vom Standort 
 | [Gasteig](https://www.gasteig.de/veranstaltungen/) | Datierte Teaser der Startübersicht, auch Festivals; `Event`-JSON-LD auf Detailseiten | Maximal 14 passende Detailseiten pro Lauf. Kein vollständiger Veranstaltungskatalog. |
 | [Deutsches Museum](https://www.deutsches-museum.de/museumsinsel/programm/kalender) | Öffentliches Kalenderfragment `/search.html` und dessen Weiterblättern-Links | Sechs Seiten mit derzeit zehn Terminen pro Seite. Wegen vieler Tagesangebote deckt dies vor allem die nächsten Tage ab. |
 | [Lenbachhaus](https://www.lenbachhaus.de/besuchen/kalender) | Explizit datierte HTML-Terminkarten, laufender und nächster Monat | Undatierte Dauerangebote werden ausgelassen. Preise/Zielgruppen fehlen oft in der Übersicht und bleiben dann unbekannt. |
+| [muenchen.de](https://www.muenchen.de/veranstaltungen/event/) | Festivalkalender, Familie/Kinder und Brauchtum; datierte Einzelvorstellungen | Je zwei Seiten pro Kategorie. Verwendet die tatsächlichen Vorstellungszeiten, nicht den äußeren Laufzeitraum einer Reihe. Veranstalterquellen haben bei Dubletten Vorrang. |
+| [Münchner Stadtbibliothek](https://www.muenchner-stadtbibliothek.de/veranstaltungen) | HTML-Kalender mit verlinkten Folgeseiten | Vier Seiten; datierte Ausstellungen und Einzeltermine. Keine pauschale Annahme kostenlosen Eintritts. |
+| [Münchner Stadtmuseum](https://www.muenchner-stadtmuseum.de/veranstaltungen/details) | Datierte Karten einschließlich Filmmuseum | Aktueller Kalendermonat. Ausgebuchte Angebote ausgelassen. Wegen wechselnder Veranstaltungsorte wird das Hauptgebäude nicht als Standardort eingesetzt. |
+| [Haus der Kunst](https://www.hausderkunst.de/kalender) | Tagesabschnitte und echte Weiterblättern-Links | Vier Seiten. Bei fortgesetzten Tagesabschnitten stammt das Datum aus dem offiziellen Pagination-Link. |
+| [Pinakotheken](https://www.pinakothek.de/de/programm/programm-uebersicht) | Öffentlicher Tageskalender `/_proxy_calendar` | Sieben Tage, nur konfigurierte Münchner Häuser. `entryFee: 0` bedeutet nicht zwingend kostenlosen Museumseintritt. |
+| [Olympiapark](https://www.olympiapark.de/de/veranstaltungen) | Event-JSON-LD, ergänzt um zugehörige Detail-Links und Kartentexte | Offizielle Startübersicht; kein vollständiger Veranstaltungskatalog. |
+| [Tollwood](https://www.tollwood.de/tollwood-winterfestival/) | Expliziter Winterfestival-Zeitraum einschließlich Ausgabejahr | Gesamtfestival; keine einzelnen Shows und kein pauschaler Gratis-Status. Außerhalb der nächsten 30 Tage erscheint es noch nicht in der Auswahl. |
+| [Messe München](https://messe-muenchen.de/de/veranstaltungen/) | Vom öffentlichen Kalender eingebundene Suche, nach Zeitraum gefiltert | Maximal zwei Seiten à 100 Ergebnisse, nur Münchner Standorte. Internationale Messen ausgeschlossen; Fachmessen als kommerziell markiert. |
+| [Munichs Robotics Meetup](https://www.meetup.com/de-DE/munichs-robotics-meetup/) | Öffentliche kommende Termine dieser ausgewählten Gruppe | Kein Login und keine Mitgliederdaten. Nur Präsenz-/Hybridtermine mit Münchner Ort. Eine ausdrücklich leere Terminliste ist ein erfolgreicher Abruf. |
 
 Die Anbindung wurde am 13.09.2026 live geprüft. Der öffentliche Datumsfilter des Museumskalenders lieferte beim Test eine Serverfehlerseite; deshalb verwendet der Collector ausschließlich die tatsächlich ausgegebenen Pagination-Links. Lenbachhaus hat auf Detailseiten zwar JSON-LD, dort kann jedoch die Formatbezeichnung anstelle des eigentlichen Titels stehen und die Uhrzeit fehlen. Die Kalenderkarten enthalten die präziseren Angaben.
 
-Die Quellen sind zunächst stark auf Museen und Kultur ausgerichtet. Corso Leopold ist als eigene offizielle Festivalquelle integriert; weitere Straßenfeste, Märkte und stadtweite Hinweise sind noch nicht umfassend abgedeckt. Die Ansicht „Demnächst“ filtert auf 30 Tage; sie verspricht keine vollständige Abdeckung dieses Zeitraums durch jede Quelle.
+Die Erweiterung ergänzt stadtweite Festivals, Familienangebote, Brauchtum, weitere Museen und Messen. Die Ansicht „Demnächst“ filtert auf 30 Tage; sie verspricht keine vollständige Abdeckung dieses Zeitraums durch jede Quelle. MVV/MVG-Hinweise und gesonderte Stadtteil-/Bezirksausschusskalender sind noch nicht integriert: Die geprüften Verkehrsseiten liefern keinen passenden datierten Veranstaltungskalender; der geprüfte städtische Beteiligungskalender sperrt automatische Abrufe. Details und Grenzen stehen im [Quellenprüfbericht](docs/sources.md).
 
-Das HTTP-Modul prüft `robots.txt`, setzt `MunichRadar/0.1`, verwendet 20 Sekunden Timeout und mindestens eine Sekunde Abstand je Host. Zusätzliche Crawl-Verzögerungen werden berücksichtigt. Es folgt nur Links innerhalb konfigurierter Ursprünge. Keine Login-Sitzungen, Umgehung von Sperren oder aggressiven Wiederholungen.
+Das HTTP-Modul prüft `robots.txt`, setzt `MunichRadar/0.1`, verwendet 20 Sekunden Timeout und mindestens eine Sekunde Abstand je Host. Zusätzliche Crawl-Verzögerungen werden berücksichtigt. Es folgt nur Links innerhalb konfigurierter Ursprünge. Die öffentliche Messesuche verwendet zusätzlich einen ausdrücklich konfigurierten API-Ursprung; ihr im öffentlichen Kalender gelieferter Suchschlüssel wird nur für den Abruf verwendet und nicht gespeichert. Suchanfragen per POST unterliegen denselben Robots- und Herkunftsprüfungen; Weiterleitungen werden dabei abgelehnt. Keine Login-Sitzungen, Umgehung von Sperren oder aggressiven Wiederholungen.
 
 ## Konfiguration
 
@@ -102,7 +111,7 @@ Die ID ist ein deterministischer Hash aus bereinigtem Titel, **vollständigem Be
 - `data/last-failure.json`: Diagnose eines vollständig fehlgeschlagenen Laufs, nicht Teil der Website.
 - `dist/`: veröffentlichbarer Build; nur Frontend, `events.json` und `metadata.json`.
 
-`discovered_at` bleibt bei unveränderter ID erhalten; `updated_at` bedeutet zuletzt von der Quelle erfolgreich bestätigt. Bei Teilausfällen bleiben noch relevante, höchstens sieben Tage alte Termine der betroffenen Quelle erhalten und werden markiert. Ein fehlerhafter Eintrag stoppt die anderen nicht. Wenn alle Quellen ausfallen, endet der Prozess mit Fehlercode und lässt den letzten öffentlichen Datenstand unangetastet. Eine unerwartet leere Quelle gilt vorsichtshalber als Fehler.
+`discovered_at` bleibt bei unveränderter ID erhalten; `updated_at` bedeutet zuletzt von der Quelle erfolgreich bestätigt. Bei Teilausfällen bleiben noch relevante, höchstens sieben Tage alte Termine der betroffenen Quelle erhalten und werden markiert. Ein fehlerhafter Eintrag stoppt die anderen nicht. Wenn alle Quellen ausfallen, endet der Prozess mit Fehlercode und lässt den letzten öffentlichen Datenstand unangetastet. Eine unerwartet leere Quelle gilt vorsichtshalber als Fehler. Nur ein ausdrücklich geprüftes leeres Suchergebnis bzw. ein gültiger leerer Kalender kann als erfolgreicher Abruf gelten; dann verschwinden zuvor gespeicherte Termine dieser Quelle. Eine Fehlerseite oder ausschließlich ungültige Einträge erfüllen diese Ausnahme nicht.
 
 ## Prüfen
 
