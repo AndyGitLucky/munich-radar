@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-13T23:21:25+02:00",
+  "last_updated": "2026-09-14T11:44:42+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
   "sources_successful": 13,
-  "events_collected": 383,
-  "events_after_deduplication": 346,
-  "stale_events": 40,
+  "events_collected": 420,
+  "events_after_deduplication": 340,
+  "stale_events": 0,
   "sources": [
     {
       "id": "corso_leopold",
@@ -21,25 +21,23 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 7,
+      "events": 8,
       "warnings": []
     },
     {
       "id": "deutsches_museum",
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
-      "status": "partial",
-      "events": 20,
-      "warnings": [
-        "Kalenderseite fehlgeschlagen: ReadTimeout"
-      ]
+      "status": "ok",
+      "events": 60,
+      "warnings": []
     },
     {
       "id": "lenbachhaus",
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 52,
+      "events": 51,
       "warnings": []
     },
     {
@@ -47,7 +45,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 132,
+      "events": 130,
       "warnings": []
     },
     {
@@ -63,7 +61,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 28,
+      "events": 27,
       "warnings": []
     },
     {
@@ -125,53 +123,53 @@
   },
   "views": {
     "today": [
-      "c7e6ad0fa3a3f61d318a",
-      "ec70bce65159eab788bd",
-      "27dc935f7ac9bdf20a6c",
-      "8b48abe6688c587b45e1",
-      "09495e59ec9ded146939"
-    ],
-    "tomorrow": [
       "48b7df271f6d12398238",
       "0a7174095a64cd749b86",
       "922d13ad1f8210e431fe",
-      "67ad4c4088fbfbb57c75",
-      "5086670b658c06ff0d5d"
-    ],
-    "weekend": [
-      "c7e6ad0fa3a3f61d318a",
-      "ec70bce65159eab788bd",
-      "27dc935f7ac9bdf20a6c",
-      "8b48abe6688c587b45e1",
-      "09495e59ec9ded146939"
-    ],
-    "upcoming": [
-      "07636ede2aab4da0c808",
-      "48b7df271f6d12398238",
-      "0a7174095a64cd749b86",
-      "922d13ad1f8210e431fe",
+      "e9748ecef4b07de40463",
       "67ad4c4088fbfbb57c75"
     ],
+    "tomorrow": [
+      "195ae244b4982e38c1fd",
+      "6fd602d2ff6a3ce46296",
+      "a83643c87e6622a1853a",
+      "0832d92596e4848e8a2d",
+      "55e0f0b023a058389aec"
+    ],
+    "weekend": [
+      "0399ed58c87b29275dbe",
+      "67434489160587d1fa87",
+      "7700ec0cf4dfb20693b3",
+      "fa40233bf121f4613eaa",
+      "5086670b658c06ff0d5d"
+    ],
+    "upcoming": [
+      "63c138702f0734b8490c",
+      "07636ede2aab4da0c808",
+      "0399ed58c87b29275dbe",
+      "67434489160587d1fa87",
+      "7700ec0cf4dfb20693b3"
+    ],
     "new": [
-      "c7e6ad0fa3a3f61d318a",
-      "ec70bce65159eab788bd",
-      "27dc935f7ac9bdf20a6c",
-      "8b48abe6688c587b45e1",
-      "09495e59ec9ded146939"
+      "48b7df271f6d12398238",
+      "0a7174095a64cd749b86",
+      "922d13ad1f8210e431fe",
+      "e9748ecef4b07de40463",
+      "67ad4c4088fbfbb57c75"
     ]
   },
   "heads_up": [
     {
-      "event_id": "48b7df271f6d12398238",
-      "days_until": 1
-    },
-    {
-      "event_id": "67ad4c4088fbfbb57c75",
-      "days_until": 1
-    },
-    {
-      "event_id": "4ed3f5b5835ff1c40d56",
+      "event_id": "63c138702f0734b8490c",
       "days_until": 3
+    },
+    {
+      "event_id": "a83643c87e6622a1853a",
+      "days_until": 1
+    },
+    {
+      "event_id": "0832d92596e4848e8a2d",
+      "days_until": 1
     }
   ],
   "heads_up_rules": {
@@ -187,5 +185,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "ef9cc57583451706e8cabcdabb97ee6f2bf7dd9b6b64689fe0b667331e78b88e"
+  "data_hash": "4fd7ebabc02832d9267194239083e9a77a4fb17a3bccff7ce428c5c0c2e5881f"
 }
