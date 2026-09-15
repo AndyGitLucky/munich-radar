@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-15T20:04:10+02:00",
+  "last_updated": "2026-09-16T00:02:23+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
   "sources_successful": 13,
-  "events_collected": 424,
-  "events_after_deduplication": 344,
+  "events_collected": 423,
+  "events_after_deduplication": 339,
   "stale_events": 0,
   "sources": [
     {
@@ -21,7 +21,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 9,
+      "events": 10,
       "warnings": []
     },
     {
@@ -37,7 +37,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 53,
+      "events": 54,
       "warnings": []
     },
     {
@@ -53,7 +53,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 40,
+      "events": 37,
       "warnings": []
     },
     {
@@ -125,18 +125,18 @@
   },
   "views": {
     "today": [
-      "0832d92596e4848e8a2d",
-      "55e0f0b023a058389aec",
-      "02a00a0a1d860e3a9b8f",
-      "5086670b658c06ff0d5d",
-      "acf44e29dc1fdfb8e441"
-    ],
-    "tomorrow": [
+      "47fe6062c33bad0a4786",
       "29584da22fa65761a817",
       "fae6730802ebf25355f4",
-      "3a0cdd2344de597743f9",
+      "2fe85aa9005a2cc8abcf",
+      "3a0cdd2344de597743f9"
+    ],
+    "tomorrow": [
+      "0f01b558684c1433efaf",
+      "146d8484ebbcf3453a82",
+      "63c138702f0734b8490c",
       "5086670b658c06ff0d5d",
-      "cf162c758633d1756a68"
+      "fb53e036e6725e5b385b"
     ],
     "weekend": [
       "7593d44cf359d23ad366",
@@ -153,25 +153,25 @@
       "7700ec0cf4dfb20693b3"
     ],
     "new": [
-      "0832d92596e4848e8a2d",
-      "55e0f0b023a058389aec",
-      "02a00a0a1d860e3a9b8f",
-      "7593d44cf359d23ad366",
-      "07636ede2aab4da0c808"
+      "47fe6062c33bad0a4786",
+      "29584da22fa65761a817",
+      "fae6730802ebf25355f4",
+      "2fe85aa9005a2cc8abcf",
+      "3a0cdd2344de597743f9"
     ]
   },
   "heads_up": [
     {
-      "event_id": "3a0cdd2344de597743f9",
-      "days_until": 1
+      "event_id": "7593d44cf359d23ad366",
+      "days_until": 3
     },
     {
-      "event_id": "e4248134456049e499f2",
-      "days_until": 7
+      "event_id": "0399ed58c87b29275dbe",
+      "days_until": 3
     },
     {
-      "event_id": "4ed3f5b5835ff1c40d56",
-      "days_until": 1
+      "event_id": "67434489160587d1fa87",
+      "days_until": 3
     }
   ],
   "heads_up_rules": {
@@ -187,5 +187,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "23b904a2f43f1bbc61c04c245cb7f6c5126ec738c9303d4fc4598f54d87a7937"
+  "data_hash": "497568e2f91a3306cde5a338254b63c24c10a5f383b28bd7d1c5affdda22e155"
 }
