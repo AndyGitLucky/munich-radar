@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-17T00:00:07+02:00",
+  "last_updated": "2026-09-17T11:20:46+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
   "sources_successful": 13,
-  "events_collected": 416,
-  "events_after_deduplication": 340,
+  "events_collected": 414,
+  "events_after_deduplication": 343,
   "stale_events": 0,
   "sources": [
     {
@@ -21,7 +21,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 10,
+      "events": 9,
       "warnings": []
     },
     {
@@ -61,7 +61,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 24,
+      "events": 22,
       "warnings": []
     },
     {
@@ -69,7 +69,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -125,11 +125,11 @@
   },
   "views": {
     "today": [
+      "2e05d0a2c1e5ebfedba6",
+      "79f12c21a111d01b8fb4",
+      "ce4d2e730f98bad50a91",
       "d43b8011237e2de45b69",
-      "58d812f3f50112bd4547",
-      "0f01b558684c1433efaf",
-      "146d8484ebbcf3453a82",
-      "63c138702f0734b8490c"
+      "58d812f3f50112bd4547"
     ],
     "tomorrow": [
       "58d812f3f50112bd4547",
@@ -153,11 +153,11 @@
       "b892e3e648346214cfe3"
     ],
     "new": [
+      "2e05d0a2c1e5ebfedba6",
+      "79f12c21a111d01b8fb4",
+      "ce4d2e730f98bad50a91",
       "d43b8011237e2de45b69",
-      "7593d44cf359d23ad366",
-      "cd9c78deb6f5741636c4",
-      "dc1625826f696229cd75",
-      "4c8e3e53392361595342"
+      "3cce12e440e23683ba1c"
     ]
   },
   "heads_up": [
@@ -187,5 +187,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "ce96af1f122dbea59dc9c8ceabe81507520e0fe297b98a6f792b984ff90906fd"
+  "data_hash": "4ce33cebdbdfa405612f248b9a964ed3ffa998e36b11dcfa442cb51558f2309c"
 }
