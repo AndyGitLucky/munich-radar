@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-17T20:04:49+02:00",
+  "last_updated": "2026-09-18T00:00:54+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
   "sources_successful": 13,
-  "events_collected": 412,
-  "events_after_deduplication": 341,
-  "stale_events": 0,
+  "events_collected": 411,
+  "events_after_deduplication": 346,
+  "stale_events": 5,
   "sources": [
     {
       "id": "corso_leopold",
@@ -20,9 +20,16 @@
       "id": "gasteig",
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
-      "status": "ok",
-      "events": 9,
-      "warnings": []
+      "status": "partial",
+      "events": 3,
+      "warnings": [
+        "Detailseite nicht abrufbar: ConnectionError",
+        "Detailseite nicht abrufbar: ConnectionError",
+        "Detailseite nicht abrufbar: ConnectionError",
+        "Detailseite nicht abrufbar: ConnectionError",
+        "Detailseite nicht abrufbar: ConnectionError",
+        "Detailseite nicht abrufbar: ConnectionError"
+      ]
     },
     {
       "id": "deutsches_museum",
@@ -37,7 +44,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 53,
+      "events": 56,
       "warnings": []
     },
     {
@@ -45,7 +52,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 128,
+      "events": 127,
       "warnings": []
     },
     {
@@ -53,7 +60,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 38,
+      "events": 39,
       "warnings": []
     },
     {
@@ -69,7 +76,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -77,7 +84,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 31,
+      "events": 36,
       "warnings": []
     },
     {
@@ -101,7 +108,7 @@
       "name": "Messe München",
       "url": "https://messe-muenchen.de/de/veranstaltungen/",
       "status": "partial",
-      "events": 9,
+      "events": 5,
       "warnings": [
         "Unbekannter Messestatus; Termin ausgelassen"
       ]
@@ -125,53 +132,53 @@
   },
   "views": {
     "today": [
-      "d43b8011237e2de45b69",
-      "58d812f3f50112bd4547",
-      "3cce12e440e23683ba1c",
-      "fb53e036e6725e5b385b",
-      "cd9c78deb6f5741636c4"
+      "1a4c18e1fda1a1d7a1b8",
+      "fed30f24be1446bcfa14",
+      "8515c7217cbcf530326e",
+      "09bb014c1f8c65637fe5",
+      "0e7f914ae2d02ff8d424"
     ],
     "tomorrow": [
+      "7593d44cf359d23ad366",
+      "85f76bb09faa3a51682e",
       "58d812f3f50112bd4547",
-      "0e7f914ae2d02ff8d424",
-      "7374208c8cd169271a78",
-      "6218d7aeddda220d4175",
-      "1a4c18e1fda1a1d7a1b8"
+      "09bb014c1f8c65637fe5",
+      "5b5897aa0af396bc3626"
     ],
     "weekend": [
       "7593d44cf359d23ad366",
+      "85f76bb09faa3a51682e",
       "58d812f3f50112bd4547",
-      "58c583bbf72b72947ba7",
-      "e493598644a425a74009",
-      "0399ed58c87b29275dbe"
+      "09bb014c1f8c65637fe5",
+      "5b5897aa0af396bc3626"
     ],
     "upcoming": [
       "7593d44cf359d23ad366",
+      "85f76bb09faa3a51682e",
       "d1f37b8a7b67a6977e96",
       "834682b4ff73f2fb0c77",
-      "07636ede2aab4da0c808",
-      "1a4c18e1fda1a1d7a1b8"
+      "07636ede2aab4da0c808"
     ],
     "new": [
-      "d43b8011237e2de45b69",
+      "1a4c18e1fda1a1d7a1b8",
+      "fed30f24be1446bcfa14",
+      "8515c7217cbcf530326e",
       "7593d44cf359d23ad366",
-      "d1f37b8a7b67a6977e96",
-      "834682b4ff73f2fb0c77",
-      "3cce12e440e23683ba1c"
+      "d1f37b8a7b67a6977e96"
     ]
   },
   "heads_up": [
     {
-      "event_id": "1a4c18e1fda1a1d7a1b8",
+      "event_id": "7593d44cf359d23ad366",
       "days_until": 1
     },
     {
-      "event_id": "dc1625826f696229cd75",
-      "days_until": 3
+      "event_id": "85f76bb09faa3a51682e",
+      "days_until": 1
     },
     {
-      "event_id": "4c8e3e53392361595342",
-      "days_until": 3
+      "event_id": "5b5897aa0af396bc3626",
+      "days_until": 1
     }
   ],
   "heads_up_rules": {
@@ -187,5 +194,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "95f483c71a1f17522f71f4d84d68b2b63aeb348215d52d2e84cd528982b428ee"
+  "data_hash": "3f0ac8c7b1db23a6f1c7b5b777a8ba3c5c3dd80d8f0c277964db7e06aa473c5a"
 }
