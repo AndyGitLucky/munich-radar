@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-18T15:32:44+02:00",
+  "last_updated": "2026-09-18T19:37:04+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
   "sources_successful": 13,
-  "events_collected": 417,
-  "events_after_deduplication": 349,
+  "events_collected": 416,
+  "events_after_deduplication": 348,
   "stale_events": 0,
   "sources": [
     {
@@ -77,7 +77,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 36,
+      "events": 35,
       "warnings": []
     },
     {
@@ -129,7 +129,7 @@
       "fed30f24be1446bcfa14",
       "8515c7217cbcf530326e",
       "09bb014c1f8c65637fe5",
-      "0e7f914ae2d02ff8d424"
+      "1abbd6d450b560762d97"
     ],
     "tomorrow": [
       "7593d44cf359d23ad366",
@@ -187,5 +187,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "9f169f04ea5a4fed4b530f030d0df4a6750ce69bb6eb38f1228aad63a6ea6b0a"
+  "data_hash": "6490bc1a5df23c2ddb9b2bf865ae0ebf098434b0634221f2210a5d98ed244638"
 }
