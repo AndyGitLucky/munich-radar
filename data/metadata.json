@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-18T00:00:54+02:00",
+  "last_updated": "2026-09-18T10:55:44+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
   "sources_successful": 13,
-  "events_collected": 411,
-  "events_after_deduplication": 346,
-  "stale_events": 5,
+  "events_collected": 416,
+  "events_after_deduplication": 349,
+  "stale_events": 0,
   "sources": [
     {
       "id": "corso_leopold",
@@ -20,16 +20,9 @@
       "id": "gasteig",
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
-      "status": "partial",
-      "events": 3,
-      "warnings": [
-        "Detailseite nicht abrufbar: ConnectionError",
-        "Detailseite nicht abrufbar: ConnectionError",
-        "Detailseite nicht abrufbar: ConnectionError",
-        "Detailseite nicht abrufbar: ConnectionError",
-        "Detailseite nicht abrufbar: ConnectionError",
-        "Detailseite nicht abrufbar: ConnectionError"
-      ]
+      "status": "ok",
+      "events": 9,
+      "warnings": []
     },
     {
       "id": "deutsches_museum",
@@ -68,7 +61,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 22,
+      "events": 21,
       "warnings": []
     },
     {
@@ -132,11 +125,11 @@
   },
   "views": {
     "today": [
+      "0229f6bbfd3ca55e7e23",
+      "1a9d6d46224ca636c145",
+      "fb20770a44af649a298e",
       "1a4c18e1fda1a1d7a1b8",
-      "fed30f24be1446bcfa14",
-      "8515c7217cbcf530326e",
-      "09bb014c1f8c65637fe5",
-      "0e7f914ae2d02ff8d424"
+      "fed30f24be1446bcfa14"
     ],
     "tomorrow": [
       "7593d44cf359d23ad366",
@@ -155,16 +148,16 @@
     "upcoming": [
       "7593d44cf359d23ad366",
       "85f76bb09faa3a51682e",
-      "d1f37b8a7b67a6977e96",
-      "834682b4ff73f2fb0c77",
-      "07636ede2aab4da0c808"
+      "07636ede2aab4da0c808",
+      "5b5897aa0af396bc3626",
+      "58c583bbf72b72947ba7"
     ],
     "new": [
+      "0229f6bbfd3ca55e7e23",
+      "1a9d6d46224ca636c145",
+      "fb20770a44af649a298e",
       "1a4c18e1fda1a1d7a1b8",
-      "fed30f24be1446bcfa14",
-      "8515c7217cbcf530326e",
-      "7593d44cf359d23ad366",
-      "d1f37b8a7b67a6977e96"
+      "fed30f24be1446bcfa14"
     ]
   },
   "heads_up": [
@@ -194,5 +187,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "3f0ac8c7b1db23a6f1c7b5b777a8ba3c5c3dd80d8f0c277964db7e06aa473c5a"
+  "data_hash": "790d52227af9909af565bfeeb9fcd722e33e58ab827e591185ddfc4b0c64a48b"
 }
