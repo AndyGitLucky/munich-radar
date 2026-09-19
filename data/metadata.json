@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-19T10:42:55+02:00",
+  "last_updated": "2026-09-19T15:01:04+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
   "sources_successful": 13,
-  "events_collected": 414,
-  "events_after_deduplication": 343,
+  "events_collected": 413,
+  "events_after_deduplication": 342,
   "stale_events": 0,
   "sources": [
     {
@@ -69,7 +69,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 40,
+      "events": 39,
       "warnings": []
     },
     {
@@ -125,52 +125,52 @@
   },
   "views": {
     "today": [
-      "7593d44cf359d23ad366",
       "85f76bb09faa3a51682e",
       "5b5897aa0af396bc3626",
       "0c7e1ba20951d627c662",
-      "0eb3023376d39892713c"
+      "0832df7a30bed6fc87ec",
+      "09bb014c1f8c65637fe5"
     ],
     "tomorrow": [
+      "bbea8dc0b8f375bb1f2e",
+      "b1d6d5a4e8edc7c22618",
+      "ee62f646525567e2376a",
       "58d812f3f50112bd4547",
-      "09bb014c1f8c65637fe5",
-      "3562e1aeae9cb494e275",
-      "fad73d27c708aea56ae8",
-      "054c03a4f42c24356898"
+      "09bb014c1f8c65637fe5"
     ],
     "weekend": [
-      "7593d44cf359d23ad366",
       "85f76bb09faa3a51682e",
+      "bbea8dc0b8f375bb1f2e",
       "5b5897aa0af396bc3626",
       "0c7e1ba20951d627c662",
-      "0eb3023376d39892713c"
+      "0832df7a30bed6fc87ec"
     ],
     "upcoming": [
+      "bbea8dc0b8f375bb1f2e",
+      "b1d6d5a4e8edc7c22618",
+      "ee62f646525567e2376a",
       "3562e1aeae9cb494e275",
-      "07636ede2aab4da0c808",
-      "fad73d27c708aea56ae8",
-      "054c03a4f42c24356898",
-      "7c75f6b4c8b13c7d18df"
+      "07636ede2aab4da0c808"
     ],
     "new": [
-      "7593d44cf359d23ad366",
       "85f76bb09faa3a51682e",
+      "bbea8dc0b8f375bb1f2e",
       "5b5897aa0af396bc3626",
       "0c7e1ba20951d627c662",
-      "0eb3023376d39892713c"
+      "0832df7a30bed6fc87ec"
     ]
   },
   "heads_up": [
     {
-      "event_id": "3562e1aeae9cb494e275",
+      "event_id": "bbea8dc0b8f375bb1f2e",
       "days_until": 1
     },
     {
-      "event_id": "07636ede2aab4da0c808",
-      "days_until": 14
+      "event_id": "b1d6d5a4e8edc7c22618",
+      "days_until": 1
     },
     {
-      "event_id": "fad73d27c708aea56ae8",
+      "event_id": "ee62f646525567e2376a",
       "days_until": 1
     }
   ],
@@ -187,5 +187,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "10d24a1f02c1f1bc557f3b0a82e9d10fc3c9bc04c0fb505161c9f6c14624a90f"
+  "data_hash": "376b706af86d6b647ac29e0f1d1aa3d02d394482c88a2fa0c1333c609a208c50"
 }
