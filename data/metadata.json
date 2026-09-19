@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-19T19:07:00+02:00",
+  "last_updated": "2026-09-19T23:23:00+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
   "sources_successful": 13,
-  "events_collected": 413,
-  "events_after_deduplication": 342,
+  "events_collected": 414,
+  "events_after_deduplication": 343,
   "stale_events": 0,
   "sources": [
     {
@@ -69,7 +69,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -187,5 +187,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "4d2cc7691ce6d3ba47ef75cd0da8320f2e5f8dc274e4b44316155361185c623d"
+  "data_hash": "16cfcadcd54e2b49c7120a1ca23fc971f3d45668be3d8e2590b13ccba1edc5be"
 }
