@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-19T15:01:04+02:00",
+  "last_updated": "2026-09-19T19:07:00+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
   "sources_successful": 13,
@@ -128,8 +128,8 @@
       "85f76bb09faa3a51682e",
       "5b5897aa0af396bc3626",
       "0c7e1ba20951d627c662",
-      "0832df7a30bed6fc87ec",
-      "09bb014c1f8c65637fe5"
+      "09bb014c1f8c65637fe5",
+      "0399ed58c87b29275dbe"
     ],
     "tomorrow": [
       "bbea8dc0b8f375bb1f2e",
@@ -143,7 +143,7 @@
       "bbea8dc0b8f375bb1f2e",
       "5b5897aa0af396bc3626",
       "0c7e1ba20951d627c662",
-      "0832df7a30bed6fc87ec"
+      "b1d6d5a4e8edc7c22618"
     ],
     "upcoming": [
       "bbea8dc0b8f375bb1f2e",
@@ -157,7 +157,7 @@
       "bbea8dc0b8f375bb1f2e",
       "5b5897aa0af396bc3626",
       "0c7e1ba20951d627c662",
-      "0832df7a30bed6fc87ec"
+      "b1d6d5a4e8edc7c22618"
     ]
   },
   "heads_up": [
@@ -187,5 +187,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "376b706af86d6b647ac29e0f1d1aa3d02d394482c88a2fa0c1333c609a208c50"
+  "data_hash": "4d2cc7691ce6d3ba47ef75cd0da8320f2e5f8dc274e4b44316155361185c623d"
 }

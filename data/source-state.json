@@ -25,7 +25,7 @@
       "status": "scheduled",
       "id": "5086670b658c06ff0d5d",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -59,7 +59,7 @@
       "status": "scheduled",
       "id": "7d7686fe4480df8bd528",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -96,7 +96,7 @@
       "status": "scheduled",
       "id": "3562e1aeae9cb494e275",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -132,7 +132,7 @@
       "status": "scheduled",
       "id": "e4248134456049e499f2",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -168,7 +168,7 @@
       "status": "scheduled",
       "id": "e91e1d0362368b32f477",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -205,7 +205,7 @@
       "status": "scheduled",
       "id": "37980d42dbb5ebea2d00",
       "discovered_at": "2026-09-15T11:19:33+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -243,7 +243,7 @@
       "status": "scheduled",
       "id": "07636ede2aab4da0c808",
       "discovered_at": "2026-09-13T14:14:51+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -280,7 +280,7 @@
       "status": "scheduled",
       "id": "78925bac6c95622e6b1b",
       "discovered_at": "2026-09-16T00:02:23+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -294,272 +294,6 @@
     }
   ],
   "deutsches_museum": [
-    {
-      "title": "Nächtliche Welten - Fotoausstellung",
-      "source_name": "Deutsches Museum",
-      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten#2026-09-19T09:00:00+02:00",
-      "start": "2026-09-19T09:00:00+02:00",
-      "end": "2026-09-19T17:00:00+02:00",
-      "description": "In der Sonderausstellung zeigen Freizeit-Astronomen faszinierende Astrofotos aus den Kategorien „Nachtlandschaften“, „Sonnensystem“, „Deep Sky“ und „München“.",
-      "location_name": "Deutsches Museum, Museumsinsel",
-      "address": null,
-      "district": null,
-      "category": "exhibition",
-      "tags": [
-        "museum",
-        "recurring",
-        "science"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": null,
-      "image_url": "https://www.deutsches-museum.de/assets/_processed_/a/7/csm_Naechtliche_Welten_220311_2762_Oststernwarte_Teleskop_Langzeit_ec4b988f18.jpg",
-      "all_day": false,
-      "source_priority": 10,
-      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten",
-      "status": "scheduled",
-      "id": "7faf565d5d6d5f7432cc",
-      "discovered_at": "2026-09-14T21:11:02+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "Deutsches Museum",
-          "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten#2026-09-19T09:00:00+02:00",
-          "priority": 10
-        }
-      ],
-      "stale": false
-    },
-    {
-      "title": "Bergbauern erleben",
-      "source_name": "Deutsches Museum",
-      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben#2026-09-19T09:00:00+02:00",
-      "start": "2026-09-19T09:00:00+02:00",
-      "end": "2026-09-19T17:00:00+02:00",
-      "description": "Kleine Sonderpräsentation über Leben und Arbeit von Bergbauern. Fotos, Interviews und ein Film bieten Einblicke in den bäuerlichen Alltag und die Herausforderungen im bayerischen Alpenraum.",
-      "location_name": "Deutsches Museum · Ausstellung Landwirtschaft und Ernährung",
-      "address": null,
-      "district": null,
-      "category": "science",
-      "tags": [
-        "museum",
-        "recurring",
-        "science"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": true,
-      "image_url": "https://www.deutsches-museum.de/assets/_processed_/f/7/csm_Bergader_Mayr_Abendstimmung_Alm_4cb162e70c.jpg",
-      "all_day": false,
-      "source_priority": 10,
-      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben",
-      "status": "scheduled",
-      "id": "e493598644a425a74009",
-      "discovered_at": "2026-09-15T20:04:10+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "Deutsches Museum",
-          "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/bergbauern-erleben#2026-09-19T09:00:00+02:00",
-          "priority": 10
-        }
-      ],
-      "stale": false
-    },
-    {
-      "title": "Rohstoffe abbauen, nutzen – und dann?",
-      "source_name": "Deutsches Museum",
-      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann#2026-09-19T09:00:00+02:00",
-      "start": "2026-09-19T09:00:00+02:00",
-      "end": "2026-09-19T17:00:00+02:00",
-      "description": "Pop-up-Ausstellung zum Umgang mit Rohstoffen, Nachhaltigkeit und den Folgen des Bergbaus, ergänzt durch einen VR-Rundgang durch die ehemalige Bergbau-Ausstellung.",
-      "location_name": "Deutsches Museum · Science Communication Lab",
-      "address": null,
-      "district": null,
-      "category": "science",
-      "tags": [
-        "museum",
-        "recurring",
-        "science"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": true,
-      "image_url": "https://www.deutsches-museum.de/assets/_processed_/9/7/csm_mining_cavern_and_sandvik_scoop_in_bernburg_mine_5b54d9606b.jpg",
-      "all_day": false,
-      "source_priority": 10,
-      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann",
-      "status": "scheduled",
-      "id": "58c583bbf72b72947ba7",
-      "discovered_at": "2026-09-15T20:04:10+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "Deutsches Museum",
-          "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rohstoffe-abbauen-nutzen-und-dann#2026-09-19T09:00:00+02:00",
-          "priority": 10
-        }
-      ],
-      "stale": false
-    },
-    {
-      "title": "Planetary Health",
-      "source_name": "Deutsches Museum",
-      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health#2026-09-19T09:00:00+02:00",
-      "start": "2026-09-19T09:00:00+02:00",
-      "end": "2026-09-19T17:00:00+02:00",
-      "description": "Am Puls von Mensch und Planet. Die Ausstellung zeigt, wie eng die Gesundheit von Mensch und Erde miteinander verflochten sind.",
-      "location_name": "Deutsches Museum · Auditorium Sonderausstellungsfläche",
-      "address": null,
-      "district": null,
-      "category": "exhibition",
-      "tags": [
-        "museum",
-        "recurring",
-        "science"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": null,
-      "image_url": "https://www.deutsches-museum.de/assets/_processed_/6/4/csm_planetary-health_CD_L_8048_01_4911fcdfa4.jpg",
-      "all_day": false,
-      "source_priority": 10,
-      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health",
-      "status": "scheduled",
-      "id": "62b1e9d7c3bcbf88d30e",
-      "discovered_at": "2026-09-15T20:04:10+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "Deutsches Museum",
-          "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health#2026-09-19T09:00:00+02:00",
-          "priority": 10
-        }
-      ],
-      "stale": false
-    },
-    {
-      "title": "Just Loops – Elektroschrott-Recycling",
-      "source_name": "Deutsches Museum",
-      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/just-loops-elektroschrott-recycling#2026-09-19T09:00:00+02:00",
-      "start": "2026-09-19T09:00:00+02:00",
-      "end": "2026-09-19T17:00:00+02:00",
-      "description": "Realitäten der Kreislaufwirtschaft: Politische Entscheidungen, Macht und Wertschöpfung im informellen Elektroschrottsektor Ghanas.",
-      "location_name": "Deutsches Museum · Science Communication Lab",
-      "address": null,
-      "district": null,
-      "category": "science",
-      "tags": [
-        "museum",
-        "recurring",
-        "science"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": null,
-      "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Schulklassenprogramm_Salzbergwerk_CD_53969_3d70be841e.jpg",
-      "all_day": false,
-      "source_priority": 10,
-      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/just-loops-elektroschrott-recycling",
-      "status": "scheduled",
-      "id": "fa729978e9041611f539",
-      "discovered_at": "2026-09-18T15:32:44+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "Deutsches Museum",
-          "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/just-loops-elektroschrott-recycling#2026-09-19T09:00:00+02:00",
-          "priority": 10
-        }
-      ],
-      "stale": false
-    },
-    {
-      "title": "Übersichtsführung",
-      "source_name": "Deutsches Museum",
-      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung#2026-09-19T14:00:00+02:00",
-      "start": "2026-09-19T14:00:00+02:00",
-      "end": "2026-09-19T15:30:00+02:00",
-      "description": "Lernen Sie die Highlights kennen und erleben Sie unsere Themenvielfalt. Wir führen Sie durch ausgewählte Ausstellungen und zeigen Ihnen beliebte Exponate und erklären aktuelle Themen.",
-      "location_name": "Deutsches Museum, Museumsinsel",
-      "address": null,
-      "district": null,
-      "category": "science",
-      "tags": [
-        "museum",
-        "recurring",
-        "science"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": null,
-      "image_url": "https://www.deutsches-museum.de/assets/_processed_/6/7/csm_Ausstellung_Foucaultsches_Pendel_CD_L_7791_035_3076451892.jpg",
-      "all_day": false,
-      "source_priority": 10,
-      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung",
-      "status": "scheduled",
-      "id": "b5057cf346d84f3ecd60",
-      "discovered_at": "2026-09-16T20:04:31+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "Deutsches Museum",
-          "url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung#2026-09-19T14:00:00+02:00",
-          "priority": 10
-        }
-      ],
-      "stale": false
-    },
-    {
-      "title": "Schwungvolle Kurven",
-      "source_name": "Deutsches Museum",
-      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/schwungvolle-kurven#2026-09-19T15:00:00+02:00",
-      "start": "2026-09-19T15:00:00+02:00",
-      "end": "2026-09-19T15:25:00+02:00",
-      "description": "Mathematik kann richtig schön sein: Lassen Sie sich von schwingenden Pendeln in den Bann ziehen und und verfolgen Sie, wie wunderschöne Zeichnungen auf dem Papier entstehen.",
-      "location_name": "Deutsches Museum · Ausstellung Mathematik",
-      "address": null,
-      "district": null,
-      "category": "science",
-      "tags": [
-        "museum",
-        "recurring",
-        "science"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": true,
-      "image_url": "https://www.deutsches-museum.de/assets/_processed_/e/0/csm_Ausstellung_Mathematik_Harmonograf_CD_84740_11b581f05e.jpg",
-      "all_day": false,
-      "source_priority": 10,
-      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/schwungvolle-kurven",
-      "status": "scheduled",
-      "id": "0832df7a30bed6fc87ec",
-      "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "Deutsches Museum",
-          "url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/schwungvolle-kurven#2026-09-19T15:00:00+02:00",
-          "priority": 10
-        }
-      ],
-      "stale": false
-    },
     {
       "title": "Nächtliche Welten - Fotoausstellung",
       "source_name": "Deutsches Museum",
@@ -586,7 +320,7 @@
       "status": "scheduled",
       "id": "4ca372851ab82610c2cb",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -624,7 +358,7 @@
       "status": "scheduled",
       "id": "054c03a4f42c24356898",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -662,7 +396,7 @@
       "status": "scheduled",
       "id": "7c75f6b4c8b13c7d18df",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -700,7 +434,7 @@
       "status": "scheduled",
       "id": "bae80585e6e6976d4f0d",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -738,7 +472,7 @@
       "status": "scheduled",
       "id": "9b47f4dc9738f1a6bf78",
       "discovered_at": "2026-09-18T15:32:44+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -775,7 +509,7 @@
       "status": "scheduled",
       "id": "b1d6d5a4e8edc7c22618",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -813,7 +547,7 @@
       "status": "scheduled",
       "id": "e75fc7f2525188adba46",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -850,7 +584,7 @@
       "status": "scheduled",
       "id": "bbea8dc0b8f375bb1f2e",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -887,7 +621,7 @@
       "status": "scheduled",
       "id": "ee62f646525567e2376a",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -925,7 +659,7 @@
       "status": "scheduled",
       "id": "8f3ab9993c3b5bd696b5",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -963,7 +697,7 @@
       "status": "scheduled",
       "id": "4848511ca1a86747f63b",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1001,7 +735,7 @@
       "status": "scheduled",
       "id": "ef533f2188f5d804f7db",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1039,7 +773,7 @@
       "status": "scheduled",
       "id": "8516901b0232c37591bc",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1077,7 +811,7 @@
       "status": "scheduled",
       "id": "ded4f6f252727bfa6f34",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1115,7 +849,7 @@
       "status": "scheduled",
       "id": "825aeada1dc71e8158c4",
       "discovered_at": "2026-09-18T15:32:44+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1153,7 +887,7 @@
       "status": "scheduled",
       "id": "0311b427c460c70638c4",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1191,7 +925,7 @@
       "status": "scheduled",
       "id": "40c3adc5383cc6f2a99c",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1229,7 +963,7 @@
       "status": "scheduled",
       "id": "58954b3df4c95d031793",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1267,7 +1001,7 @@
       "status": "scheduled",
       "id": "508b88fb719c7865e9a2",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1305,7 +1039,7 @@
       "status": "scheduled",
       "id": "00a0eec67115545ec568",
       "discovered_at": "2026-09-18T15:32:44+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1343,7 +1077,7 @@
       "status": "scheduled",
       "id": "6f8873e372e1e574d1f9",
       "discovered_at": "2026-09-17T20:04:49+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1381,7 +1115,7 @@
       "status": "scheduled",
       "id": "96fa12a47768ebb269fa",
       "discovered_at": "2026-09-18T15:32:44+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1419,7 +1153,7 @@
       "status": "scheduled",
       "id": "2a9f984e2225e170e06e",
       "discovered_at": "2026-09-18T15:32:44+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1456,7 +1190,7 @@
       "status": "scheduled",
       "id": "862689a93b736100b650",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1494,7 +1228,7 @@
       "status": "scheduled",
       "id": "881bb1753b9b2260ef83",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1532,7 +1266,7 @@
       "status": "scheduled",
       "id": "d9cc844d8ee95c892d3a",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1569,7 +1303,7 @@
       "status": "scheduled",
       "id": "880676d93543a67da14a",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1607,7 +1341,7 @@
       "status": "scheduled",
       "id": "4204f1ffd185b20f2030",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1645,7 +1379,7 @@
       "status": "scheduled",
       "id": "12e8c17cb39f8c181b51",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1682,7 +1416,7 @@
       "status": "scheduled",
       "id": "eb7bc8c41391fbe5e507",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1719,7 +1453,7 @@
       "status": "scheduled",
       "id": "a9d35186ac898f585b09",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1757,7 +1491,7 @@
       "status": "scheduled",
       "id": "767cd25bc98b55a3f7ce",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1794,7 +1528,7 @@
       "status": "scheduled",
       "id": "b9b2cba53712e1309b10",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1831,7 +1565,7 @@
       "status": "scheduled",
       "id": "d1f37b8a7b67a6977e96",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1868,7 +1602,7 @@
       "status": "scheduled",
       "id": "e37d7da54ead6bdb1d76",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1906,7 +1640,7 @@
       "status": "scheduled",
       "id": "fa3615445318cbe6aed7",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1943,7 +1677,7 @@
       "status": "scheduled",
       "id": "834682b4ff73f2fb0c77",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1981,7 +1715,7 @@
       "status": "scheduled",
       "id": "e5f49a2d27186eec9fb0",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2018,7 +1752,7 @@
       "status": "scheduled",
       "id": "43fbe12454244e84d553",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2055,7 +1789,7 @@
       "status": "scheduled",
       "id": "37f6cf085fbb25b4b483",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2092,7 +1826,7 @@
       "status": "scheduled",
       "id": "01840a06bfb9c37ee27a",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2130,7 +1864,7 @@
       "status": "scheduled",
       "id": "8e25e597ab22fadf3a4a",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2167,7 +1901,7 @@
       "status": "scheduled",
       "id": "ac2c6ed2ebb5029ea58d",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2204,7 +1938,7 @@
       "status": "scheduled",
       "id": "3f81fdd7d5b07f359c36",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2242,7 +1976,7 @@
       "status": "scheduled",
       "id": "e2e0d537483bc5135e5d",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2280,7 +2014,7 @@
       "status": "scheduled",
       "id": "7b3e8847b2fb6a072029",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2317,7 +2051,7 @@
       "status": "scheduled",
       "id": "a5289e5140812551443a",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2354,7 +2088,7 @@
       "status": "scheduled",
       "id": "b0d9fd1bf4ebe6832cc6",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2391,7 +2125,7 @@
       "status": "scheduled",
       "id": "aed59bfd8e1e464f9717",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2429,7 +2163,7 @@
       "status": "scheduled",
       "id": "163ec4a1afc0ecf036ce",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2467,7 +2201,7 @@
       "status": "scheduled",
       "id": "6cad1a9c4f42f1a7b30a",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2504,7 +2238,7 @@
       "status": "scheduled",
       "id": "913414ea60ebe79275c7",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2542,13 +2276,276 @@
       "status": "scheduled",
       "id": "e53eb718ee8660abd85d",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "Deutsches Museum",
           "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/just-loops-elektroschrott-recycling#2026-09-24T09:00:00+02:00",
+          "priority": 10
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Rund um die Sinne",
+      "source_name": "Deutsches Museum",
+      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rund-um-die-sinne-aktionswoche#2026-09-24T09:30:00+02:00",
+      "start": "2026-09-24T09:30:00+02:00",
+      "end": "2026-09-24T11:00:00+02:00",
+      "description": "Das Kitaprogramm bietet die Gelegenheit, die faszinierende Welt der menschlichen Sinne zu entdecken. Dieses interaktive Programm ist geeignet ab 3 Jahren.",
+      "location_name": "Deutsches Museum, Museumsinsel",
+      "address": null,
+      "district": null,
+      "category": "science",
+      "tags": [
+        "museum",
+        "science"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": null,
+      "image_url": "https://www.deutsches-museum.de/assets/_processed_/2/5/csm_Titelbild_rund_um_sinne_55274c39b0.jpg",
+      "all_day": false,
+      "source_priority": 10,
+      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rund-um-die-sinne-aktionswoche",
+      "status": "scheduled",
+      "id": "636c1121ff2409c6e762",
+      "discovered_at": "2026-09-19T19:07:00+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "Deutsches Museum",
+          "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rund-um-die-sinne-aktionswoche#2026-09-24T09:30:00+02:00",
+          "priority": 10
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Future Box – Interaktive Führung",
+      "source_name": "Deutsches Museum",
+      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-24T10:30:00+02:00",
+      "start": "2026-09-24T10:30:00+02:00",
+      "end": "2026-09-24T12:00:00+02:00",
+      "description": "Quantencomputer, Raumschiffe, humanoide Roboter: Wie werden wir Menschen neueste Innovationen mit ihren Chancen und Risiken einsetzen, um die Zukunft zu gestalten? Lasst euch durch die Future Box im Forum der Zukunft führen.",
+      "location_name": "Deutsches Museum, Museumsinsel",
+      "address": null,
+      "district": null,
+      "category": "science",
+      "tags": [
+        "museum",
+        "recurring",
+        "science"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": null,
+      "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Forum-der-Zukunft_Future-Box_CD_93027_4b0583aa22.jpg",
+      "all_day": false,
+      "source_priority": 10,
+      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung",
+      "status": "scheduled",
+      "id": "5f4a789331ae5df8ba51",
+      "discovered_at": "2026-09-19T19:07:00+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "Deutsches Museum",
+          "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-24T10:30:00+02:00",
+          "priority": 10
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Übersichtsführung",
+      "source_name": "Deutsches Museum",
+      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung#2026-09-24T11:30:00+02:00",
+      "start": "2026-09-24T11:30:00+02:00",
+      "end": "2026-09-24T13:00:00+02:00",
+      "description": "Lernen Sie die Highlights kennen und erleben Sie unsere Themenvielfalt. Wir führen Sie durch ausgewählte Ausstellungen und zeigen Ihnen beliebte Exponate und erklären aktuelle Themen.",
+      "location_name": "Deutsches Museum, Museumsinsel",
+      "address": null,
+      "district": null,
+      "category": "science",
+      "tags": [
+        "museum",
+        "recurring",
+        "science"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": null,
+      "image_url": "https://www.deutsches-museum.de/assets/_processed_/6/7/csm_Ausstellung_Foucaultsches_Pendel_CD_L_7791_035_3076451892.jpg",
+      "all_day": false,
+      "source_priority": 10,
+      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung",
+      "status": "scheduled",
+      "id": "df285cf9711e81bc36ed",
+      "discovered_at": "2026-09-19T19:07:00+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "Deutsches Museum",
+          "url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung#2026-09-24T11:30:00+02:00",
+          "priority": 10
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Future Box – Interaktive Führung",
+      "source_name": "Deutsches Museum",
+      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-24T13:00:00+02:00",
+      "start": "2026-09-24T13:00:00+02:00",
+      "end": "2026-09-24T14:30:00+02:00",
+      "description": "Quantencomputer, Raumschiffe, humanoide Roboter: Wie werden wir Menschen neueste Innovationen mit ihren Chancen und Risiken einsetzen, um die Zukunft zu gestalten? Lasst euch durch die Future Box im Forum der Zukunft führen.",
+      "location_name": "Deutsches Museum, Museumsinsel",
+      "address": null,
+      "district": null,
+      "category": "science",
+      "tags": [
+        "museum",
+        "recurring",
+        "science"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": null,
+      "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Forum-der-Zukunft_Future-Box_CD_93027_4b0583aa22.jpg",
+      "all_day": false,
+      "source_priority": 10,
+      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung",
+      "status": "scheduled",
+      "id": "d4477e8938ac5895aac0",
+      "discovered_at": "2026-09-19T19:07:00+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "Deutsches Museum",
+          "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-09-24T13:00:00+02:00",
+          "priority": 10
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Rund ums Feld",
+      "source_name": "Deutsches Museum",
+      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rund-ums-feld-nachhaltigkeitswoche#2026-09-24T13:30:00+02:00",
+      "start": "2026-09-24T13:30:00+02:00",
+      "end": "2026-09-24T14:30:00+02:00",
+      "description": "Im spannenden Kinderprogramm „Rund ums Feld“ lernen die Kinder die Arbeiten auf dem Feld kennen und finden heraus, was eine Pflanze zum Wachsen braucht. Dieses interaktive Programm findet in der Ausstellung \"Landwirtschaft und Ernährung\" statt und ist geeignet ab 3 Jahren. ...",
+      "location_name": "Deutsches Museum, Museumsinsel",
+      "address": null,
+      "district": null,
+      "category": "science",
+      "tags": [
+        "museum",
+        "science"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": true,
+      "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/8/csm_Titelbild_Rund_ums_Feld_379f6beb1d.jpg",
+      "all_day": false,
+      "source_priority": 10,
+      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rund-ums-feld-nachhaltigkeitswoche",
+      "status": "scheduled",
+      "id": "b2040cc44bd20dda12d5",
+      "discovered_at": "2026-09-19T19:07:00+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "Deutsches Museum",
+          "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rund-ums-feld-nachhaltigkeitswoche#2026-09-24T13:30:00+02:00",
+          "priority": 10
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Übersichtsführung",
+      "source_name": "Deutsches Museum",
+      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung#2026-09-24T14:00:00+02:00",
+      "start": "2026-09-24T14:00:00+02:00",
+      "end": "2026-09-24T15:30:00+02:00",
+      "description": "Lernen Sie die Highlights kennen und erleben Sie unsere Themenvielfalt. Wir führen Sie durch ausgewählte Ausstellungen und zeigen Ihnen beliebte Exponate und erklären aktuelle Themen.",
+      "location_name": "Deutsches Museum, Museumsinsel",
+      "address": null,
+      "district": null,
+      "category": "science",
+      "tags": [
+        "museum",
+        "recurring",
+        "science"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": null,
+      "image_url": "https://www.deutsches-museum.de/assets/_processed_/6/7/csm_Ausstellung_Foucaultsches_Pendel_CD_L_7791_035_3076451892.jpg",
+      "all_day": false,
+      "source_priority": 10,
+      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung",
+      "status": "scheduled",
+      "id": "247c340d4c632c6bdbb2",
+      "discovered_at": "2026-09-19T19:07:00+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "Deutsches Museum",
+          "url": "https://www.deutsches-museum.de/museumsinsel/programm/programm-heute/uebersichtsfuehrung#2026-09-24T14:00:00+02:00",
+          "priority": 10
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Rund ums Feld",
+      "source_name": "Deutsches Museum",
+      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rund-ums-feld-nachhaltigkeitswoche#2026-09-24T15:00:00+02:00",
+      "start": "2026-09-24T15:00:00+02:00",
+      "end": "2026-09-24T16:00:00+02:00",
+      "description": "Im spannenden Kinderprogramm „Rund ums Feld“ lernen die Kinder die Arbeiten auf dem Feld kennen und finden heraus, was eine Pflanze zum Wachsen braucht. Dieses interaktive Programm findet in der Ausstellung \"Landwirtschaft und Ernährung\" statt und ist geeignet ab 3 Jahren. ...",
+      "location_name": "Deutsches Museum, Museumsinsel",
+      "address": null,
+      "district": null,
+      "category": "science",
+      "tags": [
+        "museum",
+        "science"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": true,
+      "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/8/csm_Titelbild_Rund_ums_Feld_379f6beb1d.jpg",
+      "all_day": false,
+      "source_priority": 10,
+      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rund-ums-feld-nachhaltigkeitswoche",
+      "status": "scheduled",
+      "id": "99b2a2f6dda8d0983080",
+      "discovered_at": "2026-09-19T19:07:00+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "Deutsches Museum",
+          "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/rund-ums-feld-nachhaltigkeitswoche#2026-09-24T15:00:00+02:00",
           "priority": 10
         }
       ],
@@ -2582,7 +2579,7 @@
       "status": "scheduled",
       "id": "195062216f661ca48310",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2619,7 +2616,7 @@
       "status": "scheduled",
       "id": "8502cd34a8c50297cb48",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2657,7 +2654,7 @@
       "status": "scheduled",
       "id": "9e0098ed7a48b257a25c",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2694,7 +2691,7 @@
       "status": "scheduled",
       "id": "e4f6eca9d47a73f103ac",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2731,7 +2728,7 @@
       "status": "scheduled",
       "id": "f67194ae2d12d132ac65",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2768,7 +2765,7 @@
       "status": "scheduled",
       "id": "404c1c8bb375310e9a7a",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2805,7 +2802,7 @@
       "status": "scheduled",
       "id": "fc1cf897b808a4f102e7",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2843,7 +2840,7 @@
       "status": "scheduled",
       "id": "d0f4544ae65450a770b0",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2880,7 +2877,7 @@
       "status": "scheduled",
       "id": "823f8efc7edb5239014f",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2917,7 +2914,7 @@
       "status": "scheduled",
       "id": "f252a11d2ddf1f5e5591",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2954,7 +2951,7 @@
       "status": "scheduled",
       "id": "98b360bfb60c4d9666dc",
       "discovered_at": "2026-09-14T21:11:02+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2991,7 +2988,7 @@
       "status": "scheduled",
       "id": "bf2f8827b052b5bca43c",
       "discovered_at": "2026-09-14T21:11:02+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3029,7 +3026,7 @@
       "status": "scheduled",
       "id": "f94fdd1cd70729d1700e",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3067,7 +3064,7 @@
       "status": "scheduled",
       "id": "63a19d96511a91369c2f",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3104,7 +3101,7 @@
       "status": "scheduled",
       "id": "c4f0253fb675cf6d93e9",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3142,7 +3139,7 @@
       "status": "scheduled",
       "id": "743b75c7469fd65f534c",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3180,7 +3177,7 @@
       "status": "scheduled",
       "id": "f73b6c26ad311fc982f8",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3217,7 +3214,7 @@
       "status": "scheduled",
       "id": "7980ba020c94e8325883",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3255,7 +3252,7 @@
       "status": "scheduled",
       "id": "58104c9ec06f5d46edb8",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3293,7 +3290,7 @@
       "status": "scheduled",
       "id": "d1e018a5e3835a301737",
       "discovered_at": "2026-09-15T11:19:33+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3331,7 +3328,7 @@
       "status": "scheduled",
       "id": "9108d71803c3f06f996a",
       "discovered_at": "2026-09-16T00:02:23+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3369,7 +3366,7 @@
       "status": "scheduled",
       "id": "b696a21c6c3226ba15e1",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3406,7 +3403,7 @@
       "status": "scheduled",
       "id": "8fdccf0a700a81b06507",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3443,7 +3440,7 @@
       "status": "scheduled",
       "id": "803809536170295d11c3",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3481,7 +3478,7 @@
       "status": "scheduled",
       "id": "10bec90cb7846fb287a6",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3518,7 +3515,7 @@
       "status": "scheduled",
       "id": "78f59dfff927ba0783e0",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3557,7 +3554,7 @@
       "status": "scheduled",
       "id": "e71c76cb4665212f1a9c",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3594,7 +3591,7 @@
       "status": "scheduled",
       "id": "fa236df519b141ec541a",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3631,7 +3628,7 @@
       "status": "scheduled",
       "id": "979127cdd4f95be989f2",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3667,7 +3664,7 @@
       "status": "scheduled",
       "id": "ad5307e677018100b2cc",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3704,7 +3701,7 @@
       "status": "scheduled",
       "id": "88c218bd20671274634c",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3740,7 +3737,7 @@
       "status": "scheduled",
       "id": "0112a9fa0792e57a023c",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3777,7 +3774,7 @@
       "status": "scheduled",
       "id": "f5cb2187e843ed1349bb",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3814,7 +3811,7 @@
       "status": "scheduled",
       "id": "a7467529ca85c22b7874",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3851,7 +3848,7 @@
       "status": "scheduled",
       "id": "26ce342ec590de4f319a",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3888,7 +3885,7 @@
       "status": "scheduled",
       "id": "cbc0e0b588f5f9e442c7",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3925,7 +3922,7 @@
       "status": "scheduled",
       "id": "ffe7c623f4a8a51332b9",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3962,7 +3959,7 @@
       "status": "scheduled",
       "id": "b9aced57aa78d149f8a3",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3999,7 +3996,7 @@
       "status": "scheduled",
       "id": "51a8231666a8e563b729",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4035,7 +4032,7 @@
       "status": "scheduled",
       "id": "fa40233bf121f4613eaa",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4072,7 +4069,7 @@
       "status": "scheduled",
       "id": "6174724c145a65d5fbcc",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4109,7 +4106,44 @@
       "status": "scheduled",
       "id": "a17d5e8fbf9ffd4d6063",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "muenchen.de",
+          "url": "https://www.muenchen.de/veranstaltungen/ausstellung-museen/familie-kinder/inside-suit-der-mensch-im-raumanzug",
+          "priority": 100
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Inside the Suit – Der Mensch im Raumanzug",
+      "source_name": "muenchen.de",
+      "source_url": "https://www.muenchen.de/veranstaltungen/ausstellung-museen/familie-kinder/inside-suit-der-mensch-im-raumanzug",
+      "start": "2026-09-22T09:00:00+02:00",
+      "end": "2026-09-22T17:00:00+02:00",
+      "description": null,
+      "location_name": "Deutsches Museum - Flugwerft Schleißheim",
+      "address": null,
+      "district": null,
+      "category": "family",
+      "tags": [
+        "family",
+        "recurring"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": true,
+      "image_url": null,
+      "all_day": false,
+      "source_priority": 100,
+      "series_id": "inside the suit – der mensch im raumanzug",
+      "status": "scheduled",
+      "id": "278a4e7c03a1adbebfa0",
+      "discovered_at": "2026-09-13T21:01:24+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4146,50 +4180,13 @@
       "status": "scheduled",
       "id": "3d2fce3494134a1db01f",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "muenchen.de",
           "url": "https://www.muenchen.de/veranstaltungen/ausstellung-museen/familie-kinder/jetzt-gehts-rund-kreislaeufe-statt-abfaelle",
-          "priority": 100
-        }
-      ],
-      "stale": false
-    },
-    {
-      "title": "Inside the Suit – Der Mensch im Raumanzug",
-      "source_name": "muenchen.de",
-      "source_url": "https://www.muenchen.de/veranstaltungen/ausstellung-museen/familie-kinder/inside-suit-der-mensch-im-raumanzug",
-      "start": "2026-09-22T09:00:00+02:00",
-      "end": "2026-09-22T17:00:00+02:00",
-      "description": null,
-      "location_name": "Deutsches Museum - Flugwerft Schleißheim",
-      "address": null,
-      "district": null,
-      "category": "family",
-      "tags": [
-        "family",
-        "recurring"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": true,
-      "image_url": null,
-      "all_day": false,
-      "source_priority": 100,
-      "series_id": "inside the suit – der mensch im raumanzug",
-      "status": "scheduled",
-      "id": "278a4e7c03a1adbebfa0",
-      "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "muenchen.de",
-          "url": "https://www.muenchen.de/veranstaltungen/ausstellung-museen/familie-kinder/inside-suit-der-mensch-im-raumanzug",
           "priority": 100
         }
       ],
@@ -4220,7 +4217,7 @@
       "status": "scheduled",
       "id": "8ae51f3fe73dfe2157db",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4257,7 +4254,7 @@
       "status": "scheduled",
       "id": "d3d2feb253e7af2410fe",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4294,7 +4291,7 @@
       "status": "scheduled",
       "id": "b2b9e5f7f8fbf31ddf71",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4331,44 +4328,7 @@
       "status": "scheduled",
       "id": "409f33caf6b465a9d5bb",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "muenchen.de",
-          "url": "https://www.muenchen.de/veranstaltungen/ausstellung-museen/familie-kinder/jetzt-gehts-rund-kreislaeufe-statt-abfaelle",
-          "priority": 100
-        }
-      ],
-      "stale": false
-    },
-    {
-      "title": "Jetzt geht’s rund – Kreisläufe statt Abfälle",
-      "source_name": "muenchen.de",
-      "source_url": "https://www.muenchen.de/veranstaltungen/ausstellung-museen/familie-kinder/jetzt-gehts-rund-kreislaeufe-statt-abfaelle",
-      "start": "2026-09-25T09:00:00+02:00",
-      "end": "2026-09-25T17:00:00+02:00",
-      "description": null,
-      "location_name": "Museum Mensch und Natur",
-      "address": null,
-      "district": null,
-      "category": "family",
-      "tags": [
-        "family",
-        "recurring"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": true,
-      "image_url": null,
-      "all_day": false,
-      "source_priority": 100,
-      "series_id": "jetzt geht’s rund – kreisläufe statt abfälle",
-      "status": "scheduled",
-      "id": "e647034390a1ab4897fd",
-      "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4405,7 +4365,7 @@
       "status": "scheduled",
       "id": "9bddd23620d35e51e9b9",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4418,18 +4378,19 @@
       "stale": false
     },
     {
-      "title": "Der kleine Nick macht Ferien",
+      "title": "Jetzt geht’s rund – Kreisläufe statt Abfälle",
       "source_name": "muenchen.de",
-      "source_url": "https://www.muenchen.de/veranstaltungen/event/familie-kinder",
-      "start": "2026-09-25T15:00:00+02:00",
-      "end": "2026-09-25T16:30:00+02:00",
+      "source_url": "https://www.muenchen.de/veranstaltungen/ausstellung-museen/familie-kinder/jetzt-gehts-rund-kreislaeufe-statt-abfaelle",
+      "start": "2026-09-25T09:00:00+02:00",
+      "end": "2026-09-25T17:00:00+02:00",
       "description": null,
-      "location_name": "Gasteig HP8",
+      "location_name": "Museum Mensch und Natur",
       "address": null,
       "district": null,
       "category": "family",
       "tags": [
-        "family"
+        "family",
+        "recurring"
       ],
       "price_text": null,
       "is_free": null,
@@ -4437,17 +4398,17 @@
       "image_url": null,
       "all_day": false,
       "source_priority": 100,
-      "series_id": "der kleine nick macht ferien",
+      "series_id": "jetzt geht’s rund – kreisläufe statt abfälle",
       "status": "scheduled",
-      "id": "382b3f9e47013385a26a",
-      "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "id": "e647034390a1ab4897fd",
+      "discovered_at": "2026-09-13T21:01:24+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "muenchen.de",
-          "url": "https://www.muenchen.de/veranstaltungen/event/familie-kinder",
+          "url": "https://www.muenchen.de/veranstaltungen/ausstellung-museen/familie-kinder/jetzt-gehts-rund-kreislaeufe-statt-abfaelle",
           "priority": 100
         }
       ],
@@ -4478,7 +4439,43 @@
       "status": "scheduled",
       "id": "000f2054df81008f3692",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "muenchen.de",
+          "url": "https://www.muenchen.de/veranstaltungen/event/familie-kinder",
+          "priority": 100
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Der kleine Nick macht Ferien",
+      "source_name": "muenchen.de",
+      "source_url": "https://www.muenchen.de/veranstaltungen/event/familie-kinder",
+      "start": "2026-09-25T15:00:00+02:00",
+      "end": "2026-09-25T16:30:00+02:00",
+      "description": null,
+      "location_name": "Gasteig HP8",
+      "address": null,
+      "district": null,
+      "category": "family",
+      "tags": [
+        "family"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": true,
+      "image_url": null,
+      "all_day": false,
+      "source_priority": 100,
+      "series_id": "der kleine nick macht ferien",
+      "status": "scheduled",
+      "id": "382b3f9e47013385a26a",
+      "discovered_at": "2026-09-13T21:08:36+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4515,7 +4512,7 @@
       "status": "scheduled",
       "id": "0b796ecf8742e8af0e09",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4552,7 +4549,7 @@
       "status": "scheduled",
       "id": "e0b2649b1c4eb9387c3b",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4589,7 +4586,7 @@
       "status": "scheduled",
       "id": "67666e82a2175a808661",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4626,7 +4623,7 @@
       "status": "scheduled",
       "id": "d34684efbbd16e47735c",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4663,7 +4660,7 @@
       "status": "scheduled",
       "id": "06a972971204d1f368e6",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4700,7 +4697,7 @@
       "status": "scheduled",
       "id": "91ea714ac01f95aec2ef",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4737,7 +4734,7 @@
       "status": "scheduled",
       "id": "1268294605e5b1498f0f",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4776,7 +4773,7 @@
       "status": "scheduled",
       "id": "ebee95eb8d9638f5cecb",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4813,7 +4810,7 @@
       "status": "scheduled",
       "id": "93d76119696fc0762076",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4850,7 +4847,7 @@
       "status": "scheduled",
       "id": "10512bb9d54b03d56bd2",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4887,7 +4884,7 @@
       "status": "scheduled",
       "id": "87f38297f7265b8e5513",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4924,7 +4921,7 @@
       "status": "scheduled",
       "id": "92255e0152e27e6deec2",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4961,7 +4958,7 @@
       "status": "scheduled",
       "id": "42900a6489e1aa23aac4",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4998,7 +4995,7 @@
       "status": "scheduled",
       "id": "d1f2a89c86c0446cf4f7",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5035,7 +5032,7 @@
       "status": "scheduled",
       "id": "5a36f2cc067435480cdc",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5072,7 +5069,7 @@
       "status": "scheduled",
       "id": "39cdaeaa80893c2da2b0",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5109,7 +5106,7 @@
       "status": "scheduled",
       "id": "b493404c08be5aeb86b7",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5146,7 +5143,7 @@
       "status": "scheduled",
       "id": "a22e299d468c9d0fd748",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5183,7 +5180,7 @@
       "status": "scheduled",
       "id": "7788af72d1071bdddb35",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5219,7 +5216,7 @@
       "status": "scheduled",
       "id": "d9aad0e1497fbe0fa73c",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5256,7 +5253,7 @@
       "status": "scheduled",
       "id": "9fe7a3cd7c5ec884e67e",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5293,7 +5290,7 @@
       "status": "scheduled",
       "id": "188c0e59745448e5c706",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5330,7 +5327,7 @@
       "status": "scheduled",
       "id": "a0aeae70b114063b25c2",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5367,7 +5364,7 @@
       "status": "scheduled",
       "id": "531f597f493432deb72a",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5404,7 +5401,7 @@
       "status": "scheduled",
       "id": "3eb95ae47339629524ed",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5441,7 +5438,7 @@
       "status": "scheduled",
       "id": "4a8f733deb3b12b14c5d",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5478,7 +5475,7 @@
       "status": "scheduled",
       "id": "e1937af1bdc77958d145",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5515,7 +5512,7 @@
       "status": "scheduled",
       "id": "16497c2bb1a8d29fab11",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5551,7 +5548,7 @@
       "status": "scheduled",
       "id": "170c0034635336b2db99",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5588,7 +5585,7 @@
       "status": "scheduled",
       "id": "a561b007e37a3167f095",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5625,7 +5622,7 @@
       "status": "scheduled",
       "id": "6a2b670fa59e24c647d3",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5662,7 +5659,7 @@
       "status": "scheduled",
       "id": "25ac59c37299454fd782",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5699,7 +5696,7 @@
       "status": "scheduled",
       "id": "01cf02104abde141f53a",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5736,7 +5733,7 @@
       "status": "scheduled",
       "id": "23d92b9023e307999a79",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5773,7 +5770,7 @@
       "status": "scheduled",
       "id": "cea1bae0fb39c34e886f",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5810,7 +5807,7 @@
       "status": "scheduled",
       "id": "c05eb134490678c91d3d",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5847,7 +5844,7 @@
       "status": "scheduled",
       "id": "28531f831fa0f699329f",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5884,7 +5881,7 @@
       "status": "scheduled",
       "id": "cbaf9c15da54aa317534",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5920,7 +5917,7 @@
       "status": "scheduled",
       "id": "6824c16652d8c4565a5c",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5957,7 +5954,7 @@
       "status": "scheduled",
       "id": "4857712c91d18ba68ce1",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5994,7 +5991,7 @@
       "status": "scheduled",
       "id": "6eef07afa9336ea417b5",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6031,7 +6028,7 @@
       "status": "scheduled",
       "id": "e819516b260db5b83e07",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6068,7 +6065,7 @@
       "status": "scheduled",
       "id": "84c6e5466a34e0bf2847",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6105,7 +6102,7 @@
       "status": "scheduled",
       "id": "e9a257b4104596369c40",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6142,7 +6139,7 @@
       "status": "scheduled",
       "id": "9ef955a8de3fca0ac352",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6179,7 +6176,7 @@
       "status": "scheduled",
       "id": "df107357d7820bb7e187",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6216,7 +6213,7 @@
       "status": "scheduled",
       "id": "bbb82940a54ee0b9ffea",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6252,7 +6249,7 @@
       "status": "scheduled",
       "id": "0a065b19e112123aaa7f",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6289,7 +6286,7 @@
       "status": "scheduled",
       "id": "e7c4ce286451cdb077f3",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6326,7 +6323,7 @@
       "status": "scheduled",
       "id": "427120e48b7a00e10e03",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6363,7 +6360,7 @@
       "status": "scheduled",
       "id": "26ff9db569c51803859b",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6400,7 +6397,7 @@
       "status": "scheduled",
       "id": "6f3606248272f6bca5f1",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6437,7 +6434,7 @@
       "status": "scheduled",
       "id": "373f421fa2fab3a46765",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6474,7 +6471,7 @@
       "status": "scheduled",
       "id": "50c0e39ce17a532355b9",
       "discovered_at": "2026-09-15T11:19:33+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6511,7 +6508,7 @@
       "status": "scheduled",
       "id": "6dc2da73723292f4f67f",
       "discovered_at": "2026-09-15T11:19:33+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6548,7 +6545,7 @@
       "status": "scheduled",
       "id": "e2e85a3978a64507a39d",
       "discovered_at": "2026-09-16T00:02:23+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6585,49 +6582,13 @@
       "status": "scheduled",
       "id": "4a269f9e0ad347c559db",
       "discovered_at": "2026-09-16T00:02:23+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "muenchen.de",
           "url": "https://www.muenchen.de/veranstaltungen/ausstellung-museen/familie-kinder/jetzt-gehts-rund-kreislaeufe-statt-abfaelle",
-          "priority": 100
-        }
-      ],
-      "stale": false
-    },
-    {
-      "title": "Ente gut!",
-      "source_name": "muenchen.de",
-      "source_url": "https://www.muenchen.de/veranstaltungen/event/familie-kinder",
-      "start": "2026-10-16T15:00:00+02:00",
-      "end": "2026-10-16T16:30:00+02:00",
-      "description": null,
-      "location_name": "Gasteig HP8",
-      "address": null,
-      "district": null,
-      "category": "family",
-      "tags": [
-        "family"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": true,
-      "image_url": null,
-      "all_day": false,
-      "source_priority": 100,
-      "series_id": "ente gut!",
-      "status": "scheduled",
-      "id": "1ec2014423165dfb6d29",
-      "discovered_at": "2026-09-16T00:02:23+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "muenchen.de",
-          "url": "https://www.muenchen.de/veranstaltungen/event/familie-kinder",
           "priority": 100
         }
       ],
@@ -6658,7 +6619,43 @@
       "status": "scheduled",
       "id": "d33e4bb81ea9c6d0df33",
       "discovered_at": "2026-09-16T00:02:23+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "muenchen.de",
+          "url": "https://www.muenchen.de/veranstaltungen/event/familie-kinder",
+          "priority": 100
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Ente gut!",
+      "source_name": "muenchen.de",
+      "source_url": "https://www.muenchen.de/veranstaltungen/event/familie-kinder",
+      "start": "2026-10-16T15:00:00+02:00",
+      "end": "2026-10-16T16:30:00+02:00",
+      "description": null,
+      "location_name": "Gasteig HP8",
+      "address": null,
+      "district": null,
+      "category": "family",
+      "tags": [
+        "family"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": true,
+      "image_url": null,
+      "all_day": false,
+      "source_priority": 100,
+      "series_id": "ente gut!",
+      "status": "scheduled",
+      "id": "1ec2014423165dfb6d29",
+      "discovered_at": "2026-09-16T00:02:23+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6695,7 +6692,7 @@
       "status": "scheduled",
       "id": "2fa1c5054562ce12695d",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6732,7 +6729,7 @@
       "status": "scheduled",
       "id": "caf41001ca4c73e69b99",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6769,7 +6766,7 @@
       "status": "scheduled",
       "id": "136411f2912a8db27845",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6806,7 +6803,7 @@
       "status": "scheduled",
       "id": "63cdc54cc7e01d69078a",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6843,50 +6840,13 @@
       "status": "scheduled",
       "id": "03275c8e91e5945e46ef",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "muenchen.de",
           "url": "https://www.muenchen.de/veranstaltungen/ausstellung-museen/familie-kinder/inside-suit-der-mensch-im-raumanzug",
-          "priority": 100
-        }
-      ],
-      "stale": false
-    },
-    {
-      "title": "Pettersson und Findus feiern Geburtstag",
-      "source_name": "muenchen.de",
-      "source_url": "https://www.muenchen.de/veranstaltungen/event/familie-kinder",
-      "start": "2026-10-18T10:00:00+02:00",
-      "end": "2026-10-18T12:00:00+02:00",
-      "description": null,
-      "location_name": "Münchner Theater für Kinder",
-      "address": null,
-      "district": null,
-      "category": "family",
-      "tags": [
-        "family",
-        "recurring"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": true,
-      "image_url": null,
-      "all_day": false,
-      "source_priority": 100,
-      "series_id": "pettersson und findus feiern geburtstag",
-      "status": "scheduled",
-      "id": "7831fb4724563ea23b06",
-      "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "muenchen.de",
-          "url": "https://www.muenchen.de/veranstaltungen/event/familie-kinder",
           "priority": 100
         }
       ],
@@ -6917,13 +6877,50 @@
       "status": "scheduled",
       "id": "116a58eab36ef4eaf1d5",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "muenchen.de",
           "url": "https://www.muenchen.de/veranstaltungen/ausstellung-museen/familie-kinder/jetzt-gehts-rund-kreislaeufe-statt-abfaelle",
+          "priority": 100
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Pettersson und Findus feiern Geburtstag",
+      "source_name": "muenchen.de",
+      "source_url": "https://www.muenchen.de/veranstaltungen/event/familie-kinder",
+      "start": "2026-10-18T10:00:00+02:00",
+      "end": "2026-10-18T12:00:00+02:00",
+      "description": null,
+      "location_name": "Münchner Theater für Kinder",
+      "address": null,
+      "district": null,
+      "category": "family",
+      "tags": [
+        "family",
+        "recurring"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": true,
+      "image_url": null,
+      "all_day": false,
+      "source_priority": 100,
+      "series_id": "pettersson und findus feiern geburtstag",
+      "status": "scheduled",
+      "id": "7831fb4724563ea23b06",
+      "discovered_at": "2026-09-18T00:00:54+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "muenchen.de",
+          "url": "https://www.muenchen.de/veranstaltungen/event/familie-kinder",
           "priority": 100
         }
       ],
@@ -6954,7 +6951,7 @@
       "status": "scheduled",
       "id": "ec2df4cb4036ff6b7621",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6991,7 +6988,7 @@
       "status": "scheduled",
       "id": "53fab47ea563cce797ae",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7028,7 +7025,7 @@
       "status": "scheduled",
       "id": "9fe7a3cd7c5ec884e67e",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7064,7 +7061,7 @@
       "status": "scheduled",
       "id": "d9aad0e1497fbe0fa73c",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7101,7 +7098,7 @@
       "status": "scheduled",
       "id": "a0aeae70b114063b25c2",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7138,7 +7135,7 @@
       "status": "scheduled",
       "id": "3eb95ae47339629524ed",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7175,7 +7172,7 @@
       "status": "scheduled",
       "id": "e1937af1bdc77958d145",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7211,7 +7208,7 @@
       "status": "scheduled",
       "id": "170c0034635336b2db99",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7248,7 +7245,7 @@
       "status": "scheduled",
       "id": "4857712c91d18ba68ce1",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7284,7 +7281,7 @@
       "status": "scheduled",
       "id": "6824c16652d8c4565a5c",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7318,7 +7315,7 @@
       "status": "scheduled",
       "id": "9b10d06b07263a5e503a",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7352,7 +7349,7 @@
       "status": "scheduled",
       "id": "1b558375340f3339a010",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7386,7 +7383,7 @@
       "status": "scheduled",
       "id": "d371383744be4783d292",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7422,7 +7419,7 @@
       "status": "scheduled",
       "id": "589d2054138071a4c251",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7456,7 +7453,7 @@
       "status": "scheduled",
       "id": "9135663d603fc7a5ea33",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7494,7 +7491,7 @@
       "status": "scheduled",
       "id": "cf162c758633d1756a68",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7531,7 +7528,7 @@
       "status": "scheduled",
       "id": "3a9997279c02c4762ac7",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7568,7 +7565,7 @@
       "status": "scheduled",
       "id": "378a72886fb08272eed6",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7606,7 +7603,7 @@
       "status": "scheduled",
       "id": "0750542a972e208fa532",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7640,7 +7637,7 @@
       "status": "scheduled",
       "id": "fd5c8ccc13e17dfd9364",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7674,7 +7671,7 @@
       "status": "scheduled",
       "id": "332cb50232af97ac1f0f",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7712,7 +7709,7 @@
       "status": "scheduled",
       "id": "58d812f3f50112bd4547",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7749,7 +7746,7 @@
       "status": "scheduled",
       "id": "54f6c1cfc141a1a45e8a",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7783,7 +7780,7 @@
       "status": "scheduled",
       "id": "360b3485bef8a95f986e",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7819,7 +7816,7 @@
       "status": "scheduled",
       "id": "5b5897aa0af396bc3626",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7853,7 +7850,7 @@
       "status": "scheduled",
       "id": "279b2fc32805adb84f63",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7889,7 +7886,7 @@
       "status": "scheduled",
       "id": "0c7e1ba20951d627c662",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7923,7 +7920,7 @@
       "status": "scheduled",
       "id": "8bce124568ee2e650c39",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7957,7 +7954,7 @@
       "status": "scheduled",
       "id": "3d56dd372b5e3a3e4535",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7991,7 +7988,7 @@
       "status": "scheduled",
       "id": "bb4e4f54eddbb422a863",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8025,7 +8022,7 @@
       "status": "scheduled",
       "id": "94c87c9233687bd47414",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8059,7 +8056,7 @@
       "status": "scheduled",
       "id": "32522c4ab7436d23a9e2",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8095,7 +8092,7 @@
       "status": "scheduled",
       "id": "a25970c4e525d96b5a05",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8131,7 +8128,7 @@
       "status": "scheduled",
       "id": "85f76bb09faa3a51682e",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8165,7 +8162,7 @@
       "status": "scheduled",
       "id": "c9345ed86f6a45514b5c",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8199,7 +8196,7 @@
       "status": "scheduled",
       "id": "30c48057eb29a454aed4",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8233,7 +8230,7 @@
       "status": "scheduled",
       "id": "5a6a7de8daf849ba1f7c",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8267,7 +8264,7 @@
       "status": "scheduled",
       "id": "c50504392ab6958d5d50",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8301,7 +8298,7 @@
       "status": "scheduled",
       "id": "6d00b06e516e7cdecf53",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8337,7 +8334,7 @@
       "status": "scheduled",
       "id": "bd70f3a1f957e68c2910",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8373,7 +8370,7 @@
       "status": "scheduled",
       "id": "4bd3d2586fdd29560dc7",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8412,7 +8409,7 @@
       "status": "scheduled",
       "id": "d1fecae06a8500568fa4",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8446,7 +8443,7 @@
       "status": "scheduled",
       "id": "43e6ded23677bd09f0f5",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8482,7 +8479,7 @@
       "status": "scheduled",
       "id": "acb7581af22be660b48c",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8519,7 +8516,7 @@
       "status": "scheduled",
       "id": "dc570b7b88a38e6f05fa",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8553,7 +8550,7 @@
       "status": "scheduled",
       "id": "bdc9239864b191c4b4f0",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8587,7 +8584,7 @@
       "status": "scheduled",
       "id": "a9c1a02b62900bac6aa9",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8621,7 +8618,7 @@
       "status": "scheduled",
       "id": "61a0f7f087ee32f4dabc",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8655,7 +8652,7 @@
       "status": "scheduled",
       "id": "a66d2e20382295c0b641",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8689,7 +8686,7 @@
       "status": "scheduled",
       "id": "b5e67a30e24610978f40",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8725,7 +8722,7 @@
       "status": "scheduled",
       "id": "e27bcf37daf42d26952e",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8759,7 +8756,7 @@
       "status": "scheduled",
       "id": "39c63535db6e0bf24c27",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8793,7 +8790,7 @@
       "status": "scheduled",
       "id": "2998c09bc7213f8c2dbd",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8827,7 +8824,7 @@
       "status": "scheduled",
       "id": "e1506d88c60bc1db1001",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8865,7 +8862,7 @@
       "status": "scheduled",
       "id": "de9190ed263930aa35a7",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8903,7 +8900,7 @@
       "status": "scheduled",
       "id": "dc7145e3011d6af5af2f",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8937,7 +8934,7 @@
       "status": "scheduled",
       "id": "c5790a3a3d83bb5f9d22",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8971,7 +8968,7 @@
       "status": "scheduled",
       "id": "45b76e7b67433d644f8d",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9005,7 +9002,7 @@
       "status": "scheduled",
       "id": "c0c49cf7e30c1bdaa613",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9039,7 +9036,7 @@
       "status": "scheduled",
       "id": "a74a79f2d0a648897f6d",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9073,7 +9070,7 @@
       "status": "scheduled",
       "id": "78728192de32b1c92ffd",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9109,7 +9106,7 @@
       "status": "scheduled",
       "id": "cb04181f4588344a0f00",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9143,7 +9140,7 @@
       "status": "scheduled",
       "id": "5eecf152952933d9cef6",
       "discovered_at": "2026-09-16T20:04:31+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9179,7 +9176,7 @@
       "status": "scheduled",
       "id": "5d591e0e90cba1395ff6",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9213,7 +9210,7 @@
       "status": "scheduled",
       "id": "b7635c88c97385920e53",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9249,7 +9246,7 @@
       "status": "scheduled",
       "id": "d63fdb0dcd511540ecec",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9283,7 +9280,7 @@
       "status": "scheduled",
       "id": "85c87d7ae95cf77b5fe9",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9317,7 +9314,7 @@
       "status": "scheduled",
       "id": "e6ac6fc88fb5c1f9fe8e",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9351,7 +9348,7 @@
       "status": "scheduled",
       "id": "6ce737968fe25c77c80d",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9387,7 +9384,7 @@
       "status": "scheduled",
       "id": "d8e6e66e9ffc3d2e7643",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9424,7 +9421,7 @@
       "status": "scheduled",
       "id": "30a7ea29f423a3ee59dd",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9461,7 +9458,7 @@
       "status": "scheduled",
       "id": "f1d0ebea6d01096bb9cd",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9495,7 +9492,7 @@
       "status": "scheduled",
       "id": "935c6b479f49366c473f",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9531,7 +9528,7 @@
       "status": "scheduled",
       "id": "568028a77ad3944c36cd",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9569,7 +9566,7 @@
       "status": "scheduled",
       "id": "1d087d5f7e58d549da6b",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9606,7 +9603,7 @@
       "status": "scheduled",
       "id": "71be5807c4eb237a02a9",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9643,7 +9640,7 @@
       "status": "scheduled",
       "id": "3dfc18bfe12564506e8a",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9680,7 +9677,7 @@
       "status": "scheduled",
       "id": "f2e365c4b1b7867e913d",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9718,7 +9715,7 @@
       "status": "scheduled",
       "id": "16a017c84f9608869f30",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9755,7 +9752,7 @@
       "status": "scheduled",
       "id": "03968948cbba6e79c059",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9792,7 +9789,7 @@
       "status": "scheduled",
       "id": "5bd9e41204c3bd46aee1",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9828,7 +9825,7 @@
       "status": "scheduled",
       "id": "507968eebfcbde1a87f2",
       "discovered_at": "2026-09-18T10:55:44+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9865,7 +9862,7 @@
       "status": "scheduled",
       "id": "07fb09daf84898be21fb",
       "discovered_at": "2026-09-18T10:55:44+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9901,7 +9898,7 @@
       "status": "scheduled",
       "id": "253c1ff9a367688cabd3",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9937,7 +9934,7 @@
       "status": "scheduled",
       "id": "b2597d8dd7edef0061e4",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9974,7 +9971,7 @@
       "status": "scheduled",
       "id": "d63fd07184147c754077",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10010,13 +10007,49 @@
       "status": "scheduled",
       "id": "9a611329d70310ae89cc",
       "discovered_at": "2026-09-16T20:04:31+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "Haus der Kunst",
           "url": "https://www.hausderkunst.de/veranstaltungen/little-wildlife-explorers-entdeckt-die-biodiversität-des-gemeinschaftsgarten-ostwiese-316745",
+          "priority": 10
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Little Wildlife Explorers: Wie Tiere Materialien und Architektur nutzen, um ein Zuhause zu bauen",
+      "source_name": "Haus der Kunst",
+      "source_url": "https://www.hausderkunst.de/veranstaltungen/little-wildlife-explorers-entdeckt-die-biodiversität-des-gemeinschaftsgarten-ostwiese-316747",
+      "start": "2026-09-26T15:00:00+02:00",
+      "end": null,
+      "description": "15:00 — Mitmachen, Kinder & Familien, Gemeinschaftsgarten Ostwiese",
+      "location_name": "Haus der Kunst",
+      "address": "Prinzregentenstraße 1, München",
+      "district": null,
+      "category": "family",
+      "tags": [
+        "family"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": true,
+      "image_url": null,
+      "all_day": false,
+      "source_priority": 10,
+      "series_id": "little wildlife explorers: wie tiere materialien und architektur nutzen, um ein zuhause zu bauen",
+      "status": "scheduled",
+      "id": "8690455f7104b06da18a",
+      "discovered_at": "2026-09-16T20:04:31+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "Haus der Kunst",
+          "url": "https://www.hausderkunst.de/veranstaltungen/little-wildlife-explorers-entdeckt-die-biodiversität-des-gemeinschaftsgarten-ostwiese-316747",
           "priority": 10
         }
       ],
@@ -10048,49 +10081,13 @@
       "status": "scheduled",
       "id": "1e2ecd6ed59a1e28264f",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "Haus der Kunst",
           "url": "https://www.hausderkunst.de/veranstaltungen/familienführung-zu-tomás-saraceno-verwobene-welten-285401",
-          "priority": 10
-        }
-      ],
-      "stale": false
-    },
-    {
-      "title": "Little Wildlife Explorers: Wie Tiere Materialien und Architektur nutzen, um ein Zuhause zu bauen",
-      "source_name": "Haus der Kunst",
-      "source_url": "https://www.hausderkunst.de/veranstaltungen/little-wildlife-explorers-entdeckt-die-biodiversität-des-gemeinschaftsgarten-ostwiese-316747",
-      "start": "2026-09-26T15:00:00+02:00",
-      "end": null,
-      "description": "15:00 — Mitmachen, Kinder & Familien, Gemeinschaftsgarten Ostwiese",
-      "location_name": "Haus der Kunst",
-      "address": "Prinzregentenstraße 1, München",
-      "district": null,
-      "category": "family",
-      "tags": [
-        "family"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": true,
-      "image_url": null,
-      "all_day": false,
-      "source_priority": 10,
-      "series_id": "little wildlife explorers: wie tiere materialien und architektur nutzen, um ein zuhause zu bauen",
-      "status": "scheduled",
-      "id": "8690455f7104b06da18a",
-      "discovered_at": "2026-09-16T20:04:31+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "Haus der Kunst",
-          "url": "https://www.hausderkunst.de/veranstaltungen/little-wildlife-explorers-entdeckt-die-biodiversität-des-gemeinschaftsgarten-ostwiese-316747",
           "priority": 10
         }
       ],
@@ -10121,7 +10118,7 @@
       "status": "scheduled",
       "id": "da49bf4845e7954d4535",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10158,7 +10155,7 @@
       "status": "scheduled",
       "id": "ab6ad0cdb9fea3068938",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10194,7 +10191,7 @@
       "status": "scheduled",
       "id": "fca76d600aec09bab234",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10231,7 +10228,7 @@
       "status": "scheduled",
       "id": "ff04909d6cf871b087f4",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10268,7 +10265,7 @@
       "status": "scheduled",
       "id": "21db376b07e2c397c614",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10304,7 +10301,7 @@
       "status": "scheduled",
       "id": "6cb33e12d03574120a88",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10341,7 +10338,7 @@
       "status": "scheduled",
       "id": "674dbe8f1215d96c9c6f",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10378,7 +10375,7 @@
       "status": "scheduled",
       "id": "a4668742df7c2e2ee486",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10416,49 +10413,13 @@
       "status": "scheduled",
       "id": "4fa45a288b7bcba4ffe2",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "Haus der Kunst",
           "url": "https://www.hausderkunst.de/veranstaltungen/familienführung-zu-tomás-saraceno-verwobene-welten-290832",
-          "priority": 10
-        }
-      ],
-      "stale": false
-    },
-    {
-      "title": "Little Wildlife Explorers: Pilze, Flechten, Moose",
-      "source_name": "Haus der Kunst",
-      "source_url": "https://www.hausderkunst.de/veranstaltungen/little-wildlife-explorers-entdeckt-die-biodiversität-des-gemeinschaftsgarten-ostwiese-316737",
-      "start": "2026-10-03T14:00:00+02:00",
-      "end": null,
-      "description": "14:00 — Mitmachen, Kinder & Familien, Gemeinschaftsgarten Ostwiese",
-      "location_name": "Haus der Kunst",
-      "address": "Prinzregentenstraße 1, München",
-      "district": null,
-      "category": "family",
-      "tags": [
-        "family"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": true,
-      "image_url": null,
-      "all_day": false,
-      "source_priority": 10,
-      "series_id": "little wildlife explorers: pilze, flechten, moose",
-      "status": "scheduled",
-      "id": "21567e0083710f52a80b",
-      "discovered_at": "2026-09-16T20:04:31+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "Haus der Kunst",
-          "url": "https://www.hausderkunst.de/veranstaltungen/little-wildlife-explorers-entdeckt-die-biodiversität-des-gemeinschaftsgarten-ostwiese-316737",
           "priority": 10
         }
       ],
@@ -10488,13 +10449,85 @@
       "status": "scheduled",
       "id": "82e84d5659bec6e9e256",
       "discovered_at": "2026-09-16T20:04:31+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "Haus der Kunst",
           "url": "https://www.hausderkunst.de/veranstaltungen/open-salon-mit-mothering-subversive-fürsorge-als-radikale-praxis-316683",
+          "priority": 10
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Little Wildlife Explorers: Pilze, Flechten, Moose",
+      "source_name": "Haus der Kunst",
+      "source_url": "https://www.hausderkunst.de/veranstaltungen/little-wildlife-explorers-entdeckt-die-biodiversität-des-gemeinschaftsgarten-ostwiese-316737",
+      "start": "2026-10-03T14:00:00+02:00",
+      "end": null,
+      "description": "14:00 — Mitmachen, Kinder & Familien, Gemeinschaftsgarten Ostwiese",
+      "location_name": "Haus der Kunst",
+      "address": "Prinzregentenstraße 1, München",
+      "district": null,
+      "category": "family",
+      "tags": [
+        "family"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": true,
+      "image_url": null,
+      "all_day": false,
+      "source_priority": 10,
+      "series_id": "little wildlife explorers: pilze, flechten, moose",
+      "status": "scheduled",
+      "id": "21567e0083710f52a80b",
+      "discovered_at": "2026-09-16T20:04:31+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "Haus der Kunst",
+          "url": "https://www.hausderkunst.de/veranstaltungen/little-wildlife-explorers-entdeckt-die-biodiversität-des-gemeinschaftsgarten-ostwiese-316737",
+          "priority": 10
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Little Wildlife Explorers: Pilze, Flechten, Moose",
+      "source_name": "Haus der Kunst",
+      "source_url": "https://www.hausderkunst.de/veranstaltungen/little-wildlife-explorers-entdeckt-die-biodiversität-des-gemeinschaftsgarten-ostwiese-316739",
+      "start": "2026-10-03T15:00:00+02:00",
+      "end": null,
+      "description": "15:00 — Mitmachen, Kinder & Familien, Gemeinschaftsgarten Ostwiese",
+      "location_name": "Haus der Kunst",
+      "address": "Prinzregentenstraße 1, München",
+      "district": null,
+      "category": "family",
+      "tags": [
+        "family"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": true,
+      "image_url": null,
+      "all_day": false,
+      "source_priority": 10,
+      "series_id": "little wildlife explorers: pilze, flechten, moose",
+      "status": "scheduled",
+      "id": "ae09e8d4ca137efa298f",
+      "discovered_at": "2026-09-18T00:00:54+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "Haus der Kunst",
+          "url": "https://www.hausderkunst.de/veranstaltungen/little-wildlife-explorers-entdeckt-die-biodiversität-des-gemeinschaftsgarten-ostwiese-316739",
           "priority": 10
         }
       ],
@@ -10526,49 +10559,13 @@
       "status": "scheduled",
       "id": "4c42bcec678460d2b2da",
       "discovered_at": "2026-09-17T11:20:46+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "Haus der Kunst",
           "url": "https://www.hausderkunst.de/veranstaltungen/familienführung-zu-tomás-saraceno-verwobene-welten-290845",
-          "priority": 10
-        }
-      ],
-      "stale": false
-    },
-    {
-      "title": "Little Wildlife Explorers: Pilze, Flechten, Moose",
-      "source_name": "Haus der Kunst",
-      "source_url": "https://www.hausderkunst.de/veranstaltungen/little-wildlife-explorers-entdeckt-die-biodiversität-des-gemeinschaftsgarten-ostwiese-316739",
-      "start": "2026-10-03T15:00:00+02:00",
-      "end": null,
-      "description": "15:00 — Mitmachen, Kinder & Familien, Gemeinschaftsgarten Ostwiese",
-      "location_name": "Haus der Kunst",
-      "address": "Prinzregentenstraße 1, München",
-      "district": null,
-      "category": "family",
-      "tags": [
-        "family"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": true,
-      "image_url": null,
-      "all_day": false,
-      "source_priority": 10,
-      "series_id": "little wildlife explorers: pilze, flechten, moose",
-      "status": "scheduled",
-      "id": "ae09e8d4ca137efa298f",
-      "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "Haus der Kunst",
-          "url": "https://www.hausderkunst.de/veranstaltungen/little-wildlife-explorers-entdeckt-die-biodiversität-des-gemeinschaftsgarten-ostwiese-316739",
           "priority": 10
         }
       ],
@@ -10599,7 +10596,7 @@
       "status": "scheduled",
       "id": "ee5923d35716cce6c3c8",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10612,19 +10609,18 @@
       "stale": false
     },
     {
-      "title": "Open Atelier. Solar",
+      "title": "Ausstellungsführung zu „Tomás Saraceno in collaboration. Verwobene Welten” in Englisch",
       "source_name": "Haus der Kunst",
-      "source_url": "https://www.hausderkunst.de/veranstaltungen/open-atelier-solar-283843",
+      "source_url": "https://www.hausderkunst.de/veranstaltungen/ausstellungsführung-zu-tomás-saraceno-verwobene-welten-290856",
       "start": "2026-10-04T11:00:00+02:00",
       "end": null,
-      "description": "11:00 — Open Atelier",
+      "description": "11:00 — Führungen",
       "location_name": "Haus der Kunst",
       "address": "Prinzregentenstraße 1, München",
       "district": null,
       "category": "museum",
       "tags": [
-        "museum",
-        "recurring"
+        "museum"
       ],
       "price_text": null,
       "is_free": null,
@@ -10632,17 +10628,17 @@
       "image_url": null,
       "all_day": false,
       "source_priority": 10,
-      "series_id": "open atelier. solar",
+      "series_id": "ausstellungsführung  zu „tomás saraceno in collaboration. verwobene welten” in englisch",
       "status": "scheduled",
-      "id": "2863dedd57d8d1c998da",
-      "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "id": "e78f3ada37a01ca6443e",
+      "discovered_at": "2026-09-19T19:07:00+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "Haus der Kunst",
-          "url": "https://www.hausderkunst.de/veranstaltungen/open-atelier-solar-283843",
+          "url": "https://www.hausderkunst.de/veranstaltungen/ausstellungsführung-zu-tomás-saraceno-verwobene-welten-290856",
           "priority": 10
         }
       ],
@@ -10673,7 +10669,7 @@
       "status": "scheduled",
       "id": "02514414d419c0f09f97",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10709,7 +10705,7 @@
       "status": "scheduled",
       "id": "cc4c68c05fb6b5327744",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10746,7 +10742,7 @@
       "status": "scheduled",
       "id": "0a6ed167d99f479c205e",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10782,7 +10778,7 @@
       "status": "scheduled",
       "id": "67eadcb215e971c01d0f",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10819,7 +10815,7 @@
       "status": "scheduled",
       "id": "5261929d1d90e19335dc",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10856,7 +10852,7 @@
       "status": "scheduled",
       "id": "182077e1f5635f80d6fd",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10893,7 +10889,7 @@
       "status": "scheduled",
       "id": "fe18baebcfc1ff0c5c03",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10931,7 +10927,7 @@
       "status": "scheduled",
       "id": "b961828f52ff59acf13f",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10969,7 +10965,7 @@
       "status": "scheduled",
       "id": "9d7463db65b761b987e0",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11008,7 +11004,7 @@
       "status": "scheduled",
       "id": "5d2d9427964f6d5250e1",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11044,7 +11040,7 @@
       "status": "scheduled",
       "id": "0399ed58c87b29275dbe",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11080,7 +11076,7 @@
       "status": "scheduled",
       "id": "67434489160587d1fa87",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11116,7 +11112,7 @@
       "status": "scheduled",
       "id": "7700ec0cf4dfb20693b3",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11152,7 +11148,7 @@
       "status": "scheduled",
       "id": "d17d10d98620eff6d7c4",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11189,7 +11185,7 @@
       "status": "scheduled",
       "id": "19ec10e9af8fbee45282",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11226,7 +11222,7 @@
       "status": "scheduled",
       "id": "dc1625826f696229cd75",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11263,7 +11259,7 @@
       "status": "scheduled",
       "id": "fad73d27c708aea56ae8",
       "discovered_at": "2026-09-18T19:37:04+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11299,7 +11295,7 @@
       "status": "scheduled",
       "id": "4c8e3e53392361595342",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11336,7 +11332,7 @@
       "status": "scheduled",
       "id": "b892e3e648346214cfe3",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11372,7 +11368,7 @@
       "status": "scheduled",
       "id": "f6de6fdd543f4f8e0779",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11408,7 +11404,7 @@
       "status": "scheduled",
       "id": "aaec53be830839cbd722",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11444,7 +11440,7 @@
       "status": "scheduled",
       "id": "22e2f95490cfc67812ad",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11480,7 +11476,7 @@
       "status": "scheduled",
       "id": "a27c264137d036db7bf0",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11516,7 +11512,7 @@
       "status": "scheduled",
       "id": "693f49f55085aeb12875",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11552,7 +11548,7 @@
       "status": "scheduled",
       "id": "af1b48b16a9960409a1d",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11588,7 +11584,7 @@
       "status": "scheduled",
       "id": "80d52267ef5a1c9c4b33",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11624,7 +11620,7 @@
       "status": "scheduled",
       "id": "e21fa45588afc4c255f1",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11660,7 +11656,7 @@
       "status": "scheduled",
       "id": "e77e1c1bf9be45d94441",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11696,7 +11692,7 @@
       "status": "scheduled",
       "id": "f1c1edb3c8a6cb02af52",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11733,7 +11729,7 @@
       "status": "scheduled",
       "id": "0eeace0d5a37bf9eb722",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11769,7 +11765,7 @@
       "status": "scheduled",
       "id": "c38d1595dacc238304c8",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11806,7 +11802,7 @@
       "status": "scheduled",
       "id": "8d2785742264e4784426",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11842,7 +11838,7 @@
       "status": "scheduled",
       "id": "f9c0ebb2d7c3bbd792f1",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11878,7 +11874,7 @@
       "status": "scheduled",
       "id": "b90d6d485e8f08af08c0",
       "discovered_at": "2026-09-15T11:19:33+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11914,7 +11910,7 @@
       "status": "scheduled",
       "id": "bde7261079b325f00486",
       "discovered_at": "2026-09-15T11:19:33+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11951,7 +11947,7 @@
       "status": "scheduled",
       "id": "28e7df483c1f769827b3",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11987,7 +11983,7 @@
       "status": "scheduled",
       "id": "142e03377b6efe89f44a",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12023,7 +12019,7 @@
       "status": "scheduled",
       "id": "9aadc36d780ca4597de1",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12059,7 +12055,7 @@
       "status": "scheduled",
       "id": "da156c2ebffe8992dd30",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12095,7 +12091,7 @@
       "status": "scheduled",
       "id": "d0b62b85967b36d4334c",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12131,7 +12127,7 @@
       "status": "scheduled",
       "id": "23cbcbe7fea25550ee8a",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12167,7 +12163,7 @@
       "status": "scheduled",
       "id": "baffa59a640d1e0d0b78",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12203,7 +12199,7 @@
       "status": "scheduled",
       "id": "b02761a2e50e9c34ce92",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12240,7 +12236,7 @@
       "status": "scheduled",
       "id": "d6d12b620cc1080589f0",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12276,7 +12272,7 @@
       "status": "scheduled",
       "id": "0f88f0bada58a6fbc626",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12314,7 +12310,7 @@
       "status": "scheduled",
       "id": "09bb014c1f8c65637fe5",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12350,7 +12346,7 @@
       "status": "scheduled",
       "id": "ed94538c3315e2cdf123",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12384,7 +12380,7 @@
       "status": "scheduled",
       "id": "1142a58271d26b7f5d4b",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12422,7 +12418,7 @@
       "status": "scheduled",
       "id": "af3ef0a7898428f1c4d2",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12456,7 +12452,7 @@
       "status": "scheduled",
       "id": "f6230adff4d8ddaf0412",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12490,7 +12486,7 @@
       "status": "scheduled",
       "id": "d9f2797bc55915391875",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12526,7 +12522,7 @@
       "status": "scheduled",
       "id": "65addab97e1fb1944ecf",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12560,7 +12556,7 @@
       "status": "scheduled",
       "id": "6574f4596d09ff08f10c",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12594,7 +12590,7 @@
       "status": "scheduled",
       "id": "27d5abcd4a362e7c0d79",
       "discovered_at": "2026-09-15T11:19:33+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12630,7 +12626,7 @@
       "status": "scheduled",
       "id": "27e5e8252498d5162c5a",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12664,7 +12660,7 @@
       "status": "scheduled",
       "id": "fcf2b34deb75b279a2b3",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12703,7 +12699,7 @@
       "status": "scheduled",
       "id": "de5539fb1c0ea506233f",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12739,7 +12735,7 @@
       "status": "scheduled",
       "id": "86251ee6c6eb5368756c",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12775,7 +12771,7 @@
       "status": "scheduled",
       "id": "d6f31258ead20e4da523",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12812,7 +12808,7 @@
       "status": "scheduled",
       "id": "f125fa9e4725c99aa2ae",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12848,7 +12844,7 @@
       "status": "scheduled",
       "id": "0cd33a6ca0bd1622d182",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-19T15:01:04+02:00",
+      "updated_at": "2026-09-19T19:07:00+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
