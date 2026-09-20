@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-20T19:22:11+02:00",
+  "last_updated": "2026-09-20T23:22:24+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
   "sources_successful": 13,
@@ -134,9 +134,9 @@
     "tomorrow": [
       "58d812f3f50112bd4547",
       "09bb014c1f8c65637fe5",
+      "acb7581af22be660b48c",
       "8516901b0232c37591bc",
-      "ef533f2188f5d804f7db",
-      "acb7581af22be660b48c"
+      "ef533f2188f5d804f7db"
     ],
     "weekend": [
       "3562e1aeae9cb494e275",
@@ -187,5 +187,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "2f035d87b3aa5716b06c27e94382f730e117a045ada97bd95bf06621b61993e6"
+  "data_hash": "0e0f642e1f054583ca04e7dea283092e40b4e618fa046dac3ecc483e62a4302d"
 }
