@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-19T23:23:00+02:00",
+  "last_updated": "2026-09-20T11:11:59+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
   "sources_successful": 13,
   "events_collected": 414,
-  "events_after_deduplication": 343,
+  "events_after_deduplication": 342,
   "stale_events": 0,
   "sources": [
     {
@@ -21,7 +21,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 9,
+      "events": 8,
       "warnings": []
     },
     {
@@ -37,7 +37,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 53,
+      "events": 54,
       "warnings": []
     },
     {
@@ -45,7 +45,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 129,
+      "events": 130,
       "warnings": []
     },
     {
@@ -53,7 +53,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 40,
+      "events": 38,
       "warnings": []
     },
     {
@@ -61,7 +61,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 19,
+      "events": 17,
       "warnings": []
     },
     {
@@ -77,7 +77,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 36,
+      "events": 38,
       "warnings": []
     },
     {
@@ -101,7 +101,7 @@
       "name": "Messe München",
       "url": "https://messe-muenchen.de/de/veranstaltungen/",
       "status": "partial",
-      "events": 5,
+      "events": 6,
       "warnings": [
         "Unbekannter Messestatus; Termin ausgelassen"
       ]
@@ -125,53 +125,53 @@
   },
   "views": {
     "today": [
-      "85f76bb09faa3a51682e",
-      "5b5897aa0af396bc3626",
-      "0c7e1ba20951d627c662",
-      "09bb014c1f8c65637fe5",
-      "0399ed58c87b29275dbe"
-    ],
-    "tomorrow": [
-      "bbea8dc0b8f375bb1f2e",
-      "b1d6d5a4e8edc7c22618",
-      "ee62f646525567e2376a",
-      "58d812f3f50112bd4547",
-      "09bb014c1f8c65637fe5"
-    ],
-    "weekend": [
-      "85f76bb09faa3a51682e",
-      "bbea8dc0b8f375bb1f2e",
-      "5b5897aa0af396bc3626",
-      "0c7e1ba20951d627c662",
-      "b1d6d5a4e8edc7c22618"
-    ],
-    "upcoming": [
       "bbea8dc0b8f375bb1f2e",
       "b1d6d5a4e8edc7c22618",
       "ee62f646525567e2376a",
       "3562e1aeae9cb494e275",
-      "07636ede2aab4da0c808"
+      "fad73d27c708aea56ae8"
+    ],
+    "tomorrow": [
+      "58d812f3f50112bd4547",
+      "09bb014c1f8c65637fe5",
+      "8516901b0232c37591bc",
+      "ef533f2188f5d804f7db",
+      "acb7581af22be660b48c"
+    ],
+    "weekend": [
+      "bbea8dc0b8f375bb1f2e",
+      "b1d6d5a4e8edc7c22618",
+      "ee62f646525567e2376a",
+      "3562e1aeae9cb494e275",
+      "fad73d27c708aea56ae8"
+    ],
+    "upcoming": [
+      "2736415af8ad7429117c",
+      "d1f37b8a7b67a6977e96",
+      "07636ede2aab4da0c808",
+      "8516901b0232c37591bc",
+      "ef533f2188f5d804f7db"
     ],
     "new": [
-      "85f76bb09faa3a51682e",
       "bbea8dc0b8f375bb1f2e",
-      "5b5897aa0af396bc3626",
-      "0c7e1ba20951d627c662",
-      "b1d6d5a4e8edc7c22618"
+      "b1d6d5a4e8edc7c22618",
+      "ee62f646525567e2376a",
+      "3562e1aeae9cb494e275",
+      "fad73d27c708aea56ae8"
     ]
   },
   "heads_up": [
     {
-      "event_id": "bbea8dc0b8f375bb1f2e",
+      "event_id": "d1f37b8a7b67a6977e96",
+      "days_until": 3
+    },
+    {
+      "event_id": "acb7581af22be660b48c",
       "days_until": 1
     },
     {
-      "event_id": "b1d6d5a4e8edc7c22618",
-      "days_until": 1
-    },
-    {
-      "event_id": "ee62f646525567e2376a",
-      "days_until": 1
+      "event_id": "880676d93543a67da14a",
+      "days_until": 3
     }
   ],
   "heads_up_rules": {
@@ -187,5 +187,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "16cfcadcd54e2b49c7120a1ca23fc971f3d45668be3d8e2590b13ccba1edc5be"
+  "data_hash": "ed4b2da3532612c81d083efa0ae962026d0ec21fb74e2a89c9dc7c7352d4809e"
 }
