@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-20T23:22:24+02:00",
+  "last_updated": "2026-09-21T11:48:44+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
-  "sources_successful": 13,
-  "events_collected": 414,
-  "events_after_deduplication": 342,
-  "stale_events": 0,
+  "sources_successful": 12,
+  "events_collected": 325,
+  "events_after_deduplication": 340,
+  "stale_events": 92,
   "sources": [
     {
       "id": "corso_leopold",
@@ -21,23 +21,25 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 8,
+      "events": 9,
       "warnings": []
     },
     {
       "id": "deutsches_museum",
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
-      "status": "ok",
-      "events": 60,
-      "warnings": []
+      "status": "partial",
+      "events": 10,
+      "warnings": [
+        "Kalenderseite fehlgeschlagen: ReadTimeout"
+      ]
     },
     {
       "id": "lenbachhaus",
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 54,
+      "events": 53,
       "warnings": []
     },
     {
@@ -45,7 +47,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 130,
+      "events": 131,
       "warnings": []
     },
     {
@@ -61,23 +63,25 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 17,
+      "events": 16,
       "warnings": []
     },
     {
       "id": "haus_der_kunst",
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
-      "status": "ok",
-      "events": 40,
-      "warnings": []
+      "status": "error",
+      "events": 0,
+      "warnings": [
+        "ValueError: Keine datierten Kalendereinträge gefunden"
+      ]
     },
     {
       "id": "pinakotheken",
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 38,
+      "events": 39,
       "warnings": []
     },
     {
@@ -125,52 +129,52 @@
   },
   "views": {
     "today": [
-      "3562e1aeae9cb494e275",
-      "fad73d27c708aea56ae8",
-      "58d812f3f50112bd4547",
-      "09bb014c1f8c65637fe5",
-      "4c8e3e53392361595342"
+      "fe797c1ae9b61549fe47",
+      "7b7db635426a4880ffbb",
+      "f31b866dfb3bcab053f8",
+      "acb7581af22be660b48c",
+      "58d812f3f50112bd4547"
     ],
     "tomorrow": [
+      "2736415af8ad7429117c",
       "58d812f3f50112bd4547",
       "09bb014c1f8c65637fe5",
-      "acb7581af22be660b48c",
-      "8516901b0232c37591bc",
-      "ef533f2188f5d804f7db"
+      "e27bcf37daf42d26952e",
+      "862689a93b736100b650"
     ],
     "weekend": [
-      "3562e1aeae9cb494e275",
-      "fad73d27c708aea56ae8",
       "58d812f3f50112bd4547",
       "09bb014c1f8c65637fe5",
-      "4c8e3e53392361595342"
+      "af3ef0a7898428f1c4d2",
+      "8f48b3f527048426f3a5",
+      "bc087292173603336923"
     ],
     "upcoming": [
       "2736415af8ad7429117c",
       "d1f37b8a7b67a6977e96",
       "834682b4ff73f2fb0c77",
       "b2040cc44bd20dda12d5",
-      "07636ede2aab4da0c808"
+      "af3ef0a7898428f1c4d2"
     ],
     "new": [
-      "3562e1aeae9cb494e275",
-      "fad73d27c708aea56ae8",
-      "2736415af8ad7429117c",
-      "d1f37b8a7b67a6977e96",
-      "834682b4ff73f2fb0c77"
+      "fe797c1ae9b61549fe47",
+      "7b7db635426a4880ffbb",
+      "f31b866dfb3bcab053f8",
+      "acb7581af22be660b48c",
+      "2736415af8ad7429117c"
     ]
   },
   "heads_up": [
     {
-      "event_id": "d1f37b8a7b67a6977e96",
-      "days_until": 3
+      "event_id": "2736415af8ad7429117c",
+      "days_until": 1
     },
     {
-      "event_id": "834682b4ff73f2fb0c77",
-      "days_until": 3
+      "event_id": "e27bcf37daf42d26952e",
+      "days_until": 1
     },
     {
-      "event_id": "acb7581af22be660b48c",
+      "event_id": "20cb4b0f6f5c6177a4ab",
       "days_until": 1
     }
   ],
@@ -187,5 +191,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "0e0f642e1f054583ca04e7dea283092e40b4e618fa046dac3ecc483e62a4302d"
+  "data_hash": "eb85845d3235b7d8e669a1ea9c4a2b366fec9da460bc54729254d8318b72f8ee"
 }
