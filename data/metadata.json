@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-21T11:48:44+02:00",
+  "last_updated": "2026-09-21T21:12:52+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
-  "sources_successful": 12,
-  "events_collected": 325,
-  "events_after_deduplication": 340,
-  "stale_events": 92,
+  "sources_successful": 13,
+  "events_collected": 414,
+  "events_after_deduplication": 337,
+  "stale_events": 0,
   "sources": [
     {
       "id": "corso_leopold",
@@ -28,11 +28,9 @@
       "id": "deutsches_museum",
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
-      "status": "partial",
-      "events": 10,
-      "warnings": [
-        "Kalenderseite fehlgeschlagen: ReadTimeout"
-      ]
+      "status": "ok",
+      "events": 60,
+      "warnings": []
     },
     {
       "id": "lenbachhaus",
@@ -70,18 +68,16 @@
       "id": "haus_der_kunst",
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "ValueError: Keine datierten Kalendereinträge gefunden"
-      ]
+      "status": "ok",
+      "events": 40,
+      "warnings": []
     },
     {
       "id": "pinakotheken",
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 39,
+      "events": 38,
       "warnings": []
     },
     {
@@ -129,11 +125,11 @@
   },
   "views": {
     "today": [
-      "fe797c1ae9b61549fe47",
-      "7b7db635426a4880ffbb",
-      "f31b866dfb3bcab053f8",
       "acb7581af22be660b48c",
-      "58d812f3f50112bd4547"
+      "58d812f3f50112bd4547",
+      "09bb014c1f8c65637fe5",
+      "c99284b35d13812d9f92",
+      "5d47f6e0abc7087a8dc6"
     ],
     "tomorrow": [
       "2736415af8ad7429117c",
@@ -157,11 +153,11 @@
       "af3ef0a7898428f1c4d2"
     ],
     "new": [
-      "fe797c1ae9b61549fe47",
-      "7b7db635426a4880ffbb",
-      "f31b866dfb3bcab053f8",
       "acb7581af22be660b48c",
-      "2736415af8ad7429117c"
+      "2736415af8ad7429117c",
+      "d1f37b8a7b67a6977e96",
+      "834682b4ff73f2fb0c77",
+      "b2040cc44bd20dda12d5"
     ]
   },
   "heads_up": [
@@ -170,11 +166,11 @@
       "days_until": 1
     },
     {
-      "event_id": "e27bcf37daf42d26952e",
-      "days_until": 1
+      "event_id": "b2040cc44bd20dda12d5",
+      "days_until": 3
     },
     {
-      "event_id": "20cb4b0f6f5c6177a4ab",
+      "event_id": "e27bcf37daf42d26952e",
       "days_until": 1
     }
   ],
@@ -191,5 +187,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "eb85845d3235b7d8e669a1ea9c4a2b366fec9da460bc54729254d8318b72f8ee"
+  "data_hash": "a20fb94bba39da71fa267a0be63a2a82eefad3c514a2f87c0c6d946163b27192"
 }
