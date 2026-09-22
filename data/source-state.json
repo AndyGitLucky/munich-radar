@@ -23,7 +23,7 @@
       "status": "scheduled",
       "id": "d1e9248494ebcc2004ba",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -59,7 +59,7 @@
       "status": "scheduled",
       "id": "e4248134456049e499f2",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -93,7 +93,7 @@
       "status": "scheduled",
       "id": "96c108aff8bde637e853",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -129,7 +129,7 @@
       "status": "scheduled",
       "id": "e91e1d0362368b32f477",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -166,7 +166,7 @@
       "status": "scheduled",
       "id": "37980d42dbb5ebea2d00",
       "discovered_at": "2026-09-15T11:19:33+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -203,7 +203,7 @@
       "status": "scheduled",
       "id": "b7c8066877a1c35da5cd",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -241,7 +241,7 @@
       "status": "scheduled",
       "id": "07636ede2aab4da0c808",
       "discovered_at": "2026-09-13T14:14:51+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -278,7 +278,7 @@
       "status": "scheduled",
       "id": "78925bac6c95622e6b1b",
       "discovered_at": "2026-09-16T00:02:23+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -292,43 +292,6 @@
     }
   ],
   "deutsches_museum": [
-    {
-      "title": "After Work: Planet, Mensch & Rohstoffe",
-      "source_name": "Deutsches Museum",
-      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/after-work-planet-mensch-rohstoffe#2026-09-22T18:00:00+02:00",
-      "start": "2026-09-22T18:00:00+02:00",
-      "end": "2026-09-22T22:00:00+02:00",
-      "description": "Bei unserem After-Work-Event erwarten Euch Musik, Drinks und spannende Kurzführungen durch die Ausstellungen Planetary Health und Rohstoffe abbauen, nutzen – und dann?.",
-      "location_name": "Deutsches Museum · Science Communication Lab",
-      "address": null,
-      "district": null,
-      "category": "science",
-      "tags": [
-        "museum",
-        "science"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": null,
-      "image_url": "https://www.deutsches-museum.de/assets/_processed_/a/7/csm_Website_3e83bd4cc9.png",
-      "all_day": false,
-      "source_priority": 10,
-      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/after-work-planet-mensch-rohstoffe",
-      "status": "scheduled",
-      "id": "862689a93b736100b650",
-      "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "Deutsches Museum",
-          "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/after-work-planet-mensch-rohstoffe#2026-09-22T18:00:00+02:00",
-          "priority": 10
-        }
-      ],
-      "stale": false
-    },
     {
       "title": "Nächtliche Welten - Fotoausstellung",
       "source_name": "Deutsches Museum",
@@ -355,7 +318,7 @@
       "status": "scheduled",
       "id": "881bb1753b9b2260ef83",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -393,7 +356,7 @@
       "status": "scheduled",
       "id": "d9cc844d8ee95c892d3a",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -430,7 +393,7 @@
       "status": "scheduled",
       "id": "880676d93543a67da14a",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -468,7 +431,7 @@
       "status": "scheduled",
       "id": "4204f1ffd185b20f2030",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -506,7 +469,7 @@
       "status": "scheduled",
       "id": "12e8c17cb39f8c181b51",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -543,7 +506,7 @@
       "status": "scheduled",
       "id": "eb7bc8c41391fbe5e507",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -580,7 +543,7 @@
       "status": "scheduled",
       "id": "a9d35186ac898f585b09",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -618,7 +581,7 @@
       "status": "scheduled",
       "id": "767cd25bc98b55a3f7ce",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -655,7 +618,7 @@
       "status": "scheduled",
       "id": "b9b2cba53712e1309b10",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -692,7 +655,7 @@
       "status": "scheduled",
       "id": "d1f37b8a7b67a6977e96",
       "discovered_at": "2026-09-19T15:01:04+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -729,7 +692,7 @@
       "status": "scheduled",
       "id": "e37d7da54ead6bdb1d76",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -767,7 +730,7 @@
       "status": "scheduled",
       "id": "fa3615445318cbe6aed7",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -804,7 +767,7 @@
       "status": "scheduled",
       "id": "834682b4ff73f2fb0c77",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -842,7 +805,7 @@
       "status": "scheduled",
       "id": "e5f49a2d27186eec9fb0",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -879,7 +842,7 @@
       "status": "scheduled",
       "id": "43fbe12454244e84d553",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -917,7 +880,7 @@
       "status": "scheduled",
       "id": "4ce2abf49347131b13d1",
       "discovered_at": "2026-09-21T21:12:52+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -954,7 +917,7 @@
       "status": "scheduled",
       "id": "37f6cf085fbb25b4b483",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -991,7 +954,7 @@
       "status": "scheduled",
       "id": "01840a06bfb9c37ee27a",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1029,7 +992,7 @@
       "status": "scheduled",
       "id": "8e25e597ab22fadf3a4a",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1066,7 +1029,7 @@
       "status": "scheduled",
       "id": "ac2c6ed2ebb5029ea58d",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1103,7 +1066,7 @@
       "status": "scheduled",
       "id": "3f81fdd7d5b07f359c36",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1141,7 +1104,7 @@
       "status": "scheduled",
       "id": "e2e0d537483bc5135e5d",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1179,7 +1142,7 @@
       "status": "scheduled",
       "id": "7b3e8847b2fb6a072029",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1216,7 +1179,7 @@
       "status": "scheduled",
       "id": "a5289e5140812551443a",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1253,7 +1216,7 @@
       "status": "scheduled",
       "id": "b0d9fd1bf4ebe6832cc6",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1290,7 +1253,7 @@
       "status": "scheduled",
       "id": "aed59bfd8e1e464f9717",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1328,7 +1291,7 @@
       "status": "scheduled",
       "id": "163ec4a1afc0ecf036ce",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1366,7 +1329,7 @@
       "status": "scheduled",
       "id": "6cad1a9c4f42f1a7b30a",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1403,7 +1366,7 @@
       "status": "scheduled",
       "id": "913414ea60ebe79275c7",
       "discovered_at": "2026-09-20T19:22:11+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1441,7 +1404,7 @@
       "status": "scheduled",
       "id": "e53eb718ee8660abd85d",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1478,7 +1441,7 @@
       "status": "scheduled",
       "id": "636c1121ff2409c6e762",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1516,7 +1479,7 @@
       "status": "scheduled",
       "id": "5f4a789331ae5df8ba51",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1554,7 +1517,7 @@
       "status": "scheduled",
       "id": "df285cf9711e81bc36ed",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1592,7 +1555,7 @@
       "status": "scheduled",
       "id": "113fa22e3ce05727f288",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1630,7 +1593,7 @@
       "status": "scheduled",
       "id": "d4477e8938ac5895aac0",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1667,7 +1630,7 @@
       "status": "scheduled",
       "id": "b2040cc44bd20dda12d5",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1705,7 +1668,7 @@
       "status": "scheduled",
       "id": "247c340d4c632c6bdbb2",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1743,7 +1706,7 @@
       "status": "scheduled",
       "id": "bdfc953ea20e2c9be72d",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1780,7 +1743,7 @@
       "status": "scheduled",
       "id": "99b2a2f6dda8d0983080",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1817,7 +1780,7 @@
       "status": "scheduled",
       "id": "5087c7c6d150f0020898",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1855,7 +1818,7 @@
       "status": "scheduled",
       "id": "4ed832b0162c58849119",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1893,7 +1856,7 @@
       "status": "scheduled",
       "id": "0cd80048a87af1de69d2",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1931,7 +1894,7 @@
       "status": "scheduled",
       "id": "8f5f705ea77b23264f61",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1968,7 +1931,7 @@
       "status": "scheduled",
       "id": "d7716c09d760f029edd0",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2005,7 +1968,7 @@
       "status": "scheduled",
       "id": "84bbb19f793977a4c736",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2043,7 +2006,7 @@
       "status": "scheduled",
       "id": "ddee9cbb4f121cbebf16",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2081,7 +2044,7 @@
       "status": "scheduled",
       "id": "da320a8d8dea06850429",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2119,7 +2082,7 @@
       "status": "scheduled",
       "id": "e02cee6df57934d18b71",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2156,7 +2119,7 @@
       "status": "scheduled",
       "id": "ecd6918619aaadca3d21",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2193,7 +2156,7 @@
       "status": "scheduled",
       "id": "31984204b629c8e6fba9",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2231,7 +2194,7 @@
       "status": "scheduled",
       "id": "c247ab9bc1bf48d92c2d",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2269,7 +2232,7 @@
       "status": "scheduled",
       "id": "5dbaa14989d380241efc",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2306,7 +2269,7 @@
       "status": "scheduled",
       "id": "75dfa1b6f5a7ef188fca",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2344,7 +2307,7 @@
       "status": "scheduled",
       "id": "cccde97ec25eedbe9d76",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2382,7 +2345,7 @@
       "status": "scheduled",
       "id": "3cde0e313d3a4a5991f9",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2420,7 +2383,7 @@
       "status": "scheduled",
       "id": "4946fde7040022823973",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2458,7 +2421,7 @@
       "status": "scheduled",
       "id": "c43fd31a9e791216f480",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2496,7 +2459,7 @@
       "status": "scheduled",
       "id": "fe9db73207e22a9cf90c",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2534,13 +2497,51 @@
       "status": "scheduled",
       "id": "c281609be97c66fc5188",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "Deutsches Museum",
           "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/planetary-health#2026-09-26T09:00:00+02:00",
+          "priority": 10
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Just Loops – Elektroschrott-Recycling",
+      "source_name": "Deutsches Museum",
+      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/just-loops-elektroschrott-recycling#2026-09-26T09:00:00+02:00",
+      "start": "2026-09-26T09:00:00+02:00",
+      "end": "2026-09-26T17:00:00+02:00",
+      "description": "Die Foto-Ausstellung zeigt Realitäten der Kreislaufwirtschaft: Politische Entscheidungen, Macht und Wertschöpfung im Elektroschrottsektor Ghanas.",
+      "location_name": "Deutsches Museum · Science Communication Lab",
+      "address": null,
+      "district": null,
+      "category": "science",
+      "tags": [
+        "museum",
+        "recurring",
+        "science"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": null,
+      "image_url": "https://www.deutsches-museum.de/assets/_processed_/4/0/csm_Elektroschrott_Kalender_ada40e3dbd.jpg",
+      "all_day": false,
+      "source_priority": 10,
+      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/just-loops-elektroschrott-recycling",
+      "status": "scheduled",
+      "id": "7b0a8bc922d216116733",
+      "discovered_at": "2026-09-22T23:56:08+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "Deutsches Museum",
+          "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/just-loops-elektroschrott-recycling#2026-09-26T09:00:00+02:00",
           "priority": 10
         }
       ],
@@ -2573,7 +2574,7 @@
       "status": "scheduled",
       "id": "8502cd34a8c50297cb48",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2610,7 +2611,7 @@
       "status": "scheduled",
       "id": "8502cd34a8c50297cb48",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2648,7 +2649,7 @@
       "status": "scheduled",
       "id": "9e0098ed7a48b257a25c",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2685,7 +2686,7 @@
       "status": "scheduled",
       "id": "e4f6eca9d47a73f103ac",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2722,7 +2723,7 @@
       "status": "scheduled",
       "id": "f67194ae2d12d132ac65",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2759,7 +2760,7 @@
       "status": "scheduled",
       "id": "404c1c8bb375310e9a7a",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2796,7 +2797,7 @@
       "status": "scheduled",
       "id": "fc1cf897b808a4f102e7",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2834,7 +2835,7 @@
       "status": "scheduled",
       "id": "d0f4544ae65450a770b0",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2871,7 +2872,7 @@
       "status": "scheduled",
       "id": "823f8efc7edb5239014f",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2908,7 +2909,7 @@
       "status": "scheduled",
       "id": "f252a11d2ddf1f5e5591",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2945,7 +2946,7 @@
       "status": "scheduled",
       "id": "98b360bfb60c4d9666dc",
       "discovered_at": "2026-09-14T21:11:02+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2982,7 +2983,7 @@
       "status": "scheduled",
       "id": "bf2f8827b052b5bca43c",
       "discovered_at": "2026-09-14T21:11:02+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3020,7 +3021,7 @@
       "status": "scheduled",
       "id": "f94fdd1cd70729d1700e",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3058,7 +3059,7 @@
       "status": "scheduled",
       "id": "63a19d96511a91369c2f",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3095,7 +3096,7 @@
       "status": "scheduled",
       "id": "c4f0253fb675cf6d93e9",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3133,7 +3134,7 @@
       "status": "scheduled",
       "id": "743b75c7469fd65f534c",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3171,7 +3172,7 @@
       "status": "scheduled",
       "id": "f73b6c26ad311fc982f8",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3208,7 +3209,7 @@
       "status": "scheduled",
       "id": "7980ba020c94e8325883",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3246,7 +3247,7 @@
       "status": "scheduled",
       "id": "58104c9ec06f5d46edb8",
       "discovered_at": "2026-09-13T13:59:13+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3284,7 +3285,7 @@
       "status": "scheduled",
       "id": "d1e018a5e3835a301737",
       "discovered_at": "2026-09-15T11:19:33+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3322,7 +3323,7 @@
       "status": "scheduled",
       "id": "9108d71803c3f06f996a",
       "discovered_at": "2026-09-16T00:02:23+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3360,7 +3361,7 @@
       "status": "scheduled",
       "id": "b696a21c6c3226ba15e1",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3397,7 +3398,7 @@
       "status": "scheduled",
       "id": "8fdccf0a700a81b06507",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3434,7 +3435,7 @@
       "status": "scheduled",
       "id": "803809536170295d11c3",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3472,7 +3473,7 @@
       "status": "scheduled",
       "id": "10bec90cb7846fb287a6",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3509,7 +3510,7 @@
       "status": "scheduled",
       "id": "78f59dfff927ba0783e0",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3547,7 +3548,7 @@
       "status": "scheduled",
       "id": "70477f49c129176a7e50",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3586,7 +3587,7 @@
       "status": "scheduled",
       "id": "e71c76cb4665212f1a9c",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3623,7 +3624,7 @@
       "status": "scheduled",
       "id": "fa236df519b141ec541a",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3660,7 +3661,7 @@
       "status": "scheduled",
       "id": "979127cdd4f95be989f2",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3696,7 +3697,7 @@
       "status": "scheduled",
       "id": "ad5307e677018100b2cc",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3733,7 +3734,7 @@
       "status": "scheduled",
       "id": "88c218bd20671274634c",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3769,7 +3770,7 @@
       "status": "scheduled",
       "id": "0112a9fa0792e57a023c",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3806,7 +3807,7 @@
       "status": "scheduled",
       "id": "f5cb2187e843ed1349bb",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3843,7 +3844,7 @@
       "status": "scheduled",
       "id": "32937ae6471bf2f5d0bf",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3880,7 +3881,7 @@
       "status": "scheduled",
       "id": "8c9a6576a80d6d1d8d53",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3917,7 +3918,7 @@
       "status": "scheduled",
       "id": "0c22b8af888202c7196e",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3954,7 +3955,7 @@
       "status": "scheduled",
       "id": "278a4e7c03a1adbebfa0",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3991,7 +3992,7 @@
       "status": "scheduled",
       "id": "3d2fce3494134a1db01f",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4028,7 +4029,7 @@
       "status": "scheduled",
       "id": "8ae51f3fe73dfe2157db",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4065,7 +4066,7 @@
       "status": "scheduled",
       "id": "d3d2feb253e7af2410fe",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4102,7 +4103,7 @@
       "status": "scheduled",
       "id": "409f33caf6b465a9d5bb",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4139,7 +4140,7 @@
       "status": "scheduled",
       "id": "b2b9e5f7f8fbf31ddf71",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4176,7 +4177,7 @@
       "status": "scheduled",
       "id": "9bddd23620d35e51e9b9",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4213,7 +4214,7 @@
       "status": "scheduled",
       "id": "e647034390a1ab4897fd",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4249,7 +4250,7 @@
       "status": "scheduled",
       "id": "382b3f9e47013385a26a",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4286,7 +4287,7 @@
       "status": "scheduled",
       "id": "000f2054df81008f3692",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4323,7 +4324,7 @@
       "status": "scheduled",
       "id": "0b796ecf8742e8af0e09",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4360,7 +4361,7 @@
       "status": "scheduled",
       "id": "e0b2649b1c4eb9387c3b",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4397,7 +4398,7 @@
       "status": "scheduled",
       "id": "67666e82a2175a808661",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4434,7 +4435,7 @@
       "status": "scheduled",
       "id": "d34684efbbd16e47735c",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4471,7 +4472,7 @@
       "status": "scheduled",
       "id": "06a972971204d1f368e6",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4508,7 +4509,7 @@
       "status": "scheduled",
       "id": "91ea714ac01f95aec2ef",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4545,7 +4546,7 @@
       "status": "scheduled",
       "id": "1268294605e5b1498f0f",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4582,7 +4583,7 @@
       "status": "scheduled",
       "id": "93d76119696fc0762076",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4621,7 +4622,7 @@
       "status": "scheduled",
       "id": "ebee95eb8d9638f5cecb",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4658,7 +4659,7 @@
       "status": "scheduled",
       "id": "10512bb9d54b03d56bd2",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4695,7 +4696,7 @@
       "status": "scheduled",
       "id": "87f38297f7265b8e5513",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4732,7 +4733,7 @@
       "status": "scheduled",
       "id": "92255e0152e27e6deec2",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4769,7 +4770,7 @@
       "status": "scheduled",
       "id": "42900a6489e1aa23aac4",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4806,7 +4807,7 @@
       "status": "scheduled",
       "id": "5a36f2cc067435480cdc",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4843,7 +4844,7 @@
       "status": "scheduled",
       "id": "d1f2a89c86c0446cf4f7",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4880,7 +4881,7 @@
       "status": "scheduled",
       "id": "b493404c08be5aeb86b7",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4917,7 +4918,7 @@
       "status": "scheduled",
       "id": "39cdaeaa80893c2da2b0",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4954,7 +4955,7 @@
       "status": "scheduled",
       "id": "a22e299d468c9d0fd748",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4991,7 +4992,7 @@
       "status": "scheduled",
       "id": "7788af72d1071bdddb35",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5027,7 +5028,7 @@
       "status": "scheduled",
       "id": "d9aad0e1497fbe0fa73c",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5064,7 +5065,7 @@
       "status": "scheduled",
       "id": "9fe7a3cd7c5ec884e67e",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5101,7 +5102,7 @@
       "status": "scheduled",
       "id": "188c0e59745448e5c706",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5138,7 +5139,7 @@
       "status": "scheduled",
       "id": "a0aeae70b114063b25c2",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5175,7 +5176,7 @@
       "status": "scheduled",
       "id": "531f597f493432deb72a",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5212,7 +5213,7 @@
       "status": "scheduled",
       "id": "3eb95ae47339629524ed",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5249,7 +5250,7 @@
       "status": "scheduled",
       "id": "4a8f733deb3b12b14c5d",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5286,7 +5287,7 @@
       "status": "scheduled",
       "id": "16497c2bb1a8d29fab11",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5323,7 +5324,7 @@
       "status": "scheduled",
       "id": "e1937af1bdc77958d145",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5359,7 +5360,7 @@
       "status": "scheduled",
       "id": "170c0034635336b2db99",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5396,7 +5397,7 @@
       "status": "scheduled",
       "id": "a561b007e37a3167f095",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5433,7 +5434,7 @@
       "status": "scheduled",
       "id": "25ac59c37299454fd782",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5470,7 +5471,7 @@
       "status": "scheduled",
       "id": "6a2b670fa59e24c647d3",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5507,7 +5508,7 @@
       "status": "scheduled",
       "id": "01cf02104abde141f53a",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5544,7 +5545,7 @@
       "status": "scheduled",
       "id": "23d92b9023e307999a79",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5581,7 +5582,7 @@
       "status": "scheduled",
       "id": "c05eb134490678c91d3d",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5618,7 +5619,7 @@
       "status": "scheduled",
       "id": "cea1bae0fb39c34e886f",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5655,7 +5656,7 @@
       "status": "scheduled",
       "id": "cbaf9c15da54aa317534",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5692,7 +5693,7 @@
       "status": "scheduled",
       "id": "28531f831fa0f699329f",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5728,7 +5729,7 @@
       "status": "scheduled",
       "id": "6824c16652d8c4565a5c",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5765,7 +5766,7 @@
       "status": "scheduled",
       "id": "4857712c91d18ba68ce1",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5802,7 +5803,7 @@
       "status": "scheduled",
       "id": "6eef07afa9336ea417b5",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5839,7 +5840,7 @@
       "status": "scheduled",
       "id": "e819516b260db5b83e07",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5876,7 +5877,7 @@
       "status": "scheduled",
       "id": "84c6e5466a34e0bf2847",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5913,7 +5914,7 @@
       "status": "scheduled",
       "id": "e9a257b4104596369c40",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5950,7 +5951,7 @@
       "status": "scheduled",
       "id": "9ef955a8de3fca0ac352",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5987,7 +5988,7 @@
       "status": "scheduled",
       "id": "df107357d7820bb7e187",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6024,7 +6025,7 @@
       "status": "scheduled",
       "id": "bbb82940a54ee0b9ffea",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6060,7 +6061,7 @@
       "status": "scheduled",
       "id": "0a065b19e112123aaa7f",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6097,7 +6098,7 @@
       "status": "scheduled",
       "id": "e7c4ce286451cdb077f3",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6134,7 +6135,7 @@
       "status": "scheduled",
       "id": "427120e48b7a00e10e03",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6171,7 +6172,7 @@
       "status": "scheduled",
       "id": "26ff9db569c51803859b",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6208,7 +6209,7 @@
       "status": "scheduled",
       "id": "6f3606248272f6bca5f1",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6245,7 +6246,7 @@
       "status": "scheduled",
       "id": "373f421fa2fab3a46765",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6282,7 +6283,7 @@
       "status": "scheduled",
       "id": "50c0e39ce17a532355b9",
       "discovered_at": "2026-09-15T11:19:33+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6319,7 +6320,7 @@
       "status": "scheduled",
       "id": "6dc2da73723292f4f67f",
       "discovered_at": "2026-09-15T11:19:33+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6356,7 +6357,7 @@
       "status": "scheduled",
       "id": "e2e85a3978a64507a39d",
       "discovered_at": "2026-09-16T00:02:23+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6393,7 +6394,7 @@
       "status": "scheduled",
       "id": "4a269f9e0ad347c559db",
       "discovered_at": "2026-09-16T00:02:23+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6429,7 +6430,7 @@
       "status": "scheduled",
       "id": "1ec2014423165dfb6d29",
       "discovered_at": "2026-09-16T00:02:23+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6466,7 +6467,7 @@
       "status": "scheduled",
       "id": "d33e4bb81ea9c6d0df33",
       "discovered_at": "2026-09-16T00:02:23+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6503,7 +6504,7 @@
       "status": "scheduled",
       "id": "2fa1c5054562ce12695d",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6540,7 +6541,7 @@
       "status": "scheduled",
       "id": "caf41001ca4c73e69b99",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6577,7 +6578,7 @@
       "status": "scheduled",
       "id": "136411f2912a8db27845",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6614,7 +6615,7 @@
       "status": "scheduled",
       "id": "63cdc54cc7e01d69078a",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6651,7 +6652,7 @@
       "status": "scheduled",
       "id": "03275c8e91e5945e46ef",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6688,7 +6689,7 @@
       "status": "scheduled",
       "id": "7831fb4724563ea23b06",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6725,7 +6726,7 @@
       "status": "scheduled",
       "id": "116a58eab36ef4eaf1d5",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6762,7 +6763,7 @@
       "status": "scheduled",
       "id": "ec2df4cb4036ff6b7621",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6799,7 +6800,7 @@
       "status": "scheduled",
       "id": "53fab47ea563cce797ae",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6836,7 +6837,7 @@
       "status": "scheduled",
       "id": "b76a5996863e552af4dc",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6873,7 +6874,7 @@
       "status": "scheduled",
       "id": "e05ca6c605d05a8484e6",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6910,7 +6911,7 @@
       "status": "scheduled",
       "id": "3ccd2ec31b5c7bc0da3f",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6947,7 +6948,7 @@
       "status": "scheduled",
       "id": "497cffee4f6c4fd09a10",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6984,7 +6985,7 @@
       "status": "scheduled",
       "id": "ded58013f485b52a5c46",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7021,7 +7022,7 @@
       "status": "scheduled",
       "id": "ef0e3c567a4131dbc655",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7058,7 +7059,7 @@
       "status": "scheduled",
       "id": "9fe7a3cd7c5ec884e67e",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7095,7 +7096,7 @@
       "status": "scheduled",
       "id": "a0aeae70b114063b25c2",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7132,7 +7133,7 @@
       "status": "scheduled",
       "id": "3eb95ae47339629524ed",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7169,7 +7170,7 @@
       "status": "scheduled",
       "id": "e1937af1bdc77958d145",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7205,7 +7206,7 @@
       "status": "scheduled",
       "id": "170c0034635336b2db99",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7241,7 +7242,7 @@
       "status": "scheduled",
       "id": "6824c16652d8c4565a5c",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7278,7 +7279,7 @@
       "status": "scheduled",
       "id": "4857712c91d18ba68ce1",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7315,7 +7316,7 @@
       "status": "scheduled",
       "id": "e819516b260db5b83e07",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7352,7 +7353,7 @@
       "status": "scheduled",
       "id": "e9a257b4104596369c40",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7389,7 +7390,7 @@
       "status": "scheduled",
       "id": "df107357d7820bb7e187",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7425,7 +7426,7 @@
       "status": "scheduled",
       "id": "0a065b19e112123aaa7f",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7459,7 +7460,7 @@
       "status": "scheduled",
       "id": "d371383744be4783d292",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7495,7 +7496,7 @@
       "status": "scheduled",
       "id": "589d2054138071a4c251",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7529,7 +7530,7 @@
       "status": "scheduled",
       "id": "9135663d603fc7a5ea33",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7567,7 +7568,7 @@
       "status": "scheduled",
       "id": "cf162c758633d1756a68",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7604,7 +7605,7 @@
       "status": "scheduled",
       "id": "3a9997279c02c4762ac7",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7642,7 +7643,7 @@
       "status": "scheduled",
       "id": "0750542a972e208fa532",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7676,7 +7677,7 @@
       "status": "scheduled",
       "id": "332cb50232af97ac1f0f",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7714,7 +7715,7 @@
       "status": "scheduled",
       "id": "58d812f3f50112bd4547",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7751,7 +7752,7 @@
       "status": "scheduled",
       "id": "54f6c1cfc141a1a45e8a",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7787,7 +7788,7 @@
       "status": "scheduled",
       "id": "a9c1a02b62900bac6aa9",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7821,7 +7822,7 @@
       "status": "scheduled",
       "id": "61a0f7f087ee32f4dabc",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7855,7 +7856,7 @@
       "status": "scheduled",
       "id": "a66d2e20382295c0b641",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7891,7 +7892,7 @@
       "status": "scheduled",
       "id": "b5e67a30e24610978f40",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7925,7 +7926,7 @@
       "status": "scheduled",
       "id": "39c63535db6e0bf24c27",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7961,7 +7962,7 @@
       "status": "scheduled",
       "id": "e27bcf37daf42d26952e",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7995,7 +7996,7 @@
       "status": "scheduled",
       "id": "091f8258a0da3d1d15a4",
       "discovered_at": "2026-09-21T21:12:52+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8029,7 +8030,7 @@
       "status": "scheduled",
       "id": "b81a0fe8a93bab0006c6",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8065,7 +8066,7 @@
       "status": "scheduled",
       "id": "e1506d88c60bc1db1001",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8102,7 +8103,7 @@
       "status": "scheduled",
       "id": "de9190ed263930aa35a7",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8138,7 +8139,7 @@
       "status": "scheduled",
       "id": "2998c09bc7213f8c2dbd",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8172,7 +8173,7 @@
       "status": "scheduled",
       "id": "c858fdc6d9a061069753",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8208,7 +8209,7 @@
       "status": "scheduled",
       "id": "808a8350f6ad34537755",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8242,7 +8243,7 @@
       "status": "scheduled",
       "id": "9b44ab001133c0b93dbd",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8278,7 +8279,7 @@
       "status": "scheduled",
       "id": "20cb4b0f6f5c6177a4ab",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8314,7 +8315,7 @@
       "status": "scheduled",
       "id": "cefc42aac3620b5759b1",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8351,7 +8352,7 @@
       "status": "scheduled",
       "id": "2736415af8ad7429117c",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8387,7 +8388,7 @@
       "status": "scheduled",
       "id": "4fc1188633803fc5bee3",
       "discovered_at": "2026-09-21T21:12:52+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8423,7 +8424,7 @@
       "status": "scheduled",
       "id": "e894a04edefbc5703149",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8457,7 +8458,7 @@
       "status": "scheduled",
       "id": "7f8c4b9cf7ede870f50f",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8491,7 +8492,7 @@
       "status": "scheduled",
       "id": "f5715113b73434788231",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8528,7 +8529,7 @@
       "status": "scheduled",
       "id": "621cb85a31b86260cf67",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8562,7 +8563,7 @@
       "status": "scheduled",
       "id": "f7b3021ef17ce4500bd6",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8596,7 +8597,7 @@
       "status": "scheduled",
       "id": "c49a8a366872e0a3cb40",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8632,7 +8633,7 @@
       "status": "scheduled",
       "id": "051187e45d18c9c5b148",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8668,7 +8669,7 @@
       "status": "scheduled",
       "id": "668e3997fe651a3c3a3f",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8704,7 +8705,7 @@
       "status": "scheduled",
       "id": "1535c7b7d580950f4413",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8740,7 +8741,7 @@
       "status": "scheduled",
       "id": "e4dc1826c4a81f5f49c7",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8774,7 +8775,7 @@
       "status": "scheduled",
       "id": "6cc78cda976f0a6ad8a7",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8810,7 +8811,7 @@
       "status": "scheduled",
       "id": "a37f97c193edef86b628",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8846,7 +8847,7 @@
       "status": "scheduled",
       "id": "5debab7a6b0cf945b9c5",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8882,7 +8883,7 @@
       "status": "scheduled",
       "id": "7496edb89bdac5423f49",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8918,7 +8919,7 @@
       "status": "scheduled",
       "id": "7378d26e94d3af5a8b29",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8954,7 +8955,7 @@
       "status": "scheduled",
       "id": "c0c49cf7e30c1bdaa613",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8988,7 +8989,7 @@
       "status": "scheduled",
       "id": "a74a79f2d0a648897f6d",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9022,7 +9023,7 @@
       "status": "scheduled",
       "id": "78728192de32b1c92ffd",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9056,7 +9057,7 @@
       "status": "scheduled",
       "id": "cb04181f4588344a0f00",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9090,7 +9091,7 @@
       "status": "scheduled",
       "id": "5eecf152952933d9cef6",
       "discovered_at": "2026-09-16T20:04:31+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9126,7 +9127,7 @@
       "status": "scheduled",
       "id": "5d591e0e90cba1395ff6",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9160,7 +9161,7 @@
       "status": "scheduled",
       "id": "b7635c88c97385920e53",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9196,7 +9197,7 @@
       "status": "scheduled",
       "id": "d63fdb0dcd511540ecec",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9230,7 +9231,7 @@
       "status": "scheduled",
       "id": "85c87d7ae95cf77b5fe9",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9264,7 +9265,7 @@
       "status": "scheduled",
       "id": "e6ac6fc88fb5c1f9fe8e",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9298,7 +9299,7 @@
       "status": "scheduled",
       "id": "6ce737968fe25c77c80d",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9334,7 +9335,7 @@
       "status": "scheduled",
       "id": "d8e6e66e9ffc3d2e7643",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9371,7 +9372,7 @@
       "status": "scheduled",
       "id": "30a7ea29f423a3ee59dd",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9408,7 +9409,7 @@
       "status": "scheduled",
       "id": "f1d0ebea6d01096bb9cd",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9442,7 +9443,7 @@
       "status": "scheduled",
       "id": "935c6b479f49366c473f",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9478,7 +9479,7 @@
       "status": "scheduled",
       "id": "568028a77ad3944c36cd",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9517,7 +9518,7 @@
       "status": "scheduled",
       "id": "5bd9e41204c3bd46aee1",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9553,7 +9554,7 @@
       "status": "scheduled",
       "id": "507968eebfcbde1a87f2",
       "discovered_at": "2026-09-18T10:55:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9590,7 +9591,7 @@
       "status": "scheduled",
       "id": "07fb09daf84898be21fb",
       "discovered_at": "2026-09-18T10:55:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9626,7 +9627,7 @@
       "status": "scheduled",
       "id": "253c1ff9a367688cabd3",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9662,7 +9663,7 @@
       "status": "scheduled",
       "id": "b2597d8dd7edef0061e4",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9698,7 +9699,7 @@
       "status": "scheduled",
       "id": "9a611329d70310ae89cc",
       "discovered_at": "2026-09-16T20:04:31+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9735,7 +9736,7 @@
       "status": "scheduled",
       "id": "d63fd07184147c754077",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9771,7 +9772,7 @@
       "status": "scheduled",
       "id": "8690455f7104b06da18a",
       "discovered_at": "2026-09-16T20:04:31+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9809,7 +9810,7 @@
       "status": "scheduled",
       "id": "1e2ecd6ed59a1e28264f",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9846,7 +9847,7 @@
       "status": "scheduled",
       "id": "da49bf4845e7954d4535",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9883,7 +9884,7 @@
       "status": "scheduled",
       "id": "ab6ad0cdb9fea3068938",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9920,7 +9921,7 @@
       "status": "scheduled",
       "id": "fca76d600aec09bab234",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9957,7 +9958,7 @@
       "status": "scheduled",
       "id": "ff04909d6cf871b087f4",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9994,7 +9995,7 @@
       "status": "scheduled",
       "id": "21db376b07e2c397c614",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10030,7 +10031,7 @@
       "status": "scheduled",
       "id": "6cb33e12d03574120a88",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10067,7 +10068,7 @@
       "status": "scheduled",
       "id": "674dbe8f1215d96c9c6f",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10104,7 +10105,7 @@
       "status": "scheduled",
       "id": "a4668742df7c2e2ee486",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10142,49 +10143,13 @@
       "status": "scheduled",
       "id": "4fa45a288b7bcba4ffe2",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "Haus der Kunst",
           "url": "https://www.hausderkunst.de/veranstaltungen/familienführung-zu-tomás-saraceno-verwobene-welten-290832",
-          "priority": 10
-        }
-      ],
-      "stale": false
-    },
-    {
-      "title": "Open Salon mit „Mothering – Subversive Fürsorge als radikale Praxis“",
-      "source_name": "Haus der Kunst",
-      "source_url": "https://www.hausderkunst.de/veranstaltungen/open-salon-mit-mothering-subversive-fürsorge-als-radikale-praxis-316683",
-      "start": "2026-10-03T14:00:00+02:00",
-      "end": null,
-      "description": "14:00 — Mitmachen, Eintritt frei, Open Salon",
-      "location_name": "Haus der Kunst",
-      "address": "Prinzregentenstraße 1, München",
-      "district": null,
-      "category": "museum",
-      "tags": [
-        "museum"
-      ],
-      "price_text": "Eintritt frei",
-      "is_free": true,
-      "family_friendly": null,
-      "image_url": null,
-      "all_day": false,
-      "source_priority": 10,
-      "series_id": "open salon mit „mothering – subversive fürsorge als radikale praxis“",
-      "status": "scheduled",
-      "id": "82e84d5659bec6e9e256",
-      "discovered_at": "2026-09-16T20:04:31+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "Haus der Kunst",
-          "url": "https://www.hausderkunst.de/veranstaltungen/open-salon-mit-mothering-subversive-fürsorge-als-radikale-praxis-316683",
           "priority": 10
         }
       ],
@@ -10214,13 +10179,49 @@
       "status": "scheduled",
       "id": "21567e0083710f52a80b",
       "discovered_at": "2026-09-16T20:04:31+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "Haus der Kunst",
           "url": "https://www.hausderkunst.de/veranstaltungen/little-wildlife-explorers-entdeckt-die-biodiversität-des-gemeinschaftsgarten-ostwiese-316737",
+          "priority": 10
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Open Salon mit „Mothering – Subversive Fürsorge als radikale Praxis“",
+      "source_name": "Haus der Kunst",
+      "source_url": "https://www.hausderkunst.de/veranstaltungen/open-salon-mit-mothering-subversive-fürsorge-als-radikale-praxis-316683",
+      "start": "2026-10-03T14:00:00+02:00",
+      "end": null,
+      "description": "14:00 — Mitmachen, Eintritt frei, Open Salon",
+      "location_name": "Haus der Kunst",
+      "address": "Prinzregentenstraße 1, München",
+      "district": null,
+      "category": "museum",
+      "tags": [
+        "museum"
+      ],
+      "price_text": "Eintritt frei",
+      "is_free": true,
+      "family_friendly": null,
+      "image_url": null,
+      "all_day": false,
+      "source_priority": 10,
+      "series_id": "open salon mit „mothering – subversive fürsorge als radikale praxis“",
+      "status": "scheduled",
+      "id": "82e84d5659bec6e9e256",
+      "discovered_at": "2026-09-16T20:04:31+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "Haus der Kunst",
+          "url": "https://www.hausderkunst.de/veranstaltungen/open-salon-mit-mothering-subversive-fürsorge-als-radikale-praxis-316683",
           "priority": 10
         }
       ],
@@ -10250,7 +10251,7 @@
       "status": "scheduled",
       "id": "ae09e8d4ca137efa298f",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10288,7 +10289,7 @@
       "status": "scheduled",
       "id": "4c42bcec678460d2b2da",
       "discovered_at": "2026-09-17T11:20:46+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10325,13 +10326,49 @@
       "status": "scheduled",
       "id": "ee5923d35716cce6c3c8",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "Haus der Kunst",
           "url": "https://www.hausderkunst.de/veranstaltungen/ausstellungsführung-zu-steina-playback-290866",
+          "priority": 10
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Ausstellungsführung zu „Tomás Saraceno in collaboration. Verwobene Welten” in Englisch",
+      "source_name": "Haus der Kunst",
+      "source_url": "https://www.hausderkunst.de/veranstaltungen/ausstellungsführung-zu-tomás-saraceno-verwobene-welten-290856",
+      "start": "2026-10-04T11:00:00+02:00",
+      "end": null,
+      "description": "11:00 — Führungen",
+      "location_name": "Haus der Kunst",
+      "address": "Prinzregentenstraße 1, München",
+      "district": null,
+      "category": "museum",
+      "tags": [
+        "museum"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": null,
+      "image_url": null,
+      "all_day": false,
+      "source_priority": 10,
+      "series_id": "ausstellungsführung  zu „tomás saraceno in collaboration. verwobene welten” in englisch",
+      "status": "scheduled",
+      "id": "e78f3ada37a01ca6443e",
+      "discovered_at": "2026-09-19T19:07:00+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "Haus der Kunst",
+          "url": "https://www.hausderkunst.de/veranstaltungen/ausstellungsführung-zu-tomás-saraceno-verwobene-welten-290856",
           "priority": 10
         }
       ],
@@ -10362,49 +10399,13 @@
       "status": "scheduled",
       "id": "2863dedd57d8d1c998da",
       "discovered_at": "2026-09-19T23:23:00+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "Haus der Kunst",
           "url": "https://www.hausderkunst.de/veranstaltungen/open-atelier-solar-283843",
-          "priority": 10
-        }
-      ],
-      "stale": false
-    },
-    {
-      "title": "Ausstellungsführung zu „Tomás Saraceno in collaboration. Verwobene Welten” in Englisch",
-      "source_name": "Haus der Kunst",
-      "source_url": "https://www.hausderkunst.de/veranstaltungen/ausstellungsführung-zu-tomás-saraceno-verwobene-welten-290856",
-      "start": "2026-10-04T11:00:00+02:00",
-      "end": null,
-      "description": "11:00 — Führungen",
-      "location_name": "Haus der Kunst",
-      "address": "Prinzregentenstraße 1, München",
-      "district": null,
-      "category": "museum",
-      "tags": [
-        "museum"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": null,
-      "image_url": null,
-      "all_day": false,
-      "source_priority": 10,
-      "series_id": "ausstellungsführung  zu „tomás saraceno in collaboration. verwobene welten” in englisch",
-      "status": "scheduled",
-      "id": "e78f3ada37a01ca6443e",
-      "discovered_at": "2026-09-19T19:07:00+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "Haus der Kunst",
-          "url": "https://www.hausderkunst.de/veranstaltungen/ausstellungsführung-zu-tomás-saraceno-verwobene-welten-290856",
           "priority": 10
         }
       ],
@@ -10435,7 +10436,7 @@
       "status": "scheduled",
       "id": "02514414d419c0f09f97",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10471,7 +10472,7 @@
       "status": "scheduled",
       "id": "cc4c68c05fb6b5327744",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10508,7 +10509,7 @@
       "status": "scheduled",
       "id": "0a6ed167d99f479c205e",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10544,7 +10545,7 @@
       "status": "scheduled",
       "id": "67eadcb215e971c01d0f",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10581,7 +10582,7 @@
       "status": "scheduled",
       "id": "5261929d1d90e19335dc",
       "discovered_at": "2026-09-14T11:44:42+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10618,7 +10619,7 @@
       "status": "scheduled",
       "id": "182077e1f5635f80d6fd",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10655,7 +10656,7 @@
       "status": "scheduled",
       "id": "fe18baebcfc1ff0c5c03",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10693,7 +10694,7 @@
       "status": "scheduled",
       "id": "b961828f52ff59acf13f",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10731,7 +10732,7 @@
       "status": "scheduled",
       "id": "9d7463db65b761b987e0",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10768,50 +10769,13 @@
       "status": "scheduled",
       "id": "b5e2daaae7205dc27d8a",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "Haus der Kunst",
           "url": "https://www.hausderkunst.de/veranstaltungen/ausstellungsführung-zu-tomás-saraceno-verwobene-welten-290806",
-          "priority": 10
-        }
-      ],
-      "stale": false
-    },
-    {
-      "title": "Visita guiada a la exposición “Tomás Saraceno in collaboration. Ancestral Futures”",
-      "source_name": "Haus der Kunst",
-      "source_url": "https://www.hausderkunst.de/veranstaltungen/visita-guiada-a-la-exposición-tomás-saraceno-in-collaboration-ancestral-futures-287655",
-      "start": "2026-10-11T11:00:00+02:00",
-      "end": null,
-      "description": "11:00 — Führungen",
-      "location_name": "Haus der Kunst",
-      "address": "Prinzregentenstraße 1, München",
-      "district": null,
-      "category": "museum",
-      "tags": [
-        "museum",
-        "recurring"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": null,
-      "image_url": null,
-      "all_day": false,
-      "source_priority": 10,
-      "series_id": "visita guiada a la exposición “tomás saraceno in collaboration. ancestral futures”",
-      "status": "scheduled",
-      "id": "e4b54c9685546c2d7451",
-      "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "Haus der Kunst",
-          "url": "https://www.hausderkunst.de/veranstaltungen/visita-guiada-a-la-exposición-tomás-saraceno-in-collaboration-ancestral-futures-287655",
           "priority": 10
         }
       ],
@@ -10842,13 +10806,50 @@
       "status": "scheduled",
       "id": "0ccc7c1d866a87dd4e5c",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "Haus der Kunst",
           "url": "https://www.hausderkunst.de/veranstaltungen/open-atelier-solar-283845",
+          "priority": 10
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Visita guiada a la exposición “Tomás Saraceno in collaboration. Ancestral Futures”",
+      "source_name": "Haus der Kunst",
+      "source_url": "https://www.hausderkunst.de/veranstaltungen/visita-guiada-a-la-exposición-tomás-saraceno-in-collaboration-ancestral-futures-287655",
+      "start": "2026-10-11T11:00:00+02:00",
+      "end": null,
+      "description": "11:00 — Führungen",
+      "location_name": "Haus der Kunst",
+      "address": "Prinzregentenstraße 1, München",
+      "district": null,
+      "category": "museum",
+      "tags": [
+        "museum",
+        "recurring"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": null,
+      "image_url": null,
+      "all_day": false,
+      "source_priority": 10,
+      "series_id": "visita guiada a la exposición “tomás saraceno in collaboration. ancestral futures”",
+      "status": "scheduled",
+      "id": "e4b54c9685546c2d7451",
+      "discovered_at": "2026-09-20T11:11:59+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "Haus der Kunst",
+          "url": "https://www.hausderkunst.de/veranstaltungen/visita-guiada-a-la-exposición-tomás-saraceno-in-collaboration-ancestral-futures-287655",
           "priority": 10
         }
       ],
@@ -10879,7 +10880,7 @@
       "status": "scheduled",
       "id": "bf073b97326cf1968516",
       "discovered_at": "2026-09-21T21:12:52+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10916,7 +10917,7 @@
       "status": "scheduled",
       "id": "0b8f2bb30e264056b70d",
       "discovered_at": "2026-09-21T21:12:52+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10953,7 +10954,7 @@
       "status": "scheduled",
       "id": "16a0d5eb493ad4db26fb",
       "discovered_at": "2026-09-21T21:12:52+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10992,7 +10993,7 @@
       "status": "scheduled",
       "id": "28e7df483c1f769827b3",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11028,7 +11029,7 @@
       "status": "scheduled",
       "id": "142e03377b6efe89f44a",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11064,7 +11065,7 @@
       "status": "scheduled",
       "id": "9aadc36d780ca4597de1",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11100,7 +11101,7 @@
       "status": "scheduled",
       "id": "da156c2ebffe8992dd30",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11136,7 +11137,7 @@
       "status": "scheduled",
       "id": "d0b62b85967b36d4334c",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11172,7 +11173,7 @@
       "status": "scheduled",
       "id": "23cbcbe7fea25550ee8a",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11208,7 +11209,7 @@
       "status": "scheduled",
       "id": "baffa59a640d1e0d0b78",
       "discovered_at": "2026-09-18T00:00:54+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11244,7 +11245,7 @@
       "status": "scheduled",
       "id": "b02761a2e50e9c34ce92",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11281,7 +11282,7 @@
       "status": "scheduled",
       "id": "d6d12b620cc1080589f0",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11317,7 +11318,7 @@
       "status": "scheduled",
       "id": "0f88f0bada58a6fbc626",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11353,7 +11354,7 @@
       "status": "scheduled",
       "id": "3ced33eb9460bcd703e8",
       "discovered_at": "2026-09-22T20:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11391,7 +11392,7 @@
       "status": "scheduled",
       "id": "017f990795808ee8b715",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11427,7 +11428,7 @@
       "status": "scheduled",
       "id": "89a5d860c2a19fd45e92",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11463,7 +11464,7 @@
       "status": "scheduled",
       "id": "8f48b3f527048426f3a5",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11499,7 +11500,7 @@
       "status": "scheduled",
       "id": "bc087292173603336923",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11535,7 +11536,7 @@
       "status": "scheduled",
       "id": "d13214378aa0fc948573",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11572,7 +11573,7 @@
       "status": "scheduled",
       "id": "00beb769fd73343d018a",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11608,7 +11609,7 @@
       "status": "scheduled",
       "id": "1a2212096069e3c93aa5",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11645,7 +11646,7 @@
       "status": "scheduled",
       "id": "af54bc53fe3f79c1f79c",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11682,7 +11683,7 @@
       "status": "scheduled",
       "id": "617368f18aea44f41524",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11719,7 +11720,7 @@
       "status": "scheduled",
       "id": "6ee992cbf70cab263f6a",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11755,7 +11756,7 @@
       "status": "scheduled",
       "id": "43e3988f790afd3a7ddc",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11792,7 +11793,7 @@
       "status": "scheduled",
       "id": "b1a1441eb52da104fa9b",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11828,7 +11829,7 @@
       "status": "scheduled",
       "id": "3b9902f9462d12aa18b6",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11864,7 +11865,7 @@
       "status": "scheduled",
       "id": "40d93574ccb83695586d",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11900,7 +11901,7 @@
       "status": "scheduled",
       "id": "af95af98780e2e6e7646",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11936,7 +11937,7 @@
       "status": "scheduled",
       "id": "830d1caa4fbb12ff6932",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11972,7 +11973,7 @@
       "status": "scheduled",
       "id": "655aa09248d06370ad19",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12008,7 +12009,7 @@
       "status": "scheduled",
       "id": "655aa09248d06370ad19",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12044,7 +12045,7 @@
       "status": "scheduled",
       "id": "31d6cde74d1374200da6",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12080,7 +12081,7 @@
       "status": "scheduled",
       "id": "3fec4dd9b526c6f03ef0",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12116,7 +12117,7 @@
       "status": "scheduled",
       "id": "38fd09570ab4ca53d5f9",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12152,7 +12153,7 @@
       "status": "scheduled",
       "id": "a40e4230d71a717d0336",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12188,7 +12189,7 @@
       "status": "scheduled",
       "id": "afc4c3b257f448e337ef",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12224,7 +12225,7 @@
       "status": "scheduled",
       "id": "3dd751dcf3b6d600d65f",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12260,7 +12261,7 @@
       "status": "scheduled",
       "id": "bf670cb81ef4717dd985",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12297,7 +12298,7 @@
       "status": "scheduled",
       "id": "0b082ccf7ce8f3b3bb35",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12333,7 +12334,7 @@
       "status": "scheduled",
       "id": "35770729d34d3651fdbe",
       "discovered_at": "2026-09-21T11:48:44+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12369,7 +12370,7 @@
       "status": "scheduled",
       "id": "c5dd7fff00b92c023ad4",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12405,7 +12406,7 @@
       "status": "scheduled",
       "id": "73df2c70b0389f3a02fe",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12443,7 +12444,7 @@
       "status": "scheduled",
       "id": "ed94538c3315e2cdf123",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12477,7 +12478,7 @@
       "status": "scheduled",
       "id": "1142a58271d26b7f5d4b",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12515,7 +12516,7 @@
       "status": "scheduled",
       "id": "af3ef0a7898428f1c4d2",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12551,7 +12552,7 @@
       "status": "scheduled",
       "id": "09bb014c1f8c65637fe5",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12585,7 +12586,7 @@
       "status": "scheduled",
       "id": "f6230adff4d8ddaf0412",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12619,7 +12620,7 @@
       "status": "scheduled",
       "id": "d9f2797bc55915391875",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12655,7 +12656,7 @@
       "status": "scheduled",
       "id": "65addab97e1fb1944ecf",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12689,7 +12690,7 @@
       "status": "scheduled",
       "id": "6574f4596d09ff08f10c",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12723,7 +12724,7 @@
       "status": "scheduled",
       "id": "27d5abcd4a362e7c0d79",
       "discovered_at": "2026-09-15T11:19:33+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12759,7 +12760,7 @@
       "status": "scheduled",
       "id": "27e5e8252498d5162c5a",
       "discovered_at": "2026-09-17T00:00:07+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12793,7 +12794,7 @@
       "status": "scheduled",
       "id": "fcf2b34deb75b279a2b3",
       "discovered_at": "2026-09-19T10:42:55+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12829,7 +12830,7 @@
       "status": "scheduled",
       "id": "7c04d3302ad4d7177f4b",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12868,7 +12869,7 @@
       "status": "scheduled",
       "id": "86251ee6c6eb5368756c",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12904,7 +12905,7 @@
       "status": "scheduled",
       "id": "de5539fb1c0ea506233f",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12940,7 +12941,7 @@
       "status": "scheduled",
       "id": "d6f31258ead20e4da523",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12977,7 +12978,7 @@
       "status": "scheduled",
       "id": "f125fa9e4725c99aa2ae",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13013,7 +13014,7 @@
       "status": "scheduled",
       "id": "0cd33a6ca0bd1622d182",
       "discovered_at": "2026-09-13T21:08:36+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13049,7 +13050,7 @@
       "status": "scheduled",
       "id": "f7031bff341f04350683",
       "discovered_at": "2026-09-20T11:11:59+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13085,7 +13086,7 @@
       "status": "scheduled",
       "id": "7f252e711a37b71479f4",
       "discovered_at": "2026-09-22T11:12:34+02:00",
-      "updated_at": "2026-09-22T20:01:24+02:00",
+      "updated_at": "2026-09-22T23:56:08+02:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
