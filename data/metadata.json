@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-22T11:12:34+02:00",
+  "last_updated": "2026-09-22T20:01:24+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
   "sources_successful": 13,
-  "events_collected": 416,
-  "events_after_deduplication": 343,
+  "events_collected": 417,
+  "events_after_deduplication": 344,
   "stale_events": 0,
   "sources": [
     {
@@ -77,7 +77,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -126,51 +126,51 @@
   "views": {
     "today": [
       "2736415af8ad7429117c",
-      "453c29b6c3bab2b31d96",
-      "7ed61e60bc9c807b3ae3",
-      "9d66cb1877aa042c73ac",
-      "20cb4b0f6f5c6177a4ab"
+      "20cb4b0f6f5c6177a4ab",
+      "4fc1188633803fc5bee3",
+      "09bb014c1f8c65637fe5",
+      "862689a93b736100b650"
     ],
     "tomorrow": [
-      "d1f37b8a7b67a6977e96",
       "834682b4ff73f2fb0c77",
       "58d812f3f50112bd4547",
       "09bb014c1f8c65637fe5",
-      "4204f1ffd185b20f2030"
+      "d1f37b8a7b67a6977e96",
+      "e37d7da54ead6bdb1d76"
     ],
     "weekend": [
       "58d812f3f50112bd4547",
       "09bb014c1f8c65637fe5",
       "af3ef0a7898428f1c4d2",
-      "8f48b3f527048426f3a5",
-      "bc087292173603336923"
+      "3ced33eb9460bcd703e8",
+      "8f48b3f527048426f3a5"
     ],
     "upcoming": [
-      "d1f37b8a7b67a6977e96",
       "834682b4ff73f2fb0c77",
+      "b2040cc44bd20dda12d5",
+      "75dfa1b6f5a7ef188fca",
       "af3ef0a7898428f1c4d2",
-      "07636ede2aab4da0c808",
-      "8f48b3f527048426f3a5"
+      "07636ede2aab4da0c808"
     ],
     "new": [
       "2736415af8ad7429117c",
-      "453c29b6c3bab2b31d96",
-      "7ed61e60bc9c807b3ae3",
-      "9d66cb1877aa042c73ac",
-      "20cb4b0f6f5c6177a4ab"
+      "20cb4b0f6f5c6177a4ab",
+      "4fc1188633803fc5bee3",
+      "834682b4ff73f2fb0c77",
+      "b2040cc44bd20dda12d5"
     ]
   },
   "heads_up": [
-    {
-      "event_id": "d1f37b8a7b67a6977e96",
-      "days_until": 1
-    },
     {
       "event_id": "834682b4ff73f2fb0c77",
       "days_until": 1
     },
     {
-      "event_id": "880676d93543a67da14a",
+      "event_id": "75dfa1b6f5a7ef188fca",
+      "days_until": 3
+    },
+    {
+      "event_id": "d1f37b8a7b67a6977e96",
       "days_until": 1
     }
   ],
@@ -187,5 +187,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "072b1ba9930afa82e70364120b58df098224a5cab0e790d5a808299b2508c034"
+  "data_hash": "2e8c191c49fb223b60c74c70a2ab7968b34216c0e126bff8a503e6b53ae02da0"
 }
