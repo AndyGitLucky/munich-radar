@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-23T11:13:06+02:00",
+  "last_updated": "2026-09-23T20:20:41+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
-  "sources_successful": 13,
-  "events_collected": 418,
-  "events_after_deduplication": 350,
-  "stale_events": 0,
+  "sources_successful": 12,
+  "events_collected": 402,
+  "events_after_deduplication": 348,
+  "stale_events": 14,
   "sources": [
     {
       "id": "corso_leopold",
@@ -60,16 +60,18 @@
       "id": "stadtmuseum",
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
-      "status": "ok",
-      "events": 14,
-      "warnings": []
+      "status": "error",
+      "events": 0,
+      "warnings": [
+        "ValueError: Keine datierten Kalendereinträge gefunden"
+      ]
     },
     {
       "id": "haus_der_kunst",
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 40,
+      "events": 39,
       "warnings": []
     },
     {
@@ -77,7 +79,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 43,
+      "events": 42,
       "warnings": []
     },
     {
@@ -125,39 +127,39 @@
   },
   "views": {
     "today": [
-      "834682b4ff73f2fb0c77",
       "040c232bd23e71fea7e0",
-      "d1f37b8a7b67a6977e96",
-      "e37d7da54ead6bdb1d76",
-      "051187e45d18c9c5b148"
+      "051187e45d18c9c5b148",
+      "3c69145119891cba67cd",
+      "68bf05420928eee57bd3",
+      "09bb014c1f8c65637fe5"
     ],
     "tomorrow": [
       "040c232bd23e71fea7e0",
       "b2040cc44bd20dda12d5",
       "58d812f3f50112bd4547",
       "09bb014c1f8c65637fe5",
-      "163ec4a1afc0ecf036ce"
+      "636c1121ff2409c6e762"
     ],
     "weekend": [
+      "e19e78542523123679d6",
+      "ca36fd63276c5b0d0a40",
       "040c232bd23e71fea7e0",
-      "58d812f3f50112bd4547",
-      "09bb014c1f8c65637fe5",
+      "746520c9b9845637fd8a",
+      "58d812f3f50112bd4547"
+    ],
+    "upcoming": [
+      "e19e78542523123679d6",
+      "ca36fd63276c5b0d0a40",
+      "b2040cc44bd20dda12d5",
       "94a18c617ea5de8542ea",
       "af3ef0a7898428f1c4d2"
     ],
-    "upcoming": [
-      "b2040cc44bd20dda12d5",
-      "94a18c617ea5de8542ea",
-      "af3ef0a7898428f1c4d2",
-      "07636ede2aab4da0c808",
-      "3ced33eb9460bcd703e8"
-    ],
     "new": [
-      "834682b4ff73f2fb0c77",
+      "e19e78542523123679d6",
+      "ca36fd63276c5b0d0a40",
       "040c232bd23e71fea7e0",
-      "e37d7da54ead6bdb1d76",
-      "3a1b9f35e8f0c0e1524b",
-      "051187e45d18c9c5b148"
+      "051187e45d18c9c5b148",
+      "3c69145119891cba67cd"
     ]
   },
   "heads_up": [
@@ -166,11 +168,11 @@
       "days_until": 1
     },
     {
-      "event_id": "94a18c617ea5de8542ea",
+      "event_id": "746520c9b9845637fd8a",
       "days_until": 3
     },
     {
-      "event_id": "3ced33eb9460bcd703e8",
+      "event_id": "f5809a1e61bfed763799",
       "days_until": 3
     }
   ],
@@ -187,5 +189,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "864e2c053f7f6fb420cc6d6f5f968f3735a6e67cf0092e3fc7bd4528266c3116"
+  "data_hash": "046b578ec3744181bd1948b274f2b78c0c3312e75d3c62fd63075f103a77e611"
 }
