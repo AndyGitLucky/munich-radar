@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-23T20:20:41+02:00",
+  "last_updated": "2026-09-24T00:09:44+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
-  "sources_successful": 12,
-  "events_collected": 402,
-  "events_after_deduplication": 348,
-  "stale_events": 14,
+  "sources_successful": 13,
+  "events_collected": 417,
+  "events_after_deduplication": 352,
+  "stale_events": 0,
   "sources": [
     {
       "id": "corso_leopold",
@@ -45,7 +45,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 129,
+      "events": 128,
       "warnings": []
     },
     {
@@ -60,18 +60,16 @@
       "id": "stadtmuseum",
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "ValueError: Keine datierten Kalendereinträge gefunden"
-      ]
+      "status": "ok",
+      "events": 14,
+      "warnings": []
     },
     {
       "id": "haus_der_kunst",
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -103,7 +101,7 @@
       "name": "Messe München",
       "url": "https://messe-muenchen.de/de/veranstaltungen/",
       "status": "partial",
-      "events": 7,
+      "events": 8,
       "warnings": [
         "Unbekannter Messestatus; Termin ausgelassen"
       ]
@@ -127,53 +125,53 @@
   },
   "views": {
     "today": [
+      "b2040cc44bd20dda12d5",
       "040c232bd23e71fea7e0",
-      "051187e45d18c9c5b148",
-      "3c69145119891cba67cd",
-      "68bf05420928eee57bd3",
-      "09bb014c1f8c65637fe5"
+      "636c1121ff2409c6e762",
+      "5f4a789331ae5df8ba51",
+      "79b0ba833adba7cffe82"
     ],
     "tomorrow": [
       "040c232bd23e71fea7e0",
-      "b2040cc44bd20dda12d5",
-      "58d812f3f50112bd4547",
+      "75dfa1b6f5a7ef188fca",
       "09bb014c1f8c65637fe5",
-      "636c1121ff2409c6e762"
+      "84bbb19f793977a4c736",
+      "8f5f705ea77b23264f61"
     ],
     "weekend": [
       "e19e78542523123679d6",
       "ca36fd63276c5b0d0a40",
       "040c232bd23e71fea7e0",
-      "746520c9b9845637fd8a",
-      "58d812f3f50112bd4547"
+      "f5809a1e61bfed763799",
+      "09bb014c1f8c65637fe5"
     ],
     "upcoming": [
       "e19e78542523123679d6",
       "ca36fd63276c5b0d0a40",
-      "b2040cc44bd20dda12d5",
+      "75dfa1b6f5a7ef188fca",
       "94a18c617ea5de8542ea",
       "af3ef0a7898428f1c4d2"
     ],
     "new": [
+      "b2040cc44bd20dda12d5",
       "e19e78542523123679d6",
       "ca36fd63276c5b0d0a40",
       "040c232bd23e71fea7e0",
-      "051187e45d18c9c5b148",
-      "3c69145119891cba67cd"
+      "79b0ba833adba7cffe82"
     ]
   },
   "heads_up": [
     {
-      "event_id": "b2040cc44bd20dda12d5",
+      "event_id": "e19e78542523123679d6",
+      "days_until": 3
+    },
+    {
+      "event_id": "ca36fd63276c5b0d0a40",
+      "days_until": 3
+    },
+    {
+      "event_id": "75dfa1b6f5a7ef188fca",
       "days_until": 1
-    },
-    {
-      "event_id": "746520c9b9845637fd8a",
-      "days_until": 3
-    },
-    {
-      "event_id": "f5809a1e61bfed763799",
-      "days_until": 3
     }
   ],
   "heads_up_rules": {
@@ -189,5 +187,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "046b578ec3744181bd1948b274f2b78c0c3312e75d3c62fd63075f103a77e611"
+  "data_hash": "6acd066abec50c1672500253d1ae0a4742ab8f61f540fdc45790fa8e3698ab31"
 }
