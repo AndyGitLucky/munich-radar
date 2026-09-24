@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-24T11:11:28+02:00",
+  "last_updated": "2026-09-24T20:21:29+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
   "sources_successful": 13,
-  "events_collected": 415,
+  "events_collected": 414,
   "events_after_deduplication": 354,
   "stale_events": 0,
   "sources": [
@@ -77,7 +77,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 42,
+      "events": 38,
       "warnings": []
     },
     {
@@ -101,7 +101,7 @@
       "name": "Messe München",
       "url": "https://messe-muenchen.de/de/veranstaltungen/",
       "status": "partial",
-      "events": 8,
+      "events": 11,
       "warnings": [
         "Unbekannter Messestatus; Termin ausgelassen"
       ]
@@ -125,53 +125,53 @@
   },
   "views": {
     "today": [
-      "b2040cc44bd20dda12d5",
       "040c232bd23e71fea7e0",
       "a82e7a830ac16b8e90fa",
-      "5f4a789331ae5df8ba51",
-      "18344fa4897c0e26fcb7"
+      "79b0ba833adba7cffe82",
+      "c01c6e313e09a7fad4f1",
+      "09bb014c1f8c65637fe5"
     ],
     "tomorrow": [
       "040c232bd23e71fea7e0",
+      "75dfa1b6f5a7ef188fca",
       "09bb014c1f8c65637fe5",
       "84bbb19f793977a4c736",
-      "8f5f705ea77b23264f61",
-      "d7716c09d760f029edd0"
+      "8f5f705ea77b23264f61"
     ],
     "weekend": [
+      "e19e78542523123679d6",
+      "ca36fd63276c5b0d0a40",
       "040c232bd23e71fea7e0",
-      "09bb014c1f8c65637fe5",
-      "94a18c617ea5de8542ea",
-      "af3ef0a7898428f1c4d2",
-      "3ced33eb9460bcd703e8"
+      "4af10fc88764272f687b",
+      "09bb014c1f8c65637fe5"
     ],
     "upcoming": [
+      "e19e78542523123679d6",
+      "ca36fd63276c5b0d0a40",
+      "75dfa1b6f5a7ef188fca",
       "94a18c617ea5de8542ea",
-      "af3ef0a7898428f1c4d2",
-      "07636ede2aab4da0c808",
-      "3ced33eb9460bcd703e8",
-      "617368f18aea44f41524"
+      "af3ef0a7898428f1c4d2"
     ],
     "new": [
-      "b2040cc44bd20dda12d5",
+      "e19e78542523123679d6",
+      "ca36fd63276c5b0d0a40",
       "040c232bd23e71fea7e0",
       "a82e7a830ac16b8e90fa",
-      "5f4a789331ae5df8ba51",
-      "18344fa4897c0e26fcb7"
+      "79b0ba833adba7cffe82"
     ]
   },
   "heads_up": [
     {
-      "event_id": "af3ef0a7898428f1c4d2",
+      "event_id": "e19e78542523123679d6",
       "days_until": 3
     },
     {
-      "event_id": "617368f18aea44f41524",
+      "event_id": "ca36fd63276c5b0d0a40",
       "days_until": 3
     },
     {
-      "event_id": "3b9902f9462d12aa18b6",
-      "days_until": 3
+      "event_id": "75dfa1b6f5a7ef188fca",
+      "days_until": 1
     }
   ],
   "heads_up_rules": {
@@ -187,5 +187,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "8af442fb49d8017ca65f978cd789971f07cac1672b9116dbe20792d3d25f3fa2"
+  "data_hash": "6408f212b352eb114fd0591987612eb37bb63795b6bca0966fc83306c3a87c25"
 }
