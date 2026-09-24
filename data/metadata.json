@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-24T00:09:44+02:00",
+  "last_updated": "2026-09-24T11:11:28+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
   "sources_successful": 13,
-  "events_collected": 417,
-  "events_after_deduplication": 352,
+  "events_collected": 415,
+  "events_after_deduplication": 354,
   "stale_events": 0,
   "sources": [
     {
@@ -61,7 +61,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 14,
+      "events": 12,
       "warnings": []
     },
     {
@@ -127,51 +127,51 @@
     "today": [
       "b2040cc44bd20dda12d5",
       "040c232bd23e71fea7e0",
-      "636c1121ff2409c6e762",
+      "a82e7a830ac16b8e90fa",
       "5f4a789331ae5df8ba51",
-      "79b0ba833adba7cffe82"
+      "18344fa4897c0e26fcb7"
     ],
     "tomorrow": [
       "040c232bd23e71fea7e0",
-      "75dfa1b6f5a7ef188fca",
       "09bb014c1f8c65637fe5",
       "84bbb19f793977a4c736",
-      "8f5f705ea77b23264f61"
+      "8f5f705ea77b23264f61",
+      "d7716c09d760f029edd0"
     ],
     "weekend": [
-      "e19e78542523123679d6",
-      "ca36fd63276c5b0d0a40",
       "040c232bd23e71fea7e0",
-      "f5809a1e61bfed763799",
-      "09bb014c1f8c65637fe5"
+      "09bb014c1f8c65637fe5",
+      "94a18c617ea5de8542ea",
+      "af3ef0a7898428f1c4d2",
+      "3ced33eb9460bcd703e8"
     ],
     "upcoming": [
-      "e19e78542523123679d6",
-      "ca36fd63276c5b0d0a40",
-      "75dfa1b6f5a7ef188fca",
       "94a18c617ea5de8542ea",
-      "af3ef0a7898428f1c4d2"
+      "af3ef0a7898428f1c4d2",
+      "07636ede2aab4da0c808",
+      "3ced33eb9460bcd703e8",
+      "617368f18aea44f41524"
     ],
     "new": [
       "b2040cc44bd20dda12d5",
-      "e19e78542523123679d6",
-      "ca36fd63276c5b0d0a40",
       "040c232bd23e71fea7e0",
-      "79b0ba833adba7cffe82"
+      "a82e7a830ac16b8e90fa",
+      "5f4a789331ae5df8ba51",
+      "18344fa4897c0e26fcb7"
     ]
   },
   "heads_up": [
     {
-      "event_id": "e19e78542523123679d6",
+      "event_id": "af3ef0a7898428f1c4d2",
       "days_until": 3
     },
     {
-      "event_id": "ca36fd63276c5b0d0a40",
+      "event_id": "617368f18aea44f41524",
       "days_until": 3
     },
     {
-      "event_id": "75dfa1b6f5a7ef188fca",
-      "days_until": 1
+      "event_id": "3b9902f9462d12aa18b6",
+      "days_until": 3
     }
   ],
   "heads_up_rules": {
@@ -187,5 +187,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "6acd066abec50c1672500253d1ae0a4742ab8f61f540fdc45790fa8e3698ab31"
+  "data_hash": "8af442fb49d8017ca65f978cd789971f07cac1672b9116dbe20792d3d25f3fa2"
 }
