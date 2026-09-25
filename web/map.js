@@ -1,6 +1,6 @@
 "use strict";
 window.RadarMap = (() => {
-  let loading, map, clusters, tileLayer, previousKey = "", renderVersion = 0;
+  let loading, map, clusters, tileLayer, activePopup, previousKey = "", renderVersion = 0;
   const key = value => String(value || "").normalize("NFKC").toLocaleLowerCase("de").replace(/\s+/g," ").trim();
   let places = [];
   function setPlaces(data) {
@@ -35,6 +35,10 @@ window.RadarMap = (() => {
       ]);
       if (!L.markerClusterGroup) await asset("script","./vendor/leaflet.markercluster/leaflet.markercluster.js");
       map = L.map("event-map", {scrollWheelZoom:false}).setView([48.137,11.576],11);
+      map.on("popupopen", event => {activePopup = event.popup;});
+      map.on("popupclose", () => {activePopup = null;});
+      // Re-measure responsive content after rotation before keeping it inside the map.
+      map.on("resize", () => {if (activePopup) activePopup.update();});
       tileLayer = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom:19, attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>'
       }).addTo(map);

@@ -148,9 +148,11 @@ def main():
                     assert not page.evaluate("document.documentElement.scrollWidth > innerWidth")
                     page.set_viewport_size({"width":320,"height":700})
                     page.clock.run_for(500)
-                    close_box = page.locator(".leaflet-popup-close-button").bounding_box()
-                    map_box = page.locator("#event-map").bounding_box()
-                    assert close_box["x"] + close_box["width"] <= map_box["x"] + map_box["width"]
+                    page.wait_for_function("""() => {
+                        const close = document.querySelector('.leaflet-popup-close-button').getBoundingClientRect();
+                        const map = document.querySelector('#event-map').getBoundingClientRect();
+                        return close.left >= map.left && close.right <= map.right;
+                    }""")
                     assert not page.evaluate("document.documentElement.scrollWidth > innerWidth")
                     page.locator(".leaflet-popup-close-button").click()
                     page.locator("#map-saved-only").uncheck()
