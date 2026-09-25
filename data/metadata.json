@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-25T00:10:30+02:00",
+  "last_updated": "2026-09-25T11:31:04+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
   "sources_successful": 13,
-  "events_collected": 414,
+  "events_collected": 413,
   "events_after_deduplication": 361,
   "stale_events": 0,
   "sources": [
@@ -61,7 +61,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 12,
+      "events": 11,
       "warnings": []
     },
     {
@@ -128,8 +128,8 @@
       "75dfa1b6f5a7ef188fca",
       "040c232bd23e71fea7e0",
       "3870edb096d5e2c97cfb",
-      "84bbb19f793977a4c736",
-      "8f5f705ea77b23264f61"
+      "8f5f705ea77b23264f61",
+      "ddee9cbb4f121cbebf16"
     ],
     "tomorrow": [
       "040c232bd23e71fea7e0",
@@ -187,5 +187,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "22a680450967544b0a1a1492b71c3d82e38659a3998c0184f9d06c5a5111b981"
+  "data_hash": "9e94281f26d50a74128b1e9f1f21e0d5fc34cb005f27b1fce429fef07dde0cfd"
 }
