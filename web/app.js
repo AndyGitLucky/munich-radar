@@ -2,9 +2,11 @@
 (() => {
   const $ = (selector) => document.querySelector(selector);
   const labels = {festival:"Festival",street_festival:"Straßenfest",museum:"Museum & Kultur",exhibition:"Ausstellung",science:"Wissenschaft",technology:"Technik",family:"Familie",children:"Kinder",market:"Markt",flea_market:"Flohmarkt",culture:"Kultur",concert:"Musik & Konzert",theatre:"Theater",food:"Essen & Trinken",seasonal:"Saisonales",outdoor:"Draußen",city_event:"Stadtleben",public_event:"Öffentliches Programm",other:"Entdecken"};
-  const titles = {today:"Heute auf dem Radar",tomorrow:"Das bringt der morgige Tag",weekend:"Dein Wochenende in München",upcoming:"Freu dich auf München",new:"Frisch im Radar"};
+  const titles = {today:"Heute auf dem Radar",tomorrow:"Das bringt der morgige Tag",weekend:"Dein Wochenende in München",upcoming:"Freu dich auf München",new:"Frisch im Radar",saved:"Meine Termine"};
   const zone = "Europe/Berlin";
-  let events = [], metadata = null, view = "today", filter = "all";
+  let events = [], metadata = null, view = "today", filter = "all", display = "list", calendarEvent = null;
+  let mapRenderKey = "", mapGeneration = 0, placesLoaded = true;
+  const personal = window.RadarPersonal;
   const fmt = (value, options) => new Intl.DateTimeFormat("de-DE", {timeZone:zone,...options}).format(new Date(value));
   const dayKey = (value) => {
     const parts = new Intl.DateTimeFormat("en-CA", {timeZone:zone,year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date(value));
@@ -59,20 +61,22 @@
   }
   function dateText(event, today) {
     if (!event.start) return "Termin noch offen";
-    const start = dayKey(event.start), end = dayKey(event.end || event.start);
+    const start = dayKey(event.start), end = personal.lastDay(event);
     const time = value => fmt(value,{hour:"2-digit",minute:"2-digit"});
     if (start !== end) {
-      if (start < today) return `Läuft bis ${fmt(event.end,{day:"numeric",month:"short"})} · Zeiten beim Veranstalter`;
-      return `${fmt(event.start,{day:"numeric",month:"short"})} – ${fmt(event.end,{day:"numeric",month:"short"})}`;
+      const lastDate = fmt(`${end}T12:00:00Z`,{day:"numeric",month:"short"});
+      if (start < today) return `Läuft bis ${lastDate} · Zeiten beim Veranstalter`;
+      return `${fmt(event.start,{day:"numeric",month:"short"})} – ${lastDate}`;
     }
     const day = start === today ? "Heute" : start === shift(today,1) ? "Morgen" : fmt(event.start,{weekday:"short",day:"numeric",month:"short"});
     if (event.all_day) return `${day} · Zeiten beim Veranstalter`;
     return `${day} · ${time(event.start)}${event.end ? `–${time(event.end)}` : ""} Uhr`;
   }
   function card(event, index, today) {
-    const article = element("article",`event-card${index === 0 ? " featured" : ""}`);
+    const featured = index === 0 && view !== "saved";
+    const article = element("article",`event-card${featured ? " featured" : ""}`);
     const top = element("div","card-top");
-    top.append(element("span","category",`${index === 0 ? "IM FOKUS · " : ""}${labels[event.category] || "Entdecken"}`), element("span","card-index",String(index+1).padStart(2,"0")));
+    top.append(element("span","category",`${featured ? "IM FOKUS · " : ""}${labels[event.category] || "Entdecken"}`), element("span","card-index",String(index+1).padStart(2,"0")));
     const facts = element("div","event-facts");
     facts.append(element("span","fact-time",dateText(event,today)));
     if (event.location_name) facts.append(element("span","",event.location_name));
@@ -87,8 +91,100 @@
     const more = link(event.source_url,"Mehr erfahren", "event-link"); more.append(element("span","","↗"));
     more.setAttribute("aria-label",`Mehr erfahren: ${event.title} (externe Quelle)`);
     bottom.append(sources,more); article.append(why,bottom);
+    article.append(actions(event));
     if (event.stale) article.append(element("p","stale-label","Quelle derzeit nicht erreichbar · Termin bitte bestätigen"));
+    if (view === "saved" && !events.some(e => e.id === event.id)) article.append(element("p","stale-label","Nicht im aktuellen Datenstand. Gespeicherter Termin – Angaben bitte beim Veranstalter prüfen."));
     return article;
+  }
+  function announce(message) {
+    $("#personal-status").textContent = personal.issue() || message;
+  }
+  function updateSavedButtons() {
+    $("#saved-count").textContent = personal.all().length;
+    document.querySelectorAll("[data-save-id]").forEach(button => {
+      const marked = personal.has(button.dataset.saveId);
+      button.textContent = marked ? "✓ Gemerkt" : "+ Merken";
+      button.setAttribute("aria-pressed",String(marked));
+    });
+  }
+  function exportCalendar(event) {
+    const start = dayKey(event.start), end = personal.lastDay(event);
+    if (start !== end && (event.all_day || new Date(event.end) - new Date(event.start) > 86400000)) {
+      calendarEvent = event;
+      $("#calendar-event-title").textContent = event.title;
+      const input = $("#calendar-day"), today = dayKey(new Date());
+      input.min = start; input.max = end; input.value = today >= start && today <= end ? today : start;
+      $("#calendar-dialog").showModal();
+    } else {
+      personal.download(event);
+      announce("Kalenderdatei erstellt. Beim Öffnen in deinen Kalender übernehmen; Änderungen werden nicht automatisch aktualisiert.");
+    }
+  }
+  function actions(event) {
+    const container = element("div","event-actions");
+    const save = element("button","action-button"); save.type = "button"; save.dataset.saveId = event.id;
+    save.textContent = personal.has(event.id) ? "✓ Gemerkt" : "+ Merken";
+    save.setAttribute("aria-pressed",String(personal.has(event.id)));
+    save.setAttribute("aria-label",`Merken oder entfernen: ${event.title}`);
+    save.addEventListener("click", () => {
+      const marked = personal.toggle(event); updateSavedButtons();
+      announce(marked ? "In deiner Merkliste gespeichert – nur in diesem Browser." : "Aus deiner Merkliste entfernt. Bereits importierte Kalendereinträge bleiben erhalten.");
+      if (view === "saved" || $("#map-saved-only").checked) {mapRenderKey = ""; render();}
+    });
+    const calendar = element("button","action-button","In Kalender übernehmen"); calendar.type = "button";
+    calendar.dataset.calendarId = event.id;
+    calendar.setAttribute("aria-label",`In Kalender übernehmen: ${event.title}`);
+    calendar.addEventListener("click", () => exportCalendar(event));
+    container.append(save,calendar);
+    if (event.location_name || event.address) {
+      const place = RadarMap.locate(event);
+      const destination = place ? `${place.lat},${place.lon}` : [event.location_name,event.address || "München"].filter(Boolean).join(", ");
+      const url = new URL("https://www.google.com/maps/dir/");
+      url.search = new URLSearchParams({api:"1",destination,travelmode:"transit"}).toString();
+      const route = link(url.href,"Anfahrt ↗","action-button");
+      route.setAttribute("aria-label",`Anfahrt mit Google Maps: ${event.title}`);
+      container.append(route);
+    }
+    return container;
+  }
+  function mapEvent(event) {
+    const node = element("article","map-event");
+    node.append(element("h4","",event.title),element("p","",dateText(event,dayKey(new Date()))));
+    if (event.location_name) node.append(element("p","",event.location_name));
+    node.append(actions(event),link(event.source_url,"Beim Veranstalter ansehen ↗"));
+    return node;
+  }
+  function mapPopup(place,items) {
+    const node = element("div","map-popup");
+    node.append(element("h3","",place.name));
+    if (place.approximate) node.append(element("p","","Gelände / ungefährer Bereich; genauen Treffpunkt beim Veranstalter prüfen."));
+    items.sort((a,b) => a.start.localeCompare(b.start)).forEach(event => node.append(mapEvent(event)));
+    return node;
+  }
+  async function renderMap(candidates) {
+    const key = JSON.stringify([view,filter,$("#map-saved-only").checked,candidates.map(e => [e.id,personal.has(e.id)])]);
+    if (key === mapRenderKey) return;
+    mapRenderKey = key;
+    const generation = ++mapGeneration;
+    $("#event-map").setAttribute("aria-busy","true");
+    $("#map-summary").textContent = "Veranstaltungsorte werden geladen …";
+    const missing = candidates.filter(e => !RadarMap.locate(e));
+    $("#map-missing").hidden = missing.length === 0;
+    $("#map-missing-title").textContent = `${missing.length} ${missing.length === 1 ? "Termin ohne eindeutigen Kartenort" : "Termine ohne eindeutigen Kartenort"}`;
+    $("#map-missing-events").replaceChildren(...missing.map(mapEvent));
+    try {
+      const result = await RadarMap.show(candidates,mapPopup,`${view}:${filter}:${$("#map-saved-only").checked}`);
+      if (!result || generation !== mapGeneration) return;
+      $("#map-summary").textContent = candidates.length
+        ? `${result.mapped} von ${candidates.length} Terminen an ${result.places} Orten auf der Karte.${placesLoaded ? "" : " Ortsdaten konnten nicht geladen werden."}`
+        : "Keine Termine für diese Auswahl. Ändere den Zeitraum oder die Filter.";
+    } catch {
+      if (generation !== mapGeneration) return;
+      $("#event-map").setAttribute("aria-busy","false");
+      const retry = element("button","action-button","Karte erneut laden"); retry.type = "button";
+      retry.addEventListener("click", () => {mapRenderKey = ""; render();});
+      $("#map-summary").replaceChildren(document.createTextNode("Karte konnte nicht geladen werden. Die Liste und deine Merkliste funktionieren weiterhin. "),retry);
+    }
   }
   function render() {
     if (!metadata) return;
@@ -96,19 +192,29 @@
     $("#today-date").textContent = `MÜNCHEN · ${fmt(now,{weekday:"long",day:"numeric",month:"long",year:"numeric"})}`;
     $("#selection-title").textContent = titles[view];
     const sat = weekend(today)[0];
-    const dates = {today:fmt(now,{weekday:"long",day:"numeric",month:"long"}),tomorrow:fmt(`${shift(today,1)}T12:00:00Z`,{weekday:"long",day:"numeric",month:"long"}),weekend:`${fmt(`${sat}T12:00:00Z`,{day:"numeric",month:"short"})} – ${fmt(`${shift(sat,1)}T12:00:00Z`,{day:"numeric",month:"short"})}`,upcoming:`DIE NÄCHSTEN ${metadata.selection.horizon_days} TAGE`,new:`IN DEN LETZTEN ${metadata.selection.new_hours} STUNDEN ENTDECKT`};
+    const dates = {today:fmt(now,{weekday:"long",day:"numeric",month:"long"}),tomorrow:fmt(`${shift(today,1)}T12:00:00Z`,{weekday:"long",day:"numeric",month:"long"}),weekend:`${fmt(`${sat}T12:00:00Z`,{day:"numeric",month:"short"})} – ${fmt(`${shift(sat,1)}T12:00:00Z`,{day:"numeric",month:"short"})}`,upcoming:`DIE NÄCHSTEN ${metadata.selection.horizon_days} TAGE`,new:`IN DEN LETZTEN ${metadata.selection.new_hours} STUNDEN ENTDECKT`,saved:"DEINE PERSÖNLICHE MERKLISTE"};
     $("#view-date").textContent = dates[view];
-    const candidates = events.filter(e => belongs(e,view,today,now) && (filter !== "free" || e.is_free === true) && (filter !== "family" || e.family_friendly === true));
-    const chosen = selected(candidates);
+    const pool = view === "saved" ? personal.all() : events.filter(e => belongs(e,view,today,now));
+    let candidates = pool.filter(e => (filter !== "free" || e.is_free === true) && (filter !== "family" || e.family_friendly === true));
+    if (display === "map" && $("#map-saved-only").checked) candidates = candidates.filter(e => personal.has(e.id));
+    const chosen = view === "saved" ? [...candidates].sort((a,b) => a.start.localeCompare(b.start)) : selected(candidates);
     const container = $("#events"); container.replaceChildren(); container.setAttribute("aria-busy","false");
-    $("#selection-count").textContent = `${chosen.length} ${chosen.length === 1 ? "Tipp" : "Tipps"}`;
-    chosen.forEach((e,i) => container.append(card(e,i,today)));
-    if (!chosen.length) {
-      const empty = element("div","empty-state",filter === "all" ? "Für diesen Zeitraum ist gerade kein passender Tipp in unseren Quellen. Schau bei „Demnächst“ oder direkt in die Kalender." : "Für diesen Filter gibt es gerade keine passenden Tipps. Unbekannte Preise und Zielgruppen zählen hier nicht als Treffer.");
+    const count = display === "map" ? candidates.length : chosen.length;
+    $("#selection-count").textContent = `${count} ${display === "list" && view !== "saved" ? count === 1 ? "Tipp" : "Tipps" : count === 1 ? "Termin" : "Termine"}`;
+    container.hidden = display === "map";
+    $("#map-panel").hidden = display !== "map";
+    $("#personal-note").hidden = view !== "saved";
+    $(".filter-note").textContent = display === "map" || view === "saved" ? "Alle passenden Termine" : "Nach Relevanz sortiert";
+    if (display === "map") renderMap(candidates);
+    else chosen.forEach((e,i) => container.append(card(e,i,today)));
+    if (!chosen.length && display === "list") {
+      const empty = element("div","empty-state",view === "saved" && filter === "all" ? "Noch nichts gemerkt. Tippe bei einer Veranstaltung auf „Merken“, um hier deine persönliche Auswahl zu sammeln." : filter === "all" ? "Für diesen Zeitraum ist gerade kein passender Tipp in unseren Quellen. Schau bei „Demnächst“ oder direkt in die Kalender." : "Für diesen Filter gibt es gerade keine passenden Tipps. Unbekannte Preise und Zielgruppen zählen hier nicht als Treffer.");
       if (filter !== "all") {const reset = element("button","","Alle Tipps anzeigen"); reset.type="button"; reset.addEventListener("click",() => setFilter("all")); empty.append(reset);}
       container.append(empty);
     }
-    $("#selection-footnote").hidden = !chosen.length;
+    $("#selection-footnote").hidden = !chosen.length || display === "map" || view === "saved";
+    updateSavedButtons();
+    if (personal.issue()) announce("");
     const heads = $("#heads-up-events"); heads.replaceChildren();
     const previewSeries = new Set();
     const preview = events.filter(e => {
@@ -141,12 +247,38 @@
     render();
   }));
   document.querySelectorAll("[data-filter]").forEach(button => button.addEventListener("click",() => setFilter(button.dataset.filter)));
+  document.querySelectorAll("[data-display]").forEach(button => button.addEventListener("click",() => {
+    display = button.dataset.display;
+    document.querySelectorAll("[data-display]").forEach(b => {const active = b === button; b.classList.toggle("active",active); b.setAttribute("aria-pressed",String(active));});
+    mapRenderKey = ""; render();
+  }));
+  $("#map-saved-only").addEventListener("change",render);
+  $("#calendar-cancel").addEventListener("click",() => $("#calendar-dialog").close());
+  $("#calendar-whole").addEventListener("click",() => {
+    if (calendarEvent) personal.download(calendarEvent);
+    $("#calendar-dialog").close(); announce("Kalenderdatei für den gesamten Zeitraum erstellt. Einmalige Kopie ohne automatische Aktualisierung.");
+  });
+  $("#calendar-form").addEventListener("submit",event => {
+    event.preventDefault();
+    if (!calendarEvent || !$("#calendar-form").reportValidity()) return;
+    personal.download(calendarEvent,$("#calendar-day").value);
+    $("#calendar-dialog").close(); announce("Kalenderdatei für deinen Besuchstag erstellt. Einmalige Kopie ohne automatische Aktualisierung.");
+  });
+  window.addEventListener("storage", event => {
+    if (event.key === personal.storageKey || event.key === null) {personal.read(); mapRenderKey = ""; render();}
+  });
   async function load() {
     try {
       const responses = await Promise.all([fetch("./data/events.json",{cache:"no-cache"}),fetch("./data/metadata.json",{cache:"no-cache"})]);
       if (responses.some(response => !response.ok)) throw new Error("Data unavailable");
       [events,metadata] = await Promise.all(responses.map(r => r.json()));
       if (!Array.isArray(events) || metadata.schema_version !== 1) throw new Error("Unsupported data format");
+      try {
+        const response = await fetch("./data/places.json");
+        if (!response.ok) throw new Error("Places unavailable");
+        RadarMap.setPlaces(await response.json()); placesLoaded = true;
+      } catch {placesLoaded = false;}
+      personal.refresh(events);
       const sources=$("#sources"); sources.replaceChildren();
       for (const source of metadata.sources) {
         const item=element("li"); item.append(link(source.url,source.name),element("span",`source-status${source.status === "ok" ? "" : " problem"}`,{ok:"Im Radar",partial:"Teilweise",error:"Nicht erreichbar"}[source.status] || "Unbekannt"));sources.append(item);

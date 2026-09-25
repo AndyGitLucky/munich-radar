@@ -52,6 +52,11 @@ Für den reinen Betrieb genügt `requirements.txt`. Die Entwicklungsdatei ergän
 - Höchstens fünf Tipps, maximal drei pro Quelle und eine Empfehlung pro Veranstaltungsreihe.
 - Vorschau an den Schwellen 14/7/3/1 Tage für Highlights und 3/1 Tage für andere Termine. Wiederkehrende Reihen werden dort ausgelassen.
 - Deutsche responsive Oberfläche, Tastaturbedienung, Quellenlinks, Aktualisierungsstand und verständliche Leer-/Fehlerzustände.
+- Karte mit allen Treffern des gewählten Zeitraums und Filters, gebündelten Orten und Anfahrt über Google Maps. Unbekannte Kartenorte werden separat aufgeführt.
+- Persönliche Merkliste ohne Konto, nur im jeweiligen Browser gespeichert. Auch aus dem aktuellen Radar verschwundene Termine bleiben darin erhalten.
+- Einzelne Termine als `.ics`-Datei übernehmen; bei mehrtägigen Veranstaltungen wahlweise einen Besuchstag. Dies ist ein einmaliger Import, kein automatisch aktualisiertes Kalender-Abo.
+
+Die Merkliste erreichst du über den immer sichtbaren Knopf oben rechts. Sie wird nicht zwischen Geräten synchronisiert und geht beim Löschen der Browserdaten verloren. Details zu Bedienung, Kalenderimport und Kartenorten: [Karte und persönliche Termine](docs/map-calendar.md).
 
 Die Browseransichten rechnen immer in `Europe/Berlin`, unabhängig vom Standort des Geräts. Sie aktualisieren die Zeitzuordnung bei einem Tageswechsel. Die Bewertung selbst stammt vom letzten Pipeline-Lauf; ab 24 Stunden wird der Datenstand als veraltet angezeigt.
 
@@ -109,7 +114,8 @@ Die ID ist ein deterministischer Hash aus bereinigtem Titel, **vollständigem Be
 - `data/source-state.json`: letzte normalisierte Einzelquellenstände; erhält `discovered_at` über Updates hinweg und ermöglicht Rückfall bei Ausfällen. Wird versioniert, aber nicht veröffentlicht.
 - `data/raw/`: letzter Rohdatensatz je Quelle, lokal und von Git ausgeschlossen.
 - `data/last-failure.json`: Diagnose eines vollständig fehlgeschlagenen Laufs, nicht Teil der Website.
-- `dist/`: veröffentlichbarer Build; nur Frontend, `events.json` und `metadata.json`.
+- `config/places.json`: geprüfter Ortskatalog mit OpenStreetMap-Koordinaten und Namensvarianten; unbekannte Orte bleiben unzugeordnet.
+- `dist/`: veröffentlichbarer Build; Frontend einschließlich lokal ausgelieferter Kartenbibliotheken, `events.json`, `metadata.json` und `places.json`.
 
 `discovered_at` bleibt bei unveränderter ID erhalten; `updated_at` bedeutet zuletzt von der Quelle erfolgreich bestätigt. Bei Teilausfällen bleiben noch relevante, höchstens sieben Tage alte Termine der betroffenen Quelle erhalten und werden markiert. Ein fehlerhafter Eintrag stoppt die anderen nicht. Wenn alle Quellen ausfallen, endet der Prozess mit Fehlercode und lässt den letzten öffentlichen Datenstand unangetastet. Eine unerwartet leere Quelle gilt vorsichtshalber als Fehler. Nur ein ausdrücklich geprüftes leeres Suchergebnis bzw. ein gültiger leerer Kalender kann als erfolgreicher Abruf gelten; dann verschwinden zuvor gespeicherte Termine dieser Quelle. Eine Fehlerseite oder ausschließlich ungültige Einträge erfüllen diese Ausnahme nicht.
 
@@ -122,11 +128,14 @@ Die ID ist ein deterministischer Hash aus bereinigtem Titel, **vollständigem Be
 # Vorhandenes Chrome für lokale Browserprüfungen:
 $env:RADAR_BROWSER_PATH = 'C:\Program Files\Google\Chrome\Application\chrome.exe'
 .\.venv\Scripts\python.exe scripts/browser_smoke.py
+.\.venv\Scripts\python.exe scripts/browser_features.py
 ```
 
 Ohne vorhandenes Chrome: `python -m playwright install chromium`, anschließend den Browsercheck ohne `RADAR_BROWSER_PATH` ausführen. Linux-CI verwendet `python -m playwright install --with-deps chromium`.
 
 Unit-Tests prüfen Normalisierung, Validierung, stabile IDs, Sommer-/Winterzeit, Dubletten, Bewertung, Wiederholungen, Zeitansichten, echte gekürzte Parserfixtures sowie Teil- und Totalausfälle. Sie führen keine Netzabrufe aus. Der Browsercheck prüft alle Ansichten, Filter, eine abweichende Gerätezeitzone, 1440/390/320 Pixel Breite, schädlich formatierten Quellentext und Laden nach einem Fehler. Screenshots landen unter `.scratch/`.
+
+Der zusätzliche Featurecheck prüft Merkliste, getrennte Nutzer, tatsächliche Kalender-Downloads, Sommerzeit und mehrtägige Besuchstage, Kartenfilter, Kartenfehler und einen Datensatz mit 2.000 Terminen. Kartenbilder werden in Tests vollständig simuliert, um OpenStreetMap nicht durch automatisierte Kartenabrufe zu belasten. CI führt diesen Check mit Chromium und WebKit aus; ein Test auf dem tatsächlichen iPhone bleibt für den nativen Kalenderimport sinnvoll.
 
 ## GitHub Pages betreiben
 

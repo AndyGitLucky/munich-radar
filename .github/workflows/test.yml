@@ -24,5 +24,10 @@ jobs:
       - run: python -m pip install -r requirements-dev.txt
       - run: python -m pytest -q
       - run: python -m src.build
-      - run: python -m playwright install --with-deps chromium
+      - run: python -m playwright install --with-deps chromium webkit
       - run: python scripts/browser_smoke.py
+      - run: python scripts/browser_features.py
+      - name: Check personal features with WebKit
+        run: python scripts/browser_features.py
+        env:
+          RADAR_BROWSER: webkit

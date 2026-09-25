@@ -8,6 +8,8 @@
   <title>München Radar · Deine Stadt im Blick</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./style.css">
+  <script src="./personal.js" defer></script>
+  <script src="./map.js" defer></script>
   <script src="./app.js" defer></script>
 </head>
 <body>
@@ -18,7 +20,7 @@
         <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="19"/><circle cx="22" cy="22" r="11"/><path d="M22 3v19l13-13"/><circle cx="22" cy="22" r="2.5" class="dot"/></svg>
         <span>MÜNCHEN<span class="brand-light"> RADAR</span></span>
       </a>
-      <span class="edition"><span class="status-dot"></span> Deine Stadt im Blick</span>
+      <button type="button" class="saved-nav" data-view="saved" aria-pressed="false" aria-label="Meine Termine öffnen">Merkliste <span id="saved-count">0</span></button>
     </header>
 
     <main>
@@ -46,12 +48,26 @@
       <div class="content-grid">
         <section id="selection" aria-labelledby="selection-title" tabindex="-1">
           <div class="section-heading"><div><p class="eyebrow" id="view-date">DEINE AUSWAHL</p><h2 id="selection-title">Heute auf dem Radar</h2></div><span class="count" id="selection-count"></span></div>
+          <div class="display-options" role="group" aria-label="Darstellung">
+            <button type="button" class="display-button active" data-display="list" aria-pressed="true">Liste</button>
+            <button type="button" class="display-button" data-display="map" aria-pressed="false">Karte · alle Treffer</button>
+          </div>
+          <p id="personal-note" class="personal-note" hidden>Deine Merkliste bleibt in diesem Browser. Beim Löschen der Browserdaten geht sie verloren. Kalender-Downloads sind einmalige Kopien ohne automatische Aktualisierung.</p>
+          <p id="personal-status" class="personal-status" role="status" aria-live="polite"></p>
           <div class="filter-row" role="group" aria-label="Auswahl eingrenzen">
             <button type="button" class="filter active" data-filter="all" aria-pressed="true">Alles</button>
             <button type="button" class="filter" data-filter="free" aria-pressed="false">Kostenlos</button>
             <button type="button" class="filter" data-filter="family" aria-pressed="false">Mit Kindern</button>
             <span class="filter-note">Nach Relevanz sortiert</span>
           </div>
+          <section id="map-panel" aria-label="Veranstaltungskarte" hidden>
+            <label class="map-saved-filter"><input id="map-saved-only" type="checkbox"> Nur gemerkte Termine</label>
+            <p id="map-summary" class="map-summary" role="status">Karte wird geladen …</p>
+            <div id="event-map" aria-label="Karte der Veranstaltungsorte" aria-busy="true"></div>
+            <p id="map-tile-notice" class="notice" hidden>Der Kartenhintergrund konnte nicht vollständig geladen werden. Die Veranstaltungsorte und die Liste bleiben verfügbar.</p>
+            <p class="map-note">Punkte zeigen Veranstaltungsorte oder Gelände, nicht unbedingt den Eingang. Die Zahlen zählen Termine. Kartenbilder: OpenStreetMap. <a href="https://www.openstreetmap.org/fixthemap" target="_blank" rel="noopener noreferrer">Kartenfehler melden</a></p>
+            <details id="map-missing" hidden><summary id="map-missing-title"></summary><div id="map-missing-events"></div></details>
+          </section>
           <div id="events" aria-live="polite" aria-busy="true"><p class="empty-state">Deine Auswahl wird geladen …</p></div>
           <noscript><p class="empty-state">Bitte aktiviere JavaScript, um die Termine nach Zeitraum zu sehen. Die <a href="./data/events.json">gesammelten Veranstaltungsdaten</a> sind auch direkt verfügbar.</p></noscript>
           <p class="selection-footnote" id="selection-footnote" hidden>Bewusst überschaubar: höchstens fünf Tipps, mit Platz für verschiedene Quellen.</p>
@@ -66,5 +82,20 @@
     </main>
     <footer><span>MÜNCHEN RADAR <span class="footer-divider">/</span> Weniger, aber interessanter.</span><span>Für neugierige Münchner:innen · v0.1</span></footer>
   </div>
+  <dialog id="calendar-dialog" aria-labelledby="calendar-title">
+    <form id="calendar-form">
+      <h2 id="calendar-title">Wann möchtest du hingehen?</h2>
+      <p id="calendar-event-title"></p>
+      <p>Diese Veranstaltung läuft über mehrere Tage. Wähle einen Besuchstag, damit nicht der ganze Zeitraum in deinem Kalender steht.</p>
+      <label for="calendar-day">Dein Besuchstag</label>
+      <input id="calendar-day" type="date" required>
+      <p class="personal-note">Der Besuchstag wird ohne Uhrzeit eingetragen. Öffnungszeiten bitte beim Veranstalter prüfen. Der Download ist eine einmalige Kopie, kein Kalender-Abo.</p>
+      <div class="dialog-actions">
+        <button type="submit" class="action-button">Besuchstag übernehmen</button>
+        <button type="button" id="calendar-whole" class="action-button">Gesamten Zeitraum übernehmen</button>
+        <button type="button" id="calendar-cancel" class="action-button">Abbrechen</button>
+      </div>
+    </form>
+  </dialog>
 </body>
 </html>

@@ -5,3 +5,38 @@
 @media(max-width:700px){.shell{padding:0 20px}.masthead{height:78px}.brand{font-size:16px;gap:9px}.brand-mark{width:32px;height:32px}.edition{font-size:0;gap:0}.status-dot{width:7px;height:7px}.intro{padding:35px 0 27px}.intro .eyebrow{font-size:8px;letter-spacing:1.2px}h1{font-size:44px;letter-spacing:-2px;margin-bottom:18px}.intro-copy{font-size:12px}.radar-art{display:none}.desktop-break{display:none}.view-nav{gap:3px;overflow-x:auto;white-space:nowrap;padding-bottom:14px;scrollbar-width:thin}.view-button{font-size:12px;padding:9px 14px;gap:7px}.content-grid{grid-template-columns:1fr;padding-top:26px;gap:30px;padding-bottom:35px}.section-heading h2{font-size:27px}.filter-row{margin-top:20px}.filter{min-height:38px;font-size:12px}.filter-note{display:block;font-size:9px}.event-card{padding:22px}.event-card h3{font-size:25px}.event-facts{font-size:12px}.event-description{font-size:12px}.reason{font-size:11px}.why-label{font-size:9px}.event-link{font-size:12px;min-height:32px;display:flex;align-items:center}.source-label{font-size:10px}.heads-up{padding:24px}.heads-up-item{padding-top:16px;margin-top:16px}.source-panel{padding:24px 0 15px}.source-list li{font-size:12px}.updated{font-size:10px}.about summary{font-size:12px}footer{flex-direction:column;gap:7px;padding-top:20px}.selection-footnote{font-size:10px}}
 @media(max-width:380px){.shell{padding:0 15px}.filter-note{display:none}.event-card{padding:19px}.view-button{padding:9px 12px}h1{font-size:40px}}
 @media(prefers-reduced-motion:no-preference){button,a{transition:background-color .15s,color .15s}.event-card{animation:appear .25s ease-out}@keyframes appear{from{opacity:.5;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}}
+
+/* Personal selection and map share the existing calm, compact visual language. */
+.display-options{display:flex;gap:6px;margin:20px 0 0;flex-wrap:wrap}
+.saved-nav{display:flex;align-items:center;gap:7px;min-height:44px;border:1px solid var(--line);border-radius:7px;background:var(--white);padding:7px 10px;color:var(--green);font-size:12px;font-weight:600;white-space:nowrap}
+.saved-nav span{background:var(--lime);border-radius:12px;min-width:20px;text-align:center;padding:1px 5px}.saved-nav.active{background:var(--green);color:white}.saved-nav.active span{color:var(--green)}
+.display-button{border:1px solid var(--line);border-radius:6px;background:var(--white);color:var(--muted);padding:9px 15px;min-height:44px;font-size:12px}
+.display-button.active{background:var(--green);color:white;border-color:var(--green)}
+.event-actions{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}
+.action-button{display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:44px;padding:8px 11px;border:1px solid #cbd3c5;border-radius:6px;background:transparent;color:var(--green);font-size:12px;font-weight:600;text-decoration:none;line-height:1.4;overflow-wrap:anywhere}
+.action-button:hover{background:#e9edd9}.action-button[aria-pressed=true]{background:var(--lime);border-color:#a8b68f}
+.featured .action-button{color:#f4f7e6;border-color:#779180}.featured .action-button:hover,.featured .action-button[aria-pressed=true]{background:#36584a}
+.personal-note,.personal-status{font-size:12px;line-height:1.7;color:var(--muted);margin:14px 0}
+.personal-status:empty{display:none}.personal-status:not(:empty){padding:10px 12px;background:#e9edd9;border-radius:6px}
+.map-saved-filter{display:flex;align-items:center;gap:9px;min-height:44px;font-size:13px}.map-saved-filter input{width:18px;height:18px;accent-color:var(--green)}
+.map-summary{font-size:12px;color:var(--muted);margin:7px 0 12px}.map-note{font-size:11px;color:var(--muted);line-height:1.7}
+#event-map{height:480px;max-height:68vh;min-height:320px;width:100%;background:#e7e9dd;border:1px solid var(--line);border-radius:8px;isolation:isolate;z-index:0}
+.radar-marker,.radar-cluster{display:grid;place-items:center;background:var(--green);color:white;border:3px solid var(--white);border-radius:50%;box-shadow:0 2px 8px #19372c40;font:bold 13px var(--sans)}
+.radar-cluster{background:#e1e9bc;color:var(--green);border:4px solid #aabd88;font-size:14px}
+.leaflet-marker-icon.radar-marker,.leaflet-marker-icon.radar-cluster{display:grid;place-items:center}
+.map-popup h3{font:normal 21px/1.25 var(--serif);margin:5px 0 10px;color:var(--ink)}
+.map-popup>p{color:var(--muted);font-size:11px}
+#event-map .leaflet-popup-content{max-width:calc(100vw - 110px)}
+.map-event{border-top:1px solid var(--line);padding:14px 0;overflow-wrap:anywhere}
+.map-event h4{font:600 14px/1.45 var(--sans);margin:0 0 7px;color:var(--ink)}
+.map-event p{font:12px/1.5 var(--sans);margin:5px 0;color:var(--muted)}
+.map-event .event-actions{margin:10px 0;gap:6px}.map-event .action-button{color:var(--green);font-size:11px;min-height:40px}
+.map-event>a{font-size:11px;color:var(--green)}
+#map-missing{padding:13px 15px;border:1px solid var(--line);border-radius:8px;font-size:12px;background:var(--white)}
+#map-missing summary{cursor:pointer;min-height:32px}#map-missing-events{max-height:480px;overflow:auto}
+#calendar-dialog{max-width:480px;width:calc(100% - 32px);max-height:90vh;overflow:auto;border:1px solid var(--line);border-radius:12px;padding:25px;background:var(--paper);color:var(--ink)}
+#calendar-dialog::backdrop{background:#0e231b99}#calendar-dialog h2{font-size:27px}#calendar-dialog p{font-size:13px}
+#calendar-event-title{font-weight:600}#calendar-dialog label{display:block;margin:17px 0 6px;font-size:13px}
+#calendar-day{box-sizing:border-box;min-width:0;width:100%;min-height:44px;font:inherit;padding:8px;border:1px solid #a8b6a3;border-radius:5px;background:white;color:var(--ink)}
+.dialog-actions{display:flex;flex-wrap:wrap;gap:8px}.dialog-actions button:first-child{background:var(--green);color:white}
+@media(max-width:700px){.section-heading{align-items:flex-start}.section-heading .count{margin-top:5px}.display-options{margin-top:18px}#event-map{height:440px}.event-actions{gap:8px}.event-actions .action-button{font-size:12px}#calendar-dialog{padding:22px}.map-event .event-actions .action-button{font-size:11px}}

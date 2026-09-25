@@ -1,0 +1,525 @@
+{
+  "attribution": "© OpenStreetMap contributors",
+  "license": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "note": "Reviewed public venue locations, not guaranteed entrances. Unknown locations remain unmapped. No live geocoding in the browser.",
+  "places": [
+    {
+      "id": "kunst",
+      "name": "Haus der Kunst",
+      "aliases": [
+        "Haus der Kunst"
+      ],
+      "lat": 48.1441169,
+      "lon": 11.5859625,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/way/150797531",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "flugwerft",
+      "name": "Deutsches Museum - Flugwerft Schleißheim",
+      "aliases": [
+        "Deutsches Museum - Flugwerft Schleißheim"
+      ],
+      "lat": 48.2453129,
+      "lon": 11.5558571,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/way/87747225",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "natur",
+      "name": "Museum Mensch und Natur",
+      "aliases": [
+        "Museum Mensch und Natur"
+      ],
+      "lat": 48.1602752,
+      "lon": 11.5038365,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/296313563",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "lenbachhaus",
+      "name": "Lenbachhaus",
+      "aliases": [
+        "Lenbachhaus",
+        "Lenbachhaus München"
+      ],
+      "lat": 48.1469399,
+      "lon": 11.5635027,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/way/237426208",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "museum",
+      "name": "Deutsches Museum, Museumsinsel",
+      "aliases": [
+        "Deutsches Museum, Museumsinsel",
+        "Deutsches Museum München"
+      ],
+      "lat": 48.1300409,
+      "lon": 11.582909,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/relation/3866522",
+      "checked_at": "2026-09-25",
+      "prefixes": [
+        "Deutsches Museum · "
+      ]
+    },
+    {
+      "id": "kindertheater",
+      "name": "Münchner Theater für Kinder",
+      "aliases": [
+        "Münchner Theater für Kinder"
+      ],
+      "lat": 48.1461431,
+      "lon": 11.5594453,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/1813652702",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "alte",
+      "name": "Alte Pinakothek",
+      "aliases": [
+        "Alte Pinakothek"
+      ],
+      "lat": 48.1482838,
+      "lon": 11.5699796,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/way/4647135",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "moderne",
+      "name": "Pinakothek der Moderne",
+      "aliases": [
+        "Pinakothek der Moderne"
+      ],
+      "lat": 48.1471604,
+      "lon": 11.5722272,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/way/10053440",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "brandhorst",
+      "name": "Museum Brandhorst",
+      "aliases": [
+        "Museum Brandhorst"
+      ],
+      "lat": 48.1481178,
+      "lon": 11.5740913,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/11099726845",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "film",
+      "name": "Filmmuseum München",
+      "aliases": [
+        "Filmmuseum München"
+      ],
+      "lat": 48.1348721,
+      "lon": 11.5727597,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/342930150",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "mariahilf",
+      "name": "Mariahilfplatz",
+      "aliases": [
+        "Mariahilfplatz"
+      ],
+      "lat": 48.124873,
+      "lon": 11.5820895,
+      "approximate": true,
+      "source_url": "https://www.openstreetmap.org/way/4649289",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "hp8",
+      "name": "Gasteig HP8",
+      "aliases": [
+        "Gasteig HP8",
+        "Stadtbibliothek im HP8"
+      ],
+      "lat": 48.1114478,
+      "lon": 11.554188,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/8118955560",
+      "checked_at": "2026-09-25",
+      "suffixes": [
+        ", Gasteig HP8"
+      ]
+    },
+    {
+      "id": "olympiahalle",
+      "name": "Olympiahalle",
+      "aliases": [
+        "Olympiahalle"
+      ],
+      "lat": 48.1748975,
+      "lon": 11.5500161,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/way/303099272",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "olympiapark",
+      "name": "Olympiapark München",
+      "aliases": [
+        "Olympiapark München",
+        "Olympiapark in München"
+      ],
+      "lat": 48.1687059,
+      "lon": 11.5503638,
+      "approximate": true,
+      "source_url": "https://www.openstreetmap.org/way/10053878",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "motorama",
+      "name": "Stadtbibliothek im Motorama",
+      "aliases": [
+        "Stadtbibliothek im Motorama"
+      ],
+      "lat": 48.1303707,
+      "lon": 11.5907758,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/9502738757",
+      "checked_at": "2026-09-25",
+      "suffixes": [
+        ", Gasteig Motorama"
+      ]
+    },
+    {
+      "id": "messe",
+      "name": "Trade Fair Center Messe München",
+      "aliases": [
+        "Trade Fair Center Messe München"
+      ],
+      "lat": 48.1364214,
+      "lon": 11.6976198,
+      "approximate": true,
+      "source_url": "https://www.openstreetmap.org/way/10445463",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "krone",
+      "name": "Circus Krone",
+      "aliases": [
+        "Circus Krone"
+      ],
+      "lat": 48.1450861,
+      "lon": 11.5500733,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/way/153292467",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "moc",
+      "name": "MOC – Event Center Messe München",
+      "aliases": [
+        "MOC – Event Center Messe München"
+      ],
+      "lat": 48.1974117,
+      "lon": 11.6114109,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/relation/9056833",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "monacensia",
+      "name": "Monacensia im Hildebrandhaus",
+      "aliases": [
+        "Monacensia im Hildebrandhaus"
+      ],
+      "lat": 48.1435857,
+      "lon": 11.5989084,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/way/111363117",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "icm",
+      "name": "ICM – International Congress Center Messe München",
+      "aliases": [
+        "ICM – International Congress Center Messe München"
+      ],
+      "lat": 48.1368901,
+      "lon": 11.6930243,
+      "approximate": true,
+      "source_url": "https://www.openstreetmap.org/way/26168135",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "riem",
+      "name": "Riemer Park",
+      "aliases": [
+        "Riemer Park"
+      ],
+      "lat": 48.1290444,
+      "lon": 11.710295,
+      "approximate": true,
+      "source_url": "https://www.openstreetmap.org/relation/13267477",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "wiesn",
+      "name": "Theresienwiese",
+      "aliases": [
+        "Theresienwiese",
+        "Theresienwiese, München"
+      ],
+      "lat": 48.1313385,
+      "lon": 11.5494189,
+      "approximate": true,
+      "source_url": "https://www.openstreetmap.org/way/23655360",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "muffat",
+      "name": "Muffatwerk - Muffathalle",
+      "aliases": [
+        "Muffatwerk - Muffathalle"
+      ],
+      "lat": 48.1330499,
+      "lon": 11.5894533,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/way/18955820",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "residenz",
+      "name": "Residenz München",
+      "aliases": [
+        "Residenz München"
+      ],
+      "lat": 48.140809,
+      "lon": 11.5775546,
+      "approximate": true,
+      "source_url": "https://www.openstreetmap.org/node/12898612562",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "schauburg",
+      "name": "Schauburg",
+      "aliases": [
+        "Schauburg"
+      ],
+      "lat": 48.1574787,
+      "lon": 11.5753003,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/162748517",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "kleinehalle",
+      "name": "Kleine Olympiahalle",
+      "aliases": [
+        "Kleine Olympiahalle"
+      ],
+      "lat": 48.1746599,
+      "lon": 11.5523459,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/way/140008096",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "theatron",
+      "name": "Theatron",
+      "aliases": [
+        "Theatron"
+      ],
+      "lat": 48.1730726,
+      "lon": 11.5505773,
+      "approximate": true,
+      "source_url": "https://www.openstreetmap.org/way/19081369",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "schack",
+      "name": "Sammlung Schack",
+      "aliases": [
+        "Sammlung Schack"
+      ],
+      "lat": 48.1425096,
+      "lon": 11.5934347,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/way/27959434",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "bibliothek-bogenhausen",
+      "name": "Stadtbibliothek Bogenhausen",
+      "aliases": [
+        "Stadtbibliothek Bogenhausen"
+      ],
+      "lat": 48.1516994,
+      "lon": 11.619826,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/283161403",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "bibliothek-giesing",
+      "name": "Stadtbibliothek Giesing",
+      "aliases": [
+        "Stadtbibliothek Giesing"
+      ],
+      "lat": 48.1142365,
+      "lon": 11.582225,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/322657408",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "bibliothek-moosach",
+      "name": "Stadtbibliothek Moosach",
+      "aliases": [
+        "Stadtbibliothek Moosach"
+      ],
+      "lat": 48.1817199,
+      "lon": 11.5288221,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/198200532",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "bibliothek-riem",
+      "name": "Stadtbibliothek Riem",
+      "aliases": [
+        "Stadtbibliothek Riem"
+      ],
+      "lat": 48.1326667,
+      "lon": 11.704433,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/11172476896",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "bibliothek-neuhausen",
+      "name": "Stadtbibliothek Neuhausen",
+      "aliases": [
+        "Stadtbibliothek Neuhausen"
+      ],
+      "lat": 48.1553703,
+      "lon": 11.5319906,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/way/260071650",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "bibliothek-laim",
+      "name": "Stadtbibliothek Laim",
+      "aliases": [
+        "Stadtbibliothek Laim"
+      ],
+      "lat": 48.1364024,
+      "lon": 11.5034358,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/2203029604",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "bibliothek-schwabing",
+      "name": "Stadtbibliothek Schwabing",
+      "aliases": [
+        "Stadtbibliothek Schwabing"
+      ],
+      "lat": 48.1597445,
+      "lon": 11.5836112,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/1004038721",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "bibliothek-fürstenried",
+      "name": "Stadtbibliothek Fürstenried",
+      "aliases": [
+        "Stadtbibliothek Fürstenried"
+      ],
+      "lat": 48.0958408,
+      "lon": 11.4945663,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/1741354331",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "bibliothek-maxvorstadt",
+      "name": "Stadtbibliothek Maxvorstadt",
+      "aliases": [
+        "Stadtbibliothek Maxvorstadt"
+      ],
+      "lat": 48.151772,
+      "lon": 11.5648447,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/1567305499",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "bibliothek-am-westkreuz",
+      "name": "Stadtbibliothek Am Westkreuz",
+      "aliases": [
+        "Stadtbibliothek Am Westkreuz"
+      ],
+      "lat": 48.1493147,
+      "lon": 11.4352562,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/9995680302",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "bibliothek-milbertshofen",
+      "name": "Stadtbibliothek Milbertshofen",
+      "aliases": [
+        "Stadtbibliothek Milbertshofen"
+      ],
+      "lat": 48.1829878,
+      "lon": 11.5669535,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/329571612",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "bibliothek-isarvorstadt",
+      "name": "Stadtbibliothek Isarvorstadt",
+      "aliases": [
+        "Stadtbibliothek Isarvorstadt"
+      ],
+      "lat": 48.125497,
+      "lon": 11.559648,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/307528348",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "bibliothek-allach-untermenzing",
+      "name": "Stadtbibliothek Allach-Untermenzing",
+      "aliases": [
+        "Stadtbibliothek Allach-Untermenzing"
+      ],
+      "lat": 48.1795739,
+      "lon": 11.4639222,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/way/100184318",
+      "checked_at": "2026-09-25"
+    },
+    {
+      "id": "bibliothek-sendling",
+      "name": "Stadtbibliothek Sendling",
+      "aliases": [
+        "Stadtbibliothek Sendling"
+      ],
+      "lat": 48.1170783,
+      "lon": 11.5379376,
+      "approximate": false,
+      "source_url": "https://www.openstreetmap.org/node/238059668",
+      "checked_at": "2026-09-25"
+    }
+  ]
+}
