@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-25T12:47:43+02:00",
+  "last_updated": "2026-09-25T20:25:23+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
   "sources_successful": 13,
-  "events_collected": 393,
+  "events_collected": 423,
   "events_after_deduplication": 361,
-  "stale_events": 20,
+  "stale_events": 0,
   "sources": [
     {
       "id": "corso_leopold",
@@ -28,11 +28,9 @@
       "id": "deutsches_museum",
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
-      "status": "partial",
-      "events": 40,
-      "warnings": [
-        "Kalenderseite fehlgeschlagen: ReadTimeout"
-      ]
+      "status": "ok",
+      "events": 60,
+      "warnings": []
     },
     {
       "id": "lenbachhaus",
@@ -47,7 +45,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 126,
+      "events": 136,
       "warnings": []
     },
     {
@@ -127,11 +125,11 @@
   },
   "views": {
     "today": [
-      "75dfa1b6f5a7ef188fca",
       "040c232bd23e71fea7e0",
       "3870edb096d5e2c97cfb",
-      "8f5f705ea77b23264f61",
-      "ddee9cbb4f121cbebf16"
+      "24a5bc60fd5d3de96939",
+      "13380f1ee0be8faa6d9b",
+      "80e7ca9221ca0e01bf8b"
     ],
     "tomorrow": [
       "040c232bd23e71fea7e0",
@@ -155,11 +153,11 @@
       "94a18c617ea5de8542ea"
     ],
     "new": [
-      "75dfa1b6f5a7ef188fca",
       "e19e78542523123679d6",
       "ca36fd63276c5b0d0a40",
       "040c232bd23e71fea7e0",
-      "3870edb096d5e2c97cfb"
+      "3870edb096d5e2c97cfb",
+      "24a5bc60fd5d3de96939"
     ]
   },
   "heads_up": [
@@ -189,5 +187,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "da234d90804509c6d60d803c3aac0ac76a52a01021038b1d52d04d8f3a592af6"
+  "data_hash": "6ab2d44cdc6d8a5de235d7674e24dc105e09cc026cbcfd315ac8ddce11b48d13"
 }
