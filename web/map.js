@@ -15,6 +15,22 @@ window.RadarMap = (() => {
       || places.find(p => (p.prefixes || []).some(prefix => name.startsWith(key(prefix))))
       || places.find(p => (p.suffixes || []).some(suffix => name.endsWith(key(suffix)))) || null;
   }
+  function directions(event) {
+    const name = String(event.location_name || "").trim();
+    const address = String(event.address || "").trim();
+    if (!name && !address) return null;
+    if (!address && /^(verschiedene|diverse|mehrere|wechselnde)\b|noch (offen|unbekannt)/i.test(name)) return null;
+    let destination = [name,address].filter(Boolean).join(", ");
+    if (!/münchen|munich|schleißheim|schleissheim/i.test(destination)) destination += ", München";
+    // Catalogue coordinates locate a venue on our overview map, not its entrance.
+    // For large grounds, let the visitor inspect the named place before routing.
+    const approximate = Boolean(locate(event)?.approximate) && !address;
+    const url = new URL(`https://www.google.com/maps/${approximate ? "search" : "dir"}/`);
+    url.search = new URLSearchParams(approximate
+      ? {api:"1",query:destination}
+      : {api:"1",destination,travelmode:"transit"}).toString();
+    return {url:url.href,approximate};
+  }
   function asset(tag, url) {
     return new Promise((resolve,reject) => {
       const node = document.createElement(tag);
@@ -87,5 +103,5 @@ window.RadarMap = (() => {
     target.setAttribute("aria-busy","false");
     return {mapped:events.length-missing.length, places:grouped.size, missing};
   }
-  return {setPlaces,locate,show};
+  return {setPlaces,locate,directions,show};
 })();

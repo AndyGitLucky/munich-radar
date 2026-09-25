@@ -136,14 +136,12 @@
     calendar.setAttribute("aria-label",`In Kalender übernehmen: ${event.title}`);
     calendar.addEventListener("click", () => exportCalendar(event));
     container.append(save,calendar);
-    if (event.location_name || event.address) {
-      const place = RadarMap.locate(event);
-      const destination = place ? `${place.lat},${place.lon}` : [event.location_name,event.address || "München"].filter(Boolean).join(", ");
-      const url = new URL("https://www.google.com/maps/dir/");
-      url.search = new URLSearchParams({api:"1",destination,travelmode:"transit"}).toString();
-      const route = link(url.href,"Anfahrt ↗","action-button");
-      route.setAttribute("aria-label",`Anfahrt mit Google Maps: ${event.title}`);
+    const destination = RadarMap.directions(event);
+    if (destination) {
+      const route = link(destination.url,destination.approximate ? "Ort prüfen ↗" : "Anfahrt ↗","action-button");
+      route.setAttribute("aria-label",`${destination.approximate ? "Ort prüfen" : "Anfahrt"} mit Google Maps: ${event.title}`);
       container.append(route);
+      if (destination.approximate) container.append(element("span","route-note","Nur das Gelände ist bekannt. Treffpunkt oder Eingang bitte beim Veranstalter prüfen."));
     }
     return container;
   }

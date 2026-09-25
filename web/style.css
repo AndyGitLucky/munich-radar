@@ -13,6 +13,7 @@
 .display-button{border:1px solid var(--line);border-radius:6px;background:var(--white);color:var(--muted);padding:9px 15px;min-height:44px;font-size:12px}
 .display-button.active{background:var(--green);color:white;border-color:var(--green)}
 .event-actions{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}
+.route-note{flex-basis:100%;font-size:11px;line-height:1.5;color:var(--muted)}.featured .route-note{color:#d0dacd}
 .action-button{display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:44px;padding:8px 11px;border:1px solid #cbd3c5;border-radius:6px;background:transparent;color:var(--green);font-size:12px;font-weight:600;text-decoration:none;line-height:1.4;overflow-wrap:anywhere}
 .action-button:hover{background:#e9edd9}.action-button[aria-pressed=true]{background:var(--lime);border-color:#a8b68f}
 .featured .action-button{color:#f4f7e6;border-color:#779180}.featured .action-button:hover,.featured .action-button[aria-pressed=true]{background:#36584a}

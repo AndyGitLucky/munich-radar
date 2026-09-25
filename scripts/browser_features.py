@@ -12,6 +12,7 @@ import tempfile
 import threading
 from datetime import datetime
 from functools import partial
+from urllib.parse import urlparse, parse_qs
 from http.server import ThreadingHTTPServer
 import shutil
 import time
@@ -85,6 +86,16 @@ def main():
                     page.on("request", lambda request: requests.append(request.url))
                     page.goto(base); settled(page)
                     assert page.locator(".event-card").count() == 5
+                    # Routes use named venues/addresses, never overview-map coordinates.
+                    target = page.evaluate("() => RadarMap.directions({location_name:'Olympiahalle',address:'Spiridon-Louis-Ring 21, 80809 München'})")
+                    parsed = urlparse(target['url']); params = parse_qs(parsed.query)
+                    assert parsed.path == '/maps/dir/' and params['travelmode'] == ['transit']
+                    assert params['destination'] == ['Olympiahalle, Spiridon-Louis-Ring 21, 80809 München']
+                    park = page.evaluate("() => RadarMap.directions({location_name:'Olympiapark München'})")
+                    assert park['approximate'] and urlparse(park['url']).path == '/maps/search/'
+                    assert parse_qs(urlparse(park['url']).query)['query'] == ['Olympiapark München']
+                    unknown = page.evaluate("() => RadarMap.directions({location_name:'Verschiedene Orte'})")
+                    assert unknown is None
                     assert not any("vendor/" in url or "tile.openstreetmap.org" in url for url in requests)
                     page.locator(".event-card [data-save-id]").nth(0).click()
                     page.locator(".event-card [data-save-id]").nth(1).click()
@@ -145,6 +156,7 @@ def main():
                     assert page.locator(".leaflet-popup .map-event").count() == 1
                     route = page.locator('.leaflet-popup a[href*="google.com/maps/dir/"]').get_attribute("href")
                     assert "travelmode=transit" in route and "destination=" in route
+                    assert parse_qs(urlparse(route).query)['destination'] == ['Gasteig HP8, München']
                     assert not page.evaluate("document.documentElement.scrollWidth > innerWidth")
                     page.set_viewport_size({"width":320,"height":700})
                     page.clock.run_for(500)

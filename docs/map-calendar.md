@@ -5,7 +5,7 @@
 - **Liste** zeigt weiterhin höchstens fünf bewertete Empfehlungen pro Zeitraum.
 - **Karte · alle Treffer** zeigt alle erfassten Termine desselben Zeitraums und Filters, unabhängig von Relevanzschwelle, Quellenlimit und Fünferlimit. „Demnächst“ behält seine bestehende Bedeutung: in den nächsten 30 Tagen beginnende Termine; laufende Angebote stehen unter Heute und den passenden Tagesansichten.
 - Ein Punkt steht für einen Veranstaltungsort, seine Zahl für die dortigen Termine. Nahe Orte werden beim Herauszoomen zusammengefasst. Antippen öffnet die zugehörigen Termine, Merken, Kalender-Download und Anfahrt.
-- **Anfahrt** öffnet Google Maps mit dem Ziel und Verkehrsmittel ÖPNV. Startpunkt und Abfahrtszeit werden dort gewählt. München Radar fragt keinen Gerätestandort ab.
+- **Anfahrt** öffnet Google Maps mit Veranstaltungsort und vorhandener Adresse als benanntem Ziel und Verkehrsmittel ÖPNV. Die Koordinaten der Übersichtskarte werden nicht als Navigationsziel verwendet. Ist nur ein großes Gelände ohne Adresse bekannt, öffnet **Ort prüfen** zunächst die Ortssuche mit einem Hinweis auf den beim Veranstalter zu prüfenden Treffpunkt. Startpunkt und Abfahrtszeit werden in Google Maps gewählt. München Radar fragt keinen Gerätestandort ab.
 - **Merken** speichert einen Termin ausschließlich im Browser. **Merkliste** oben auf der Seite öffnet alle gespeicherten Termine, auch vergangene; dort gilt kein Fünferlimit. Die Merkliste lässt sich ebenfalls als Karte ansehen.
 - Fehlende Kartenorte bleiben als aufklappbare Terminliste sichtbar. Eine Ortsangabe wie „verschiedene Orte“ wird nicht durch einen geratenen Punkt ersetzt.
 
