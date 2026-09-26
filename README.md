@@ -66,12 +66,13 @@ Die Browseransichten rechnen immer in `Europe/Berlin`, unabhängig vom Standort 
 
 | Quelle | Verarbeitung | Grenze |
 | --- | --- | --- |
+| [München – Shopping & Sonderöffnungen](https://www.muenchen.de/shopping/aktuell/shopping-naechte-und-abendoeffnungen-muenchen) | Datierten Shoppingnächten zugeordnete Zeiten aus der offiziellen Verordnung; ausgewählte Münchner Sonn-/Feiertagsregeln | Öffnungserlaubnis, keine Teilnahmegarantie. Gebiete und Sortimente ausdrücklich eingeschränkt. Geänderte Rechtsgrundlage erfordert erneute Prüfung. |
 | [Märkte München](https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html) | Städtische Marktseiten mit ausdrücklich genannten Wochenzeiten | Bis zu 40 Detailseiten, nur gleicher Ursprung. Regelmäßige Termine für 30 Tage; Feiertage und Jahresend-Sondertage ausgelassen, keine geratenen Verlegungen. Externe Bauernmarktseiten nicht übernommen. |
 | [Corso Leopold](https://www.corso-leopold.de/) | Aktueller Programmlink von der Startseite; datierte Öffnungszeiten des gesamten Straßenfests | Zwei Seiten pro Lauf. Getrennte Festivaltage mit tatsächlichen Öffnungszeiten; keine Übernahme aller Bühnenauftritte. Der Eintritt bleibt unbekannt, wenn auf der Programmseite keine Angabe steht. |
 | [Gasteig](https://www.gasteig.de/veranstaltungen/) | Datierte Teaser der Startübersicht, auch Festivals; `Event`-JSON-LD auf Detailseiten | Maximal 14 passende Detailseiten pro Lauf. Kein vollständiger Veranstaltungskatalog. |
 | [Deutsches Museum](https://www.deutsches-museum.de/museumsinsel/programm/kalender) | Öffentliches Kalenderfragment `/search.html` und dessen Weiterblättern-Links | Sechs Seiten mit derzeit zehn Terminen pro Seite. Wegen vieler Tagesangebote deckt dies vor allem die nächsten Tage ab. |
 | [Lenbachhaus](https://www.lenbachhaus.de/besuchen/kalender) | Explizit datierte HTML-Terminkarten, laufender und nächster Monat | Undatierte Dauerangebote werden ausgelassen. Preise/Zielgruppen fehlen oft in der Übersicht und bleiben dann unbekannt. |
-| [muenchen.de](https://www.muenchen.de/veranstaltungen/event/) | Festivalkalender, Familie/Kinder und Brauchtum; datierte Einzelvorstellungen | Je zwei Seiten pro Kategorie. Verwendet die tatsächlichen Vorstellungszeiten, nicht den äußeren Laufzeitraum einer Reihe. Veranstalterquellen haben bei Dubletten Vorrang. |
+| [muenchen.de](https://www.muenchen.de/veranstaltungen/event/) | Festivalkalender, Familie/Kinder, Brauchtum, Konzerte und Freizeit; datierte Einzelvorstellungen | Je zwei Seiten pro Kategorie. Verwendet die tatsächlichen Vorstellungszeiten, nicht den äußeren Laufzeitraum einer Reihe. Veranstalterquellen haben bei Dubletten Vorrang. |
 | [Münchner Stadtbibliothek](https://www.muenchner-stadtbibliothek.de/veranstaltungen) | HTML-Kalender mit verlinkten Folgeseiten | Vier Seiten; datierte Ausstellungen und Einzeltermine. Keine pauschale Annahme kostenlosen Eintritts. |
 | [Münchner Stadtmuseum](https://www.muenchner-stadtmuseum.de/veranstaltungen/details) | Datierte Karten einschließlich Filmmuseum | Aktueller Kalendermonat. Ausgebuchte Angebote ausgelassen. Wegen wechselnder Veranstaltungsorte wird das Hauptgebäude nicht als Standardort eingesetzt. |
 | [Haus der Kunst](https://www.hausderkunst.de/kalender) | Tagesabschnitte und echte Weiterblättern-Links | Vier Seiten. Bei fortgesetzten Tagesabschnitten stammt das Datum aus dem offiziellen Pagination-Link. |
@@ -132,6 +133,7 @@ Die ID ist ein deterministischer Hash aus bereinigtem Titel, **vollständigem Be
 $env:RADAR_BROWSER_PATH = 'C:\Program Files\Google\Chrome\Application\chrome.exe'
 .\.venv\Scripts\python.exe scripts/browser_smoke.py
 .\.venv\Scripts\python.exe scripts/browser_features.py
+.\.venv\Scripts\python.exe scripts/browser_topics.py
 ```
 
 Ohne vorhandenes Chrome: `python -m playwright install chromium`, anschließend den Browsercheck ohne `RADAR_BROWSER_PATH` ausführen. Linux-CI verwendet `python -m playwright install --with-deps chromium`.

@@ -38,6 +38,17 @@ def test_search_cannot_bypass_robots():
     c.session.post.assert_not_called()
 
 
+def test_explicit_legacy_charset_and_utf8_default():
+    legacy = response()
+    legacy._content = '§ 4 München'.encode('cp1252')
+    legacy.headers['Content-Type'] = 'text/html;charset=windows-1252'
+    legacy.encoding = requests.utils.get_encoding_from_headers(legacy.headers)
+    c = client(post_response=legacy)
+    assert c.post('https://calendar.example/search',json={},headers={}) == '§ 4 München'
+    c = client(post_response=response(body='München'))
+    assert c.post('https://calendar.example/search',json={},headers={}) == 'München'
+
+
 def test_search_cannot_leak_headers_to_other_origin_or_redirect():
     c = client()
     with pytest.raises(ValueError):

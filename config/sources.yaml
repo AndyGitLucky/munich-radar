@@ -3,6 +3,14 @@ http:
   timeout: 20
   min_interval: 1.0
 sources:
+  - id: shopping_munich
+    name: München – Shopping & Sonderöffnungen
+    url: https://www.muenchen.de/shopping/aktuell/shopping-naechte-und-abendoeffnungen-muenchen
+    law_url: https://stadt.muenchen.de/rathaus/stadtrecht/vorschrift/440/version3/0.html
+    festival_url: https://www.muenchen.de/veranstaltungen/oktoberfest
+    additional_origins: [https://stadt.muenchen.de]
+    enabled: true
+    priority: 10
   - id: weekly_markets
     name: Märkte München
     url: https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html

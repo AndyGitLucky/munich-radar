@@ -76,6 +76,8 @@ class PoliteHttpClient:
         response.raise_for_status()
         if not response.content:
             raise ValueError("Empty HTTP response")
-        # These official sources declare UTF-8; requests otherwise defaults to Latin-1.
-        response.encoding = "utf-8"
+        # Honour explicit charsets (legacy city statutes use Windows-1252).
+        # Without a declaration requests defaults HTML to Latin-1; our calendars use UTF-8.
+        if "charset=" not in response.headers.get("Content-Type", "").lower().replace(" ", ""):
+            response.encoding = "utf-8"
         return response.text

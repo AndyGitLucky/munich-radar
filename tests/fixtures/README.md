@@ -13,3 +13,6 @@ Diese gekürzten HTML-Ausschnitte stammen aus den offiziellen Kalendern, abgeruf
 - `tollwood.html`: https://www.tollwood.de/tollwood-winterfestival/ (Ausgabejahr, Festivalzeitraum und separater Silvesterhinweis)
 - `messe.json`: Öffentliche Suche aus https://messe-muenchen.de/de/veranstaltungen/ (drei reduzierte Ergebnisse zur Prüfung von München-/Auslandsfilter und Kalendertagen; ohne Suchschlüssel)
 - `meetup.html`: https://www.meetup.com/de-DE/munichs-robotics-meetup/ (nur Gruppenkennung und leere kommende Terminliste; keine Mitglieder- oder Profildaten)
+# Zusätzliche Prüfgrundlage vom 26.09.2026
+
+`shopping_law.html` enthält die öffentlich sichtbaren Absätze der Münchner Ladenschlussverordnung vom 14.01.2026, abgerufen unter https://stadt.muenchen.de/rathaus/stadtrecht/vorschrift/440/version3/0.html. Word-Metadaten, Formatierung und Skripte wurden entfernt; die normalisierten Absätze dienen der Erkennung geänderter Rechtsgrundlagen. Die Shopping- und Markt-Tests verwenden ergänzend kleine synthetische Kalender-/Öffnungszeitenfragmente, um fehlende Daten, Feiertage und Datumswechsel isoliert zu prüfen.

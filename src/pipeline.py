@@ -61,6 +61,7 @@ def run(root: Path, *, now: datetime | None = None, client=None, registry=None) 
     registry = registry if registry is not None else COLLECTORS
     origins = {f"{urlsplit(s['url']).scheme}://{urlsplit(s['url']).netloc}" for s in sources}
     origins.update(origin for s in sources for origin in s.get("api_origins", []))
+    origins.update(origin for s in sources for origin in s.get("additional_origins", []))
     client = client or PoliteHttpClient(sources_config["http"], origins)
     data_dir = root / "data"
     previous_state = load_json(data_dir / "source-state.json", {})

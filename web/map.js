@@ -19,7 +19,7 @@ window.RadarMap = (() => {
     const name = String(event.location_name || "").trim();
     const address = String(event.address || "").trim();
     if (!name && !address) return null;
-    if (!address && /^(verschiedene|diverse|mehrere|wechselnde)\b|noch (offen|unbekannt)/i.test(name)) return null;
+    if (!address && /^(verschiedene|diverse|mehrere|wechselnde|ausgewählte|fußgängerbereiche)\b|noch (offen|unbekannt)/i.test(name)) return null;
     let destination = [name,address].filter(Boolean).join(", ");
     if (!/münchen|munich|schleißheim|schleissheim/i.test(destination)) destination += ", München";
     // Catalogue coordinates locate a venue on our overview map, not its entrance.
