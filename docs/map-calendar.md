@@ -8,6 +8,7 @@
 - **Anfahrt** öffnet Google Maps mit Veranstaltungsort und vorhandener Adresse als benanntem Ziel und Verkehrsmittel ÖPNV. Die Koordinaten der Übersichtskarte werden nicht als Navigationsziel verwendet. Ist nur ein großes Gelände ohne Adresse bekannt, öffnet **Ort prüfen** zunächst die Ortssuche mit einem Hinweis auf den beim Veranstalter zu prüfenden Treffpunkt. Startpunkt und Abfahrtszeit werden in Google Maps gewählt. München Radar fragt keinen Gerätestandort ab.
 - **Merken** speichert einen Termin ausschließlich im Browser. **Merkliste** oben auf der Seite öffnet alle gespeicherten Termine, auch vergangene; dort gilt kein Fünferlimit. Die Merkliste lässt sich ebenfalls als Karte ansehen.
 - Fehlende Kartenorte bleiben als aufklappbare Terminliste sichtbar. Eine Ortsangabe wie „verschiedene Orte“ wird nicht durch einen geratenen Punkt ersetzt.
+- **GPX Export** lädt den bekannten Veranstaltungsort mit Veranstaltungsname und Quellenlink als GPX-1.1-Wegpunkt herunter. Die Datei enthält keine Route. Große Gelände sind im Beschreibungstext als ungefähr markiert; auch Hauskoordinaten sind keine bestätigten Eingänge. Ohne geprüfte Koordinaten bleibt der Button mit „Ort fehlt“ deaktiviert. Der Import erfolgt in einer Karten-App, die GPX-Wegpunkte unterstützt.
 
 ## Persönliche Daten bleiben lokal
 

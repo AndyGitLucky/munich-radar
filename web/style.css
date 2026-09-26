@@ -16,6 +16,7 @@
 .route-note{flex-basis:100%;font-size:11px;line-height:1.5;color:var(--muted)}.featured .route-note{color:#d0dacd}
 .action-button{display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:44px;padding:8px 11px;border:1px solid #cbd3c5;border-radius:6px;background:transparent;color:var(--green);font-size:12px;font-weight:600;text-decoration:none;line-height:1.4;overflow-wrap:anywhere}
 .action-button:hover{background:#e9edd9}.action-button[aria-pressed=true]{background:var(--lime);border-color:#a8b68f}
+.action-button:disabled{opacity:.55;cursor:default}
 .featured .action-button{color:#f4f7e6;border-color:#779180}.featured .action-button:hover,.featured .action-button[aria-pressed=true]{background:#36584a}
 .personal-note,.personal-status{font-size:12px;line-height:1.7;color:var(--muted);margin:14px 0}
 .personal-status:empty{display:none}.personal-status:not(:empty){padding:10px 12px;background:#e9edd9;border-radius:6px}

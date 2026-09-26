@@ -16,6 +16,7 @@ from urllib.parse import urlparse, parse_qs
 from http.server import ThreadingHTTPServer
 import shutil
 import time
+import xml.etree.ElementTree as ET
 
 from playwright.sync_api import sync_playwright
 
@@ -113,6 +114,23 @@ def main():
                     assert b"BEGIN:VALARM" not in calendar_bytes
                     assert download.value.suggested_filename.endswith(".ics")
                     assert b"TRANSP:TRANSPARENT" in calendar_bytes
+                    with page.expect_download() as gpx_download:
+                        page.locator(".event-card [data-gpx-id]").first.click()
+                    assert gpx_download.value.suggested_filename.endswith('.gpx')
+                    root = ET.fromstring(Path(gpx_download.value.path()).read_bytes())
+                    ns = {'g':'http://www.topografix.com/GPX/1/1'}
+                    point = root.find('g:wpt',ns)
+                    assert root.attrib['version'] == '1.1' and point is not None
+                    assert 47 < float(point.attrib['lat']) < 49.5
+                    assert 10 < float(point.attrib['lon']) < 13
+                    assert 'Haus der Kunst' in point.find('g:name',ns).text
+                    assert root.find('g:trk',ns) is None
+                    special = dict(events[0],title='Musik & Kunst <Live> "München"')
+                    xml = page.evaluate("e => RadarPersonal.gpx(e, RadarMap.locate(e))",special)
+                    assert special['title'] in ET.fromstring(xml).find('g:wpt/g:name',ns).text
+                    park_event = dict(events[0],location_name='Olympiapark München')
+                    xml = page.evaluate("e => RadarPersonal.gpx(e, RadarMap.locate(e))",park_event)
+                    assert 'Ungefährer Bereich' in ET.fromstring(xml).find('g:wpt/g:desc',ns).text
 
                     # Each visitor has a separate device-local collection.
                     other = browser.new_context(viewport={"width":390,"height":844})
@@ -144,6 +162,7 @@ def main():
                     assert page.locator("#event-map").get_attribute("data-place-count") == "4"
                     assert "40 Termine" in page.locator("#selection-count").inner_text()
                     assert "8 Termine" in page.locator("#map-missing-title").inner_text()
+                    assert page.locator('#map-missing-events [data-gpx-id]:disabled').count() == 8
                     assert page.locator('.leaflet-control-attribution a[href*="openstreetmap.org"]').is_visible()
                     page.locator('[data-filter="free"]').click()
                     page.wait_for_function("document.querySelector('#event-map').dataset.eventCount === '16'")

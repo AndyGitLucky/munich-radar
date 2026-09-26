@@ -104,14 +104,48 @@ window.RadarPersonal = (() => {
     lines.push("TRANSP:TRANSPARENT","END:VEVENT","END:VCALENDAR");
     return lines.map(fold).join("\r\n")+"\r\n";
   }
-  function download(event, visitDay = null) {
-    const blob = new Blob([calendar(event, visitDay)], {type:"text/calendar;charset=utf-8"});
+  function downloadFile(event, content, type, extension) {
+    const blob = new Blob([content], {type});
     const url = URL.createObjectURL(blob), anchor = document.createElement("a");
     anchor.href = url;
-    anchor.download = `${event.title.replace(/[^\p{L}\p{N} -]/gu, "").slice(0,70) || "Termin"}.ics`;
+    anchor.download = `${event.title.replace(/[^\p{L}\p{N} -]/gu, "").slice(0,70) || "Termin"}.${extension}`;
     document.body.append(anchor); anchor.click(); anchor.remove();
     setTimeout(() => URL.revokeObjectURL(url), 60000);
   }
+  function download(event, visitDay = null) {
+    downloadFile(event,calendar(event,visitDay),"text/calendar;charset=utf-8","ics");
+  }
+  function gpx(event, place) {
+    if (!valid(event) || !place || !Number.isFinite(place.lat) || !Number.isFinite(place.lon)
+        || Math.abs(place.lat) > 90 || Math.abs(place.lon) > 180) throw new Error("Kein bestätigter Kartenort vorhanden");
+    const ns = "http://www.topografix.com/GPX/1/1";
+    const doc = document.implementation.createDocument(ns,"gpx",null);
+    const root = doc.documentElement;
+    root.setAttribute("version","1.1"); root.setAttribute("creator","München Radar");
+    const add = (parent, tag, value) => {
+      const node = doc.createElementNS(ns,tag);
+      if (value !== undefined) node.textContent = String(value).replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g,"");
+      parent.appendChild(node); return node;
+    };
+    const point = add(root,"wpt");
+    point.setAttribute("lat",String(place.lat)); point.setAttribute("lon",String(place.lon));
+    add(point,"name",`${event.location_name || place.name} · ${event.title}`);
+    add(point,"desc",[
+      event.address, `Veranstaltung: ${event.title}`, `Termin: ${event.start}`,
+      place.approximate ? "Ungefährer Bereich / Gelände. Kein bestätigter Eingang oder Treffpunkt." : "Veranstaltungsort laut Ortskatalog. Eingang oder Treffpunkt beim Veranstalter prüfen.",
+      `Koordinaten: ${place.source_url || "München Radar Ortskatalog"} (OpenStreetMap contributors, ODbL).`,
+      "Einmaliger Wegpunkt-Export; keine Route und keine automatische Aktualisierung."
+    ].filter(Boolean).join("\n"));
+    const source = safeUrl(event.source_url);
+    if (source) {
+      const link = add(point,"link"); link.setAttribute("href",source); add(link,"text",event.source_name || "Veranstalter");
+    }
+    add(point,"type","Veranstaltungsort");
+    return '<?xml version="1.0" encoding="UTF-8"?>\n'+new XMLSerializer().serializeToString(doc)+'\n';
+  }
+  function downloadGpx(event,place) {
+    downloadFile(event,gpx(event,place),"application/gpx+xml;charset=utf-8","gpx");
+  }
   return {storageKey, read, toggle, refresh, has:id => saved.has(id), all:() => [...saved.values()],
-    issue:() => storageIssue, calendar, download, day, lastDay, safeUrl};
+    issue:() => storageIssue, calendar, download, gpx, downloadGpx, day, lastDay, safeUrl};
 })();

@@ -136,6 +136,16 @@
     calendar.setAttribute("aria-label",`In Kalender übernehmen: ${event.title}`);
     calendar.addEventListener("click", () => exportCalendar(event));
     container.append(save,calendar);
+    const place = RadarMap.locate(event);
+    const gpx = element("button","action-button",place ? "GPX Export" : "GPX · Ort fehlt");
+    gpx.type = "button"; gpx.dataset.gpxId = event.id; gpx.disabled = !place;
+    gpx.setAttribute("aria-label",place ? `GPX Export: ${event.title}` : `GPX Export nicht verfügbar: kein bestätigter Kartenort für ${event.title}`);
+    gpx.title = place ? "Veranstaltungsort als Wegpunkt herunterladen; kein bestätigter Eingang" : "Für diesen Termin fehlen geprüfte Koordinaten.";
+    gpx.addEventListener("click", () => {
+      personal.downloadGpx(event,place);
+      announce("GPX-Datei erstellt. Enthält den Veranstaltungsort als Wegpunkt, keine Route. Eingang oder Treffpunkt bitte beim Veranstalter prüfen.");
+    });
+    container.append(gpx);
     const destination = RadarMap.directions(event);
     if (destination) {
       const route = link(destination.url,destination.approximate ? "Ort prüfen ↗" : "Anfahrt ↗","action-button");
