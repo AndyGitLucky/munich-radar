@@ -60,6 +60,18 @@ def test_city_concert_category_is_preserved_even_with_an_opaque_title(now):
     assert "concert" in item.tags
 
 
+def test_city_exhibition_section_overrides_market_word_in_title(now):
+    html = '''<div class="m-event-list-item">
+        <h2 class="m-event-list-item__headline"><a href="/veranstaltungen/freizeit/ausstellung-museen/fotografie">
+        Fotografie auf dem Jahrmarkt</a></h2>
+        <div class="m-event-list-item__detail"><time datetime="27.09.2026 - 10:00:00"></time></div>
+        </div>'''
+    item = collector("muenchen", now).parse(html, SOURCES["muenchen"]["url"])[0]
+    assert item.category == "exhibition"
+    assert "exhibition" in item.tags
+    assert "market" not in item.tags
+
+
 def test_library_keeps_long_exhibition_and_unknown_prices(now):
     events = collector("stadtbibliothek", now).parse(fixture("stadtbibliothek.html"), SOURCES["stadtbibliothek"]["url"])
     assert events[0].start == "2024-10-27"

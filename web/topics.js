@@ -15,7 +15,7 @@ window.RadarTopics = (() => {
     if (has("art") || /lenbachhaus|pinakothek|museum brandhorst|sammlung schack|haus der kunst/.test(venue)
         || /kunstausstellung|kunstführung|galerie|vernissage|malworkshop|zeichenworkshop/.test(title)
         || (has("exhibition") && !has("science","technology"))) topics.add("art");
-    if (has("shopping","market","flea_market") || /markt|shopping|verkaufsoffen/.test(title)) topics.add("shopping");
+    if (has("shopping","market","flea_market") || (!has("exhibition","museum") && /markt|shopping|verkaufsoffen/.test(title))) topics.add("shopping");
     if (has("theatre") || /theater|kabarett|comedy|ballett|oper\b|musical/.test(title)) topics.add("stage");
     if (has("outdoor","street_festival") || /open[ -]?air|straßenfest|strassenfest|wanderung|spaziergang/.test(title)) topics.add("outdoor");
     if (has("science","technology") || /wissenschaft|robotik|astronomie|planetarium/.test(title)) topics.add("science");

@@ -36,6 +36,11 @@ class MuenchenCollector(EventCollector):
                              end=dates[1] if len(dates) > 1 else None,
                              location_name=text(card.select_one('[itemprop="location"]')) or None,
                              labels=labels, fallback=fallback)
+                # The portal's explicit exhibition section outranks incidental title words
+                # such as "Fotografie auf dem Jahrmarkt".
+                if "/ausstellung-museen/" in urlsplit(item.source_url).path:
+                    item.category = "museum" if any(word in title.casefold() for word in ("führung", "rundgang")) else "exhibition"
+                    item.tags = sorted(set(item.tags) - {"market", "exhibition"} | {item.category})
                 if item.category in {"festival", "street_festival"}:
                     item.tags.append("festival_day")
                 result.append(item)

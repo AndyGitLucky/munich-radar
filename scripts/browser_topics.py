@@ -61,6 +61,8 @@ def main():
                     # Scientific museums do not automatically count as visual art or food.
                     topics=page.evaluate("() => [...RadarTopics.classify({title:'Vorführung',category:'science',tags:['museum'],source_name:'Deutsches Museum'})]")
                     assert topics==['science']
+                    topics=page.evaluate("() => [...RadarTopics.classify({title:'Fotografie auf dem Jahrmarkt',category:'exhibition',tags:['exhibition']})]")
+                    assert topics==['art']
                     assert not page.evaluate('document.documentElement.scrollWidth > innerWidth')
                     page.set_viewport_size({'width':320,'height':700})
                     assert not page.evaluate('document.documentElement.scrollWidth > innerWidth')
