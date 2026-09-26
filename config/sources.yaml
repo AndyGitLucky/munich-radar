@@ -3,6 +3,12 @@ http:
   timeout: 20
   min_interval: 1.0
 sources:
+  - id: weekly_markets
+    name: Märkte München
+    url: https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html
+    enabled: true
+    priority: 10
+    max_details: 40
   - id: corso_leopold
     name: Corso Leopold
     url: https://www.corso-leopold.de/
@@ -30,7 +36,7 @@ sources:
     url: https://www.muenchen.de/veranstaltungen/event/
     enabled: true
     priority: 100
-    categories: [feste-festivals, familie-kinder, "?field_category_one_target_id%5B%5D=27904&search=true"]
+    categories: [feste-festivals, familie-kinder, "?field_category_one_target_id%5B%5D=27904&search=true", "?field_category_one_target_id%5B%5D=27886&search=true", "?field_category_one_target_id%5B%5D=27884&search=true"]
     max_pages: 2
   - id: stadtbibliothek
     name: Münchner Stadtbibliothek

@@ -11,6 +11,7 @@ from .pinakotheken import PinakothekenCollector
 from .stadtbibliothek import StadtbibliothekCollector
 from .stadtmuseum import StadtmuseumCollector
 from .tollwood import TollwoodCollector
+from .weekly_markets import WeeklyMarketsCollector
 
 COLLECTORS = {"deutsches_museum": DeutschesMuseumCollector, "gasteig": GasteigCollector, "lenbachhaus": LenbachhausCollector, "corso_leopold": CorsoLeopoldCollector}
 COLLECTORS.update({
@@ -18,4 +19,5 @@ COLLECTORS.update({
     "messe": MesseCollector, "muenchen": MuenchenCollector, "olympiapark": OlympiaparkCollector,
     "pinakotheken": PinakothekenCollector, "stadtbibliothek": StadtbibliothekCollector,
     "stadtmuseum": StadtmuseumCollector, "tollwood": TollwoodCollector,
+    "weekly_markets": WeeklyMarketsCollector,
 })

@@ -27,7 +27,12 @@ jobs:
       - run: python -m playwright install --with-deps chromium webkit
       - run: python scripts/browser_smoke.py
       - run: python scripts/browser_features.py
+      - run: python scripts/browser_topics.py
       - name: Check personal features with WebKit
         run: python scripts/browser_features.py
+        env:
+          RADAR_BROWSER: webkit
+      - name: Check topic filters with WebKit
+        run: python scripts/browser_topics.py
         env:
           RADAR_BROWSER: webkit

@@ -1,5 +1,5 @@
 from datetime import datetime
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit, parse_qs
 
 from bs4 import BeautifulSoup
 
@@ -29,6 +29,8 @@ class MuenchenCollector(EventCollector):
                 labels = title + " " + text(card.select_one(".m-event-list-item__category"))
                 if "familie-kinder" in url:
                     labels += " Familie Kinder"
+                if "27886" in parse_qs(urlsplit(url).query).get("field_category_one_target_id[]", []):
+                    labels += " Konzert"
                 fallback = "festival" if "feste-festivals" in url else "culture"
                 item = event(self.config, title, urljoin(url, link["href"]) if link else url, dates[0],
                              end=dates[1] if len(dates) > 1 else None,

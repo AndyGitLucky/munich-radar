@@ -6,6 +6,7 @@
   const zone = "Europe/Berlin";
   let events = [], metadata = null, view = "today", filter = "all", display = "list", calendarEvent = null;
   let mapRenderKey = "", mapGeneration = 0, placesLoaded = true;
+  let topic = "all", showAll = false;
   const personal = window.RadarPersonal;
   const fmt = (value, options) => new Intl.DateTimeFormat("de-DE", {timeZone:zone,...options}).format(new Date(value));
   const dayKey = (value) => {
@@ -41,7 +42,7 @@
     const sources = new Map(), series = new Map(), result = [];
     for (const event of [...candidates].sort((a,b) => b.relevance_score-a.relevance_score || a.start.localeCompare(b.start) || a.id.localeCompare(b.id))) {
       const id = event.series_id || event.title.toLocaleLowerCase("de");
-      if (event.relevance_score < metadata.selection.min_score || (sources.get(event.source_name)||0) >= metadata.selection.max_per_source || (series.get(id)||0) >= metadata.selection.max_per_series) continue;
+      if ((topic === "all" && event.relevance_score < metadata.selection.min_score) || (sources.get(event.source_name)||0) >= metadata.selection.max_per_source || (series.get(id)||0) >= metadata.selection.max_per_series) continue;
       result.push(event); sources.set(event.source_name,(sources.get(event.source_name)||0)+1); series.set(id,(series.get(id)||0)+1);
       if (result.length >= metadata.selection.limit) break;
     }
@@ -73,7 +74,7 @@
     return `${day} · ${time(event.start)}${event.end ? `–${time(event.end)}` : ""} Uhr`;
   }
   function card(event, index, today) {
-    const featured = index === 0 && view !== "saved";
+    const featured = index === 0 && view !== "saved" && !showAll;
     const article = element("article",`event-card${featured ? " featured" : ""}`);
     const top = element("div","card-top");
     top.append(element("span","category",`${featured ? "IM FOKUS · " : ""}${labels[event.category] || "Entdecken"}`), element("span","card-index",String(index+1).padStart(2,"0")));
@@ -170,7 +171,7 @@
     return node;
   }
   async function renderMap(candidates) {
-    const key = JSON.stringify([view,filter,$("#map-saved-only").checked,candidates.map(e => [e.id,personal.has(e.id)])]);
+    const key = JSON.stringify([view,filter,topic,$("#map-saved-only").checked,candidates.map(e => [e.id,personal.has(e.id)])]);
     if (key === mapRenderKey) return;
     mapRenderKey = key;
     const generation = ++mapGeneration;
@@ -181,7 +182,7 @@
     $("#map-missing-title").textContent = `${missing.length} ${missing.length === 1 ? "Termin ohne eindeutigen Kartenort" : "Termine ohne eindeutigen Kartenort"}`;
     $("#map-missing-events").replaceChildren(...missing.map(mapEvent));
     try {
-      const result = await RadarMap.show(candidates,mapPopup,`${view}:${filter}:${$("#map-saved-only").checked}`);
+      const result = await RadarMap.show(candidates,mapPopup,`${view}:${filter}:${topic}:${$("#map-saved-only").checked}`);
       if (!result || generation !== mapGeneration) return;
       $("#map-summary").textContent = candidates.length
         ? `${result.mapped} von ${candidates.length} Terminen an ${result.places} Orten auf der Karte.${placesLoaded ? "" : " Ortsdaten konnten nicht geladen werden."}`
@@ -203,30 +204,36 @@
     const dates = {today:fmt(now,{weekday:"long",day:"numeric",month:"long"}),tomorrow:fmt(`${shift(today,1)}T12:00:00Z`,{weekday:"long",day:"numeric",month:"long"}),weekend:`${fmt(`${sat}T12:00:00Z`,{day:"numeric",month:"short"})} – ${fmt(`${shift(sat,1)}T12:00:00Z`,{day:"numeric",month:"short"})}`,upcoming:`DIE NÄCHSTEN ${metadata.selection.horizon_days} TAGE`,new:`IN DEN LETZTEN ${metadata.selection.new_hours} STUNDEN ENTDECKT`,saved:"DEINE PERSÖNLICHE MERKLISTE"};
     $("#view-date").textContent = dates[view];
     const pool = view === "saved" ? personal.all() : events.filter(e => belongs(e,view,today,now));
-    let candidates = pool.filter(e => (filter !== "free" || e.is_free === true) && (filter !== "family" || e.family_friendly === true));
+    let candidates = pool.filter(e => RadarTopics.matches(e,topic) && (filter !== "free" || e.is_free === true) && (filter !== "family" || e.family_friendly === true));
     if (display === "map" && $("#map-saved-only").checked) candidates = candidates.filter(e => personal.has(e.id));
-    const chosen = view === "saved" ? [...candidates].sort((a,b) => a.start.localeCompare(b.start)) : selected(candidates);
+    const recommendations = selected(candidates);
+    const chosen = view === "saved" || showAll ? [...candidates].sort((a,b) => a.start.localeCompare(b.start) || a.title.localeCompare(b.title,"de")) : recommendations;
     const container = $("#events"); container.replaceChildren(); container.setAttribute("aria-busy","false");
     const count = display === "map" ? candidates.length : chosen.length;
-    $("#selection-count").textContent = `${count} ${display === "list" && view !== "saved" ? count === 1 ? "Tipp" : "Tipps" : count === 1 ? "Termin" : "Termine"}`;
+    $("#selection-count").textContent = `${count} ${display === "list" && view !== "saved" && !showAll ? count === 1 ? "Tipp" : "Tipps" : count === 1 ? "Termin" : "Termine"}`;
+    $("#topic-status").hidden = topic === "all";
+    $("#topic-status").textContent = `${RadarTopics.labels[topic]} · ${candidates.length} passende Termine in dieser Auswahl. Themen werden aus Quellenangaben und Veranstaltungstiteln zugeordnet.`;
+    $("#all-results").hidden = display !== "list" || view === "saved" || (!showAll && candidates.length <= recommendations.length);
+    $("#all-results").textContent = showAll ? "Nur Empfehlungen anzeigen" : `Alle ${candidates.length} passenden Termine anzeigen`;
+    $("#all-results").setAttribute("aria-expanded",String(showAll));
     container.hidden = display === "map";
     $("#map-panel").hidden = display !== "map";
     $("#personal-note").hidden = view !== "saved";
-    $(".filter-note").textContent = display === "map" || view === "saved" ? "Alle passenden Termine" : "Nach Relevanz sortiert";
+    $(".filter-note").textContent = display === "map" || view === "saved" || showAll ? "Alle passenden Termine" : "Nach Relevanz sortiert";
     if (display === "map") renderMap(candidates);
     else chosen.forEach((e,i) => container.append(card(e,i,today)));
     if (!chosen.length && display === "list") {
-      const empty = element("div","empty-state",view === "saved" && filter === "all" ? "Noch nichts gemerkt. Tippe bei einer Veranstaltung auf „Merken“, um hier deine persönliche Auswahl zu sammeln." : filter === "all" ? "Für diesen Zeitraum ist gerade kein passender Tipp in unseren Quellen. Schau bei „Demnächst“ oder direkt in die Kalender." : "Für diesen Filter gibt es gerade keine passenden Tipps. Unbekannte Preise und Zielgruppen zählen hier nicht als Treffer.");
+      const empty = element("div","empty-state",topic !== "all" ? `Keine passenden ${RadarTopics.labels[topic]}-Termine für diese Auswahl in unseren erfassten Quellen. Wähle einen anderen Zeitraum oder ein anderes Thema.` : view === "saved" && filter === "all" ? "Noch nichts gemerkt. Tippe bei einer Veranstaltung auf „Merken“, um hier deine persönliche Auswahl zu sammeln." : filter === "all" ? "Für diesen Zeitraum ist gerade kein passender Tipp in unseren Quellen. Schau bei „Demnächst“ oder direkt in die Kalender." : "Für diesen Filter gibt es gerade keine passenden Tipps. Unbekannte Preise und Zielgruppen zählen hier nicht als Treffer.");
       if (filter !== "all") {const reset = element("button","","Alle Tipps anzeigen"); reset.type="button"; reset.addEventListener("click",() => setFilter("all")); empty.append(reset);}
       container.append(empty);
     }
-    $("#selection-footnote").hidden = !chosen.length || display === "map" || view === "saved";
+    $("#selection-footnote").hidden = !chosen.length || display === "map" || view === "saved" || showAll;
     updateSavedButtons();
     if (personal.issue()) announce("");
     const heads = $("#heads-up-events"); heads.replaceChildren();
     const previewSeries = new Set();
     const preview = events.filter(e => {
-      if (!e.start || e.stale || e.status !== "scheduled" || e.tags.includes("recurring") || e.relevance_score < metadata.selection.min_score) return false;
+      if (!e.start || e.stale || e.status !== "scheduled" || !RadarTopics.matches(e,topic) || e.tags.includes("recurring") || (topic === "all" && e.relevance_score < metadata.selection.min_score)) return false;
       const days = daysBetween(dayKey(e.start),today);
       const series = e.series_id || e.title.toLocaleLowerCase("de");
       if (previewSeries.has(series) || !(e.tags.includes("major_event") ? metadata.heads_up_rules.major_days : metadata.heads_up_rules.other_days).includes(days)) return false;
@@ -245,12 +252,24 @@
     notice.textContent = old ? "Dieser Datenstand ist älter als 24 Stunden. Bitte bestätige die Termine direkt beim Veranstalter." : "Ein Teil der Quellen konnte nicht vollständig aktualisiert werden. Betroffene ältere Termine sind markiert.";
   }
   function setFilter(value) {
-    filter = value;
+    filter = value; showAll = false;
     document.querySelectorAll("[data-filter]").forEach(button => {const active=button.dataset.filter===filter; button.classList.toggle("active",active); button.setAttribute("aria-pressed",String(active));});
     render();
   }
+  for (const [value,label] of Object.entries(RadarTopics.labels)) {
+    const button = element("button",`topic-button${value === topic ? " active" : ""}`,label);
+    button.type = "button"; button.dataset.topic = value;
+    button.setAttribute("aria-pressed",String(value === topic));
+    button.addEventListener("click",() => {
+      topic = value; showAll = false;
+      document.querySelectorAll("[data-topic]").forEach(b => {const active = b.dataset.topic === topic; b.classList.toggle("active",active); b.setAttribute("aria-pressed",String(active));});
+      render();
+    });
+    $("#topic-filters").append(button);
+  }
+  $("#all-results").addEventListener("click",() => {showAll = !showAll; render();});
   document.querySelectorAll("[data-view]").forEach(button => button.addEventListener("click",() => {
-    view=button.dataset.view;
+    view=button.dataset.view; showAll = false;
     document.querySelectorAll("[data-view]").forEach(b => {const active=b===button;b.classList.toggle("active",active);b.setAttribute("aria-pressed",String(active));});
     render();
   }));

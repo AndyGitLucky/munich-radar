@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./style.css">
   <script src="./personal.js" defer></script>
   <script src="./map.js" defer></script>
+  <script src="./topics.js" defer></script>
   <script src="./app.js" defer></script>
 </head>
 <body>
@@ -54,6 +55,8 @@
           </div>
           <p id="personal-note" class="personal-note" hidden>Deine Merkliste bleibt in diesem Browser. Beim Löschen der Browserdaten geht sie verloren. Kalender-Downloads sind einmalige Kopien ohne automatische Aktualisierung.</p>
           <p id="personal-status" class="personal-status" role="status" aria-live="polite"></p>
+          <div id="topic-filters" class="topic-filters" role="group" aria-label="Thema auswählen"></div>
+          <p id="topic-status" class="topic-status" role="status" hidden></p>
           <div class="filter-row" role="group" aria-label="Auswahl eingrenzen">
             <button type="button" class="filter active" data-filter="all" aria-pressed="true">Alles</button>
             <button type="button" class="filter" data-filter="free" aria-pressed="false">Kostenlos</button>
@@ -69,6 +72,7 @@
             <details id="map-missing" hidden><summary id="map-missing-title"></summary><div id="map-missing-events"></div></details>
           </section>
           <div id="events" aria-live="polite" aria-busy="true"><p class="empty-state">Deine Auswahl wird geladen …</p></div>
+          <button id="all-results" type="button" class="action-button" aria-expanded="false" hidden>Alle passenden Termine anzeigen</button>
           <noscript><p class="empty-state">Bitte aktiviere JavaScript, um die Termine nach Zeitraum zu sehen. Die <a href="./data/events.json">gesammelten Veranstaltungsdaten</a> sind auch direkt verfügbar.</p></noscript>
           <p class="selection-footnote" id="selection-footnote" hidden>Bewusst überschaubar: höchstens fünf Tipps, mit Platz für verschiedene Quellen.</p>
         </section>

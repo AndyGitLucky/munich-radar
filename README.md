@@ -4,7 +4,7 @@ Eine kleine tägliche Auswahl aus Münchens offiziellen Veranstaltungskalendern.
 
 **Website:** [München Radar öffnen](https://andygitlucky.github.io/munich-radar/) · [GitHub-Repository](https://github.com/AndyGitLucky/munich-radar)
 
-MVP mit 13 angebundenen Quellen und Veröffentlichung über GitHub Pages. Die mitgelieferten JSON-Daten sind echte Abrufe, keine Beispieldaten. Auf dem iPhone die Website in Safari öffnen; über **Teilen → Zum Home-Bildschirm** lässt sie sich als direkter Einstieg ablegen. Der eigene PC muss für die veröffentlichte Seite nicht laufen.
+MVP mit modular angebundenen Veranstalterquellen und Veröffentlichung über GitHub Pages. Die mitgelieferten JSON-Daten sind echte Abrufe, keine Beispieldaten. Auf dem iPhone die Website in Safari öffnen; über **Teilen → Zum Home-Bildschirm** lässt sie sich als direkter Einstieg ablegen. Der eigene PC muss für die veröffentlichte Seite nicht laufen.
 
 ## Hier lokal starten
 
@@ -48,6 +48,7 @@ Für den reinen Betrieb genügt `requirements.txt`. Die Entwicklungsdatei ergän
 
 - Heute, Morgen, aktuelles/kommendes Wochenende, nächste 30 Tage und in den letzten 72 Stunden neu entdeckte Termine.
 - Filter für nachweislich kostenlose und ausdrücklich familiengeeignete Angebote.
+- Themenbuttons für Musik, Food, Kunst, Shopping & Märkte, Bühne, Draußen und Wissen; Filterung vor der Empfehlungsauswahl, zusätzliche Ansicht aller Treffer.
 - Konfigurierbare, erklärbare Bewertung mit Gründen auf jeder Karte.
 - Höchstens fünf Tipps, maximal drei pro Quelle und eine Empfehlung pro Veranstaltungsreihe.
 - Vorschau an den Schwellen 14/7/3/1 Tage für Highlights und 3/1 Tage für andere Termine. Wiederkehrende Reihen werden dort ausgelassen.
@@ -55,6 +56,7 @@ Für den reinen Betrieb genügt `requirements.txt`. Die Entwicklungsdatei ergän
 - Karte mit allen Treffern des gewählten Zeitraums und Filters, gebündelten Orten und Anfahrt über Google Maps. Unbekannte Kartenorte werden separat aufgeführt.
 - Persönliche Merkliste ohne Konto, nur im jeweiligen Browser gespeichert. Auch aus dem aktuellen Radar verschwundene Termine bleiben darin erhalten.
 - Einzelne Termine als `.ics`-Datei übernehmen; bei mehrtägigen Veranstaltungen wahlweise einen Besuchstag. Dies ist ein einmaliger Import, kein automatisch aktualisiertes Kalender-Abo.
+- GPX-Wegpunkt mit geprüftem Kartenort und Veranstaltungsname herunterladen. Anfahrt verwendet Ortsnamen und Adressen statt Übersichtspunkten; bei ungenauen Geländen wird zunächst die Ortssuche geöffnet.
 
 Die Merkliste erreichst du über den immer sichtbaren Knopf oben rechts. Sie wird nicht zwischen Geräten synchronisiert und geht beim Löschen der Browserdaten verloren. Details zu Bedienung, Kalenderimport und Kartenorten: [Karte und persönliche Termine](docs/map-calendar.md).
 
@@ -64,6 +66,7 @@ Die Browseransichten rechnen immer in `Europe/Berlin`, unabhängig vom Standort 
 
 | Quelle | Verarbeitung | Grenze |
 | --- | --- | --- |
+| [Märkte München](https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html) | Städtische Marktseiten mit ausdrücklich genannten Wochenzeiten | Bis zu 40 Detailseiten, nur gleicher Ursprung. Regelmäßige Termine für 30 Tage; Feiertage und Jahresend-Sondertage ausgelassen, keine geratenen Verlegungen. Externe Bauernmarktseiten nicht übernommen. |
 | [Corso Leopold](https://www.corso-leopold.de/) | Aktueller Programmlink von der Startseite; datierte Öffnungszeiten des gesamten Straßenfests | Zwei Seiten pro Lauf. Getrennte Festivaltage mit tatsächlichen Öffnungszeiten; keine Übernahme aller Bühnenauftritte. Der Eintritt bleibt unbekannt, wenn auf der Programmseite keine Angabe steht. |
 | [Gasteig](https://www.gasteig.de/veranstaltungen/) | Datierte Teaser der Startübersicht, auch Festivals; `Event`-JSON-LD auf Detailseiten | Maximal 14 passende Detailseiten pro Lauf. Kein vollständiger Veranstaltungskatalog. |
 | [Deutsches Museum](https://www.deutsches-museum.de/museumsinsel/programm/kalender) | Öffentliches Kalenderfragment `/search.html` und dessen Weiterblättern-Links | Sechs Seiten mit derzeit zehn Terminen pro Seite. Wegen vieler Tagesangebote deckt dies vor allem die nächsten Tage ab. |

@@ -8,6 +8,7 @@
 
 /* Personal selection and map share the existing calm, compact visual language. */
 .display-options{display:flex;gap:6px;margin:20px 0 0;flex-wrap:wrap}
+.topic-filters{display:flex;flex-wrap:wrap;gap:7px;margin-top:20px}.topic-button{min-height:44px;border:1px solid var(--line);border-radius:22px;padding:7px 13px;background:var(--white);color:var(--ink);font-size:12px}.topic-button.active{background:var(--lime);border-color:#a8b68f;font-weight:650}.topic-status{font-size:11px;line-height:1.6;color:var(--muted);margin:10px 0}.topic-button:hover{border-color:#8c9a84}
 .saved-nav{display:flex;align-items:center;gap:7px;min-height:44px;border:1px solid var(--line);border-radius:7px;background:var(--white);padding:7px 10px;color:var(--green);font-size:12px;font-weight:600;white-space:nowrap}
 .saved-nav span{background:var(--lime);border-radius:12px;min-width:20px;text-align:center;padding:1px 5px}.saved-nav.active{background:var(--green);color:white}.saved-nav.active span{color:var(--green)}
 .display-button{border:1px solid var(--line);border-radius:6px;background:var(--white);color:var(--muted);padding:9px 15px;min-height:44px;font-size:12px}

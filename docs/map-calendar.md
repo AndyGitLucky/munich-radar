@@ -3,6 +3,9 @@
 ## Bedienung
 
 - **Liste** zeigt weiterhin höchstens fünf bewertete Empfehlungen pro Zeitraum.
+- Themenbuttons **Musik**, **Food**, **Kunst**, **Shopping & Märkte**, **Bühne**, **Draußen** und **Wissen** filtern zuerst alle vorhandenen Termine im Zeitraum; anschließend werden Empfehlungen gewählt. Ein Thema bleibt beim Wechsel des Zeitraums bestehen und wirkt auch auf Karte, Merkliste und Vormerkvorschau. **Alles** setzt den Themenfilter zurück; Preis/Familie sind separate Filter.
+- Ein gewähltes Thema hebt die allgemeine Mindestpunktzahl auf, damit ausdrücklich gesuchte Musik- oder Food-Termine nicht an der allgemeinen Schwerpunktwertung scheitern. Die Sortierung und Quellen-/Serienvielfalt bleiben erhalten. **Alle passenden Termine anzeigen** macht auch übrige Treffer in der Liste zugänglich.
+- Die Themenzuordnung nutzt Kategorien, Tags, charakteristische Titel und bei Kunst bekannte Kunsthäuser. Sie ist regelbasiert und nicht vollständig. Ein Flohmarkt zählt nicht pauschal zu Food. Es werden nur eingesammelte Daten gefiltert, keine Websuche beim Antippen gestartet.
 - **Karte · alle Treffer** zeigt alle erfassten Termine desselben Zeitraums und Filters, unabhängig von Relevanzschwelle, Quellenlimit und Fünferlimit. „Demnächst“ behält seine bestehende Bedeutung: in den nächsten 30 Tagen beginnende Termine; laufende Angebote stehen unter Heute und den passenden Tagesansichten.
 - Ein Punkt steht für einen Veranstaltungsort, seine Zahl für die dortigen Termine. Nahe Orte werden beim Herauszoomen zusammengefasst. Antippen öffnet die zugehörigen Termine, Merken, Kalender-Download und Anfahrt.
 - **Anfahrt** öffnet Google Maps mit Veranstaltungsort und vorhandener Adresse als benanntem Ziel und Verkehrsmittel ÖPNV. Die Koordinaten der Übersichtskarte werden nicht als Navigationsziel verwendet. Ist nur ein großes Gelände ohne Adresse bekannt, öffnet **Ort prüfen** zunächst die Ortssuche mit einem Hinweis auf den beim Veranstalter zu prüfenden Treffpunkt. Startpunkt und Abfahrtszeit werden in Google Maps gewählt. München Radar fragt keinen Gerätestandort ab.
@@ -43,3 +46,11 @@ Der Gemeinschaftsdienst hat keine zugesicherte Verfügbarkeit. Bei wachsender Nu
 `python scripts/browser_features.py` prüft getrennte Besucher, Speichern und Entfernen über Neuladen/Tabs hinweg, erhaltene alte Termine, Browser-Speicherfehler, tatsächliche ICS-Downloads, mehrtägige Besuchstage, Sommerzeitwechsel, sichere Textmaskierung, Kartenfilter, alle Treffer statt fünf, unbekannte Orte, Handybreiten und Wiederholung nach Kartenladefehlern. Ein Test mit 2.000 Terminen misst den Aufbau mit simulierten Kartenbildern; er ist kein Lasttest des Kartenanbieters.
 
 Für WebKit: `RADAR_BROWSER=webkit` setzen und vorher `python -m playwright install webkit` ausführen. Ohne diese Variable wird Chromium verwendet. Auch WebKit-Tests ersetzen kein Importexperiment auf einem echten iPhone.
+
+`python scripts/browser_topics.py` prüft Themenwahl vor der Empfehlungsauswahl, niedrige Punktzahlen, mehrere Themen pro Veranstaltung, Zeitraumwechsel, Kartenfilter, Merkliste und Kalenderdownload. Auch dieser Test lädt keine echten Kartenbilder.
+
+## Quellenabdeckung für Themen
+
+Der muenchen.de-Kalender wird zusätzlich in den Kategorien Konzerte und Freizeit abgefragt (jeweils bis zu zwei Seiten). Food erhält die städtischen Wochen- und Bauernmärkte von `maerkte-muenchen.de`, dem von der Stadt verlinkten Nachfolger von muenchnerwochenmaerkte.de. Nur die auf dieser Domain veröffentlichten Marktseiten werden abgerufen; externe Bauernmarkt-Kalender bleiben zunächst außen vor.
+
+Markttermine entstehen aus ausdrücklich veröffentlichten Wochentagen und Uhrzeiten für die nächsten 30 Tage und tragen den Hinweis „Regulärer Wochenmarkt“. Gesetzliche Münchner Feiertage sowie Heiligabend und Silvester werden ausgelassen; Verlegungen werden nicht geraten. Feiertagsgrundlage: https://www.stmi.bayern.de/staat-und-verfassung/feiertage/. Nicht eindeutig lesbare oder eingeschränkte Öffnungszeiten werden zur Prüfung gemeldet. Preise und Familieneignung bleiben unbekannt, soweit nicht belegt. Neue Marktorte ohne geprüfte Koordinaten stehen unter den nicht zugeordneten Kartenorten und haben keinen GPX-Export.

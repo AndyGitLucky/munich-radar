@@ -53,6 +53,13 @@ def test_city_without_detail_link_keeps_verifiable_calendar_source(now):
     assert item.family_friendly is True
 
 
+def test_city_concert_category_is_preserved_even_with_an_opaque_title(now):
+    source = collector("muenchen", now)
+    url = SOURCES["muenchen"]["url"] + "?field_category_one_target_id%5B%5D=27886&search=true"
+    item = source.parse(fixture("muenchen.html"), url)[0]
+    assert "concert" in item.tags
+
+
 def test_library_keeps_long_exhibition_and_unknown_prices(now):
     events = collector("stadtbibliothek", now).parse(fixture("stadtbibliothek.html"), SOURCES["stadtbibliothek"]["url"])
     assert events[0].start == "2024-10-27"
