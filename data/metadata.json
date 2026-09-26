@@ -1,13 +1,29 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-26T11:15:53+02:00",
+  "last_updated": "2026-09-26T13:56:36+02:00",
   "timezone": "Europe/Berlin",
-  "sources_checked": 13,
-  "sources_successful": 13,
-  "events_collected": 410,
-  "events_after_deduplication": 355,
+  "sources_checked": 15,
+  "sources_successful": 15,
+  "events_collected": 673,
+  "events_after_deduplication": 616,
   "stale_events": 0,
   "sources": [
+    {
+      "id": "shopping_munich",
+      "name": "München – Shopping & Sonderöffnungen",
+      "url": "https://www.muenchen.de/shopping/aktuell/shopping-naechte-und-abendoeffnungen-muenchen",
+      "status": "ok",
+      "events": 11,
+      "warnings": []
+    },
+    {
+      "id": "weekly_markets",
+      "name": "Märkte München",
+      "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
+      "status": "ok",
+      "events": 140,
+      "warnings": []
+    },
     {
       "id": "corso_leopold",
       "name": "Corso Leopold",
@@ -45,7 +61,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 126,
+      "events": 239,
       "warnings": []
     },
     {
@@ -69,7 +85,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 40,
+      "events": 39,
       "warnings": []
     },
     {
@@ -125,8 +141,8 @@
   },
   "views": {
     "today": [
-      "4af10fc88764272f687b",
       "f5809a1e61bfed763799",
+      "43f9cce8a44088cb8793",
       "aa78ed000c27ccd3fa25",
       "76cbcbaaadd832b54808",
       "3870edb096d5e2c97cfb"
@@ -139,8 +155,8 @@
       "af3ef0a7898428f1c4d2"
     ],
     "weekend": [
-      "4af10fc88764272f687b",
       "f5809a1e61bfed763799",
+      "43f9cce8a44088cb8793",
       "aa78ed000c27ccd3fa25",
       "e19e78542523123679d6",
       "76cbcbaaadd832b54808"
@@ -153,8 +169,8 @@
       "af3ef0a7898428f1c4d2"
     ],
     "new": [
-      "4af10fc88764272f687b",
       "f5809a1e61bfed763799",
+      "43f9cce8a44088cb8793",
       "aa78ed000c27ccd3fa25",
       "e19e78542523123679d6",
       "76cbcbaaadd832b54808"
@@ -170,7 +186,7 @@
       "days_until": 1
     },
     {
-      "event_id": "3cc8f6b07fae4244b39c",
+      "event_id": "aa3af78baa2970d661fe",
       "days_until": 3
     }
   ],
@@ -187,5 +203,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "075932d59841f20fb8a695122fefe7f39371d64ed1740888b7ed7553b0803ada"
+  "data_hash": "b34718bc41ef396966a7cc29839f69b13766547d36af18fb32513c347b75a668"
 }
