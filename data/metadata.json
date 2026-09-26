@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-26T14:01:12+02:00",
+  "last_updated": "2026-09-26T19:41:39+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 15,
-  "events_collected": 672,
-  "events_after_deduplication": 615,
+  "events_collected": 673,
+  "events_after_deduplication": 616,
   "stale_events": 0,
   "sources": [
     {
@@ -85,7 +85,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -144,27 +144,27 @@
       "0fadab3214562e1005fe",
       "745e982bd8e247b5dc17",
       "f5809a1e61bfed763799",
-      "43f9cce8a44088cb8793",
-      "aa78ed000c27ccd3fa25"
+      "aa78ed000c27ccd3fa25",
+      "76cbcbaaadd832b54808"
     ],
     "tomorrow": [
+      "21544a86362b0ef23d2c",
+      "6d6f616322ee94383671",
       "e19e78542523123679d6",
-      "ca36fd63276c5b0d0a40",
       "3870edb096d5e2c97cfb",
-      "040c232bd23e71fea7e0",
-      "acdb1a52b40da75c3c69"
+      "040c232bd23e71fea7e0"
     ],
     "weekend": [
       "0fadab3214562e1005fe",
       "745e982bd8e247b5dc17",
       "f5809a1e61bfed763799",
-      "43f9cce8a44088cb8793",
-      "aa78ed000c27ccd3fa25"
+      "aa78ed000c27ccd3fa25",
+      "21544a86362b0ef23d2c"
     ],
     "upcoming": [
+      "21544a86362b0ef23d2c",
+      "6d6f616322ee94383671",
       "e19e78542523123679d6",
-      "ca36fd63276c5b0d0a40",
-      "acdb1a52b40da75c3c69",
       "3cc8f6b07fae4244b39c",
       "af3ef0a7898428f1c4d2"
     ],
@@ -172,21 +172,21 @@
       "0fadab3214562e1005fe",
       "745e982bd8e247b5dc17",
       "f5809a1e61bfed763799",
-      "43f9cce8a44088cb8793",
-      "aa78ed000c27ccd3fa25"
+      "aa78ed000c27ccd3fa25",
+      "21544a86362b0ef23d2c"
     ]
   },
   "heads_up": [
     {
+      "event_id": "21544a86362b0ef23d2c",
+      "days_until": 1
+    },
+    {
+      "event_id": "6d6f616322ee94383671",
+      "days_until": 1
+    },
+    {
       "event_id": "e19e78542523123679d6",
-      "days_until": 1
-    },
-    {
-      "event_id": "ca36fd63276c5b0d0a40",
-      "days_until": 1
-    },
-    {
-      "event_id": "acdb1a52b40da75c3c69",
       "days_until": 1
     }
   ],
@@ -203,5 +203,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "fe82c5665b7336c81e8cde1e678c84cb26be2ea8ef60b3109bf3f7249cd68f4d"
+  "data_hash": "91fecdf53a047671511b2041aa95d91143deadc4d10a072a04b18a08187bf852"
 }
