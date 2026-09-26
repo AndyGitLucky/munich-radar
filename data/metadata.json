@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-26T00:09:28+02:00",
+  "last_updated": "2026-09-26T11:15:53+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 13,
   "sources_successful": 13,
-  "events_collected": 421,
-  "events_after_deduplication": 352,
+  "events_collected": 410,
+  "events_after_deduplication": 355,
   "stale_events": 0,
   "sources": [
     {
@@ -45,7 +45,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 136,
+      "events": 126,
       "warnings": []
     },
     {
@@ -61,7 +61,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 11,
+      "events": 9,
       "warnings": []
     },
     {
@@ -69,7 +69,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -128,14 +128,14 @@
       "4af10fc88764272f687b",
       "f5809a1e61bfed763799",
       "aa78ed000c27ccd3fa25",
-      "040c232bd23e71fea7e0",
-      "76cbcbaaadd832b54808"
+      "76cbcbaaadd832b54808",
+      "3870edb096d5e2c97cfb"
     ],
     "tomorrow": [
       "e19e78542523123679d6",
       "ca36fd63276c5b0d0a40",
-      "040c232bd23e71fea7e0",
       "3870edb096d5e2c97cfb",
+      "040c232bd23e71fea7e0",
       "af3ef0a7898428f1c4d2"
     ],
     "weekend": [
@@ -143,7 +143,7 @@
       "f5809a1e61bfed763799",
       "aa78ed000c27ccd3fa25",
       "e19e78542523123679d6",
-      "040c232bd23e71fea7e0"
+      "76cbcbaaadd832b54808"
     ],
     "upcoming": [
       "e19e78542523123679d6",
@@ -157,7 +157,7 @@
       "f5809a1e61bfed763799",
       "aa78ed000c27ccd3fa25",
       "e19e78542523123679d6",
-      "040c232bd23e71fea7e0"
+      "76cbcbaaadd832b54808"
     ]
   },
   "heads_up": [
@@ -170,7 +170,7 @@
       "days_until": 1
     },
     {
-      "event_id": "aa3af78baa2970d661fe",
+      "event_id": "3cc8f6b07fae4244b39c",
       "days_until": 3
     }
   ],
@@ -187,5 +187,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "dd2f3502b83fcd81b28445bb515246530f3ec3c3f64fdd7103772d04ac0ed8ec"
+  "data_hash": "075932d59841f20fb8a695122fefe7f39371d64ed1740888b7ed7553b0803ada"
 }
