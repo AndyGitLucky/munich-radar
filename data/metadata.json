@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-27T11:55:39+02:00",
+  "last_updated": "2026-09-27T20:13:24+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 15,
   "events_collected": 663,
-  "events_after_deduplication": 601,
+  "events_after_deduplication": 600,
   "stale_events": 0,
   "sources": [
     {
@@ -141,11 +141,11 @@
   },
   "views": {
     "today": [
-      "21544a86362b0ef23d2c",
-      "6d6f616322ee94383671",
-      "ca36fd63276c5b0d0a40",
       "242329be8077ab5ad39d",
-      "4632b11701feb4130d7f"
+      "4632b11701feb4130d7f",
+      "47d19544b620aae29f36",
+      "d7fb85130368ffb32464",
+      "3870edb096d5e2c97cfb"
     ],
     "tomorrow": [
       "040c232bd23e71fea7e0",
@@ -155,25 +155,25 @@
       "bc2fc628a8d696b6de5d"
     ],
     "weekend": [
-      "21544a86362b0ef23d2c",
-      "6d6f616322ee94383671",
-      "ca36fd63276c5b0d0a40",
       "242329be8077ab5ad39d",
-      "4632b11701feb4130d7f"
+      "4632b11701feb4130d7f",
+      "47d19544b620aae29f36",
+      "d7fb85130368ffb32464",
+      "3870edb096d5e2c97cfb"
     ],
     "upcoming": [
       "671b26112fbdcfe49e6a",
       "aa3af78baa2970d661fe",
+      "ae7ab8cc399689b6eb79",
       "07636ede2aab4da0c808",
-      "2f1527d6af09be044f26",
       "bc2fc628a8d696b6de5d"
     ],
     "new": [
-      "21544a86362b0ef23d2c",
-      "6d6f616322ee94383671",
-      "ca36fd63276c5b0d0a40",
       "242329be8077ab5ad39d",
-      "4632b11701feb4130d7f"
+      "4632b11701feb4130d7f",
+      "47d19544b620aae29f36",
+      "d7fb85130368ffb32464",
+      "3870edb096d5e2c97cfb"
     ]
   },
   "heads_up": [
@@ -182,11 +182,11 @@
       "days_until": 1
     },
     {
-      "event_id": "2f1527d6af09be044f26",
-      "days_until": 1
+      "event_id": "ae7ab8cc399689b6eb79",
+      "days_until": 3
     },
     {
-      "event_id": "c4030d8a47ffd19c1611",
+      "event_id": "2f1527d6af09be044f26",
       "days_until": 1
     }
   ],
@@ -203,5 +203,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "74b5b1bed155483d765834115fc421b34bd3eab1b355c9041c39b8118f71d7ff"
+  "data_hash": "fdd5659c2b53c3c06fc844502c1912c05d899224674af0042ce57096cb13a976"
 }
