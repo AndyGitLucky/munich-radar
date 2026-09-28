@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-28T12:45:51+02:00",
+  "last_updated": "2026-09-28T22:28:01+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
@@ -179,10 +179,10 @@
   "views": {
     "today": [
       "040c232bd23e71fea7e0",
-      "525ce4a503e073f83495",
-      "945bd93f337ef59e6e74",
-      "5d02e256b5ef8768f4ad",
-      "bc2fc628a8d696b6de5d"
+      "bc2fc628a8d696b6de5d",
+      "75bad8bde0f2198995da",
+      "2fd18788850eea9da098",
+      "52216c184971e287a398"
     ],
     "tomorrow": [
       "040c232bd23e71fea7e0",
@@ -192,24 +192,24 @@
       "6dbea5a1edddd287e8b7"
     ],
     "weekend": [
+      "7f47b3f90665e713a27a",
       "040c232bd23e71fea7e0",
       "3b805c7ab942dd72852f",
       "07636ede2aab4da0c808",
-      "63c91b0c3a96a7a7dda0",
-      "d5bfd444d89b19c76d7a"
+      "63c91b0c3a96a7a7dda0"
     ],
     "upcoming": [
+      "7f47b3f90665e713a27a",
       "aa3af78baa2970d661fe",
       "3cc8f6b07fae4244b39c",
       "ae7ab8cc399689b6eb79",
-      "b6842d00d6dd172e9e40",
       "3b805c7ab942dd72852f"
     ],
     "new": [
-      "525ce4a503e073f83495",
-      "945bd93f337ef59e6e74",
-      "5d02e256b5ef8768f4ad",
+      "7f47b3f90665e713a27a",
+      "aa3af78baa2970d661fe",
       "3cc8f6b07fae4244b39c",
+      "ae7ab8cc399689b6eb79",
       "3b805c7ab942dd72852f"
     ]
   },
@@ -240,5 +240,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "dc741205c8d0b4f64b128b8a7bb6db63846bc178031164e2f39786ea17280637"
+  "data_hash": "8c4245033dfdba3d967590dbd773da088426ca87fc0623b58a3e0b76f76f7892"
 }
