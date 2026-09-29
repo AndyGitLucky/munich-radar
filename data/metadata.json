@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-29T12:33:17+02:00",
+  "last_updated": "2026-09-29T21:14:18+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 497,
-  "events_after_deduplication": 583,
-  "stale_events": 150,
+  "events_collected": 519,
+  "events_after_deduplication": 591,
+  "stale_events": 136,
   "sources": [
     {
       "id": "shopping_munich",
@@ -98,18 +98,16 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 237,
+      "events": 240,
       "warnings": []
     },
     {
       "id": "stadtbibliothek",
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
-      "status": "partial",
-      "events": 20,
-      "warnings": [
-        "Kalenderseite nicht verarbeitet: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-      ]
+      "status": "ok",
+      "events": 39,
+      "warnings": []
     },
     {
       "id": "stadtmuseum",
@@ -183,8 +181,8 @@
       "3cc8f6b07fae4244b39c",
       "040c232bd23e71fea7e0",
       "55a3ca4d1ed0d303503a",
-      "a7726ca8917cb47f3c18",
-      "ef70c603e1b8ff8d49d7"
+      "1d9af5e8deac87a0f295",
+      "6751ad56ab768e4bb08c"
     ],
     "tomorrow": [
       "040c232bd23e71fea7e0",
@@ -198,21 +196,21 @@
       "040c232bd23e71fea7e0",
       "3b805c7ab942dd72852f",
       "07636ede2aab4da0c808",
-      "63c91b0c3a96a7a7dda0"
+      "f2fcb7d035ffe1b78d46"
     ],
     "upcoming": [
       "7f47b3f90665e713a27a",
       "ae7ab8cc399689b6eb79",
+      "35ff27a85cb3a530d207",
       "3b805c7ab942dd72852f",
-      "07636ede2aab4da0c808",
-      "63c91b0c3a96a7a7dda0"
+      "07636ede2aab4da0c808"
     ],
     "new": [
       "3cc8f6b07fae4244b39c",
       "7f47b3f90665e713a27a",
       "55a3ca4d1ed0d303503a",
-      "a7726ca8917cb47f3c18",
-      "ef70c603e1b8ff8d49d7"
+      "ae7ab8cc399689b6eb79",
+      "35ff27a85cb3a530d207"
     ]
   },
   "heads_up": [
@@ -242,5 +240,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "ea7f3a1766ee500b319567e149c7002d43af52fb70610d903338a2b693877db6"
+  "data_hash": "1fb1debe105188400a48503fed99d6b99a267691c52d6cb2ef4679858455327e"
 }
