@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-01T12:50:37+02:00",
+  "last_updated": "2026-10-01T21:22:55+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 607,
-  "events_after_deduplication": 667,
+  "events_collected": 606,
+  "events_after_deduplication": 669,
   "stale_events": 127,
   "sources": [
     {
@@ -98,7 +98,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 236,
+      "events": 237,
       "warnings": []
     },
     {
@@ -130,7 +130,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 30,
+      "events": 28,
       "warnings": []
     },
     {
@@ -178,11 +178,11 @@
   },
   "views": {
     "today": [
-      "17f04063fa47bc4a7c11",
-      "13f941ae2c169ebfc102",
-      "2d6f9ae25f17d24de318",
       "184f6532fc1f24f1c2e0",
-      "f6b75041043109d8b778"
+      "f6b75041043109d8b778",
+      "0f249d094efc5587dd10",
+      "6e62fe86124e53c5abcd",
+      "040c232bd23e71fea7e0"
     ],
     "tomorrow": [
       "08a6ce89cdab8ea3d61f",
@@ -207,10 +207,10 @@
     ],
     "new": [
       "7f47b3f90665e713a27a",
-      "17f04063fa47bc4a7c11",
-      "13f941ae2c169ebfc102",
       "184f6532fc1f24f1c2e0",
-      "f6b75041043109d8b778"
+      "f6b75041043109d8b778",
+      "35ff27a85cb3a530d207",
+      "0f249d094efc5587dd10"
     ]
   },
   "heads_up": [
@@ -240,5 +240,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "2ecdb1cf5d9133d959b1424b097a7769c042e2137f7ce8a8c195fee9492c1bdc"
+  "data_hash": "a4acefd9d6221baea8262fd64fdba32c8622ab012fcd320e9c4f2e491432c362"
 }
