@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-01T21:22:55+02:00",
+  "last_updated": "2026-10-02T12:24:44+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 606,
-  "events_after_deduplication": 669,
-  "stale_events": 127,
+  "events_collected": 608,
+  "events_after_deduplication": 668,
+  "stale_events": 119,
   "sources": [
     {
       "id": "shopping_munich",
@@ -74,7 +74,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 8,
+      "events": 9,
       "warnings": []
     },
     {
@@ -98,7 +98,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 237,
+      "events": 235,
       "warnings": []
     },
     {
@@ -106,7 +106,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 38,
+      "events": 40,
       "warnings": []
     },
     {
@@ -114,7 +114,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 82,
+      "events": 81,
       "warnings": []
     },
     {
@@ -130,7 +130,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 28,
+      "events": 30,
       "warnings": []
     },
     {
@@ -178,25 +178,25 @@
   },
   "views": {
     "today": [
-      "184f6532fc1f24f1c2e0",
-      "f6b75041043109d8b778",
-      "0f249d094efc5587dd10",
-      "6e62fe86124e53c5abcd",
-      "040c232bd23e71fea7e0"
+      "34cee4fe67c9cdb3a430",
+      "8181fa3f1ab18611cf2c",
+      "86ca76005c18435f3098",
+      "3fd2029d17b1db4f731e",
+      "fbe109a132f853e61143"
     ],
     "tomorrow": [
-      "08a6ce89cdab8ea3d61f",
-      "a4fdf46d87d92f3f7e36",
-      "b6842d00d6dd172e9e40",
-      "2999750ccdefc4347eae",
-      "040c232bd23e71fea7e0"
+      "7f47b3f90665e713a27a",
+      "07636ede2aab4da0c808",
+      "3b805c7ab942dd72852f",
+      "f2fcb7d035ffe1b78d46",
+      "21567e0083710f52a80b"
     ],
     "weekend": [
       "7f47b3f90665e713a27a",
       "07636ede2aab4da0c808",
       "3b805c7ab942dd72852f",
       "f2fcb7d035ffe1b78d46",
-      "e9caa396a92b3c51e0aa"
+      "8adc5454d40514beb6cd"
     ],
     "upcoming": [
       "7f47b3f90665e713a27a",
@@ -206,24 +206,24 @@
       "f2fcb7d035ffe1b78d46"
     ],
     "new": [
-      "7f47b3f90665e713a27a",
-      "184f6532fc1f24f1c2e0",
-      "f6b75041043109d8b778",
-      "35ff27a85cb3a530d207",
-      "0f249d094efc5587dd10"
+      "34cee4fe67c9cdb3a430",
+      "8181fa3f1ab18611cf2c",
+      "86ca76005c18435f3098",
+      "3fd2029d17b1db4f731e",
+      "fbe109a132f853e61143"
     ]
   },
   "heads_up": [
     {
-      "event_id": "e9caa396a92b3c51e0aa",
-      "days_until": 3
+      "event_id": "7f47b3f90665e713a27a",
+      "days_until": 1
     },
     {
-      "event_id": "bac346a8dcff6d7877e0",
-      "days_until": 3
+      "event_id": "07636ede2aab4da0c808",
+      "days_until": 1
     },
     {
-      "event_id": "08a6ce89cdab8ea3d61f",
+      "event_id": "3b805c7ab942dd72852f",
       "days_until": 1
     }
   ],
@@ -240,5 +240,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "a4acefd9d6221baea8262fd64fdba32c8622ab012fcd320e9c4f2e491432c362"
+  "data_hash": "846706f948e7a69b8a91a2c85e5833919a3d1e4d745d4fdc8bdef62a6c9cda5f"
 }
