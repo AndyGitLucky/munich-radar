@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-02T12:24:44+02:00",
+  "last_updated": "2026-10-02T21:06:09+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 608,
-  "events_after_deduplication": 668,
+  "events_collected": 606,
+  "events_after_deduplication": 665,
   "stale_events": 119,
   "sources": [
     {
@@ -98,7 +98,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 235,
+      "events": 234,
       "warnings": []
     },
     {
@@ -122,7 +122,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 40,
+      "events": 39,
       "warnings": []
     },
     {
@@ -178,11 +178,11 @@
   },
   "views": {
     "today": [
-      "34cee4fe67c9cdb3a430",
       "8181fa3f1ab18611cf2c",
-      "86ca76005c18435f3098",
-      "3fd2029d17b1db4f731e",
-      "fbe109a132f853e61143"
+      "08a6ce89cdab8ea3d61f",
+      "2999750ccdefc4347eae",
+      "595b5aa2bff730384d61",
+      "632e1b32a0677837e929"
     ],
     "tomorrow": [
       "7f47b3f90665e713a27a",
@@ -206,11 +206,11 @@
       "f2fcb7d035ffe1b78d46"
     ],
     "new": [
-      "34cee4fe67c9cdb3a430",
       "8181fa3f1ab18611cf2c",
-      "86ca76005c18435f3098",
-      "3fd2029d17b1db4f731e",
-      "fbe109a132f853e61143"
+      "08a6ce89cdab8ea3d61f",
+      "35ff27a85cb3a530d207",
+      "595b5aa2bff730384d61",
+      "632e1b32a0677837e929"
     ]
   },
   "heads_up": [
@@ -240,5 +240,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "846706f948e7a69b8a91a2c85e5833919a3d1e4d745d4fdc8bdef62a6c9cda5f"
+  "data_hash": "b934129416ce998b7869f79ab69f8296b49482376b2c4be5dc9dce9633d4b0f6"
 }
