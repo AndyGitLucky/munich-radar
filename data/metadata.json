@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-03T11:46:31+02:00",
+  "last_updated": "2026-10-03T19:52:01+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
   "events_collected": 612,
-  "events_after_deduplication": 649,
+  "events_after_deduplication": 648,
   "stale_events": 107,
   "sources": [
     {
@@ -179,7 +179,7 @@
   "views": {
     "today": [
       "d5bfd444d89b19c76d7a",
-      "7f47b3f90665e713a27a",
+      "dcd87d152c8cab342038",
       "f58a3d2cd6ada28287a7",
       "73b5f035c57bac22ef18",
       "07636ede2aab4da0c808"
@@ -193,7 +193,7 @@
     ],
     "weekend": [
       "d5bfd444d89b19c76d7a",
-      "7f47b3f90665e713a27a",
+      "dcd87d152c8cab342038",
       "f58a3d2cd6ada28287a7",
       "73b5f035c57bac22ef18",
       "07636ede2aab4da0c808"
@@ -206,11 +206,11 @@
       "82577c2b56afa66d3dee"
     ],
     "new": [
+      "dcd87d152c8cab342038",
       "f58a3d2cd6ada28287a7",
       "73b5f035c57bac22ef18",
       "a47cfaeedde263183c1e",
-      "7cfe0297743c108f3582",
-      "01804feae1422826e3c8"
+      "f4ca88b74a2a97e46d2c"
     ]
   },
   "heads_up": [
@@ -240,5 +240,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "befa813021bb2a0dafcb58cc0d1e20cea2b7ea4b38a31414ba264d4f1103f790"
+  "data_hash": "90abc0740553ab35fafeed50dba787f5f6060e1d44065129a66b0e8c852eb308"
 }
