@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-02T21:06:09+02:00",
+  "last_updated": "2026-10-03T11:46:31+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 606,
-  "events_after_deduplication": 665,
-  "stale_events": 119,
+  "events_collected": 612,
+  "events_after_deduplication": 649,
+  "stale_events": 107,
   "sources": [
     {
       "id": "shopping_munich",
@@ -90,7 +90,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 69,
+      "events": 73,
       "warnings": []
     },
     {
@@ -98,7 +98,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 234,
+      "events": 237,
       "warnings": []
     },
     {
@@ -114,7 +114,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 81,
+      "events": 79,
       "warnings": []
     },
     {
@@ -122,7 +122,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -178,52 +178,52 @@
   },
   "views": {
     "today": [
-      "8181fa3f1ab18611cf2c",
-      "08a6ce89cdab8ea3d61f",
-      "2999750ccdefc4347eae",
-      "595b5aa2bff730384d61",
-      "632e1b32a0677837e929"
+      "d5bfd444d89b19c76d7a",
+      "7f47b3f90665e713a27a",
+      "f58a3d2cd6ada28287a7",
+      "73b5f035c57bac22ef18",
+      "07636ede2aab4da0c808"
     ],
     "tomorrow": [
-      "7f47b3f90665e713a27a",
+      "73b5f035c57bac22ef18",
       "07636ede2aab4da0c808",
-      "3b805c7ab942dd72852f",
-      "f2fcb7d035ffe1b78d46",
-      "21567e0083710f52a80b"
-    ],
-    "weekend": [
-      "7f47b3f90665e713a27a",
-      "07636ede2aab4da0c808",
-      "3b805c7ab942dd72852f",
-      "f2fcb7d035ffe1b78d46",
+      "a47cfaeedde263183c1e",
+      "f3d8f41ded7da006bf75",
       "8adc5454d40514beb6cd"
     ],
-    "upcoming": [
+    "weekend": [
+      "d5bfd444d89b19c76d7a",
       "7f47b3f90665e713a27a",
+      "f58a3d2cd6ada28287a7",
+      "73b5f035c57bac22ef18",
+      "07636ede2aab4da0c808"
+    ],
+    "upcoming": [
+      "f4ca88b74a2a97e46d2c",
       "35ff27a85cb3a530d207",
-      "07636ede2aab4da0c808",
-      "3b805c7ab942dd72852f",
-      "f2fcb7d035ffe1b78d46"
+      "f3d8f41ded7da006bf75",
+      "8adc5454d40514beb6cd",
+      "82577c2b56afa66d3dee"
     ],
     "new": [
-      "8181fa3f1ab18611cf2c",
-      "08a6ce89cdab8ea3d61f",
-      "35ff27a85cb3a530d207",
-      "595b5aa2bff730384d61",
-      "632e1b32a0677837e929"
+      "f58a3d2cd6ada28287a7",
+      "73b5f035c57bac22ef18",
+      "a47cfaeedde263183c1e",
+      "7cfe0297743c108f3582",
+      "01804feae1422826e3c8"
     ]
   },
   "heads_up": [
     {
-      "event_id": "7f47b3f90665e713a27a",
+      "event_id": "f4ca88b74a2a97e46d2c",
+      "days_until": 3
+    },
+    {
+      "event_id": "f3d8f41ded7da006bf75",
       "days_until": 1
     },
     {
-      "event_id": "07636ede2aab4da0c808",
-      "days_until": 1
-    },
-    {
-      "event_id": "3b805c7ab942dd72852f",
+      "event_id": "8adc5454d40514beb6cd",
       "days_until": 1
     }
   ],
@@ -240,5 +240,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "b934129416ce998b7869f79ab69f8296b49482376b2c4be5dc9dce9633d4b0f6"
+  "data_hash": "befa813021bb2a0dafcb58cc0d1e20cea2b7ea4b38a31414ba264d4f1103f790"
 }
