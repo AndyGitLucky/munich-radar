@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-04T12:31:11+02:00",
+  "last_updated": "2026-10-04T20:04:16+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
   "events_collected": 607,
-  "events_after_deduplication": 641,
+  "events_after_deduplication": 640,
   "stale_events": 107,
   "sources": [
     {
@@ -210,7 +210,7 @@
       "a598c774fc1586bf540d",
       "73b5f035c57bac22ef18",
       "f3d8f41ded7da006bf75",
-      "a47cfaeedde263183c1e"
+      "8adc5454d40514beb6cd"
     ]
   },
   "heads_up": [
@@ -240,5 +240,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "52bbc107002fb692003b22e9f705675a947f4cdb1ae86418efeea7c2d40215c7"
+  "data_hash": "ab5b5eafab0a13a0d197498bc1834dbff2ee0c411cdf98ab8be30b66a50cd356"
 }
