@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-04T00:04:18+02:00",
+  "last_updated": "2026-10-04T12:31:11+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 609,
-  "events_after_deduplication": 636,
+  "events_collected": 607,
+  "events_after_deduplication": 641,
   "stale_events": 107,
   "sources": [
     {
@@ -114,7 +114,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 79,
+      "events": 77,
       "warnings": []
     },
     {
@@ -240,5 +240,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "c2bd46285e6da0e4bb41ff4526f667200d696edda7a9c1770b39b99e248acdb5"
+  "data_hash": "52bbc107002fb692003b22e9f705675a947f4cdb1ae86418efeea7c2d40215c7"
 }
