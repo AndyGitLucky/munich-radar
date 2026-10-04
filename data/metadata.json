@@ -1,65 +1,28 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-04T20:04:16+02:00",
+  "last_updated": "2026-10-05T00:16:20+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
-  "sources_successful": 14,
-  "events_collected": 607,
-  "events_after_deduplication": 640,
-  "stale_events": 107,
+  "sources_successful": 15,
+  "events_collected": 753,
+  "events_after_deduplication": 676,
+  "stale_events": 0,
   "sources": [
     {
       "id": "shopping_munich",
       "name": "München – Shopping & Sonderöffnungen",
       "url": "https://www.muenchen.de/shopping/aktuell/shopping-naechte-und-abendoeffnungen-muenchen",
       "status": "ok",
-      "events": 7,
+      "events": 5,
       "warnings": []
     },
     {
       "id": "weekly_markets",
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "Marktseite nicht verarbeitet: Öffnungszeiten nicht eindeutig; Sonderregelung manuell prüfen",
-        "ValueError: Keine gültigen Termine geliefert; vorherigen Stand beibehalten"
-      ]
+      "status": "ok",
+      "events": 149,
+      "warnings": []
     },
     {
       "id": "corso_leopold",
@@ -90,7 +53,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 70,
+      "events": 68,
       "warnings": []
     },
     {
@@ -98,7 +61,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 240,
+      "events": 239,
       "warnings": []
     },
     {
@@ -106,7 +69,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -130,7 +93,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 32,
+      "events": 33,
       "warnings": []
     },
     {
@@ -178,53 +141,53 @@
   },
   "views": {
     "today": [
-      "459f06b505143b448386",
-      "a598c774fc1586bf540d",
       "73b5f035c57bac22ef18",
-      "f3d8f41ded7da006bf75",
-      "07636ede2aab4da0c808"
+      "07636ede2aab4da0c808",
+      "82577c2b56afa66d3dee",
+      "a47cfaeedde263183c1e",
+      "a9b7ae1e5f56eac7469d"
     ],
     "tomorrow": [
       "73b5f035c57bac22ef18",
       "07636ede2aab4da0c808",
+      "f4ca88b74a2a97e46d2c",
       "a47cfaeedde263183c1e",
-      "82577c2b56afa66d3dee",
-      "a9b7ae1e5f56eac7469d"
+      "1bfb4bffa04077383df4"
     ],
     "weekend": [
-      "459f06b505143b448386",
-      "a598c774fc1586bf540d",
-      "73b5f035c57bac22ef18",
-      "f3d8f41ded7da006bf75",
-      "07636ede2aab4da0c808"
+      "1927a859a4cf8e6e8690",
+      "971a40ad460ea0c603a7",
+      "9c3aeae43cc2946047c4",
+      "9d8125d5a0cba47bfe66",
+      "33cf4a063f43ff0c7f63"
     ],
     "upcoming": [
       "f4ca88b74a2a97e46d2c",
+      "1927a859a4cf8e6e8690",
       "35ff27a85cb3a530d207",
-      "82577c2b56afa66d3dee",
-      "1bfb4bffa04077383df4",
-      "908e0fba707a16420979"
+      "971a40ad460ea0c603a7",
+      "9c3aeae43cc2946047c4"
     ],
     "new": [
-      "459f06b505143b448386",
-      "a598c774fc1586bf540d",
       "73b5f035c57bac22ef18",
-      "f3d8f41ded7da006bf75",
-      "8adc5454d40514beb6cd"
+      "82577c2b56afa66d3dee",
+      "f4ca88b74a2a97e46d2c",
+      "1927a859a4cf8e6e8690",
+      "971a40ad460ea0c603a7"
     ]
   },
   "heads_up": [
     {
-      "event_id": "35ff27a85cb3a530d207",
-      "days_until": 3
-    },
-    {
-      "event_id": "82577c2b56afa66d3dee",
+      "event_id": "f4ca88b74a2a97e46d2c",
       "days_until": 1
     },
     {
-      "event_id": "731b05cf1069b9795220",
-      "days_until": 3
+      "event_id": "1bfb4bffa04077383df4",
+      "days_until": 1
+    },
+    {
+      "event_id": "908e0fba707a16420979",
+      "days_until": 1
     }
   ],
   "heads_up_rules": {
@@ -240,5 +203,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "ab5b5eafab0a13a0d197498bc1834dbff2ee0c411cdf98ab8be30b66a50cd356"
+  "data_hash": "fb7fd3413f8c0a1a1f60e35e40c5700099b9c6223161089308ec42786104245f"
 }
