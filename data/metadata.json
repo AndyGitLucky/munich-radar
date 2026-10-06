@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-05T23:26:08+02:00",
+  "last_updated": "2026-10-06T13:09:20+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 15,
-  "events_collected": 750,
-  "events_after_deduplication": 676,
+  "events_collected": 762,
+  "events_after_deduplication": 694,
   "stale_events": 0,
   "sources": [
     {
@@ -21,7 +21,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 149,
+      "events": 157,
       "warnings": []
     },
     {
@@ -61,7 +61,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 239,
+      "events": 243,
       "warnings": []
     },
     {
@@ -85,7 +85,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 40,
+      "events": 39,
       "warnings": []
     },
     {
@@ -93,7 +93,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 33,
+      "events": 34,
       "warnings": []
     },
     {
@@ -141,18 +141,18 @@
   },
   "views": {
     "today": [
-      "73b5f035c57bac22ef18",
+      "f4ca88b74a2a97e46d2c",
       "07636ede2aab4da0c808",
-      "82577c2b56afa66d3dee",
-      "a47cfaeedde263183c1e",
-      "cf162c758633d1756a68"
+      "73b5f035c57bac22ef18",
+      "20a86586880f662a6056",
+      "0a8fc62fc0bdf7f37100"
     ],
     "tomorrow": [
-      "73b5f035c57bac22ef18",
       "07636ede2aab4da0c808",
+      "73b5f035c57bac22ef18",
       "a47cfaeedde263183c1e",
-      "908e0fba707a16420979",
-      "82881469083eab684b77"
+      "35ff27a85cb3a530d207",
+      "2ee1e8d7faca9fd9453c"
     ],
     "weekend": [
       "1927a859a4cf8e6e8690",
@@ -164,29 +164,29 @@
     "upcoming": [
       "1927a859a4cf8e6e8690",
       "35ff27a85cb3a530d207",
-      "971a40ad460ea0c603a7",
-      "9c3aeae43cc2946047c4",
-      "9d8125d5a0cba47bfe66"
-    ],
-    "new": [
-      "73b5f035c57bac22ef18",
-      "82577c2b56afa66d3dee",
-      "1927a859a4cf8e6e8690",
+      "480275ecd92ac808f3bc",
       "971a40ad460ea0c603a7",
       "9c3aeae43cc2946047c4"
+    ],
+    "new": [
+      "f4ca88b74a2a97e46d2c",
+      "20a86586880f662a6056",
+      "0a8fc62fc0bdf7f37100",
+      "a8b02babde363063cebb",
+      "21892bd1f3664fd5d329"
     ]
   },
   "heads_up": [
     {
-      "event_id": "908e0fba707a16420979",
+      "event_id": "35ff27a85cb3a530d207",
       "days_until": 1
     },
     {
-      "event_id": "82881469083eab684b77",
+      "event_id": "a28a7b325eb48e6fe03e",
       "days_until": 1
     },
     {
-      "event_id": "1bfb4bffa04077383df4",
+      "event_id": "731b05cf1069b9795220",
       "days_until": 1
     }
   ],
@@ -203,5 +203,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "558665bc0bb49ba55338a3c444661d5d4a98fef1a535734aa6c8c0b57ecf2e9e"
+  "data_hash": "072d6200bc093b5d37424bbb6989b610e764abcb5af97e8fb323c5b7f8408b1c"
 }
