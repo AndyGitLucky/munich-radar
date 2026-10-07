@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-07T12:57:47+02:00",
+  "last_updated": "2026-10-07T21:50:25+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
-  "sources_successful": 14,
-  "events_collected": 603,
-  "events_after_deduplication": 694,
-  "stale_events": 155,
+  "sources_successful": 15,
+  "events_collected": 766,
+  "events_after_deduplication": 702,
+  "stale_events": 0,
   "sources": [
     {
       "id": "shopping_munich",
@@ -20,11 +20,9 @@
       "id": "weekly_markets",
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "ValueError: Keine städtischen Wochenmarkt-Detailseiten erkannt"
-      ]
+      "status": "ok",
+      "events": 167,
+      "warnings": []
     },
     {
       "id": "corso_leopold",
@@ -55,7 +53,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 71,
+      "events": 68,
       "warnings": []
     },
     {
@@ -95,7 +93,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 33,
+      "events": 32,
       "warnings": []
     },
     {
@@ -145,9 +143,9 @@
     "today": [
       "07636ede2aab4da0c808",
       "73b5f035c57bac22ef18",
-      "367c97087dc54fe0fa69",
-      "b7473dc46b679509f725",
-      "16e36908a1ad4b4d8b03"
+      "8e1107ce0b5348321c74",
+      "1398a5280e8bd306ad21",
+      "a47cfaeedde263183c1e"
     ],
     "tomorrow": [
       "07636ede2aab4da0c808",
@@ -161,21 +159,21 @@
       "76dffea3513fb78bbb61",
       "1000e0532698f1307e14",
       "18100777e22c8a7cbdda",
-      "8f4420545aa99e907d1d"
+      "eb65984b5ba7593d7db8"
     ],
     "upcoming": [
+      "7a41f2df55f3248ef465",
       "1927a859a4cf8e6e8690",
       "480275ecd92ac808f3bc",
       "76dffea3513fb78bbb61",
-      "1000e0532698f1307e14",
-      "18100777e22c8a7cbdda"
+      "1000e0532698f1307e14"
     ],
     "new": [
-      "367c97087dc54fe0fa69",
-      "b7473dc46b679509f725",
-      "16e36908a1ad4b4d8b03",
       "8e1107ce0b5348321c74",
-      "1398a5280e8bd306ad21"
+      "1398a5280e8bd306ad21",
+      "7a41f2df55f3248ef465",
+      "a28a7b325eb48e6fe03e",
+      "480275ecd92ac808f3bc"
     ]
   },
   "heads_up": [
@@ -205,5 +203,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "58255326f516f10415068124c71718f8e288cc2924d9a7ec65cae09f5ab4cc70"
+  "data_hash": "b9e3c5e7d9a768c7d8ac6baddc43e13a1b7e2d974e96394fc28f1e4b62e371ed"
 }
