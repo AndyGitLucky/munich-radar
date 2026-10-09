@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-09T13:14:00+02:00",
+  "last_updated": "2026-10-09T21:22:58+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 15,
-  "events_collected": 751,
-  "events_after_deduplication": 687,
-  "stale_events": 0,
+  "events_collected": 752,
+  "events_after_deduplication": 708,
+  "stale_events": 21,
   "sources": [
     {
       "id": "shopping_munich",
@@ -44,9 +44,11 @@
       "id": "deutsches_museum",
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
-      "status": "ok",
-      "events": 60,
-      "warnings": []
+      "status": "partial",
+      "events": 59,
+      "warnings": [
+        "Termin verworfen: Event ends before it starts"
+      ]
     },
     {
       "id": "lenbachhaus",
@@ -61,7 +63,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 239,
+      "events": 240,
       "warnings": []
     },
     {
@@ -203,5 +205,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "c5617ea3a2c8293556e82925e14d75f5f2ea276d84a40b522fab1236fc7c6e20"
+  "data_hash": "08fc910ddc44c23ce3697b7a6192f73b11f2b328140282d74f9dfe927a5cdf9e"
 }
