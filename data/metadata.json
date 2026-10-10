@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-10T12:30:58+02:00",
+  "last_updated": "2026-10-10T20:23:24+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 15,
-  "events_collected": 738,
-  "events_after_deduplication": 678,
-  "stale_events": 0,
+  "events_collected": 741,
+  "events_after_deduplication": 693,
+  "stale_events": 21,
   "sources": [
     {
       "id": "shopping_munich",
@@ -44,9 +44,17 @@
       "id": "deutsches_museum",
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
-      "status": "ok",
-      "events": 60,
-      "warnings": []
+      "status": "partial",
+      "events": 53,
+      "warnings": [
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts"
+      ]
     },
     {
       "id": "lenbachhaus",
@@ -61,7 +69,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 238,
+      "events": 240,
       "warnings": []
     },
     {
@@ -85,7 +93,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -164,9 +172,9 @@
     "upcoming": [
       "5250ce4a51fd8a38079c",
       "7a41f2df55f3248ef465",
-      "34342532621406a21b97",
-      "6e6aa2b860719b3663b7",
-      "c826d2bcf471e08da460"
+      "4a7fc206d0541a560376",
+      "e113be13757316736bd4",
+      "34342532621406a21b97"
     ],
     "new": [
       "04531cb2ea7b3b2c575c",
@@ -182,12 +190,12 @@
       "days_until": 1
     },
     {
-      "event_id": "397ecc1969aa91e6ae19",
+      "event_id": "4336686d1df9e46376c4",
       "days_until": 3
     },
     {
-      "event_id": "4336686d1df9e46376c4",
-      "days_until": 3
+      "event_id": "76dffea3513fb78bbb61",
+      "days_until": 1
     }
   ],
   "heads_up_rules": {
@@ -203,5 +211,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "4db7ea343e8ae09a56d9f67909b06b8b97b33ddb2103b3370fc280bac7d471cc"
+  "data_hash": "3e5f2f9e245cdb9ce0f9543249fbd7bf26b21bed41ade40a82dee56a564df8ad"
 }
