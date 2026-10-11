@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-11T12:43:18+02:00",
+  "last_updated": "2026-10-11T20:44:10+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 15,
-  "events_collected": 742,
-  "events_after_deduplication": 676,
-  "stale_events": 0,
+  "events_collected": 741,
+  "events_after_deduplication": 689,
+  "stale_events": 24,
   "sources": [
     {
       "id": "shopping_munich",
@@ -44,9 +44,20 @@
       "id": "deutsches_museum",
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
-      "status": "ok",
-      "events": 60,
-      "warnings": []
+      "status": "partial",
+      "events": 50,
+      "warnings": [
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts"
+      ]
     },
     {
       "id": "lenbachhaus",
@@ -61,7 +72,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 240,
+      "events": 239,
       "warnings": []
     },
     {
@@ -170,8 +181,8 @@
       "e4d075e5ef53baaaa7eb",
       "16d92271255f0eb96260",
       "7a41f2df55f3248ef465",
-      "34342532621406a21b97",
-      "4336686d1df9e46376c4"
+      "4a7fc206d0541a560376",
+      "e113be13757316736bd4"
     ],
     "new": [
       "5250ce4a51fd8a38079c",
@@ -208,5 +219,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "f2a7ed60307793c29174d90c3d6834eaec6513beda83b19f6fc0575834f625d1"
+  "data_hash": "91756c0e410b8f84f22a01c4d435ad06874e3d784aacee2ced4d42f870ddf697"
 }
