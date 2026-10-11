@@ -1,27 +1,29 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-11T20:44:10+02:00",
+  "last_updated": "2026-10-12T00:45:03+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
-  "sources_successful": 15,
-  "events_collected": 741,
-  "events_after_deduplication": 689,
-  "stale_events": 24,
+  "sources_successful": 14,
+  "events_collected": 748,
+  "events_after_deduplication": 669,
+  "stale_events": 3,
   "sources": [
     {
       "id": "shopping_munich",
       "name": "München – Shopping & Sonderöffnungen",
       "url": "https://www.muenchen.de/shopping/aktuell/shopping-naechte-und-abendoeffnungen-muenchen",
-      "status": "ok",
-      "events": 5,
-      "warnings": []
+      "status": "error",
+      "events": 0,
+      "warnings": [
+        "ValueError: Empty HTTP response"
+      ]
     },
     {
       "id": "weekly_markets",
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 142,
+      "events": 149,
       "warnings": []
     },
     {
@@ -64,7 +66,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 70,
+      "events": 68,
       "warnings": []
     },
     {
@@ -72,7 +74,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 239,
+      "events": 240,
       "warnings": []
     },
     {
@@ -80,7 +82,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 40,
+      "events": 39,
       "warnings": []
     },
     {
@@ -104,7 +106,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "partial",
-      "events": 34,
+      "events": 41,
       "warnings": [
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
@@ -157,53 +159,53 @@
   },
   "views": {
     "today": [
-      "5250ce4a51fd8a38079c",
-      "ddb5c09f70c478620305",
       "892a78e4033d44738306",
-      "9c42ffaa4e4ad363dc11",
-      "59044da7e655b6e0e935"
+      "34342532621406a21b97",
+      "3e61f60908254b0b5f6d",
+      "d998b606932885f15a8b",
+      "9f18231b363b91c1c8fc"
     ],
     "tomorrow": [
       "892a78e4033d44738306",
-      "34342532621406a21b97",
+      "16d92271255f0eb96260",
+      "4336686d1df9e46376c4",
       "f125fa9e4725c99aa2ae",
-      "3e61f60908254b0b5f6d",
-      "d998b606932885f15a8b"
+      "6e6aa2b860719b3663b7"
     ],
     "weekend": [
-      "5250ce4a51fd8a38079c",
-      "ddb5c09f70c478620305",
+      "4a7fc206d0541a560376",
+      "e113be13757316736bd4",
+      "06e4dc0c72cffb676c8a",
       "892a78e4033d44738306",
-      "9c42ffaa4e4ad363dc11",
-      "59044da7e655b6e0e935"
+      "aae519ebd1ab74ee692d"
     ],
     "upcoming": [
-      "e4d075e5ef53baaaa7eb",
-      "16d92271255f0eb96260",
-      "7a41f2df55f3248ef465",
       "4a7fc206d0541a560376",
-      "e113be13757316736bd4"
+      "e113be13757316736bd4",
+      "06e4dc0c72cffb676c8a",
+      "e4d075e5ef53baaaa7eb",
+      "16d92271255f0eb96260"
     ],
     "new": [
-      "5250ce4a51fd8a38079c",
-      "ddb5c09f70c478620305",
+      "4a7fc206d0541a560376",
+      "e113be13757316736bd4",
+      "06e4dc0c72cffb676c8a",
       "e4d075e5ef53baaaa7eb",
-      "892a78e4033d44738306",
-      "9c42ffaa4e4ad363dc11"
+      "892a78e4033d44738306"
     ]
   },
   "heads_up": [
     {
-      "event_id": "7a41f2df55f3248ef465",
+      "event_id": "e4d075e5ef53baaaa7eb",
       "days_until": 3
     },
     {
-      "event_id": "34342532621406a21b97",
+      "event_id": "16d92271255f0eb96260",
       "days_until": 1
     },
     {
-      "event_id": "78229c56da59a5746eb7",
-      "days_until": 3
+      "event_id": "4336686d1df9e46376c4",
+      "days_until": 1
     }
   ],
   "heads_up_rules": {
@@ -219,5 +221,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "91756c0e410b8f84f22a01c4d435ad06874e3d784aacee2ced4d42f870ddf697"
+  "data_hash": "2a981fecce35030a4b8573a91f08d1ff097e193ae812b03b6e9f05445832afcf"
 }
