@@ -1,22 +1,20 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-12T00:45:03+02:00",
+  "last_updated": "2026-10-12T13:48:49+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
-  "sources_successful": 14,
-  "events_collected": 748,
-  "events_after_deduplication": 669,
-  "stale_events": 3,
+  "sources_successful": 15,
+  "events_collected": 749,
+  "events_after_deduplication": 687,
+  "stale_events": 8,
   "sources": [
     {
       "id": "shopping_munich",
       "name": "München – Shopping & Sonderöffnungen",
       "url": "https://www.muenchen.de/shopping/aktuell/shopping-naechte-und-abendoeffnungen-muenchen",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "ValueError: Empty HTTP response"
-      ]
+      "status": "ok",
+      "events": 3,
+      "warnings": []
     },
     {
       "id": "weekly_markets",
@@ -39,7 +37,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 9,
+      "events": 8,
       "warnings": []
     },
     {
@@ -47,16 +45,8 @@
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
       "status": "partial",
-      "events": 50,
+      "events": 58,
       "warnings": [
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts"
       ]
@@ -90,7 +80,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 64,
+      "events": 63,
       "warnings": []
     },
     {
@@ -159,15 +149,15 @@
   },
   "views": {
     "today": [
-      "892a78e4033d44738306",
+      "9092b06577f3578d310c",
+      "17b1a19648ba0883c0e8",
+      "1a23f0fb70d501ff2edf",
       "34342532621406a21b97",
-      "3e61f60908254b0b5f6d",
-      "d998b606932885f15a8b",
-      "9f18231b363b91c1c8fc"
+      "892a78e4033d44738306"
     ],
     "tomorrow": [
-      "892a78e4033d44738306",
       "16d92271255f0eb96260",
+      "892a78e4033d44738306",
       "4336686d1df9e46376c4",
       "f125fa9e4725c99aa2ae",
       "6e6aa2b860719b3663b7"
@@ -176,8 +166,8 @@
       "4a7fc206d0541a560376",
       "e113be13757316736bd4",
       "06e4dc0c72cffb676c8a",
-      "892a78e4033d44738306",
-      "aae519ebd1ab74ee692d"
+      "aae519ebd1ab74ee692d",
+      "892a78e4033d44738306"
     ],
     "upcoming": [
       "4a7fc206d0541a560376",
@@ -191,7 +181,7 @@
       "e113be13757316736bd4",
       "06e4dc0c72cffb676c8a",
       "e4d075e5ef53baaaa7eb",
-      "892a78e4033d44738306"
+      "34342532621406a21b97"
     ]
   },
   "heads_up": [
@@ -221,5 +211,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "2a981fecce35030a4b8573a91f08d1ff097e193ae812b03b6e9f05445832afcf"
+  "data_hash": "499614d254ecf3fe09e388c612d88b8f2d27c69473f29f7617aaadddd66df770"
 }
