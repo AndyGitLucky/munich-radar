@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-12T13:48:49+02:00",
+  "last_updated": "2026-10-13T00:02:12+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
-  "sources_successful": 15,
-  "events_collected": 749,
-  "events_after_deduplication": 687,
-  "stale_events": 8,
+  "sources_successful": 14,
+  "events_collected": 753,
+  "events_after_deduplication": 675,
+  "stale_events": 1,
   "sources": [
     {
       "id": "shopping_munich",
@@ -21,16 +21,18 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 149,
+      "events": 157,
       "warnings": []
     },
     {
       "id": "corso_leopold",
       "name": "Corso Leopold",
       "url": "https://www.corso-leopold.de/",
-      "status": "ok",
-      "events": 2,
-      "warnings": []
+      "status": "error",
+      "events": 0,
+      "warnings": [
+        "ValueError: Keine eindeutige Festival-Ausgabe im Seitentitel"
+      ]
     },
     {
       "id": "gasteig",
@@ -45,8 +47,20 @@
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
       "status": "partial",
-      "events": 58,
+      "events": 46,
       "warnings": [
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts"
       ]
@@ -64,7 +78,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 240,
+      "events": 239,
       "warnings": []
     },
     {
@@ -96,7 +110,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "partial",
-      "events": 41,
+      "events": 40,
       "warnings": [
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
@@ -149,18 +163,18 @@
   },
   "views": {
     "today": [
-      "9092b06577f3578d310c",
-      "17b1a19648ba0883c0e8",
-      "1a23f0fb70d501ff2edf",
-      "34342532621406a21b97",
-      "892a78e4033d44738306"
+      "16d92271255f0eb96260",
+      "54f9befe22426ab2c15f",
+      "4336686d1df9e46376c4",
+      "773bbf0aaa656c80ebd9",
+      "6e6aa2b860719b3663b7"
     ],
     "tomorrow": [
-      "16d92271255f0eb96260",
       "892a78e4033d44738306",
-      "4336686d1df9e46376c4",
-      "f125fa9e4725c99aa2ae",
-      "6e6aa2b860719b3663b7"
+      "7a41f2df55f3248ef465",
+      "84fcfe711db996c306b6",
+      "b82b4bd8107e1f6f4d84",
+      "4f57bdf7741ad0ddf1ce"
     ],
     "weekend": [
       "4a7fc206d0541a560376",
@@ -174,27 +188,27 @@
       "e113be13757316736bd4",
       "06e4dc0c72cffb676c8a",
       "e4d075e5ef53baaaa7eb",
-      "16d92271255f0eb96260"
+      "aae519ebd1ab74ee692d"
     ],
     "new": [
+      "16d92271255f0eb96260",
       "4a7fc206d0541a560376",
       "e113be13757316736bd4",
       "06e4dc0c72cffb676c8a",
-      "e4d075e5ef53baaaa7eb",
-      "34342532621406a21b97"
+      "e4d075e5ef53baaaa7eb"
     ]
   },
   "heads_up": [
     {
-      "event_id": "e4d075e5ef53baaaa7eb",
-      "days_until": 3
-    },
-    {
-      "event_id": "16d92271255f0eb96260",
+      "event_id": "7a41f2df55f3248ef465",
       "days_until": 1
     },
     {
-      "event_id": "4336686d1df9e46376c4",
+      "event_id": "78229c56da59a5746eb7",
+      "days_until": 1
+    },
+    {
+      "event_id": "5661829db57cf18a8c24",
       "days_until": 1
     }
   ],
@@ -211,5 +225,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "499614d254ecf3fe09e388c612d88b8f2d27c69473f29f7617aaadddd66df770"
+  "data_hash": "03b310eeea5eff4e1adffdab7b4beb4580a5c5036b45ba251ffd8026917a9399"
 }
