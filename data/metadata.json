@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-13T13:36:43+02:00",
+  "last_updated": "2026-10-13T22:08:58+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 749,
-  "events_after_deduplication": 691,
-  "stale_events": 10,
+  "events_collected": 748,
+  "events_after_deduplication": 696,
+  "stale_events": 26,
   "sources": [
     {
       "id": "shopping_munich",
@@ -47,8 +47,16 @@
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
       "status": "partial",
-      "events": 54,
+      "events": 46,
       "warnings": [
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
@@ -102,7 +110,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "partial",
-      "events": 40,
+      "events": 39,
       "warnings": [
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
@@ -217,5 +225,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "95e08242473e4a5d7fe5ef5138e7d55c5fb6b77b77e1c7cfddf5fa99f7043253"
+  "data_hash": "efdd8b251488c8c871c937c48d03747fe4ee7429e4903e508cb0aa7b91439299"
 }
