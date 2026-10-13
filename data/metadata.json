@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-13T00:02:12+02:00",
+  "last_updated": "2026-10-13T13:36:43+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 753,
-  "events_after_deduplication": 675,
-  "stale_events": 1,
+  "events_collected": 749,
+  "events_after_deduplication": 691,
+  "stale_events": 10,
   "sources": [
     {
       "id": "shopping_munich",
@@ -47,16 +47,8 @@
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
       "status": "partial",
-      "events": 46,
+      "events": 54,
       "warnings": [
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
@@ -78,7 +70,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 239,
+      "events": 236,
       "warnings": []
     },
     {
@@ -94,7 +86,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 63,
+      "events": 62,
       "warnings": []
     },
     {
@@ -165,9 +157,9 @@
     "today": [
       "16d92271255f0eb96260",
       "54f9befe22426ab2c15f",
-      "4336686d1df9e46376c4",
-      "773bbf0aaa656c80ebd9",
-      "6e6aa2b860719b3663b7"
+      "21e277d9fb41a2fad700",
+      "324b47cdf83cfccf2435",
+      "d8e08ee6e446cc1654a9"
     ],
     "tomorrow": [
       "892a78e4033d44738306",
@@ -225,5 +217,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "03b310eeea5eff4e1adffdab7b4beb4580a5c5036b45ba251ffd8026917a9399"
+  "data_hash": "95e08242473e4a5d7fe5ef5138e7d55c5fb6b77b77e1c7cfddf5fa99f7043253"
 }
