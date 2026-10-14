@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-14T11:24:39+02:00",
+  "last_updated": "2026-10-14T20:27:10+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 775,
-  "events_after_deduplication": 713,
-  "stale_events": 16,
+  "events_collected": 762,
+  "events_after_deduplication": 721,
+  "stale_events": 35,
   "sources": [
     {
       "id": "shopping_munich",
@@ -47,8 +47,19 @@
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
       "status": "partial",
-      "events": 57,
+      "events": 46,
       "warnings": [
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts"
@@ -67,7 +78,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 252,
+      "events": 237,
       "warnings": []
     },
     {
@@ -104,6 +115,7 @@
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts"
       ]
     },
@@ -128,7 +140,7 @@
       "name": "Messe München",
       "url": "https://messe-muenchen.de/de/veranstaltungen/",
       "status": "partial",
-      "events": 10,
+      "events": 11,
       "warnings": [
         "Unbekannter Messestatus; Termin ausgelassen"
       ]
@@ -183,8 +195,8 @@
       "4a7fc206d0541a560376",
       "e113be13757316736bd4",
       "06e4dc0c72cffb676c8a",
-      "e4d075e5ef53baaaa7eb",
-      "b6d30c0a3c2d8611b90a"
+      "b6d30c0a3c2d8611b90a",
+      "ba70d8695a478998c168"
     ]
   },
   "heads_up": [
@@ -193,11 +205,11 @@
       "days_until": 3
     },
     {
-      "event_id": "e4d075e5ef53baaaa7eb",
-      "days_until": 1
+      "event_id": "06e4dc0c72cffb676c8a",
+      "days_until": 3
     },
     {
-      "event_id": "f07c7c9b2ffd822172fa",
+      "event_id": "015097701a8ecdc43e5b",
       "days_until": 3
     }
   ],
@@ -214,5 +226,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "f767e5767934785988918d75065968d380c08a18e3b229c21f40fd5265196214"
+  "data_hash": "47c8dd61e65f55afdb2abb7ed755a817ab83e7ea40ea9201c672d732964e1c08"
 }
