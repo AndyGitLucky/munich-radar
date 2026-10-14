@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-14T20:27:10+02:00",
+  "last_updated": "2026-10-15T00:10:09+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 762,
-  "events_after_deduplication": 721,
-  "stale_events": 35,
+  "events_collected": 764,
+  "events_after_deduplication": 685,
+  "stale_events": 1,
   "sources": [
     {
       "id": "shopping_munich",
@@ -21,7 +21,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 167,
+      "events": 166,
       "warnings": []
     },
     {
@@ -70,7 +70,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 68,
+      "events": 69,
       "warnings": []
     },
     {
@@ -78,7 +78,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 237,
+      "events": 238,
       "warnings": []
     },
     {
@@ -110,7 +110,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "partial",
-      "events": 44,
+      "events": 46,
       "warnings": [
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
@@ -140,7 +140,7 @@
       "name": "Messe München",
       "url": "https://messe-muenchen.de/de/veranstaltungen/",
       "status": "partial",
-      "events": 11,
+      "events": 10,
       "warnings": [
         "Unbekannter Messestatus; Termin ausgelassen"
       ]
@@ -164,52 +164,52 @@
   },
   "views": {
     "today": [
-      "7a41f2df55f3248ef465",
-      "3b0fdcc6679b5f867cfe",
-      "b44a28cf3b8559c3c17a",
-      "b6d30c0a3c2d8611b90a",
-      "ba70d8695a478998c168"
+      "e4d075e5ef53baaaa7eb",
+      "e8b16961a9d702dbf817",
+      "17b78deb9bfb1d74d3ad",
+      "4859e1e6dabd01a19b97",
+      "97467c613afb647ac11b"
     ],
     "tomorrow": [
-      "e4d075e5ef53baaaa7eb",
+      "e8b16961a9d702dbf817",
       "892a78e4033d44738306",
-      "221ad060b1709283b155",
-      "872cf1489bb698d2358b",
-      "c3a046ec19ddcd6979a8"
+      "4522431c88a82725b7b6",
+      "f5c3984c342450514118",
+      "edba105b8cdc7c604cb7"
     ],
     "weekend": [
-      "4a7fc206d0541a560376",
-      "e113be13757316736bd4",
-      "06e4dc0c72cffb676c8a",
-      "aae519ebd1ab74ee692d",
-      "892a78e4033d44738306"
-    ],
-    "upcoming": [
-      "4a7fc206d0541a560376",
-      "e113be13757316736bd4",
-      "06e4dc0c72cffb676c8a",
-      "e4d075e5ef53baaaa7eb",
+      "6c45b326a27e8f5e293f",
+      "10720a15a61ac80baa20",
+      "37e7511565448c8c15b0",
+      "e8b16961a9d702dbf817",
       "aae519ebd1ab74ee692d"
     ],
+    "upcoming": [
+      "6c45b326a27e8f5e293f",
+      "10720a15a61ac80baa20",
+      "37e7511565448c8c15b0",
+      "aae519ebd1ab74ee692d",
+      "fe0f584c54088f88e9ee"
+    ],
     "new": [
-      "4a7fc206d0541a560376",
-      "e113be13757316736bd4",
-      "06e4dc0c72cffb676c8a",
-      "b6d30c0a3c2d8611b90a",
-      "ba70d8695a478998c168"
+      "6c45b326a27e8f5e293f",
+      "10720a15a61ac80baa20",
+      "37e7511565448c8c15b0",
+      "e8b16961a9d702dbf817",
+      "17b78deb9bfb1d74d3ad"
     ]
   },
   "heads_up": [
     {
-      "event_id": "e113be13757316736bd4",
+      "event_id": "aae519ebd1ab74ee692d",
       "days_until": 3
     },
     {
-      "event_id": "06e4dc0c72cffb676c8a",
+      "event_id": "fe0f584c54088f88e9ee",
       "days_until": 3
     },
     {
-      "event_id": "015097701a8ecdc43e5b",
+      "event_id": "19ad8e9448ad7446e3e2",
       "days_until": 3
     }
   ],
@@ -226,5 +226,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "47c8dd61e65f55afdb2abb7ed755a817ab83e7ea40ea9201c672d732964e1c08"
+  "data_hash": "a280c6066daaee11bd8ca7ebf04f71a0039001f0cb28c13fda745cdba0b76ec7"
 }
