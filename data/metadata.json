@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-13T22:08:58+02:00",
+  "last_updated": "2026-10-14T11:24:39+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 748,
-  "events_after_deduplication": 696,
-  "stale_events": 26,
+  "events_collected": 775,
+  "events_after_deduplication": 713,
+  "stale_events": 16,
   "sources": [
     {
       "id": "shopping_munich",
@@ -21,7 +21,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 157,
+      "events": 167,
       "warnings": []
     },
     {
@@ -47,19 +47,8 @@
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
       "status": "partial",
-      "events": 46,
+      "events": 57,
       "warnings": [
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts"
@@ -78,7 +67,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 236,
+      "events": 252,
       "warnings": []
     },
     {
@@ -86,7 +75,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 39,
+      "events": 38,
       "warnings": []
     },
     {
@@ -94,7 +83,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 62,
+      "events": 60,
       "warnings": []
     },
     {
@@ -110,7 +99,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "partial",
-      "events": 39,
+      "events": 44,
       "warnings": [
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
@@ -139,7 +128,7 @@
       "name": "Messe München",
       "url": "https://messe-muenchen.de/de/veranstaltungen/",
       "status": "partial",
-      "events": 11,
+      "events": 10,
       "warnings": [
         "Unbekannter Messestatus; Termin ausgelassen"
       ]
@@ -163,18 +152,18 @@
   },
   "views": {
     "today": [
-      "16d92271255f0eb96260",
-      "54f9befe22426ab2c15f",
-      "21e277d9fb41a2fad700",
-      "324b47cdf83cfccf2435",
-      "d8e08ee6e446cc1654a9"
+      "7a41f2df55f3248ef465",
+      "3b0fdcc6679b5f867cfe",
+      "b44a28cf3b8559c3c17a",
+      "b6d30c0a3c2d8611b90a",
+      "ba70d8695a478998c168"
     ],
     "tomorrow": [
+      "e4d075e5ef53baaaa7eb",
       "892a78e4033d44738306",
-      "7a41f2df55f3248ef465",
-      "84fcfe711db996c306b6",
-      "b82b4bd8107e1f6f4d84",
-      "4f57bdf7741ad0ddf1ce"
+      "221ad060b1709283b155",
+      "872cf1489bb698d2358b",
+      "c3a046ec19ddcd6979a8"
     ],
     "weekend": [
       "4a7fc206d0541a560376",
@@ -191,25 +180,25 @@
       "aae519ebd1ab74ee692d"
     ],
     "new": [
-      "16d92271255f0eb96260",
       "4a7fc206d0541a560376",
       "e113be13757316736bd4",
       "06e4dc0c72cffb676c8a",
-      "e4d075e5ef53baaaa7eb"
+      "e4d075e5ef53baaaa7eb",
+      "b6d30c0a3c2d8611b90a"
     ]
   },
   "heads_up": [
     {
-      "event_id": "7a41f2df55f3248ef465",
+      "event_id": "e113be13757316736bd4",
+      "days_until": 3
+    },
+    {
+      "event_id": "e4d075e5ef53baaaa7eb",
       "days_until": 1
     },
     {
-      "event_id": "78229c56da59a5746eb7",
-      "days_until": 1
-    },
-    {
-      "event_id": "5661829db57cf18a8c24",
-      "days_until": 1
+      "event_id": "f07c7c9b2ffd822172fa",
+      "days_until": 3
     }
   ],
   "heads_up_rules": {
@@ -225,5 +214,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "efdd8b251488c8c871c937c48d03747fe4ee7429e4903e508cb0aa7b91439299"
+  "data_hash": "f767e5767934785988918d75065968d380c08a18e3b229c21f40fd5265196214"
 }
