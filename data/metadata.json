@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-15T11:03:10+02:00",
+  "last_updated": "2026-10-15T20:09:13+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 762,
-  "events_after_deduplication": 710,
-  "stale_events": 19,
+  "events_collected": 763,
+  "events_after_deduplication": 717,
+  "stale_events": 31,
   "sources": [
     {
       "id": "shopping_munich",
@@ -47,8 +47,12 @@
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
       "status": "partial",
-      "events": 50,
+      "events": 46,
       "warnings": [
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
@@ -74,7 +78,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 238,
+      "events": 237,
       "warnings": []
     },
     {
@@ -106,8 +110,9 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "partial",
-      "events": 46,
+      "events": 47,
       "warnings": [
+        "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
@@ -174,23 +179,23 @@
       "edba105b8cdc7c604cb7"
     ],
     "weekend": [
+      "8f4ef22cd657d9318798",
       "6c45b326a27e8f5e293f",
       "10720a15a61ac80baa20",
-      "37e7511565448c8c15b0",
       "e8b16961a9d702dbf817",
       "892a78e4033d44738306"
     ],
     "upcoming": [
+      "8f4ef22cd657d9318798",
       "6c45b326a27e8f5e293f",
       "10720a15a61ac80baa20",
-      "37e7511565448c8c15b0",
       "aae519ebd1ab74ee692d",
       "c6e1f8dbb72f9b9f994e"
     ],
     "new": [
+      "8f4ef22cd657d9318798",
       "6c45b326a27e8f5e293f",
       "10720a15a61ac80baa20",
-      "37e7511565448c8c15b0",
       "1ad9e6d8b51eb734de3e",
       "e8b16961a9d702dbf817"
     ]
@@ -222,5 +227,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "09c904b4873a5345bc64c09ca87db8e4ff65fd248ea4ca92a3424437192ad573"
+  "data_hash": "e7fe5d84e4407925bc0e1eb24cbd8f34f15bf8a07ddec8395ca1d981e6ad8201"
 }
