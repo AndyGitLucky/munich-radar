@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-15T00:10:09+02:00",
+  "last_updated": "2026-10-15T11:03:10+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 764,
-  "events_after_deduplication": 685,
-  "stale_events": 1,
+  "events_collected": 762,
+  "events_after_deduplication": 710,
+  "stale_events": 19,
   "sources": [
     {
       "id": "shopping_munich",
@@ -47,12 +47,8 @@
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
       "status": "partial",
-      "events": 46,
+      "events": 50,
       "warnings": [
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
@@ -94,7 +90,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 60,
+      "events": 58,
       "warnings": []
     },
     {
@@ -165,10 +161,10 @@
   "views": {
     "today": [
       "e4d075e5ef53baaaa7eb",
+      "1ad9e6d8b51eb734de3e",
       "e8b16961a9d702dbf817",
-      "17b78deb9bfb1d74d3ad",
-      "4859e1e6dabd01a19b97",
-      "97467c613afb647ac11b"
+      "910e5f1b47b40fb713c3",
+      "ba08527e2600ba362352"
     ],
     "tomorrow": [
       "e8b16961a9d702dbf817",
@@ -182,21 +178,21 @@
       "10720a15a61ac80baa20",
       "37e7511565448c8c15b0",
       "e8b16961a9d702dbf817",
-      "aae519ebd1ab74ee692d"
+      "892a78e4033d44738306"
     ],
     "upcoming": [
       "6c45b326a27e8f5e293f",
       "10720a15a61ac80baa20",
       "37e7511565448c8c15b0",
       "aae519ebd1ab74ee692d",
-      "fe0f584c54088f88e9ee"
+      "c6e1f8dbb72f9b9f994e"
     ],
     "new": [
       "6c45b326a27e8f5e293f",
       "10720a15a61ac80baa20",
       "37e7511565448c8c15b0",
-      "e8b16961a9d702dbf817",
-      "17b78deb9bfb1d74d3ad"
+      "1ad9e6d8b51eb734de3e",
+      "e8b16961a9d702dbf817"
     ]
   },
   "heads_up": [
@@ -205,11 +201,11 @@
       "days_until": 3
     },
     {
-      "event_id": "fe0f584c54088f88e9ee",
+      "event_id": "7831fb4724563ea23b06",
       "days_until": 3
     },
     {
-      "event_id": "19ad8e9448ad7446e3e2",
+      "event_id": "fe0f584c54088f88e9ee",
       "days_until": 3
     }
   ],
@@ -226,5 +222,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "a280c6066daaee11bd8ca7ebf04f71a0039001f0cb28c13fda745cdba0b76ec7"
+  "data_hash": "09c904b4873a5345bc64c09ca87db8e4ff65fd248ea4ca92a3424437192ad573"
 }
