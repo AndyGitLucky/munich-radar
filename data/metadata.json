@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-16T10:55:10+02:00",
+  "last_updated": "2026-10-16T15:52:28+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 754,
-  "events_after_deduplication": 706,
-  "stale_events": 26,
+  "events_collected": 733,
+  "events_after_deduplication": 709,
+  "stale_events": 48,
   "sources": [
     {
       "id": "shopping_munich",
@@ -69,16 +69,18 @@
       "id": "lenbachhaus",
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
-      "status": "ok",
-      "events": 69,
-      "warnings": []
+      "status": "partial",
+      "events": 31,
+      "warnings": [
+        "Nächster Monat nicht abrufbar: ConnectionError"
+      ]
     },
     {
       "id": "muenchen",
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 237,
+      "events": 254,
       "warnings": []
     },
     {
@@ -167,9 +169,9 @@
     "today": [
       "edba105b8cdc7c604cb7",
       "e8b16961a9d702dbf817",
-      "71fcf52b3bbebf20dd10",
+      "29d2147aaa0d43a91ba8",
       "82d79c9d79bf07fa9534",
-      "ad96d5f8dc73522cdeaa"
+      "e1ac7ad953dddaff8ce1"
     ],
     "tomorrow": [
       "0a8b1cf0d31c283baaaa",
@@ -210,7 +212,7 @@
       "days_until": 1
     },
     {
-      "event_id": "e113be13757316736bd4",
+      "event_id": "37e7511565448c8c15b0",
       "days_until": 1
     }
   ],
@@ -227,5 +229,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "d0405c99e25b076634cec4b0ee2bb590ab81c0a077e4b612b1c0ca291b87fc9d"
+  "data_hash": "5b0fe912613ebbb8bfe4c1634cbd6be4c3efd795cdb2e39aa2e99efcda9313f0"
 }
