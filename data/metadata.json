@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-16T23:58:25+02:00",
+  "last_updated": "2026-10-17T10:27:02+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 772,
-  "events_after_deduplication": 714,
-  "stale_events": 34,
+  "events_collected": 742,
+  "events_after_deduplication": 697,
+  "stale_events": 31,
   "sources": [
     {
       "id": "shopping_munich",
@@ -21,7 +21,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 158,
+      "events": 146,
       "warnings": []
     },
     {
@@ -70,7 +70,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 69,
+      "events": 71,
       "warnings": []
     },
     {
@@ -78,7 +78,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 255,
+      "events": 237,
       "warnings": []
     },
     {
@@ -94,7 +94,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 56,
+      "events": 54,
       "warnings": []
     },
     {
@@ -165,52 +165,52 @@
   },
   "views": {
     "today": [
-      "edba105b8cdc7c604cb7",
-      "e8b16961a9d702dbf817",
-      "82d79c9d79bf07fa9534",
-      "e1ac7ad953dddaff8ce1",
-      "ad96d5f8dc73522cdeaa"
-    ],
-    "tomorrow": [
       "0a8b1cf0d31c283baaaa",
       "8f4ef22cd657d9318798",
       "b2406bab27e805ea115c",
       "d5fbbe6800c4b357f907",
-      "e8b16961a9d702dbf817"
+      "5aede640d6f1e874f212"
+    ],
+    "tomorrow": [
+      "6bb9d16e64778e950e82",
+      "0a5fa93646a092a0af91",
+      "e8b16961a9d702dbf817",
+      "6dc7a66450ef7bcf6371",
+      "aae519ebd1ab74ee692d"
     ],
     "weekend": [
       "0a8b1cf0d31c283baaaa",
       "8f4ef22cd657d9318798",
       "b2406bab27e805ea115c",
       "d5fbbe6800c4b357f907",
-      "e8b16961a9d702dbf817"
+      "5aede640d6f1e874f212"
     ],
     "upcoming": [
-      "0a8b1cf0d31c283baaaa",
-      "8f4ef22cd657d9318798",
-      "b2406bab27e805ea115c",
-      "d5fbbe6800c4b357f907",
-      "0a5fa93646a092a0af91"
+      "6dc7a66450ef7bcf6371",
+      "aae519ebd1ab74ee692d",
+      "48bd2fbaccc6728c4975",
+      "734e9a9eef16342b9cc0",
+      "16ce330e63174efe669d"
     ],
     "new": [
       "0a8b1cf0d31c283baaaa",
       "8f4ef22cd657d9318798",
       "b2406bab27e805ea115c",
       "d5fbbe6800c4b357f907",
-      "e8b16961a9d702dbf817"
+      "5aede640d6f1e874f212"
     ]
   },
   "heads_up": [
     {
-      "event_id": "0a8b1cf0d31c283baaaa",
+      "event_id": "6dc7a66450ef7bcf6371",
       "days_until": 1
     },
     {
-      "event_id": "8f4ef22cd657d9318798",
+      "event_id": "aae519ebd1ab74ee692d",
       "days_until": 1
     },
     {
-      "event_id": "b2406bab27e805ea115c",
+      "event_id": "7831fb4724563ea23b06",
       "days_until": 1
     }
   ],
@@ -227,5 +227,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "adf587ccc1c030a265b7c9b725b6cf8d9438ceccff88f00e8781b2547bd53fa2"
+  "data_hash": "afe7008708342eeccdddd89611e97d976a0f0f98394ee76ee6da363605a807cb"
 }
