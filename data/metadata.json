@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-17T10:27:02+02:00",
+  "last_updated": "2026-10-17T14:51:55+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 742,
+  "events_collected": 712,
   "events_after_deduplication": 697,
-  "stale_events": 31,
+  "stale_events": 59,
   "sources": [
     {
       "id": "shopping_munich",
@@ -47,10 +47,9 @@
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
       "status": "partial",
-      "events": 46,
+      "events": 18,
       "warnings": [
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
+        "Kalenderseite fehlgeschlagen: ReadTimeout",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
@@ -227,5 +226,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "afe7008708342eeccdddd89611e97d976a0f0f98394ee76ee6da363605a807cb"
+  "data_hash": "094da7d9de1702f3d118c2cdbfd57d7cc0ab2d7a9cc1d4f932413f8345032534"
 }
