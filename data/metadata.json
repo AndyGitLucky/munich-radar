@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-17T18:56:25+02:00",
+  "last_updated": "2026-10-17T23:21:40+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
   "events_collected": 740,
-  "events_after_deduplication": 707,
-  "stale_events": 44,
+  "events_after_deduplication": 753,
+  "stale_events": 90,
   "sources": [
     {
       "id": "shopping_munich",
@@ -47,8 +47,9 @@
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
       "status": "partial",
-      "events": 46,
+      "events": 45,
       "warnings": [
+        "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
@@ -167,50 +168,50 @@
     "today": [
       "0a8b1cf0d31c283baaaa",
       "8f4ef22cd657d9318798",
-      "b2406bab27e805ea115c",
-      "d5fbbe6800c4b357f907",
+      "3e4cd58f2f7a42ed8a24",
+      "0ca73d0cef73ca8ce7ec",
       "68fcd7170ad9ec045af1"
     ],
     "tomorrow": [
       "68fcd7170ad9ec045af1",
       "6bb9d16e64778e950e82",
       "0a5fa93646a092a0af91",
-      "e8b16961a9d702dbf817",
-      "6dc7a66450ef7bcf6371"
+      "603c0fdaab5604d2d290",
+      "e8b16961a9d702dbf817"
     ],
     "weekend": [
       "0a8b1cf0d31c283baaaa",
       "8f4ef22cd657d9318798",
-      "b2406bab27e805ea115c",
-      "d5fbbe6800c4b357f907",
+      "3e4cd58f2f7a42ed8a24",
+      "0ca73d0cef73ca8ce7ec",
       "68fcd7170ad9ec045af1"
     ],
     "upcoming": [
+      "603c0fdaab5604d2d290",
       "6dc7a66450ef7bcf6371",
       "aae519ebd1ab74ee692d",
-      "48bd2fbaccc6728c4975",
-      "734e9a9eef16342b9cc0",
-      "16ce330e63174efe669d"
+      "eb222b4122ad40094b36",
+      "8ac1f73f6916771848b3"
     ],
     "new": [
       "0a8b1cf0d31c283baaaa",
       "8f4ef22cd657d9318798",
-      "b2406bab27e805ea115c",
-      "d5fbbe6800c4b357f907",
+      "3e4cd58f2f7a42ed8a24",
+      "0ca73d0cef73ca8ce7ec",
       "68fcd7170ad9ec045af1"
     ]
   },
   "heads_up": [
+    {
+      "event_id": "603c0fdaab5604d2d290",
+      "days_until": 1
+    },
     {
       "event_id": "6dc7a66450ef7bcf6371",
       "days_until": 1
     },
     {
       "event_id": "aae519ebd1ab74ee692d",
-      "days_until": 1
-    },
-    {
-      "event_id": "7831fb4724563ea23b06",
       "days_until": 1
     }
   ],
@@ -227,5 +228,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "780deb4bba40abe855e1c1d7b6200ff17d4462a8810ba93a3b041d843a04060b"
+  "data_hash": "afae9768e14a7798e8f705da9c9c5436c19d44e65256b44f66e751aa05c3b943"
 }
