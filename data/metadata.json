@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-17T14:51:55+02:00",
+  "last_updated": "2026-10-17T18:56:25+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 712,
-  "events_after_deduplication": 697,
-  "stale_events": 59,
+  "events_collected": 740,
+  "events_after_deduplication": 707,
+  "stale_events": 44,
   "sources": [
     {
       "id": "shopping_munich",
@@ -47,9 +47,10 @@
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
       "status": "partial",
-      "events": 18,
+      "events": 46,
       "warnings": [
-        "Kalenderseite fehlgeschlagen: ReadTimeout",
+        "Termin verworfen: Event ends before it starts",
+        "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
         "Termin verworfen: Event ends before it starts",
@@ -77,7 +78,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 237,
+      "events": 235,
       "warnings": []
     },
     {
@@ -168,21 +169,21 @@
       "8f4ef22cd657d9318798",
       "b2406bab27e805ea115c",
       "d5fbbe6800c4b357f907",
-      "5aede640d6f1e874f212"
+      "68fcd7170ad9ec045af1"
     ],
     "tomorrow": [
+      "68fcd7170ad9ec045af1",
       "6bb9d16e64778e950e82",
       "0a5fa93646a092a0af91",
       "e8b16961a9d702dbf817",
-      "6dc7a66450ef7bcf6371",
-      "aae519ebd1ab74ee692d"
+      "6dc7a66450ef7bcf6371"
     ],
     "weekend": [
       "0a8b1cf0d31c283baaaa",
       "8f4ef22cd657d9318798",
       "b2406bab27e805ea115c",
       "d5fbbe6800c4b357f907",
-      "5aede640d6f1e874f212"
+      "68fcd7170ad9ec045af1"
     ],
     "upcoming": [
       "6dc7a66450ef7bcf6371",
@@ -196,7 +197,7 @@
       "8f4ef22cd657d9318798",
       "b2406bab27e805ea115c",
       "d5fbbe6800c4b357f907",
-      "5aede640d6f1e874f212"
+      "68fcd7170ad9ec045af1"
     ]
   },
   "heads_up": [
@@ -226,5 +227,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "094da7d9de1702f3d118c2cdbfd57d7cc0ab2d7a9cc1d4f932413f8345032534"
+  "data_hash": "780deb4bba40abe855e1c1d7b6200ff17d4462a8810ba93a3b041d843a04060b"
 }
