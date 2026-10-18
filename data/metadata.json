@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-17T23:21:40+02:00",
+  "last_updated": "2026-10-18T10:45:27+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 740,
-  "events_after_deduplication": 753,
-  "stale_events": 90,
+  "events_collected": 720,
+  "events_after_deduplication": 666,
+  "stale_events": 0,
   "sources": [
     {
       "id": "shopping_munich",
@@ -21,7 +21,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 146,
+      "events": 142,
       "warnings": []
     },
     {
@@ -46,32 +46,16 @@
       "id": "deutsches_museum",
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
-      "status": "partial",
-      "events": 45,
-      "warnings": [
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts"
-      ]
+      "status": "ok",
+      "events": 60,
+      "warnings": []
     },
     {
       "id": "lenbachhaus",
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 71,
+      "events": 69,
       "warnings": []
     },
     {
@@ -79,7 +63,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 235,
+      "events": 234,
       "warnings": []
     },
     {
@@ -95,7 +79,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 54,
+      "events": 51,
       "warnings": []
     },
     {
@@ -110,16 +94,9 @@
       "id": "pinakotheken",
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
-      "status": "partial",
-      "events": 48,
-      "warnings": [
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts",
-        "Termin verworfen: Event ends before it starts"
-      ]
+      "status": "ok",
+      "events": 44,
+      "warnings": []
     },
     {
       "id": "olympiapark",
@@ -166,52 +143,52 @@
   },
   "views": {
     "today": [
-      "0a8b1cf0d31c283baaaa",
-      "8f4ef22cd657d9318798",
-      "3e4cd58f2f7a42ed8a24",
-      "0ca73d0cef73ca8ce7ec",
-      "68fcd7170ad9ec045af1"
+      "603c0fdaab5604d2d290",
+      "166dcd7361c9a19bcdcb",
+      "3590b6d64674422f7cdd",
+      "54bedab159971514afed",
+      "6dc7a66450ef7bcf6371"
     ],
     "tomorrow": [
-      "68fcd7170ad9ec045af1",
-      "6bb9d16e64778e950e82",
-      "0a5fa93646a092a0af91",
-      "603c0fdaab5604d2d290",
-      "e8b16961a9d702dbf817"
+      "e8b16961a9d702dbf817",
+      "257bed2e9fa5eb4df973",
+      "3ed7b3ad6428a59443e6",
+      "48bd2fbaccc6728c4975",
+      "734e9a9eef16342b9cc0"
     ],
     "weekend": [
-      "0a8b1cf0d31c283baaaa",
-      "8f4ef22cd657d9318798",
-      "3e4cd58f2f7a42ed8a24",
-      "0ca73d0cef73ca8ce7ec",
-      "68fcd7170ad9ec045af1"
+      "603c0fdaab5604d2d290",
+      "166dcd7361c9a19bcdcb",
+      "3590b6d64674422f7cdd",
+      "54bedab159971514afed",
+      "6dc7a66450ef7bcf6371"
     ],
     "upcoming": [
-      "603c0fdaab5604d2d290",
-      "6dc7a66450ef7bcf6371",
-      "aae519ebd1ab74ee692d",
-      "eb222b4122ad40094b36",
-      "8ac1f73f6916771848b3"
+      "3c38c3dec3d13b745c29",
+      "257bed2e9fa5eb4df973",
+      "3ed7b3ad6428a59443e6",
+      "48bd2fbaccc6728c4975",
+      "734e9a9eef16342b9cc0"
     ],
     "new": [
-      "0a8b1cf0d31c283baaaa",
-      "8f4ef22cd657d9318798",
-      "3e4cd58f2f7a42ed8a24",
-      "0ca73d0cef73ca8ce7ec",
-      "68fcd7170ad9ec045af1"
+      "603c0fdaab5604d2d290",
+      "166dcd7361c9a19bcdcb",
+      "3590b6d64674422f7cdd",
+      "54bedab159971514afed",
+      "6dc7a66450ef7bcf6371"
     ]
   },
   "heads_up": [
     {
-      "event_id": "603c0fdaab5604d2d290",
+      "event_id": "48bd2fbaccc6728c4975",
       "days_until": 1
     },
     {
-      "event_id": "6dc7a66450ef7bcf6371",
+      "event_id": "734e9a9eef16342b9cc0",
       "days_until": 1
     },
     {
-      "event_id": "aae519ebd1ab74ee692d",
+      "event_id": "16ce330e63174efe669d",
       "days_until": 1
     }
   ],
@@ -228,5 +205,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "afae9768e14a7798e8f705da9c9c5436c19d44e65256b44f66e751aa05c3b943"
+  "data_hash": "7e871b95284cb0190da273786367c3dc535ed244a98711e4f772bf37e4913744"
 }
