@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-18T10:45:27+02:00",
+  "last_updated": "2026-10-18T15:08:02+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 720,
-  "events_after_deduplication": 666,
+  "events_collected": 719,
+  "events_after_deduplication": 665,
   "stale_events": 0,
   "sources": [
     {
@@ -87,7 +87,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 40,
+      "events": 39,
       "warnings": []
     },
     {
@@ -143,11 +143,11 @@
   },
   "views": {
     "today": [
-      "603c0fdaab5604d2d290",
       "166dcd7361c9a19bcdcb",
       "3590b6d64674422f7cdd",
       "54bedab159971514afed",
-      "6dc7a66450ef7bcf6371"
+      "6dc7a66450ef7bcf6371",
+      "aae519ebd1ab74ee692d"
     ],
     "tomorrow": [
       "e8b16961a9d702dbf817",
@@ -157,11 +157,11 @@
       "734e9a9eef16342b9cc0"
     ],
     "weekend": [
-      "603c0fdaab5604d2d290",
       "166dcd7361c9a19bcdcb",
       "3590b6d64674422f7cdd",
       "54bedab159971514afed",
-      "6dc7a66450ef7bcf6371"
+      "6dc7a66450ef7bcf6371",
+      "aae519ebd1ab74ee692d"
     ],
     "upcoming": [
       "3c38c3dec3d13b745c29",
@@ -171,11 +171,11 @@
       "734e9a9eef16342b9cc0"
     ],
     "new": [
-      "603c0fdaab5604d2d290",
       "166dcd7361c9a19bcdcb",
       "3590b6d64674422f7cdd",
       "54bedab159971514afed",
-      "6dc7a66450ef7bcf6371"
+      "6dc7a66450ef7bcf6371",
+      "8ac1f73f6916771848b3"
     ]
   },
   "heads_up": [
@@ -205,5 +205,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "7e871b95284cb0190da273786367c3dc535ed244a98711e4f772bf37e4913744"
+  "data_hash": "19e6c0d1d987386192be2956550f3a9259e54702619917480217eeadc88c4989"
 }
