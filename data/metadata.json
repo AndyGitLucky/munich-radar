@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-18T23:21:38+02:00",
+  "last_updated": "2026-10-19T11:46:09+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
-  "sources_successful": 14,
+  "sources_successful": 13,
   "events_collected": 720,
-  "events_after_deduplication": 666,
+  "events_after_deduplication": 665,
   "stale_events": 0,
   "sources": [
     {
@@ -13,7 +13,7 @@
       "name": "München – Shopping & Sonderöffnungen",
       "url": "https://www.muenchen.de/shopping/aktuell/shopping-naechte-und-abendoeffnungen-muenchen",
       "status": "ok",
-      "events": 3,
+      "events": 2,
       "warnings": []
     },
     {
@@ -21,7 +21,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 142,
+      "events": 149,
       "warnings": []
     },
     {
@@ -39,7 +39,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 7,
+      "events": 8,
       "warnings": []
     },
     {
@@ -71,7 +71,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 40,
+      "events": 39,
       "warnings": []
     },
     {
@@ -79,7 +79,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 51,
+      "events": 50,
       "warnings": []
     },
     {
@@ -87,7 +87,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -95,7 +95,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 44,
+      "events": 39,
       "warnings": []
     },
     {
@@ -110,19 +110,19 @@
       "id": "tollwood",
       "name": "Tollwood",
       "url": "https://www.tollwood.de/tollwood-winterfestival/",
-      "status": "ok",
-      "events": 1,
-      "warnings": []
+      "status": "error",
+      "events": 0,
+      "warnings": [
+        "ValueError: Datierter Tollwood-Festivalblock fehlt"
+      ]
     },
     {
       "id": "messe",
       "name": "Messe München",
       "url": "https://messe-muenchen.de/de/veranstaltungen/",
-      "status": "partial",
+      "status": "ok",
       "events": 9,
-      "warnings": [
-        "Unbekannter Messestatus; Termin ausgelassen"
-      ]
+      "warnings": []
     },
     {
       "id": "meetup_robotics",
@@ -143,52 +143,52 @@
   },
   "views": {
     "today": [
-      "166dcd7361c9a19bcdcb",
-      "3590b6d64674422f7cdd",
-      "54bedab159971514afed",
-      "6dc7a66450ef7bcf6371",
-      "aae519ebd1ab74ee692d"
+      "e64969180c6ced16c5c9",
+      "257bed2e9fa5eb4df973",
+      "3ed7b3ad6428a59443e6",
+      "625bdc245660167812db",
+      "48bd2fbaccc6728c4975"
     ],
     "tomorrow": [
+      "8152ad633f152eb6f204",
       "e8b16961a9d702dbf817",
-      "257bed2e9fa5eb4df973",
-      "3ed7b3ad6428a59443e6",
-      "48bd2fbaccc6728c4975",
-      "734e9a9eef16342b9cc0"
+      "62362014223ad85a3d67",
+      "1207fda1e1989fda5c61",
+      "777a24218fbb9863cecd"
     ],
     "weekend": [
-      "166dcd7361c9a19bcdcb",
-      "3590b6d64674422f7cdd",
-      "54bedab159971514afed",
-      "6dc7a66450ef7bcf6371",
-      "aae519ebd1ab74ee692d"
+      "e8b16961a9d702dbf817",
+      "e0aaa4aa835ebae5975a",
+      "f94386d6e7ab609bf479",
+      "1e264835d036504f549a",
+      "79c3e136be6edf00b288"
     ],
     "upcoming": [
-      "3c38c3dec3d13b745c29",
-      "257bed2e9fa5eb4df973",
-      "3ed7b3ad6428a59443e6",
-      "48bd2fbaccc6728c4975",
-      "734e9a9eef16342b9cc0"
+      "8152ad633f152eb6f204",
+      "62362014223ad85a3d67",
+      "e0aaa4aa835ebae5975a",
+      "f94386d6e7ab609bf479",
+      "1e264835d036504f549a"
     ],
     "new": [
-      "166dcd7361c9a19bcdcb",
-      "3590b6d64674422f7cdd",
-      "54bedab159971514afed",
-      "6dc7a66450ef7bcf6371",
-      "3c38c3dec3d13b745c29"
+      "e64969180c6ced16c5c9",
+      "257bed2e9fa5eb4df973",
+      "3ed7b3ad6428a59443e6",
+      "625bdc245660167812db",
+      "48bd2fbaccc6728c4975"
     ]
   },
   "heads_up": [
     {
-      "event_id": "48bd2fbaccc6728c4975",
+      "event_id": "8152ad633f152eb6f204",
       "days_until": 1
     },
     {
-      "event_id": "734e9a9eef16342b9cc0",
+      "event_id": "62362014223ad85a3d67",
       "days_until": 1
     },
     {
-      "event_id": "16ce330e63174efe669d",
+      "event_id": "c0690cf5f3cdacb0eb4b",
       "days_until": 1
     }
   ],
@@ -205,5 +205,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "3c707e775516f62cf9355e21fbf173bc75f1d6c7a55fc3c815e35df85e8399c1"
+  "data_hash": "b817b8c3eb798117b67dfebaed032205216ad422976aa0f9351a4aca79ec85f1"
 }
