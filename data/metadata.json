@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-19T11:46:09+02:00",
+  "last_updated": "2026-10-19T21:44:46+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
-  "sources_successful": 13,
-  "events_collected": 720,
-  "events_after_deduplication": 665,
+  "sources_successful": 14,
+  "events_collected": 729,
+  "events_after_deduplication": 671,
   "stale_events": 0,
   "sources": [
     {
@@ -39,7 +39,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 8,
+      "events": 7,
       "warnings": []
     },
     {
@@ -55,7 +55,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 69,
+      "events": 76,
       "warnings": []
     },
     {
@@ -71,7 +71,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -95,7 +95,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -110,11 +110,9 @@
       "id": "tollwood",
       "name": "Tollwood",
       "url": "https://www.tollwood.de/tollwood-winterfestival/",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "ValueError: Datierter Tollwood-Festivalblock fehlt"
-      ]
+      "status": "ok",
+      "events": 1,
+      "warnings": []
     },
     {
       "id": "messe",
@@ -143,11 +141,11 @@
   },
   "views": {
     "today": [
-      "e64969180c6ced16c5c9",
-      "257bed2e9fa5eb4df973",
-      "3ed7b3ad6428a59443e6",
-      "625bdc245660167812db",
-      "48bd2fbaccc6728c4975"
+      "48bd2fbaccc6728c4975",
+      "734e9a9eef16342b9cc0",
+      "52cf7f87d5f1c5085b10",
+      "bbd8176e67e0b02c81b9",
+      "4f57bdf7741ad0ddf1ce"
     ],
     "tomorrow": [
       "8152ad633f152eb6f204",
@@ -171,11 +169,11 @@
       "1e264835d036504f549a"
     ],
     "new": [
-      "e64969180c6ced16c5c9",
-      "257bed2e9fa5eb4df973",
-      "3ed7b3ad6428a59443e6",
-      "625bdc245660167812db",
-      "48bd2fbaccc6728c4975"
+      "48bd2fbaccc6728c4975",
+      "734e9a9eef16342b9cc0",
+      "52cf7f87d5f1c5085b10",
+      "bbd8176e67e0b02c81b9",
+      "62362014223ad85a3d67"
     ]
   },
   "heads_up": [
@@ -188,7 +186,7 @@
       "days_until": 1
     },
     {
-      "event_id": "c0690cf5f3cdacb0eb4b",
+      "event_id": "2b7d576988f0c491c0c3",
       "days_until": 1
     }
   ],
@@ -205,5 +203,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "b817b8c3eb798117b67dfebaed032205216ad422976aa0f9351a4aca79ec85f1"
+  "data_hash": "b005bff18b34c090daffbc9d0b6fd31a1d093e6039b1f1049748c22d42e5e3b9"
 }
