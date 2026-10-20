@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-20T11:18:59+02:00",
+  "last_updated": "2026-10-20T20:25:09+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 736,
+  "events_collected": 735,
   "events_after_deduplication": 680,
   "stale_events": 0,
   "sources": [
@@ -39,7 +39,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 8,
+      "events": 7,
       "warnings": []
     },
     {
@@ -141,11 +141,11 @@
   },
   "views": {
     "today": [
-      "12a399d9d5d16fc78b82",
+      "c1af7c6606035367c013",
       "62362014223ad85a3d67",
       "ef4ab739264079bef754",
       "b6c0e34ab8a2a4742d2e",
-      "1207fda1e1989fda5c61"
+      "c0690cf5f3cdacb0eb4b"
     ],
     "tomorrow": [
       "e8b16961a9d702dbf817",
@@ -157,20 +157,20 @@
     "weekend": [
       "cdab9343570161dbf456",
       "e8b16961a9d702dbf817",
+      "85c79496c171899a94a6",
       "e0aaa4aa835ebae5975a",
-      "f94386d6e7ab609bf479",
       "1e264835d036504f549a"
     ],
     "upcoming": [
       "cdab9343570161dbf456",
-      "f90f0d8dbcb7f4925b89",
+      "85c79496c171899a94a6",
       "e0aaa4aa835ebae5975a",
-      "f94386d6e7ab609bf479",
-      "1e264835d036504f549a"
+      "1e264835d036504f549a",
+      "79c3e136be6edf00b288"
     ],
     "new": [
       "cdab9343570161dbf456",
-      "12a399d9d5d16fc78b82",
+      "c1af7c6606035367c013",
       "62362014223ad85a3d67",
       "ef4ab739264079bef754",
       "b6c0e34ab8a2a4742d2e"
@@ -203,5 +203,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "94fd0333c46904609bea70b9af50d25b453e1b0d3d3991d5219470311df4841a"
+  "data_hash": "6c49c9ebb2e1dcf6473080327e1d671da200f04856b986aeb688a14744c1da55"
 }
