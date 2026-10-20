@@ -1,28 +1,32 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-20T20:25:09+02:00",
+  "last_updated": "2026-10-21T00:12:01+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
-  "sources_successful": 14,
-  "events_collected": 735,
-  "events_after_deduplication": 680,
-  "stale_events": 0,
+  "sources_successful": 12,
+  "events_collected": 576,
+  "events_after_deduplication": 673,
+  "stale_events": 157,
   "sources": [
     {
       "id": "shopping_munich",
       "name": "München – Shopping & Sonderöffnungen",
       "url": "https://www.muenchen.de/shopping/aktuell/shopping-naechte-und-abendoeffnungen-muenchen",
-      "status": "ok",
-      "events": 2,
-      "warnings": []
+      "status": "error",
+      "events": 0,
+      "warnings": [
+        "ConnectionError: HTTPSConnectionPool(host='stadt.muenchen.de', port=443): Max retries exceeded with url: /robots.txt (Caused by NewConnectionError(\"HTTPSConnection(host='stadt.muenchen.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      ]
     },
     {
       "id": "weekly_markets",
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
-      "status": "ok",
-      "events": 157,
-      "warnings": []
+      "status": "error",
+      "events": 0,
+      "warnings": [
+        "ConnectionError: HTTPSConnectionPool(host='maerkte-muenchen.de', port=443): Max retries exceeded with url: /robots.txt (Caused by NewConnectionError(\"HTTPSConnection(host='maerkte-muenchen.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      ]
     },
     {
       "id": "corso_leopold",
@@ -71,7 +75,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 38,
+      "events": 39,
       "warnings": []
     },
     {
@@ -95,7 +99,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 42,
+      "events": 41,
       "warnings": []
     },
     {
@@ -141,18 +145,18 @@
   },
   "views": {
     "today": [
-      "c1af7c6606035367c013",
-      "62362014223ad85a3d67",
-      "ef4ab739264079bef754",
-      "b6c0e34ab8a2a4742d2e",
-      "c0690cf5f3cdacb0eb4b"
+      "803b5d5f38c45f0ffabd",
+      "6d8c3557b4e587028557",
+      "e8b16961a9d702dbf817",
+      "f060a5ab25231fc45294",
+      "4252c29a8d8dad61a600"
     ],
     "tomorrow": [
       "e8b16961a9d702dbf817",
-      "f060a5ab25231fc45294",
-      "4252c29a8d8dad61a600",
-      "b1444fe8004485222255",
-      "f1d0372c844265798ebe"
+      "9e86325cf80e8c06257d",
+      "34623a1d424392288580",
+      "7b299b0f8cdbf6a2b631",
+      "ac41a99d3d0508976a24"
     ],
     "weekend": [
       "cdab9343570161dbf456",
@@ -170,23 +174,23 @@
     ],
     "new": [
       "cdab9343570161dbf456",
-      "c1af7c6606035367c013",
-      "62362014223ad85a3d67",
-      "ef4ab739264079bef754",
-      "b6c0e34ab8a2a4742d2e"
+      "803b5d5f38c45f0ffabd",
+      "6d8c3557b4e587028557",
+      "f1d0372c844265798ebe",
+      "176bb7e0ac31a5d5fc4c"
     ]
   },
   "heads_up": [
     {
-      "event_id": "4252c29a8d8dad61a600",
-      "days_until": 1
+      "event_id": "85c79496c171899a94a6",
+      "days_until": 3
     },
     {
-      "event_id": "b1444fe8004485222255",
-      "days_until": 1
+      "event_id": "e0aaa4aa835ebae5975a",
+      "days_until": 3
     },
     {
-      "event_id": "7b1023c3dc81319cf740",
+      "event_id": "1e264835d036504f549a",
       "days_until": 3
     }
   ],
@@ -203,5 +207,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "6c49c9ebb2e1dcf6473080327e1d671da200f04856b986aeb688a14744c1da55"
+  "data_hash": "4ade2ba136e5fd26dd537e8a5dfbc1ed99f00c9dd4b4af1900a5873f52056ef7"
 }
