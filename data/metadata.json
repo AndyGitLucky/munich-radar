@@ -1,32 +1,28 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-21T00:12:01+02:00",
+  "last_updated": "2026-10-21T11:15:47+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
-  "sources_successful": 12,
-  "events_collected": 576,
-  "events_after_deduplication": 673,
-  "stale_events": 157,
+  "sources_successful": 14,
+  "events_collected": 744,
+  "events_after_deduplication": 687,
+  "stale_events": 0,
   "sources": [
     {
       "id": "shopping_munich",
       "name": "München – Shopping & Sonderöffnungen",
       "url": "https://www.muenchen.de/shopping/aktuell/shopping-naechte-und-abendoeffnungen-muenchen",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "ConnectionError: HTTPSConnectionPool(host='stadt.muenchen.de', port=443): Max retries exceeded with url: /robots.txt (Caused by NewConnectionError(\"HTTPSConnection(host='stadt.muenchen.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-      ]
+      "status": "ok",
+      "events": 2,
+      "warnings": []
     },
     {
       "id": "weekly_markets",
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "ConnectionError: HTTPSConnectionPool(host='maerkte-muenchen.de', port=443): Max retries exceeded with url: /robots.txt (Caused by NewConnectionError(\"HTTPSConnection(host='maerkte-muenchen.de', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-      ]
+      "status": "ok",
+      "events": 167,
+      "warnings": []
     },
     {
       "id": "corso_leopold",
@@ -43,7 +39,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 7,
+      "events": 9,
       "warnings": []
     },
     {
@@ -83,7 +79,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 50,
+      "events": 47,
       "warnings": []
     },
     {
@@ -145,11 +141,11 @@
   },
   "views": {
     "today": [
-      "803b5d5f38c45f0ffabd",
-      "6d8c3557b4e587028557",
-      "e8b16961a9d702dbf817",
-      "f060a5ab25231fc45294",
-      "4252c29a8d8dad61a600"
+      "7b5b5be07b4c11156377",
+      "799d0e6c803c182b95fa",
+      "7a18070f3a515d299c01",
+      "e32fd9a63588a4a68d7b",
+      "803b5d5f38c45f0ffabd"
     ],
     "tomorrow": [
       "e8b16961a9d702dbf817",
@@ -160,24 +156,24 @@
     ],
     "weekend": [
       "cdab9343570161dbf456",
+      "3d020b414d2e781b770b",
       "e8b16961a9d702dbf817",
       "85c79496c171899a94a6",
-      "e0aaa4aa835ebae5975a",
-      "1e264835d036504f549a"
+      "79c3e136be6edf00b288"
     ],
     "upcoming": [
       "cdab9343570161dbf456",
+      "3d020b414d2e781b770b",
+      "f90f0d8dbcb7f4925b89",
       "85c79496c171899a94a6",
-      "e0aaa4aa835ebae5975a",
-      "1e264835d036504f549a",
       "79c3e136be6edf00b288"
     ],
     "new": [
       "cdab9343570161dbf456",
-      "803b5d5f38c45f0ffabd",
-      "6d8c3557b4e587028557",
-      "f1d0372c844265798ebe",
-      "176bb7e0ac31a5d5fc4c"
+      "3d020b414d2e781b770b",
+      "7b5b5be07b4c11156377",
+      "799d0e6c803c182b95fa",
+      "7a18070f3a515d299c01"
     ]
   },
   "heads_up": [
@@ -186,12 +182,12 @@
       "days_until": 3
     },
     {
-      "event_id": "e0aaa4aa835ebae5975a",
+      "event_id": "79c3e136be6edf00b288",
       "days_until": 3
     },
     {
-      "event_id": "1e264835d036504f549a",
-      "days_until": 3
+      "event_id": "9e86325cf80e8c06257d",
+      "days_until": 1
     }
   ],
   "heads_up_rules": {
@@ -207,5 +203,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "4ade2ba136e5fd26dd537e8a5dfbc1ed99f00c9dd4b4af1900a5873f52056ef7"
+  "data_hash": "0e034672f95c70ef58e0352338397f1ff7bf3c7756b76a46e5873400aac8113a"
 }
