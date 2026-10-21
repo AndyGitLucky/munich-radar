@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-21T11:15:47+02:00",
+  "last_updated": "2026-10-21T20:30:53+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
-  "sources_successful": 14,
-  "events_collected": 744,
-  "events_after_deduplication": 687,
-  "stale_events": 0,
+  "sources_successful": 9,
+  "events_collected": 530,
+  "events_after_deduplication": 684,
+  "stale_events": 177,
   "sources": [
     {
       "id": "shopping_munich",
@@ -39,7 +39,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 9,
+      "events": 8,
       "warnings": []
     },
     {
@@ -54,9 +54,11 @@
       "id": "lenbachhaus",
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
-      "status": "ok",
-      "events": 75,
-      "warnings": []
+      "status": "error",
+      "events": 0,
+      "warnings": [
+        "ConnectTimeout: HTTPSConnectionPool(host='www.lenbachhaus.de', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lenbachhaus.de', port=443) at 0x7faa1738dfd0>, 'Connection to www.lenbachhaus.de timed out. (connect timeout=20)'))"
+      ]
     },
     {
       "id": "muenchen",
@@ -70,32 +72,38 @@
       "id": "stadtbibliothek",
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
-      "status": "ok",
-      "events": 39,
-      "warnings": []
+      "status": "error",
+      "events": 0,
+      "warnings": [
+        "ValueError: Keine datierten Kalendereinträge gefunden"
+      ]
     },
     {
       "id": "stadtmuseum",
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
-      "status": "ok",
-      "events": 47,
-      "warnings": []
+      "status": "error",
+      "events": 0,
+      "warnings": [
+        "ValueError: Keine datierten Kalendereinträge gefunden"
+      ]
     },
     {
       "id": "haus_der_kunst",
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
-      "status": "ok",
-      "events": 40,
-      "warnings": []
+      "status": "error",
+      "events": 0,
+      "warnings": [
+        "ValueError: Keine datierten Kalendereinträge gefunden"
+      ]
     },
     {
       "id": "pinakotheken",
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 41,
+      "events": 38,
       "warnings": []
     },
     {
@@ -118,9 +126,11 @@
       "id": "messe",
       "name": "Messe München",
       "url": "https://messe-muenchen.de/de/veranstaltungen/",
-      "status": "ok",
-      "events": 9,
-      "warnings": []
+      "status": "error",
+      "events": 0,
+      "warnings": [
+        "HTTPError: 502 Server Error: Bad Gateway for url: https://messe-muenchen.de/robots.txt"
+      ]
     },
     {
       "id": "meetup_robotics",
@@ -141,39 +151,39 @@
   },
   "views": {
     "today": [
-      "7b5b5be07b4c11156377",
-      "799d0e6c803c182b95fa",
-      "7a18070f3a515d299c01",
-      "e32fd9a63588a4a68d7b",
-      "803b5d5f38c45f0ffabd"
+      "28100f620a7f0bf21c22",
+      "803b5d5f38c45f0ffabd",
+      "6d8c3557b4e587028557",
+      "e8b16961a9d702dbf817",
+      "f1d0372c844265798ebe"
     ],
     "tomorrow": [
       "e8b16961a9d702dbf817",
       "9e86325cf80e8c06257d",
       "34623a1d424392288580",
       "7b299b0f8cdbf6a2b631",
-      "ac41a99d3d0508976a24"
+      "e752152e28c3a71f93f9"
     ],
     "weekend": [
       "cdab9343570161dbf456",
       "3d020b414d2e781b770b",
       "e8b16961a9d702dbf817",
       "85c79496c171899a94a6",
-      "79c3e136be6edf00b288"
+      "252468514b72933f1599"
     ],
     "upcoming": [
       "cdab9343570161dbf456",
       "3d020b414d2e781b770b",
-      "f90f0d8dbcb7f4925b89",
       "85c79496c171899a94a6",
-      "79c3e136be6edf00b288"
+      "252468514b72933f1599",
+      "c2f762a9ed813ba6a727"
     ],
     "new": [
       "cdab9343570161dbf456",
       "3d020b414d2e781b770b",
-      "7b5b5be07b4c11156377",
-      "799d0e6c803c182b95fa",
-      "7a18070f3a515d299c01"
+      "28100f620a7f0bf21c22",
+      "803b5d5f38c45f0ffabd",
+      "6d8c3557b4e587028557"
     ]
   },
   "heads_up": [
@@ -182,12 +192,12 @@
       "days_until": 3
     },
     {
-      "event_id": "79c3e136be6edf00b288",
+      "event_id": "e0aaa4aa835ebae5975a",
       "days_until": 3
     },
     {
-      "event_id": "9e86325cf80e8c06257d",
-      "days_until": 1
+      "event_id": "1e264835d036504f549a",
+      "days_until": 3
     }
   ],
   "heads_up_rules": {
@@ -203,5 +213,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "0e034672f95c70ef58e0352338397f1ff7bf3c7756b76a46e5873400aac8113a"
+  "data_hash": "235f4277037656558069fde60a6da95dd5cb42a662d8cbeca2482465a48b0dcc"
 }
