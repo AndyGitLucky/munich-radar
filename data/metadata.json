@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-21T20:30:53+02:00",
+  "last_updated": "2026-10-22T00:13:35+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
-  "sources_successful": 9,
-  "events_collected": 530,
-  "events_after_deduplication": 684,
-  "stale_events": 177,
+  "sources_successful": 10,
+  "events_collected": 573,
+  "events_after_deduplication": 662,
+  "stale_events": 114,
   "sources": [
     {
       "id": "shopping_munich",
@@ -21,7 +21,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 167,
+      "events": 166,
       "warnings": []
     },
     {
@@ -39,7 +39,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 8,
+      "events": 9,
       "warnings": []
     },
     {
@@ -57,7 +57,7 @@
       "status": "error",
       "events": 0,
       "warnings": [
-        "ConnectTimeout: HTTPSConnectionPool(host='www.lenbachhaus.de', port=443): Max retries exceeded with url: /robots.txt (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lenbachhaus.de', port=443) at 0x7faa1738dfd0>, 'Connection to www.lenbachhaus.de timed out. (connect timeout=20)'))"
+        "PermissionError: Blocked by robots.txt"
       ]
     },
     {
@@ -65,7 +65,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 234,
+      "events": 237,
       "warnings": []
     },
     {
@@ -92,11 +92,9 @@
       "id": "haus_der_kunst",
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "ValueError: Keine datierten Kalendereinträge gefunden"
-      ]
+      "status": "ok",
+      "events": 40,
+      "warnings": []
     },
     {
       "id": "pinakotheken",
@@ -151,18 +149,18 @@
   },
   "views": {
     "today": [
-      "28100f620a7f0bf21c22",
-      "803b5d5f38c45f0ffabd",
-      "6d8c3557b4e587028557",
-      "e8b16961a9d702dbf817",
-      "f1d0372c844265798ebe"
-    ],
-    "tomorrow": [
-      "e8b16961a9d702dbf817",
       "9e86325cf80e8c06257d",
+      "e8b16961a9d702dbf817",
       "34623a1d424392288580",
       "7b299b0f8cdbf6a2b631",
       "e752152e28c3a71f93f9"
+    ],
+    "tomorrow": [
+      "9e86325cf80e8c06257d",
+      "e8b16961a9d702dbf817",
+      "7b1023c3dc81319cf740",
+      "0733c2a57a899320dcff",
+      "b18e1c1b1488d937cc67"
     ],
     "weekend": [
       "cdab9343570161dbf456",
@@ -181,22 +179,22 @@
     "new": [
       "cdab9343570161dbf456",
       "3d020b414d2e781b770b",
-      "28100f620a7f0bf21c22",
-      "803b5d5f38c45f0ffabd",
-      "6d8c3557b4e587028557"
+      "9e86325cf80e8c06257d",
+      "e752152e28c3a71f93f9",
+      "85c79496c171899a94a6"
     ]
   },
   "heads_up": [
     {
-      "event_id": "85c79496c171899a94a6",
+      "event_id": "cdab9343570161dbf456",
       "days_until": 3
     },
     {
-      "event_id": "e0aaa4aa835ebae5975a",
+      "event_id": "3d020b414d2e781b770b",
       "days_until": 3
     },
     {
-      "event_id": "1e264835d036504f549a",
+      "event_id": "252468514b72933f1599",
       "days_until": 3
     }
   ],
@@ -213,5 +211,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "235f4277037656558069fde60a6da95dd5cb42a662d8cbeca2482465a48b0dcc"
+  "data_hash": "9e773b5ad326e358962c3e82761c860ba93193d7fcf5d8118005a70270c0c071"
 }
