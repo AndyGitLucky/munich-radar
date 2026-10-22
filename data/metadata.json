@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-22T20:26:35+02:00",
+  "last_updated": "2026-10-23T00:13:23+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 741,
-  "events_after_deduplication": 682,
+  "events_collected": 731,
+  "events_after_deduplication": 669,
   "stale_events": 0,
   "sources": [
     {
@@ -21,7 +21,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 166,
+      "events": 158,
       "warnings": []
     },
     {
@@ -63,7 +63,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 237,
+      "events": 234,
       "warnings": []
     },
     {
@@ -94,9 +94,11 @@
       "id": "pinakotheken",
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
-      "status": "ok",
+      "status": "partial",
       "events": 37,
-      "warnings": []
+      "warnings": [
+        "Termin verworfen: Event ends before it starts"
+      ]
     },
     {
       "id": "olympiapark",
@@ -141,53 +143,53 @@
   },
   "views": {
     "today": [
+      "ddd9407876aab87c4d0d",
+      "cadb13904f03ae887110",
       "9e86325cf80e8c06257d",
-      "083b0f25ac70368043fd",
-      "e8b16961a9d702dbf817",
-      "edb945f3d1ebb7197fcc",
-      "dd078a0428836752387c"
+      "7b1023c3dc81319cf740",
+      "8ccc4b71d5d217b0d95d"
     ],
     "tomorrow": [
-      "9e86325cf80e8c06257d",
-      "e8b16961a9d702dbf817",
-      "7b1023c3dc81319cf740",
-      "0733c2a57a899320dcff",
-      "b18e1c1b1488d937cc67"
+      "ddd9407876aab87c4d0d",
+      "3000ea51ada31c226501",
+      "85c79496c171899a94a6",
+      "bb5eaed7106762857c7c",
+      "dac59f82e0186266b510"
     ],
     "weekend": [
       "cdab9343570161dbf456",
+      "ddd9407876aab87c4d0d",
       "3d020b414d2e781b770b",
-      "e8b16961a9d702dbf817",
-      "85c79496c171899a94a6",
-      "252468514b72933f1599"
+      "3000ea51ada31c226501",
+      "85c79496c171899a94a6"
     ],
     "upcoming": [
       "cdab9343570161dbf456",
       "3d020b414d2e781b770b",
+      "3000ea51ada31c226501",
       "7cb8ad9117c00b3de7cf",
-      "85c79496c171899a94a6",
-      "252468514b72933f1599"
+      "85c79496c171899a94a6"
     ],
     "new": [
       "cdab9343570161dbf456",
+      "ddd9407876aab87c4d0d",
       "3d020b414d2e781b770b",
-      "9e86325cf80e8c06257d",
-      "083b0f25ac70368043fd",
-      "7cb8ad9117c00b3de7cf"
+      "cadb13904f03ae887110",
+      "9e86325cf80e8c06257d"
     ]
   },
   "heads_up": [
     {
-      "event_id": "cdab9343570161dbf456",
-      "days_until": 3
+      "event_id": "3000ea51ada31c226501",
+      "days_until": 1
     },
     {
-      "event_id": "3d020b414d2e781b770b",
-      "days_until": 3
+      "event_id": "85c79496c171899a94a6",
+      "days_until": 1
     },
     {
-      "event_id": "252468514b72933f1599",
-      "days_until": 3
+      "event_id": "bb5eaed7106762857c7c",
+      "days_until": 1
     }
   ],
   "heads_up_rules": {
@@ -203,5 +205,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "419fc65bb67fb693e881579944e607dc7459ade86d0a2a5726e8488758f21c6f"
+  "data_hash": "19ac844d3eac11fc3c979d1456deadb334cca470c99583643546bc0044443f83"
 }
