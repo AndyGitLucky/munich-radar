@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-22T00:13:35+02:00",
+  "last_updated": "2026-10-22T11:18:30+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
-  "sources_successful": 10,
-  "events_collected": 573,
-  "events_after_deduplication": 662,
-  "stale_events": 114,
+  "sources_successful": 14,
+  "events_collected": 742,
+  "events_after_deduplication": 682,
+  "stale_events": 0,
   "sources": [
     {
       "id": "shopping_munich",
@@ -54,11 +54,9 @@
       "id": "lenbachhaus",
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "PermissionError: Blocked by robots.txt"
-      ]
+      "status": "ok",
+      "events": 77,
+      "warnings": []
     },
     {
       "id": "muenchen",
@@ -72,21 +70,17 @@
       "id": "stadtbibliothek",
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "ValueError: Keine datierten Kalendereinträge gefunden"
-      ]
+      "status": "ok",
+      "events": 39,
+      "warnings": []
     },
     {
       "id": "stadtmuseum",
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "ValueError: Keine datierten Kalendereinträge gefunden"
-      ]
+      "status": "ok",
+      "events": 45,
+      "warnings": []
     },
     {
       "id": "haus_der_kunst",
@@ -124,11 +118,9 @@
       "id": "messe",
       "name": "Messe München",
       "url": "https://messe-muenchen.de/de/veranstaltungen/",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "HTTPError: 502 Server Error: Bad Gateway for url: https://messe-muenchen.de/robots.txt"
-      ]
+      "status": "ok",
+      "events": 8,
+      "warnings": []
     },
     {
       "id": "meetup_robotics",
@@ -150,10 +142,10 @@
   "views": {
     "today": [
       "9e86325cf80e8c06257d",
-      "e8b16961a9d702dbf817",
-      "34623a1d424392288580",
-      "7b299b0f8cdbf6a2b631",
-      "e752152e28c3a71f93f9"
+      "fe9d3bf358b3c91de528",
+      "99d49d2dbafc382ac2d6",
+      "34387fa0ef1c29fb3bf4",
+      "083b0f25ac70368043fd"
     ],
     "tomorrow": [
       "9e86325cf80e8c06257d",
@@ -180,8 +172,8 @@
       "cdab9343570161dbf456",
       "3d020b414d2e781b770b",
       "9e86325cf80e8c06257d",
-      "e752152e28c3a71f93f9",
-      "85c79496c171899a94a6"
+      "fe9d3bf358b3c91de528",
+      "99d49d2dbafc382ac2d6"
     ]
   },
   "heads_up": [
@@ -211,5 +203,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "9e773b5ad326e358962c3e82761c860ba93193d7fcf5d8118005a70270c0c071"
+  "data_hash": "01982cd74f55e53b6bb1b2bf70a08b3ea323a701059f2af2d0491f946f8f2564"
 }
