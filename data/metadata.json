@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-23T11:13:59+02:00",
+  "last_updated": "2026-10-23T20:12:35+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 728,
-  "events_after_deduplication": 669,
-  "stale_events": 1,
+  "events_collected": 730,
+  "events_after_deduplication": 672,
+  "stale_events": 2,
   "sources": [
     {
       "id": "shopping_munich",
@@ -39,7 +39,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 9,
+      "events": 10,
       "warnings": []
     },
     {
@@ -63,7 +63,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 234,
+      "events": 235,
       "warnings": []
     },
     {
@@ -144,10 +144,10 @@
   "views": {
     "today": [
       "ddd9407876aab87c4d0d",
+      "0c122a574b5e7f298fe0",
       "cadb13904f03ae887110",
       "9e86325cf80e8c06257d",
-      "7b1023c3dc81319cf740",
-      "54ada17cc332599e8a33"
+      "8ccc4b71d5d217b0d95d"
     ],
     "tomorrow": [
       "ddd9407876aab87c4d0d",
@@ -167,12 +167,12 @@
       "cdab9343570161dbf456",
       "3d020b414d2e781b770b",
       "3000ea51ada31c226501",
-      "968bf12b589082bc4747",
+      "7cb8ad9117c00b3de7cf",
       "85c79496c171899a94a6"
     ],
     "new": [
-      "cdab9343570161dbf456",
       "ddd9407876aab87c4d0d",
+      "0c122a574b5e7f298fe0",
       "3d020b414d2e781b770b",
       "cadb13904f03ae887110",
       "9e86325cf80e8c06257d"
@@ -184,11 +184,11 @@
       "days_until": 1
     },
     {
-      "event_id": "968bf12b589082bc4747",
-      "days_until": 3
+      "event_id": "85c79496c171899a94a6",
+      "days_until": 1
     },
     {
-      "event_id": "85c79496c171899a94a6",
+      "event_id": "bb5eaed7106762857c7c",
       "days_until": 1
     }
   ],
@@ -205,5 +205,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "fd4f42da9008a499458f6da28da06873762f7a121e57e161fcf82eb8299c1ca7"
+  "data_hash": "54e5895d8bfab25bb8ee7f586a46357884279d5c869e3862672f2840f2720f8e"
 }
