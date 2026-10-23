@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-23T20:12:35+02:00",
+  "last_updated": "2026-10-23T23:57:39+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 730,
+  "events_collected": 729,
   "events_after_deduplication": 672,
-  "stale_events": 2,
+  "stale_events": 3,
   "sources": [
     {
       "id": "shopping_munich",
@@ -95,7 +95,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "partial",
-      "events": 36,
+      "events": 35,
       "warnings": [
         "Termin verworfen: Event ends before it starts"
       ]
@@ -144,15 +144,15 @@
   "views": {
     "today": [
       "ddd9407876aab87c4d0d",
-      "0c122a574b5e7f298fe0",
       "cadb13904f03ae887110",
       "9e86325cf80e8c06257d",
-      "8ccc4b71d5d217b0d95d"
+      "8ccc4b71d5d217b0d95d",
+      "15364b5ecccaa836a1ce"
     ],
     "tomorrow": [
       "ddd9407876aab87c4d0d",
       "3000ea51ada31c226501",
-      "85c79496c171899a94a6",
+      "925ff3a39f5c9fd1a0f5",
       "bb5eaed7106762857c7c",
       "dac59f82e0186266b510"
     ],
@@ -161,21 +161,21 @@
       "ddd9407876aab87c4d0d",
       "3d020b414d2e781b770b",
       "3000ea51ada31c226501",
-      "85c79496c171899a94a6"
+      "925ff3a39f5c9fd1a0f5"
     ],
     "upcoming": [
       "cdab9343570161dbf456",
       "3d020b414d2e781b770b",
       "3000ea51ada31c226501",
       "7cb8ad9117c00b3de7cf",
-      "85c79496c171899a94a6"
+      "925ff3a39f5c9fd1a0f5"
     ],
     "new": [
       "ddd9407876aab87c4d0d",
-      "0c122a574b5e7f298fe0",
       "3d020b414d2e781b770b",
       "cadb13904f03ae887110",
-      "9e86325cf80e8c06257d"
+      "9e86325cf80e8c06257d",
+      "8ccc4b71d5d217b0d95d"
     ]
   },
   "heads_up": [
@@ -184,7 +184,7 @@
       "days_until": 1
     },
     {
-      "event_id": "85c79496c171899a94a6",
+      "event_id": "925ff3a39f5c9fd1a0f5",
       "days_until": 1
     },
     {
@@ -205,5 +205,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "54e5895d8bfab25bb8ee7f586a46357884279d5c869e3862672f2840f2720f8e"
+  "data_hash": "8c720e1686761c0c6b3d4a0f685a975371b72117b0f5a6c1be0001401d44e442"
 }
