@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-24T19:18:31+02:00",
+  "last_updated": "2026-10-24T23:27:54+02:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
-  "sources_successful": 13,
-  "events_collected": 668,
-  "events_after_deduplication": 642,
-  "stale_events": 37,
+  "sources_successful": 14,
+  "events_collected": 701,
+  "events_after_deduplication": 640,
+  "stale_events": 2,
   "sources": [
     {
       "id": "shopping_munich",
@@ -39,7 +39,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 9,
+      "events": 8,
       "warnings": []
     },
     {
@@ -80,18 +80,16 @@
       "id": "stadtmuseum",
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "ValueError: Keine datierten Kalendereinträge gefunden"
-      ]
+      "status": "ok",
+      "events": 35,
+      "warnings": []
     },
     {
       "id": "haus_der_kunst",
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 40,
+      "events": 39,
       "warnings": []
     },
     {
@@ -151,14 +149,14 @@
       "5b18633e31d1aa282a0d",
       "4325b16b248533c03c12",
       "3000ea51ada31c226501",
-      "925ff3a39f5c9fd1a0f5"
+      "534c86ebbab36f50c09f"
     ],
     "tomorrow": [
       "cdab9343570161dbf456",
       "9984a4f401e9d34ec408",
       "3d020b414d2e781b770b",
-      "d2a40d7669454f2cf00f",
-      "a9d802ccd5563c117d48"
+      "a9d802ccd5563c117d48",
+      "252468514b72933f1599"
     ],
     "weekend": [
       "69acb67e14772254c988",
@@ -171,7 +169,7 @@
       "cdab9343570161dbf456",
       "9984a4f401e9d34ec408",
       "3d020b414d2e781b770b",
-      "d2a40d7669454f2cf00f",
+      "a038026157c3db6e2ee3",
       "968bf12b589082bc4747"
     ],
     "new": [
@@ -179,7 +177,7 @@
       "4325b16b248533c03c12",
       "3000ea51ada31c226501",
       "9984a4f401e9d34ec408",
-      "925ff3a39f5c9fd1a0f5"
+      "534c86ebbab36f50c09f"
     ]
   },
   "heads_up": [
@@ -209,5 +207,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "56b79d16a844d162ce5cd4a83da0b231cd9d547c94b20f2e2d0f76f7ff6088e4"
+  "data_hash": "fe506fed34810a22b7f240e96d468176c4c2fae3281c2c4b28896507c783b211"
 }
