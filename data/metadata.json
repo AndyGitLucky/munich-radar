@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-24T23:27:54+02:00",
+  "last_updated": "2026-10-25T10:03:13+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 701,
-  "events_after_deduplication": 640,
-  "stale_events": 2,
+  "events_collected": 696,
+  "events_after_deduplication": 637,
+  "stale_events": 1,
   "sources": [
     {
       "id": "shopping_munich",
@@ -21,7 +21,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 146,
+      "events": 142,
       "warnings": []
     },
     {
@@ -55,7 +55,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 75,
+      "events": 76,
       "warnings": []
     },
     {
@@ -70,18 +70,16 @@
       "id": "stadtbibliothek",
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
-      "status": "partial",
-      "events": 38,
-      "warnings": [
-        "Bibliothekstermin ausgelassen: hour must be in 0..23"
-      ]
+      "status": "ok",
+      "events": 40,
+      "warnings": []
     },
     {
       "id": "stadtmuseum",
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 35,
+      "events": 28,
       "warnings": []
     },
     {
@@ -89,7 +87,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -97,7 +95,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "partial",
-      "events": 36,
+      "events": 37,
       "warnings": [
         "Termin verworfen: Event ends before it starts"
       ]
@@ -123,7 +121,7 @@
       "name": "Messe München",
       "url": "https://messe-muenchen.de/de/veranstaltungen/",
       "status": "ok",
-      "events": 7,
+      "events": 8,
       "warnings": []
     },
     {
@@ -145,52 +143,52 @@
   },
   "views": {
     "today": [
-      "69acb67e14772254c988",
-      "5b18633e31d1aa282a0d",
-      "4325b16b248533c03c12",
-      "3000ea51ada31c226501",
-      "534c86ebbab36f50c09f"
+      "cdab9343570161dbf456",
+      "9984a4f401e9d34ec408",
+      "9caf329626e2fb870bd6",
+      "c04cc8bcb64a9da831a3",
+      "3d020b414d2e781b770b"
     ],
     "tomorrow": [
-      "cdab9343570161dbf456",
-      "9984a4f401e9d34ec408",
-      "3d020b414d2e781b770b",
-      "a9d802ccd5563c117d48",
-      "252468514b72933f1599"
+      "968bf12b589082bc4747",
+      "f6c007b400acbbc3a23d",
+      "8f1f8d9c700523392b78",
+      "f90f0d8dbcb7f4925b89",
+      "78ca6b691e57f77ec05b"
     ],
     "weekend": [
-      "69acb67e14772254c988",
       "cdab9343570161dbf456",
-      "5b18633e31d1aa282a0d",
-      "4325b16b248533c03c12",
-      "3000ea51ada31c226501"
+      "9984a4f401e9d34ec408",
+      "9caf329626e2fb870bd6",
+      "c04cc8bcb64a9da831a3",
+      "3d020b414d2e781b770b"
     ],
     "upcoming": [
-      "cdab9343570161dbf456",
-      "9984a4f401e9d34ec408",
-      "3d020b414d2e781b770b",
+      "1eded7d9a5afbae26eff",
       "a038026157c3db6e2ee3",
-      "968bf12b589082bc4747"
+      "cee8ca092aada06e07ed",
+      "968bf12b589082bc4747",
+      "f6c007b400acbbc3a23d"
     ],
     "new": [
-      "5b18633e31d1aa282a0d",
-      "4325b16b248533c03c12",
-      "3000ea51ada31c226501",
       "9984a4f401e9d34ec408",
-      "534c86ebbab36f50c09f"
+      "9caf329626e2fb870bd6",
+      "c04cc8bcb64a9da831a3",
+      "c6a68ad00de2dc60c9e7",
+      "027d301f759f9b7617fb"
     ]
   },
   "heads_up": [
     {
-      "event_id": "cdab9343570161dbf456",
+      "event_id": "a038026157c3db6e2ee3",
+      "days_until": 3
+    },
+    {
+      "event_id": "f6c007b400acbbc3a23d",
       "days_until": 1
     },
     {
-      "event_id": "9984a4f401e9d34ec408",
-      "days_until": 1
-    },
-    {
-      "event_id": "3d020b414d2e781b770b",
+      "event_id": "78ca6b691e57f77ec05b",
       "days_until": 1
     }
   ],
@@ -207,5 +205,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "fe506fed34810a22b7f240e96d468176c4c2fae3281c2c4b28896507c783b211"
+  "data_hash": "5a1bfb5ea65e4fa226893ee230ee960690013940869ceb7566e49a91096073cf"
 }
