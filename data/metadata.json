@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-25T10:03:13+01:00",
+  "last_updated": "2026-10-25T18:32:06+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 14,
-  "events_collected": 696,
-  "events_after_deduplication": 637,
+  "events_collected": 698,
+  "events_after_deduplication": 639,
   "stale_events": 1,
   "sources": [
     {
@@ -39,7 +39,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 8,
+      "events": 10,
       "warnings": []
     },
     {
@@ -143,39 +143,39 @@
   },
   "views": {
     "today": [
-      "cdab9343570161dbf456",
-      "9984a4f401e9d34ec408",
-      "9caf329626e2fb870bd6",
-      "c04cc8bcb64a9da831a3",
-      "3d020b414d2e781b770b"
-    ],
-    "tomorrow": [
-      "968bf12b589082bc4747",
-      "f6c007b400acbbc3a23d",
-      "8f1f8d9c700523392b78",
-      "f90f0d8dbcb7f4925b89",
-      "78ca6b691e57f77ec05b"
-    ],
-    "weekend": [
-      "cdab9343570161dbf456",
-      "9984a4f401e9d34ec408",
-      "9caf329626e2fb870bd6",
-      "c04cc8bcb64a9da831a3",
-      "3d020b414d2e781b770b"
-    ],
-    "upcoming": [
-      "1eded7d9a5afbae26eff",
-      "a038026157c3db6e2ee3",
-      "cee8ca092aada06e07ed",
-      "968bf12b589082bc4747",
-      "f6c007b400acbbc3a23d"
-    ],
-    "new": [
-      "9984a4f401e9d34ec408",
       "9caf329626e2fb870bd6",
       "c04cc8bcb64a9da831a3",
       "c6a68ad00de2dc60c9e7",
-      "027d301f759f9b7617fb"
+      "252468514b72933f1599",
+      "c2f762a9ed813ba6a727"
+    ],
+    "tomorrow": [
+      "f6c007b400acbbc3a23d",
+      "8f1f8d9c700523392b78",
+      "f90f0d8dbcb7f4925b89",
+      "e842b10a75a8b6466fec",
+      "78ca6b691e57f77ec05b"
+    ],
+    "weekend": [
+      "9caf329626e2fb870bd6",
+      "c04cc8bcb64a9da831a3",
+      "c6a68ad00de2dc60c9e7",
+      "252468514b72933f1599",
+      "c2f762a9ed813ba6a727"
+    ],
+    "upcoming": [
+      "1eded7d9a5afbae26eff",
+      "f71c43b53cef158156f9",
+      "a038026157c3db6e2ee3",
+      "cee8ca092aada06e07ed",
+      "f6c007b400acbbc3a23d"
+    ],
+    "new": [
+      "9caf329626e2fb870bd6",
+      "c04cc8bcb64a9da831a3",
+      "c6a68ad00de2dc60c9e7",
+      "1eded7d9a5afbae26eff",
+      "f71c43b53cef158156f9"
     ]
   },
   "heads_up": [
@@ -188,7 +188,7 @@
       "days_until": 1
     },
     {
-      "event_id": "78ca6b691e57f77ec05b",
+      "event_id": "e842b10a75a8b6466fec",
       "days_until": 1
     }
   ],
@@ -205,5 +205,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "5a1bfb5ea65e4fa226893ee230ee960690013940869ceb7566e49a91096073cf"
+  "data_hash": "d3c91bcf836186f57390b9602d85e650c1904cf991d074e62530bb494f4a349c"
 }
