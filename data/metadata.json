@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-26T20:49:15+01:00",
+  "last_updated": "2026-10-27T10:42:55+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 13,
-  "events_collected": 555,
-  "events_after_deduplication": 628,
+  "events_collected": 554,
+  "events_after_deduplication": 626,
   "stale_events": 143,
   "sources": [
     {
@@ -76,7 +76,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 9,
+      "events": 10,
       "warnings": []
     },
     {
@@ -92,7 +92,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 76,
+      "events": 75,
       "warnings": []
     },
     {
@@ -100,7 +100,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 240,
+      "events": 241,
       "warnings": []
     },
     {
@@ -132,7 +132,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "partial",
-      "events": 35,
+      "events": 33,
       "warnings": [
         "Termin verworfen: Event ends before it starts"
       ]
@@ -180,52 +180,52 @@
   },
   "views": {
     "today": [
+      "1eded7d9a5afbae26eff",
       "ddd9407876aab87c4d0d",
-      "f6c007b400acbbc3a23d",
-      "78ca6b691e57f77ec05b",
-      "d2fe7a5aa8f78c63dcb0",
-      "60c70f460d75e0f31fa0"
+      "e8096ab7e77c7280b6be",
+      "14787dcee1585151fe52",
+      "5be1815a4a2fc4eeb65a"
     ],
     "tomorrow": [
       "ddd9407876aab87c4d0d",
-      "1eded7d9a5afbae26eff",
-      "e8096ab7e77c7280b6be",
-      "77732549ef734c270cca",
-      "4f8f4f31f6fd746a6db8"
+      "a038026157c3db6e2ee3",
+      "8847dec7a62bb746e63a",
+      "fb4e762931dfeb4dab76",
+      "93500f521e76dd1d5391"
     ],
     "weekend": [
       "ddd9407876aab87c4d0d",
-      "4af67bb748a162eac968",
+      "0da3def3b3e164e340f3",
       "e6187826f9c12ec25e37",
       "91894f9626ebd383f7f1",
       "d87514d0f23fdabab2ac"
     ],
     "upcoming": [
-      "1eded7d9a5afbae26eff",
-      "4af67bb748a162eac968",
-      "f71c43b53cef158156f9",
+      "0da3def3b3e164e340f3",
       "e6187826f9c12ec25e37",
-      "e8096ab7e77c7280b6be"
+      "a038026157c3db6e2ee3",
+      "cee8ca092aada06e07ed",
+      "91894f9626ebd383f7f1"
     ],
     "new": [
-      "f6c007b400acbbc3a23d",
       "1eded7d9a5afbae26eff",
-      "4af67bb748a162eac968",
-      "f71c43b53cef158156f9",
-      "e6187826f9c12ec25e37"
+      "e8096ab7e77c7280b6be",
+      "14787dcee1585151fe52",
+      "5be1815a4a2fc4eeb65a",
+      "f450c580721af95c30c9"
     ]
   },
   "heads_up": [
     {
-      "event_id": "1eded7d9a5afbae26eff",
+      "event_id": "a038026157c3db6e2ee3",
       "days_until": 1
     },
     {
-      "event_id": "e8096ab7e77c7280b6be",
-      "days_until": 1
+      "event_id": "59175e0b2990c0369246",
+      "days_until": 3
     },
     {
-      "event_id": "77732549ef734c270cca",
+      "event_id": "fbe073965989d170840e",
       "days_until": 1
     }
   ],
@@ -242,5 +242,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "fa25c5e0a9570070a046a7aac350d3291dc23170e6f83a20db2fabaa5562209c"
+  "data_hash": "5796c66788c870969e4b532cf14b815550bc15d2b6f6b7175cde53567632f219"
 }
