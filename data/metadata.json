@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-28T11:28:24+01:00",
+  "last_updated": "2026-10-28T20:25:12+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 13,
-  "events_collected": 550,
-  "events_after_deduplication": 625,
-  "stale_events": 141,
+  "events_collected": 547,
+  "events_after_deduplication": 627,
+  "stale_events": 146,
   "sources": [
     {
       "id": "shopping_munich",
@@ -75,9 +75,11 @@
       "id": "gasteig",
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
-      "status": "ok",
-      "events": 10,
-      "warnings": []
+      "status": "partial",
+      "events": 9,
+      "warnings": [
+        "Detailseite ohne Event-JSON-LD"
+      ]
     },
     {
       "id": "deutsches_museum",
@@ -100,7 +102,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 241,
+      "events": 240,
       "warnings": []
     },
     {
@@ -132,7 +134,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "partial",
-      "events": 32,
+      "events": 31,
       "warnings": [
         "Termin verworfen: Event ends before it starts"
       ]
@@ -181,17 +183,17 @@
   "views": {
     "today": [
       "ddd9407876aab87c4d0d",
-      "fb4e762931dfeb4dab76",
       "a038026157c3db6e2ee3",
-      "b305700b60215b3c9ea7",
-      "4b04baddfaf4b3c79c5c"
+      "b5b4506f12584b704d8b",
+      "95bd1263b077479146c3",
+      "9194e372e24a4b687117"
     ],
     "tomorrow": [
       "ddd9407876aab87c4d0d",
       "257e80a21ba53aac0812",
       "c2033de3cb73ce288839",
-      "d9c484ce29ff29cbcd81",
-      "20e086094c2c855cf5b9"
+      "20e086094c2c855cf5b9",
+      "d9c484ce29ff29cbcd81"
     ],
     "weekend": [
       "ddd9407876aab87c4d0d",
@@ -203,16 +205,16 @@
     "upcoming": [
       "da23e45a40765c49e5fb",
       "4af67bb748a162eac968",
-      "7cb8ad9117c00b3de7cf",
+      "5d52389f3ce54e379bb9",
       "0da3def3b3e164e340f3",
-      "e6187826f9c12ec25e37"
+      "bb2d26f5ca98be9d77a9"
     ],
     "new": [
-      "b305700b60215b3c9ea7",
-      "4b04baddfaf4b3c79c5c",
-      "74c9fede84b7752294a7",
       "b5b4506f12584b704d8b",
-      "95bd1263b077479146c3"
+      "95bd1263b077479146c3",
+      "ace9efaff7b5c508f4f6",
+      "da23e45a40765c49e5fb",
+      "4af67bb748a162eac968"
     ]
   },
   "heads_up": [
@@ -221,11 +223,11 @@
       "days_until": 3
     },
     {
-      "event_id": "0da3def3b3e164e340f3",
+      "event_id": "e6187826f9c12ec25e37",
       "days_until": 3
     },
     {
-      "event_id": "e6187826f9c12ec25e37",
+      "event_id": "91894f9626ebd383f7f1",
       "days_until": 3
     }
   ],
@@ -242,5 +244,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "447b63a48a6a0010c1abd5e64408cff430d5c14c0057424f2766a1de2fbf2ffd"
+  "data_hash": "dd0039fc3fa55114bfcf54a0a9fc263989d787f46ff046867963a3e5384ae523"
 }
