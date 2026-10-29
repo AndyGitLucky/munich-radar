@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-29T11:48:13+01:00",
+  "last_updated": "2026-10-29T20:29:02+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 13,
-  "events_collected": 546,
-  "events_after_deduplication": 612,
-  "stale_events": 135,
+  "events_collected": 543,
+  "events_after_deduplication": 609,
+  "stale_events": 133,
   "sources": [
     {
       "id": "shopping_munich",
@@ -124,18 +124,16 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 40,
+      "events": 39,
       "warnings": []
     },
     {
       "id": "pinakotheken",
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
-      "status": "partial",
-      "events": 35,
-      "warnings": [
-        "Termin verworfen: Event ends before it starts"
-      ]
+      "status": "ok",
+      "events": 34,
+      "warnings": []
     },
     {
       "id": "olympiapark",
@@ -182,9 +180,9 @@
     "today": [
       "ddd9407876aab87c4d0d",
       "1d76889c6122a8a4b8cf",
-      "e46922d606067dd9fecc",
-      "15ebb8d18893745733b2",
-      "189ecc5bba2a0eb0a287"
+      "69efc874a1468ce799e3",
+      "d6bdd95656a855d6569d",
+      "20e086094c2c855cf5b9"
     ],
     "tomorrow": [
       "ddd9407876aab87c4d0d",
@@ -209,10 +207,10 @@
     ],
     "new": [
       "1d76889c6122a8a4b8cf",
-      "e46922d606067dd9fecc",
-      "15ebb8d18893745733b2",
-      "189ecc5bba2a0eb0a287",
-      "69efc874a1468ce799e3"
+      "69efc874a1468ce799e3",
+      "d6bdd95656a855d6569d",
+      "da23e45a40765c49e5fb",
+      "4af67bb748a162eac968"
     ]
   },
   "heads_up": [
@@ -242,5 +240,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "16e3dacc251c9a4b3917e236afb69494499785350bd93c5c4218fe8586908a69"
+  "data_hash": "b31c631899f80c67791acd27fbe5a72774d0990a533b3242c0b86b041f6a6238"
 }
