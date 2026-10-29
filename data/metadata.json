@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-28T20:25:12+01:00",
+  "last_updated": "2026-10-29T11:48:13+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 13,
-  "events_collected": 547,
-  "events_after_deduplication": 627,
-  "stale_events": 146,
+  "events_collected": 546,
+  "events_after_deduplication": 612,
+  "stale_events": 135,
   "sources": [
     {
       "id": "shopping_munich",
@@ -75,11 +75,9 @@
       "id": "gasteig",
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
-      "status": "partial",
-      "events": 9,
-      "warnings": [
-        "Detailseite ohne Event-JSON-LD"
-      ]
+      "status": "ok",
+      "events": 10,
+      "warnings": []
     },
     {
       "id": "deutsches_museum",
@@ -94,7 +92,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 77,
+      "events": 75,
       "warnings": []
     },
     {
@@ -102,7 +100,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 240,
+      "events": 241,
       "warnings": []
     },
     {
@@ -110,7 +108,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 38,
+      "events": 37,
       "warnings": []
     },
     {
@@ -118,7 +116,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 21,
+      "events": 16,
       "warnings": []
     },
     {
@@ -126,7 +124,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -134,7 +132,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "partial",
-      "events": 31,
+      "events": 35,
       "warnings": [
         "Termin verworfen: Event ends before it starts"
       ]
@@ -183,17 +181,17 @@
   "views": {
     "today": [
       "ddd9407876aab87c4d0d",
-      "a038026157c3db6e2ee3",
-      "b5b4506f12584b704d8b",
-      "95bd1263b077479146c3",
-      "9194e372e24a4b687117"
+      "1d76889c6122a8a4b8cf",
+      "e46922d606067dd9fecc",
+      "15ebb8d18893745733b2",
+      "189ecc5bba2a0eb0a287"
     ],
     "tomorrow": [
       "ddd9407876aab87c4d0d",
-      "257e80a21ba53aac0812",
-      "c2033de3cb73ce288839",
-      "20e086094c2c855cf5b9",
-      "d9c484ce29ff29cbcd81"
+      "bb2d26f5ca98be9d77a9",
+      "b949c4e1ea1cbfb5c9f1",
+      "f4c775167bd45f4641de",
+      "59175e0b2990c0369246"
     ],
     "weekend": [
       "ddd9407876aab87c4d0d",
@@ -210,24 +208,24 @@
       "bb2d26f5ca98be9d77a9"
     ],
     "new": [
-      "b5b4506f12584b704d8b",
-      "95bd1263b077479146c3",
-      "ace9efaff7b5c508f4f6",
-      "da23e45a40765c49e5fb",
-      "4af67bb748a162eac968"
+      "1d76889c6122a8a4b8cf",
+      "e46922d606067dd9fecc",
+      "15ebb8d18893745733b2",
+      "189ecc5bba2a0eb0a287",
+      "69efc874a1468ce799e3"
     ]
   },
   "heads_up": [
     {
-      "event_id": "da23e45a40765c49e5fb",
+      "event_id": "4af67bb748a162eac968",
       "days_until": 3
     },
     {
-      "event_id": "e6187826f9c12ec25e37",
-      "days_until": 3
+      "event_id": "bb2d26f5ca98be9d77a9",
+      "days_until": 1
     },
     {
-      "event_id": "91894f9626ebd383f7f1",
+      "event_id": "16624616385a812922be",
       "days_until": 3
     }
   ],
@@ -244,5 +242,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "dd0039fc3fa55114bfcf54a0a9fc263989d787f46ff046867963a3e5384ae523"
+  "data_hash": "16e3dacc251c9a4b3917e236afb69494499785350bd93c5c4218fe8586908a69"
 }
