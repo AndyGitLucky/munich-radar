@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-29T20:29:02+01:00",
+  "last_updated": "2026-10-30T11:47:14+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 13,
-  "events_collected": 543,
-  "events_after_deduplication": 609,
-  "stale_events": 133,
+  "events_collected": 548,
+  "events_after_deduplication": 605,
+  "stale_events": 125,
   "sources": [
     {
       "id": "shopping_munich",
       "name": "München – Shopping & Sonderöffnungen",
       "url": "https://www.muenchen.de/shopping/aktuell/shopping-naechte-und-abendoeffnungen-muenchen",
       "status": "ok",
-      "events": 2,
+      "events": 3,
       "warnings": []
     },
     {
@@ -92,7 +92,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 75,
+      "events": 77,
       "warnings": []
     },
     {
@@ -108,7 +108,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 37,
+      "events": 40,
       "warnings": []
     },
     {
@@ -116,7 +116,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 16,
+      "events": 13,
       "warnings": []
     },
     {
@@ -124,7 +124,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -132,7 +132,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 34,
+      "events": 36,
       "warnings": []
     },
     {
@@ -156,7 +156,7 @@
       "name": "Messe München",
       "url": "https://messe-muenchen.de/de/veranstaltungen/",
       "status": "ok",
-      "events": 8,
+      "events": 7,
       "warnings": []
     },
     {
@@ -179,17 +179,17 @@
   "views": {
     "today": [
       "ddd9407876aab87c4d0d",
-      "1d76889c6122a8a4b8cf",
-      "69efc874a1468ce799e3",
-      "d6bdd95656a855d6569d",
-      "20e086094c2c855cf5b9"
+      "bb2d26f5ca98be9d77a9",
+      "af0315477a0952eef650",
+      "c16ab4a444a946c14cf6",
+      "10644d23cf4f471a9331"
     ],
     "tomorrow": [
       "ddd9407876aab87c4d0d",
-      "bb2d26f5ca98be9d77a9",
-      "b949c4e1ea1cbfb5c9f1",
-      "f4c775167bd45f4641de",
-      "59175e0b2990c0369246"
+      "da23e45a40765c49e5fb",
+      "0da3def3b3e164e340f3",
+      "e6187826f9c12ec25e37",
+      "91894f9626ebd383f7f1"
     ],
     "weekend": [
       "ddd9407876aab87c4d0d",
@@ -203,28 +203,28 @@
       "4af67bb748a162eac968",
       "5d52389f3ce54e379bb9",
       "0da3def3b3e164e340f3",
-      "bb2d26f5ca98be9d77a9"
+      "e6187826f9c12ec25e37"
     ],
     "new": [
-      "1d76889c6122a8a4b8cf",
-      "69efc874a1468ce799e3",
-      "d6bdd95656a855d6569d",
-      "da23e45a40765c49e5fb",
-      "4af67bb748a162eac968"
+      "bb2d26f5ca98be9d77a9",
+      "af0315477a0952eef650",
+      "c16ab4a444a946c14cf6",
+      "10644d23cf4f471a9331",
+      "dc7cf3aebc9da11a6988"
     ]
   },
   "heads_up": [
     {
-      "event_id": "4af67bb748a162eac968",
-      "days_until": 3
-    },
-    {
-      "event_id": "bb2d26f5ca98be9d77a9",
+      "event_id": "da23e45a40765c49e5fb",
       "days_until": 1
     },
     {
-      "event_id": "16624616385a812922be",
-      "days_until": 3
+      "event_id": "0da3def3b3e164e340f3",
+      "days_until": 1
+    },
+    {
+      "event_id": "e6187826f9c12ec25e37",
+      "days_until": 1
     }
   ],
   "heads_up_rules": {
@@ -240,5 +240,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "b31c631899f80c67791acd27fbe5a72774d0990a533b3242c0b86b041f6a6238"
+  "data_hash": "33e481f039467c6f4d69b631c0be373bc3ad2210891ab1c46c864d3af51d34f3"
 }
