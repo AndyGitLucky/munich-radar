@@ -8,7 +8,8 @@
 .occasion-copy h1{font:normal 36px/1.12 var(--serif);letter-spacing:-.5px;margin:0}.occasion-copy>p:not(.eyebrow){font-size:12px;margin:10px 0}
 .occasion-buttons{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
 .occasion-button{background:var(--occasion-ink);color:#fff;border:1px solid var(--occasion-ink);border-radius:5px;padding:10px 15px;font-size:12px;min-height:44px;text-align:left}
-.occasion-button[aria-pressed=true]{background:var(--white);color:var(--occasion-ink);box-shadow:0 0 0 2px var(--occasion-ink)}
+.occasion-button.active{background:var(--white);color:var(--occasion-ink);box-shadow:0 0 0 2px var(--occasion-ink)}
+#selection{scroll-margin-top:16px}
 .occasion-copy>.occasion-note{font-size:10px!important;line-height:1.6;max-width:660px;margin:13px 0 0!important}
 .interest-panel{background:var(--white);border:1px solid var(--line);border-radius:8px;padding:24px;margin-bottom:22px}
 .interest-panel .eyebrow{font-size:8px}.interest-panel h2{font-size:25px}.interest-panel .aside-copy{font-size:11px;margin:10px 0 18px}

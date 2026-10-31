@@ -103,6 +103,8 @@ Das HTTP-Modul prüft `robots.txt`, setzt `MunichRadar/0.1`, verwendet 20 Sekund
 
 Die Interessenbalken stammen ebenfalls aus der Konfiguration (`interests × weights.interest`). Sie zeigen zusätzliche Punkte des stärksten passenden Interesses, keine prozentuale Verteilung oder Häufigkeit der erfassten Termine. Diese Angaben und die Anlassregeln werden ergänzend in `metadata.json` veröffentlicht; das Ereignisschema bleibt unverändert.
 
+Der Button im Anlassbanner öffnet alle passenden heutigen Termine und springt direkt zur Ergebnisliste. Er setzt dafür Zeitraum, Thema und weitere Filter passend zurück. Die vollständige Liste ist nicht durch die Quellen-/Reihenbegrenzungen der Empfehlungen gekürzt; die angezeigte Anzahl entspricht der Zahl auf dem Button. Wiederholtes Antippen öffnet dieselbe Auswahl. Anschließend lassen sich die Filter wie gewohnt ändern.
+
 Die Regeln unterscheiden **neu entdeckt** von **neu eröffnet**. Mehrere beobachtete Tage derselben Reihe markieren diese als wiederkehrend; ein mehrwöchiger Ausstellungszeitraum allein zählt nicht als Wiederholung. Einzelne Öffnungstage desselben Festivals tragen das Tag `festival_day` und erhalten keinen Wiederholungsabzug. Angaben zu Preisen, Öffnungszeiten oder Familienfreundlichkeit werden nicht ergänzt, wenn die Quelle sie nicht belegt.
 
 ## Daten und Schema

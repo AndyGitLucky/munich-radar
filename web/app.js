@@ -230,7 +230,8 @@
         buttons.replaceChildren(...occasions.map(rule => {
           const button = element("button","occasion-button");
           button.type = "button"; button.dataset.occasionId = rule.id;
-          button.addEventListener("click",() => setTopic(topic === `occasion:${rule.id}` ? "all" : `occasion:${rule.id}`));
+          button.setAttribute("aria-controls","selection");
+          button.addEventListener("click",() => openOccasion(rule.id));
           return button;
         }));
         buttons.dataset.rules = occasions.map(rule => rule.id).join(",");
@@ -238,8 +239,9 @@
       for (const button of buttons.children) {
         const rule = occasions.find(rule => rule.id === button.dataset.occasionId);
         const count = events.filter(event => belongs(event,"today",today,now) && RadarOccasions.matches(event,rule)).length;
-        button.textContent = `${rule.label} · ${count} ${count === 1 ? "Termin heute" : "Termine heute"} ↗`;
-        button.setAttribute("aria-pressed",String(topic === `occasion:${rule.id}`));
+        button.textContent = `${rule.label} · ${count} ${count === 1 ? "Termin heute" : "Termine heute"} ↓`;
+        button.setAttribute("aria-label",`Alle ${count} ${rule.label}-Termine für heute anzeigen`);
+        button.classList.toggle("active",topic === `occasion:${rule.id}` && view === "today" && showAll && filter === "all" && display === "list");
       }
       const slots = Math.min(metadata.selection.occasion_slots ?? 2,metadata.selection.limit);
       const hasEvents = events.some(event => belongs(event,"today",today,now) && occasionFor(event));
@@ -267,8 +269,10 @@
     if (!metadata) return;
     const now = new Date(), today = dayKey(now);
     renderOccasions(today,now);
+    syncSelectionControls();
     $("#today-date").textContent = `MÜNCHEN · ${fmt(now,{weekday:"long",day:"numeric",month:"long",year:"numeric"})}`;
-    $("#selection-title").textContent = titles[view];
+    const shortViews = {today:"Heute",tomorrow:"Morgen",weekend:"Wochenende",upcoming:"Demnächst",new:"Neu entdeckt",saved:"Merkliste"};
+    $("#selection-title").textContent = topic.startsWith("occasion:") ? `${topicLabel()} · ${shortViews[view]}` : titles[view];
     const sat = weekend(today)[0];
     const dates = {today:fmt(now,{weekday:"long",day:"numeric",month:"long"}),tomorrow:fmt(`${shift(today,1)}T12:00:00Z`,{weekday:"long",day:"numeric",month:"long"}),weekend:`${fmt(`${sat}T12:00:00Z`,{day:"numeric",month:"short"})} – ${fmt(`${shift(sat,1)}T12:00:00Z`,{day:"numeric",month:"short"})}`,upcoming:`DIE NÄCHSTEN ${metadata.selection.horizon_days} TAGE`,new:`IN DEN LETZTEN ${metadata.selection.new_hours} STUNDEN ENTDECKT`,saved:"DEINE PERSÖNLICHE MERKLISTE"};
     $("#view-date").textContent = dates[view];
@@ -322,8 +326,25 @@
   }
   function setFilter(value) {
     filter = value; showAll = false;
-    document.querySelectorAll("[data-filter]").forEach(button => {const active=button.dataset.filter===filter; button.classList.toggle("active",active); button.setAttribute("aria-pressed",String(active));});
     render();
+  }
+  function syncSelectionControls() {
+    for (const [name,value] of [["view",view],["filter",filter],["display",display]]) {
+      document.querySelectorAll(`[data-${name}]`).forEach(button => {
+        const active = button.dataset[name] === value;
+        button.classList.toggle("active",active); button.setAttribute("aria-pressed",String(active));
+      });
+    }
+  }
+  function openOccasion(id) {
+    // The banner promises all of today's matches, regardless of the previous view.
+    view = "today"; topic = `occasion:${id}`; filter = "all"; display = "list"; showAll = true;
+    $("#map-saved-only").checked = false;
+    mapRenderKey = "";
+    render();
+    const selection = $("#selection");
+    selection.focus({preventScroll:true});
+    selection.scrollIntoView({block:"start",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth"});
   }
   function setTopic(value) {
     topic = value; showAll = false; render();
@@ -338,13 +359,11 @@
   $("#all-results").addEventListener("click",() => {showAll = !showAll; render();});
   document.querySelectorAll("[data-view]").forEach(button => button.addEventListener("click",() => {
     view=button.dataset.view; showAll = false;
-    document.querySelectorAll("[data-view]").forEach(b => {const active=b===button;b.classList.toggle("active",active);b.setAttribute("aria-pressed",String(active));});
     render();
   }));
   document.querySelectorAll("[data-filter]").forEach(button => button.addEventListener("click",() => setFilter(button.dataset.filter)));
   document.querySelectorAll("[data-display]").forEach(button => button.addEventListener("click",() => {
     display = button.dataset.display;
-    document.querySelectorAll("[data-display]").forEach(b => {const active = b === button; b.classList.toggle("active",active); b.setAttribute("aria-pressed",String(active));});
     mapRenderKey = ""; render();
   }));
   $("#map-saved-only").addEventListener("change",render);

@@ -1,5 +1,6 @@
 """Exercise temporary occasions independently of permanent interests and device time zone."""
 import copy
+import hashlib
 import threading
 from datetime import datetime
 from functools import partial
@@ -30,8 +31,17 @@ def main():
         events.append(event)
     for i in range(2):
         events[i].update(title=f"Halloween Party {i}", category="culture", tags=["nightlife"],
-                         relevance_score=10+i, is_free=None, family_friendly=None,
+                         relevance_score=10+i, is_free=None, family_friendly=None, source_name="Club",
                          start="2026-10-31T21:00:00+01:00", end="2026-11-01T02:00:00+01:00")
+    # More than five matches from one source must all be reachable via the banner.
+    for i in range(4):
+        event = copy.deepcopy(events[0])
+        event.update(id=hashlib.sha256(f"extra-halloween-{i}".encode()).hexdigest()[:20], title=f"Halloween Extra {i}", series_id=f"extra-{i}")
+        events.append(event)
+    tomorrow = copy.deepcopy(events[0])
+    tomorrow.update(id=hashlib.sha256(b"halloween-tomorrow").hexdigest()[:20], title="Halloween morgen", series_id="tomorrow",
+                    start="2026-11-01T21:00:00+01:00", end="2026-11-01T23:00:00+01:00")
+    events.append(tomorrow)
     events[2].update(title="Weihnachtskonzert", start="2026-12-25T16:00:00+01:00", end="2026-12-25T17:00:00+01:00")
     events[3].update(title="Oktoberfest 2027", category="festival", start="2027-09-18T00:00:00+02:00",
                      end="2027-10-03T23:59:59+02:00", all_day=True)
@@ -41,7 +51,7 @@ def main():
         try:
             with sync_playwright() as p:
                 browser = launch(p)
-                page = browser.new_page(viewport={"width": 390, "height": 844}, timezone_id="America/Los_Angeles")
+                page = browser.new_page(viewport={"width": 390, "height": 844}, timezone_id="America/Los_Angeles", has_touch=True, is_mobile=True, reduced_motion="reduce")
                 page.clock.install(time=datetime.fromisoformat("2026-10-31T12:00:00+01:00"))
                 page.route("**/data/events.json", lambda route: route.fulfill(json=events))
                 page.route("**/data/metadata.json", lambda route: route.fulfill(json=metadata))
@@ -50,7 +60,7 @@ def main():
                 page.on("pageerror", lambda error: errors.append(str(error)))
                 page.goto(f"http://127.0.0.1:{server.server_port}/"); settled(page)
                 assert page.locator("#occasion-title").inner_text() == "Halloween in München"
-                assert "2 Termine heute" in page.locator("#occasion-buttons").inner_text()
+                assert "6 Termine heute" in page.locator("#occasion-buttons").inner_text()
                 assert all("Halloween" in title for title in page.locator(".event-card h3").all_text_contents()[:2])
                 assert page.locator(".occasion-reason").count() == 2
                 assert "21:00–02:00 Uhr (+1 Tag)" in page.locator(".event-facts").first.inner_text()
@@ -58,12 +68,27 @@ def main():
                 interest_text = page.locator("#interest-bars").inner_text()
                 page.locator("[data-filter=free]").click()
                 assert "Halloween" not in page.locator("#events").inner_text()
-                page.locator("[data-filter=all]").click()
-                page.locator("[data-occasion-id=halloween]").click()
-                assert page.locator(".event-card").count() == 2
-                assert page.locator("[data-occasion-id=halloween]").get_attribute("aria-pressed") == "true"
+                # The CTA must leave the previous period, theme, filter and saved map.
+                page.locator("[data-view=tomorrow]").click()
+                page.locator("[data-topic=music]").click()
                 page.locator("[data-display=map]").click()
-                page.wait_for_function("document.querySelector('#event-map').dataset.eventCount === '2'")
+                page.locator("#map-saved-only").check()
+                page.locator("[data-occasion-id=halloween]").tap()
+                assert page.locator(".event-card").count() == 6
+                assert all("morgen" not in title for title in page.locator(".event-card h3").all_text_contents())
+                assert page.locator("#selection-title").inner_text() == "Halloween · Heute"
+                for attribute,value in [("view","today"),("filter","all"),("display","list")]:
+                    assert page.locator(f"[data-{attribute}={value}]").get_attribute("aria-pressed") == "true"
+                assert not page.locator("#map-saved-only").is_checked()
+                assert page.evaluate("document.activeElement.id") == "selection"
+                assert 0 <= page.locator("#selection").bounding_box()["y"] <= 20
+                assert page.locator("[data-occasion-id=halloween]").get_attribute("aria-controls") == "selection"
+                # Repeated taps continue to show the promised result, without toggling it off.
+                page.locator("[data-occasion-id=halloween]").tap()
+                assert page.locator(".event-card").count() == 6
+                assert "Nur Empfehlungen" in page.locator("#all-results").inner_text()
+                page.locator("[data-display=map]").click()
+                page.wait_for_function("document.querySelector('#event-map').dataset.eventCount === '6'")
                 page.locator("[data-display=list]").click()
                 page.locator(".event-card [data-save-id]").first.click()
                 with page.expect_download() as download:
@@ -90,7 +115,7 @@ def main():
                 assert page.locator("#occasion-panel").is_hidden()
                 assert not errors, errors
                 browser.close()
-                print("Occasion checks passed: temporary priority, interests, filters, map, ICS, Berlin midnight, Christmas, New Year, confirmed Oktoberfest, mobile.")
+                print("Occasion checks passed: banner touch navigation, all matches beyond source/selection limits, previous filters, scroll/focus, repeated taps, temporary priority, map, ICS, Berlin midnight, Christmas, New Year, confirmed Oktoberfest.")
         finally:
             server.shutdown()
 
