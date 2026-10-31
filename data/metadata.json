@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-31T13:23:31+01:00",
+  "last_updated": "2026-10-31T19:26:49+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 14,
-  "events_collected": 554,
-  "events_after_deduplication": 470,
+  "events_collected": 553,
+  "events_after_deduplication": 471,
   "stale_events": 0,
   "sources": [
     {
@@ -108,7 +108,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 258,
+      "events": 257,
       "warnings": []
     },
     {
@@ -189,9 +189,9 @@
     "today": [
       "72cbcd30f9d9a089fa33",
       "f91b250451059e2f9b9d",
-      "487c6f2ac797dc5a0759",
       "370999c4e68cb7f4b30f",
-      "bde02763d47b1ba14fff"
+      "0da3def3b3e164e340f3",
+      "e6187826f9c12ec25e37"
     ],
     "tomorrow": [
       "f91b250451059e2f9b9d",
@@ -203,9 +203,9 @@
     "weekend": [
       "72cbcd30f9d9a089fa33",
       "f91b250451059e2f9b9d",
-      "487c6f2ac797dc5a0759",
       "370999c4e68cb7f4b30f",
-      "bde02763d47b1ba14fff"
+      "0da3def3b3e164e340f3",
+      "e6187826f9c12ec25e37"
     ],
     "upcoming": [
       "b7e4c584cd83ab3251db",
@@ -217,9 +217,9 @@
     "new": [
       "b7e4c584cd83ab3251db",
       "72cbcd30f9d9a089fa33",
-      "487c6f2ac797dc5a0759",
       "370999c4e68cb7f4b30f",
-      "1d05b180b8c64d001928"
+      "9d48b6b054a810877daa",
+      "0da3def3b3e164e340f3"
     ]
   },
   "heads_up": [
@@ -373,5 +373,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "912c66af6dd7ef7df0439fde98f3b6e8f44d28026764122a44f2852d4abc7058"
+  "data_hash": "b1cd67dff5e12ae014ef296c1ea4b8d2fda34d7fd3f8464d2b5cec77cc8c38fb"
 }
