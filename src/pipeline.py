@@ -14,7 +14,8 @@ from .deduplicate import deduplicate
 from .http import PoliteHttpClient
 from .models import Event
 from .normalize import BERLIN, normalize_event, parse_datetime
-from .scoring import heads_up, score
+from .occasions import active_occasions, context_ids
+from .scoring import INTEREST_LABELS, heads_up, score
 from .views import classify, select
 
 logger = logging.getLogger(__name__)
@@ -78,7 +79,9 @@ def run(root: Path, *, now: datetime | None = None, client=None, registry=None) 
         normalized = []
         status = {"id": source["id"], "name": source["name"], "url": source["url"], "status": "ok", "events": 0, "warnings": []}
         try:
-            collector = registry[source["id"]]({**source, "horizon_days": horizon}, client, now)
+            current_occasions = active_occasions(relevance.get("occasions", []), collected, now.date())
+            collector = registry[source["id"]]({**source, "horizon_days": horizon,
+                "occasion_search_terms": [term for rule in current_occasions for term in rule.get("search_terms", [])]}, client, now)
             raw = collector.collect()
             raw_count += len(raw)
             write_json(data_dir / "raw" / f"{source['id']}.json", {"fetched_at": stamp, "events": [asdict(e) for e in raw]})
@@ -124,15 +127,19 @@ def run(root: Path, *, now: datetime | None = None, client=None, registry=None) 
         score(event, relevance, now)
     events.sort(key=lambda e: (-e.relevance_score, e.start or "", e.id))
     view_ids = {}
+    occasions = active_occasions(relevance.get("occasions", []), events, now.date())
+    contextual = context_ids(events, occasions)
     for view in ("today", "tomorrow", "weekend", "upcoming", "new"):
         matching = [e for e in events if view in classify(e, now, relevance["selection"]["new_hours"], horizon)]
-        view_ids[view] = [e.id for e in select(matching, relevance["selection"])]
+        view_ids[view] = [e.id for e in select(matching, relevance["selection"], context=contextual)]
     payload = [e.to_dict() for e in events]
     metadata = {"schema_version": 1, "last_updated": stamp, "timezone": "Europe/Berlin",
         "sources_checked": len(sources), "sources_successful": successes,
         "events_collected": raw_count, "events_after_deduplication": len(events),
         "stale_events": sum(e.stale for e in events), "sources": statuses,
         "selection": relevance["selection"], "views": view_ids, "heads_up": heads_up(events, relevance, now), "heads_up_rules": relevance["heads_up"],
+        "occasions": relevance.get("occasions", []),
+        "interests": [{"id": name, "label": INTEREST_LABELS.get(name, name), "points": round(value * relevance["weights"]["interest"], 1)} for name, value in relevance["interests"].items()],
         "data_hash": hashlib.sha256(json.dumps(payload, ensure_ascii=False, sort_keys=True).encode()).hexdigest()}
     write_json(data_dir / "events.json", payload)
     write_json(data_dir / "metadata.json", metadata)

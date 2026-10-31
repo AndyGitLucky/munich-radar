@@ -20,3 +20,11 @@
 | Stadtteile / Bezirksausschüsse | Der geprüfte [städtische Beteiligungskalender](https://unser.muenchen.de/events) schließt automatische Abrufe durch `robots.txt` aus. Das ist eine Aussage zu dieser Plattform, nicht zu sämtlichen Bezirksseiten. | Diese Plattform wird nicht abgerufen. Einzelne frei zugängliche Bezirkskalender bleiben eine mögliche separate Erweiterung; keine vorgetäuschte flächendeckende Stadtteilabdeckung. |
 
 Die Integration erhebt keinen Anspruch auf alle Münchner Veranstaltungen. Begrenzte Abrufe, explizite Quelldaten und Fehlermeldungen sind Teil des Betriebsmodells. Bei Ausfällen bleibt der letzte geeignete Stand höchstens sieben Tage erhalten und ist sichtbar als veraltet markiert.
+
+## Anlassabdeckung, geprüft am 31. Oktober 2026
+
+Die Konfiguration umfasst jetzt 16 Quellen. Das Stadtportal wird zusätzlich in der Rubrik **Party** (`field_category_one_target_id[]=28091`) und mit gezielten Suchbegriffen für aktive Anlässe abgefragt, weiterhin mit maximal zwei Seiten pro Rubrik/Suche. Die [Halloween-Suche](https://www.muenchen.de/veranstaltungen/event/?title=Halloween&search=true) lieferte vier ausdrücklich datierte Termine. Ein weiterer Halloween-Termin stammt aus dem Pinakothekenprogramm. Die Zusammenführung enthält somit fünf passende heutige Termine, ohne fehlende Preise oder Familienfreigaben zu ergänzen. Manche Karten haben keinen individuellen Detail-Link; ihre konkrete Such-/Kalenderseite bleibt als Beleg erhalten. Die Auswahl ist kein vollständiger Clubkalender.
+
+Ein eigener Oktoberfest-Collector liest den ausdrücklich datierten Festivalzeitraum einschließlich Jahr von der [Stadtseite zum Oktoberfest](https://www.muenchen.de/veranstaltungen/oktoberfest). Am Prüftag nennt diese bereits die Ausgabe 2027. Sie wird außerhalb des 30-Tage-Horizonts noch nicht als Veranstaltung veröffentlicht; insbesondere wird damit kein Oktoberfest-Fokus für heute ausgelöst. Fehlende oder unplausible Zeiträume werden als Quellenfehler gemeldet.
+
+14 Quellen wurden erfolgreich aktualisiert. Bei den Wochenmärkten ließen sich die bisherigen Öffnungszeiten nicht mehr eindeutig parsen; Corso Leopold lieferte keine eindeutig erkennbare aktuelle Festival-Ausgabe. Beide Fehler sind im aktuellen Datenstand sichtbar. Die mehr als sieben Tage alten Septemberdaten dieser Quellen wurden nicht weiterverwendet.

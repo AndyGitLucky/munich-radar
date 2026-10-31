@@ -7,6 +7,12 @@
   let events = [], metadata = null, view = "today", filter = "all", display = "list", calendarEvent = null;
   let mapRenderKey = "", mapGeneration = 0, placesLoaded = true;
   let topic = "all", showAll = false;
+  let occasions = [];
+  const occasionFor = event => occasions.find(rule => RadarOccasions.matches(event,rule));
+  const topicLabel = () => RadarTopics.labels[topic] || occasions.find(rule => `occasion:${rule.id}` === topic)?.label || "Aktueller Anlass";
+  const matchesTopic = event => topic.startsWith("occasion:")
+    ? occasions.some(rule => `occasion:${rule.id}` === topic && RadarOccasions.matches(event,rule))
+    : RadarTopics.matches(event,topic);
   const personal = window.RadarPersonal;
   const fmt = (value, options) => new Intl.DateTimeFormat("de-DE", {timeZone:zone,...options}).format(new Date(value));
   const dayKey = (value) => {
@@ -40,10 +46,16 @@
   }
   function selected(candidates) {
     const sources = new Map(), series = new Map(), result = [];
-    for (const event of [...candidates].sort((a,b) => b.relevance_score-a.relevance_score || a.start.localeCompare(b.start) || a.id.localeCompare(b.id))) {
+    const ranked = [...candidates].sort((a,b) => b.relevance_score-a.relevance_score || a.start.localeCompare(b.start) || a.id.localeCompare(b.id));
+    const priority = ranked.filter(occasionFor);
+    const slots = Math.min(metadata.selection.occasion_slots ?? 2,metadata.selection.limit);
+    const seen = new Set();
+    for (const [event,reserved] of [...priority.map(e => [e,true]),...ranked.map(e => [e,false])]) {
+      if (seen.has(event.id) || (reserved && result.length >= slots)) continue;
       const id = event.series_id || event.title.toLocaleLowerCase("de");
-      if ((topic === "all" && event.relevance_score < metadata.selection.min_score) || (sources.get(event.source_name)||0) >= metadata.selection.max_per_source || (series.get(id)||0) >= metadata.selection.max_per_series) continue;
+      if ((topic === "all" && !occasionFor(event) && event.relevance_score < metadata.selection.min_score) || (sources.get(event.source_name)||0) >= metadata.selection.max_per_source || (series.get(id)||0) >= metadata.selection.max_per_series) continue;
       result.push(event); sources.set(event.source_name,(sources.get(event.source_name)||0)+1); series.set(id,(series.get(id)||0)+1);
+      seen.add(event.id);
       if (result.length >= metadata.selection.limit) break;
     }
     return result;
@@ -64,12 +76,15 @@
     if (!event.start) return "Termin noch offen";
     const start = dayKey(event.start), end = personal.lastDay(event);
     const time = value => fmt(value,{hour:"2-digit",minute:"2-digit"});
+    const day = start === today ? "Heute" : start === shift(today,1) ? "Morgen" : fmt(event.start,{weekday:"short",day:"numeric",month:"short"});
+    if (!event.all_day && event.end && start !== end && new Date(event.end) - new Date(event.start) <= 86400000) {
+      return `${day} · ${time(event.start)}–${time(event.end)} Uhr (+1 Tag)`;
+    }
     if (start !== end) {
       const lastDate = fmt(`${end}T12:00:00Z`,{day:"numeric",month:"short"});
       if (start < today) return `Läuft bis ${lastDate} · Zeiten beim Veranstalter`;
       return `${fmt(event.start,{day:"numeric",month:"short"})} – ${lastDate}`;
     }
-    const day = start === today ? "Heute" : start === shift(today,1) ? "Morgen" : fmt(event.start,{weekday:"short",day:"numeric",month:"short"});
     if (event.all_day) return `${day} · Zeiten beim Veranstalter`;
     return `${day} · ${time(event.start)}${event.end ? `–${time(event.end)}` : ""} Uhr`;
   }
@@ -85,7 +100,9 @@
     article.append(top,element("h3","",event.title),facts);
     if (event.description) article.append(element("p","event-description",event.description));
     const why = element("div","why"), reasons = element("div","reasons");
-    for (const reason of event.relevance_reasons.slice(0,4)) reasons.append(element("span","reason",reason));
+    const occasion = occasionFor(event);
+    if (occasion && view !== "saved") reasons.append(element("span","reason occasion-reason",`Aktueller Anlass: ${occasion.label}`));
+    for (const reason of event.relevance_reasons.slice(0,occasion && view !== "saved" ? 3 : 4)) reasons.append(element("span","reason",reason));
     why.append(element("p","why-label","WARUM INTERESSANT"),reasons);
     const bottom = element("div","card-bottom"), sources = element("span","source-label");
     event.sources.forEach((source,i) => { if (i) sources.append(document.createTextNode(" · ")); sources.append(link(source.url,source.name)); });
@@ -195,16 +212,68 @@
       $("#map-summary").replaceChildren(document.createTextNode("Karte konnte nicht geladen werden. Die Liste und deine Merkliste funktionieren weiterhin. "),retry);
     }
   }
+  function renderOccasions(today, now) {
+    occasions = RadarOccasions.active(metadata.occasions || [],events,today,onDay);
+    if (topic.startsWith("occasion:") && !occasions.some(rule => `occasion:${rule.id}` === topic)) {
+      topic = "all"; showAll = false;
+    }
+    document.body.classList.toggle("has-occasion",occasions.length > 0);
+    $("#occasion-panel").hidden = !occasions.length;
+    if (occasions.length) {
+      const first = occasions[0];
+      $("#occasion-panel").dataset.occasion = first.id;
+      $("#occasion-title").textContent = first.headline;
+      $("#occasion-description").textContent = first.description;
+      const buttons = $("#occasion-buttons");
+      // Keep the focused button in place across minute updates and filter changes.
+      if (buttons.dataset.rules !== occasions.map(rule => rule.id).join(",")) {
+        buttons.replaceChildren(...occasions.map(rule => {
+          const button = element("button","occasion-button");
+          button.type = "button"; button.dataset.occasionId = rule.id;
+          button.addEventListener("click",() => setTopic(topic === `occasion:${rule.id}` ? "all" : `occasion:${rule.id}`));
+          return button;
+        }));
+        buttons.dataset.rules = occasions.map(rule => rule.id).join(",");
+      }
+      for (const button of buttons.children) {
+        const rule = occasions.find(rule => rule.id === button.dataset.occasionId);
+        const count = events.filter(event => belongs(event,"today",today,now) && RadarOccasions.matches(event,rule)).length;
+        button.textContent = `${rule.label} · ${count} ${count === 1 ? "Termin heute" : "Termine heute"} ↗`;
+        button.setAttribute("aria-pressed",String(topic === `occasion:${rule.id}`));
+      }
+      const slots = Math.min(metadata.selection.occasion_slots ?? 2,metadata.selection.limit);
+      const hasEvents = events.some(event => belongs(event,"today",today,now) && occasionFor(event));
+      $("#occasion-note").textContent = `${hasEvents ? `Bis zu ${slots} Empfehlungen zum aktuellen Anlass zuerst. Danach zählen deine Interessen.` : "Heute sind noch keine passenden Termine in unseren Quellen erfasst."} Deine Filter gelten weiterhin.`;
+    }
+    document.querySelectorAll("[data-topic]").forEach(button => {
+      const active = button.dataset.topic === topic;
+      button.classList.toggle("active",active); button.setAttribute("aria-pressed",String(active));
+    });
+  }
+  function renderInterests() {
+    const interests = metadata.interests || [];
+    $("#interest-panel").hidden = !interests.length;
+    const max = Math.max(1,...interests.map(interest => interest.points));
+    $("#interest-bars").replaceChildren(...[...interests].sort((a,b) => b.points-a.points).map(interest => {
+      const row = element("li","interest-row");
+      const text = element("div","interest-label");
+      text.append(element("span","",interest.label),element("span","",`+${interest.points.toLocaleString("de-DE")} Pkt.`));
+      const track = element("div","interest-track"), bar = element("span");
+      track.setAttribute("aria-hidden","true"); bar.style.width = `${Math.max(0,interest.points/max*100)}%`;
+      track.append(bar); row.append(text,track); return row;
+    }));
+  }
   function render() {
     if (!metadata) return;
     const now = new Date(), today = dayKey(now);
+    renderOccasions(today,now);
     $("#today-date").textContent = `MÜNCHEN · ${fmt(now,{weekday:"long",day:"numeric",month:"long",year:"numeric"})}`;
     $("#selection-title").textContent = titles[view];
     const sat = weekend(today)[0];
     const dates = {today:fmt(now,{weekday:"long",day:"numeric",month:"long"}),tomorrow:fmt(`${shift(today,1)}T12:00:00Z`,{weekday:"long",day:"numeric",month:"long"}),weekend:`${fmt(`${sat}T12:00:00Z`,{day:"numeric",month:"short"})} – ${fmt(`${shift(sat,1)}T12:00:00Z`,{day:"numeric",month:"short"})}`,upcoming:`DIE NÄCHSTEN ${metadata.selection.horizon_days} TAGE`,new:`IN DEN LETZTEN ${metadata.selection.new_hours} STUNDEN ENTDECKT`,saved:"DEINE PERSÖNLICHE MERKLISTE"};
     $("#view-date").textContent = dates[view];
     const pool = view === "saved" ? personal.all() : events.filter(e => belongs(e,view,today,now));
-    let candidates = pool.filter(e => RadarTopics.matches(e,topic) && (filter !== "free" || e.is_free === true) && (filter !== "family" || e.family_friendly === true));
+    let candidates = pool.filter(e => matchesTopic(e) && (filter !== "free" || e.is_free === true) && (filter !== "family" || e.family_friendly === true));
     if (display === "map" && $("#map-saved-only").checked) candidates = candidates.filter(e => personal.has(e.id));
     const recommendations = selected(candidates);
     const chosen = view === "saved" || showAll ? [...candidates].sort((a,b) => a.start.localeCompare(b.start) || a.title.localeCompare(b.title,"de")) : recommendations;
@@ -212,7 +281,7 @@
     const count = display === "map" ? candidates.length : chosen.length;
     $("#selection-count").textContent = `${count} ${display === "list" && view !== "saved" && !showAll ? count === 1 ? "Tipp" : "Tipps" : count === 1 ? "Termin" : "Termine"}`;
     $("#topic-status").hidden = topic === "all";
-    $("#topic-status").textContent = `${RadarTopics.labels[topic]} · ${candidates.length} passende Termine in dieser Auswahl. Themen werden aus Quellenangaben und Veranstaltungstiteln zugeordnet.`;
+    $("#topic-status").textContent = `${topicLabel()} · ${candidates.length} passende Termine in dieser Auswahl. Themen werden aus Quellenangaben und Veranstaltungstiteln zugeordnet.`;
     $("#all-results").hidden = display !== "list" || view === "saved" || (!showAll && candidates.length <= recommendations.length);
     $("#all-results").textContent = showAll ? "Nur Empfehlungen anzeigen" : `Alle ${candidates.length} passenden Termine anzeigen`;
     $("#all-results").setAttribute("aria-expanded",String(showAll));
@@ -223,7 +292,7 @@
     if (display === "map") renderMap(candidates);
     else chosen.forEach((e,i) => container.append(card(e,i,today)));
     if (!chosen.length && display === "list") {
-      const empty = element("div","empty-state",topic !== "all" ? `Keine passenden ${RadarTopics.labels[topic]}-Termine für diese Auswahl in unseren erfassten Quellen. Wähle einen anderen Zeitraum oder ein anderes Thema.` : view === "saved" && filter === "all" ? "Noch nichts gemerkt. Tippe bei einer Veranstaltung auf „Merken“, um hier deine persönliche Auswahl zu sammeln." : filter === "all" ? "Für diesen Zeitraum ist gerade kein passender Tipp in unseren Quellen. Schau bei „Demnächst“ oder direkt in die Kalender." : "Für diesen Filter gibt es gerade keine passenden Tipps. Unbekannte Preise und Zielgruppen zählen hier nicht als Treffer.");
+      const empty = element("div","empty-state",topic !== "all" ? `Keine passenden ${topicLabel()}-Termine für diese Auswahl in unseren erfassten Quellen. Wähle einen anderen Zeitraum oder ein anderes Thema.` : view === "saved" && filter === "all" ? "Noch nichts gemerkt. Tippe bei einer Veranstaltung auf „Merken“, um hier deine persönliche Auswahl zu sammeln." : filter === "all" ? "Für diesen Zeitraum ist gerade kein passender Tipp in unseren Quellen. Schau bei „Demnächst“ oder direkt in die Kalender." : "Für diesen Filter gibt es gerade keine passenden Tipps. Unbekannte Preise und Zielgruppen zählen hier nicht als Treffer.");
       if (filter !== "all") {const reset = element("button","","Alle Tipps anzeigen"); reset.type="button"; reset.addEventListener("click",() => setFilter("all")); empty.append(reset);}
       container.append(empty);
     }
@@ -233,7 +302,7 @@
     const heads = $("#heads-up-events"); heads.replaceChildren();
     const previewSeries = new Set();
     const preview = events.filter(e => {
-      if (!e.start || e.stale || e.status !== "scheduled" || !RadarTopics.matches(e,topic) || e.tags.includes("recurring") || (topic === "all" && e.relevance_score < metadata.selection.min_score)) return false;
+      if (!e.start || e.stale || e.status !== "scheduled" || !matchesTopic(e) || e.tags.includes("recurring") || (topic === "all" && !occasionFor(e) && e.relevance_score < metadata.selection.min_score)) return false;
       const days = daysBetween(dayKey(e.start),today);
       const series = e.series_id || e.title.toLocaleLowerCase("de");
       if (previewSeries.has(series) || !(e.tags.includes("major_event") ? metadata.heads_up_rules.major_days : metadata.heads_up_rules.other_days).includes(days)) return false;
@@ -256,15 +325,14 @@
     document.querySelectorAll("[data-filter]").forEach(button => {const active=button.dataset.filter===filter; button.classList.toggle("active",active); button.setAttribute("aria-pressed",String(active));});
     render();
   }
+  function setTopic(value) {
+    topic = value; showAll = false; render();
+  }
   for (const [value,label] of Object.entries(RadarTopics.labels)) {
     const button = element("button",`topic-button${value === topic ? " active" : ""}`,label);
     button.type = "button"; button.dataset.topic = value;
     button.setAttribute("aria-pressed",String(value === topic));
-    button.addEventListener("click",() => {
-      topic = value; showAll = false;
-      document.querySelectorAll("[data-topic]").forEach(b => {const active = b.dataset.topic === topic; b.classList.toggle("active",active); b.setAttribute("aria-pressed",String(active));});
-      render();
-    });
+    button.addEventListener("click",() => setTopic(value));
     $("#topic-filters").append(button);
   }
   $("#all-results").addEventListener("click",() => {showAll = !showAll; render();});
@@ -306,6 +374,7 @@
         RadarMap.setPlaces(await response.json()); placesLoaded = true;
       } catch {placesLoaded = false;}
       personal.refresh(events);
+      renderInterests();
       const sources=$("#sources"); sources.replaceChildren();
       for (const source of metadata.sources) {
         const item=element("li"); item.append(link(source.url,source.name),element("span",`source-status${source.status === "ok" ? "" : " problem"}`,{ok:"Im Radar",partial:"Teilweise",error:"Nicht erreichbar"}[source.status] || "Unbekannt"));sources.append(item);
@@ -314,6 +383,8 @@
       render();
     } catch {
       metadata=null;
+      $("#occasion-panel").hidden = true; $("#interest-panel").hidden = true;
+      document.body.classList.remove("has-occasion");
       const container=$("#events");container.replaceChildren();container.setAttribute("aria-busy","false");
       const message=element("div","empty-state","Die Veranstaltungsdaten konnten nicht geladen werden. Bitte versuche es noch einmal.");
       const retry=element("button","","Erneut versuchen");retry.type="button";retry.addEventListener("click",load);message.append(retry);container.append(message);

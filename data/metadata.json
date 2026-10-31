@@ -1,13 +1,21 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-31T11:16:52+01:00",
+  "last_updated": "2026-10-31T12:05:37+01:00",
   "timezone": "Europe/Berlin",
-  "sources_checked": 15,
-  "sources_successful": 13,
-  "events_collected": 536,
-  "events_after_deduplication": 578,
-  "stale_events": 113,
+  "sources_checked": 16,
+  "sources_successful": 14,
+  "events_collected": 554,
+  "events_after_deduplication": 470,
+  "stale_events": 0,
   "sources": [
+    {
+      "id": "oktoberfest",
+      "name": "München – Oktoberfest",
+      "url": "https://www.muenchen.de/veranstaltungen/oktoberfest",
+      "status": "ok",
+      "events": 1,
+      "warnings": []
+    },
     {
       "id": "shopping_munich",
       "name": "München – Shopping & Sonderöffnungen",
@@ -100,7 +108,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 241,
+      "events": 258,
       "warnings": []
     },
     {
@@ -174,53 +182,54 @@
     "max_per_source": 3,
     "max_per_series": 1,
     "horizon_days": 30,
-    "new_hours": 72
+    "new_hours": 72,
+    "occasion_slots": 2
   },
   "views": {
     "today": [
+      "72cbcd30f9d9a089fa33",
+      "f91b250451059e2f9b9d",
       "487c6f2ac797dc5a0759",
       "370999c4e68cb7f4b30f",
-      "1d05b180b8c64d001928",
-      "da23e45a40765c49e5fb",
-      "0da3def3b3e164e340f3"
+      "da23e45a40765c49e5fb"
     ],
     "tomorrow": [
+      "f91b250451059e2f9b9d",
+      "d88f07117f9dbc62feeb",
       "4af67bb748a162eac968",
       "26ef079e1d879b5bfeca",
-      "95e0dfb9b1bea51bc4f0",
-      "780581b4b0a57ed28cec",
       "ddd9407876aab87c4d0d"
     ],
     "weekend": [
+      "72cbcd30f9d9a089fa33",
+      "f91b250451059e2f9b9d",
       "487c6f2ac797dc5a0759",
       "370999c4e68cb7f4b30f",
-      "1d05b180b8c64d001928",
-      "da23e45a40765c49e5fb",
-      "0da3def3b3e164e340f3"
+      "da23e45a40765c49e5fb"
     ],
     "upcoming": [
-      "5d52389f3ce54e379bb9",
-      "f71c43b53cef158156f9",
       "b7e4c584cd83ab3251db",
+      "4af67bb748a162eac968",
+      "5d52389f3ce54e379bb9",
       "26ef079e1d879b5bfeca",
-      "95e0dfb9b1bea51bc4f0"
+      "cee8ca092aada06e07ed"
     ],
     "new": [
+      "b7e4c584cd83ab3251db",
+      "72cbcd30f9d9a089fa33",
+      "487c6f2ac797dc5a0759",
       "370999c4e68cb7f4b30f",
-      "1d05b180b8c64d001928",
-      "a81d0151a3d125d2f614",
-      "f6aa3eb646daf88dfaf7",
-      "46f59a52965344830991"
+      "1d05b180b8c64d001928"
     ]
   },
   "heads_up": [
     {
-      "event_id": "5d52389f3ce54e379bb9",
-      "days_until": 3
-    },
-    {
       "event_id": "4af67bb748a162eac968",
       "days_until": 1
+    },
+    {
+      "event_id": "5d52389f3ce54e379bb9",
+      "days_until": 3
     },
     {
       "event_id": "26ef079e1d879b5bfeca",
@@ -240,5 +249,129 @@
     ],
     "limit": 3
   },
-  "data_hash": "990bd5fc1cd457707af06cbb497cab3019a4d2cfaaa2b8332028817f48403fbc"
+  "occasions": [
+    {
+      "id": "halloween",
+      "label": "Halloween",
+      "headline": "Halloween in München",
+      "description": "Partys, Grusel und thematische Angebote haben jetzt Vorrang.",
+      "window": {
+        "start": "10-24",
+        "end": "10-31"
+      },
+      "keywords": [
+        "halloween",
+        "samhain",
+        "grusel",
+        "kürbisschnitzen"
+      ],
+      "search_terms": [
+        "Halloween"
+      ]
+    },
+    {
+      "id": "oktoberfest",
+      "label": "Oktoberfest",
+      "headline": "Die Wiesn ist auf dem Radar",
+      "description": "Das Oktoberfest und passende Wiesn-Termine stehen jetzt im Fokus.",
+      "anchor_titles": [
+        "Oktoberfest",
+        "Oktoberfest München",
+        "Münchner Oktoberfest"
+      ],
+      "keywords": [
+        "oktoberfest",
+        "wiesn"
+      ],
+      "search_terms": [
+        "Oktoberfest"
+      ]
+    },
+    {
+      "id": "christmas",
+      "label": "Advent & Weihnachten",
+      "headline": "Weihnachtszeit in München",
+      "description": "Christkindlmärkte, Advent und Weihnachtsprogramm stehen jetzt im Fokus.",
+      "window": {
+        "start": "11-20",
+        "end": "12-26"
+      },
+      "keywords": [
+        "weihnacht",
+        "christkindl",
+        "advent",
+        "wintertollwood",
+        "tollwood winterfestival"
+      ],
+      "search_terms": [
+        "Weihnacht"
+      ]
+    },
+    {
+      "id": "new_year",
+      "label": "Silvester & Neujahr",
+      "headline": "München zum Jahreswechsel",
+      "description": "Silvester und Neujahrsprogramm stehen jetzt im Fokus.",
+      "window": {
+        "start": "12-27",
+        "end": "01-01"
+      },
+      "keywords": [
+        "silvester",
+        "neujahr",
+        "jahreswechsel"
+      ],
+      "search_terms": [
+        "Silvester"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "id": "science",
+      "label": "Wissenschaft",
+      "points": 20.0
+    },
+    {
+      "id": "technology",
+      "label": "Technik",
+      "points": 20.0
+    },
+    {
+      "id": "museum",
+      "label": "Museen",
+      "points": 16.0
+    },
+    {
+      "id": "exhibition",
+      "label": "Ausstellungen",
+      "points": 16.0
+    },
+    {
+      "id": "family",
+      "label": "Familie",
+      "points": 16.0
+    },
+    {
+      "id": "street_festival",
+      "label": "Straßenfeste",
+      "points": 16.0
+    },
+    {
+      "id": "market",
+      "label": "Märkte",
+      "points": 10.0
+    },
+    {
+      "id": "culture",
+      "label": "Kultur",
+      "points": 10.0
+    },
+    {
+      "id": "concert",
+      "label": "Musik",
+      "points": 6.0
+    }
+  ],
+  "data_hash": "350714c755cd2d96a3f2e7d50ece0ab96d00cb786a41dc88ba35d9f09b5eb900"
 }

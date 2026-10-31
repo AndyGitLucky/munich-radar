@@ -1,5 +1,5 @@
 from datetime import datetime
-from urllib.parse import urljoin, urlsplit, parse_qs
+from urllib.parse import urljoin, urlsplit, parse_qs, urlencode
 
 from bs4 import BeautifulSoup
 
@@ -10,6 +10,8 @@ from .calendar import event, pages, text
 class MuenchenCollector(EventCollector):
     def collect(self):
         urls = [urljoin(self.config["url"], category) for category in self.config["categories"]]
+        for term in self.config.get("occasion_search_terms", []):
+            urls.append(self.config["url"] + "?" + urlencode({"title": term, "search": "true"}))
         return pages(self, urls, "a[rel='next'][href], .pager__item--next a[href]")
 
     def parse(self, html, url):
@@ -31,11 +33,14 @@ class MuenchenCollector(EventCollector):
                     labels += " Familie Kinder"
                 if "27886" in parse_qs(urlsplit(url).query).get("field_category_one_target_id[]", []):
                     labels += " Konzert"
+                party = "28091" in parse_qs(urlsplit(url).query).get("field_category_one_target_id[]", [])
                 fallback = "festival" if "feste-festivals" in url else "culture"
                 item = event(self.config, title, urljoin(url, link["href"]) if link else url, dates[0],
                              end=dates[1] if len(dates) > 1 else None,
                              location_name=text(card.select_one('[itemprop="location"]')) or None,
                              labels=labels, fallback=fallback)
+                if party:
+                    item.tags.append("nightlife")
                 # The portal's explicit exhibition section outranks incidental title words
                 # such as "Fotografie auf dem Jahrmarkt".
                 if "/ausstellung-museen/" in urlsplit(item.source_url).path:

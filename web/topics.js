@@ -1,6 +1,6 @@
 "use strict";
 window.RadarTopics = (() => {
-  const labels = {all:"Alles",music:"Musik",food:"Food",art:"Kunst",shopping:"Shopping & Märkte",stage:"Bühne",outdoor:"Draußen",science:"Wissen"};
+  const labels = {all:"Alles",music:"Musik",nightlife:"Partys",food:"Food",art:"Kunst",shopping:"Shopping & Märkte",stage:"Bühne",outdoor:"Draußen",science:"Wissen"};
   const cache = new WeakMap();
   function classify(event) {
     if (cache.has(event)) return cache.get(event);
@@ -9,6 +9,7 @@ window.RadarTopics = (() => {
     const venue = `${event.source_name || ""} ${event.location_name || ""}`.toLocaleLowerCase("de");
     const has = (...values) => values.some(value => tags.has(value));
     const topics = new Set();
+    if (has("nightlife","party") || /party|partys|disco|clubnacht/.test(title)) topics.add("nightlife");
     if (has("concert","music") || /konzert|jazz|livemusik|live-musik|kammermusik|chorabend|musical|oper\b/.test(title)) topics.add("music");
     // Explicit culinary titles/tags, not incidental words in descriptions or all markets.
     if (has("food") || /bauernmarkt|wochenmarkt|street[ -]?food|food.?festival|kulinar|genussmarkt|wein(fest|probe|verkostung)|bier(fest|verkostung)|koch(kurs|workshop)|käsemarkt/.test(title)) topics.add("food");

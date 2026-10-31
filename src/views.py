@@ -37,19 +37,32 @@ def classify(event: Event, now: datetime, new_hours: int = 72, horizon: int = 30
     return views
 
 
-def select(events: list[Event], config: dict) -> list[Event]:
+def select(events: list[Event], config: dict, *, context: set[str] | None = None) -> list[Event]:
     chosen: list[Event] = []
     source_counts: dict[str, int] = {}
     series_counts: dict[str, int] = {}
-    for event in sorted(events, key=lambda e: (-e.relevance_score, e.start or "", e.id)):
+    context = context or set()
+    ranked = sorted(events, key=lambda e: (-e.relevance_score, e.start or "", e.id))
+    # Reserve a small number of leading places for the current occasion. Keep the
+    # same source/series limits and fill remaining places by ordinary relevance.
+    occasion_slots = min(config.get("occasion_slots", 2), config["limit"])
+    priority = [event for event in ranked if event.id in context]
+    seen = set()
+    for event, reserved in [(event, True) for event in priority] + [(event, False) for event in ranked]:
+        if event.id in seen:
+            continue
+        if reserved and len(chosen) >= occasion_slots:
+            continue
+        is_priority = event.id in context
         series = event.series_id or key(event.title)
-        if event.relevance_score < config["min_score"]:
+        if event.relevance_score < config["min_score"] and not is_priority:
             continue
         if source_counts.get(event.source_name, 0) >= config["max_per_source"]:
             continue
         if series_counts.get(series, 0) >= config["max_per_series"]:
             continue
         chosen.append(event)
+        seen.add(event.id)
         source_counts[event.source_name] = source_counts.get(event.source_name, 0) + 1
         series_counts[series] = series_counts.get(series, 0) + 1
         if len(chosen) >= config["limit"]:

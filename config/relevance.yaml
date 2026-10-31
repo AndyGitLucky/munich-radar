@@ -29,6 +29,38 @@ selection:
   max_per_series: 1
   horizon_days: 30
   new_hours: 72
+  occasion_slots: 2
+# Current occasions have their own temporary priority; interests above stay unchanged.
+# Annual windows describe editorial focus, not an organizer's opening dates.
+occasions:
+  - id: halloween
+    label: Halloween
+    headline: Halloween in München
+    description: Partys, Grusel und thematische Angebote haben jetzt Vorrang.
+    window: {start: "10-24", end: "10-31"}
+    keywords: [halloween, samhain, grusel, kürbisschnitzen]
+    search_terms: [Halloween]
+  - id: oktoberfest
+    label: Oktoberfest
+    headline: Die Wiesn ist auf dem Radar
+    description: Das Oktoberfest und passende Wiesn-Termine stehen jetzt im Fokus.
+    anchor_titles: [Oktoberfest, Oktoberfest München, Münchner Oktoberfest]
+    keywords: [oktoberfest, wiesn]
+    search_terms: [Oktoberfest]
+  - id: christmas
+    label: Advent & Weihnachten
+    headline: Weihnachtszeit in München
+    description: Christkindlmärkte, Advent und Weihnachtsprogramm stehen jetzt im Fokus.
+    window: {start: "11-20", end: "12-26"}
+    keywords: [weihnacht, christkindl, advent, wintertollwood, tollwood winterfestival]
+    search_terms: [Weihnacht]
+  - id: new_year
+    label: Silvester & Neujahr
+    headline: München zum Jahreswechsel
+    description: Silvester und Neujahrsprogramm stehen jetzt im Fokus.
+    window: {start: "12-27", end: "01-01"}
+    keywords: [silvester, neujahr, jahreswechsel]
+    search_terms: [Silvester]
 heads_up:
   major_days: [14, 7, 3, 1]
   other_days: [3, 1]

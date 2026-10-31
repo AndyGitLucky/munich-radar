@@ -50,6 +50,8 @@ Für den reinen Betrieb genügt `requirements.txt`. Die Entwicklungsdatei ergän
 - Filter für nachweislich kostenlose und ausdrücklich familiengeeignete Angebote.
 - Themenbuttons für Musik, Food, Kunst, Shopping & Märkte, Bühne, Draußen und Wissen; Filterung vor der Empfehlungsauswahl, zusätzliche Ansicht aller Treffer.
 - Konfigurierbare, erklärbare Bewertung mit Gründen auf jeder Karte.
+- Automatische aktuelle Anlässe: Halloween, Advent/Weihnachten, Oktoberfest und Jahreswechsel erscheinen als sichtbarer Tagesfokus. Bis zu zwei vordere Empfehlungsplätze berücksichtigen passende Termine, ohne die persönlichen Interessen dauerhaft zu ändern.
+- Visuelle Balken zeigen die konfigurierten Interessen und ihre zusätzlichen Relevanzpunkte.
 - Höchstens fünf Tipps, maximal drei pro Quelle und eine Empfehlung pro Veranstaltungsreihe.
 - Vorschau an den Schwellen 14/7/3/1 Tage für Highlights und 3/1 Tage für andere Termine. Wiederkehrende Reihen werden dort ausgelassen.
 - Deutsche responsive Oberfläche, Tastaturbedienung, Quellenlinks, Aktualisierungsstand und verständliche Leer-/Fehlerzustände.
@@ -68,11 +70,12 @@ Die Browseransichten rechnen immer in `Europe/Berlin`, unabhängig vom Standort 
 | --- | --- | --- |
 | [München – Shopping & Sonderöffnungen](https://www.muenchen.de/shopping/aktuell/shopping-naechte-und-abendoeffnungen-muenchen) | Datierten Shoppingnächten zugeordnete Zeiten aus der offiziellen Verordnung; ausgewählte Münchner Sonn-/Feiertagsregeln | Öffnungserlaubnis, keine Teilnahmegarantie. Gebiete und Sortimente ausdrücklich eingeschränkt. Geänderte Rechtsgrundlage erfordert erneute Prüfung. |
 | [Märkte München](https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html) | Städtische Marktseiten mit ausdrücklich genannten Wochenzeiten | Bis zu 40 Detailseiten, nur gleicher Ursprung. Regelmäßige Termine für 30 Tage; Feiertage und Jahresend-Sondertage ausgelassen, keine geratenen Verlegungen. Externe Bauernmarktseiten nicht übernommen. |
+| [München – Oktoberfest](https://www.muenchen.de/veranstaltungen/oktoberfest) | Explizit datierter Festivalzeitraum samt Jahr | Aktiviert den Oktoberfest-Fokus nur während der tatsächlich erfassten Ausgabe. Fehlende Datumsangaben führen zum Quellenfehler, nicht zu einem errechneten Ersatzdatum. |
 | [Corso Leopold](https://www.corso-leopold.de/) | Aktueller Programmlink von der Startseite; datierte Öffnungszeiten des gesamten Straßenfests | Zwei Seiten pro Lauf. Getrennte Festivaltage mit tatsächlichen Öffnungszeiten; keine Übernahme aller Bühnenauftritte. Der Eintritt bleibt unbekannt, wenn auf der Programmseite keine Angabe steht. |
 | [Gasteig](https://www.gasteig.de/veranstaltungen/) | Datierte Teaser der Startübersicht, auch Festivals; `Event`-JSON-LD auf Detailseiten | Maximal 14 passende Detailseiten pro Lauf. Kein vollständiger Veranstaltungskatalog. |
 | [Deutsches Museum](https://www.deutsches-museum.de/museumsinsel/programm/kalender) | Öffentliches Kalenderfragment `/search.html` und dessen Weiterblättern-Links | Sechs Seiten mit derzeit zehn Terminen pro Seite. Wegen vieler Tagesangebote deckt dies vor allem die nächsten Tage ab. |
 | [Lenbachhaus](https://www.lenbachhaus.de/besuchen/kalender) | Explizit datierte HTML-Terminkarten, laufender und nächster Monat | Undatierte Dauerangebote werden ausgelassen. Preise/Zielgruppen fehlen oft in der Übersicht und bleiben dann unbekannt. |
-| [muenchen.de](https://www.muenchen.de/veranstaltungen/event/) | Festivalkalender, Familie/Kinder, Brauchtum, Konzerte und Freizeit; datierte Einzelvorstellungen | Je zwei Seiten pro Kategorie. Verwendet die tatsächlichen Vorstellungszeiten, nicht den äußeren Laufzeitraum einer Reihe. Veranstalterquellen haben bei Dubletten Vorrang. |
+| [muenchen.de](https://www.muenchen.de/veranstaltungen/event/) | Festivalkalender, Familie/Kinder, Brauchtum, Konzerte, Freizeit und Partys; zusätzliche Suche für aktive Anlässe | Je zwei Seiten pro Kategorie/Suchbegriff. Verwendet die tatsächlichen Vorstellungszeiten, nicht den äußeren Laufzeitraum einer Reihe. Veranstalterquellen haben bei Dubletten Vorrang. |
 | [Münchner Stadtbibliothek](https://www.muenchner-stadtbibliothek.de/veranstaltungen) | HTML-Kalender mit verlinkten Folgeseiten | Vier Seiten; datierte Ausstellungen und Einzeltermine. Keine pauschale Annahme kostenlosen Eintritts. |
 | [Münchner Stadtmuseum](https://www.muenchner-stadtmuseum.de/veranstaltungen/details) | Datierte Karten einschließlich Filmmuseum | Aktueller Kalendermonat. Ausgebuchte Angebote ausgelassen. Wegen wechselnder Veranstaltungsorte wird das Hauptgebäude nicht als Standardort eingesetzt. |
 | [Haus der Kunst](https://www.hausderkunst.de/kalender) | Tagesabschnitte und echte Weiterblättern-Links | Vier Seiten. Bei fortgesetzten Tagesabschnitten stammt das Datum aus dem offiziellen Pagination-Link. |
@@ -93,6 +96,12 @@ Das HTTP-Modul prüft `robots.txt`, setzt `MunichRadar/0.1`, verwendet 20 Sekund
 `config/sources.yaml` steuert aktivierte Quellen, HTTP-Regeln, Quellenpriorität und Abrufgrenzen. Eine kleinere Prioritätszahl bevorzugt bei Dubletten den entsprechenden Veranstalter. Neue Quellen bekommen einen eigenen Collector und einen Eintrag in `src/collectors/__init__.py`.
 
 `config/relevance.yaml` enthält Interessen, Punktgewichte, Mindestbewertung, Auswahlgrenzen, Zeitraum und Vormerkschwellen. Die anfänglichen Interessen übernehmen den Schwerpunkt aus `PROJECT.md`: Wissenschaft, Technik, Museen, Familie und Kultur. Sie lassen sich ohne Codeänderung anpassen. Nach Änderungen Pipeline und Build erneut ausführen.
+
+`occasions` in derselben Datei steuert die zusätzliche Anlass-Ebene. Jährliche redaktionelle Zeitfenster (`window.start`/`end`, Format `MM-DD`, auch über den Jahreswechsel) aktivieren Halloween vom 24.–31. Oktober, Advent/Weihnachten vom 20. November–26. Dezember und Silvester/Neujahr vom 27. Dezember–1. Januar. Dies sind Schwerpunktfenster, keine behaupteten Veranstaltungsöffnungszeiten. Beim Oktoberfest aktiviert ausschließlich ein aktueller, nicht veralteter Festivaltermin mit passendem `anchor_titles`-Titel den Fokus; ein eigener Collector liest den ausdrücklich genannten Zeitraum der Stadtseite. Fehlende Festivaldaten werden nicht geraten.
+
+`keywords` und optionale `tags` ordnen erfasste Termine anhand ihres Titels bzw. ihrer Quellentags einem Anlass zu. `search_terms` ergänzt während des Fokus gezielte, auf zwei Seiten begrenzte Stadtportal-Suchen; die Party-Rubrik wird dauerhaft mit erfasst. `selection.occasion_slots` reserviert standardmäßig zwei vordere Plätze für passende Termine, auch unterhalb der normalen Mindestbewertung. Zeitraum-, Themen-, Gratis-/Familienfilter und Quellen-/Reihenbegrenzungen gelten weiterhin. Alle übrigen Plätze folgen der bisherigen Bewertung. Die Kalenderlogik läuft im Browser in Berliner Zeit erneut, sodass Anlass, Kennzeichnung und Vorrang nach dem Tageswechsel automatisch verschwinden. Außerhalb der konfigurierten Fenster gibt es keinen saisonalen Banner. Neue Anlässe können über die Konfiguration ergänzt werden; ein vollständiger Feiertagskalender ist damit nicht verbunden.
+
+Die Interessenbalken stammen ebenfalls aus der Konfiguration (`interests × weights.interest`). Sie zeigen zusätzliche Punkte des stärksten passenden Interesses, keine prozentuale Verteilung oder Häufigkeit der erfassten Termine. Diese Angaben und die Anlassregeln werden ergänzend in `metadata.json` veröffentlicht; das Ereignisschema bleibt unverändert.
 
 Die Regeln unterscheiden **neu entdeckt** von **neu eröffnet**. Mehrere beobachtete Tage derselben Reihe markieren diese als wiederkehrend; ein mehrwöchiger Ausstellungszeitraum allein zählt nicht als Wiederholung. Einzelne Öffnungstage desselben Festivals tragen das Tag `festival_day` und erhalten keinen Wiederholungsabzug. Angaben zu Preisen, Öffnungszeiten oder Familienfreundlichkeit werden nicht ergänzt, wenn die Quelle sie nicht belegt.
 
@@ -134,6 +143,7 @@ $env:RADAR_BROWSER_PATH = 'C:\Program Files\Google\Chrome\Application\chrome.exe
 .\.venv\Scripts\python.exe scripts/browser_smoke.py
 .\.venv\Scripts\python.exe scripts/browser_features.py
 .\.venv\Scripts\python.exe scripts/browser_topics.py
+.\.venv\Scripts\python.exe scripts/browser_occasions.py
 ```
 
 Ohne vorhandenes Chrome: `python -m playwright install chromium`, anschließend den Browsercheck ohne `RADAR_BROWSER_PATH` ausführen. Linux-CI verwendet `python -m playwright install --with-deps chromium`.

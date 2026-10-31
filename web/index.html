@@ -11,6 +11,7 @@
   <script src="./personal.js" defer></script>
   <script src="./map.js" defer></script>
   <script src="./topics.js" defer></script>
+  <script src="./occasions.js" defer></script>
   <script src="./app.js" defer></script>
 </head>
 <body>
@@ -34,6 +35,17 @@
         <div class="radar-art" aria-hidden="true">
           <svg viewBox="0 0 280 220"><defs><linearGradient id="sweep" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#a8b6a3" stop-opacity="0"/><stop offset="1" stop-color="#a8b6a3" stop-opacity=".5"/></linearGradient></defs><g fill="none" stroke="#cbd3c5"><circle cx="140" cy="110" r="91"/><circle cx="140" cy="110" r="64"/><circle cx="140" cy="110" r="33"/><path d="M31 110h218M140 8v204"/></g><path d="M140 110V19a91 91 0 0 1 91 91Z" fill="url(#sweep)"/><path d="m140 110 65-65" stroke="#3a6654"/><g fill="#2b5849"><circle cx="175" cy="74" r="5"/><circle cx="83" cy="143" r="4"/><circle cx="184" cy="147" r="4"/><circle cx="140" cy="110" r="4"/></g><circle cx="175" cy="74" r="11" fill="none" stroke="#2b5849" opacity=".3"/><text x="195" y="64" font-size="10" fill="#55705d" font-family="monospace">ENTDECKEN</text><text x="46" y="179" font-size="10" fill="#55705d" font-family="monospace">48°08′ N 11°35′ E</text></svg>
           <span>Gute Dinge liegen oft ganz nah.</span>
+        </div>
+      </section>
+
+      <section id="occasion-panel" class="occasion-panel" aria-labelledby="occasion-title" hidden>
+        <div class="occasion-symbol" aria-hidden="true">◎</div>
+        <div class="occasion-copy">
+          <p class="eyebrow">JETZT IN MÜNCHEN · AKTUELLER ANLASS</p>
+          <h1 id="occasion-title"></h1>
+          <p id="occasion-description"></p>
+          <div id="occasion-buttons" class="occasion-buttons" role="group" aria-label="Aktuelle Anlässe auswählen"></div>
+          <p id="occasion-note" class="occasion-note"></p>
         </div>
       </section>
 
@@ -78,9 +90,16 @@
         </section>
 
         <aside aria-label="Vorschau und Hintergründe">
+          <section id="interest-panel" class="interest-panel" aria-labelledby="interest-title" hidden>
+            <p class="eyebrow">DEINE DAUERHAFTEN INTERESSEN</p>
+            <h2 id="interest-title">So tickt dein Radar</h2>
+            <p class="aside-copy">Diese Themen geben zusätzliche Relevanzpunkte. Der stärkste passende Schwerpunkt zählt.</p>
+            <ul id="interest-bars" class="interest-bars"></ul>
+            <p class="interest-note">Aktuelle Anlässe bekommen vorübergehend Vorrang. Deine Interessen bleiben bestehen.</p>
+          </section>
           <section class="heads-up" aria-labelledby="heads-up-title"><p class="eyebrow">EIN BISSCHEN VORFREUDE</p><h2 id="heads-up-title">Schon vormerken <span aria-hidden="true">↗</span></h2><div id="heads-up-events"><p class="aside-copy">Die nächsten Termine werden geladen.</p></div></section>
           <section class="source-panel" aria-labelledby="sources-title"><div class="aside-heading"><h2 id="sources-title">Direkt von der Quelle</h2><span class="small-radar" aria-hidden="true">◎</span></div><p class="aside-copy">Offizielle Kalender. Regelmäßig gesammelt. Für dich eingeordnet.</p><ul id="sources" class="source-list"></ul><p id="updated" class="updated">Datenstand wird geladen …</p></section>
-          <details class="about"><summary>Wie kommt die Auswahl zustande? <span aria-hidden="true">+</span></summary><p>Straßenfeste, Wissenschaft, Technik, Museen und Kultur stehen im Mittelpunkt. Familienangebote, kostenlose Termine und Veranstalter-Highlights bekommen zusätzliche Punkte.</p><p>Die Auswahl entsteht durch feste Regeln. Unter jedem Tipp siehst du die Gründe. „Neu“ bedeutet neu entdeckt, nicht unbedingt neu eröffnet.</p><p>Wir zeigen einen Ausschnitt aus offiziellen Kalendern und Festivalprogrammen. Preise, freie Plätze und kurzfristige Änderungen bitte beim Veranstalter prüfen.</p></details>
+          <details class="about"><summary>Wie kommt die Auswahl zustande? <span aria-hidden="true">+</span></summary><p>Aktuelle Anlässe wie Halloween, Oktoberfest oder Weihnachten stehen zeitweise zuerst auf dem Radar. Danach zählen deine dauerhaften Interessen sowie Familienangebote, kostenlose Termine und Veranstalter-Highlights.</p><p>Die Auswahl entsteht durch feste Regeln. Unter jedem Tipp siehst du die Gründe. „Neu“ bedeutet neu entdeckt, nicht unbedingt neu eröffnet.</p><p>Wir zeigen einen Ausschnitt aus offiziellen Kalendern und Festivalprogrammen. Preise, freie Plätze und kurzfristige Änderungen bitte beim Veranstalter prüfen.</p></details>
         </aside>
       </div>
     </main>

@@ -1,5 +1,7 @@
 Diese gekürzten HTML-Ausschnitte stammen aus den offiziellen Kalendern, abgerufen am 13.09.2026. Sie enthalten nur die für Parserprüfungen notwendigen Knoten. Keine Live-Anfragen in Unit-Tests.
 
+Ergänzung vom 31.10.2026: `muenchen_halloween.html` enthält zwei gekürzte echte Terminkarten aus `https://www.muenchen.de/veranstaltungen/event/?title=Halloween&search=true`, einschließlich eines über Mitternacht laufenden Termins. Die tatsächlichen Vorstellungszeiten haben Vorrang vor den äußeren Datumsfeldern.
+
 - `gasteig.html`: https://www.gasteig.de/veranstaltungen/we-are-video-spark-2/ (Event-JSON-LD)
 - `deutsches_museum.html`: https://www.deutsches-museum.de/museumsinsel/programm/kalender/search.html (vier Terminkarten)
 - `lenbachhaus.html`: https://www.lenbachhaus.de/besuchen/kalender (datierte, abgesagte und undatierte Karten)
