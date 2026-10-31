@@ -1,6 +1,12 @@
 name: Update Munich Radar
 
 on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'data/**'
+      - '**.md'
   workflow_dispatch:
   schedule:
     # UTC: 06/11/16/21 Uhr im Sommer, 05/10/15/20 Uhr im Winter (Berlin).
@@ -16,7 +22,14 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  check:
+    name: Validate before publishing
+    uses: ./.github/workflows/test.yml
+    permissions:
+      contents: read
+
   update:
+    needs: check
     runs-on: ubuntu-latest
     timeout-minutes: 15
     outputs:
@@ -29,8 +42,6 @@ jobs:
           cache: pip
       - name: Install dependencies
         run: python -m pip install -r requirements-dev.txt
-      - name: Test core logic and parsers (offline)
-        run: python -m pytest -q
       - name: Collect and rank events
         id: pipeline
         run: python -m src.main
