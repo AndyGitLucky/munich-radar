@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-30T20:05:58+01:00",
+  "last_updated": "2026-10-31T11:16:52+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 15,
   "sources_successful": 13,
-  "events_collected": 546,
-  "events_after_deduplication": 603,
-  "stale_events": 125,
+  "events_collected": 536,
+  "events_after_deduplication": 578,
+  "stale_events": 113,
   "sources": [
     {
       "id": "shopping_munich",
       "name": "München – Shopping & Sonderöffnungen",
       "url": "https://www.muenchen.de/shopping/aktuell/shopping-naechte-und-abendoeffnungen-muenchen",
       "status": "ok",
-      "events": 3,
+      "events": 2,
       "warnings": []
     },
     {
@@ -76,7 +76,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 9,
+      "events": 10,
       "warnings": []
     },
     {
@@ -92,7 +92,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 77,
+      "events": 76,
       "warnings": []
     },
     {
@@ -100,7 +100,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 240,
+      "events": 241,
       "warnings": []
     },
     {
@@ -108,7 +108,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 40,
+      "events": 39,
       "warnings": []
     },
     {
@@ -116,7 +116,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 13,
+      "events": 5,
       "warnings": []
     },
     {
@@ -156,7 +156,7 @@
       "name": "Messe München",
       "url": "https://messe-muenchen.de/de/veranstaltungen/",
       "status": "ok",
-      "events": 7,
+      "events": 6,
       "warnings": []
     },
     {
@@ -178,52 +178,52 @@
   },
   "views": {
     "today": [
-      "ddd9407876aab87c4d0d",
-      "bb2d26f5ca98be9d77a9",
-      "b58fae428d509415a78a",
-      "af0315477a0952eef650",
-      "24d3c232d68dcd8c6d3c"
+      "487c6f2ac797dc5a0759",
+      "370999c4e68cb7f4b30f",
+      "1d05b180b8c64d001928",
+      "da23e45a40765c49e5fb",
+      "0da3def3b3e164e340f3"
     ],
     "tomorrow": [
-      "ddd9407876aab87c4d0d",
-      "487c6f2ac797dc5a0759",
-      "da23e45a40765c49e5fb",
-      "0da3def3b3e164e340f3",
-      "e6187826f9c12ec25e37"
+      "4af67bb748a162eac968",
+      "26ef079e1d879b5bfeca",
+      "95e0dfb9b1bea51bc4f0",
+      "780581b4b0a57ed28cec",
+      "ddd9407876aab87c4d0d"
     ],
     "weekend": [
-      "ddd9407876aab87c4d0d",
       "487c6f2ac797dc5a0759",
+      "370999c4e68cb7f4b30f",
+      "1d05b180b8c64d001928",
       "da23e45a40765c49e5fb",
-      "4af67bb748a162eac968",
       "0da3def3b3e164e340f3"
     ],
     "upcoming": [
-      "487c6f2ac797dc5a0759",
-      "da23e45a40765c49e5fb",
-      "4af67bb748a162eac968",
-      "0da3def3b3e164e340f3",
-      "e6187826f9c12ec25e37"
+      "5d52389f3ce54e379bb9",
+      "f71c43b53cef158156f9",
+      "b7e4c584cd83ab3251db",
+      "26ef079e1d879b5bfeca",
+      "95e0dfb9b1bea51bc4f0"
     ],
     "new": [
-      "bb2d26f5ca98be9d77a9",
-      "b58fae428d509415a78a",
-      "af0315477a0952eef650",
-      "24d3c232d68dcd8c6d3c",
-      "cdd19c042e25131551c1"
+      "370999c4e68cb7f4b30f",
+      "1d05b180b8c64d001928",
+      "a81d0151a3d125d2f614",
+      "f6aa3eb646daf88dfaf7",
+      "46f59a52965344830991"
     ]
   },
   "heads_up": [
     {
-      "event_id": "487c6f2ac797dc5a0759",
+      "event_id": "5d52389f3ce54e379bb9",
+      "days_until": 3
+    },
+    {
+      "event_id": "4af67bb748a162eac968",
       "days_until": 1
     },
     {
-      "event_id": "da23e45a40765c49e5fb",
-      "days_until": 1
-    },
-    {
-      "event_id": "0da3def3b3e164e340f3",
+      "event_id": "26ef079e1d879b5bfeca",
       "days_until": 1
     }
   ],
@@ -240,5 +240,5 @@
     ],
     "limit": 3
   },
-  "data_hash": "2cdbaa1139fc6dc24052ebf38b92158524462442c4308ebe560dff92326b36b7"
+  "data_hash": "990bd5fc1cd457707af06cbb497cab3019a4d2cfaaa2b8332028817f48403fbc"
 }
