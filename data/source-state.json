@@ -25,7 +25,7 @@
       "status": "scheduled",
       "id": "4920b270a08a901e0f3c",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -62,7 +62,7 @@
       "status": "scheduled",
       "id": "53af693bcb27cecca019",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -100,7 +100,7 @@
       "status": "scheduled",
       "id": "e3aadef48de5f2e43456",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -136,7 +136,7 @@
       "status": "scheduled",
       "id": "81b43b452128bdf58021",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -173,7 +173,7 @@
       "status": "scheduled",
       "id": "e6187826f9c12ec25e37",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -210,7 +210,7 @@
       "status": "scheduled",
       "id": "0da3def3b3e164e340f3",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -247,7 +247,7 @@
       "status": "scheduled",
       "id": "26ef079e1d879b5bfeca",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -284,7 +284,7 @@
       "status": "scheduled",
       "id": "279f1a72af3143b97f8b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -321,7 +321,7 @@
       "status": "scheduled",
       "id": "f88b8e7c15f024e3883b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -358,7 +358,7 @@
       "status": "scheduled",
       "id": "16550e0516aa7165562d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -395,7 +395,7 @@
       "status": "scheduled",
       "id": "0a06c144e627ce98c748",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -435,7 +435,7 @@
       "status": "scheduled",
       "id": "978b43583755a482c50a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -473,50 +473,13 @@
       "status": "scheduled",
       "id": "b951d43c214694991c60",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "Deutsches Museum",
           "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/naechtliche-welten#2026-10-31T09:00:00+01:00",
-          "priority": 10
-        }
-      ],
-      "stale": false
-    },
-    {
-      "title": "Mikrochips unter der Lupe",
-      "source_name": "Deutsches Museum",
-      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/mikrochips-unter-der-lupe-mit-ticket#2026-10-31T12:30:00+01:00",
-      "start": "2026-10-31T12:30:00+01:00",
-      "end": "2026-10-31T13:15:00+01:00",
-      "description": "Mikrochips steuern nicht nur Smartphones und Autos sondern auch die Waschmaschine und den Toaster. Wie funktionieren diese schillernden Winzlinge und wie werden sie hergestellt?",
-      "location_name": "Deutsches Museum · Experimentier-Werkstatt",
-      "address": null,
-      "district": null,
-      "category": "science",
-      "tags": [
-        "museum",
-        "science"
-      ],
-      "price_text": null,
-      "is_free": null,
-      "family_friendly": null,
-      "image_url": "https://www.deutsches-museum.de/assets/_processed_/8/f/csm_02_Development_1967d5db72.jpg",
-      "all_day": false,
-      "source_priority": 10,
-      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/mikrochips-unter-der-lupe-mit-ticket",
-      "status": "scheduled",
-      "id": "da23e45a40765c49e5fb",
-      "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
-      "relevance_score": 0,
-      "relevance_reasons": [],
-      "sources": [
-        {
-          "name": "Deutsches Museum",
-          "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/mikrochips-unter-der-lupe-mit-ticket#2026-10-31T12:30:00+01:00",
           "priority": 10
         }
       ],
@@ -548,7 +511,7 @@
       "status": "scheduled",
       "id": "b5ef7324f19209d31e0f",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -586,7 +549,7 @@
       "status": "scheduled",
       "id": "35e20314665f318b2464",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -623,7 +586,7 @@
       "status": "scheduled",
       "id": "bde02763d47b1ba14fff",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -661,7 +624,7 @@
       "status": "scheduled",
       "id": "781f72c547e1eefa3d1e",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -699,7 +662,7 @@
       "status": "scheduled",
       "id": "52e82a4db3382ad18d44",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -737,7 +700,7 @@
       "status": "scheduled",
       "id": "80432cb392e0574819df",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -775,7 +738,7 @@
       "status": "scheduled",
       "id": "54f7a799deccbbe97bc2",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -812,7 +775,7 @@
       "status": "scheduled",
       "id": "487c6f2ac797dc5a0759",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -850,7 +813,7 @@
       "status": "scheduled",
       "id": "06edef959b32cc9a5a83",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -888,7 +851,7 @@
       "status": "scheduled",
       "id": "1433f973ae80bb315247",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -926,7 +889,7 @@
       "status": "scheduled",
       "id": "d191e877eed4df6f7d04",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -964,7 +927,7 @@
       "status": "scheduled",
       "id": "e855a9b46f9b1c7ea482",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1001,7 +964,7 @@
       "status": "scheduled",
       "id": "866c7f5f9e132f46ee00",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1039,7 +1002,7 @@
       "status": "scheduled",
       "id": "cbfb51fd7e5b4a7b4e06",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1077,7 +1040,7 @@
       "status": "scheduled",
       "id": "003a6752508a845b32a7",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1115,7 +1078,7 @@
       "status": "scheduled",
       "id": "564f6c08ecd91891ec80",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1153,7 +1116,7 @@
       "status": "scheduled",
       "id": "543993959397effe7a23",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1191,7 +1154,7 @@
       "status": "scheduled",
       "id": "081e056bf59b485ee6e3",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1228,7 +1191,7 @@
       "status": "scheduled",
       "id": "4af67bb748a162eac968",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1266,7 +1229,7 @@
       "status": "scheduled",
       "id": "456de0694ed56b4c7d77",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1304,7 +1267,7 @@
       "status": "scheduled",
       "id": "b58cf960c6e16eb7f579",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1342,7 +1305,7 @@
       "status": "scheduled",
       "id": "7cb8ad9117c00b3de7cf",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1380,7 +1343,7 @@
       "status": "scheduled",
       "id": "dc717faf2331ff337c93",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1418,7 +1381,7 @@
       "status": "scheduled",
       "id": "589f128a85cd05765374",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1456,7 +1419,7 @@
       "status": "scheduled",
       "id": "fef8d508b63353a33a2d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1494,7 +1457,7 @@
       "status": "scheduled",
       "id": "55cd15a77c6346633337",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1531,7 +1494,7 @@
       "status": "scheduled",
       "id": "8c96e582d9765c17ce84",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1569,7 +1532,7 @@
       "status": "scheduled",
       "id": "928099f4771ede5e1016",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1607,7 +1570,7 @@
       "status": "scheduled",
       "id": "12fbfe5d1eebd771825c",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1645,7 +1608,7 @@
       "status": "scheduled",
       "id": "560bd9c683c12b8bbcfe",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1683,7 +1646,7 @@
       "status": "scheduled",
       "id": "a799be99356a1f753052",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1721,7 +1684,7 @@
       "status": "scheduled",
       "id": "1152632725a7039fa1fc",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1759,7 +1722,7 @@
       "status": "scheduled",
       "id": "d8c48782cf27685f1623",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1796,7 +1759,7 @@
       "status": "scheduled",
       "id": "5d52389f3ce54e379bb9",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1834,7 +1797,7 @@
       "status": "scheduled",
       "id": "103a3af6b89a5a1df674",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1872,7 +1835,7 @@
       "status": "scheduled",
       "id": "78bc250c422beee9af63",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1909,7 +1872,7 @@
       "status": "scheduled",
       "id": "f71c43b53cef158156f9",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1947,7 +1910,7 @@
       "status": "scheduled",
       "id": "2a92748e309d0e5eb8f2",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -1985,7 +1948,7 @@
       "status": "scheduled",
       "id": "1e01fc0a1ee59cd0a7b3",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2023,7 +1986,7 @@
       "status": "scheduled",
       "id": "c98cd899078a24f8518a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2061,7 +2024,7 @@
       "status": "scheduled",
       "id": "f1918f4b4b733e0f39cb",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2099,7 +2062,7 @@
       "status": "scheduled",
       "id": "25487c446faf43c12927",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2137,7 +2100,7 @@
       "status": "scheduled",
       "id": "b7e4c584cd83ab3251db",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2174,7 +2137,7 @@
       "status": "scheduled",
       "id": "32a60ae9bf09dfeb177f",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2212,7 +2175,7 @@
       "status": "scheduled",
       "id": "b31b17600e5ad8ef3047",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2250,7 +2213,7 @@
       "status": "scheduled",
       "id": "bd0bf1bdf946ce76a8cf",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2288,7 +2251,7 @@
       "status": "scheduled",
       "id": "bff7664f43c06cdff121",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2326,7 +2289,7 @@
       "status": "scheduled",
       "id": "c86b7f7d31b911c753fc",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2364,7 +2327,7 @@
       "status": "scheduled",
       "id": "ae9eb0f5bf92cb94acf1",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2402,7 +2365,7 @@
       "status": "scheduled",
       "id": "2b124544e37ad70cf5e5",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2440,7 +2403,7 @@
       "status": "scheduled",
       "id": "7f1fd9062db1469eb28b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2478,7 +2441,7 @@
       "status": "scheduled",
       "id": "5a595e8a2c5aafc71c9e",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2516,7 +2479,7 @@
       "status": "scheduled",
       "id": "fd387948a4d2ff00cd91",
       "discovered_at": "2026-10-31T13:05:24+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2554,7 +2517,7 @@
       "status": "scheduled",
       "id": "1e8d3d377d90d3f13b87",
       "discovered_at": "2026-10-31T13:05:24+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2592,7 +2555,7 @@
       "status": "scheduled",
       "id": "e4832073dcf85c52e51c",
       "discovered_at": "2026-10-31T13:05:24+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2630,7 +2593,7 @@
       "status": "scheduled",
       "id": "ffcc588edcfb303f6fb2",
       "discovered_at": "2026-10-31T13:05:24+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2668,13 +2631,51 @@
       "status": "scheduled",
       "id": "cde4e008ced8ad6de37d",
       "discovered_at": "2026-10-31T13:05:24+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
         {
           "name": "Deutsches Museum",
           "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/dein-leben-deine-gene#2026-11-06T09:00:00+01:00",
+          "priority": 10
+        }
+      ],
+      "stale": false
+    },
+    {
+      "title": "Future Box – Interaktive Führung",
+      "source_name": "Deutsches Museum",
+      "source_url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-11-06T10:30:00+01:00",
+      "start": "2026-11-06T10:30:00+01:00",
+      "end": "2026-11-06T12:00:00+01:00",
+      "description": "Quantencomputer, Raumschiffe, humanoide Roboter: Wie werden wir Menschen neueste Innovationen mit ihren Chancen und Risiken einsetzen, um die Zukunft zu gestalten? Lasst euch durch die Future Box im Forum der Zukunft führen.",
+      "location_name": "Deutsches Museum, Museumsinsel",
+      "address": null,
+      "district": null,
+      "category": "science",
+      "tags": [
+        "museum",
+        "recurring",
+        "science"
+      ],
+      "price_text": null,
+      "is_free": null,
+      "family_friendly": null,
+      "image_url": "https://www.deutsches-museum.de/assets/_processed_/b/0/csm_Forum-der-Zukunft_Future-Box_CD_93027_4b0583aa22.jpg",
+      "all_day": false,
+      "source_priority": 10,
+      "series_id": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung",
+      "status": "scheduled",
+      "id": "0fae557655789f99fc3f",
+      "discovered_at": "2026-10-31T13:23:31+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
+      "relevance_score": 0,
+      "relevance_reasons": [],
+      "sources": [
+        {
+          "name": "Deutsches Museum",
+          "url": "https://www.deutsches-museum.de/museumsinsel/programm/veranstaltung/future-box-interaktive-fuehrung#2026-11-06T10:30:00+01:00",
           "priority": 10
         }
       ],
@@ -2708,7 +2709,7 @@
       "status": "scheduled",
       "id": "d585379e7321a95e9def",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2746,7 +2747,7 @@
       "status": "scheduled",
       "id": "d585379e7321a95e9def",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2784,7 +2785,7 @@
       "status": "scheduled",
       "id": "3322431bcdb9e633aa49",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2821,7 +2822,7 @@
       "status": "scheduled",
       "id": "79efb246041565bfa061",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2859,7 +2860,7 @@
       "status": "scheduled",
       "id": "5b5c51d28805ee8c45df",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2897,7 +2898,7 @@
       "status": "scheduled",
       "id": "580f24d48808d52d397e",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2934,7 +2935,7 @@
       "status": "scheduled",
       "id": "4c329b9561756ece01be",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -2972,7 +2973,7 @@
       "status": "scheduled",
       "id": "02650713f1b57545a56d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3009,7 +3010,7 @@
       "status": "scheduled",
       "id": "c2cc3b3595a4f000c293",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3046,7 +3047,7 @@
       "status": "scheduled",
       "id": "e8abce2103e4c4eb5f31",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3083,7 +3084,7 @@
       "status": "scheduled",
       "id": "c2f78cf9bd76293c06a0",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3121,7 +3122,7 @@
       "status": "scheduled",
       "id": "3ba8e601e3e0af986c82",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3158,7 +3159,7 @@
       "status": "scheduled",
       "id": "6ed7da34c6763f119230",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3195,7 +3196,7 @@
       "status": "scheduled",
       "id": "c5a5465a7ae39e02d94a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3233,7 +3234,7 @@
       "status": "scheduled",
       "id": "70c0c7d0ca862d447c7a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3271,7 +3272,7 @@
       "status": "scheduled",
       "id": "79a1f289e1f5c78b221c",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3308,7 +3309,7 @@
       "status": "scheduled",
       "id": "eaca11e9cc85792f083d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3345,7 +3346,7 @@
       "status": "scheduled",
       "id": "809dad8d2558ee7364de",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3383,7 +3384,7 @@
       "status": "scheduled",
       "id": "c9a07a7ade6464f426bc",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3421,7 +3422,7 @@
       "status": "scheduled",
       "id": "76d53fd5c8db3c21dc3b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3458,7 +3459,7 @@
       "status": "scheduled",
       "id": "4c70d58f8be27c7dd915",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3496,7 +3497,7 @@
       "status": "scheduled",
       "id": "f508982819cec7d34102",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3534,7 +3535,7 @@
       "status": "scheduled",
       "id": "f56bd6d0ef1103d31dcb",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3572,7 +3573,7 @@
       "status": "scheduled",
       "id": "fad0c936ab73f7507247",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3609,7 +3610,7 @@
       "status": "scheduled",
       "id": "d2c5e30640812f7e5bde",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3647,7 +3648,7 @@
       "status": "scheduled",
       "id": "25a3ac0cdc4735acdb46",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3684,7 +3685,7 @@
       "status": "scheduled",
       "id": "b7b381d1698e9b2aa180",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3722,7 +3723,7 @@
       "status": "scheduled",
       "id": "5941c04ba17a70ee8e99",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3760,7 +3761,7 @@
       "status": "scheduled",
       "id": "86524db99f532854ac20",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3797,7 +3798,7 @@
       "status": "scheduled",
       "id": "d70c7c7401170d4d754f",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3834,7 +3835,7 @@
       "status": "scheduled",
       "id": "3d40652bb5bd20424f38",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3872,7 +3873,7 @@
       "status": "scheduled",
       "id": "cba6e1f17cdc199a2f11",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3910,7 +3911,7 @@
       "status": "scheduled",
       "id": "a60d85012ea78c8863ab",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3948,7 +3949,7 @@
       "status": "scheduled",
       "id": "09022d9f9ded239531d4",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -3986,7 +3987,7 @@
       "status": "scheduled",
       "id": "86b251420c42f31fa564",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4024,7 +4025,7 @@
       "status": "scheduled",
       "id": "18564885ea2c6a0c1ace",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4062,7 +4063,7 @@
       "status": "scheduled",
       "id": "b8e31ba45ee7594dd356",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4099,7 +4100,7 @@
       "status": "scheduled",
       "id": "aa6901f60b74388cbb07",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4137,7 +4138,7 @@
       "status": "scheduled",
       "id": "c8640b7bf6598134deae",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4175,7 +4176,7 @@
       "status": "scheduled",
       "id": "59e8012b154ee7d4a3ef",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4213,7 +4214,7 @@
       "status": "scheduled",
       "id": "7a903aa02486c0ef01c5",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4251,7 +4252,7 @@
       "status": "scheduled",
       "id": "70c8bf0a1ecd05e08e68",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4289,7 +4290,7 @@
       "status": "scheduled",
       "id": "c895efd156fb9b41f9a9",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4326,7 +4327,7 @@
       "status": "scheduled",
       "id": "7ce9266c617e3a996e02",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4363,7 +4364,7 @@
       "status": "scheduled",
       "id": "1345cb4ce458a5e926a7",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4400,7 +4401,7 @@
       "status": "scheduled",
       "id": "ba0eac1aeb32dc0be693",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4440,7 +4441,7 @@
       "status": "scheduled",
       "id": "c36e6f49991103d869dd",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4478,7 +4479,7 @@
       "status": "scheduled",
       "id": "3730ee9bbc025c4a55e0",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4515,7 +4516,7 @@
       "status": "scheduled",
       "id": "561594ad1b6710dd4df3",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4551,7 +4552,7 @@
       "status": "scheduled",
       "id": "3557b2eba4ec4b26b189",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4588,7 +4589,7 @@
       "status": "scheduled",
       "id": "7294f665ff4e9340c92b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4626,7 +4627,7 @@
       "status": "scheduled",
       "id": "9ff3c62201cc3a607121",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4663,7 +4664,7 @@
       "status": "scheduled",
       "id": "ca30a4d81fa726b36255",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4699,7 +4700,7 @@
       "status": "scheduled",
       "id": "c79c74bc703782d03a06",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4737,7 +4738,7 @@
       "status": "scheduled",
       "id": "a1d900432588293d2751",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4773,7 +4774,7 @@
       "status": "scheduled",
       "id": "568e183ee11c5b81cf8d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4811,7 +4812,7 @@
       "status": "scheduled",
       "id": "98281784159b659da4fe",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4849,7 +4850,7 @@
       "status": "scheduled",
       "id": "c32ddcaf718efb6e3295",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4886,7 +4887,7 @@
       "status": "scheduled",
       "id": "8932740ba4db71bb04d0",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4922,7 +4923,7 @@
       "status": "scheduled",
       "id": "12a32efd8eda026793cf",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4959,7 +4960,7 @@
       "status": "scheduled",
       "id": "185d6a7a4562668ceece",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -4997,7 +4998,7 @@
       "status": "scheduled",
       "id": "1c28ac7cbe47ddf60eef",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5035,7 +5036,7 @@
       "status": "scheduled",
       "id": "11daef7df217a6946dac",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5071,7 +5072,7 @@
       "status": "scheduled",
       "id": "acf42c94567d7303e70e",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5108,7 +5109,7 @@
       "status": "scheduled",
       "id": "6aaae3e9d3bb93315934",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5146,7 +5147,7 @@
       "status": "scheduled",
       "id": "05db2483804e2d0a4a55",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5184,7 +5185,7 @@
       "status": "scheduled",
       "id": "1cfc2f48b2802379f2c7",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5220,7 +5221,7 @@
       "status": "scheduled",
       "id": "d488368fa537351f2128",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5256,7 +5257,7 @@
       "status": "scheduled",
       "id": "272d6bb8c396ff871fd2",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5294,7 +5295,7 @@
       "status": "scheduled",
       "id": "6e91a44f92106847fcd5",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5332,7 +5333,7 @@
       "status": "scheduled",
       "id": "78b02093aeec2257ecbe",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5369,7 +5370,7 @@
       "status": "scheduled",
       "id": "4139af6caea92659778f",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5405,7 +5406,7 @@
       "status": "scheduled",
       "id": "8acc2223a37a111ae9be",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5441,7 +5442,7 @@
       "status": "scheduled",
       "id": "8d5085eda9a5ebf9b7c4",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5479,7 +5480,7 @@
       "status": "scheduled",
       "id": "a28335da4e41e05a32b4",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5517,7 +5518,7 @@
       "status": "scheduled",
       "id": "aa7c41a98c58b2e97de3",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5554,7 +5555,7 @@
       "status": "scheduled",
       "id": "d0741f1e44a50fc92297",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5590,7 +5591,7 @@
       "status": "scheduled",
       "id": "869f2207d9c37a580630",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5627,7 +5628,7 @@
       "status": "scheduled",
       "id": "9ea333b50c18009ab593",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5663,7 +5664,7 @@
       "status": "scheduled",
       "id": "0b70189681bf7f7c4cc8",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5701,7 +5702,7 @@
       "status": "scheduled",
       "id": "1241579e17b2da7467fa",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5739,7 +5740,7 @@
       "status": "scheduled",
       "id": "572d1eb0d0c2ae6500b1",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5776,7 +5777,7 @@
       "status": "scheduled",
       "id": "701343cb0c244652e8ac",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5813,7 +5814,7 @@
       "status": "scheduled",
       "id": "9aec045bc982407a128a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5851,7 +5852,7 @@
       "status": "scheduled",
       "id": "d821d8801a2a172b3a58",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5889,7 +5890,7 @@
       "status": "scheduled",
       "id": "d335442de4e2bdfe8eca",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5927,7 +5928,7 @@
       "status": "scheduled",
       "id": "59048987dbfb406ba3b7",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -5965,7 +5966,7 @@
       "status": "scheduled",
       "id": "c3bb353202414040cd96",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6003,7 +6004,7 @@
       "status": "scheduled",
       "id": "6250d595777147e757e1",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6041,7 +6042,7 @@
       "status": "scheduled",
       "id": "dc7e67aefc85fd326320",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6079,7 +6080,7 @@
       "status": "scheduled",
       "id": "357459069cf78a0dcc35",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6116,7 +6117,7 @@
       "status": "scheduled",
       "id": "872e88d6cd772d22a1ee",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6153,7 +6154,7 @@
       "status": "scheduled",
       "id": "d88856207b6116e6bdfc",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6191,7 +6192,7 @@
       "status": "scheduled",
       "id": "2baa85429fa3663d322b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6229,7 +6230,7 @@
       "status": "scheduled",
       "id": "c91a8aae65881c31f7ab",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6265,7 +6266,7 @@
       "status": "scheduled",
       "id": "df3b8769df6d8cede955",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6302,7 +6303,7 @@
       "status": "scheduled",
       "id": "f6f12547245fd349f0b6",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6340,7 +6341,7 @@
       "status": "scheduled",
       "id": "80e910ac3b0af201315c",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6378,7 +6379,7 @@
       "status": "scheduled",
       "id": "14a3db26db544cf81794",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6415,7 +6416,7 @@
       "status": "scheduled",
       "id": "ec510aa11b128bd5cf08",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6451,7 +6452,7 @@
       "status": "scheduled",
       "id": "831222b70bb6549127fb",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6489,7 +6490,7 @@
       "status": "scheduled",
       "id": "89479dfec493104d8260",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6527,7 +6528,7 @@
       "status": "scheduled",
       "id": "f820c4e47396c59c842a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6564,7 +6565,7 @@
       "status": "scheduled",
       "id": "8d5febb15604e172aefd",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6600,7 +6601,7 @@
       "status": "scheduled",
       "id": "bb616aa769ec88925aca",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6637,7 +6638,7 @@
       "status": "scheduled",
       "id": "709796bb44ca5638df72",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6673,7 +6674,7 @@
       "status": "scheduled",
       "id": "4c3cf5c69edc520247f1",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6711,7 +6712,7 @@
       "status": "scheduled",
       "id": "30401d56a43b778cd670",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6749,7 +6750,7 @@
       "status": "scheduled",
       "id": "e69dc1310bc42898c831",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6787,7 +6788,7 @@
       "status": "scheduled",
       "id": "7e9f540f265c9d94c5f4",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6825,7 +6826,7 @@
       "status": "scheduled",
       "id": "b51df3a751d1d26f9ded",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6863,7 +6864,7 @@
       "status": "scheduled",
       "id": "094860ec212f2405a795",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6900,7 +6901,7 @@
       "status": "scheduled",
       "id": "28de3248e57ac809175c",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6937,7 +6938,7 @@
       "status": "scheduled",
       "id": "1bd90f5345e9fb3a8ece",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -6975,7 +6976,7 @@
       "status": "scheduled",
       "id": "969321e027875fd814e4",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7013,7 +7014,7 @@
       "status": "scheduled",
       "id": "4c48594cc096fb9abcb2",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7051,7 +7052,7 @@
       "status": "scheduled",
       "id": "828ada581281bfc618b4",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7089,7 +7090,7 @@
       "status": "scheduled",
       "id": "1567f9521d64c43e47f3",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7125,7 +7126,7 @@
       "status": "scheduled",
       "id": "c8f0630d32ae8cbe88a2",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7163,7 +7164,7 @@
       "status": "scheduled",
       "id": "cb4a68b4f6e81360a078",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7199,7 +7200,7 @@
       "status": "scheduled",
       "id": "e9fe218f011d4048dd58",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7237,7 +7238,7 @@
       "status": "scheduled",
       "id": "7a01f8584ad7b6f8b3c8",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7273,7 +7274,7 @@
       "status": "scheduled",
       "id": "7d0dac3b0dbde6691aeb",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7311,7 +7312,7 @@
       "status": "scheduled",
       "id": "9238e141981840722a8c",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7349,7 +7350,7 @@
       "status": "scheduled",
       "id": "90d75a3bdb687f8bbdc1",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7385,7 +7386,7 @@
       "status": "scheduled",
       "id": "23f505953c3f9a030384",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7421,7 +7422,7 @@
       "status": "scheduled",
       "id": "ff0d4fffed408c19483a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7459,7 +7460,7 @@
       "status": "scheduled",
       "id": "ae29c4aba571f5202239",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7497,7 +7498,7 @@
       "status": "scheduled",
       "id": "96661343934a3279d171",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7535,7 +7536,7 @@
       "status": "scheduled",
       "id": "0efe5ebb2b4643bc620b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7573,7 +7574,7 @@
       "status": "scheduled",
       "id": "a38097193fb7de719b34",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7611,7 +7612,7 @@
       "status": "scheduled",
       "id": "6201c5e0d8d9ccc373dd",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7649,7 +7650,7 @@
       "status": "scheduled",
       "id": "07cbf83e65e412f572d5",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7687,7 +7688,7 @@
       "status": "scheduled",
       "id": "eea530771a13eee88061",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7724,7 +7725,7 @@
       "status": "scheduled",
       "id": "906400097637621835b6",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7761,7 +7762,7 @@
       "status": "scheduled",
       "id": "257faf9e4d0184010700",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7799,7 +7800,7 @@
       "status": "scheduled",
       "id": "0fbb4546e6d452cb441a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7837,7 +7838,7 @@
       "status": "scheduled",
       "id": "ab5fd531dfd58e651ec4",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7874,7 +7875,7 @@
       "status": "scheduled",
       "id": "b7d67d93f8651118b9b6",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7911,7 +7912,7 @@
       "status": "scheduled",
       "id": "43bd8ba41c4594e994da",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7947,7 +7948,7 @@
       "status": "scheduled",
       "id": "d0296fc4f6ab90cefdeb",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -7984,7 +7985,7 @@
       "status": "scheduled",
       "id": "c39665aabac7194ca2f3",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8022,7 +8023,7 @@
       "status": "scheduled",
       "id": "eff0d81a6308a89b8c30",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8060,7 +8061,7 @@
       "status": "scheduled",
       "id": "1754e31da1e1b0cacf1a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8097,7 +8098,7 @@
       "status": "scheduled",
       "id": "20b4cc3a13f2fce0608e",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8134,7 +8135,7 @@
       "status": "scheduled",
       "id": "dd29472c09f1754e4d81",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8171,7 +8172,7 @@
       "status": "scheduled",
       "id": "d0741f1e44a50fc92297",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8207,7 +8208,7 @@
       "status": "scheduled",
       "id": "869f2207d9c37a580630",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8244,7 +8245,7 @@
       "status": "scheduled",
       "id": "9ea333b50c18009ab593",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8280,7 +8281,7 @@
       "status": "scheduled",
       "id": "0b70189681bf7f7c4cc8",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8317,7 +8318,7 @@
       "status": "scheduled",
       "id": "701343cb0c244652e8ac",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8354,7 +8355,7 @@
       "status": "scheduled",
       "id": "9aec045bc982407a128a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8391,7 +8392,7 @@
       "status": "scheduled",
       "id": "872e88d6cd772d22a1ee",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8428,7 +8429,7 @@
       "status": "scheduled",
       "id": "d88856207b6116e6bdfc",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8464,7 +8465,7 @@
       "status": "scheduled",
       "id": "df3b8769df6d8cede955",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8501,7 +8502,7 @@
       "status": "scheduled",
       "id": "f6f12547245fd349f0b6",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8538,7 +8539,7 @@
       "status": "scheduled",
       "id": "ec510aa11b128bd5cf08",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8574,7 +8575,7 @@
       "status": "scheduled",
       "id": "831222b70bb6549127fb",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8611,7 +8612,7 @@
       "status": "scheduled",
       "id": "8d5febb15604e172aefd",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8647,7 +8648,7 @@
       "status": "scheduled",
       "id": "bb616aa769ec88925aca",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8684,7 +8685,7 @@
       "status": "scheduled",
       "id": "709796bb44ca5638df72",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8718,7 +8719,7 @@
       "status": "scheduled",
       "id": "39cd4ed2ccee39999607",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8752,7 +8753,7 @@
       "status": "scheduled",
       "id": "42ca420fa20fd359a552",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8788,7 +8789,7 @@
       "status": "scheduled",
       "id": "f7cff17775570704342b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8824,7 +8825,7 @@
       "status": "scheduled",
       "id": "e323749cd18d1b55ffc0",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8860,7 +8861,7 @@
       "status": "scheduled",
       "id": "1a5a15c104f4e79f7cdb",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8896,7 +8897,7 @@
       "status": "scheduled",
       "id": "f3511ad2694ff2df6929",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8932,7 +8933,7 @@
       "status": "scheduled",
       "id": "982b5af6b2223b883572",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -8968,7 +8969,7 @@
       "status": "scheduled",
       "id": "d9ad61a5935e8ab5e3d4",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9004,7 +9005,7 @@
       "status": "scheduled",
       "id": "ac62e75851e1769635e2",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9040,7 +9041,7 @@
       "status": "scheduled",
       "id": "7cd0862c47c83da9aea5",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9076,7 +9077,7 @@
       "status": "scheduled",
       "id": "6fac569926bf2331497f",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9112,7 +9113,7 @@
       "status": "scheduled",
       "id": "96900e6c74bd2a2a4f01",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9148,7 +9149,7 @@
       "status": "scheduled",
       "id": "0c49409432d61006cd11",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9184,7 +9185,7 @@
       "status": "scheduled",
       "id": "3e15663cb4a67765d581",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9220,7 +9221,7 @@
       "status": "scheduled",
       "id": "a80acf9930ac5eb9851d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9256,7 +9257,7 @@
       "status": "scheduled",
       "id": "9a0a00b3ab56149e1b17",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9292,7 +9293,7 @@
       "status": "scheduled",
       "id": "6b9f71e0b9a9e628be5a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9328,7 +9329,7 @@
       "status": "scheduled",
       "id": "16a30a77868888cd4c18",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9364,7 +9365,7 @@
       "status": "scheduled",
       "id": "a87f608032a29730f04f",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9400,7 +9401,7 @@
       "status": "scheduled",
       "id": "5f1566120c2c37f6745e",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9436,7 +9437,7 @@
       "status": "scheduled",
       "id": "6f6d6cc44d8dc7b92918",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9472,7 +9473,7 @@
       "status": "scheduled",
       "id": "e4bcf22bc215a0df527a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9508,7 +9509,7 @@
       "status": "scheduled",
       "id": "8634ab1a75b381528610",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9544,7 +9545,7 @@
       "status": "scheduled",
       "id": "37d1b33f7ea78065a7e5",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9580,7 +9581,7 @@
       "status": "scheduled",
       "id": "8561cb9946b90267adb8",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9616,7 +9617,7 @@
       "status": "scheduled",
       "id": "b46a56adf9abb7141dfd",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9652,7 +9653,7 @@
       "status": "scheduled",
       "id": "4097415a70718fe71d7b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9688,7 +9689,7 @@
       "status": "scheduled",
       "id": "6daaf37471b9c4b96657",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9724,7 +9725,7 @@
       "status": "scheduled",
       "id": "8c2bfe5469469d542b71",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9760,7 +9761,7 @@
       "status": "scheduled",
       "id": "ea79f8d06e136d3a67de",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9796,7 +9797,7 @@
       "status": "scheduled",
       "id": "84e4e6ab8b24946d112f",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9832,7 +9833,7 @@
       "status": "scheduled",
       "id": "a49e138fde1451149271",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9866,7 +9867,7 @@
       "status": "scheduled",
       "id": "e191d0e5b26b6f1cc98b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9900,7 +9901,7 @@
       "status": "scheduled",
       "id": "ec44142e63ee3d3f1613",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9934,7 +9935,7 @@
       "status": "scheduled",
       "id": "8c2bfe5469469d542b71",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -9968,7 +9969,7 @@
       "status": "scheduled",
       "id": "62ed0393ad137561804d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10002,7 +10003,7 @@
       "status": "scheduled",
       "id": "eaa50e2d40a2d06fa5cb",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10036,7 +10037,7 @@
       "status": "scheduled",
       "id": "0b15c46518572ee30e89",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10070,7 +10071,7 @@
       "status": "scheduled",
       "id": "e764ae7b0cb61ddf0f0b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10104,7 +10105,7 @@
       "status": "scheduled",
       "id": "b9b6478cae07759d8fb0",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10138,7 +10139,7 @@
       "status": "scheduled",
       "id": "c2adfebbac823174cde4",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10172,7 +10173,7 @@
       "status": "scheduled",
       "id": "26f1487f40bf12d51f24",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10208,7 +10209,7 @@
       "status": "scheduled",
       "id": "c60edb4cc5c26caca296",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10242,7 +10243,7 @@
       "status": "scheduled",
       "id": "8d5085eda9a5ebf9b7c4",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10276,7 +10277,7 @@
       "status": "scheduled",
       "id": "8db74525888a68642d4e",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10310,7 +10311,7 @@
       "status": "scheduled",
       "id": "3413a9626cb65f5737f3",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10344,7 +10345,7 @@
       "status": "scheduled",
       "id": "837af134a7dcc6606c47",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10378,7 +10379,7 @@
       "status": "scheduled",
       "id": "8b02c1f56afb6c164872",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10412,7 +10413,7 @@
       "status": "scheduled",
       "id": "8eb0ab8de5d14318bb15",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10446,7 +10447,7 @@
       "status": "scheduled",
       "id": "b644d05ee0ee1036980c",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10480,7 +10481,7 @@
       "status": "scheduled",
       "id": "4617066f2de7dd711213",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10514,7 +10515,7 @@
       "status": "scheduled",
       "id": "e98602b6086155db89e7",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10548,7 +10549,7 @@
       "status": "scheduled",
       "id": "f8494894e81dfe6d839a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10582,7 +10583,7 @@
       "status": "scheduled",
       "id": "84abc0a128533ce4c624",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10616,7 +10617,7 @@
       "status": "scheduled",
       "id": "2d10f4022f5611ad5e40",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10650,7 +10651,7 @@
       "status": "scheduled",
       "id": "ab88c2c7e8643ff94f8a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10684,7 +10685,7 @@
       "status": "scheduled",
       "id": "a9cfe18960055fe5b458",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10718,7 +10719,7 @@
       "status": "scheduled",
       "id": "d970863887a98fabf8f6",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10752,7 +10753,7 @@
       "status": "scheduled",
       "id": "3013ac04471ff49f8214",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10786,7 +10787,7 @@
       "status": "scheduled",
       "id": "ccc2fc7ed068c5b80e37",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10820,7 +10821,7 @@
       "status": "scheduled",
       "id": "f2ccb05a9ba524598d9e",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10854,7 +10855,7 @@
       "status": "scheduled",
       "id": "77a634618427846106e6",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10891,7 +10892,7 @@
       "status": "scheduled",
       "id": "ba68174a076c9c143b50",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10927,7 +10928,7 @@
       "status": "scheduled",
       "id": "370999c4e68cb7f4b30f",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -10964,7 +10965,7 @@
       "status": "scheduled",
       "id": "0c2b4daaf52c2f0c3c77",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11001,7 +11002,7 @@
       "status": "scheduled",
       "id": "82be2ff412e35a999d83",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11038,7 +11039,7 @@
       "status": "scheduled",
       "id": "9d48b6b054a810877daa",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11075,7 +11076,7 @@
       "status": "scheduled",
       "id": "bdc913af9ae2221907b8",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11112,7 +11113,7 @@
       "status": "scheduled",
       "id": "f51e1efc9a3782e15a79",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11149,7 +11150,7 @@
       "status": "scheduled",
       "id": "b8fa51c3edb98f28015f",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11186,7 +11187,7 @@
       "status": "scheduled",
       "id": "ab74d0ddf30aebf1e36a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11223,7 +11224,7 @@
       "status": "scheduled",
       "id": "85ce56cb5941707dd934",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11260,7 +11261,7 @@
       "status": "scheduled",
       "id": "f89ab5dc8a842d2f6ab8",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11297,7 +11298,7 @@
       "status": "scheduled",
       "id": "b66e49aa342aaedaed21",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11334,7 +11335,7 @@
       "status": "scheduled",
       "id": "6f6b8158687225a18d90",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11371,7 +11372,7 @@
       "status": "scheduled",
       "id": "93796ae23279f4e004f0",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11408,7 +11409,7 @@
       "status": "scheduled",
       "id": "1608e7ea528c39defaa8",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11445,7 +11446,7 @@
       "status": "scheduled",
       "id": "897be81045fbba060ebe",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11481,7 +11482,7 @@
       "status": "scheduled",
       "id": "1a81ea566e5a3a1e47a5",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11518,7 +11519,7 @@
       "status": "scheduled",
       "id": "112b020635e20b8bd51f",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11555,7 +11556,7 @@
       "status": "scheduled",
       "id": "998eca837adb88212916",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11591,7 +11592,7 @@
       "status": "scheduled",
       "id": "1d05b180b8c64d001928",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11628,7 +11629,7 @@
       "status": "scheduled",
       "id": "6dd925acd687aecc154c",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11665,7 +11666,7 @@
       "status": "scheduled",
       "id": "33d2542401b052d0f5ab",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11701,7 +11702,7 @@
       "status": "scheduled",
       "id": "6ebd18fb3e2b5744e023",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11737,7 +11738,7 @@
       "status": "scheduled",
       "id": "6ebd18fb3e2b5744e023",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11774,7 +11775,7 @@
       "status": "scheduled",
       "id": "27b03c4dc4da6bec5c5c",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11808,7 +11809,7 @@
       "status": "scheduled",
       "id": "f91b250451059e2f9b9d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11842,7 +11843,7 @@
       "status": "scheduled",
       "id": "d88f07117f9dbc62feeb",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11879,7 +11880,7 @@
       "status": "scheduled",
       "id": "49f4b32c30257d30723c",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11916,7 +11917,7 @@
       "status": "scheduled",
       "id": "90963535f9f60f991978",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11953,7 +11954,7 @@
       "status": "scheduled",
       "id": "b588eb3d9731d86ff65e",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -11990,7 +11991,7 @@
       "status": "scheduled",
       "id": "585527967d55159a5471",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12027,7 +12028,7 @@
       "status": "scheduled",
       "id": "0d76d886d7de8faf8259",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12064,7 +12065,7 @@
       "status": "scheduled",
       "id": "45692eba1505dadf32a5",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12101,7 +12102,7 @@
       "status": "scheduled",
       "id": "7f7872e126d45d69690c",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12138,7 +12139,7 @@
       "status": "scheduled",
       "id": "322c7c96a2737e6f7e4a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12175,7 +12176,7 @@
       "status": "scheduled",
       "id": "dc0b45c309a6f2ffcc11",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12212,7 +12213,7 @@
       "status": "scheduled",
       "id": "eec5bc032e0b5f93b51e",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12249,7 +12250,7 @@
       "status": "scheduled",
       "id": "aaa629e11a1f780ec372",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12286,7 +12287,7 @@
       "status": "scheduled",
       "id": "0d4048f18ca59364a457",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12323,7 +12324,7 @@
       "status": "scheduled",
       "id": "f40444076f12b07588d0",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12359,7 +12360,7 @@
       "status": "scheduled",
       "id": "be8168a55eae71c3a7a9",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12396,7 +12397,7 @@
       "status": "scheduled",
       "id": "9040c78d212bb8302c93",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12433,7 +12434,7 @@
       "status": "scheduled",
       "id": "9c9ac51b0dd16170aaa6",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12470,7 +12471,7 @@
       "status": "scheduled",
       "id": "d089f1711495c7f2fbf4",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12507,7 +12508,7 @@
       "status": "scheduled",
       "id": "e955d46c3922143f48eb",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12544,7 +12545,7 @@
       "status": "scheduled",
       "id": "4b1a2d385ea62372973a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12581,7 +12582,7 @@
       "status": "scheduled",
       "id": "9c32bfeebfdaa5782b10",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12615,7 +12616,7 @@
       "status": "scheduled",
       "id": "e45ad6f6e041feda9501",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12652,7 +12653,7 @@
       "status": "scheduled",
       "id": "fe255082284f4af069bd",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12689,7 +12690,7 @@
       "status": "scheduled",
       "id": "a3a7db2b51fb00fee3f1",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12726,7 +12727,7 @@
       "status": "scheduled",
       "id": "028e98dc97c6fa9dd55a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12762,7 +12763,7 @@
       "status": "scheduled",
       "id": "f91b250451059e2f9b9d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12798,7 +12799,7 @@
       "status": "scheduled",
       "id": "d88f07117f9dbc62feeb",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12836,7 +12837,7 @@
       "status": "scheduled",
       "id": "ca40569be51bc6704bb2",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12872,7 +12873,7 @@
       "status": "scheduled",
       "id": "4d64d2332da528556933",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12909,7 +12910,7 @@
       "status": "scheduled",
       "id": "347690f2a6f1eff883b8",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12943,7 +12944,7 @@
       "status": "scheduled",
       "id": "f91b250451059e2f9b9d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -12977,7 +12978,7 @@
       "status": "scheduled",
       "id": "72cbcd30f9d9a089fa33",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13011,7 +13012,7 @@
       "status": "scheduled",
       "id": "d88f07117f9dbc62feeb",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13045,7 +13046,7 @@
       "status": "scheduled",
       "id": "0101216407657545e05f",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13083,7 +13084,7 @@
       "status": "scheduled",
       "id": "cf162c758633d1756a68",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13121,7 +13122,7 @@
       "status": "scheduled",
       "id": "0750542a972e208fa532",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13155,7 +13156,7 @@
       "status": "scheduled",
       "id": "332cb50232af97ac1f0f",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13193,7 +13194,7 @@
       "status": "scheduled",
       "id": "58d812f3f50112bd4547",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13227,7 +13228,7 @@
       "status": "scheduled",
       "id": "fc8057df8c91f6b34c19",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13264,7 +13265,7 @@
       "status": "scheduled",
       "id": "188437383936a3bf51c0",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13302,7 +13303,7 @@
       "status": "scheduled",
       "id": "892a78e4033d44738306",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13338,7 +13339,7 @@
       "status": "scheduled",
       "id": "e8b16961a9d702dbf817",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13372,7 +13373,7 @@
       "status": "scheduled",
       "id": "d248998114efc4285a74",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13409,7 +13410,7 @@
       "status": "scheduled",
       "id": "ddd9407876aab87c4d0d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13443,7 +13444,7 @@
       "status": "scheduled",
       "id": "e9dc4bf7bf79db00d356",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13477,7 +13478,7 @@
       "status": "scheduled",
       "id": "69dae7f4d09558fc9d61",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13511,7 +13512,7 @@
       "status": "scheduled",
       "id": "3526dd37919dfc4371e9",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13547,7 +13548,7 @@
       "status": "scheduled",
       "id": "8fa0a7f83f9d88c66736",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13581,7 +13582,7 @@
       "status": "scheduled",
       "id": "f0bab2f946b5b081a612",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13615,7 +13616,7 @@
       "status": "scheduled",
       "id": "295000a8833e9b7cac90",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13649,7 +13650,7 @@
       "status": "scheduled",
       "id": "165c26ba02968545b5f8",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13683,7 +13684,7 @@
       "status": "scheduled",
       "id": "7c16aa3a9a1660fbf698",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13717,7 +13718,7 @@
       "status": "scheduled",
       "id": "c44472d8d973a7cb1351",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13751,7 +13752,7 @@
       "status": "scheduled",
       "id": "002777cd8062344510a2",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13785,7 +13786,7 @@
       "status": "scheduled",
       "id": "ea83c8a971a0f583ea5d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13819,7 +13820,7 @@
       "status": "scheduled",
       "id": "04edde9d0ec464cf6f7b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13853,7 +13854,7 @@
       "status": "scheduled",
       "id": "dd051fd035397b02ca55",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13890,7 +13891,7 @@
       "status": "scheduled",
       "id": "6c7cb285e8e4d95424f4",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13924,7 +13925,7 @@
       "status": "scheduled",
       "id": "fd1e6814814c9243fb5f",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13958,7 +13959,7 @@
       "status": "scheduled",
       "id": "cf0abf1625fc55e4f9d6",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -13992,7 +13993,7 @@
       "status": "scheduled",
       "id": "5c3be43d16fc5ef41998",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14026,7 +14027,7 @@
       "status": "scheduled",
       "id": "0cd2ad56266439f365c6",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14062,7 +14063,7 @@
       "status": "scheduled",
       "id": "3b525ae80888ac851a9a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14096,7 +14097,7 @@
       "status": "scheduled",
       "id": "02de374d1a9f9fbd2c8b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14130,7 +14131,7 @@
       "status": "scheduled",
       "id": "dd240c74a50e97889bbc",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14164,7 +14165,7 @@
       "status": "scheduled",
       "id": "f5f905a71d55682b0ec4",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14198,7 +14199,7 @@
       "status": "scheduled",
       "id": "96b20452305632690e05",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14234,7 +14235,7 @@
       "status": "scheduled",
       "id": "b6fe44092618e209e7e4",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14268,7 +14269,7 @@
       "status": "scheduled",
       "id": "3e762e3af493f1fae862",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14302,7 +14303,7 @@
       "status": "scheduled",
       "id": "9064a1de3553441a7c44",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14338,7 +14339,7 @@
       "status": "scheduled",
       "id": "19e30ae8a3f2c6aa5c2d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14375,7 +14376,7 @@
       "status": "scheduled",
       "id": "7f577690a31d55eaf0c3",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14412,7 +14413,7 @@
       "status": "scheduled",
       "id": "a45551c962c63977fca5",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14451,7 +14452,7 @@
       "status": "scheduled",
       "id": "48768efbab2a1592f478",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14485,7 +14486,7 @@
       "status": "scheduled",
       "id": "4a14531638b7d0c395e2",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14522,7 +14523,7 @@
       "status": "scheduled",
       "id": "45fc10ec8d6038d0fd0d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14559,7 +14560,7 @@
       "status": "scheduled",
       "id": "a2720b65b7b323caa614",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14593,7 +14594,7 @@
       "status": "scheduled",
       "id": "c9677eabd76b96f8e577",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14631,7 +14632,7 @@
       "status": "scheduled",
       "id": "0ebd09482f28b99f5240",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14667,7 +14668,7 @@
       "status": "scheduled",
       "id": "3d9137ff1c9c70db03a9",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14704,7 +14705,7 @@
       "status": "scheduled",
       "id": "c5f1103ed8054b96685b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14741,7 +14742,7 @@
       "status": "scheduled",
       "id": "3a8bf47dd9342b63ad44",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14778,7 +14779,7 @@
       "status": "scheduled",
       "id": "dc3abb7c156920224403",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14815,7 +14816,7 @@
       "status": "scheduled",
       "id": "69f370d90e4a8cad17e7",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14852,7 +14853,7 @@
       "status": "scheduled",
       "id": "b9a2650ec356b299fdd2",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14889,7 +14890,7 @@
       "status": "scheduled",
       "id": "0bcf2337204e27bab3a4",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14926,7 +14927,7 @@
       "status": "scheduled",
       "id": "9a99dc286451f09bae27",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -14963,7 +14964,7 @@
       "status": "scheduled",
       "id": "393f01b28663b5a6d130",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15000,7 +15001,7 @@
       "status": "scheduled",
       "id": "38ab0b86743a59e6d064",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15038,7 +15039,7 @@
       "status": "scheduled",
       "id": "b63be5577dacc73091fe",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15075,7 +15076,7 @@
       "status": "scheduled",
       "id": "49222e3522126935acc4",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15113,7 +15114,7 @@
       "status": "scheduled",
       "id": "fc50ad88b9870d35813c",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15150,7 +15151,7 @@
       "status": "scheduled",
       "id": "9b15bb2c031e27d4d267",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15187,7 +15188,7 @@
       "status": "scheduled",
       "id": "6c9a40420bb93601df04",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15224,7 +15225,7 @@
       "status": "scheduled",
       "id": "698df178367fc14bf05d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15261,7 +15262,7 @@
       "status": "scheduled",
       "id": "da98549b0991651451e3",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15297,7 +15298,7 @@
       "status": "scheduled",
       "id": "0b8baf15cff010535e93",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15334,7 +15335,7 @@
       "status": "scheduled",
       "id": "0d261d85674bd82b8369",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15371,7 +15372,7 @@
       "status": "scheduled",
       "id": "72c8f856a67fc98b556c",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15409,7 +15410,7 @@
       "status": "scheduled",
       "id": "63cdbe2a3e32b33c2518",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15446,7 +15447,7 @@
       "status": "scheduled",
       "id": "c1bb98cffd594bf3a393",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15483,7 +15484,7 @@
       "status": "scheduled",
       "id": "8a6753495b958aacbe3c",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15521,7 +15522,7 @@
       "status": "scheduled",
       "id": "73b182065a4900b083e8",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15557,7 +15558,7 @@
       "status": "scheduled",
       "id": "867b6dd36f48d921f474",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15594,7 +15595,7 @@
       "status": "scheduled",
       "id": "fda5e71b5f248ed0d762",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15631,7 +15632,7 @@
       "status": "scheduled",
       "id": "a4c27b54bfc943ec2264",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15668,7 +15669,7 @@
       "status": "scheduled",
       "id": "8a8862cfaf0da37b460e",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15705,7 +15706,7 @@
       "status": "scheduled",
       "id": "6270eb60a33a6b1f7899",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15742,7 +15743,7 @@
       "status": "scheduled",
       "id": "aa3dc39c67822eecc973",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15779,7 +15780,7 @@
       "status": "scheduled",
       "id": "9c37da50dea2dc87c854",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15816,7 +15817,7 @@
       "status": "scheduled",
       "id": "8c3a33249d8d0a549cb1",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15853,7 +15854,7 @@
       "status": "scheduled",
       "id": "fbb52fdf325324b6b4f9",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15890,7 +15891,7 @@
       "status": "scheduled",
       "id": "04062ec4976394e15522",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15928,7 +15929,7 @@
       "status": "scheduled",
       "id": "a28b64813fceb4852e5c",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -15964,7 +15965,7 @@
       "status": "scheduled",
       "id": "a2f6606eb31bb98caa9b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16002,7 +16003,7 @@
       "status": "scheduled",
       "id": "dbe73fa41d621e472090",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16039,7 +16040,7 @@
       "status": "scheduled",
       "id": "a23f5f62a2d06d7100cc",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16076,7 +16077,7 @@
       "status": "scheduled",
       "id": "61c9ee23020c116fa04d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16114,7 +16115,7 @@
       "status": "scheduled",
       "id": "91894f9626ebd383f7f1",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16150,7 +16151,7 @@
       "status": "scheduled",
       "id": "e8397dbbf19f174a1356",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16186,7 +16187,7 @@
       "status": "scheduled",
       "id": "d87514d0f23fdabab2ac",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16222,7 +16223,7 @@
       "status": "scheduled",
       "id": "210183a9ed2115c94a12",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16258,7 +16259,7 @@
       "status": "scheduled",
       "id": "e3e855ea7f7bf3b92bc8",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16294,7 +16295,7 @@
       "status": "scheduled",
       "id": "5ae2eefb983584aa7410",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16330,7 +16331,7 @@
       "status": "scheduled",
       "id": "b9ce84bcecc1659e5d3f",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16367,7 +16368,7 @@
       "status": "scheduled",
       "id": "1092e07d9d2a8cd04164",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16404,7 +16405,7 @@
       "status": "scheduled",
       "id": "a92b52914648708ef323",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16441,7 +16442,7 @@
       "status": "scheduled",
       "id": "16624616385a812922be",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16478,7 +16479,7 @@
       "status": "scheduled",
       "id": "37d98dff710d1b196876",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16514,7 +16515,7 @@
       "status": "scheduled",
       "id": "95e0dfb9b1bea51bc4f0",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16550,7 +16551,7 @@
       "status": "scheduled",
       "id": "6c8882706a3616c451e7",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16586,7 +16587,7 @@
       "status": "scheduled",
       "id": "78deeca32f373d4a399d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16622,7 +16623,7 @@
       "status": "scheduled",
       "id": "a96de76425b020ab8ef9",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16658,7 +16659,7 @@
       "status": "scheduled",
       "id": "0632c73eb6526ce5f85d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16694,7 +16695,7 @@
       "status": "scheduled",
       "id": "9f2fbfa5cc30cda8b09a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16730,7 +16731,7 @@
       "status": "scheduled",
       "id": "0c80c730fc38928cfe7f",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16766,7 +16767,7 @@
       "status": "scheduled",
       "id": "bd51b268ec7347e74096",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16802,7 +16803,7 @@
       "status": "scheduled",
       "id": "ab2de11da80c0b1e9ab3",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16838,7 +16839,7 @@
       "status": "scheduled",
       "id": "780581b4b0a57ed28cec",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16874,7 +16875,7 @@
       "status": "scheduled",
       "id": "19e05a3a6d3b375bc2b9",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16910,7 +16911,7 @@
       "status": "scheduled",
       "id": "b995d6c394f83f2dd5a7",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16946,7 +16947,7 @@
       "status": "scheduled",
       "id": "764467296ee2f89d11ce",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -16982,7 +16983,7 @@
       "status": "scheduled",
       "id": "dc7ef99a7ad069f8cca0",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17019,7 +17020,7 @@
       "status": "scheduled",
       "id": "cb4e1dc98296fa5cbc65",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17055,7 +17056,7 @@
       "status": "scheduled",
       "id": "ada6d3fda64945442a0d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17092,7 +17093,7 @@
       "status": "scheduled",
       "id": "656c51fa93e69d2ab11f",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17128,7 +17129,7 @@
       "status": "scheduled",
       "id": "e415a062f87a5a59291f",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17165,7 +17166,7 @@
       "status": "scheduled",
       "id": "67aa30a4448135df745b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17202,7 +17203,7 @@
       "status": "scheduled",
       "id": "999730d0f5b6ffbf9d23",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17238,7 +17239,7 @@
       "status": "scheduled",
       "id": "f83e30ca6857200ce1c9",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17274,7 +17275,7 @@
       "status": "scheduled",
       "id": "66521d953f6c8e7daaff",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17310,7 +17311,7 @@
       "status": "scheduled",
       "id": "c05f003b2462a8ef22bf",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17346,7 +17347,7 @@
       "status": "scheduled",
       "id": "9e5bf400e2b3245ac06d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17383,7 +17384,7 @@
       "status": "scheduled",
       "id": "b1502d61efb6b810c74e",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17421,7 +17422,7 @@
       "status": "scheduled",
       "id": "ed94538c3315e2cdf123",
       "discovered_at": "2026-09-13T21:01:24+02:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17455,7 +17456,7 @@
       "status": "scheduled",
       "id": "f490ef9b384a3a8d577f",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17491,7 +17492,7 @@
       "status": "scheduled",
       "id": "068d5f33f7bfc739a05b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17525,7 +17526,7 @@
       "status": "scheduled",
       "id": "98156ce91ac8efbf2acf",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17559,7 +17560,7 @@
       "status": "scheduled",
       "id": "86d06e6f5441de91f5ef",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17593,7 +17594,7 @@
       "status": "scheduled",
       "id": "69cf46d2ef99fdba64eb",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17629,7 +17630,7 @@
       "status": "scheduled",
       "id": "cb9a7d56277db01862cf",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17663,7 +17664,7 @@
       "status": "scheduled",
       "id": "4b19566bb45bddf3e0c7",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17699,7 +17700,7 @@
       "status": "scheduled",
       "id": "d4b3c0d6c974ca67016a",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17733,7 +17734,7 @@
       "status": "scheduled",
       "id": "5ad54e868480d8f74e50",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17769,7 +17770,7 @@
       "status": "scheduled",
       "id": "e7e2ef61617415b60c40",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17805,7 +17806,7 @@
       "status": "scheduled",
       "id": "383dabce799eccf8e181",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17841,7 +17842,7 @@
       "status": "scheduled",
       "id": "52f6004228f245ca424b",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17875,7 +17876,7 @@
       "status": "scheduled",
       "id": "1b2477f5ec8a2fc14a38",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17915,7 +17916,7 @@
       "status": "scheduled",
       "id": "cee8ca092aada06e07ed",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17953,7 +17954,7 @@
       "status": "scheduled",
       "id": "da5fe90bcad5f23ee65d",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -17989,7 +17990,7 @@
       "status": "scheduled",
       "id": "6d73d53969911d650bda",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -18025,7 +18026,7 @@
       "status": "scheduled",
       "id": "74c0f9ee8c9489bfa676",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -18061,7 +18062,7 @@
       "status": "scheduled",
       "id": "f31c27cb3bdf4c6396aa",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -18097,7 +18098,7 @@
       "status": "scheduled",
       "id": "7edbc44b9cd0563f8db3",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [
@@ -18133,7 +18134,7 @@
       "status": "scheduled",
       "id": "f2de5eacb408b09147d0",
       "discovered_at": "2026-10-31T12:05:37+01:00",
-      "updated_at": "2026-10-31T13:12:07+01:00",
+      "updated_at": "2026-10-31T13:23:31+01:00",
       "relevance_score": 0,
       "relevance_reasons": [],
       "sources": [

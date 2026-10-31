@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-31T13:12:07+01:00",
+  "last_updated": "2026-10-31T13:23:31+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 14,
@@ -191,7 +191,7 @@
       "f91b250451059e2f9b9d",
       "487c6f2ac797dc5a0759",
       "370999c4e68cb7f4b30f",
-      "da23e45a40765c49e5fb"
+      "bde02763d47b1ba14fff"
     ],
     "tomorrow": [
       "f91b250451059e2f9b9d",
@@ -205,7 +205,7 @@
       "f91b250451059e2f9b9d",
       "487c6f2ac797dc5a0759",
       "370999c4e68cb7f4b30f",
-      "da23e45a40765c49e5fb"
+      "bde02763d47b1ba14fff"
     ],
     "upcoming": [
       "b7e4c584cd83ab3251db",
@@ -373,5 +373,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "d559493ae568763249c551cde86ec33988d06387f1b61185f5d5dd8536220a74"
+  "data_hash": "912c66af6dd7ef7df0439fde98f3b6e8f44d28026764122a44f2852d4abc7058"
 }
