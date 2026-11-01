@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-01T19:50:32+01:00",
+  "last_updated": "2026-11-01T23:41:28+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 14,
-  "events_collected": 581,
-  "events_after_deduplication": 510,
+  "events_collected": 582,
+  "events_after_deduplication": 511,
   "stale_events": 0,
   "sources": [
     {
@@ -84,7 +84,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 8,
+      "events": 9,
       "warnings": []
     },
     {
@@ -189,23 +189,23 @@
     "today": [
       "0d76d886d7de8faf8259",
       "322c7c96a2737e6f7e4a",
-      "26ef079e1d879b5bfeca",
       "a92b52914648708ef323",
-      "16624616385a812922be"
+      "16624616385a812922be",
+      "37d98dff710d1b196876"
     ],
     "tomorrow": [
       "ddd9407876aab87c4d0d",
       "456de0694ed56b4c7d77",
       "7cb8ad9117c00b3de7cf",
-      "892a78e4033d44738306",
-      "e8b16961a9d702dbf817"
+      "f804c88a1096b66cddba",
+      "892a78e4033d44738306"
     ],
     "weekend": [
       "0d76d886d7de8faf8259",
       "322c7c96a2737e6f7e4a",
-      "26ef079e1d879b5bfeca",
       "a92b52914648708ef323",
-      "16624616385a812922be"
+      "16624616385a812922be",
+      "37d98dff710d1b196876"
     ],
     "upcoming": [
       "5d52389f3ce54e379bb9",
@@ -217,9 +217,9 @@
     "new": [
       "0d76d886d7de8faf8259",
       "322c7c96a2737e6f7e4a",
-      "26ef079e1d879b5bfeca",
       "a92b52914648708ef323",
-      "16624616385a812922be"
+      "16624616385a812922be",
+      "37d98dff710d1b196876"
     ]
   },
   "heads_up": [
@@ -232,8 +232,8 @@
       "days_until": 3
     },
     {
-      "event_id": "279f1a72af3143b97f8b",
-      "days_until": 3
+      "event_id": "f804c88a1096b66cddba",
+      "days_until": 1
     }
   ],
   "heads_up_rules": {
@@ -373,5 +373,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "7c4ee8f226562cec85089d18e0f4501438e732eef094afcaa1380d6310afc2b4"
+  "data_hash": "1f53b7945e8be7a063319a737b60f790dd3dc3021a8140357d0e3b1c48b5c125"
 }
