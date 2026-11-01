@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-31T23:25:06+01:00",
+  "last_updated": "2026-11-01T12:11:45+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 14,
-  "events_collected": 553,
-  "events_after_deduplication": 468,
+  "events_collected": 581,
+  "events_after_deduplication": 509,
   "stale_events": 0,
   "sources": [
     {
@@ -100,7 +100,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 76,
+      "events": 72,
       "warnings": []
     },
     {
@@ -108,7 +108,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 258,
+      "events": 248,
       "warnings": []
     },
     {
@@ -116,7 +116,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 39,
+      "events": 38,
       "warnings": []
     },
     {
@@ -124,7 +124,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 5,
+      "events": 48,
       "warnings": []
     },
     {
@@ -187,52 +187,52 @@
   },
   "views": {
     "today": [
-      "72cbcd30f9d9a089fa33",
-      "f91b250451059e2f9b9d",
-      "370999c4e68cb7f4b30f",
-      "91894f9626ebd383f7f1",
-      "d87514d0f23fdabab2ac"
+      "0d76d886d7de8faf8259",
+      "322c7c96a2737e6f7e4a",
+      "4af67bb748a162eac968",
+      "26ef079e1d879b5bfeca",
+      "a92b52914648708ef323"
     ],
     "tomorrow": [
-      "f91b250451059e2f9b9d",
-      "d88f07117f9dbc62feeb",
-      "4af67bb748a162eac968",
-      "26ef079e1d879b5bfeca",
-      "ddd9407876aab87c4d0d"
+      "7cb8ad9117c00b3de7cf",
+      "ddd9407876aab87c4d0d",
+      "456de0694ed56b4c7d77",
+      "dc717faf2331ff337c93",
+      "892a78e4033d44738306"
     ],
     "weekend": [
-      "72cbcd30f9d9a089fa33",
-      "f91b250451059e2f9b9d",
-      "370999c4e68cb7f4b30f",
-      "91894f9626ebd383f7f1",
-      "d87514d0f23fdabab2ac"
+      "0d76d886d7de8faf8259",
+      "322c7c96a2737e6f7e4a",
+      "4af67bb748a162eac968",
+      "26ef079e1d879b5bfeca",
+      "a92b52914648708ef323"
     ],
     "upcoming": [
-      "b7e4c584cd83ab3251db",
-      "4af67bb748a162eac968",
-      "5d52389f3ce54e379bb9",
-      "26ef079e1d879b5bfeca",
-      "cee8ca092aada06e07ed"
+      "7cb8ad9117c00b3de7cf",
+      "cee8ca092aada06e07ed",
+      "456de0694ed56b4c7d77",
+      "dc717faf2331ff337c93",
+      "3b525ae80888ac851a9a"
     ],
     "new": [
-      "b7e4c584cd83ab3251db",
-      "72cbcd30f9d9a089fa33",
-      "370999c4e68cb7f4b30f",
-      "1d05b180b8c64d001928",
-      "91894f9626ebd383f7f1"
+      "0d76d886d7de8faf8259",
+      "322c7c96a2737e6f7e4a",
+      "4af67bb748a162eac968",
+      "26ef079e1d879b5bfeca",
+      "a92b52914648708ef323"
     ]
   },
   "heads_up": [
     {
-      "event_id": "4af67bb748a162eac968",
+      "event_id": "7cb8ad9117c00b3de7cf",
       "days_until": 1
     },
     {
-      "event_id": "5d52389f3ce54e379bb9",
-      "days_until": 3
+      "event_id": "dc717faf2331ff337c93",
+      "days_until": 1
     },
     {
-      "event_id": "26ef079e1d879b5bfeca",
+      "event_id": "fef8d508b63353a33a2d",
       "days_until": 1
     }
   ],
@@ -373,5 +373,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "78ccdc78a8830971341a007fb1b1d48c9d9702bc5eb7c58b1db23239a5c75235"
+  "data_hash": "973b23e30553f40e123c944fb484b352a445872f0301a4050e889b310180b1a9"
 }
