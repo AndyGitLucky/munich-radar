@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "url": "https://andygitlucky.github.io/munich-radar/",
+  "release": "58c1cc3ca1979622",
+  "projectSubpath": true,
+  "originalEventViewAndRecommendations": true,
+  "nativeTiles": true,
+  "mobileWidths": [
+    390,
+    320
+  ],
+  "originalAndCurrentMaps": true,
+  "reviewTextUtf8": true,
+  "errors": [],
+  "missing": []
+}

@@ -1,0 +1,31 @@
+{
+  "at": "2026-11-02T22:59:08.904562+00:00",
+  "runs": [
+    {
+      "id": 41540620895,
+      "name": "Update Munich Radar",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/AndyGitLucky/munich-radar/actions/runs/41540620895",
+      "head_sha": "a76f5c0d65042537c320a54bddc149b1a75fcb7f"
+    }
+  ],
+  "assets": [
+    {
+      "name": "atlas-58c1cc3ca1979622-web-01.zip",
+      "size": 749301520,
+      "state": "uploaded",
+      "digest": "sha256:56d83192f5993798b8cac6a8e122f9a23c1af4d7963397f142faf58bf8164c14"
+    }
+  ],
+  "publicStatus": 200,
+  "publicDeployment": {
+    "release": "58c1cc3ca1979622",
+    "baseline": "c6aec76905ecfb9c",
+    "assetName": "atlas-58c1cc3ca1979622-web-01.zip",
+    "tag": "atlas-58c1cc3ca1979622-web-01",
+    "sha256": "56d83192f5993798b8cac6a8e122f9a23c1af4d7963397f142faf58bf8164c14",
+    "bytes": 749301520,
+    "url": "https://github.com/AndyGitLucky/munich-radar/releases/download/atlas-58c1cc3ca1979622-web-01/atlas-58c1cc3ca1979622-web-01.zip"
+  }
+}

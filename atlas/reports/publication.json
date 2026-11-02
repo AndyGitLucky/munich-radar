@@ -1,0 +1,45 @@
+{
+  "recorded": "2026-11-02T23:01:40.533635+00:00",
+  "status": "published and verified",
+  "url": "https://andygitlucky.github.io/munich-radar/?v=58c1cc3ca1979622",
+  "reviewUrl": "https://andygitlucky.github.io/munich-radar/atlas/reports/rework-2026-11-02/",
+  "release": "58c1cc3ca1979622",
+  "workflow": {
+    "id": 41540620895,
+    "name": "Update Munich Radar",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/AndyGitLucky/munich-radar/actions/runs/41540620895",
+    "head_sha": "a76f5c0d65042537c320a54bddc149b1a75fcb7f"
+  },
+  "archive": {
+    "release": "58c1cc3ca1979622",
+    "sourceCommit": "60bdae6665f650887af156693eaa71b99ff9de15",
+    "githubRelease": "https://github.com/AndyGitLucky/munich-radar/releases/tag/atlas-58c1cc3ca1979622-web-01",
+    "asset": "https://github.com/AndyGitLucky/munich-radar/releases/download/atlas-58c1cc3ca1979622-web-01/atlas-58c1cc3ca1979622-web-01.zip",
+    "bytes": 749301520,
+    "sha256": "56d83192f5993798b8cac6a8e122f9a23c1af4d7963397f142faf58bf8164c14",
+    "githubDigest": "sha256:56d83192f5993798b8cac6a8e122f9a23c1af4d7963397f142faf58bf8164c14",
+    "status": "uploaded"
+  },
+  "liveWebKit": {
+    "status": "passed",
+    "url": "https://andygitlucky.github.io/munich-radar/",
+    "release": "58c1cc3ca1979622",
+    "projectSubpath": true,
+    "originalEventViewAndRecommendations": true,
+    "nativeTiles": true,
+    "mobileWidths": [
+      390,
+      320
+    ],
+    "originalAndCurrentMaps": true,
+    "reviewTextUtf8": true,
+    "errors": [],
+    "missing": []
+  },
+  "unitTestsPassed": 141,
+  "originalGitProvenanceFilesVerified": 337,
+  "latestEventDataCommit": "c60d4c0",
+  "textEncoding": "UTF-8; damaged umlauts and separators corrected, legitimate query-string question marks retained"
+}
