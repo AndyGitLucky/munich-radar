@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-02T13:13:22+01:00",
+  "last_updated": "2026-11-02T23:43:12+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
@@ -150,18 +150,18 @@
   },
   "views": {
     "today": [
-      "456de0694ed56b4c7d77",
-      "7cb8ad9117c00b3de7cf",
-      "0af15b02c2fc3fcf85fe",
-      "f804c88a1096b66cddba",
-      "90514e73049eee6903ca"
-    ],
-    "tomorrow": [
-      "5d52389f3ce54e379bb9",
       "f804c88a1096b66cddba",
       "ddd9407876aab87c4d0d",
-      "8c96e582d9765c17ce84",
-      "928099f4771ede5e1016"
+      "5266c0be656345e6618f",
+      "568e183ee11c5b81cf8d",
+      "892a78e4033d44738306"
+    ],
+    "tomorrow": [
+      "1049edcafbe70b03fa94",
+      "560bd9c683c12b8bbcfe",
+      "5d52389f3ce54e379bb9",
+      "f804c88a1096b66cddba",
+      "ddd9407876aab87c4d0d"
     ],
     "weekend": [
       "ddd9407876aab87c4d0d",
@@ -171,31 +171,31 @@
       "fdf7b2d2288462a71862"
     ],
     "upcoming": [
+      "1049edcafbe70b03fa94",
+      "560bd9c683c12b8bbcfe",
       "5d52389f3ce54e379bb9",
       "f71c43b53cef158156f9",
-      "cee8ca092aada06e07ed",
-      "436374188ebebd0501e8",
-      "869f2207d9c37a580630"
+      "cee8ca092aada06e07ed"
     ],
     "new": [
-      "456de0694ed56b4c7d77",
-      "7cb8ad9117c00b3de7cf",
-      "0af15b02c2fc3fcf85fe",
-      "f804c88a1096b66cddba",
-      "90514e73049eee6903ca"
+      "1049edcafbe70b03fa94",
+      "560bd9c683c12b8bbcfe",
+      "5d52389f3ce54e379bb9",
+      "f71c43b53cef158156f9",
+      "f804c88a1096b66cddba"
     ]
   },
   "heads_up": [
     {
+      "event_id": "1049edcafbe70b03fa94",
+      "days_until": 1
+    },
+    {
+      "event_id": "560bd9c683c12b8bbcfe",
+      "days_until": 1
+    },
+    {
       "event_id": "5d52389f3ce54e379bb9",
-      "days_until": 1
-    },
-    {
-      "event_id": "8c96e582d9765c17ce84",
-      "days_until": 1
-    },
-    {
-      "event_id": "3b525ae80888ac851a9a",
       "days_until": 1
     }
   ],
@@ -336,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "add2d48c4093117663707dd37fabf21efcb1628e5e5da0a97c8a0315666f1e99"
+  "data_hash": "3e5bd7fce2cfc15317335ad72ba8f6ee3cfab912928a4b182229f49c83f9a0cf"
 }
