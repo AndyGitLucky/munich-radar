@@ -67,7 +67,7 @@ window.RadarAtlas=(()=>{
     const xy=config.home?pixel(project(config.home.lon,config.home.lat)):[config.patchOrigin[0]+config.imageSize[0]*.53,config.patchOrigin[1]+config.imageSize[1]*.51];
     map.setView([-xy[1],xy[0]],map.getMaxZoom(),{animate:false});sync();
   }
-  function overview(){if(map){map.fitBounds(config.worldBounds,{padding:[24,24],animate:false,maxZoom:config.closestZoom});sync();}}
+  function overview(){if(map){updateMin();map.fitBounds(config.worldBounds,{padding:[24,24],animate:false,maxZoom:config.closestZoom});sync();}}
   function sync(){
     if(!map||!config)return;
     if(notice)notice.hidden=config.coverage==="full-city"||(artworkBounds().contains(map.getCenter())&&map.getZoom()>map.getMinZoom()+.5);
@@ -88,7 +88,13 @@ window.RadarAtlas=(()=>{
     }});
     return new LocalTiles({tileSize:256,minNativeZoom:c.tileMinZoom,maxNativeZoom:0,minZoom:-12,maxZoom:c.closestZoom,noWrap:true,keepBuffer:2,pane:"tilePane"});
   }
-  function updateMin(){map.setMinZoom(Math.min(config.closestZoom,map.getBoundsZoom(L.latLngBounds(config.worldBounds),false,[24,24])));}
+  function updateMin(){
+    // getBoundsZoom clamps to the existing minimum, preventing a narrower
+    // viewport from lowering that minimum. Compute the fit independently.
+    const size=map.getSize(),bounds=L.latLngBounds(config.worldBounds),snap=map.options.zoomSnap||1;
+    const scale=Math.min(Math.max(1,size.x-48)/(bounds.getEast()-bounds.getWest()),Math.max(1,size.y-48)/(bounds.getNorth()-bounds.getSouth()));
+    map.setMinZoom(Math.min(config.closestZoom,Math.floor(Math.log2(scale)/snap)*snap));
+  }
   function install(next,previousCamera){
     if(tiles)map.removeLayer(tiles);
     if(contextLayers)map.removeLayer(contextLayers);

@@ -1,0 +1,1028 @@
+{
+  "recorded": "2026-11-02T21:00:41.784511+00:00",
+  "baselineCommit": "b073503",
+  "previousRelease": "3c9ad473da92be8a",
+  "activeRelease": "58c1cc3ca1979622",
+  "paintingMethod": "Built-in image_gen only. Outputs are stored, not claimed deterministic; assembly uses fixed seams and seeded cloud placements.",
+  "changes": [
+    "Rectangular native 12311x9234 cloud composition outside Munich; exact city pixels preserved by cloud mask.",
+    "Two repeated radial fountain/palace districts replaced locally.",
+    "One western lake/woodland overlap strip repaired.",
+    "Viewport minimum zoom now recalculates independently of the previous minimum, so mobile overview fits the complete rectangle."
+  ],
+  "generations": [
+    {
+      "asset": "r08c13/district-01",
+      "tool": "built-in image_gen",
+      "prompt": "Create a richly detailed, hand-painted illustrated map of Munich and the Isar river.\n\nArt direction:\nCombine delicate watercolor washes, fine architectural linework, and editorial cartography. The image should feel like a lovingly illustrated city atlas: inviting, intricate, and carefully observed. Use a gently oblique bird’s-eye view so building facades and rooftops are visible, while the underlying map remains north-up.\n\nArchitecture:\nPaint miniature cream and warm-gray buildings with varied terracotta and muted gray roofs. Include tiny windows, courtyards, balconies, church towers, and carefully drawn bridges. Give recognizable landmarks expressive architectural character. Preserve crisp small details beneath the soft painted finish.\n\nLandscape:\nA winding turquoise river with subtle white glints, pale gravel banks, small islands, riverside footpaths, and clusters of individually painted trees. Mix sage, olive, and deeper greens. Add restrained tree shadows and occasional tiny pedestrians to give the city life and scale.\n\nPalette and texture:\nWarm mineral ivory #F2EFE6, muted water teal #68AAA4, dark river green #173E3A, pale stone, olive foliage, and restrained clay-colored roofs. Matte watercolor-paper texture, translucent washes, softly shaded buildings, and fine visible brushwork. Keep the overall image light and readable.\n\nComposition:\nCreate a continuous illustrated landscape that rewards close inspection. Balance dense architectural detail with quieter water, parks, and gravel shores.\n\nIf a geographic guide is supplied, preserve its ground layout, river bends, islands, crossings, and landmark positions. Apply the painted appearance without rearranging the geography.\n\nOutput:\nMap illustration only, filling the entire image. No text, labels, pins, interface elements, borders, or decorative compass.\n\nAvoid:\nPhotorealism, glossy 3D rendering, flat vector icons, pixel art, heavy outlines, muddy watercolor blur, exaggerated saturation, and tourist-poster clichés.\n\nEDIT THE SUPPLIED ORIGINAL PAINTING. Image 1 is the edit target and binding palette/detail reference, never a stamp for a different place.\nTask: Replace the repeated circular fountain plaza, radial wedge blocks and oversized palace buildings inside the edit area with an individual eastern Munich residential neighborhood: varied small terracotta-roof houses, modest apartment rows, irregular courtyards and gardens. Follow the local geographic guide and connect existing roads at the edit edges. Retain the small existing lake segment in the top margin. No new river, no monumental palace, no radial plaza. Keep original rich palette, crisp miniature detail and north-up registration.\nImage 2 is this section’s original geographic guide. Any following images are only direct geographic neighbors, for matching shared transitions and miniature scale; do not copy their compositions.\nChange only x=100..1100, y=150..1100 in this exact 1254-square frame. Keep everything outside it visually unchanged and connect streets/vegetation at its edges.\nPreserve the rich olive and sage greens, terracotta/clay roofs, cream architecture, turquoise water, fine dark outlines, miniature architectural scale and dense detail of the supplied original. Do not reinterpret its colors as pale beige countryside, enlarge its buildings or add a new style/material board. Preserve north-up ground, existing river/canal courses, bridges, crop and shadow direction. No copied radial neighborhood or palace stamp, no text, UI, labels, watermark or blank margins.\nReturn one full edited image at exactly 1254 by 1254 native pixels.\n",
+      "promptSha256": "0b4e9ec7d66680d69a48257036422521c212d350c8d47fade95506cc2b59c14c",
+      "references": [
+        {
+          "path": "baseline/images/r08c13.png",
+          "sha256": "88317d63bc4be9e87481228c35a72af4d6c4e5a8f5a57cb7ad0b20f80065381c"
+        },
+        {
+          "path": "baseline/references/13c9c3fd4780c27ebec305ca89b74122f2c312be1d9c722460dbcdea5b4d7604.png",
+          "sha256": "13c9c3fd4780c27ebec305ca89b74122f2c312be1d9c722460dbcdea5b4d7604"
+        },
+        {
+          "path": "baseline/images/r07c13.png",
+          "sha256": "6abcb942af2c1cd52b15f118658a3d3477762aedb6e85d4fb9697e8afe577d5f"
+        },
+        {
+          "path": "baseline/images/r08c12.png",
+          "sha256": "891d8261c16c6c18f893452b027dec78b8d3a15ebdb6a8f0ff3319717f4a96bf"
+        },
+        {
+          "path": "baseline/images/r09c13.png",
+          "sha256": "8c34db53baffbb835b69ae39632932a755ffb04a7e827a52170c64177e6357f4"
+        }
+      ],
+      "source": "C:\\Users\\andre\\.codex\\generated_images\\01a19dcf-e2d1-7e51-943f-33ab0b0ff710\\exec-f3192d2a-7506-4a67-a808-69910525e2b7.png",
+      "rawSha256": "091d40548662f2b588674872ee29cf4a8b0ddf3ef00d2fdb5c23e923f73ca210",
+      "candidateSha256": "11d4aab688637e39bbffef7eea4ad63c665a6b10e0f04939e0c3f8db92167578",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "rescaled": false,
+      "quality": {
+        "outsideEditMaxChannelDifference": 0,
+        "generatedInteriorMaxChannelDifference": 0,
+        "original": {
+          "saturation": 0.3107043673890609,
+          "brightness": 0.737441560371517,
+          "detailContrast": 0.07081753786810546
+        },
+        "editTarget": {
+          "saturation": 0.3107043673890609,
+          "brightness": 0.737441560371517,
+          "detailContrast": 0.07081753786810546
+        },
+        "candidate": {
+          "saturation": 0.37574239009287924,
+          "brightness": 0.6992355954592364,
+          "detailContrast": 0.08165536847476991
+        },
+        "saturationDifference": 0.06503802270381837,
+        "brightnessDifference": -0.038205964912280566,
+        "detailRatio": 1.153038794244011,
+        "warnings": [],
+        "note": "Diagnostics only; visual comparison of palette, structure and seams is required."
+      }
+    },
+    {
+      "asset": "r09c12/district-01",
+      "tool": "built-in image_gen",
+      "prompt": "Create a richly detailed, hand-painted illustrated map of Munich and the Isar river.\n\nArt direction:\nCombine delicate watercolor washes, fine architectural linework, and editorial cartography. The image should feel like a lovingly illustrated city atlas: inviting, intricate, and carefully observed. Use a gently oblique bird’s-eye view so building facades and rooftops are visible, while the underlying map remains north-up.\n\nArchitecture:\nPaint miniature cream and warm-gray buildings with varied terracotta and muted gray roofs. Include tiny windows, courtyards, balconies, church towers, and carefully drawn bridges. Give recognizable landmarks expressive architectural character. Preserve crisp small details beneath the soft painted finish.\n\nLandscape:\nA winding turquoise river with subtle white glints, pale gravel banks, small islands, riverside footpaths, and clusters of individually painted trees. Mix sage, olive, and deeper greens. Add restrained tree shadows and occasional tiny pedestrians to give the city life and scale.\n\nPalette and texture:\nWarm mineral ivory #F2EFE6, muted water teal #68AAA4, dark river green #173E3A, pale stone, olive foliage, and restrained clay-colored roofs. Matte watercolor-paper texture, translucent washes, softly shaded buildings, and fine visible brushwork. Keep the overall image light and readable.\n\nComposition:\nCreate a continuous illustrated landscape that rewards close inspection. Balance dense architectural detail with quieter water, parks, and gravel shores.\n\nIf a geographic guide is supplied, preserve its ground layout, river bends, islands, crossings, and landmark positions. Apply the painted appearance without rearranging the geography.\n\nOutput:\nMap illustration only, filling the entire image. No text, labels, pins, interface elements, borders, or decorative compass.\n\nAvoid:\nPhotorealism, glossy 3D rendering, flat vector icons, pixel art, heavy outlines, muddy watercolor blur, exaggerated saturation, and tourist-poster clichés.\n\nEDIT THE SUPPLIED ORIGINAL PAINTING. Image 1 is the edit target and binding palette/detail reference, never a stamp for a different place.\nTask: Remove the copied circular fountain and radial wedge neighborhood plus repeated oversized palace complex. Replace the edit interior with a distinct compact Munich southeastern neighborhood of irregular residential blocks, small workshops, terracotta and gray roofs, trees and garden courtyards; follow this exact geographic guide, preserve existing roads as they enter the edit edges, and keep all water absent except any small bounded pond shown in the guide. No new river, no palace stamp, no circular plaza. Match original rich colors and fine miniature linework.\nImage 2 is this section’s original geographic guide. Any following images are only direct geographic neighbors, for matching shared transitions and miniature scale; do not copy their compositions.\nChange only x=90..1130, y=90..1130 in this exact 1254-square frame. Keep everything outside it visually unchanged and connect streets/vegetation at its edges.\nPreserve the rich olive and sage greens, terracotta/clay roofs, cream architecture, turquoise water, fine dark outlines, miniature architectural scale and dense detail of the supplied original. Do not reinterpret its colors as pale beige countryside, enlarge its buildings or add a new style/material board. Preserve north-up ground, existing river/canal courses, bridges, crop and shadow direction. No copied radial neighborhood or palace stamp, no text, UI, labels, watermark or blank margins.\nReturn one full edited image at exactly 1254 by 1254 native pixels.\n",
+      "promptSha256": "564457d2c00da5e6bd4d9814399884359b1702b0d721da9dd6fdc09fd278091d",
+      "references": [
+        {
+          "path": "baseline/images/r09c12.png",
+          "sha256": "a167ac4e5841c7e9bf31fc64fa98ef302f4b6c5259f016c9983d7665bcd20db1"
+        },
+        {
+          "path": "baseline/references/e1ee256838aeb4e7273353f93cf29a01a9861d6a5a6dd049ed127e0496047aed.png",
+          "sha256": "e1ee256838aeb4e7273353f93cf29a01a9861d6a5a6dd049ed127e0496047aed"
+        },
+        {
+          "path": "baseline/images/r08c12.png",
+          "sha256": "891d8261c16c6c18f893452b027dec78b8d3a15ebdb6a8f0ff3319717f4a96bf"
+        },
+        {
+          "path": "baseline/images/r09c11.png",
+          "sha256": "2bcd73e605935c71c077a534df89e3443f107939553c302e447e7a86ba035b52"
+        },
+        {
+          "path": "baseline/images/r09c13.png",
+          "sha256": "8c34db53baffbb835b69ae39632932a755ffb04a7e827a52170c64177e6357f4"
+        }
+      ],
+      "source": "C:\\Users\\andre\\.codex\\generated_images\\01a19dcf-e2d1-7e51-943f-33ab0b0ff710\\exec-0fd8ef29-98e0-48cc-8d07-b295380886e2.png",
+      "rawSha256": "f23b232c978dc37a778431012a40313675543ecc8dcd9c552a1179e38ffc7438",
+      "candidateSha256": "41e9292330f8153805ad2fd704f8af8b2ef3997b2fd2573edbfa5a43daa23241",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "rescaled": false,
+      "quality": {
+        "outsideEditMaxChannelDifference": 0,
+        "generatedInteriorMaxChannelDifference": 0,
+        "original": {
+          "saturation": 0.3112660473952895,
+          "brightness": 0.7104087517403411,
+          "detailContrast": 0.07118587384609579
+        },
+        "editTarget": {
+          "saturation": 0.3112660473952895,
+          "brightness": 0.7104087517403411,
+          "detailContrast": 0.07118587384609579
+        },
+        "candidate": {
+          "saturation": 0.34665800484394943,
+          "brightness": 0.6971157508121592,
+          "detailContrast": 0.07875674486867376
+        },
+        "saturationDifference": 0.035391957448659916,
+        "brightnessDifference": -0.013293000928181975,
+        "detailRatio": 1.1063535588387414,
+        "warnings": [],
+        "note": "Diagnostics only; visual comparison of palette, structure and seams is required."
+      }
+    },
+    {
+      "asset": "r04c08/transition-01",
+      "tool": "built-in image_gen",
+      "prompt": "Create a richly detailed, hand-painted illustrated map of Munich and the Isar river.\n\nArt direction:\nCombine delicate watercolor washes, fine architectural linework, and editorial cartography. The image should feel like a lovingly illustrated city atlas: inviting, intricate, and carefully observed. Use a gently oblique bird’s-eye view so building facades and rooftops are visible, while the underlying map remains north-up.\n\nArchitecture:\nPaint miniature cream and warm-gray buildings with varied terracotta and muted gray roofs. Include tiny windows, courtyards, balconies, church towers, and carefully drawn bridges. Give recognizable landmarks expressive architectural character. Preserve crisp small details beneath the soft painted finish.\n\nLandscape:\nA winding turquoise river with subtle white glints, pale gravel banks, small islands, riverside footpaths, and clusters of individually painted trees. Mix sage, olive, and deeper greens. Add restrained tree shadows and occasional tiny pedestrians to give the city life and scale.\n\nPalette and texture:\nWarm mineral ivory #F2EFE6, muted water teal #68AAA4, dark river green #173E3A, pale stone, olive foliage, and restrained clay-colored roofs. Matte watercolor-paper texture, translucent washes, softly shaded buildings, and fine visible brushwork. Keep the overall image light and readable.\n\nComposition:\nCreate a continuous illustrated landscape that rewards close inspection. Balance dense architectural detail with quieter water, parks, and gravel shores.\n\nIf a geographic guide is supplied, preserve its ground layout, river bends, islands, crossings, and landmark positions. Apply the painted appearance without rearranging the geography.\n\nOutput:\nMap illustration only, filling the entire image. No text, labels, pins, interface elements, borders, or decorative compass.\n\nAvoid:\nPhotorealism, glossy 3D rendering, flat vector icons, pixel art, heavy outlines, muddy watercolor blur, exaggerated saturation, and tourist-poster clichés.\n\nEDIT THE SUPPLIED ORIGINAL PAINTING. Image 1 is the edit target and binding palette/detail reference, never a stamp for a different place.\nTask: Repair the western overlap strip with the direct western neighbor r04c07. Image 3 is northern neighbor r03c08, image 4 is western neighbor r04c07, image 5 is eastern neighbor r04c09. The west neighbor begins 896 pixels west in the same north-up frame, so its rightmost 358 pixels correspond to this image's leftmost 358 pixels. Within x=0..410,y=190..1070, carefully connect the existing lake shores, woodland, small paths and residential roads to the western neighbor; eliminate abruptly cut or duplicated shoreline/road fragments and the rectangular change in vegetation density. Keep the existing lake location and extent given by image 2, no new lake or river. Preserve all outside pixels, original rich olive/terracotta palette and fine miniature scale. Make a restrained local transition repair, not a new district composition.\nImage 2 is this section’s original geographic guide. Any following images are only direct geographic neighbors, for matching shared transitions and miniature scale; do not copy their compositions.\nChange only x=0..410, y=190..1070 in this exact 1254-square frame. Keep everything outside it visually unchanged and connect streets/vegetation at its edges.\nPreserve the rich olive and sage greens, terracotta/clay roofs, cream architecture, turquoise water, fine dark outlines, miniature architectural scale and dense detail of the supplied original. Do not reinterpret its colors as pale beige countryside, enlarge its buildings or add a new style/material board. Preserve north-up ground, existing river/canal courses, bridges, crop and shadow direction. No copied radial neighborhood or palace stamp, no text, UI, labels, watermark or blank margins.\nReturn one full edited image at exactly 1254 by 1254 native pixels.\n",
+      "promptSha256": "f5f9d068823706cf839c8343aa65d06123cbe8af2d46524ad153aa6a28619cdf",
+      "references": [
+        {
+          "path": "baseline/images/r04c08.png",
+          "sha256": "b90dd408dc23090b07205d85e54b94affb42b596b79284772918892f0235b784"
+        },
+        {
+          "path": "baseline/references/caf307ba0ed4afeaa5f133340c530d397823149eafb1417e580ec6a3de804792.png",
+          "sha256": "caf307ba0ed4afeaa5f133340c530d397823149eafb1417e580ec6a3de804792"
+        },
+        {
+          "path": "baseline/images/r03c08.png",
+          "sha256": "d4fde18ab2a64ef34c4ff59fb2fa43aa9102159c75790e98775f78ced6f82d42"
+        },
+        {
+          "path": "baseline/images/r04c07.png",
+          "sha256": "158071e893c8061a190d8ab7ed27da246d873687b1806b3494aed64a713d5029"
+        },
+        {
+          "path": "baseline/images/r04c09.png",
+          "sha256": "88b3ec8f4510a1af320c5eb0ae35b8b819896e9e3524d4eedcc0d6d9253aef91"
+        }
+      ],
+      "source": "C:\\Users\\andre\\.codex\\generated_images\\01a19dcf-e2d1-7e51-943f-33ab0b0ff710\\exec-73215952-2081-48e0-9e50-5bfb1d88f275.png",
+      "rawSha256": "328d2aa3418e392bd3c405209b0e12ffea047ca80606f8b004a8c3860da79c4d",
+      "candidateSha256": "565c9a624e526ce78ef4c2e26c4ba88a92c0709a427bcd7ba4dfa4a7ff0a9137",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "rescaled": false,
+      "quality": {
+        "outsideEditMaxChannelDifference": 0,
+        "generatedInteriorMaxChannelDifference": 0,
+        "original": {
+          "saturation": 0.37421043650276076,
+          "brightness": 0.6525042063388549,
+          "detailContrast": 0.0736109331485428
+        },
+        "editTarget": {
+          "saturation": 0.37421043650276076,
+          "brightness": 0.6525042063388549,
+          "detailContrast": 0.0736109331485428
+        },
+        "candidate": {
+          "saturation": 0.41823375070649105,
+          "brightness": 0.6536868614408069,
+          "detailContrast": 0.07167796547380899
+        },
+        "saturationDifference": 0.04402331420373029,
+        "brightnessDifference": 0.0011826551019520348,
+        "detailRatio": 0.9737407530097031,
+        "warnings": [],
+        "note": "Diagnostics only; visual comparison of palette, structure and seams is required."
+      }
+    },
+    {
+      "asset": "frames/clouds-01/raw.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: lighting-weather / illustration-story\nAsset type: native painted cloud texture for the outer frame of the existing Munich illustrated atlas.\nInput image 1: the original local northwest atlas painting r04c03, binding reference for hand-painted medium, fine outlines, paper grain, light direction and warm palette.\nTransform this reference into an uninterrupted overhead sea of softly billowing clouds, completely replacing the ground, buildings and water. Clouds only, no visible land. This asset will be assembled outside the city boundary; do not include a city-shaped hole or any map.\nCreate broad, irregular, overlapping cream-white cloud banks with scalloped contours, delicate warm gray and sage-olive shadows, ivory highlights and fine hand-painted watercolor/gouache brushwork. Small detailed wisps sit around larger flowing banks. Warm daylight from upper left. Keep shadows light and restrained, with no storm clouds, blue sky, sunsets, cartoon faces or deep dramatic contrast. Match the original illustrated atlas rather than photorealism or glossy 3D.\nFill the entire rectangular image with opaque cloud painting, including every edge and corner. Calm, balanced texture without a central subject, obvious repeating motif, frame, text, labels or watermark. Opposite edges should flow seamlessly for native-size texture assembly. Render at 3072 by 2048 pixels, landscape; use fine miniature painted detail, not blurry enlarged clouds.",
+      "promptSha256": "639db3188b3491da0697991f4ab1507aa7fe5631033a71ad63e7f7ae197852ba",
+      "references": [
+        {
+          "path": "baseline/images/r04c03.png",
+          "sha256": "5b06ce70dd6ec670ffebeeb0f35c2f46548574936344338c6f8aced52d7b633b"
+        }
+      ],
+      "source": "C:\\Users\\andre\\.codex\\generated_images\\01a19dcf-e2d1-7e51-943f-33ab0b0ff710\\exec-50f99a6e-ddca-426b-a451-027fcd2f438b.png",
+      "rawSha256": "38c0bd6dff002643a24d4dfea314430112722d2654f5c6036fd4234ddf689417",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "rescaled": false
+    },
+    {
+      "asset": "frames/clouds-02/raw.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit\nAsset type: second painted cloud sheet for the rectangular border of the Munich illustrated atlas.\nInput 1 is the cloud painting to vary. Keep its exact warm cream-white, sage gray and ivory palette, restrained shadows, delicate gouache/watercolor brush texture and fine detail. Repaint the cloud formations into a distinctly different asymmetric arrangement of broad flowing cumulus banks and curling wisps, viewed from above. Use a calm loose arrangement of large billows with smaller wisps between them. Avoid straight rows, bands, mirrored symmetry and regularly sized cloud puffs. Opaque clouds fill the entire rectangle; no sky holes or ground. Same illustrated painted atlas style, no photorealism, no glossy 3D. No objects, text, UI or watermark. Match the supplied landscape dimensions and native detail.",
+      "promptSha256": "6deb13bdc3c014cf2dda0e61cf4bb2b215723b3a030d72842580978e8ca5f426",
+      "references": [
+        {
+          "path": "frames/clouds-01/raw.png",
+          "sha256": "38c0bd6dff002643a24d4dfea314430112722d2654f5c6036fd4234ddf689417"
+        }
+      ],
+      "source": "C:\\Users\\andre\\.codex\\generated_images\\01a19dcf-e2d1-7e51-943f-33ab0b0ff710\\exec-22b59c9a-c74b-4cfd-b4b2-3d7e8067af4e.png",
+      "rawSha256": "15e1d897c07897235ef5ee0b94be4a6b30ca13303194118dc2e1b520ccc99abf",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "rescaled": false
+    },
+    {
+      "asset": "frames/clouds-02/variant.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: precise-object-edit\nAsset type: third distinct painted cloud sheet for the rectangular border of the Munich illustrated atlas.\nInput 1 is the original cloud texture. Keep the warm ivory highlights, cream-white clouds, gentle sage gray shadows, fine painted brushwork and watercolor paper grain exactly consistent. Change the cloud formations into an airy asymmetric composition of several broad overlapping cloud banks, soft curling ridges and small irregular wisps. Broad banks should vary in size and orientation, with no aligned rows, stripes, mirrored motifs or identical puffs. View from above, warm daylight, quiet low contrast, opaque clouds filling the whole landscape frame. No sky, land, buildings, objects, text, borders or watermark. Hand-painted atlas illustration, not photographic, not glossy or 3D. Preserve the native image dimensions and fine detail.",
+      "promptSha256": "f9d8dde1a09ca05668fe5ca1341dcbafa6a5e7eaf30a34474d249495b5bd7d0a",
+      "references": [
+        {
+          "path": "frames/clouds-01/raw.png",
+          "sha256": "38c0bd6dff002643a24d4dfea314430112722d2654f5c6036fd4234ddf689417"
+        }
+      ],
+      "source": "C:/Users/andre/.codex/generated_images/01a19dcf-e2d1-7e51-943f-33ab0b0ff710/exec-b203cd58-bd7a-4550-9001-805eb7d9dd1b.png",
+      "rawSha256": "034884b1f0a16d80c4bfa883ff6ceb4b3fbcab6178f68ab613891fc77c64b800",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "rescaled": false
+    }
+  ],
+  "reviews": [
+    {
+      "asset": "r08c13/district-01",
+      "decision": "accept",
+      "note": "Visually reviewed native painting, full release 58c1cc3ca1979622 and neighboring crop reports/rework-2026-11-02/r08c13-after.png. Copied fountain/radial blocks are replaced by varied smaller residential buildings and garden courts. Original rich olive/terracotta palette and miniature detail retained; neighboring road entries remain connected. No change outside edit rectangle; no metric warnings. Clouds conceal irrelevant land east of Munich.",
+      "imageSha256": "11d4aab688637e39bbffef7eea4ad63c665a6b10e0f04939e0c3f8db92167578",
+      "allowWarnings": false,
+      "at": "2026-11-02T20:47:15.576196+00:00"
+    },
+    {
+      "asset": "r09c12/district-01",
+      "decision": "accept",
+      "note": "Visually reviewed native painting, full release 58c1cc3ca1979622 and neighboring crop reports/rework-2026-11-02/r09c12-after.png. Repeated circular plaza and monumental complex replaced by a distinct irregular residential/workshop neighborhood with gardens. Fine linework, original warm roofs and olive greens retained; existing perimeter road entries match. Outside edit pixels unchanged, no metric warnings.",
+      "imageSha256": "41e9292330f8153805ad2fd704f8af8b2ef3997b2fd2573edbfa5a43daa23241",
+      "allowWarnings": false,
+      "at": "2026-11-02T20:47:16.927782+00:00"
+    },
+    {
+      "asset": "r04c08/transition-01",
+      "decision": "accept",
+      "note": "Visually reviewed the original and edited native images and composed western-neighbor crop reports/rework-2026-11-02/r04c08-after.png. Woodland paths, shore vegetation and small residential streets form a more coherent transition to r04c07. Lake stays in its original geographic position; rich palette, miniature scale and outside pixels retained. Saturation +4.40 points, brightness +0.12, detail ratio 97.37 percent; no warnings.",
+      "imageSha256": "565c9a624e526ce78ef4c2e26c4ba88a92c0709a427bcd7ba4dfa4a7ff0a9137",
+      "allowWarnings": false,
+      "at": "2026-11-02T20:47:18.326222+00:00"
+    },
+    {
+      "asset": "frames/clouds-01",
+      "decision": "reject",
+      "note": "Initial full preview 6c6afd943cc907af was visually inspected. Warm cloud painting matches the palette, but alternating mirrored placements create conspicuous regular fold patterns. Retained as an unsuccessful candidate; never activated.",
+      "identity": "c53b73a0fa0702272ff2b5f740448ea59f67884134a94d3e128979c7e1d6988f",
+      "at": "2026-11-02T20:47:19.880849+00:00"
+    },
+    {
+      "asset": "frames/clouds-02",
+      "decision": "accept",
+      "note": "Visually reviewed all three native cloud paintings, full rectangular release 58c1cc3ca1979622, and native city-edge crops. Warm cream/ivory highlights and restrained olive-gray shadows match the atlas medium. Staggered unmirrored variations remove the previous fold grid; opaque clouds cover outside land and rectangular gaps, with soft transitions around Munich. Pixel verification confirms the complete opaque rectangle, zero cloud change to city pixels, and 48 protected landmarks. Source pixels are not enlarged or recolored.",
+      "identity": "f6f9a38a7364f28bca18d9adbd2eb1fc0c0aa2059f3c8c04c6a709aa55fd3a6c",
+      "at": "2026-11-02T20:47:21.355755+00:00"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "src.map_pipeline",
+        "prepare",
+        "r08c13",
+        "district-01",
+        "--task",
+        "Replace the repeated circular fountain plaza, radial wedge blocks and oversized palace buildings inside the edit area with an individual eastern Munich residential neighborhood: varied small terracotta-roof houses, modest apartment rows, irregular courtyards and gardens. Follow the local geographic guide and connect existing roads at the edit edges. Retain the small existing lake segment in the top margin. No new river, no monumental palace, no radial plaza. Keep original rich palette, crisp miniature detail and north-up registration.",
+        "--rect",
+        "100",
+        "150",
+        "1100",
+        "1100"
+      ],
+      "status": "passed"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "src.map_pipeline",
+        "import",
+        "r08c13",
+        "district-01",
+        "--image",
+        "C:\\Users\\andre\\.codex\\generated_images\\01a19dcf-e2d1-7e51-943f-33ab0b0ff710\\exec-f3192d2a-7506-4a67-a808-69910525e2b7.png"
+      ],
+      "status": "passed"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "src.map_pipeline",
+        "review",
+        "r08c13",
+        "district-01",
+        "--decision",
+        "accept",
+        "--note",
+        "Visually reviewed native painting, full release 58c1cc3ca1979622 and neighboring crop reports/rework-2026-11-02/r08c13-after.png. Copied fountain/radial blocks are replaced by varied smaller residential buildings and garden courts. Original rich olive/terracotta palette and miniature detail retained; neighboring road entries remain connected. No change outside edit rectangle; no metric warnings. Clouds conceal irrelevant land east of Munich."
+      ],
+      "status": "passed"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "src.map_pipeline",
+        "prepare",
+        "r09c12",
+        "district-01",
+        "--task",
+        "Remove the copied circular fountain and radial wedge neighborhood plus repeated oversized palace complex. Replace the edit interior with a distinct compact Munich southeastern neighborhood of irregular residential blocks, small workshops, terracotta and gray roofs, trees and garden courtyards; follow this exact geographic guide, preserve existing roads as they enter the edit edges, and keep all water absent except any small bounded pond shown in the guide. No new river, no palace stamp, no circular plaza. Match original rich colors and fine miniature linework.",
+        "--rect",
+        "90",
+        "90",
+        "1130",
+        "1130"
+      ],
+      "status": "passed"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "src.map_pipeline",
+        "import",
+        "r09c12",
+        "district-01",
+        "--image",
+        "C:\\Users\\andre\\.codex\\generated_images\\01a19dcf-e2d1-7e51-943f-33ab0b0ff710\\exec-0fd8ef29-98e0-48cc-8d07-b295380886e2.png"
+      ],
+      "status": "passed"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "src.map_pipeline",
+        "review",
+        "r09c12",
+        "district-01",
+        "--decision",
+        "accept",
+        "--note",
+        "Visually reviewed native painting, full release 58c1cc3ca1979622 and neighboring crop reports/rework-2026-11-02/r09c12-after.png. Repeated circular plaza and monumental complex replaced by a distinct irregular residential/workshop neighborhood with gardens. Fine linework, original warm roofs and olive greens retained; existing perimeter road entries match. Outside edit pixels unchanged, no metric warnings."
+      ],
+      "status": "passed"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "src.map_pipeline",
+        "prepare",
+        "r04c08",
+        "transition-01",
+        "--task",
+        "Repair the western overlap strip with the direct western neighbor r04c07. Image 3 is northern neighbor r03c08, image 4 is western neighbor r04c07, image 5 is eastern neighbor r04c09. The west neighbor begins 896 pixels west in the same north-up frame, so its rightmost 358 pixels correspond to this image's leftmost 358 pixels. Within x=0..410,y=190..1070, carefully connect the existing lake shores, woodland, small paths and residential roads to the western neighbor; eliminate abruptly cut or duplicated shoreline/road fragments and the rectangular change in vegetation density. Keep the existing lake location and extent given by image 2, no new lake or river. Preserve all outside pixels, original rich olive/terracotta palette and fine miniature scale. Make a restrained local transition repair, not a new district composition.",
+        "--rect",
+        "0",
+        "190",
+        "410",
+        "1070"
+      ],
+      "status": "passed"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "src.map_pipeline",
+        "import",
+        "r04c08",
+        "transition-01",
+        "--image",
+        "C:\\Users\\andre\\.codex\\generated_images\\01a19dcf-e2d1-7e51-943f-33ab0b0ff710\\exec-73215952-2081-48e0-9e50-5bfb1d88f275.png"
+      ],
+      "status": "passed"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "src.map_pipeline",
+        "review",
+        "r04c08",
+        "transition-01",
+        "--decision",
+        "accept",
+        "--note",
+        "Visually reviewed the original and edited native images and composed western-neighbor crop reports/rework-2026-11-02/r04c08-after.png. Woodland paths, shore vegetation and small residential streets form a more coherent transition to r04c07. Lake stays in its original geographic position; rich palette, miniature scale and outside pixels retained. Saturation +4.40 points, brightness +0.12, detail ratio 97.37 percent; no warnings."
+      ],
+      "status": "passed"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "src.map_pipeline",
+        "frame-import",
+        "clouds-01",
+        "--image",
+        "C:\\Users\\andre\\.codex\\generated_images\\01a19dcf-e2d1-7e51-943f-33ab0b0ff710\\exec-50f99a6e-ddca-426b-a451-027fcd2f438b.png"
+      ],
+      "status": "passed"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "src.map_pipeline",
+        "frame-review",
+        "clouds-01",
+        "--decision",
+        "reject",
+        "--note",
+        "Initial full preview 6c6afd943cc907af was visually inspected. Warm cloud painting matches the palette, but alternating mirrored placements create conspicuous regular fold patterns. Retained as an unsuccessful candidate; never activated."
+      ],
+      "status": "passed"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "src.map_pipeline",
+        "frame-import",
+        "clouds-02",
+        "--image",
+        "C:\\Users\\andre\\.codex\\generated_images\\01a19dcf-e2d1-7e51-943f-33ab0b0ff710\\exec-22b59c9a-c74b-4cfd-b4b2-3d7e8067af4e.png",
+        "--reference",
+        "frames/clouds-01/raw.png",
+        "--variant",
+        "frames/clouds-02/variant.png",
+        "--variant",
+        "frames/clouds-01/raw.png",
+        "--prompt",
+        "frames/clouds-02/variant-prompt.md"
+      ],
+      "status": "passed"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "src.map_pipeline",
+        "frame-review",
+        "clouds-02",
+        "--decision",
+        "accept",
+        "--note",
+        "Visually reviewed all three native cloud paintings, full rectangular release 58c1cc3ca1979622, and native city-edge crops. Warm cream/ivory highlights and restrained olive-gray shadows match the atlas medium. Staggered unmirrored variations remove the previous fold grid; opaque clouds cover outside land and rectangular gaps, with soft transitions around Munich. Pixel verification confirms the complete opaque rectangle, zero cloud change to city pixels, and 48 protected landmarks. Source pixels are not enlarged or recolored."
+      ],
+      "status": "passed"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "src.map_pipeline",
+        "frame-preview",
+        "clouds-01"
+      ],
+      "status": "passed; visual rejection",
+      "release": "6c6afd943cc907af"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "src.map_pipeline",
+        "preview-set",
+        "--candidate",
+        "r08c13",
+        "district-01",
+        "--candidate",
+        "r09c12",
+        "district-01",
+        "--candidate",
+        "r04c08",
+        "transition-01",
+        "--frame",
+        "clouds-02"
+      ],
+      "status": "passed",
+      "release": "58c1cc3ca1979622"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "status": "passed",
+      "result": "134 passed in 5.93s"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "scripts/check_atlas_rework.py",
+        "58c1cc3ca1979622"
+      ],
+      "status": "passed after viewport regression fix"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "src.map_pipeline",
+        "activate-set",
+        "--candidate",
+        "r08c13",
+        "district-01",
+        "--candidate",
+        "r09c12",
+        "district-01",
+        "--candidate",
+        "r04c08",
+        "transition-01",
+        "--frame",
+        "clouds-02",
+        "--release",
+        "58c1cc3ca1979622"
+      ],
+      "status": "published locally"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "-m",
+        "src.map_pipeline",
+        "inspect"
+      ],
+      "status": "passed"
+    },
+    {
+      "argv": [
+        ".venv/Scripts/python.exe",
+        "scripts/check_atlas.py",
+        "--browser",
+        "chromium",
+        "--variant",
+        "painted"
+      ],
+      "status": "passed after final viewport fix",
+      "result": "native tiles; pan/wheel; zoom cap; complete overview; responsive anchors/tethers; recommendations; saved events; ICS/GPX; unknown venues; empty state"
+    }
+  ],
+  "generationAttempts": [
+    {
+      "asset": "r09c12/district-01",
+      "result": "First call rejected before generation because six reference paths exceeded the tool maximum of five; repeated successfully with the five recorded references."
+    }
+  ],
+  "checks": {
+    "unitTests": {
+      "passed": 134,
+      "seconds": 5.93
+    },
+    "release": {
+      "masterSha256": "2b06a6013811bc94e8efc6d3c11b575b8d1bd0c6e0feeb2970991ca85db53eba",
+      "maxChannelDifference": 0,
+      "channelsCompared": 454719096,
+      "format": "lossless PNG",
+      "sourceResampleFactor": 1,
+      "sourceChecks": [
+        {
+          "id": "r07c09",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r06c09",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r07c08",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r08c09",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r07c10",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r06c08",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r06c10",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r05c09",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r08c08",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r07c07",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r08c10",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r09c09",
+          "maxChannelDifference": 0,
+          "visiblePixels": 171
+        },
+        {
+          "id": "r07c11",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r05c08",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r06c07",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r05c10",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r06c11",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r04c09",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r08c07",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r09c08",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r07c06",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r08c11",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r09c10",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r07c12",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r05c07",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r04c08",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r06c06",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r04c10",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r05c11",
+          "maxChannelDifference": 0,
+          "visiblePixels": 0
+        },
+        {
+          "id": "r06c12",
+          "maxChannelDifference": 0,
+          "visiblePixels": 0
+        },
+        {
+          "id": "r03c09",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r08c06",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r09c07",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r10c08",
+          "maxChannelDifference": 0,
+          "visiblePixels": 0
+        },
+        {
+          "id": "r07c05",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r08c12",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r09c11",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r07c13",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r04c07",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r05c06",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r03c08",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r06c05",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r03c10",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r04c11",
+          "maxChannelDifference": 0,
+          "visiblePixels": 0
+        },
+        {
+          "id": "r05c12",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r06c13",
+          "maxChannelDifference": 0,
+          "visiblePixels": 0
+        },
+        {
+          "id": "r09c06",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r08c05",
+          "maxChannelDifference": 0,
+          "visiblePixels": 0
+        },
+        {
+          "id": "r10c07",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r07c04",
+          "maxChannelDifference": 0,
+          "visiblePixels": 2465
+        },
+        {
+          "id": "r08c13",
+          "maxChannelDifference": 0,
+          "visiblePixels": 0
+        },
+        {
+          "id": "r09c12",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r10c11",
+          "maxChannelDifference": 0,
+          "visiblePixels": 0
+        },
+        {
+          "id": "r03c07",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r04c06",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r05c05",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r06c04",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r03c11",
+          "maxChannelDifference": 0,
+          "visiblePixels": 0
+        },
+        {
+          "id": "r09c05",
+          "maxChannelDifference": 0,
+          "visiblePixels": 0
+        },
+        {
+          "id": "r10c06",
+          "maxChannelDifference": 0,
+          "visiblePixels": 0
+        },
+        {
+          "id": "r07c03",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r09c13",
+          "maxChannelDifference": 0,
+          "visiblePixels": 0
+        },
+        {
+          "id": "r10c12",
+          "maxChannelDifference": 0,
+          "visiblePixels": 0
+        },
+        {
+          "id": "r02c07",
+          "maxChannelDifference": 0,
+          "visiblePixels": 3827
+        },
+        {
+          "id": "r03c06",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r04c05",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r05c04",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r06c03",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r02c06",
+          "maxChannelDifference": 0,
+          "visiblePixels": 381
+        },
+        {
+          "id": "r03c05",
+          "maxChannelDifference": 0,
+          "visiblePixels": 0
+        },
+        {
+          "id": "r04c04",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r05c03",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r06c02",
+          "maxChannelDifference": 0,
+          "visiblePixels": 0
+        },
+        {
+          "id": "r04c03",
+          "maxChannelDifference": 0,
+          "visiblePixels": 4096
+        },
+        {
+          "id": "r05c02",
+          "maxChannelDifference": 0,
+          "visiblePixels": 0
+        }
+      ],
+      "sourceSampleSize": [
+        64,
+        64
+      ],
+      "unpaintedCityPixels": 0,
+      "originalCount": 75,
+      "protectedRegions": 48,
+      "completeBoundaryInside": true,
+      "cloudFrame": {
+        "rectangularOpaque": true,
+        "cityMaxChannelDifference": 0,
+        "maskedOutsidePixels": 69444007,
+        "groundSha256": "3976ff3987a7f73312d52e90392175e95011c3d5f099436061505876b81f2318",
+        "maskSha256": "81843e0a4c162ba55f1b243ce0b69e2f4a3943207b5eadf7f79459f89dd5894f"
+      }
+    },
+    "browser": {
+      "status": "passed",
+      "release": "58c1cc3ca1979622",
+      "appFilesUnchanged": 112,
+      "markerProjectionUnchanged": true,
+      "recommendationsUnchanged": true,
+      "nativePixelsUnstretched": true,
+      "desktopAndMobile": true,
+      "pageErrors": [],
+      "missingAssets": []
+    },
+    "baselineUnchangedFromSnapshot": true,
+    "fullApplicationBrowser": "passed (Chromium, active painted release)"
+  },
+  "assemblySources": {
+    "exporterSnapshotSha256": "b4da17e2b5d8da31327f8d5c78b3724f11b7ec03cb3e26457428d12f27a190fb",
+    "rendererSha256": "b9d100175d2e6ed3a2ba5426cde2bc5d48324d453239895cbb5977920c41136b",
+    "note": "Exporter snapshot reconstructed after a cache-key-only change; its bytes match the SHA-256 recorded by the actual build."
+  },
+  "rollbackCommand": [
+    ".venv/Scripts/python.exe",
+    "-m",
+    "src.map_pipeline",
+    "rollback",
+    "--release",
+    "3c9ad473da92be8a"
+  ],
+  "browserRegression": {
+    "observed": "After narrowing a desktop viewport, the previous minimum zoom stayed at -4 and clipped the mobile overview.",
+    "reason": "Leaflet getBoundsZoom clamps its answer to the current minimum.",
+    "fix": "Compute the minimum from viewport and world dimensions independently, then fit the overview.",
+    "verification": "Repeated native-neighbor and desktop/mobile browser check asserts that the full rectangle is inside the mobile view; passed. Full application browser regression also passed."
+  }
+}

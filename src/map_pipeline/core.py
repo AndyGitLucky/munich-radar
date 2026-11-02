@@ -97,6 +97,9 @@ class Workspace:
         return request
 
     def validate_state(self,state,require_review=False):
+        if state.get('frame'):
+            from .frame import check_frame
+            check_frame(self,state['frame'],require_review)
         originals=self.original_state()['tiles']
         if set(state['tiles'])!=set(originals):raise ValueError('Sections differ from the fixed original plan')
         for tile,item in state['tiles'].items():
@@ -136,17 +139,25 @@ class Workspace:
                 if mark['owner']==tile and min(c,ox+rect[2])>max(a,ox+rect[0]) and min(d,oy+rect[3])>max(b,oy+rect[1]):
                     raise ValueError('Edit intersects an owned landmark; use --allow-landmarks for an intentional landmark change')
         base=self.state()['tiles'][tile]
+        selected=self.state()['tiles']
+        original=next(i for i in self.baseline()['items'] if i['id']==tile)
+        references=[{'path':base['path'],'sha256':base['sha256']},
+                    {'path':'baseline/'+original['guide']['path'],'sha256':original['guide']['sha256']}]
+        for other in self.plan()['tiles']:
+            if len(references)<5 and all(k in tile_plan and k in other for k in ('row','col')) and other['id'] in selected and abs(other['row']-tile_plan['row'])+abs(other['col']-tile_plan['col'])==1:
+                references.append({'path':selected[other['id']]['path'],'sha256':selected[other['id']]['sha256']})
         text=(self.root/'base-prompt.md').read_text(encoding='utf-8')
         text+=f'\n\nEDIT THE SUPPLIED ORIGINAL PAINTING. Image 1 is the edit target and binding palette/detail reference, never a stamp for a different place.\nTask: {task}\n'
+        text+='Image 2 is this section’s original geographic guide. Any following images are only direct geographic neighbors, for matching shared transitions and miniature scale; do not copy their compositions.\n'
         text+=f'Change only x={rect[0]}..{rect[2]}, y={rect[1]}..{rect[3]} in this exact {size}-square frame. Keep everything outside it visually unchanged and connect streets/vegetation at its edges.\n'
         text+='Preserve the rich olive and sage greens, terracotta/clay roofs, cream architecture, turquoise water, fine dark outlines, miniature architectural scale and dense detail of the supplied original. Do not reinterpret its colors as pale beige countryside, enlarge its buildings or add a new style/material board. Preserve north-up ground, existing river/canal courses, bridges, crop and shadow direction. No copied radial neighborhood or palace stamp, no text, UI, labels, watermark or blank margins.\n'
         text+=f'Return one full edited image at exactly {size} by {size} native pixels.\n'
         folder.mkdir(parents=True);(folder/'prompt.md').write_text(text,encoding='utf-8')
         data={'id':version,'tile':tile,'status':'prepared','task':task,'editRect':rect,'allowLandmarks':allow_landmarks,
-            'base':base,'references':[{'path':base['path'],'sha256':base['sha256']}],
+            'base':base,'references':references,
             'prompt':'prompt.md','promptSha256':digest(folder/'prompt.md'),'created':now()}
         save(folder/'request.json',data)
-        return {'candidate':str(folder),'prompt':str(folder/'prompt.md'),'references':[str(self.path(base['path']))]}
+        return {'candidate':str(folder),'prompt':str(folder/'prompt.md'),'references':[str(self.path(r['path'])) for r in references]}
 
     def import_image(self,tile,version,source):
         from PIL import Image

@@ -43,6 +43,7 @@ def candidate_quality(workspace,folder,request):
 def verify_release(workspace,folder,state,assembly,config):
     master=Image.open(folder/'master.png').convert('RGBA');width,height=master.size
     plan=workspace.plan()
+    cloud_mask=Image.open(folder/'cloud-mask.png') if state.get('frame') else None
     if list(master.size)!=plan['imageSize']:raise ValueError('Master extent changed')
     channels=0;maximum=0;hashes={}
     for key in config['tileKeys']:
@@ -62,7 +63,9 @@ def verify_release(workspace,folder,state,assembly,config):
         if ox+560<0 or oy+560<0 or ox+624>width or oy+624>height:continue
         a=np.asarray(Image.open(workspace.path(item['path'])).convert('RGBA').crop(box)).astype(np.int16)
         b=np.asarray(master.crop((ox+560,oy+560,ox+624,oy+624))).astype(np.int16)
-        difference=int(np.abs(a-b).max());sources.append({'id':id,'maxChannelDifference':difference})
+        visible=np.asarray(cloud_mask.crop((ox+560,oy+560,ox+624,oy+624)))==0 if cloud_mask else np.ones(a.shape[:2],dtype=bool)
+        difference=int(np.abs(a[visible]-b[visible]).max()) if visible.any() else 0
+        sources.append({'id':id,'maxChannelDifference':difference,'visiblePixels':int(visible.sum())})
         if difference:raise ValueError('Native source core changed: '+id)
     for region in assembly['protectedRegions']:
         a,b,c,d=map(int,region['rect']);ox,oy=tiles[region['owner']]['renderOrigin']
@@ -80,6 +83,9 @@ def verify_release(workspace,folder,state,assembly,config):
         'format':'lossless PNG','sourceResampleFactor':1,'sourceChecks':sources,'sourceSampleSize':[64,64],
         'unpaintedCityPixels':missing,'originalCount':len(state['tiles']),'protectedRegions':len(assembly['protectedRegions']),
         'completeBoundaryInside':True}
+    if state.get('frame'):
+        from .frame import verify_frame
+        quality['cloudFrame']=verify_frame(folder,plan)
     return quality,hashes
 
 

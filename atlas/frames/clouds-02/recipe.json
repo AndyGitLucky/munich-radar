@@ -1,0 +1,27 @@
+{
+  "texture": "raw.png",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "overlap": 192,
+  "maskBlur": 64,
+  "maskClear": 105,
+  "maskOpaque": 24,
+  "seed": 73109,
+  "textures": [
+    {
+      "path": "frames/clouds-02/raw.png",
+      "sha256": "15e1d897c07897235ef5ee0b94be4a6b30ca13303194118dc2e1b520ccc99abf"
+    },
+    {
+      "path": "frames/clouds-02/variant.png",
+      "sha256": "034884b1f0a16d80c4bfa883ff6ceb4b3fbcab6178f68ab613891fc77c64b800"
+    },
+    {
+      "path": "frames/clouds-01/raw.png",
+      "sha256": "38c0bd6dff002643a24d4dfea314430112722d2654f5c6036fd4234ddf689417"
+    }
+  ],
+  "note": "Native cloud pixels with seeded, staggered feathered placements; no source scaling, mirroring or recoloring."
+}

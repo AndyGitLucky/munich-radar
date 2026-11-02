@@ -70,6 +70,48 @@ eine begründete Ausnahme benötigt ausdrücklich `--allow-warnings`. Eigene Wah
 liegen standardmäßig außerhalb der Bearbeitung; beabsichtigte Änderungen daran
 bereits bei `prepare` mit `--allow-landmarks` kennzeichnen.
 
+## Rechteckiger Wolkenrand und gemeinsame Vorschau
+
+Die Wolken sind eine eigene versionierte Imagegen-Malerei unter `frames/`.
+Sie verändern weder das eingefrorene Raster noch die geografische Registrierung.
+Die Montage setzt native Wolkenbilder mit reproduzierbar versetzten, weich
+überlappenden Positionen zusammen. Die Wolkenmaske bleibt innerhalb der
+Stadtgrenze und über allen geschützten Landmarken exakt null. Außerhalb der
+Stadt verdeckt sie die Umgebung und füllt das gesamte bestehende Rechteck.
+Es werden keine gemalten Pixel hochskaliert oder global umgefärbt.
+
+Der genaue Prompt muss vor der Generierung unter `frames/VERSION/prompt.md`
+liegen. Bildgenerierung erfolgt weiterhin ausschließlich mit dem eingebauten
+Imagegen-Werkzeug. Anschließend zum Beispiel:
+
+```powershell
+.\.venv\Scripts\python.exe -m src.map_pipeline frame-import clouds-02 --image 'C:/Pfad/zur/Imagegen-Ausgabe.png' --reference frames/clouds-01/raw.png --variant frames/clouds-02/variant.png --variant frames/clouds-01/raw.png --prompt frames/clouds-02/variant-prompt.md
+.\.venv\Scripts\python.exe -m src.map_pipeline preview-set --candidate r08c13 district-01 --candidate r09c12 district-01 --candidate r04c08 transition-01 --frame clouds-02
+```
+
+`preview-set` baut eine separate Gesamtversion, ohne die aktive Karte zu wechseln.
+Nach Sichtprüfung der Gesamtkarte, der nativen Ausschnitte und der Nachbarn jede
+Kachel mit `review` und den Wolkenrand mit `frame-review VERSION --decision accept
+--note "Beobachtungen"` freigeben. `activate-set` mit denselben Argumenten schaltet
+erst nach erneuter Integritätsprüfung auf diese Version um. Mit
+`--release RELEASE_ID` wird genau der betrachtete Build aktiviert; eine von den
+gewählten Kandidaten abweichende Quellauswahl wird abgelehnt. Änderungen an der
+Masken- und Prüflogik fließen ebenso wie der Renderer in spätere Build-Kennungen ein.
+
+Die Prüfung vergleicht sämtliche Stadtpixel der Montage vor und nach der
+Wolkenebene, kontrolliert das vollständig deckende Rechteck sowie die nativen
+Auslieferungskacheln. Quellkernprüfungen beziehen sich auf die von den Wolken
+unverdeckten Pixel; alle 48 Landmarken bleiben vollständig geschützt. Das
+unveränderte Bodenbild (`ground.png`) und die Masken liegen beim Release.
+Ein früherer Release ohne Wolken lässt sich mit `rollback --release RELEASE_ID`
+vollständig zurückholen. Die Originalansicht bleibt die erste 75-Kachel-Karte.
+
+Die Überarbeitung vom 2026-11-02 ist als Release `58c1cc3ca1979622` lokal aktiv.
+[Vorher/Nachher und alle Bilddateien](reports/rework-2026-11-02/index.html),
+[tatsächliche Prompts, Befehle, Hashes und Freigaben](reports/rework-2026-11-02/audit.json).
+134 Tests sowie die zusätzliche Desktop-/Mobilprüfung und der vollständige
+Chromium-App-Test sind bestanden. Der Stand davor ist `3c9ad473da92be8a`.
+
 ## Rücksetzen und prüfen
 
 ```powershell
@@ -155,4 +197,27 @@ nicht deterministisch; gespeicherte Bilder und ihre Montage sind reproduzierbar.
 
 Tatsächliche Umgebung: Python 3.12.13, Pillow 13.0.0, NumPy 2.5.4, Playwright
 1.62.0 und Chrome 156.0.8078.79. Die einzelnen Render-/Prüfzeiten stehen in den
-Release-Metadaten und im Validierungsbericht. Die Veröffentlichung bleibt lokal.
+Release-Metadaten und im Validierungsbericht. Diese Prüfung betraf den lokalen Atlas.
+
+## Öffentliche Website auf dem Handy
+
+`python -m src.map_pipeline bundle --output atlas/distributions/atlas-58c1cc3ca1979622-web-01.zip`
+packt die bereits geprüften nativen Kacheln der aktuellen und ursprünglichen
+Karte, ihre Vorschauen und die ausgewählten Vergleichsdateien. Originalbilder,
+Event-Daten und Release-Master werden dabei nicht verändert. Das Paket und jede
+enthaltene Datei erhalten eine SHA-256-Prüfsumme; `distribution.json` bindet den
+öffentlichen Build an dieses konkrete Paket. Das ZIP liegt als versioniertes
+GitHub-Release-Asset außerhalb des Quellcodes.
+
+`python -m src.build --atlas` lädt und prüft dieses Paket und erzeugt eine statische
+Website für GitHub Pages. Mit `--atlas-archive PFAD` kann ein bereits vorhandenes
+Paket verwendet werden. Die bestehenden Event-Dateien bleiben erhalten; die
+gemalte Ansicht wird nur für den öffentlichen Build ergänzt. Die bisherige App
+steht zusätzlich unter `original/` bereit. Relative Pfade funktionieren unter
+`/munich-radar/`, unveränderliche Release-Pfade und inhaltsabhängige Skript-URLs
+verhindern die Mischung alter und neuer Kartendateien im mobilen Browser.
+
+Der bestehende Veröffentlichungsworkflow prüft weiterhin die Event-App und
+zusätzlich die statische Kartenansicht mit mobilem WebKit, bevor GitHub Pages
+umgeschaltet wird. Lokal: `python scripts/check_public_atlas.py --browser chromium`
+beziehungsweise `--browser webkit`. `--url URL` prüft die veröffentlichte Adresse.

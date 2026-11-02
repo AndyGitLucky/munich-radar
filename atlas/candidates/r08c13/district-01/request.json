@@ -1,0 +1,56 @@
+{
+  "id": "district-01",
+  "tile": "r08c13",
+  "status": "visually accepted",
+  "task": "Replace the repeated circular fountain plaza, radial wedge blocks and oversized palace buildings inside the edit area with an individual eastern Munich residential neighborhood: varied small terracotta-roof houses, modest apartment rows, irregular courtyards and gardens. Follow the local geographic guide and connect existing roads at the edit edges. Retain the small existing lake segment in the top margin. No new river, no monumental palace, no radial plaza. Keep original rich palette, crisp miniature detail and north-up registration.",
+  "editRect": [
+    100,
+    150,
+    1100,
+    1100
+  ],
+  "allowLandmarks": false,
+  "base": {
+    "path": "baseline/images/r08c13.png",
+    "sha256": "88317d63bc4be9e87481228c35a72af4d6c4e5a8f5a57cb7ad0b20f80065381c",
+    "version": "original"
+  },
+  "references": [
+    {
+      "path": "baseline/images/r08c13.png",
+      "sha256": "88317d63bc4be9e87481228c35a72af4d6c4e5a8f5a57cb7ad0b20f80065381c"
+    },
+    {
+      "path": "baseline/references/13c9c3fd4780c27ebec305ca89b74122f2c312be1d9c722460dbcdea5b4d7604.png",
+      "sha256": "13c9c3fd4780c27ebec305ca89b74122f2c312be1d9c722460dbcdea5b4d7604"
+    },
+    {
+      "path": "baseline/images/r07c13.png",
+      "sha256": "6abcb942af2c1cd52b15f118658a3d3477762aedb6e85d4fb9697e8afe577d5f"
+    },
+    {
+      "path": "baseline/images/r08c12.png",
+      "sha256": "891d8261c16c6c18f893452b027dec78b8d3a15ebdb6a8f0ff3319717f4a96bf"
+    },
+    {
+      "path": "baseline/images/r09c13.png",
+      "sha256": "8c34db53baffbb835b69ae39632932a755ffb04a7e827a52170c64177e6357f4"
+    }
+  ],
+  "prompt": "prompt.md",
+  "promptSha256": "351443a09a3269ac4a546a68c665f836f402fce69c872ed96a5c77809d5da212",
+  "created": "2026-11-02T20:20:45.333911+00:00",
+  "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a19dcf-e2d1-7e51-943f-33ab0b0ff710\\exec-f3192d2a-7506-4a67-a808-69910525e2b7.png",
+  "rawSha256": "091d40548662f2b588674872ee29cf4a8b0ddf3ef00d2fdb5c23e923f73ca210",
+  "imageSha256": "11d4aab688637e39bbffef7eea4ad63c665a6b10e0f04939e0c3f8db92167578",
+  "qualitySha256": "ff346ac9a21511fa93ab85c3869ca034fbe8199f97251958fc7b8d16fd1a8aed",
+  "imported": "2026-11-02T20:24:00.358206+00:00",
+  "previewRelease": "58c1cc3ca1979622",
+  "review": {
+    "decision": "accept",
+    "note": "Visually reviewed native painting, full release 58c1cc3ca1979622 and neighboring crop reports/rework-2026-11-02/r08c13-after.png. Copied fountain/radial blocks are replaced by varied smaller residential buildings and garden courts. Original rich olive/terracotta palette and miniature detail retained; neighboring road entries remain connected. No change outside edit rectangle; no metric warnings. Clouds conceal irrelevant land east of Munich.",
+    "imageSha256": "11d4aab688637e39bbffef7eea4ad63c665a6b10e0f04939e0c3f8db92167578",
+    "allowWarnings": false,
+    "at": "2026-11-02T20:47:15.576196+00:00"
+  }
+}

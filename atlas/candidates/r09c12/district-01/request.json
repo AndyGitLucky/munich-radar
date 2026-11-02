@@ -1,0 +1,56 @@
+{
+  "id": "district-01",
+  "tile": "r09c12",
+  "status": "visually accepted",
+  "task": "Remove the copied circular fountain and radial wedge neighborhood plus repeated oversized palace complex. Replace the edit interior with a distinct compact Munich southeastern neighborhood of irregular residential blocks, small workshops, terracotta and gray roofs, trees and garden courtyards; follow this exact geographic guide, preserve existing roads as they enter the edit edges, and keep all water absent except any small bounded pond shown in the guide. No new river, no palace stamp, no circular plaza. Match original rich colors and fine miniature linework.",
+  "editRect": [
+    90,
+    90,
+    1130,
+    1130
+  ],
+  "allowLandmarks": false,
+  "base": {
+    "path": "baseline/images/r09c12.png",
+    "sha256": "a167ac4e5841c7e9bf31fc64fa98ef302f4b6c5259f016c9983d7665bcd20db1",
+    "version": "original"
+  },
+  "references": [
+    {
+      "path": "baseline/images/r09c12.png",
+      "sha256": "a167ac4e5841c7e9bf31fc64fa98ef302f4b6c5259f016c9983d7665bcd20db1"
+    },
+    {
+      "path": "baseline/references/e1ee256838aeb4e7273353f93cf29a01a9861d6a5a6dd049ed127e0496047aed.png",
+      "sha256": "e1ee256838aeb4e7273353f93cf29a01a9861d6a5a6dd049ed127e0496047aed"
+    },
+    {
+      "path": "baseline/images/r08c12.png",
+      "sha256": "891d8261c16c6c18f893452b027dec78b8d3a15ebdb6a8f0ff3319717f4a96bf"
+    },
+    {
+      "path": "baseline/images/r09c11.png",
+      "sha256": "2bcd73e605935c71c077a534df89e3443f107939553c302e447e7a86ba035b52"
+    },
+    {
+      "path": "baseline/images/r09c13.png",
+      "sha256": "8c34db53baffbb835b69ae39632932a755ffb04a7e827a52170c64177e6357f4"
+    }
+  ],
+  "prompt": "prompt.md",
+  "promptSha256": "008a29aef80e1e75f3cd9a3b6767dcbbd52a75776f02a81589f1fb5394e93692",
+  "created": "2026-11-02T20:20:46.755174+00:00",
+  "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a19dcf-e2d1-7e51-943f-33ab0b0ff710\\exec-0fd8ef29-98e0-48cc-8d07-b295380886e2.png",
+  "rawSha256": "f23b232c978dc37a778431012a40313675543ecc8dcd9c552a1179e38ffc7438",
+  "imageSha256": "41e9292330f8153805ad2fd704f8af8b2ef3997b2fd2573edbfa5a43daa23241",
+  "qualitySha256": "e2c28234e7079a0abf379b08396c3d1b28352d25685b131b83882fde59483cbd",
+  "imported": "2026-11-02T20:28:27.922454+00:00",
+  "previewRelease": "58c1cc3ca1979622",
+  "review": {
+    "decision": "accept",
+    "note": "Visually reviewed native painting, full release 58c1cc3ca1979622 and neighboring crop reports/rework-2026-11-02/r09c12-after.png. Repeated circular plaza and monumental complex replaced by a distinct irregular residential/workshop neighborhood with gardens. Fine linework, original warm roofs and olive greens retained; existing perimeter road entries match. Outside edit pixels unchanged, no metric warnings.",
+    "imageSha256": "41e9292330f8153805ad2fd704f8af8b2ef3997b2fd2573edbfa5a43daa23241",
+    "allowWarnings": false,
+    "at": "2026-11-02T20:47:16.927782+00:00"
+  }
+}

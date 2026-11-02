@@ -1,0 +1,2 @@
+# Atlas provenance hashes bind the original bytes, including prompt line endings.
+atlas/** -text

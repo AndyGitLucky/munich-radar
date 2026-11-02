@@ -6,6 +6,15 @@ Eine kleine tägliche Auswahl aus Münchens offiziellen Veranstaltungskalendern.
 
 **Illustrierte Karte:** [Originalkarte, Pipeline und einzelne Kacheln austauschen](atlas/README.md).
 
+Die veröffentlichte Website öffnet den gemalten Atlas mit Wolkenrand. Unter
+**Info → Kartenansicht** kannst du zur unveränderten Originalkarte wechseln;
+die bisherige [Listenansicht](https://andygitlucky.github.io/munich-radar/original/)
+bleibt verfügbar. Merkliste, Filter und Kalenderexporte bleiben auf derselben Adresse.
+Der öffentliche Build verwendet `python -m src.build --atlas` und das per SHA-256
+geprüfte Kartenpaket aus `atlas/distribution.json`. Die Veröffentlichung erzeugt
+keine neuen Malereien. Lokale Entwicklung und die bestehenden App-Tests können
+weiterhin mit `python -m src.build` die bisherige Ansicht bauen.
+
 MVP mit modular angebundenen Veranstalterquellen und Veröffentlichung über GitHub Pages. Die mitgelieferten JSON-Daten sind echte Abrufe, keine Beispieldaten. Auf dem iPhone die Website in Safari öffnen; über **Teilen → Zum Home-Bildschirm** lässt sie sich als direkter Einstieg ablegen. Der eigene PC muss für die veröffentlichte Seite nicht laufen.
 
 ## Hier lokal starten

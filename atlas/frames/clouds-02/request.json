@@ -1,0 +1,31 @@
+{
+  "version": "clouds-02",
+  "status": "visually accepted",
+  "promptSha256": "1477ceb9f54b508b76f02319f02d116261dd4733d7b8d794a6388a68aeb2819d",
+  "imageSha256": "15e1d897c07897235ef5ee0b94be4a6b30ca13303194118dc2e1b520ccc99abf",
+  "recipeSha256": "b8dd4b7124012118d90ed549904adeee7f56ebd91c28417cd221627013536395",
+  "references": [
+    {
+      "path": "frames/clouds-01/raw.png",
+      "sha256": "38c0bd6dff002643a24d4dfea314430112722d2654f5c6036fd4234ddf689417"
+    }
+  ],
+  "additionalPrompts": [
+    {
+      "path": "frames/clouds-02/variant-prompt.md",
+      "sha256": "309da1a57161b531eee60a2919a031cabda48fa8aa57d5bbfc35054877f2cab1"
+    }
+  ],
+  "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a19dcf-e2d1-7e51-943f-33ab0b0ff710\\exec-22b59c9a-c74b-4cfd-b4b2-3d7e8067af4e.png",
+  "imported": "2026-11-02T20:29:17.260075+00:00",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "review": {
+    "decision": "accept",
+    "note": "Visually reviewed all three native cloud paintings, full rectangular release 58c1cc3ca1979622, and native city-edge crops. Warm cream/ivory highlights and restrained olive-gray shadows match the atlas medium. Staggered unmirrored variations remove the previous fold grid; opaque clouds cover outside land and rectangular gaps, with soft transitions around Munich. Pixel verification confirms the complete opaque rectangle, zero cloud change to city pixels, and 48 protected landmarks. Source pixels are not enlarged or recolored.",
+    "identity": "f6f9a38a7364f28bca18d9adbd2eb1fc0c0aa2059f3c8c04c6a709aa55fd3a6c",
+    "at": "2026-11-02T20:47:21.355755+00:00"
+  }
+}

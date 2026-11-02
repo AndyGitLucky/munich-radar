@@ -1,0 +1,12 @@
+{
+  "texture": "raw.png",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "overlap": 192,
+  "maskBlur": 64,
+  "maskClear": 105,
+  "maskOpaque": 24,
+  "note": "Native cloud pixels, overlapping mirrored placements; no source scaling or recoloring."
+}

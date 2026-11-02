@@ -123,3 +123,71 @@ def test_palette_drift_is_measured_against_original_not_previous_edit(workspace)
     assert abs(report['candidate']['saturation']-report['editTarget']['saturation'])<.08
     assert abs(report['saturationDifference'])>.08
     assert any('Saturation' in warning for warning in report['warnings'])
+
+
+def cloud_frame(workspace, tmp_path, version='clouds'):
+    from src.map_pipeline.frame import folder_for, import_frame
+    folder=folder_for(workspace,version);folder.mkdir(parents=True)
+    (folder/'prompt.md').write_text('Paint warm ivory clouds, in the original atlas style.')
+    source=tmp_path/(version+'.png');Image.new('RGB',(512,512),(242,239,230)).save(source)
+    return import_frame(workspace,version,source,references=['baseline/images/r01c01.png'])
+
+
+def test_cloud_frame_cannot_be_published_without_visual_review(workspace,tmp_path):
+    from src.map_pipeline.frame import review_frame
+    item=cloud_frame(workspace,tmp_path);state=workspace.original_state();state['frame']=item
+    with pytest.raises(ValueError,match='Visual review'):workspace.validate_state(state,require_review=True)
+    review_frame(workspace,'clouds','accept','Cloud palette and full rectangle visually inspected.')
+    workspace.validate_state(state,require_review=True)
+    assert 'frame' not in workspace.original_state()
+
+
+@pytest.mark.parametrize('name',['raw.png','recipe.json','prompt.md'])
+def test_accepted_cloud_frame_detects_modified_artwork_or_recipe(workspace,tmp_path,name):
+    from src.map_pipeline.frame import check_frame,folder_for,review_frame
+    item=cloud_frame(workspace,tmp_path);review_frame(workspace,'clouds','accept','Reviewed the complete map.')
+    with (folder_for(workspace,'clouds')/name).open('ab') as stream:stream.write(b'changed')
+    with pytest.raises(ValueError,match='provenance'):check_frame(workspace,item,require_review=True)
+
+
+def test_cloud_mask_preserves_city_islands_and_outlying_landmarks(workspace,tmp_path):
+    import numpy as np
+    from src.map_pipeline.frame import city_mask,make_mask
+    item=cloud_frame(workspace,tmp_path)
+    plan=workspace.plan()
+    plan.update(imageSize=[1254,1254],bounds=[0,0,1254,1254],scale=1,
+                cityOutline=[[[300,300],[950,300],[950,950],[300,950]],
+                             [[90,1000],[120,1000],[120,1030],[90,1030]]],
+                landmarks=[{'protectedRect':[1000,1100,1050,1150]}])
+    save(workspace.root/'plan.json',plan)
+    output=tmp_path/'mask.png';make_mask(workspace,item,output)
+    mask=np.asarray(Image.open(output));city=np.asarray(city_mask(plan))>0
+    assert np.max(mask[city])==0
+    assert np.max(mask[1100:1150,1000:1050])==0
+    assert mask[0,0]==255
+    assert np.array_equal(mask,np.asarray(Image.open(tmp_path/'cloud-alpha.png').getchannel('A')))
+
+
+def test_cloud_verification_rejects_changed_city_or_transparent_rectangle(tmp_path):
+    from src.map_pipeline.frame import verify_frame
+    plan={'imageSize':[64,64],'bounds':[0,0,64,64],'scale':1,
+          'cityOutline':[[[20,20],[40,20],[40,40],[20,40]]]}
+    ground=Image.new('RGBA',(64,64),(80,120,45,255));ground.save(tmp_path/'ground.png')
+    ground.save(tmp_path/'master.png');Image.new('L',(64,64),0).save(tmp_path/'cloud-mask.png')
+    assert verify_frame(tmp_path,plan)['rectangularOpaque']
+    changed=ground.copy();changed.putpixel((30,30),(81,120,45,255));changed.save(tmp_path/'master.png')
+    with pytest.raises(ValueError,match='city pixels'):verify_frame(tmp_path,plan)
+    changed=ground.copy();changed.putpixel((0,0),(80,120,45,0));changed.save(tmp_path/'master.png')
+    with pytest.raises(ValueError,match='transparent'):verify_frame(tmp_path,plan)
+
+
+def test_activation_rejects_a_different_inspected_release(workspace,tmp_path,monkeypatch):
+    import sys
+    from src.map_pipeline import __main__ as cli,render
+    other=workspace.original_state();other['tiles']['r01c01']['version']='another-selection'
+    release=tmp_path/'release';release.mkdir();save(release/'state.json',other)
+    monkeypatch.setattr(cli,'Workspace',lambda:workspace)
+    monkeypatch.setattr(render,'validate_release',lambda *args:release)
+    monkeypatch.setattr(sys,'argv',['map_pipeline','activate-set','--release','inspected'])
+    with pytest.raises(ValueError,match='does not match'):cli.main()
+    assert not (workspace.root/'current.json').exists()

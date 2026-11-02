@@ -1,0 +1,56 @@
+{
+  "id": "transition-01",
+  "tile": "r04c08",
+  "status": "visually accepted",
+  "task": "Repair the western overlap strip with the direct western neighbor r04c07. Image 3 is northern neighbor r03c08, image 4 is western neighbor r04c07, image 5 is eastern neighbor r04c09. The west neighbor begins 896 pixels west in the same north-up frame, so its rightmost 358 pixels correspond to this image's leftmost 358 pixels. Within x=0..410,y=190..1070, carefully connect the existing lake shores, woodland, small paths and residential roads to the western neighbor; eliminate abruptly cut or duplicated shoreline/road fragments and the rectangular change in vegetation density. Keep the existing lake location and extent given by image 2, no new lake or river. Preserve all outside pixels, original rich olive/terracotta palette and fine miniature scale. Make a restrained local transition repair, not a new district composition.",
+  "editRect": [
+    0,
+    190,
+    410,
+    1070
+  ],
+  "allowLandmarks": false,
+  "base": {
+    "path": "baseline/images/r04c08.png",
+    "sha256": "b90dd408dc23090b07205d85e54b94affb42b596b79284772918892f0235b784",
+    "version": "original"
+  },
+  "references": [
+    {
+      "path": "baseline/images/r04c08.png",
+      "sha256": "b90dd408dc23090b07205d85e54b94affb42b596b79284772918892f0235b784"
+    },
+    {
+      "path": "baseline/references/caf307ba0ed4afeaa5f133340c530d397823149eafb1417e580ec6a3de804792.png",
+      "sha256": "caf307ba0ed4afeaa5f133340c530d397823149eafb1417e580ec6a3de804792"
+    },
+    {
+      "path": "baseline/images/r03c08.png",
+      "sha256": "d4fde18ab2a64ef34c4ff59fb2fa43aa9102159c75790e98775f78ced6f82d42"
+    },
+    {
+      "path": "baseline/images/r04c07.png",
+      "sha256": "158071e893c8061a190d8ab7ed27da246d873687b1806b3494aed64a713d5029"
+    },
+    {
+      "path": "baseline/images/r04c09.png",
+      "sha256": "88b3ec8f4510a1af320c5eb0ae35b8b819896e9e3524d4eedcc0d6d9253aef91"
+    }
+  ],
+  "prompt": "prompt.md",
+  "promptSha256": "34cbffd1cb0af6e7a1855502d7bf3fe929a6660d911f2b3b1a73ac2c5606984a",
+  "created": "2026-11-02T20:31:28.562371+00:00",
+  "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a19dcf-e2d1-7e51-943f-33ab0b0ff710\\exec-73215952-2081-48e0-9e50-5bfb1d88f275.png",
+  "rawSha256": "328d2aa3418e392bd3c405209b0e12ffea047ca80606f8b004a8c3860da79c4d",
+  "imageSha256": "565c9a624e526ce78ef4c2e26c4ba88a92c0709a427bcd7ba4dfa4a7ff0a9137",
+  "qualitySha256": "27de0b30bacd3b96d4e3bf44a6e640aafa031df082586e5ca10429afb461f4cd",
+  "imported": "2026-11-02T20:35:11.575189+00:00",
+  "previewRelease": "58c1cc3ca1979622",
+  "review": {
+    "decision": "accept",
+    "note": "Visually reviewed the original and edited native images and composed western-neighbor crop reports/rework-2026-11-02/r04c08-after.png. Woodland paths, shore vegetation and small residential streets form a more coherent transition to r04c07. Lake stays in its original geographic position; rich palette, miniature scale and outside pixels retained. Saturation +4.40 points, brightness +0.12, detail ratio 97.37 percent; no warnings.",
+    "imageSha256": "565c9a624e526ce78ef4c2e26c4ba88a92c0709a427bcd7ba4dfa4a7ff0a9137",
+    "allowWarnings": false,
+    "at": "2026-11-02T20:47:18.326222+00:00"
+  }
+}

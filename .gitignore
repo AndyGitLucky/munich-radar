@@ -1,5 +1,6 @@
 .venv/
 atlas/releases/
+atlas/distributions/*.zip
 atlas/.build-*/
 atlas/.lock
 atlas/**/*.new

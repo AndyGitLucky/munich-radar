@@ -1,0 +1,24 @@
+{
+  "outsideEditMaxChannelDifference": 0,
+  "generatedInteriorMaxChannelDifference": 0,
+  "original": {
+    "saturation": 0.3107043673890609,
+    "brightness": 0.737441560371517,
+    "detailContrast": 0.07081753786810546
+  },
+  "editTarget": {
+    "saturation": 0.3107043673890609,
+    "brightness": 0.737441560371517,
+    "detailContrast": 0.07081753786810546
+  },
+  "candidate": {
+    "saturation": 0.37574239009287924,
+    "brightness": 0.6992355954592364,
+    "detailContrast": 0.08165536847476991
+  },
+  "saturationDifference": 0.06503802270381837,
+  "brightnessDifference": -0.038205964912280566,
+  "detailRatio": 1.153038794244011,
+  "warnings": [],
+  "note": "Diagnostics only; visual comparison of palette, structure and seams is required."
+}

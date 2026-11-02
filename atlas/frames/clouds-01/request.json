@@ -1,0 +1,25 @@
+{
+  "version": "clouds-01",
+  "status": "visually rejected",
+  "promptSha256": "ce52302552170bca245477c588ead7120e8c0cea61aefa2bf786d3ee55a8ce41",
+  "imageSha256": "38c0bd6dff002643a24d4dfea314430112722d2654f5c6036fd4234ddf689417",
+  "recipeSha256": "c68bf5929ea9c3922bb7100b4d12fe7c3600d793bcdca6ea4b989cde752f54e8",
+  "references": [
+    {
+      "path": "baseline/images/r04c03.png",
+      "sha256": "5b06ce70dd6ec670ffebeeb0f35c2f46548574936344338c6f8aced52d7b633b"
+    }
+  ],
+  "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a19dcf-e2d1-7e51-943f-33ab0b0ff710\\exec-50f99a6e-ddca-426b-a451-027fcd2f438b.png",
+  "imported": "2026-11-02T20:13:00.696209+00:00",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "review": {
+    "decision": "reject",
+    "note": "Initial full preview 6c6afd943cc907af was visually inspected. Warm cloud painting matches the palette, but alternating mirrored placements create conspicuous regular fold patterns. Retained as an unsuccessful candidate; never activated.",
+    "identity": "c53b73a0fa0702272ff2b5f740448ea59f67884134a94d3e128979c7e1d6988f",
+    "at": "2026-11-02T20:47:19.880849+00:00"
+  }
+}

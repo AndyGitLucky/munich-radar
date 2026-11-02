@@ -139,3 +139,41 @@ window.composeCandidate=async job=>{
   }
   ctx.putImageData(A,0,0);return c.toDataURL('image/png');
 };
+
+window.applyCloudFrame=async recipe=>{
+  const textures=await Promise.all((recipe.textures||[recipe.texture]).map(image)),texture=textures[0],mask=await image(recipe.mask);
+  const master=window.productionMaster,w=master.width,h=master.height;
+  if(texture.width!==recipe.nativeSize[0]||texture.height!==recipe.nativeSize[1]||mask.width!==w||mask.height!==h)
+    throw Error('Cloud frame dimensions changed');
+  const clouds=canvas(w,h),ctx=clouds.getContext('2d');
+  if(textures.some(t=>t.width!==texture.width||t.height!==texture.height))throw Error('Cloud variant dimensions changed');
+  const tw=texture.width,th=texture.height,f=recipe.overlap,stepX=tw-2*f,stepY=th-2*f;
+  let seed=recipe.seed||73109;
+  const random=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296;};
+  // Opaque underpainting guarantees a complete rectangle. Staggered, jittered
+  // native sheets above it have feathered edges and no mirror-fold symmetry.
+  for(let y=0;y<h;y+=th)for(let x=0;x<w;x+=tw)ctx.drawImage(textures[Math.floor(random()*textures.length)],x,y);
+  let placements=0;
+  for(let row=0,baseY=-f;baseY<h;row++,baseY+=stepY){
+    const shift=Math.floor(random()*stepX);
+    for(let col=0,baseX=-shift-f;baseX<w;col++,baseX+=stepX){
+      const x=baseX+Math.floor(random()*f)-f/2,y=baseY+Math.floor(random()*f)-f/2;
+      const patch=canvas(tw,th),p=patch.getContext('2d');
+      p.drawImage(textures[Math.floor(random()*textures.length)],0,0);
+      p.globalCompositeOperation='destination-in';
+      const horizontal=p.createLinearGradient(0,0,tw,0);
+      horizontal.addColorStop(0,'transparent');horizontal.addColorStop(f/tw,'black');horizontal.addColorStop(1-f/tw,'black');horizontal.addColorStop(1,'transparent');
+      p.fillStyle=horizontal;p.fillRect(0,0,tw,th);
+      const vertical=p.createLinearGradient(0,0,0,th);
+      vertical.addColorStop(0,'transparent');vertical.addColorStop(f/th,'black');vertical.addColorStop(1-f/th,'black');vertical.addColorStop(1,'transparent');
+      p.fillStyle=vertical;p.fillRect(0,0,tw,th);
+      ctx.drawImage(patch,x,y);patch.width=patch.height=1;placements++;
+    }
+  }
+  const cover=canvas(w,h),c=cover.getContext('2d');
+  c.drawImage(clouds,0,0);c.globalCompositeOperation='destination-in';c.drawImage(mask,0,0);
+  ctx.drawImage(master,0,0);
+  const out=master.getContext('2d');out.clearRect(0,0,w,h);out.drawImage(clouds,0,0);out.drawImage(cover,0,0);
+  clouds.width=clouds.height=cover.width=cover.height=1;
+  return {nativeSize:recipe.nativeSize,sourceResampleFactor:1,placements,textureCount:textures.length,seed:recipe.seed||73109,rectangle:[w,h]};
+};

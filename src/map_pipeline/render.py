@@ -25,10 +25,11 @@ def browser_page(workspace,master=None):
     class Handler(SimpleHTTPRequestHandler):
         def log_message(self,*args):pass
         def do_POST(self):
-            if self.path!='/write-master' or master is None:return self.send_error(404)
+            if self.path not in ('/write-master','/write-ground') or master is None:return self.send_error(404)
+            target=master if self.path=='/write-master' else master.with_name('ground.png')
             remaining=int(self.headers.get('Content-Length',0))
             if not 0<remaining<1_000_000_000:return self.send_error(400)
-            with master.open('wb') as stream:
+            with target.open('wb') as stream:
                 while remaining:
                     block=self.rfile.read(min(1024*1024,remaining))
                     if not block:raise ValueError('Incomplete PNG stream')
@@ -62,7 +63,7 @@ def build(workspace,state=None,fresh=False):
     started=time.monotonic();workspace.inspect(selected=False)
     state=state or workspace.state();workspace.validate_state(state)
     plan=workspace.plan();renderer_hash=identity({p.name:digest(p) for p in (workspace.root/'renderer').iterdir() if p.is_file()})
-    exporter_hash=digest(Path(__file__))
+    exporter_hash=identity({name:digest(Path(__file__).with_name(name)) for name in ('render.py','frame.py','quality.py')})
     state_hash=identity(state);key=identity({'state':state_hash,'plan':digest(workspace.root/'plan.json'),'renderer':renderer_hash,'exporter':exporter_hash})[:16]
     id=key+('-'+uuid.uuid4().hex[:6] if fresh else '')
     folder=workspace.path('releases/'+id)
@@ -76,12 +77,27 @@ def build(workspace,state=None,fresh=False):
         'nativeRegistrationMatches':True,'state':'generated'} for id,item in state['tiles'].items()]
     joins=workspace.root/'baseline/joins.json'
     job={'plan':plan,'items':items,'fixedSeams':load(joins)['seams'] if joins.exists() else None}
+    if state.get('frame'):
+        from .frame import make_mask
+        recipe=make_mask(workspace,state['frame'],folder/'cloud-mask.png')
+        job['frame']={**recipe,'texture':'/'+state['frame']['path'],'mask':f'/releases/{id}/cloud-alpha.png'}
+        if recipe.get('textures'):job['frame']['textures']=['/'+r['path'] for r in recipe['textures']]
     with browser_page(workspace,folder/'master.png') as page:
         browser_version=page.context.browser.version
         print('Assembling 75 native source sections; no image generation.',flush=True)
         page.evaluate('job=>window.job=job',job)
         result=page.evaluate('''async()=>{
           const result=await assembleProduction(true,false);
+          if(window.job.frame){
+            const ground=await new Promise(resolve=>productionMaster.toBlob(resolve,'image/png'));
+            if(!ground)throw Error('Ground PNG encoding failed');
+            const saved=await fetch('/write-ground',{method:'POST',body:ground});
+            if(!saved.ok)throw Error('Ground PNG stream failed');
+            result.cloudFrame=await applyCloudFrame(window.job.frame);
+            const preview=canvas(1800,Math.round(1800*productionMaster.height/productionMaster.width));
+            preview.getContext('2d').drawImage(productionMaster,0,0,preview.width,preview.height);
+            result.preview=preview.toDataURL('image/png');
+          }
           const blob=await new Promise(resolve=>productionMaster.toBlob(resolve,'image/png'));
           if(!blob)throw Error('PNG encoding failed');
           const response=await fetch('/write-master',{method:'POST',body:blob});
@@ -105,6 +121,7 @@ def build(workspace,state=None,fresh=False):
         'orientation':'north-up','rotation':False,'home':{'lon':11.576,'lat':48.137},
         'artwork':f'releases/{id}/master.png','artworkSha256':digest(folder/'master.png'),
         'attribution':'Geographic source © OpenStreetMap contributors (ODbL). Artwork: built-in image_gen.'}
+    if state.get('frame'):config['frame']=state['frame']
     print('Verifying every native delivery tile, source cores, protected landmarks and city coverage.',flush=True)
     quality,hashes=verify_release(workspace,folder,state,result,config)
     config['quality']=quality;save(folder/'quality.json',quality);save(folder/'manifest.json',config)
