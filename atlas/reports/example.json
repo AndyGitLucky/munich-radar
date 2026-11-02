@@ -1,0 +1,33 @@
+{
+  "outsideEditMaxChannelDifference": 0,
+  "changedPixels": 696530,
+  "globalEditRect": [
+    3213,
+    1277,
+    4033,
+    2127
+  ],
+  "originalRelease": "0a7bbe77d09b02f7",
+  "candidateRelease": "7b42b6cdeb2f5e39",
+  "palette": {
+    "outsideEditMaxChannelDifference": 0,
+    "generatedInteriorMaxChannelDifference": 0,
+    "original": {
+      "saturation": 0.36795017863673446,
+      "brightness": 0.6964728612822461,
+      "detailContrast": 0.08965354829714692
+    },
+    "candidate": {
+      "saturation": 0.3877249669451712,
+      "brightness": 0.6723069738655865,
+      "detailContrast": 0.08662056436450899
+    },
+    "saturationDifference": 0.019774788308436764,
+    "brightnessDifference": -0.024165887416659593,
+    "detailRatio": 0.9661699509919515,
+    "warnings": [],
+    "note": "Diagnostics only; visual comparison of palette, structure and seams is required."
+  },
+  "finalRelease": "3c9ad473da92be8a",
+  "finalReleasePixelsIdenticalToCheckedPreview": true
+}

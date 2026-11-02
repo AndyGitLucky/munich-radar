@@ -1,0 +1,8 @@
+{
+  "release": "0a7bbe77d09b02f7",
+  "masterSha256": "5cd872c957a427ed569940fef2784a3e681d6845d5500925e688f56ba871bfb6",
+  "sourceStateSha256": "b4da65a2abba6eff0698b3a41cf9b8224e77a5955b266d3557a83acdbb6e0ac5",
+  "recorded": "2026-11-02T18:49:33.594242+00:00",
+  "note": "First reconstruction from the hash-verified original 75 paintings; subsequent builds must reproduce it.",
+  "joinsSha256": "888c569d4732b9c5be63726a2974aab7a508f0179d2ca0f7b6a3d223df37e32b"
+}

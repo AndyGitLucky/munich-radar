@@ -1,0 +1,38 @@
+{
+  "id": "shape-01",
+  "tile": "r03c05",
+  "status": "visually accepted",
+  "task": "Replace the copied radial plaza and fan-shaped city blocks in the upper-left area with a unique irregular Munich neighborhood, retaining the exact original painting style and rich palette.",
+  "editRect": [
+    0,
+    0,
+    820,
+    850
+  ],
+  "base": {
+    "path": "baseline/images/r03c05.png",
+    "sha256": "ecbd7b30ec44954fa5ec10776492cd5e3399029b75ce88a0b2d19d019357c6f3"
+  },
+  "references": [
+    {
+      "path": "baseline/images/r03c05.png",
+      "sha256": "ecbd7b30ec44954fa5ec10776492cd5e3399029b75ce88a0b2d19d019357c6f3"
+    }
+  ],
+  "prompt": "prompt.md",
+  "promptSha256": "c20b9fb22f23948f626e389994c6aacb7b9451cac8b0060c29d78d11b0b4a55d",
+  "imagegenPromptTextSha256": "b57c7f30fd297ee4d6b0f36034d682a9e069e241db5fa30c5d1e0bace280072b",
+  "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-6a22fe86-d094-4c6b-aa3f-1079f536a602.png",
+  "rawSha256": "5114638ca929d8db3b5610a885716d35529d99ffd7a561f234071247384afa61",
+  "imageSha256": "ac8fb2dba8142d05f7d73d0c363a0a96306fe9b0f0be8c02486c74b4aececfa9",
+  "imported": "2026-11-02T18:46:57.291180+00:00",
+  "qualitySha256": "b64b8c523f0b6b18a60f92c159f46d0f5dd570709aa234ac1b41568dd41beeb9",
+  "previewRelease": "3c9ad473da92be8a",
+  "review": {
+    "decision": "accept",
+    "note": "Assistant visual review: the radial stamp is replaced by varied dense blocks; the rich original olive/terracotta palette and miniature detail are retained. Native neighbor preview inspected. Saturation +1.98 percentage points, brightness -2.42 points, detail contrast 96.6 percent; no pixels outside the requested edit footprint change.",
+    "imageSha256": "ac8fb2dba8142d05f7d73d0c363a0a96306fe9b0f0be8c02486c74b4aececfa9",
+    "allowWarnings": false,
+    "at": "2026-11-02T19:12:02.557183+00:00"
+  }
+}

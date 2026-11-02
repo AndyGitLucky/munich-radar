@@ -4,6 +4,8 @@ Eine kleine tägliche Auswahl aus Münchens offiziellen Veranstaltungskalendern.
 
 **Website:** [München Radar öffnen](https://andygitlucky.github.io/munich-radar/) · [GitHub-Repository](https://github.com/AndyGitLucky/munich-radar)
 
+**Illustrierte Karte:** [Originalkarte, Pipeline und einzelne Kacheln austauschen](atlas/README.md).
+
 MVP mit modular angebundenen Veranstalterquellen und Veröffentlichung über GitHub Pages. Die mitgelieferten JSON-Daten sind echte Abrufe, keine Beispieldaten. Auf dem iPhone die Website in Safari öffnen; über **Teilen → Zum Home-Bildschirm** lässt sie sich als direkter Einstieg ablegen. Der eigene PC muss für die veröffentlichte Seite nicht laufen.
 
 ## Hier lokal starten
@@ -42,7 +44,7 @@ python -m src.main
 python -m src.serve
 ```
 
-Für den reinen Betrieb genügt `requirements.txt`. Die Entwicklungsdatei ergänzt pytest und Playwright. Ein Node.js-Projekt wird nicht benötigt. Die auf diesem Rechner verwendeten zusätzlichen Ordner `.python/` und `.cache/` gehören zur lokalen Einrichtung und werden nicht versioniert.
+Für den reinen Betrieb genügt `requirements.txt`. Die Entwicklungsdatei ergänzt pytest sowie die Browser- und Bildprüfungen aus `requirements-map.txt`. Ein Node.js-Projekt wird nicht benötigt. Die auf diesem Rechner verwendeten zusätzlichen Ordner `.python/` und `.cache/` gehören zur lokalen Einrichtung und werden nicht versioniert.
 
 ## Was enthalten ist
 

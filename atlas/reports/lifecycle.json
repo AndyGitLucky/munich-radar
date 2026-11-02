@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "initialRelease": "c6aec76905ecfb9c",
+  "finalRelease": "3c9ad473da92be8a",
+  "unrelatedSourcesUnchanged": true,
+  "sectionRollbackVerified": true,
+  "releaseRollbackVerified": true,
+  "commands": [
+    {
+      "arguments": [
+        "activate",
+        "r03c05",
+        "shape-01"
+      ],
+      "exitCode": 0,
+      "release": "3c9ad473da92be8a",
+      "output": "Verified cached release 3c9ad473da92be8a\n{\n  \"release\": \"3c9ad473da92be8a\",\n  \"previous\": \"c6aec76905ecfb9c\",\n  \"status\": \"published locally\"\n}\n"
+    },
+    {
+      "arguments": [
+        "rollback",
+        "--tile",
+        "r03c05"
+      ],
+      "exitCode": 0,
+      "release": "c6aec76905ecfb9c",
+      "output": "Verified cached release c6aec76905ecfb9c\n{\n  \"release\": \"c6aec76905ecfb9c\",\n  \"previous\": \"3c9ad473da92be8a\",\n  \"status\": \"published locally\"\n}\n"
+    },
+    {
+      "arguments": [
+        "rollback",
+        "--release",
+        "3c9ad473da92be8a"
+      ],
+      "exitCode": 0,
+      "release": "3c9ad473da92be8a",
+      "output": "{\n  \"release\": \"3c9ad473da92be8a\",\n  \"previous\": \"c6aec76905ecfb9c\",\n  \"status\": \"published locally\"\n}\n"
+    },
+    {
+      "arguments": [
+        "rollback",
+        "--release",
+        "c6aec76905ecfb9c"
+      ],
+      "exitCode": 0,
+      "release": "c6aec76905ecfb9c",
+      "output": "{\n  \"release\": \"c6aec76905ecfb9c\",\n  \"previous\": \"3c9ad473da92be8a\",\n  \"status\": \"published locally\"\n}\n"
+    },
+    {
+      "arguments": [
+        "rollback",
+        "--release",
+        "3c9ad473da92be8a"
+      ],
+      "exitCode": 0,
+      "release": "3c9ad473da92be8a",
+      "output": "{\n  \"release\": \"3c9ad473da92be8a\",\n  \"previous\": \"c6aec76905ecfb9c\",\n  \"status\": \"published locally\"\n}\n"
+    }
+  ]
+}

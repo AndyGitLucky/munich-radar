@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "projectionUnchanged": true,
+  "recommendationsUnchanged": true,
+  "images": [
+    "browser/example-before.png",
+    "browser/example-after.png",
+    "browser/example-review.png"
+  ]
+}

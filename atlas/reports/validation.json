@@ -1,0 +1,362 @@
+{
+  "date": "2026-11-02",
+  "originalSections": 75,
+  "eventFilesUnchanged": 112,
+  "pytest": {
+    "command": "python -m pytest -q",
+    "passed": 127
+  },
+  "browserChecks": [
+    {
+      "command": "python scripts/check_atlas.py --browser webkit --variant baseline",
+      "status": "passed"
+    },
+    {
+      "command": "python scripts/check_atlas.py --browser chromium --variant painted",
+      "status": "passed"
+    },
+    {
+      "command": "python scripts/check_atlas_versions.py",
+      "status": "passed"
+    }
+  ],
+  "baselineReproduction": {
+    "maxChannelDifference": 0,
+    "channelsCompared": 454719096,
+    "pngBytesIdentical": true
+  },
+  "activeRelease": "3c9ad473da92be8a",
+  "quality": {
+    "masterSha256": "f8c116a0f59a7426ea3f6b6278938673852e6acb8187a75600db4ad77ef77431",
+    "maxChannelDifference": 0,
+    "channelsCompared": 454719096,
+    "format": "lossless PNG",
+    "sourceResampleFactor": 1,
+    "sourceChecks": [
+      {
+        "id": "r07c09",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r06c09",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r07c08",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r08c09",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r07c10",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r06c08",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r06c10",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r05c09",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r08c08",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r07c07",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r08c10",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r09c09",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r07c11",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r05c08",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r06c07",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r05c10",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r06c11",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r04c09",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r08c07",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r09c08",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r07c06",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r08c11",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r09c10",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r07c12",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r05c07",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r04c08",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r06c06",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r04c10",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r05c11",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r06c12",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r03c09",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r08c06",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r09c07",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r10c08",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r07c05",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r08c12",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r09c11",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r07c13",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r04c07",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r05c06",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r03c08",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r06c05",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r03c10",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r04c11",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r05c12",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r06c13",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r09c06",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r08c05",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r10c07",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r07c04",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r08c13",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r09c12",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r10c11",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r03c07",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r04c06",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r05c05",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r06c04",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r03c11",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r09c05",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r10c06",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r07c03",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r09c13",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r10c12",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r02c07",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r03c06",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r04c05",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r05c04",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r06c03",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r02c06",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r03c05",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r04c04",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r05c03",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r06c02",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r04c03",
+        "maxChannelDifference": 0
+      },
+      {
+        "id": "r05c02",
+        "maxChannelDifference": 0
+      }
+    ],
+    "sourceSampleSize": [
+      64,
+      64
+    ],
+    "unpaintedCityPixels": 0,
+    "originalCount": 75,
+    "protectedRegions": 48,
+    "completeBoundaryInside": true
+  },
+  "example": "example.json",
+  "lifecycle": "lifecycle.json",
+  "runtime": {
+    "python": "3.12.13",
+    "Pillow": "13.0.0",
+    "numpy": "2.5.4",
+    "browser": "156.0.8078.79"
+  },
+  "renderSeconds": {
+    "0a7bbe77d09b02f7": 66.41,
+    "0a7bbe77d09b02f7-b1f897": 66.45,
+    "393faf98d6f82ac5": 68.8,
+    "3c9ad473da92be8a": 72.31,
+    "7b42b6cdeb2f5e39": 78.39,
+    "c6aec76905ecfb9c": 73.81
+  }
+}

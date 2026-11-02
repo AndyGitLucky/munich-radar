@@ -1,0 +1,32 @@
+{
+  "retrieved": "2026-10-31",
+  "source": "\u00a9 OpenStreetMap contributors, ODbL",
+  "copyright": "https://www.openstreetmap.org/copyright",
+  "files": {
+    "munich-base.json": {
+      "sha256": "53a786dd17c06f9fbb717ddf1eef272c6836ff374bb30c9cb8faafb689d6b68a",
+      "elements": 26544,
+      "query": "[out:json][timeout:90];rel[boundary=administrative][admin_level=6][name=\"M\u00fcnchen\"]->.r;.r map_to_area->.city;(rel.r;way(area.city)[highway~\"^(motorway|trunk|primary|secondary|tertiary)$\"];way(area.city)[waterway~\"^(river|canal)$\"];way(area.city)[natural~\"^(water|wood)$\"];way(area.city)[landuse~\"^(forest|grass|meadow|residential|commercial|industrial|cemetery|allotments)$\"];way(area.city)[leisure~\"^(park|garden)$\"];);out geom;",
+      "endpoint": "https://overpass-api.de/api/interpreter"
+    },
+    "isar-detail.json": {
+      "sha256": "7037db0ba65fd1b8083737cffaaf08cf2e78f668713dbd906f2d34454a8bd0fd",
+      "elements": 24178,
+      "query": "[out:json][timeout:60];(way[building](48.118,11.561,48.146,11.604);way[highway](48.118,11.561,48.146,11.604);way[railway](48.118,11.561,48.146,11.604);way[natural=water](48.118,11.561,48.146,11.604);way[waterway](48.118,11.561,48.146,11.604);way[landuse](48.118,11.561,48.146,11.604);way[leisure](48.118,11.561,48.146,11.604);node[natural=tree](48.118,11.561,48.146,11.604););out geom;",
+      "endpoint": "https://overpass-api.de/api/interpreter"
+    },
+    "area-relations.json": {
+      "sha256": "85678571e7229becf43e07925715e5f8d326e28d729e9962ad0adc2beb0f9e78",
+      "elements": 507,
+      "query": "[out:json][timeout:90];rel[boundary=administrative][admin_level=6][name=\"M\u00fcnchen\"]->.r;.r map_to_area->.city;(relation(area.city)[natural~\"^(water|wood|scrub)$\"];relation(area.city)[landuse~\"^(forest|grass|meadow)$\"];relation(area.city)[leisure~\"^(park|garden)$\"];way[natural~\"^(beach|shingle|scrub|grassland)$\"](48.118,11.561,48.146,11.604);nwr(area.city)[railway=station][name~\"Hauptbahnhof|M\u00fcnchen Hbf\"];nwr(area.city)[name=\"Werksviertel\"];node(area.city)[place][name~\"Giesing|giesing\"];);out geom;",
+      "endpoint": "https://overpass-api.de/api/interpreter"
+    },
+    "museum-buildings.json": {
+      "sha256": "98f30717e3e8319299c7acde43a26d5d76e9f1405e246994ba1e091e16074520",
+      "elements": 177,
+      "endpoint": "https://api.openstreetmap.org/api/0.6/map?bbox=11.579,48.128,11.586,48.133",
+      "method": "OSM API bbox XML, building ways/relations converted to geometry JSON",
+      "source_xml_sha256": "9bf34fa958f2b01aad3eb7030dee625ab2b44367418b19700eaa7eaa75ab67a7"
+    }
+  }
+}

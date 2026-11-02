@@ -1,0 +1,23 @@
+{
+  "original": {
+    "size": [
+      1254,
+      1254
+    ],
+    "meanSaturation": 0.36795017863673446,
+    "meanBrightness": 0.6964728612822461,
+    "edgeContrast": 0.08965354829714692
+  },
+  "candidate": {
+    "size": [
+      1254,
+      1254
+    ],
+    "meanSaturation": 0.3878820266126537,
+    "meanBrightness": 0.6725184234956537,
+    "edgeContrast": 0.08661935322142934
+  },
+  "saturationDifference": 0.019931847975919237,
+  "brightnessDifference": -0.023954437786592342,
+  "detailRatio": 0.9661564418436506
+}

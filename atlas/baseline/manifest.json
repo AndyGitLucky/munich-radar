@@ -1,0 +1,3121 @@
+{
+  "version": 1,
+  "name": "original",
+  "tool": "built-in image_gen.imagegen",
+  "imageSize": [
+    12311,
+    9234
+  ],
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "overlap": 358,
+  "planSha256": "d97262469caee181684b9647979268164ebb0cb7b0db2331389356fde46a6b11",
+  "basePromptSha256": "72167098b62cdfda9fc66eee0db5871f2c632b30ee143b5a3a092b0a86b1b60d",
+  "items": [
+    {
+      "id": "r07c09",
+      "image": "images/r07c09.png",
+      "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r07c09.md",
+      "promptSha256": "5dc43c4c95e1ae49d393ad1012aa9712ce13744a475f83e3bdd38497638b55ce",
+      "guide": {
+        "path": "references/9ec191fe66dd9ee8ccde251c62d39317e7bcf6428db58162a63b553d8da50e0f.png",
+        "sha256": "9ec191fe66dd9ee8ccde251c62d39317e7bcf6428db58162a63b553d8da50e0f"
+      },
+      "targets": {
+        "path": "references/0aa6c8533fd5e16c87d3a19d6f5fba7d7e35616a9b8de316c225d6235c27e593.png",
+        "sha256": "0aa6c8533fd5e16c87d3a19d6f5fba7d7e35616a9b8de316c225d6235c27e593"
+      },
+      "input": {
+        "path": "references/9ec191fe66dd9ee8ccde251c62d39317e7bcf6428db58162a63b553d8da50e0f.png",
+        "sha256": "9ec191fe66dd9ee8ccde251c62d39317e7bcf6428db58162a63b553d8da50e0f"
+      },
+      "references": [
+        {
+          "path": "references/9ec191fe66dd9ee8ccde251c62d39317e7bcf6428db58162a63b553d8da50e0f.png",
+          "sha256": "9ec191fe66dd9ee8ccde251c62d39317e7bcf6428db58162a63b553d8da50e0f"
+        },
+        {
+          "path": "references/0aa6c8533fd5e16c87d3a19d6f5fba7d7e35616a9b8de316c225d6235c27e593.png",
+          "sha256": "0aa6c8533fd5e16c87d3a19d6f5fba7d7e35616a9b8de316c225d6235c27e593"
+        },
+        {
+          "path": "references/9e591b4144a7a11c9572e02f2d6e525d2253a7de94035627f6d5d56ceedad7db.png",
+          "sha256": "9e591b4144a7a11c9572e02f2d6e525d2253a7de94035627f6d5d56ceedad7db"
+        }
+      ],
+      "dependencies": [],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-bfae70df-f8c0-4ec3-8710-6aa0618e901b.png"
+    },
+    {
+      "id": "r06c09",
+      "image": "images/r06c09.png",
+      "sha256": "9e591b4144a7a11c9572e02f2d6e525d2253a7de94035627f6d5d56ceedad7db",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r06c09.md",
+      "promptSha256": "d835f4a8e19462e3fb94776249f9c05841b1a21eceb8c8ae7aeea1a24255cb0e",
+      "guide": {
+        "path": "references/0ce8da1b353f6efa56ac6c55637ec790e9f8013db5c5117f592a59d3ebe5cc5e.png",
+        "sha256": "0ce8da1b353f6efa56ac6c55637ec790e9f8013db5c5117f592a59d3ebe5cc5e"
+      },
+      "targets": {
+        "path": "references/45cc327922571772dcec8a17df233c8184651a1c3dadd49f2e8727a4a87e1842.png",
+        "sha256": "45cc327922571772dcec8a17df233c8184651a1c3dadd49f2e8727a4a87e1842"
+      },
+      "input": {
+        "path": "references/0ce8da1b353f6efa56ac6c55637ec790e9f8013db5c5117f592a59d3ebe5cc5e.png",
+        "sha256": "0ce8da1b353f6efa56ac6c55637ec790e9f8013db5c5117f592a59d3ebe5cc5e"
+      },
+      "references": [
+        {
+          "path": "references/0ce8da1b353f6efa56ac6c55637ec790e9f8013db5c5117f592a59d3ebe5cc5e.png",
+          "sha256": "0ce8da1b353f6efa56ac6c55637ec790e9f8013db5c5117f592a59d3ebe5cc5e"
+        },
+        {
+          "path": "references/45cc327922571772dcec8a17df233c8184651a1c3dadd49f2e8727a4a87e1842.png",
+          "sha256": "45cc327922571772dcec8a17df233c8184651a1c3dadd49f2e8727a4a87e1842"
+        }
+      ],
+      "dependencies": [],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a19808-4109-7011-8956-5213a7802c6b\\exec-f536fce7-084d-455c-9ab0-f92835802bdd.png"
+    },
+    {
+      "id": "r07c08",
+      "image": "images/r07c08.png",
+      "sha256": "88fa919333a8cf42187a1e02419085f5062522a26bbb96ad84659a0f822aa864",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r07c08.md",
+      "promptSha256": "6def21ffee0952e979156771b46d666213c2e73c75c4922c866d313557b8b779",
+      "guide": {
+        "path": "references/13a857c17ba7caa726c3456bb6184761edb81d7e9a2479b6fa00fc795423651c.png",
+        "sha256": "13a857c17ba7caa726c3456bb6184761edb81d7e9a2479b6fa00fc795423651c"
+      },
+      "targets": {
+        "path": "references/aab356e082aa111a64cfe1ee8af1020dfe0454dbf19b28d482c85746b333ea0d.png",
+        "sha256": "aab356e082aa111a64cfe1ee8af1020dfe0454dbf19b28d482c85746b333ea0d"
+      },
+      "input": {
+        "path": "references/79cbcb1426436c1d508688b51723b591aea6e0d959214a8c2217064f862b48c0.png",
+        "sha256": "79cbcb1426436c1d508688b51723b591aea6e0d959214a8c2217064f862b48c0"
+      },
+      "references": [
+        {
+          "path": "references/79cbcb1426436c1d508688b51723b591aea6e0d959214a8c2217064f862b48c0.png",
+          "sha256": "79cbcb1426436c1d508688b51723b591aea6e0d959214a8c2217064f862b48c0"
+        },
+        {
+          "path": "references/aab356e082aa111a64cfe1ee8af1020dfe0454dbf19b28d482c85746b333ea0d.png",
+          "sha256": "aab356e082aa111a64cfe1ee8af1020dfe0454dbf19b28d482c85746b333ea0d"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r07c09"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-93e476b3-8f87-4b7f-9d5f-958f28e2145b.png"
+    },
+    {
+      "id": "r08c09",
+      "image": "images/r08c09.png",
+      "sha256": "ba3eb39b657644637cdb0dacc51b616f70a4e20c5a6afab4b37ef5bac3e8d71a",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r08c09.md",
+      "promptSha256": "78e7abddaae3e1af687e1bb7dc8dc5d65ecf89590ca21ab5d37f0c62c02181da",
+      "guide": {
+        "path": "references/fa3aa11a8276a0231e08a48a5d51dcf5d5673556e53374ae87001170cd8478ba.png",
+        "sha256": "fa3aa11a8276a0231e08a48a5d51dcf5d5673556e53374ae87001170cd8478ba"
+      },
+      "targets": {
+        "path": "references/1565a35bc3021c3db43fc849aee3e0bb5fdf5d00480f0a9f0f1a178350e66bde.png",
+        "sha256": "1565a35bc3021c3db43fc849aee3e0bb5fdf5d00480f0a9f0f1a178350e66bde"
+      },
+      "input": {
+        "path": "references/651a4b6796244f492b30de35b86ae1be6b10cbf7178203ca7eae006e5486cb71.png",
+        "sha256": "651a4b6796244f492b30de35b86ae1be6b10cbf7178203ca7eae006e5486cb71"
+      },
+      "references": [
+        {
+          "path": "references/651a4b6796244f492b30de35b86ae1be6b10cbf7178203ca7eae006e5486cb71.png",
+          "sha256": "651a4b6796244f492b30de35b86ae1be6b10cbf7178203ca7eae006e5486cb71"
+        },
+        {
+          "path": "references/1565a35bc3021c3db43fc849aee3e0bb5fdf5d00480f0a9f0f1a178350e66bde.png",
+          "sha256": "1565a35bc3021c3db43fc849aee3e0bb5fdf5d00480f0a9f0f1a178350e66bde"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r07c09"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-62c8f892-e81b-4b7f-bd36-4d41ee9fd872.png"
+    },
+    {
+      "id": "r07c10",
+      "image": "images/r07c10.png",
+      "sha256": "2ff68f389ba52932ed9a2f5d28f4b1b6fc8976da48ff0ab9dfc0ed816d16230e",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r07c10.md",
+      "promptSha256": "dfb869b41069579e09b0aa570b7284e216c5c578b64f3374eabc986e68f039a0",
+      "guide": {
+        "path": "references/6fcc6f40d666e110887daaa0448f05260e60e44339ae9a4ea8384ac17b87a8d1.png",
+        "sha256": "6fcc6f40d666e110887daaa0448f05260e60e44339ae9a4ea8384ac17b87a8d1"
+      },
+      "targets": {
+        "path": "references/a8552344444b6555740f9d26ecd488b555184a910191945d860fdd3ceac7c64e.png",
+        "sha256": "a8552344444b6555740f9d26ecd488b555184a910191945d860fdd3ceac7c64e"
+      },
+      "input": {
+        "path": "references/c47a1b6e1003b858ca308aa2ebb6f19ea3d8e3f4f43eac6df96b5a71067c9329.png",
+        "sha256": "c47a1b6e1003b858ca308aa2ebb6f19ea3d8e3f4f43eac6df96b5a71067c9329"
+      },
+      "references": [
+        {
+          "path": "references/c47a1b6e1003b858ca308aa2ebb6f19ea3d8e3f4f43eac6df96b5a71067c9329.png",
+          "sha256": "c47a1b6e1003b858ca308aa2ebb6f19ea3d8e3f4f43eac6df96b5a71067c9329"
+        },
+        {
+          "path": "references/a8552344444b6555740f9d26ecd488b555184a910191945d860fdd3ceac7c64e.png",
+          "sha256": "a8552344444b6555740f9d26ecd488b555184a910191945d860fdd3ceac7c64e"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r07c09",
+        "r06c10"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-4eec4c65-719c-4980-bd63-89438a8681f4.png"
+    },
+    {
+      "id": "r06c08",
+      "image": "images/r06c08.png",
+      "sha256": "375670041ab9e8cb1c31fbc5d078c236096336c345d06653817287009f2cc41d",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r06c08.md",
+      "promptSha256": "6bc9d4d2500289609b98eb9c39caafec882fc31bc10d3796f16a83e534bc8df3",
+      "guide": {
+        "path": "references/d13256ec46aef850ab652426e39a954ae7f9dafd4bf1fc0a7243be0565dcf767.png",
+        "sha256": "d13256ec46aef850ab652426e39a954ae7f9dafd4bf1fc0a7243be0565dcf767"
+      },
+      "targets": {
+        "path": "references/f567c4772cad6fa46f46db1c83a0c7cd108a9c097ac95de5bdec0fd44f223ead.png",
+        "sha256": "f567c4772cad6fa46f46db1c83a0c7cd108a9c097ac95de5bdec0fd44f223ead"
+      },
+      "input": {
+        "path": "references/3f98513af0b0fa6cb9b0e19a011869844cdcfc2f1d304e30a7a5cbcc6efe7288.png",
+        "sha256": "3f98513af0b0fa6cb9b0e19a011869844cdcfc2f1d304e30a7a5cbcc6efe7288"
+      },
+      "references": [
+        {
+          "path": "references/3f98513af0b0fa6cb9b0e19a011869844cdcfc2f1d304e30a7a5cbcc6efe7288.png",
+          "sha256": "3f98513af0b0fa6cb9b0e19a011869844cdcfc2f1d304e30a7a5cbcc6efe7288"
+        },
+        {
+          "path": "references/f567c4772cad6fa46f46db1c83a0c7cd108a9c097ac95de5bdec0fd44f223ead.png",
+          "sha256": "f567c4772cad6fa46f46db1c83a0c7cd108a9c097ac95de5bdec0fd44f223ead"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r06c09",
+        "r07c08"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-ff9b24b4-be32-42df-b327-7141262bea16.png"
+    },
+    {
+      "id": "r06c10",
+      "image": "images/r06c10.png",
+      "sha256": "bd33fbf9010e48b505821958bbf0169804c11d99ba192da8f79970048cf2df21",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r06c10.md",
+      "promptSha256": "b286637bb84ff3cfdab66152a3765646da4e2446517d22fc419795a085f30ca5",
+      "guide": {
+        "path": "references/ca07c2c3c7803351eadcfe178cd79f67d0c4ac4df109696ce7566afa6bfb5bc3.png",
+        "sha256": "ca07c2c3c7803351eadcfe178cd79f67d0c4ac4df109696ce7566afa6bfb5bc3"
+      },
+      "targets": {
+        "path": "references/dce5aec075bd7bcd4f7dc45e5a7bc7344a8f82690fd7a5b6b8ad9080736a039a.png",
+        "sha256": "dce5aec075bd7bcd4f7dc45e5a7bc7344a8f82690fd7a5b6b8ad9080736a039a"
+      },
+      "input": {
+        "path": "references/85cf53e24806708c7e254cbfe0911b82f15b454fad5c2283633faa4696cda6f4.png",
+        "sha256": "85cf53e24806708c7e254cbfe0911b82f15b454fad5c2283633faa4696cda6f4"
+      },
+      "references": [
+        {
+          "path": "references/85cf53e24806708c7e254cbfe0911b82f15b454fad5c2283633faa4696cda6f4.png",
+          "sha256": "85cf53e24806708c7e254cbfe0911b82f15b454fad5c2283633faa4696cda6f4"
+        },
+        {
+          "path": "references/dce5aec075bd7bcd4f7dc45e5a7bc7344a8f82690fd7a5b6b8ad9080736a039a.png",
+          "sha256": "dce5aec075bd7bcd4f7dc45e5a7bc7344a8f82690fd7a5b6b8ad9080736a039a"
+        },
+        {
+          "path": "references/9e591b4144a7a11c9572e02f2d6e525d2253a7de94035627f6d5d56ceedad7db.png",
+          "sha256": "9e591b4144a7a11c9572e02f2d6e525d2253a7de94035627f6d5d56ceedad7db"
+        }
+      ],
+      "dependencies": [
+        "r06c09"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a19808-4109-7011-8956-5213a7802c6b\\exec-47712898-a676-4df4-ae55-e7c3e5bf69f1.png"
+    },
+    {
+      "id": "r05c09",
+      "image": "images/r05c09.png",
+      "sha256": "da22ad87c7040235570f2f00d7a665582d009738e93247b6c05829204e7c547f",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r05c09.md",
+      "promptSha256": "685ee016c6983e7e656a9caf49a5cc31f2e5348ac623601e883ef296831985cf",
+      "guide": {
+        "path": "references/5305c9de8e8c0089ba14f3973e31aa8214d1259e137d45bc0dc2e8a2caca8a16.png",
+        "sha256": "5305c9de8e8c0089ba14f3973e31aa8214d1259e137d45bc0dc2e8a2caca8a16"
+      },
+      "targets": {
+        "path": "references/06a68aa7841b14269e653404577ed92a293f2b1c941ebee08717786d80314edf.png",
+        "sha256": "06a68aa7841b14269e653404577ed92a293f2b1c941ebee08717786d80314edf"
+      },
+      "input": {
+        "path": "references/70afeacaaf986af97599902c26c58a753e6a7e6955ef241deb9a36e8ed5ba6af.png",
+        "sha256": "70afeacaaf986af97599902c26c58a753e6a7e6955ef241deb9a36e8ed5ba6af"
+      },
+      "references": [
+        {
+          "path": "references/70afeacaaf986af97599902c26c58a753e6a7e6955ef241deb9a36e8ed5ba6af.png",
+          "sha256": "70afeacaaf986af97599902c26c58a753e6a7e6955ef241deb9a36e8ed5ba6af"
+        },
+        {
+          "path": "references/06a68aa7841b14269e653404577ed92a293f2b1c941ebee08717786d80314edf.png",
+          "sha256": "06a68aa7841b14269e653404577ed92a293f2b1c941ebee08717786d80314edf"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r06c09",
+        "r05c10"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-dfd05d58-5869-4703-81c6-1b0249ea628e.png"
+    },
+    {
+      "id": "r08c08",
+      "image": "images/r08c08.png",
+      "sha256": "f5831ca4f4d80c6bb42c8658bc22c9a240ddf017782d10810cf6c86498001de8",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r08c08.md",
+      "promptSha256": "4c0b8d88924d557f8ac2c21771bc7a6357bb96acd077e1ef8c94ad42ed4164bc",
+      "guide": {
+        "path": "references/a202fb5e9cb9bbc144b0ceb59f1ba85aeb3f3fdc693ef4d3ca00966c7def2847.png",
+        "sha256": "a202fb5e9cb9bbc144b0ceb59f1ba85aeb3f3fdc693ef4d3ca00966c7def2847"
+      },
+      "targets": {
+        "path": "references/154358bf88a7286a6a3be155dc2bbe2f83d8b56e89372c37b6f9cfa9ed468834.png",
+        "sha256": "154358bf88a7286a6a3be155dc2bbe2f83d8b56e89372c37b6f9cfa9ed468834"
+      },
+      "input": {
+        "path": "references/400acf14a3e552bb5bb9e91256b8ab66cb88efb05603d966006384ef866812aa.png",
+        "sha256": "400acf14a3e552bb5bb9e91256b8ab66cb88efb05603d966006384ef866812aa"
+      },
+      "references": [
+        {
+          "path": "references/400acf14a3e552bb5bb9e91256b8ab66cb88efb05603d966006384ef866812aa.png",
+          "sha256": "400acf14a3e552bb5bb9e91256b8ab66cb88efb05603d966006384ef866812aa"
+        },
+        {
+          "path": "references/154358bf88a7286a6a3be155dc2bbe2f83d8b56e89372c37b6f9cfa9ed468834.png",
+          "sha256": "154358bf88a7286a6a3be155dc2bbe2f83d8b56e89372c37b6f9cfa9ed468834"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r07c08",
+        "r08c09"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-abaafd17-85f5-4d5c-9b0d-2af993b913a7.png"
+    },
+    {
+      "id": "r07c07",
+      "image": "images/r07c07.png",
+      "sha256": "32a550369a89aa64b2550785c273eb2a52f8be441f72efff0416be15e23500a9",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r07c07.md",
+      "promptSha256": "e38683664919cfb7e7178075357b57a8d1b646644f6b31144d155d318364e43d",
+      "guide": {
+        "path": "references/50326dcf38340cdc129bb27bccab26d4b5d7f35fe50c6c1c1beb52c022a2ac96.png",
+        "sha256": "50326dcf38340cdc129bb27bccab26d4b5d7f35fe50c6c1c1beb52c022a2ac96"
+      },
+      "targets": {
+        "path": "references/27cc06eba8588b442d0fccbf45796537617d802594ffcd259ccd64fc11b1eda8.png",
+        "sha256": "27cc06eba8588b442d0fccbf45796537617d802594ffcd259ccd64fc11b1eda8"
+      },
+      "input": {
+        "path": "references/fdf9f95cc7b895c4f82261d9b77966e48ef7328efe8e07e702a62c47f08bf62d.png",
+        "sha256": "fdf9f95cc7b895c4f82261d9b77966e48ef7328efe8e07e702a62c47f08bf62d"
+      },
+      "references": [
+        {
+          "path": "references/fdf9f95cc7b895c4f82261d9b77966e48ef7328efe8e07e702a62c47f08bf62d.png",
+          "sha256": "fdf9f95cc7b895c4f82261d9b77966e48ef7328efe8e07e702a62c47f08bf62d"
+        },
+        {
+          "path": "references/27cc06eba8588b442d0fccbf45796537617d802594ffcd259ccd64fc11b1eda8.png",
+          "sha256": "27cc06eba8588b442d0fccbf45796537617d802594ffcd259ccd64fc11b1eda8"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r07c08"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-63a6ba24-ead3-41f8-b112-eab37867ca9a.png"
+    },
+    {
+      "id": "r08c10",
+      "image": "images/r08c10.png",
+      "sha256": "83c496c81be449b91dbb134e5e88319b829a7b01ffd830f4af7b8a819bcca159",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r08c10.md",
+      "promptSha256": "0696d4337291955d2da52bdd847566efd49216240d2eff6a466b4466f8b84113",
+      "guide": {
+        "path": "references/2174e189448652e68b966222fc59de5b04e6b72054eb616acf08e92dad036a4d.png",
+        "sha256": "2174e189448652e68b966222fc59de5b04e6b72054eb616acf08e92dad036a4d"
+      },
+      "targets": {
+        "path": "references/fabc8429e07783f4fb307e24a791fb58f4e77e198753c52c96bec9710d2c64be.png",
+        "sha256": "fabc8429e07783f4fb307e24a791fb58f4e77e198753c52c96bec9710d2c64be"
+      },
+      "input": {
+        "path": "references/8dd5d1480a0d8adcd42111f93f265fbee861d0615eccfaacc337b5355149bf96.png",
+        "sha256": "8dd5d1480a0d8adcd42111f93f265fbee861d0615eccfaacc337b5355149bf96"
+      },
+      "references": [
+        {
+          "path": "references/8dd5d1480a0d8adcd42111f93f265fbee861d0615eccfaacc337b5355149bf96.png",
+          "sha256": "8dd5d1480a0d8adcd42111f93f265fbee861d0615eccfaacc337b5355149bf96"
+        },
+        {
+          "path": "references/fabc8429e07783f4fb307e24a791fb58f4e77e198753c52c96bec9710d2c64be.png",
+          "sha256": "fabc8429e07783f4fb307e24a791fb58f4e77e198753c52c96bec9710d2c64be"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r08c09",
+        "r07c10"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-8f01ecb1-2298-48ba-9867-66bbf2ef7e98.png"
+    },
+    {
+      "id": "r09c09",
+      "image": "images/r09c09.png",
+      "sha256": "106bf6c511319576fd93d273f1ed31d9f5e55e1ac6cff24cce55440a8d3af743",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r09c09.md",
+      "promptSha256": "3cb7489da39a1140d3304461187654fcb2b0643022ef3af873b2d8141be84c49",
+      "guide": {
+        "path": "references/5b9bff2b44aba6b12261cb31e644ecf9e63731e6329797033bfad955e50266a9.png",
+        "sha256": "5b9bff2b44aba6b12261cb31e644ecf9e63731e6329797033bfad955e50266a9"
+      },
+      "targets": {
+        "path": "references/5b9bff2b44aba6b12261cb31e644ecf9e63731e6329797033bfad955e50266a9.png",
+        "sha256": "5b9bff2b44aba6b12261cb31e644ecf9e63731e6329797033bfad955e50266a9"
+      },
+      "input": {
+        "path": "references/d79d9087835d916fb8451326d6a9d3503f0098234a4bd2200b428db66cbfa946.png",
+        "sha256": "d79d9087835d916fb8451326d6a9d3503f0098234a4bd2200b428db66cbfa946"
+      },
+      "references": [
+        {
+          "path": "references/d79d9087835d916fb8451326d6a9d3503f0098234a4bd2200b428db66cbfa946.png",
+          "sha256": "d79d9087835d916fb8451326d6a9d3503f0098234a4bd2200b428db66cbfa946"
+        },
+        {
+          "path": "references/5b9bff2b44aba6b12261cb31e644ecf9e63731e6329797033bfad955e50266a9.png",
+          "sha256": "5b9bff2b44aba6b12261cb31e644ecf9e63731e6329797033bfad955e50266a9"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r08c09"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-86c3a1eb-1f6c-4357-b4c3-fec97a2721d9.png"
+    },
+    {
+      "id": "r07c11",
+      "image": "images/r07c11.png",
+      "sha256": "8512ef4fd9a8b9d2c5620b979626134f5efd09119513206796e0e192a7ac1b00",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r07c11.md",
+      "promptSha256": "e25f8e7d2e4e0b06bd001f42f3f49b1efce878ed66b518546290693ec221e163",
+      "guide": {
+        "path": "references/0d2179e41899e74a7ad09446bfab8ca4ac9e8bfca2c494bcb56f4caa085ed8b8.png",
+        "sha256": "0d2179e41899e74a7ad09446bfab8ca4ac9e8bfca2c494bcb56f4caa085ed8b8"
+      },
+      "targets": {
+        "path": "references/0d2179e41899e74a7ad09446bfab8ca4ac9e8bfca2c494bcb56f4caa085ed8b8.png",
+        "sha256": "0d2179e41899e74a7ad09446bfab8ca4ac9e8bfca2c494bcb56f4caa085ed8b8"
+      },
+      "input": {
+        "path": "references/479839bfa3d5afd495512bd9661b6b13a582a51ab2ee5ff36211b4596c15c7c8.png",
+        "sha256": "479839bfa3d5afd495512bd9661b6b13a582a51ab2ee5ff36211b4596c15c7c8"
+      },
+      "references": [
+        {
+          "path": "references/479839bfa3d5afd495512bd9661b6b13a582a51ab2ee5ff36211b4596c15c7c8.png",
+          "sha256": "479839bfa3d5afd495512bd9661b6b13a582a51ab2ee5ff36211b4596c15c7c8"
+        },
+        {
+          "path": "references/0d2179e41899e74a7ad09446bfab8ca4ac9e8bfca2c494bcb56f4caa085ed8b8.png",
+          "sha256": "0d2179e41899e74a7ad09446bfab8ca4ac9e8bfca2c494bcb56f4caa085ed8b8"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r07c10"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-a326783e-6c83-43e3-8d80-db5c38dbef02.png"
+    },
+    {
+      "id": "r05c08",
+      "image": "images/r05c08.png",
+      "sha256": "3e4a14288c21fe9a27a13a3b32f6ff4d3bd67e6ae30776e0559e0c5c34b3814f",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r05c08.md",
+      "promptSha256": "96f77a613ede3e03fd46042f45889c02bbbe3bd42f157eb75507a81a01d54382",
+      "guide": {
+        "path": "references/fbf1f6c30aafadf258eee99c32f1cdf2c084abe81a99f4c8590f20272d9d7be3.png",
+        "sha256": "fbf1f6c30aafadf258eee99c32f1cdf2c084abe81a99f4c8590f20272d9d7be3"
+      },
+      "targets": {
+        "path": "references/d12e353a721c83097bc59ce09b8ddd29cc343e387d2599eb8c630af32b0a2b40.png",
+        "sha256": "d12e353a721c83097bc59ce09b8ddd29cc343e387d2599eb8c630af32b0a2b40"
+      },
+      "input": {
+        "path": "references/e47bf8cabfd7dc4c132be13b42b5168e4bc9996f9215948e73f5510b581d9119.png",
+        "sha256": "e47bf8cabfd7dc4c132be13b42b5168e4bc9996f9215948e73f5510b581d9119"
+      },
+      "references": [
+        {
+          "path": "references/e47bf8cabfd7dc4c132be13b42b5168e4bc9996f9215948e73f5510b581d9119.png",
+          "sha256": "e47bf8cabfd7dc4c132be13b42b5168e4bc9996f9215948e73f5510b581d9119"
+        },
+        {
+          "path": "references/d12e353a721c83097bc59ce09b8ddd29cc343e387d2599eb8c630af32b0a2b40.png",
+          "sha256": "d12e353a721c83097bc59ce09b8ddd29cc343e387d2599eb8c630af32b0a2b40"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r06c08",
+        "r05c09"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-ee01e71e-2df1-402d-8baf-c9a51f5f04ea.png"
+    },
+    {
+      "id": "r06c07",
+      "image": "images/r06c07.png",
+      "sha256": "df3084c5aa12ba6e9448540fdaec6e803729c7bf1d05c99c1ae32f3cb3656fa0",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r06c07.md",
+      "promptSha256": "1637d1346a30eb50524446c4231d26a49ead741cb677af630ee419a6fa3949f2",
+      "guide": {
+        "path": "references/442e26f4f3da1c080a2dfb399cf6342653c704359d2f6407c6a067a67bc08a06.png",
+        "sha256": "442e26f4f3da1c080a2dfb399cf6342653c704359d2f6407c6a067a67bc08a06"
+      },
+      "targets": {
+        "path": "references/58eea51ee0cbf65ee9ac68eddf29c49d6dc655dc0074a624d9b33c723690e68b.png",
+        "sha256": "58eea51ee0cbf65ee9ac68eddf29c49d6dc655dc0074a624d9b33c723690e68b"
+      },
+      "input": {
+        "path": "references/b89fc7ad8a6ba835f27989dc468c853569a96e4f96ffd6ad153216d0231f9144.png",
+        "sha256": "b89fc7ad8a6ba835f27989dc468c853569a96e4f96ffd6ad153216d0231f9144"
+      },
+      "references": [
+        {
+          "path": "references/b89fc7ad8a6ba835f27989dc468c853569a96e4f96ffd6ad153216d0231f9144.png",
+          "sha256": "b89fc7ad8a6ba835f27989dc468c853569a96e4f96ffd6ad153216d0231f9144"
+        },
+        {
+          "path": "references/58eea51ee0cbf65ee9ac68eddf29c49d6dc655dc0074a624d9b33c723690e68b.png",
+          "sha256": "58eea51ee0cbf65ee9ac68eddf29c49d6dc655dc0074a624d9b33c723690e68b"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r06c08",
+        "r07c07"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-426452bc-8d21-459d-b866-0eb2eae96dbe.png"
+    },
+    {
+      "id": "r05c10",
+      "image": "images/r05c10.png",
+      "sha256": "84e9ce9487112ebb7e9f93300604521601bc59848997dcac3c7ddc8995aefeb3",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r05c10.md",
+      "promptSha256": "8c0f5de06dad15d8309cffaad3959b21ad204aa39a3a6648b0eece54737a9e6b",
+      "guide": {
+        "path": "references/3838127178c0029926a47d0742111ba04b29efcff77dbf618fac373cfd7e88b3.png",
+        "sha256": "3838127178c0029926a47d0742111ba04b29efcff77dbf618fac373cfd7e88b3"
+      },
+      "targets": {
+        "path": "references/3838127178c0029926a47d0742111ba04b29efcff77dbf618fac373cfd7e88b3.png",
+        "sha256": "3838127178c0029926a47d0742111ba04b29efcff77dbf618fac373cfd7e88b3"
+      },
+      "input": {
+        "path": "references/343d039c6c7dca0df3b0e72bade3d6c0c0172ad6c74302d89eac94b1bb57ccd1.png",
+        "sha256": "343d039c6c7dca0df3b0e72bade3d6c0c0172ad6c74302d89eac94b1bb57ccd1"
+      },
+      "references": [
+        {
+          "path": "references/343d039c6c7dca0df3b0e72bade3d6c0c0172ad6c74302d89eac94b1bb57ccd1.png",
+          "sha256": "343d039c6c7dca0df3b0e72bade3d6c0c0172ad6c74302d89eac94b1bb57ccd1"
+        },
+        {
+          "path": "references/3838127178c0029926a47d0742111ba04b29efcff77dbf618fac373cfd7e88b3.png",
+          "sha256": "3838127178c0029926a47d0742111ba04b29efcff77dbf618fac373cfd7e88b3"
+        },
+        {
+          "path": "references/9e591b4144a7a11c9572e02f2d6e525d2253a7de94035627f6d5d56ceedad7db.png",
+          "sha256": "9e591b4144a7a11c9572e02f2d6e525d2253a7de94035627f6d5d56ceedad7db"
+        }
+      ],
+      "dependencies": [
+        "r06c10"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a19808-4109-7011-8956-5213a7802c6b\\exec-75d223e6-7ddb-40f3-91dd-616405630f92.png"
+    },
+    {
+      "id": "r06c11",
+      "image": "images/r06c11.png",
+      "sha256": "3054c149ce8e1d064af5f25194c31363a858ddb303aec29b3339329451cd9dee",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r06c11.md",
+      "promptSha256": "65d5cc86d5caeeeedc595b36876d63bb4f8b909bad123305e514b7c73792ec48",
+      "guide": {
+        "path": "references/58b6f827ba0bd0001109712aff89e1ea2b23e1df7e8b84ed659df136b6887336.png",
+        "sha256": "58b6f827ba0bd0001109712aff89e1ea2b23e1df7e8b84ed659df136b6887336"
+      },
+      "targets": {
+        "path": "references/58b6f827ba0bd0001109712aff89e1ea2b23e1df7e8b84ed659df136b6887336.png",
+        "sha256": "58b6f827ba0bd0001109712aff89e1ea2b23e1df7e8b84ed659df136b6887336"
+      },
+      "input": {
+        "path": "references/09989e1f4a404ebae6742f8b9fd0c9248fbbdeb0bec4ad8be851b3bf63f96557.png",
+        "sha256": "09989e1f4a404ebae6742f8b9fd0c9248fbbdeb0bec4ad8be851b3bf63f96557"
+      },
+      "references": [
+        {
+          "path": "references/09989e1f4a404ebae6742f8b9fd0c9248fbbdeb0bec4ad8be851b3bf63f96557.png",
+          "sha256": "09989e1f4a404ebae6742f8b9fd0c9248fbbdeb0bec4ad8be851b3bf63f96557"
+        },
+        {
+          "path": "references/58b6f827ba0bd0001109712aff89e1ea2b23e1df7e8b84ed659df136b6887336.png",
+          "sha256": "58b6f827ba0bd0001109712aff89e1ea2b23e1df7e8b84ed659df136b6887336"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r06c10",
+        "r07c11"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-5616d3c2-3bb0-4a2d-ad85-1ec392cacea4.png"
+    },
+    {
+      "id": "r04c09",
+      "image": "images/r04c09.png",
+      "sha256": "88b3ec8f4510a1af320c5eb0ae35b8b819896e9e3524d4eedcc0d6d9253aef91",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r04c09.md",
+      "promptSha256": "7fcb6167e62f59bcc8d5a60d32ee0019a77b9d7500ccd28859b66894c7b0a349",
+      "guide": {
+        "path": "references/036af76432748e391f9f6f33641c4b265a4801f6ad672459d26265bfac78c145.png",
+        "sha256": "036af76432748e391f9f6f33641c4b265a4801f6ad672459d26265bfac78c145"
+      },
+      "targets": {
+        "path": "references/036af76432748e391f9f6f33641c4b265a4801f6ad672459d26265bfac78c145.png",
+        "sha256": "036af76432748e391f9f6f33641c4b265a4801f6ad672459d26265bfac78c145"
+      },
+      "input": {
+        "path": "references/2f6f79e279636653ca28e745fe9dd036fde10a40bbc07ce32f35b16690c7f4a5.png",
+        "sha256": "2f6f79e279636653ca28e745fe9dd036fde10a40bbc07ce32f35b16690c7f4a5"
+      },
+      "references": [
+        {
+          "path": "references/2f6f79e279636653ca28e745fe9dd036fde10a40bbc07ce32f35b16690c7f4a5.png",
+          "sha256": "2f6f79e279636653ca28e745fe9dd036fde10a40bbc07ce32f35b16690c7f4a5"
+        },
+        {
+          "path": "references/036af76432748e391f9f6f33641c4b265a4801f6ad672459d26265bfac78c145.png",
+          "sha256": "036af76432748e391f9f6f33641c4b265a4801f6ad672459d26265bfac78c145"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r05c09"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-443a5137-b46f-4310-b513-9459bf583f36.png"
+    },
+    {
+      "id": "r08c07",
+      "image": "images/r08c07.png",
+      "sha256": "b3b9be532515a04c769fae3fdba2b28b28451723a410fe098df93170ed9754d7",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r08c07.md",
+      "promptSha256": "e314a088ddb3d9090caf7c4d0389722f4f6be57305b0cc2c637e21bf180601c5",
+      "guide": {
+        "path": "references/08bc7a3a4f547b1cf97aa10188d4d896f992aa2f7292be30d590f575ec10b347.png",
+        "sha256": "08bc7a3a4f547b1cf97aa10188d4d896f992aa2f7292be30d590f575ec10b347"
+      },
+      "targets": {
+        "path": "references/21633ec3de580849755e7651df922373858a32f12ba97c3535073da352424a50.png",
+        "sha256": "21633ec3de580849755e7651df922373858a32f12ba97c3535073da352424a50"
+      },
+      "input": {
+        "path": "references/e9868ce546c146100909fad217ed48219db7ff569700a70458c7c01ef0aadac5.png",
+        "sha256": "e9868ce546c146100909fad217ed48219db7ff569700a70458c7c01ef0aadac5"
+      },
+      "references": [
+        {
+          "path": "references/e9868ce546c146100909fad217ed48219db7ff569700a70458c7c01ef0aadac5.png",
+          "sha256": "e9868ce546c146100909fad217ed48219db7ff569700a70458c7c01ef0aadac5"
+        },
+        {
+          "path": "references/21633ec3de580849755e7651df922373858a32f12ba97c3535073da352424a50.png",
+          "sha256": "21633ec3de580849755e7651df922373858a32f12ba97c3535073da352424a50"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r08c08",
+        "r07c07"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-51564af2-fca5-4794-bd21-fae6bf7a17c0.png"
+    },
+    {
+      "id": "r09c08",
+      "image": "images/r09c08.png",
+      "sha256": "8d84752164912dc9173c0ff8a4e58f1decbff3f5a9da55b66b3e04f95018b70e",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r09c08.md",
+      "promptSha256": "ee60d1840c72cce8f60ee7a6fb847ba92acd05ae984a78f579e1bbdf050cafad",
+      "guide": {
+        "path": "references/c2369fc538d077d349e48dea1804ce8a491ad828c4328f258b6dbdc270ac208b.png",
+        "sha256": "c2369fc538d077d349e48dea1804ce8a491ad828c4328f258b6dbdc270ac208b"
+      },
+      "targets": {
+        "path": "references/c2369fc538d077d349e48dea1804ce8a491ad828c4328f258b6dbdc270ac208b.png",
+        "sha256": "c2369fc538d077d349e48dea1804ce8a491ad828c4328f258b6dbdc270ac208b"
+      },
+      "input": {
+        "path": "references/5bbca72d6f018fcf0063de1c1d0251b057fbd4cfa11fc0b809d47befb08aa9bf.png",
+        "sha256": "5bbca72d6f018fcf0063de1c1d0251b057fbd4cfa11fc0b809d47befb08aa9bf"
+      },
+      "references": [
+        {
+          "path": "references/5bbca72d6f018fcf0063de1c1d0251b057fbd4cfa11fc0b809d47befb08aa9bf.png",
+          "sha256": "5bbca72d6f018fcf0063de1c1d0251b057fbd4cfa11fc0b809d47befb08aa9bf"
+        },
+        {
+          "path": "references/c2369fc538d077d349e48dea1804ce8a491ad828c4328f258b6dbdc270ac208b.png",
+          "sha256": "c2369fc538d077d349e48dea1804ce8a491ad828c4328f258b6dbdc270ac208b"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r08c08",
+        "r09c09"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-9b7dd64e-feb2-457d-b242-53b8b372b3eb.png"
+    },
+    {
+      "id": "r07c06",
+      "image": "images/r07c06.png",
+      "sha256": "d8f2a076889717d05265fa1af52acc3a656936465cbc20e83d8296cbad0d69c9",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r07c06.md",
+      "promptSha256": "aea39e39583693f74336648f464ae4f0054bc71b673eac4e1cb736cb712b24cf",
+      "guide": {
+        "path": "references/cd0ae5ea8d2967b00c390c6c1ebdf0f13f9fde7378cbb117b3cf89571e154f1b.png",
+        "sha256": "cd0ae5ea8d2967b00c390c6c1ebdf0f13f9fde7378cbb117b3cf89571e154f1b"
+      },
+      "targets": {
+        "path": "references/9a5f4edffaf6db2a94b57abec69f72f0b33a533dd186b328d90f1cf7cb7667e3.png",
+        "sha256": "9a5f4edffaf6db2a94b57abec69f72f0b33a533dd186b328d90f1cf7cb7667e3"
+      },
+      "input": {
+        "path": "references/83266152f432598747f1d87baf3d81d0fbb8b11e8369cd11feed61fcb61d1cbf.png",
+        "sha256": "83266152f432598747f1d87baf3d81d0fbb8b11e8369cd11feed61fcb61d1cbf"
+      },
+      "references": [
+        {
+          "path": "references/83266152f432598747f1d87baf3d81d0fbb8b11e8369cd11feed61fcb61d1cbf.png",
+          "sha256": "83266152f432598747f1d87baf3d81d0fbb8b11e8369cd11feed61fcb61d1cbf"
+        },
+        {
+          "path": "references/9a5f4edffaf6db2a94b57abec69f72f0b33a533dd186b328d90f1cf7cb7667e3.png",
+          "sha256": "9a5f4edffaf6db2a94b57abec69f72f0b33a533dd186b328d90f1cf7cb7667e3"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r07c07"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-12b25634-5a27-432a-9076-953b5f06be87.png"
+    },
+    {
+      "id": "r08c11",
+      "image": "images/r08c11.png",
+      "sha256": "055fb7a5db3bb7e3629c631560e84b3d243d73613507ffd023a9546463a41d12",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r08c11.md",
+      "promptSha256": "c1be9d848a8f10e50bc71bcfedc72870538b2046cf3b52701f3d610b2ca57792",
+      "guide": {
+        "path": "references/d4053d1e57006de7da22e4376f93661c2f5aba7cde8f220cd903cccb0012813b.png",
+        "sha256": "d4053d1e57006de7da22e4376f93661c2f5aba7cde8f220cd903cccb0012813b"
+      },
+      "targets": {
+        "path": "references/d4053d1e57006de7da22e4376f93661c2f5aba7cde8f220cd903cccb0012813b.png",
+        "sha256": "d4053d1e57006de7da22e4376f93661c2f5aba7cde8f220cd903cccb0012813b"
+      },
+      "input": {
+        "path": "references/1463f4064b4600951eef925ff5f8b00cab5f0dcc96bbba97897cd672141627f1.png",
+        "sha256": "1463f4064b4600951eef925ff5f8b00cab5f0dcc96bbba97897cd672141627f1"
+      },
+      "references": [
+        {
+          "path": "references/1463f4064b4600951eef925ff5f8b00cab5f0dcc96bbba97897cd672141627f1.png",
+          "sha256": "1463f4064b4600951eef925ff5f8b00cab5f0dcc96bbba97897cd672141627f1"
+        },
+        {
+          "path": "references/d4053d1e57006de7da22e4376f93661c2f5aba7cde8f220cd903cccb0012813b.png",
+          "sha256": "d4053d1e57006de7da22e4376f93661c2f5aba7cde8f220cd903cccb0012813b"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r08c10",
+        "r07c11"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-651ad1da-fad2-426f-bf67-c085d6963ad4.png"
+    },
+    {
+      "id": "r09c10",
+      "image": "images/r09c10.png",
+      "sha256": "5cf504ba8dd4587f09ff094bcc73079ef799ca68ab1189704bf044ada8633fec",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r09c10.md",
+      "promptSha256": "e0318f42f6cb90e79dd7f54afd0016b1e88c6664e20930b05941fd1d91f3d2f4",
+      "guide": {
+        "path": "references/1153e5791d11aab5a3d6c68b924f34724b542d0db920789de58fabf5864e4c60.png",
+        "sha256": "1153e5791d11aab5a3d6c68b924f34724b542d0db920789de58fabf5864e4c60"
+      },
+      "targets": {
+        "path": "references/1153e5791d11aab5a3d6c68b924f34724b542d0db920789de58fabf5864e4c60.png",
+        "sha256": "1153e5791d11aab5a3d6c68b924f34724b542d0db920789de58fabf5864e4c60"
+      },
+      "input": {
+        "path": "references/3d25ec57f07396ccf03852b5cf77a71a621a3b7a421f08970561569be3728ae5.png",
+        "sha256": "3d25ec57f07396ccf03852b5cf77a71a621a3b7a421f08970561569be3728ae5"
+      },
+      "references": [
+        {
+          "path": "references/3d25ec57f07396ccf03852b5cf77a71a621a3b7a421f08970561569be3728ae5.png",
+          "sha256": "3d25ec57f07396ccf03852b5cf77a71a621a3b7a421f08970561569be3728ae5"
+        },
+        {
+          "path": "references/1153e5791d11aab5a3d6c68b924f34724b542d0db920789de58fabf5864e4c60.png",
+          "sha256": "1153e5791d11aab5a3d6c68b924f34724b542d0db920789de58fabf5864e4c60"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r08c10",
+        "r09c09"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-85e2682a-8d4a-4556-b2bc-8739d1b9d190.png"
+    },
+    {
+      "id": "r07c12",
+      "image": "images/r07c12.png",
+      "sha256": "baa54d32408287e099bf2cab9778291c9c1c4164aa969b396e8e6f3bb139115b",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r07c12.md",
+      "promptSha256": "7947558d5bd849d8fff3ed253cd4bd902caaa8b8bfb76dd6aa29484df4c8c6ce",
+      "guide": {
+        "path": "references/05a5f022bb8f6223488beef432bb4ace046edcbe2dd3c7aaf3c792700e83e3d3.png",
+        "sha256": "05a5f022bb8f6223488beef432bb4ace046edcbe2dd3c7aaf3c792700e83e3d3"
+      },
+      "targets": {
+        "path": "references/846245b1705ba6dd42d3cab6594f570cc388bda140d6aa89d2a42ff7acc51fae.png",
+        "sha256": "846245b1705ba6dd42d3cab6594f570cc388bda140d6aa89d2a42ff7acc51fae"
+      },
+      "input": {
+        "path": "references/a8c0617b808620510f2efa7b521b2b20d198ec96962120e926e90f80b8d5556f.png",
+        "sha256": "a8c0617b808620510f2efa7b521b2b20d198ec96962120e926e90f80b8d5556f"
+      },
+      "references": [
+        {
+          "path": "references/a8c0617b808620510f2efa7b521b2b20d198ec96962120e926e90f80b8d5556f.png",
+          "sha256": "a8c0617b808620510f2efa7b521b2b20d198ec96962120e926e90f80b8d5556f"
+        },
+        {
+          "path": "references/846245b1705ba6dd42d3cab6594f570cc388bda140d6aa89d2a42ff7acc51fae.png",
+          "sha256": "846245b1705ba6dd42d3cab6594f570cc388bda140d6aa89d2a42ff7acc51fae"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r07c11"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-9b075a36-8dec-4dd7-914d-262d9bc0330a.png"
+    },
+    {
+      "id": "r05c07",
+      "image": "images/r05c07.png",
+      "sha256": "b68e4e53b320c029ae6103b63f953a217047e5b1fccb230fe418e5f77735a0aa",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r05c07.md",
+      "promptSha256": "633c5f222ae2c2ff289fb1c6c9e98ef32b49d5f9e701ebf193a6ef31efe29be6",
+      "guide": {
+        "path": "references/6bfc613ab00b9913b6106f79d544f9f7f2bbb95c3ee21e14d077fa96234326f6.png",
+        "sha256": "6bfc613ab00b9913b6106f79d544f9f7f2bbb95c3ee21e14d077fa96234326f6"
+      },
+      "targets": {
+        "path": "references/e338cd111f17b2fb8a41946242e6ca79019337d4f23e4097b97a6b2420f92f89.png",
+        "sha256": "e338cd111f17b2fb8a41946242e6ca79019337d4f23e4097b97a6b2420f92f89"
+      },
+      "input": {
+        "path": "references/d750483055a78de636fbc2d46af630b51bc15d7d62055c22f4d8a6b173a3a531.png",
+        "sha256": "d750483055a78de636fbc2d46af630b51bc15d7d62055c22f4d8a6b173a3a531"
+      },
+      "references": [
+        {
+          "path": "references/d750483055a78de636fbc2d46af630b51bc15d7d62055c22f4d8a6b173a3a531.png",
+          "sha256": "d750483055a78de636fbc2d46af630b51bc15d7d62055c22f4d8a6b173a3a531"
+        },
+        {
+          "path": "references/e338cd111f17b2fb8a41946242e6ca79019337d4f23e4097b97a6b2420f92f89.png",
+          "sha256": "e338cd111f17b2fb8a41946242e6ca79019337d4f23e4097b97a6b2420f92f89"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r05c08",
+        "r06c07"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-d770a6d1-2ca7-4b05-b597-5ed56784e561.png"
+    },
+    {
+      "id": "r04c08",
+      "image": "images/r04c08.png",
+      "sha256": "b90dd408dc23090b07205d85e54b94affb42b596b79284772918892f0235b784",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r04c08.md",
+      "promptSha256": "482a4e2cb98a5182b4a77a18767c66505bd2c0b5260fdc90fc28de8a971fcc12",
+      "guide": {
+        "path": "references/caf307ba0ed4afeaa5f133340c530d397823149eafb1417e580ec6a3de804792.png",
+        "sha256": "caf307ba0ed4afeaa5f133340c530d397823149eafb1417e580ec6a3de804792"
+      },
+      "targets": {
+        "path": "references/caf307ba0ed4afeaa5f133340c530d397823149eafb1417e580ec6a3de804792.png",
+        "sha256": "caf307ba0ed4afeaa5f133340c530d397823149eafb1417e580ec6a3de804792"
+      },
+      "input": {
+        "path": "references/bdce019ca2047f624e5106855a95aa532d69696ac366b03a479ce7c2efb79566.png",
+        "sha256": "bdce019ca2047f624e5106855a95aa532d69696ac366b03a479ce7c2efb79566"
+      },
+      "references": [
+        {
+          "path": "references/bdce019ca2047f624e5106855a95aa532d69696ac366b03a479ce7c2efb79566.png",
+          "sha256": "bdce019ca2047f624e5106855a95aa532d69696ac366b03a479ce7c2efb79566"
+        },
+        {
+          "path": "references/caf307ba0ed4afeaa5f133340c530d397823149eafb1417e580ec6a3de804792.png",
+          "sha256": "caf307ba0ed4afeaa5f133340c530d397823149eafb1417e580ec6a3de804792"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r05c08",
+        "r04c09"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-55649617-2670-4046-9f66-f832a49bea21.png"
+    },
+    {
+      "id": "r06c06",
+      "image": "images/r06c06.png",
+      "sha256": "2e0d103832c2713572a51b285434c8ddc3695cd44393ec2ca0c3a27eecdde120",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r06c06.md",
+      "promptSha256": "af8362739acc3292e26fe148e8e4024cae5357983fd81b09123c101fbbe4d1f7",
+      "guide": {
+        "path": "references/c2099126119aa3a5c2fcc3bae8d7d0de84241479615abc1646b9723840f61485.png",
+        "sha256": "c2099126119aa3a5c2fcc3bae8d7d0de84241479615abc1646b9723840f61485"
+      },
+      "targets": {
+        "path": "references/17e455095c9dc66acd6d37e59cdcdee8c2ce02d8e8288bfcd45de358f9b10375.png",
+        "sha256": "17e455095c9dc66acd6d37e59cdcdee8c2ce02d8e8288bfcd45de358f9b10375"
+      },
+      "input": {
+        "path": "references/71903c786d4c7c576f55ce4e03ba82a6960c5798f2281f59fa9c34d345dfe0da.png",
+        "sha256": "71903c786d4c7c576f55ce4e03ba82a6960c5798f2281f59fa9c34d345dfe0da"
+      },
+      "references": [
+        {
+          "path": "references/71903c786d4c7c576f55ce4e03ba82a6960c5798f2281f59fa9c34d345dfe0da.png",
+          "sha256": "71903c786d4c7c576f55ce4e03ba82a6960c5798f2281f59fa9c34d345dfe0da"
+        },
+        {
+          "path": "references/17e455095c9dc66acd6d37e59cdcdee8c2ce02d8e8288bfcd45de358f9b10375.png",
+          "sha256": "17e455095c9dc66acd6d37e59cdcdee8c2ce02d8e8288bfcd45de358f9b10375"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r06c07",
+        "r07c06"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-f963f754-ea57-455b-a94b-39328f5a6851.png"
+    },
+    {
+      "id": "r04c10",
+      "image": "images/r04c10.png",
+      "sha256": "95cafa6d27b584236d9466381d64e8afb799c19649ce3206fa2488bc27757de9",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r04c10.md",
+      "promptSha256": "08bd9893d7acf41376f802c0cf7fd25bd947ba892dfbfda7130e464e0c360db2",
+      "guide": {
+        "path": "references/802de4b7f81bb3f6523b1784321c17ae7b2ac1bea5545ef87eb5b6b12a97b769.png",
+        "sha256": "802de4b7f81bb3f6523b1784321c17ae7b2ac1bea5545ef87eb5b6b12a97b769"
+      },
+      "targets": {
+        "path": "references/788eb80ec44a7cd3e491747d6cb7cc92247cb3452290d3a505136abe3c0f8b35.png",
+        "sha256": "788eb80ec44a7cd3e491747d6cb7cc92247cb3452290d3a505136abe3c0f8b35"
+      },
+      "input": {
+        "path": "references/4a5c086622f17047e2c814d0591bfc0676530ae491b0683a17db51f9303bee19.png",
+        "sha256": "4a5c086622f17047e2c814d0591bfc0676530ae491b0683a17db51f9303bee19"
+      },
+      "references": [
+        {
+          "path": "references/4a5c086622f17047e2c814d0591bfc0676530ae491b0683a17db51f9303bee19.png",
+          "sha256": "4a5c086622f17047e2c814d0591bfc0676530ae491b0683a17db51f9303bee19"
+        },
+        {
+          "path": "references/788eb80ec44a7cd3e491747d6cb7cc92247cb3452290d3a505136abe3c0f8b35.png",
+          "sha256": "788eb80ec44a7cd3e491747d6cb7cc92247cb3452290d3a505136abe3c0f8b35"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r05c10",
+        "r04c09"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-6d44b310-9447-401b-b78f-aedbc176f409.png"
+    },
+    {
+      "id": "r05c11",
+      "image": "images/r05c11.png",
+      "sha256": "5bc48ba1e7ba7bf8e5fa49936e03851bdfc22e34671d3ac762c94506380b57d8",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r05c11.md",
+      "promptSha256": "2e306df8d85ab746a7c21c07622ebff48955cc82368d14c4cadb61f229434950",
+      "guide": {
+        "path": "references/2a8376dcf02f282999016aa74dace983eca9e3e37a0b82fac6ea1152be6fe825.png",
+        "sha256": "2a8376dcf02f282999016aa74dace983eca9e3e37a0b82fac6ea1152be6fe825"
+      },
+      "targets": {
+        "path": "references/2a8376dcf02f282999016aa74dace983eca9e3e37a0b82fac6ea1152be6fe825.png",
+        "sha256": "2a8376dcf02f282999016aa74dace983eca9e3e37a0b82fac6ea1152be6fe825"
+      },
+      "input": {
+        "path": "references/9936bd8f06d643a4367640bacc6888e7576129701e43516bcd5ecd0e660fe732.png",
+        "sha256": "9936bd8f06d643a4367640bacc6888e7576129701e43516bcd5ecd0e660fe732"
+      },
+      "references": [
+        {
+          "path": "references/9936bd8f06d643a4367640bacc6888e7576129701e43516bcd5ecd0e660fe732.png",
+          "sha256": "9936bd8f06d643a4367640bacc6888e7576129701e43516bcd5ecd0e660fe732"
+        },
+        {
+          "path": "references/2a8376dcf02f282999016aa74dace983eca9e3e37a0b82fac6ea1152be6fe825.png",
+          "sha256": "2a8376dcf02f282999016aa74dace983eca9e3e37a0b82fac6ea1152be6fe825"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r05c10",
+        "r06c11"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-f3305d71-8733-492f-8eaa-e9afa1a6a862.png"
+    },
+    {
+      "id": "r06c12",
+      "image": "images/r06c12.png",
+      "sha256": "d3fa0b7e4c79bfa27431eadd8d8465f0e91da71d216f4808269eb7214c23413a",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r06c12.md",
+      "promptSha256": "b1304f5bb8e24a444bd3872eb52f07ba88ae1a44ffa8d1b08da1749c915139bd",
+      "guide": {
+        "path": "references/836a0eb360f9bb14353e8eff26b29da483ddccba929bdd795c4065d55be2f098.png",
+        "sha256": "836a0eb360f9bb14353e8eff26b29da483ddccba929bdd795c4065d55be2f098"
+      },
+      "targets": {
+        "path": "references/836a0eb360f9bb14353e8eff26b29da483ddccba929bdd795c4065d55be2f098.png",
+        "sha256": "836a0eb360f9bb14353e8eff26b29da483ddccba929bdd795c4065d55be2f098"
+      },
+      "input": {
+        "path": "references/b9d42663551ceaae223e69380a51d039a397703b4657658eee4e9826974a8ea4.png",
+        "sha256": "b9d42663551ceaae223e69380a51d039a397703b4657658eee4e9826974a8ea4"
+      },
+      "references": [
+        {
+          "path": "references/b9d42663551ceaae223e69380a51d039a397703b4657658eee4e9826974a8ea4.png",
+          "sha256": "b9d42663551ceaae223e69380a51d039a397703b4657658eee4e9826974a8ea4"
+        },
+        {
+          "path": "references/836a0eb360f9bb14353e8eff26b29da483ddccba929bdd795c4065d55be2f098.png",
+          "sha256": "836a0eb360f9bb14353e8eff26b29da483ddccba929bdd795c4065d55be2f098"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r06c11",
+        "r07c12"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-00f5171a-c23e-4b02-9e05-95b3e6abee11.png"
+    },
+    {
+      "id": "r03c09",
+      "image": "images/r03c09.png",
+      "sha256": "3995985ddd0ed5abfaacf63d02f33f86105eac889ea0f03476945dc21ac46bc3",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r03c09.md",
+      "promptSha256": "8256efdc729d62732b8038d1ce5aa61fedb9f4eb214ee18015f2bd959eea3d22",
+      "guide": {
+        "path": "references/64bdb6bcf5c8e4625aba48e4d2b88ac7ffa9ab056bd5bdf3db622891fc700828.png",
+        "sha256": "64bdb6bcf5c8e4625aba48e4d2b88ac7ffa9ab056bd5bdf3db622891fc700828"
+      },
+      "targets": {
+        "path": "references/64bdb6bcf5c8e4625aba48e4d2b88ac7ffa9ab056bd5bdf3db622891fc700828.png",
+        "sha256": "64bdb6bcf5c8e4625aba48e4d2b88ac7ffa9ab056bd5bdf3db622891fc700828"
+      },
+      "input": {
+        "path": "references/4f2ee8a8753f27567e5a4d4097b5c3400e9ad1626a00170c8261765bb88ec8a0.png",
+        "sha256": "4f2ee8a8753f27567e5a4d4097b5c3400e9ad1626a00170c8261765bb88ec8a0"
+      },
+      "references": [
+        {
+          "path": "references/4f2ee8a8753f27567e5a4d4097b5c3400e9ad1626a00170c8261765bb88ec8a0.png",
+          "sha256": "4f2ee8a8753f27567e5a4d4097b5c3400e9ad1626a00170c8261765bb88ec8a0"
+        },
+        {
+          "path": "references/64bdb6bcf5c8e4625aba48e4d2b88ac7ffa9ab056bd5bdf3db622891fc700828.png",
+          "sha256": "64bdb6bcf5c8e4625aba48e4d2b88ac7ffa9ab056bd5bdf3db622891fc700828"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r04c09"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-177b624f-7c19-4360-bbd4-c4c1cc3bc899.png"
+    },
+    {
+      "id": "r08c06",
+      "image": "images/r08c06.png",
+      "sha256": "8c0d8aef4a388209ff8be5d9f0905121cd256af60aac846cfcc6bf7ce599ec6a",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r08c06.md",
+      "promptSha256": "f8d92adfcf35b224263ad330369bbb6406cea45eb04fb8648dd347c128f5e8d5",
+      "guide": {
+        "path": "references/a4fb67d6f7685d88111759305819cd7a4621b19f1d4537903d455d317b6a8f01.png",
+        "sha256": "a4fb67d6f7685d88111759305819cd7a4621b19f1d4537903d455d317b6a8f01"
+      },
+      "targets": {
+        "path": "references/a4fb67d6f7685d88111759305819cd7a4621b19f1d4537903d455d317b6a8f01.png",
+        "sha256": "a4fb67d6f7685d88111759305819cd7a4621b19f1d4537903d455d317b6a8f01"
+      },
+      "input": {
+        "path": "references/3f510aab04140ddea76eb05361b844484ae226fa2ee6ad7a9f06175fb0c1fade.png",
+        "sha256": "3f510aab04140ddea76eb05361b844484ae226fa2ee6ad7a9f06175fb0c1fade"
+      },
+      "references": [
+        {
+          "path": "references/3f510aab04140ddea76eb05361b844484ae226fa2ee6ad7a9f06175fb0c1fade.png",
+          "sha256": "3f510aab04140ddea76eb05361b844484ae226fa2ee6ad7a9f06175fb0c1fade"
+        },
+        {
+          "path": "references/a4fb67d6f7685d88111759305819cd7a4621b19f1d4537903d455d317b6a8f01.png",
+          "sha256": "a4fb67d6f7685d88111759305819cd7a4621b19f1d4537903d455d317b6a8f01"
+        },
+        {
+          "path": "references/fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f.png",
+          "sha256": "fef7a8b1adacbac4ccc33ce51bf2053b7fa1c7cbbd5684fb089458c00388151f"
+        }
+      ],
+      "dependencies": [
+        "r08c07",
+        "r07c06"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-19a66171-01f7-4865-9904-b4dd54b25024.png"
+    },
+    {
+      "id": "r09c07",
+      "image": "images/r09c07.png",
+      "sha256": "b20da73b5f9d3543025b76870b0aa8a1a63bf30010737512d9bee40a37d8ffd8",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r09c07.md",
+      "promptSha256": "27c9017794ca1eea5eba532c5223df0ac5cef89a44110edd613008676eaa99a2",
+      "guide": {
+        "path": "references/0f7b4304f204caa9d339b11f20f324e26b2399686834f263f62c8a12661cef36.png",
+        "sha256": "0f7b4304f204caa9d339b11f20f324e26b2399686834f263f62c8a12661cef36"
+      },
+      "targets": {
+        "path": "references/0f7b4304f204caa9d339b11f20f324e26b2399686834f263f62c8a12661cef36.png",
+        "sha256": "0f7b4304f204caa9d339b11f20f324e26b2399686834f263f62c8a12661cef36"
+      },
+      "input": {
+        "path": "references/a307eb8bda9d1d7563202e53a2c115cc4b175bd8a9ebf71df100b5841ebb9614.png",
+        "sha256": "a307eb8bda9d1d7563202e53a2c115cc4b175bd8a9ebf71df100b5841ebb9614"
+      },
+      "references": [
+        {
+          "path": "references/a307eb8bda9d1d7563202e53a2c115cc4b175bd8a9ebf71df100b5841ebb9614.png",
+          "sha256": "a307eb8bda9d1d7563202e53a2c115cc4b175bd8a9ebf71df100b5841ebb9614"
+        },
+        {
+          "path": "references/0f7b4304f204caa9d339b11f20f324e26b2399686834f263f62c8a12661cef36.png",
+          "sha256": "0f7b4304f204caa9d339b11f20f324e26b2399686834f263f62c8a12661cef36"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r08c07",
+        "r09c08"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-02ec1bd0-13b8-4e62-be94-d3fe125a5f07.png"
+    },
+    {
+      "id": "r10c08",
+      "image": "images/r10c08.png",
+      "sha256": "c4cc4d0d0f34bb4bd0da51eae97319b567b1459b04d37d6df5c91e3a9a6137be",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r10c08.md",
+      "promptSha256": "04fb4873bfa7948a0a0bf327abbac3b59a031cb3e8772019f42b544ede783602",
+      "guide": {
+        "path": "references/d9cbe1521b293a1394899368cff29791de6f70d25a5fd0646705bd7caf800131.png",
+        "sha256": "d9cbe1521b293a1394899368cff29791de6f70d25a5fd0646705bd7caf800131"
+      },
+      "targets": {
+        "path": "references/d9cbe1521b293a1394899368cff29791de6f70d25a5fd0646705bd7caf800131.png",
+        "sha256": "d9cbe1521b293a1394899368cff29791de6f70d25a5fd0646705bd7caf800131"
+      },
+      "input": {
+        "path": "references/4f5d033887bcec9c400834e07e1165de5e57f333432cdad7591811aebc101c32.png",
+        "sha256": "4f5d033887bcec9c400834e07e1165de5e57f333432cdad7591811aebc101c32"
+      },
+      "references": [
+        {
+          "path": "references/4f5d033887bcec9c400834e07e1165de5e57f333432cdad7591811aebc101c32.png",
+          "sha256": "4f5d033887bcec9c400834e07e1165de5e57f333432cdad7591811aebc101c32"
+        },
+        {
+          "path": "references/d9cbe1521b293a1394899368cff29791de6f70d25a5fd0646705bd7caf800131.png",
+          "sha256": "d9cbe1521b293a1394899368cff29791de6f70d25a5fd0646705bd7caf800131"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r09c08"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-1693f903-85aa-47ce-9477-776e531292b3.png"
+    },
+    {
+      "id": "r07c05",
+      "image": "images/r07c05.png",
+      "sha256": "9d2e3b141b10782457f77c6c0fe28e9e13c2941bc9e6a5d316cc3f9227836fa2",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r07c05.md",
+      "promptSha256": "d5082886b75a000e0f9e32349e6087852915d5e5419808ebcf2aa8ed1ebe51e7",
+      "guide": {
+        "path": "references/007af1c177157db70573a03edbdbeac229b5c2fd68ed6e5d3d20912a3979fdd2.png",
+        "sha256": "007af1c177157db70573a03edbdbeac229b5c2fd68ed6e5d3d20912a3979fdd2"
+      },
+      "targets": {
+        "path": "references/007af1c177157db70573a03edbdbeac229b5c2fd68ed6e5d3d20912a3979fdd2.png",
+        "sha256": "007af1c177157db70573a03edbdbeac229b5c2fd68ed6e5d3d20912a3979fdd2"
+      },
+      "input": {
+        "path": "references/4966bfa65249cb4349dadeb84762c853bad4faba427e2c98c6cb845deffc7543.png",
+        "sha256": "4966bfa65249cb4349dadeb84762c853bad4faba427e2c98c6cb845deffc7543"
+      },
+      "references": [
+        {
+          "path": "references/4966bfa65249cb4349dadeb84762c853bad4faba427e2c98c6cb845deffc7543.png",
+          "sha256": "4966bfa65249cb4349dadeb84762c853bad4faba427e2c98c6cb845deffc7543"
+        },
+        {
+          "path": "references/007af1c177157db70573a03edbdbeac229b5c2fd68ed6e5d3d20912a3979fdd2.png",
+          "sha256": "007af1c177157db70573a03edbdbeac229b5c2fd68ed6e5d3d20912a3979fdd2"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r07c06"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-d794e1de-4b45-43f2-96cf-cce888530755.png"
+    },
+    {
+      "id": "r08c12",
+      "image": "images/r08c12.png",
+      "sha256": "891d8261c16c6c18f893452b027dec78b8d3a15ebdb6a8f0ff3319717f4a96bf",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r08c12.md",
+      "promptSha256": "73e0f0fc6cc3195632d8fb89214b3e2c66f9b26bfef0d7f0fc5b154b1f312e68",
+      "guide": {
+        "path": "references/a392eb937f93d31331c979c52c7bfffcf266f351b87152ad6a56de964e93effe.png",
+        "sha256": "a392eb937f93d31331c979c52c7bfffcf266f351b87152ad6a56de964e93effe"
+      },
+      "targets": {
+        "path": "references/a392eb937f93d31331c979c52c7bfffcf266f351b87152ad6a56de964e93effe.png",
+        "sha256": "a392eb937f93d31331c979c52c7bfffcf266f351b87152ad6a56de964e93effe"
+      },
+      "input": {
+        "path": "references/a392eb937f93d31331c979c52c7bfffcf266f351b87152ad6a56de964e93effe.png",
+        "sha256": "a392eb937f93d31331c979c52c7bfffcf266f351b87152ad6a56de964e93effe"
+      },
+      "references": [
+        {
+          "path": "references/a392eb937f93d31331c979c52c7bfffcf266f351b87152ad6a56de964e93effe.png",
+          "sha256": "a392eb937f93d31331c979c52c7bfffcf266f351b87152ad6a56de964e93effe"
+        },
+        {
+          "path": "references/a392eb937f93d31331c979c52c7bfffcf266f351b87152ad6a56de964e93effe.png",
+          "sha256": "a392eb937f93d31331c979c52c7bfffcf266f351b87152ad6a56de964e93effe"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-f606606f-ad83-45a9-bf2d-709fd1838bcb.png"
+    },
+    {
+      "id": "r09c11",
+      "image": "images/r09c11.png",
+      "sha256": "2bcd73e605935c71c077a534df89e3443f107939553c302e447e7a86ba035b52",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r09c11.md",
+      "promptSha256": "19bc3ca5692addb5a48b6a0bcbaf92c1a68e5dfa830cac9769df2214b267c589",
+      "guide": {
+        "path": "references/1bbfe23d372c1e3c056c0e1448e08ba4f8c85afd48b159a3dd3a4efb302ab382.png",
+        "sha256": "1bbfe23d372c1e3c056c0e1448e08ba4f8c85afd48b159a3dd3a4efb302ab382"
+      },
+      "targets": {
+        "path": "references/1bbfe23d372c1e3c056c0e1448e08ba4f8c85afd48b159a3dd3a4efb302ab382.png",
+        "sha256": "1bbfe23d372c1e3c056c0e1448e08ba4f8c85afd48b159a3dd3a4efb302ab382"
+      },
+      "input": {
+        "path": "references/1bbfe23d372c1e3c056c0e1448e08ba4f8c85afd48b159a3dd3a4efb302ab382.png",
+        "sha256": "1bbfe23d372c1e3c056c0e1448e08ba4f8c85afd48b159a3dd3a4efb302ab382"
+      },
+      "references": [
+        {
+          "path": "references/1bbfe23d372c1e3c056c0e1448e08ba4f8c85afd48b159a3dd3a4efb302ab382.png",
+          "sha256": "1bbfe23d372c1e3c056c0e1448e08ba4f8c85afd48b159a3dd3a4efb302ab382"
+        },
+        {
+          "path": "references/1bbfe23d372c1e3c056c0e1448e08ba4f8c85afd48b159a3dd3a4efb302ab382.png",
+          "sha256": "1bbfe23d372c1e3c056c0e1448e08ba4f8c85afd48b159a3dd3a4efb302ab382"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-3abe6123-8743-4074-a35c-f16c9292245a.png"
+    },
+    {
+      "id": "r07c13",
+      "image": "images/r07c13.png",
+      "sha256": "6abcb942af2c1cd52b15f118658a3d3477762aedb6e85d4fb9697e8afe577d5f",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r07c13.md",
+      "promptSha256": "9ef164a3e3d64685c3392de949c950b53f6482db3b772f2ea877bb922566b03d",
+      "guide": {
+        "path": "references/18a4b8aab53de510c05130631bf386e239586401b81839214f0fa3a86d9e5e6d.png",
+        "sha256": "18a4b8aab53de510c05130631bf386e239586401b81839214f0fa3a86d9e5e6d"
+      },
+      "targets": {
+        "path": "references/7e1b25a1ee1487916d812966e658fcf08bb72dc775e8b544605f6a8837ff0eb4.png",
+        "sha256": "7e1b25a1ee1487916d812966e658fcf08bb72dc775e8b544605f6a8837ff0eb4"
+      },
+      "input": {
+        "path": "references/18a4b8aab53de510c05130631bf386e239586401b81839214f0fa3a86d9e5e6d.png",
+        "sha256": "18a4b8aab53de510c05130631bf386e239586401b81839214f0fa3a86d9e5e6d"
+      },
+      "references": [
+        {
+          "path": "references/18a4b8aab53de510c05130631bf386e239586401b81839214f0fa3a86d9e5e6d.png",
+          "sha256": "18a4b8aab53de510c05130631bf386e239586401b81839214f0fa3a86d9e5e6d"
+        },
+        {
+          "path": "references/7e1b25a1ee1487916d812966e658fcf08bb72dc775e8b544605f6a8837ff0eb4.png",
+          "sha256": "7e1b25a1ee1487916d812966e658fcf08bb72dc775e8b544605f6a8837ff0eb4"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-7417246d-0e0e-4793-aff3-cd0c279147a5.png"
+    },
+    {
+      "id": "r04c07",
+      "image": "images/r04c07.png",
+      "sha256": "158071e893c8061a190d8ab7ed27da246d873687b1806b3494aed64a713d5029",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r04c07.md",
+      "promptSha256": "d91363cc547ef79249baa7916cadedd2f64eeb375806917cf467544206c638d3",
+      "guide": {
+        "path": "references/f98a7bcff00a144721f5c24a0189ba662f361c65d83fcd03a4be466662d862c8.png",
+        "sha256": "f98a7bcff00a144721f5c24a0189ba662f361c65d83fcd03a4be466662d862c8"
+      },
+      "targets": {
+        "path": "references/f98a7bcff00a144721f5c24a0189ba662f361c65d83fcd03a4be466662d862c8.png",
+        "sha256": "f98a7bcff00a144721f5c24a0189ba662f361c65d83fcd03a4be466662d862c8"
+      },
+      "input": {
+        "path": "references/63fd60045847b93bdbe50736b6769dc1a893d0293cfb066eaf59c4bfa7e61e53.png",
+        "sha256": "63fd60045847b93bdbe50736b6769dc1a893d0293cfb066eaf59c4bfa7e61e53"
+      },
+      "references": [
+        {
+          "path": "references/63fd60045847b93bdbe50736b6769dc1a893d0293cfb066eaf59c4bfa7e61e53.png",
+          "sha256": "63fd60045847b93bdbe50736b6769dc1a893d0293cfb066eaf59c4bfa7e61e53"
+        },
+        {
+          "path": "references/f98a7bcff00a144721f5c24a0189ba662f361c65d83fcd03a4be466662d862c8.png",
+          "sha256": "f98a7bcff00a144721f5c24a0189ba662f361c65d83fcd03a4be466662d862c8"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r05c07",
+        "r04c08"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-7980f25b-28f6-4e4d-a65d-246b13e73ade.png"
+    },
+    {
+      "id": "r05c06",
+      "image": "images/r05c06.png",
+      "sha256": "82f041b41d4cec4120d0cd83bba2fc17f1fc1e520f2284d47107e6dfcda16fab",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r05c06.md",
+      "promptSha256": "3b15b3bdb774fdc1a7ce0215846bd342a7e2d4851d32e64d1dc094e9654eaa64",
+      "guide": {
+        "path": "references/d1238e437eb16ea79cca4d3898a0a05a64882fd42ffe47dcc0c0051e99aa58df.png",
+        "sha256": "d1238e437eb16ea79cca4d3898a0a05a64882fd42ffe47dcc0c0051e99aa58df"
+      },
+      "targets": {
+        "path": "references/d1238e437eb16ea79cca4d3898a0a05a64882fd42ffe47dcc0c0051e99aa58df.png",
+        "sha256": "d1238e437eb16ea79cca4d3898a0a05a64882fd42ffe47dcc0c0051e99aa58df"
+      },
+      "input": {
+        "path": "references/a83544897a5d704ab553b2c926facfdf145c1e2ebbdf59d869549d7166629985.png",
+        "sha256": "a83544897a5d704ab553b2c926facfdf145c1e2ebbdf59d869549d7166629985"
+      },
+      "references": [
+        {
+          "path": "references/a83544897a5d704ab553b2c926facfdf145c1e2ebbdf59d869549d7166629985.png",
+          "sha256": "a83544897a5d704ab553b2c926facfdf145c1e2ebbdf59d869549d7166629985"
+        },
+        {
+          "path": "references/d1238e437eb16ea79cca4d3898a0a05a64882fd42ffe47dcc0c0051e99aa58df.png",
+          "sha256": "d1238e437eb16ea79cca4d3898a0a05a64882fd42ffe47dcc0c0051e99aa58df"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r05c07",
+        "r06c06"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-cfa6e4fc-e638-4cf9-9dc0-fbc90ad6efef.png"
+    },
+    {
+      "id": "r03c08",
+      "image": "images/r03c08.png",
+      "sha256": "d4fde18ab2a64ef34c4ff59fb2fa43aa9102159c75790e98775f78ced6f82d42",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r03c08.md",
+      "promptSha256": "0b2a191f392606a284ca8d0d1771181fb190392d85f20d456c5b19319da43698",
+      "guide": {
+        "path": "references/1a22946f3ba17e153dc6b4d2011512b950fcd9339c8812dffd8229f60ef411a9.png",
+        "sha256": "1a22946f3ba17e153dc6b4d2011512b950fcd9339c8812dffd8229f60ef411a9"
+      },
+      "targets": {
+        "path": "references/1a22946f3ba17e153dc6b4d2011512b950fcd9339c8812dffd8229f60ef411a9.png",
+        "sha256": "1a22946f3ba17e153dc6b4d2011512b950fcd9339c8812dffd8229f60ef411a9"
+      },
+      "input": {
+        "path": "references/35cbf82314bb0338aaa8c1ac294539b1af6055ea189f8d69973478f528bf017d.png",
+        "sha256": "35cbf82314bb0338aaa8c1ac294539b1af6055ea189f8d69973478f528bf017d"
+      },
+      "references": [
+        {
+          "path": "references/35cbf82314bb0338aaa8c1ac294539b1af6055ea189f8d69973478f528bf017d.png",
+          "sha256": "35cbf82314bb0338aaa8c1ac294539b1af6055ea189f8d69973478f528bf017d"
+        },
+        {
+          "path": "references/1a22946f3ba17e153dc6b4d2011512b950fcd9339c8812dffd8229f60ef411a9.png",
+          "sha256": "1a22946f3ba17e153dc6b4d2011512b950fcd9339c8812dffd8229f60ef411a9"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r04c08",
+        "r03c09"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-a6644191-e9a7-4e2e-aed1-8d8f34c6c98a.png"
+    },
+    {
+      "id": "r06c05",
+      "image": "images/r06c05.png",
+      "sha256": "faf10546cf31f99d484c6eac3c2c5cf47ab19a6b592fbe6fde861aef48a582f5",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r06c05.md",
+      "promptSha256": "3c0c2954bdf51edcb24826dbf7b03780f9e380efb564f9b0ab157fa807b26f1e",
+      "guide": {
+        "path": "references/83628cd72cd0f89859cf077bd5d47b010ec0b104ccb7f628e314593a46f09558.png",
+        "sha256": "83628cd72cd0f89859cf077bd5d47b010ec0b104ccb7f628e314593a46f09558"
+      },
+      "targets": {
+        "path": "references/83628cd72cd0f89859cf077bd5d47b010ec0b104ccb7f628e314593a46f09558.png",
+        "sha256": "83628cd72cd0f89859cf077bd5d47b010ec0b104ccb7f628e314593a46f09558"
+      },
+      "input": {
+        "path": "references/d077eafad3340136e9b3048a4b742047c316e9ab71118eab31a464e044bfac33.png",
+        "sha256": "d077eafad3340136e9b3048a4b742047c316e9ab71118eab31a464e044bfac33"
+      },
+      "references": [
+        {
+          "path": "references/d077eafad3340136e9b3048a4b742047c316e9ab71118eab31a464e044bfac33.png",
+          "sha256": "d077eafad3340136e9b3048a4b742047c316e9ab71118eab31a464e044bfac33"
+        },
+        {
+          "path": "references/83628cd72cd0f89859cf077bd5d47b010ec0b104ccb7f628e314593a46f09558.png",
+          "sha256": "83628cd72cd0f89859cf077bd5d47b010ec0b104ccb7f628e314593a46f09558"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r06c06",
+        "r07c05"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-eae2dd44-c11b-4031-bfab-f4e37c93e841.png"
+    },
+    {
+      "id": "r03c10",
+      "image": "images/r03c10.png",
+      "sha256": "6f646c0384691107c323b52b2c908664833230bde88a8565ddd5bd196284f68b",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r03c10.md",
+      "promptSha256": "436c1fd65b76ac0b09147c18036d4b6b8f8a0306b37f5544038a6b530871cb57",
+      "guide": {
+        "path": "references/96b722c28fc807b97a59404c77614576013ae5d1b0f9bf1302ae9f68bfb8fea2.png",
+        "sha256": "96b722c28fc807b97a59404c77614576013ae5d1b0f9bf1302ae9f68bfb8fea2"
+      },
+      "targets": {
+        "path": "references/96b722c28fc807b97a59404c77614576013ae5d1b0f9bf1302ae9f68bfb8fea2.png",
+        "sha256": "96b722c28fc807b97a59404c77614576013ae5d1b0f9bf1302ae9f68bfb8fea2"
+      },
+      "input": {
+        "path": "references/c13c85ae476ae5670f05bebbd197947152b65260fb560dfc8909d79382f869dc.png",
+        "sha256": "c13c85ae476ae5670f05bebbd197947152b65260fb560dfc8909d79382f869dc"
+      },
+      "references": [
+        {
+          "path": "references/c13c85ae476ae5670f05bebbd197947152b65260fb560dfc8909d79382f869dc.png",
+          "sha256": "c13c85ae476ae5670f05bebbd197947152b65260fb560dfc8909d79382f869dc"
+        },
+        {
+          "path": "references/96b722c28fc807b97a59404c77614576013ae5d1b0f9bf1302ae9f68bfb8fea2.png",
+          "sha256": "96b722c28fc807b97a59404c77614576013ae5d1b0f9bf1302ae9f68bfb8fea2"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r04c10",
+        "r03c09"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-1250d87e-de5d-47b3-838d-97a3fb95c679.png"
+    },
+    {
+      "id": "r04c11",
+      "image": "images/r04c11.png",
+      "sha256": "d95c34e90df4d02b0bb8f3e314635b33674933ffd6f4ebdcd9fcf553c36d74b9",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r04c11.md",
+      "promptSha256": "b6b9044829a1fa9bb1c5d88534276afa8fad25aaba39df5050f2cb4c7848c380",
+      "guide": {
+        "path": "references/d29acf3eaa81222ff20becb038ca92c77ebebc55d2b6c3106a95570110b7af69.png",
+        "sha256": "d29acf3eaa81222ff20becb038ca92c77ebebc55d2b6c3106a95570110b7af69"
+      },
+      "targets": {
+        "path": "references/d29acf3eaa81222ff20becb038ca92c77ebebc55d2b6c3106a95570110b7af69.png",
+        "sha256": "d29acf3eaa81222ff20becb038ca92c77ebebc55d2b6c3106a95570110b7af69"
+      },
+      "input": {
+        "path": "references/0af84b168dece7b7a7d5997eea391d9f2204f80f371029ef75c3edfe4d844dbb.png",
+        "sha256": "0af84b168dece7b7a7d5997eea391d9f2204f80f371029ef75c3edfe4d844dbb"
+      },
+      "references": [
+        {
+          "path": "references/0af84b168dece7b7a7d5997eea391d9f2204f80f371029ef75c3edfe4d844dbb.png",
+          "sha256": "0af84b168dece7b7a7d5997eea391d9f2204f80f371029ef75c3edfe4d844dbb"
+        },
+        {
+          "path": "references/d29acf3eaa81222ff20becb038ca92c77ebebc55d2b6c3106a95570110b7af69.png",
+          "sha256": "d29acf3eaa81222ff20becb038ca92c77ebebc55d2b6c3106a95570110b7af69"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r04c10",
+        "r05c11"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-f4088b72-dd7b-4276-8b87-c2354ef20927.png"
+    },
+    {
+      "id": "r05c12",
+      "image": "images/r05c12.png",
+      "sha256": "19d78ad1fbfe18d5893d2e2e2b26ef43a50f05278a9031e17db616394bc11c84",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r05c12.md",
+      "promptSha256": "a53460fcebf368823facd6fd63da05f93a9579eafa9d817307fa7eac3bd42160",
+      "guide": {
+        "path": "references/86bde554f833aed32aa85b3ba9de3dc9581b21e54170593129fad0185c433dd9.png",
+        "sha256": "86bde554f833aed32aa85b3ba9de3dc9581b21e54170593129fad0185c433dd9"
+      },
+      "targets": {
+        "path": "references/86bde554f833aed32aa85b3ba9de3dc9581b21e54170593129fad0185c433dd9.png",
+        "sha256": "86bde554f833aed32aa85b3ba9de3dc9581b21e54170593129fad0185c433dd9"
+      },
+      "input": {
+        "path": "references/31874fc26868ba50941309d35a6b4aee1602ff45184b272b5f81ca215d7a36dd.png",
+        "sha256": "31874fc26868ba50941309d35a6b4aee1602ff45184b272b5f81ca215d7a36dd"
+      },
+      "references": [
+        {
+          "path": "references/31874fc26868ba50941309d35a6b4aee1602ff45184b272b5f81ca215d7a36dd.png",
+          "sha256": "31874fc26868ba50941309d35a6b4aee1602ff45184b272b5f81ca215d7a36dd"
+        },
+        {
+          "path": "references/86bde554f833aed32aa85b3ba9de3dc9581b21e54170593129fad0185c433dd9.png",
+          "sha256": "86bde554f833aed32aa85b3ba9de3dc9581b21e54170593129fad0185c433dd9"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r05c11"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-42414ee3-95ec-4ba6-9c9b-649f72296deb.png"
+    },
+    {
+      "id": "r06c13",
+      "image": "images/r06c13.png",
+      "sha256": "48c338048e333fc657edf4de1a7b9f4a58c8331e2931a9caac757eb3eb90a2fa",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r06c13.md",
+      "promptSha256": "cc2273a4d3a837a03d00a9242ab1b5ff7a9a917bdcf1c5130596d63d580611c4",
+      "guide": {
+        "path": "references/3d63eb3a7c8066961c8aa01d1bf7c52abeb5f8f0a75dca1c8d745e4d6633c56d.png",
+        "sha256": "3d63eb3a7c8066961c8aa01d1bf7c52abeb5f8f0a75dca1c8d745e4d6633c56d"
+      },
+      "targets": {
+        "path": "references/3d63eb3a7c8066961c8aa01d1bf7c52abeb5f8f0a75dca1c8d745e4d6633c56d.png",
+        "sha256": "3d63eb3a7c8066961c8aa01d1bf7c52abeb5f8f0a75dca1c8d745e4d6633c56d"
+      },
+      "input": {
+        "path": "references/ae26317a49c1b1b3619bcf947db1bfde6d29c723f046c1943138380659ad0cb5.png",
+        "sha256": "ae26317a49c1b1b3619bcf947db1bfde6d29c723f046c1943138380659ad0cb5"
+      },
+      "references": [
+        {
+          "path": "references/ae26317a49c1b1b3619bcf947db1bfde6d29c723f046c1943138380659ad0cb5.png",
+          "sha256": "ae26317a49c1b1b3619bcf947db1bfde6d29c723f046c1943138380659ad0cb5"
+        },
+        {
+          "path": "references/3d63eb3a7c8066961c8aa01d1bf7c52abeb5f8f0a75dca1c8d745e4d6633c56d.png",
+          "sha256": "3d63eb3a7c8066961c8aa01d1bf7c52abeb5f8f0a75dca1c8d745e4d6633c56d"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r07c13"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-397da3b8-a700-4eee-956a-97af6e795036.png"
+    },
+    {
+      "id": "r09c06",
+      "image": "images/r09c06.png",
+      "sha256": "6ec3c2455597e84b6ef49549b7c083239186ac740beaba2b9f9118d05416745c",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r09c06.md",
+      "promptSha256": "28538d71b33d054991e4fa51ac6294dd11a004ce06ece3fecd00ef471e8264c1",
+      "guide": {
+        "path": "references/093b1877416ac6e9bd7c89f5aa36265f6401e5787eb2099b0d01f26291bea964.png",
+        "sha256": "093b1877416ac6e9bd7c89f5aa36265f6401e5787eb2099b0d01f26291bea964"
+      },
+      "targets": {
+        "path": "references/9ad99f6be273378a73b25c9be2768d20cab2a27ca2e239a0cbb48f1192934402.png",
+        "sha256": "9ad99f6be273378a73b25c9be2768d20cab2a27ca2e239a0cbb48f1192934402"
+      },
+      "input": {
+        "path": "references/96d3ffde31771cb4ff25f102e62648145388ba47f36a60c42217240c6138b8dc.png",
+        "sha256": "96d3ffde31771cb4ff25f102e62648145388ba47f36a60c42217240c6138b8dc"
+      },
+      "references": [
+        {
+          "path": "references/96d3ffde31771cb4ff25f102e62648145388ba47f36a60c42217240c6138b8dc.png",
+          "sha256": "96d3ffde31771cb4ff25f102e62648145388ba47f36a60c42217240c6138b8dc"
+        },
+        {
+          "path": "references/9ad99f6be273378a73b25c9be2768d20cab2a27ca2e239a0cbb48f1192934402.png",
+          "sha256": "9ad99f6be273378a73b25c9be2768d20cab2a27ca2e239a0cbb48f1192934402"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r08c06",
+        "r09c07"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-39fd0c38-3f6a-4b91-b746-7f3065581ef9.png"
+    },
+    {
+      "id": "r08c05",
+      "image": "images/r08c05.png",
+      "sha256": "0b6111f92145f214c932e0f947daab0a211e52b6dff2f47ee1b020b1a6ece803",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r08c05.md",
+      "promptSha256": "855a8d85c1e868d11ab01371e49d900d66f162a530dc1ddea67ff2f60d0bd29d",
+      "guide": {
+        "path": "references/22fc526a92e7262fea9f5835d980b5dee2f5e45fb5cb284201439b3805d35b03.png",
+        "sha256": "22fc526a92e7262fea9f5835d980b5dee2f5e45fb5cb284201439b3805d35b03"
+      },
+      "targets": {
+        "path": "references/22fc526a92e7262fea9f5835d980b5dee2f5e45fb5cb284201439b3805d35b03.png",
+        "sha256": "22fc526a92e7262fea9f5835d980b5dee2f5e45fb5cb284201439b3805d35b03"
+      },
+      "input": {
+        "path": "references/955834e4e39c63cebd34618b9a12025437b3bd4f108e98771423c61587ec9af0.png",
+        "sha256": "955834e4e39c63cebd34618b9a12025437b3bd4f108e98771423c61587ec9af0"
+      },
+      "references": [
+        {
+          "path": "references/955834e4e39c63cebd34618b9a12025437b3bd4f108e98771423c61587ec9af0.png",
+          "sha256": "955834e4e39c63cebd34618b9a12025437b3bd4f108e98771423c61587ec9af0"
+        },
+        {
+          "path": "references/22fc526a92e7262fea9f5835d980b5dee2f5e45fb5cb284201439b3805d35b03.png",
+          "sha256": "22fc526a92e7262fea9f5835d980b5dee2f5e45fb5cb284201439b3805d35b03"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r08c06",
+        "r07c05"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-216b2cbb-f018-4633-b7e4-63ed3e97e4fe.png"
+    },
+    {
+      "id": "r10c07",
+      "image": "images/r10c07.png",
+      "sha256": "41f8da4e800956b5f9d066a2e8064f93bcd4a5ba20b89583cfb09a6cea47cd65",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r10c07.md",
+      "promptSha256": "7c58ceda9ca345fad6ca5b8d580f5b27804e9b4d12b44e538ddf279f821b2487",
+      "guide": {
+        "path": "references/cf4d741fc87e66ab79360dd6f6e07998ca1eb05f1f32a607f3afd6ade968cf16.png",
+        "sha256": "cf4d741fc87e66ab79360dd6f6e07998ca1eb05f1f32a607f3afd6ade968cf16"
+      },
+      "targets": {
+        "path": "references/cf4d741fc87e66ab79360dd6f6e07998ca1eb05f1f32a607f3afd6ade968cf16.png",
+        "sha256": "cf4d741fc87e66ab79360dd6f6e07998ca1eb05f1f32a607f3afd6ade968cf16"
+      },
+      "input": {
+        "path": "references/b69c46ea13bdce629c1d31bd25eafdb21a322bff3590de333844414936e04f6d.png",
+        "sha256": "b69c46ea13bdce629c1d31bd25eafdb21a322bff3590de333844414936e04f6d"
+      },
+      "references": [
+        {
+          "path": "references/b69c46ea13bdce629c1d31bd25eafdb21a322bff3590de333844414936e04f6d.png",
+          "sha256": "b69c46ea13bdce629c1d31bd25eafdb21a322bff3590de333844414936e04f6d"
+        },
+        {
+          "path": "references/cf4d741fc87e66ab79360dd6f6e07998ca1eb05f1f32a607f3afd6ade968cf16.png",
+          "sha256": "cf4d741fc87e66ab79360dd6f6e07998ca1eb05f1f32a607f3afd6ade968cf16"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r09c07",
+        "r10c08"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-9575e3dc-74cd-48cc-bffa-f4ba1493e8cf.png"
+    },
+    {
+      "id": "r07c04",
+      "image": "images/r07c04.png",
+      "sha256": "90e77a954fcd96fe9b3228065166c86d984909f852b8064cc82b80fb8dab6a5c",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r07c04.md",
+      "promptSha256": "3f12239cb67b7820dc243da89d1803e4e234b84d9677e81900f5297ecfe234e0",
+      "guide": {
+        "path": "references/a66b9b06c8fc1ff23f6cb7d8b225a4ae1cbda2085403bd097b01bf0924cd45a3.png",
+        "sha256": "a66b9b06c8fc1ff23f6cb7d8b225a4ae1cbda2085403bd097b01bf0924cd45a3"
+      },
+      "targets": {
+        "path": "references/a66b9b06c8fc1ff23f6cb7d8b225a4ae1cbda2085403bd097b01bf0924cd45a3.png",
+        "sha256": "a66b9b06c8fc1ff23f6cb7d8b225a4ae1cbda2085403bd097b01bf0924cd45a3"
+      },
+      "input": {
+        "path": "references/964c4448808afe86fc8ae4842e4d4cfeabac94864c744c8240050fbb7e333a23.png",
+        "sha256": "964c4448808afe86fc8ae4842e4d4cfeabac94864c744c8240050fbb7e333a23"
+      },
+      "references": [
+        {
+          "path": "references/964c4448808afe86fc8ae4842e4d4cfeabac94864c744c8240050fbb7e333a23.png",
+          "sha256": "964c4448808afe86fc8ae4842e4d4cfeabac94864c744c8240050fbb7e333a23"
+        },
+        {
+          "path": "references/a66b9b06c8fc1ff23f6cb7d8b225a4ae1cbda2085403bd097b01bf0924cd45a3.png",
+          "sha256": "a66b9b06c8fc1ff23f6cb7d8b225a4ae1cbda2085403bd097b01bf0924cd45a3"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r07c05"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-b5778981-047f-47c6-9613-71c0355b85d9.png"
+    },
+    {
+      "id": "r08c13",
+      "image": "images/r08c13.png",
+      "sha256": "88317d63bc4be9e87481228c35a72af4d6c4e5a8f5a57cb7ad0b20f80065381c",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r08c13.md",
+      "promptSha256": "e59329376695e9bb8cb8464fb5297aa6d7983702b95eab982a9391fd6682fd31",
+      "guide": {
+        "path": "references/13c9c3fd4780c27ebec305ca89b74122f2c312be1d9c722460dbcdea5b4d7604.png",
+        "sha256": "13c9c3fd4780c27ebec305ca89b74122f2c312be1d9c722460dbcdea5b4d7604"
+      },
+      "targets": {
+        "path": "references/13c9c3fd4780c27ebec305ca89b74122f2c312be1d9c722460dbcdea5b4d7604.png",
+        "sha256": "13c9c3fd4780c27ebec305ca89b74122f2c312be1d9c722460dbcdea5b4d7604"
+      },
+      "input": {
+        "path": "references/13c9c3fd4780c27ebec305ca89b74122f2c312be1d9c722460dbcdea5b4d7604.png",
+        "sha256": "13c9c3fd4780c27ebec305ca89b74122f2c312be1d9c722460dbcdea5b4d7604"
+      },
+      "references": [
+        {
+          "path": "references/13c9c3fd4780c27ebec305ca89b74122f2c312be1d9c722460dbcdea5b4d7604.png",
+          "sha256": "13c9c3fd4780c27ebec305ca89b74122f2c312be1d9c722460dbcdea5b4d7604"
+        },
+        {
+          "path": "references/13c9c3fd4780c27ebec305ca89b74122f2c312be1d9c722460dbcdea5b4d7604.png",
+          "sha256": "13c9c3fd4780c27ebec305ca89b74122f2c312be1d9c722460dbcdea5b4d7604"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-9303bc54-4fce-4212-8e48-075099e92dc4.png"
+    },
+    {
+      "id": "r09c12",
+      "image": "images/r09c12.png",
+      "sha256": "a167ac4e5841c7e9bf31fc64fa98ef302f4b6c5259f016c9983d7665bcd20db1",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r09c12.md",
+      "promptSha256": "5a6f31fae9de29ac4fa96619c696d104fd0cfac90cce97c3f697f513fb9bacdd",
+      "guide": {
+        "path": "references/e1ee256838aeb4e7273353f93cf29a01a9861d6a5a6dd049ed127e0496047aed.png",
+        "sha256": "e1ee256838aeb4e7273353f93cf29a01a9861d6a5a6dd049ed127e0496047aed"
+      },
+      "targets": {
+        "path": "references/e1ee256838aeb4e7273353f93cf29a01a9861d6a5a6dd049ed127e0496047aed.png",
+        "sha256": "e1ee256838aeb4e7273353f93cf29a01a9861d6a5a6dd049ed127e0496047aed"
+      },
+      "input": {
+        "path": "references/e1ee256838aeb4e7273353f93cf29a01a9861d6a5a6dd049ed127e0496047aed.png",
+        "sha256": "e1ee256838aeb4e7273353f93cf29a01a9861d6a5a6dd049ed127e0496047aed"
+      },
+      "references": [
+        {
+          "path": "references/e1ee256838aeb4e7273353f93cf29a01a9861d6a5a6dd049ed127e0496047aed.png",
+          "sha256": "e1ee256838aeb4e7273353f93cf29a01a9861d6a5a6dd049ed127e0496047aed"
+        },
+        {
+          "path": "references/e1ee256838aeb4e7273353f93cf29a01a9861d6a5a6dd049ed127e0496047aed.png",
+          "sha256": "e1ee256838aeb4e7273353f93cf29a01a9861d6a5a6dd049ed127e0496047aed"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-97f0d53f-3222-4516-88f9-bea5814abb3f.png"
+    },
+    {
+      "id": "r10c11",
+      "image": "images/r10c11.png",
+      "sha256": "e6c5189f4f9d95cb111b4928a15556a0e4786a00f5f3228e0e51cf2ebd88f126",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r10c11.md",
+      "promptSha256": "e2428962ed6485f1c60fcc23198de370bff32b1b1876331dcce0ed871afc85a5",
+      "guide": {
+        "path": "references/a0e4997c40443ecdc7e0526644ae7ba8696ad9b3d40339495ef05a500515323a.png",
+        "sha256": "a0e4997c40443ecdc7e0526644ae7ba8696ad9b3d40339495ef05a500515323a"
+      },
+      "targets": {
+        "path": "references/a0e4997c40443ecdc7e0526644ae7ba8696ad9b3d40339495ef05a500515323a.png",
+        "sha256": "a0e4997c40443ecdc7e0526644ae7ba8696ad9b3d40339495ef05a500515323a"
+      },
+      "input": {
+        "path": "references/12d87aac188c1b4bc2d883aadde5ce7e89260229db31f3f8bdd95b910c2af6be.png",
+        "sha256": "12d87aac188c1b4bc2d883aadde5ce7e89260229db31f3f8bdd95b910c2af6be"
+      },
+      "references": [
+        {
+          "path": "references/12d87aac188c1b4bc2d883aadde5ce7e89260229db31f3f8bdd95b910c2af6be.png",
+          "sha256": "12d87aac188c1b4bc2d883aadde5ce7e89260229db31f3f8bdd95b910c2af6be"
+        },
+        {
+          "path": "references/a0e4997c40443ecdc7e0526644ae7ba8696ad9b3d40339495ef05a500515323a.png",
+          "sha256": "a0e4997c40443ecdc7e0526644ae7ba8696ad9b3d40339495ef05a500515323a"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r09c11"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-fe9072d8-ec74-4edc-ab54-5e7d717091da.png"
+    },
+    {
+      "id": "r03c07",
+      "image": "images/r03c07.png",
+      "sha256": "64416338836b3fd3e444328df7ae968bf11388b4e95bd0b032cc2aceabb4dbd9",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r03c07.md",
+      "promptSha256": "f79096cda12365cb19cc7233a49fb8ed6d3c167ce9cb22e0e85e1435119fd1c5",
+      "guide": {
+        "path": "references/9f9b08c3fe7617a6660280905c549b6679a351d1d9eb69308143531faf3e1885.png",
+        "sha256": "9f9b08c3fe7617a6660280905c549b6679a351d1d9eb69308143531faf3e1885"
+      },
+      "targets": {
+        "path": "references/9f9b08c3fe7617a6660280905c549b6679a351d1d9eb69308143531faf3e1885.png",
+        "sha256": "9f9b08c3fe7617a6660280905c549b6679a351d1d9eb69308143531faf3e1885"
+      },
+      "input": {
+        "path": "references/69f334b9bab628cb418ce84d173bf53244caf432f82d2bdcb2ed737da0e7f0df.png",
+        "sha256": "69f334b9bab628cb418ce84d173bf53244caf432f82d2bdcb2ed737da0e7f0df"
+      },
+      "references": [
+        {
+          "path": "references/69f334b9bab628cb418ce84d173bf53244caf432f82d2bdcb2ed737da0e7f0df.png",
+          "sha256": "69f334b9bab628cb418ce84d173bf53244caf432f82d2bdcb2ed737da0e7f0df"
+        },
+        {
+          "path": "references/9f9b08c3fe7617a6660280905c549b6679a351d1d9eb69308143531faf3e1885.png",
+          "sha256": "9f9b08c3fe7617a6660280905c549b6679a351d1d9eb69308143531faf3e1885"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r04c07",
+        "r03c08"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-bb9cb7f3-8bcc-4515-b969-ef9de5ebea8c.png"
+    },
+    {
+      "id": "r04c06",
+      "image": "images/r04c06.png",
+      "sha256": "06d0879a07e023a6a56d57489b754924ec0a96a6dd304af5c65beecbe53f0b30",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r04c06.md",
+      "promptSha256": "e33feace2ee3ed99cbbcaa4b8d242125ca235e707eaf4c6c62ea21c5e859520b",
+      "guide": {
+        "path": "references/59527df9cfe7f6ad2a37ce0273e6c0453a7be2f77cb73c40de584377ba1be3ed.png",
+        "sha256": "59527df9cfe7f6ad2a37ce0273e6c0453a7be2f77cb73c40de584377ba1be3ed"
+      },
+      "targets": {
+        "path": "references/59527df9cfe7f6ad2a37ce0273e6c0453a7be2f77cb73c40de584377ba1be3ed.png",
+        "sha256": "59527df9cfe7f6ad2a37ce0273e6c0453a7be2f77cb73c40de584377ba1be3ed"
+      },
+      "input": {
+        "path": "references/a4ad3ab2cee6d4a9f1be385ff01fac38b714164c47260f6b7983cf7d25acf329.png",
+        "sha256": "a4ad3ab2cee6d4a9f1be385ff01fac38b714164c47260f6b7983cf7d25acf329"
+      },
+      "references": [
+        {
+          "path": "references/a4ad3ab2cee6d4a9f1be385ff01fac38b714164c47260f6b7983cf7d25acf329.png",
+          "sha256": "a4ad3ab2cee6d4a9f1be385ff01fac38b714164c47260f6b7983cf7d25acf329"
+        },
+        {
+          "path": "references/59527df9cfe7f6ad2a37ce0273e6c0453a7be2f77cb73c40de584377ba1be3ed.png",
+          "sha256": "59527df9cfe7f6ad2a37ce0273e6c0453a7be2f77cb73c40de584377ba1be3ed"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r04c07",
+        "r05c06"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-948ffac7-9a7f-4543-8881-c9305fd529aa.png"
+    },
+    {
+      "id": "r05c05",
+      "image": "images/r05c05.png",
+      "sha256": "503b1b85a363863e5da816fd4ab4c40dfb995b06b732c3c10521d2d84b1ae0b5",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r05c05.md",
+      "promptSha256": "494f1535fa6bfc3d1384af40c170466bbd720fe6695cb5eefdc0f7396f7229f3",
+      "guide": {
+        "path": "references/43fb1325e32bcaa4f77118f8a3964633612f91cbd303325bc641c16bfc5921e5.png",
+        "sha256": "43fb1325e32bcaa4f77118f8a3964633612f91cbd303325bc641c16bfc5921e5"
+      },
+      "targets": {
+        "path": "references/3949920965fa98f8baa9e6656330c3e75ee4248e52aeb6cd1b95ac88ad717be0.png",
+        "sha256": "3949920965fa98f8baa9e6656330c3e75ee4248e52aeb6cd1b95ac88ad717be0"
+      },
+      "input": {
+        "path": "references/200c3035e7109151687c925d7f7c7f14438619baed971ec6111e44a79a5140e8.png",
+        "sha256": "200c3035e7109151687c925d7f7c7f14438619baed971ec6111e44a79a5140e8"
+      },
+      "references": [
+        {
+          "path": "references/200c3035e7109151687c925d7f7c7f14438619baed971ec6111e44a79a5140e8.png",
+          "sha256": "200c3035e7109151687c925d7f7c7f14438619baed971ec6111e44a79a5140e8"
+        },
+        {
+          "path": "references/3949920965fa98f8baa9e6656330c3e75ee4248e52aeb6cd1b95ac88ad717be0.png",
+          "sha256": "3949920965fa98f8baa9e6656330c3e75ee4248e52aeb6cd1b95ac88ad717be0"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r05c06",
+        "r06c05"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-1ef162cf-5ccd-48f8-9fb5-af5e1a17549c.png"
+    },
+    {
+      "id": "r06c04",
+      "image": "images/r06c04.png",
+      "sha256": "b45dea8a7b7e65be04375826ef3e12d70968654ef40077f6455f6bc1a6e0df30",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r06c04.md",
+      "promptSha256": "55deaed2c48f63bf31ff315431eba90b5ddc7a171a3f03793147622150b33fd4",
+      "guide": {
+        "path": "references/d413f06ec6f2ac0c465725bc6d87ac6bf21f89f63bf6f9de32f626b5a5bdf4af.png",
+        "sha256": "d413f06ec6f2ac0c465725bc6d87ac6bf21f89f63bf6f9de32f626b5a5bdf4af"
+      },
+      "targets": {
+        "path": "references/5a15b51fff25287ce309ce7df2a7c00f7d208147e981c05bd92063babc83624b.png",
+        "sha256": "5a15b51fff25287ce309ce7df2a7c00f7d208147e981c05bd92063babc83624b"
+      },
+      "input": {
+        "path": "references/c5fee6cf0e5e09a8c05539bb8df67964a72ca7a576dff3de4724c1c90245221f.png",
+        "sha256": "c5fee6cf0e5e09a8c05539bb8df67964a72ca7a576dff3de4724c1c90245221f"
+      },
+      "references": [
+        {
+          "path": "references/c5fee6cf0e5e09a8c05539bb8df67964a72ca7a576dff3de4724c1c90245221f.png",
+          "sha256": "c5fee6cf0e5e09a8c05539bb8df67964a72ca7a576dff3de4724c1c90245221f"
+        },
+        {
+          "path": "references/5a15b51fff25287ce309ce7df2a7c00f7d208147e981c05bd92063babc83624b.png",
+          "sha256": "5a15b51fff25287ce309ce7df2a7c00f7d208147e981c05bd92063babc83624b"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r06c05",
+        "r07c04"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-17dabce0-e265-4bca-bdc8-19d68405bdef.png"
+    },
+    {
+      "id": "r03c11",
+      "image": "images/r03c11.png",
+      "sha256": "38f66cbf8d7d90a88ba7a4abc9d331ccd2c8973d4314d1331d23edc1b565c5d4",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r03c11.md",
+      "promptSha256": "acb9ed4349e43d2715d2f4d7d614967a6748a2b05b407f2a90a02a7f7004effe",
+      "guide": {
+        "path": "references/ddd47538795972a6cbea0e7b98339b9dda23547ff5a18bc45161e4e8b8688aec.png",
+        "sha256": "ddd47538795972a6cbea0e7b98339b9dda23547ff5a18bc45161e4e8b8688aec"
+      },
+      "targets": {
+        "path": "references/ddd47538795972a6cbea0e7b98339b9dda23547ff5a18bc45161e4e8b8688aec.png",
+        "sha256": "ddd47538795972a6cbea0e7b98339b9dda23547ff5a18bc45161e4e8b8688aec"
+      },
+      "input": {
+        "path": "references/adb8041f7e686635ff8d073157e02eab957be727d7d8cde5979292404040157a.png",
+        "sha256": "adb8041f7e686635ff8d073157e02eab957be727d7d8cde5979292404040157a"
+      },
+      "references": [
+        {
+          "path": "references/adb8041f7e686635ff8d073157e02eab957be727d7d8cde5979292404040157a.png",
+          "sha256": "adb8041f7e686635ff8d073157e02eab957be727d7d8cde5979292404040157a"
+        },
+        {
+          "path": "references/ddd47538795972a6cbea0e7b98339b9dda23547ff5a18bc45161e4e8b8688aec.png",
+          "sha256": "ddd47538795972a6cbea0e7b98339b9dda23547ff5a18bc45161e4e8b8688aec"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r03c10",
+        "r04c11"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-3ef60dfb-d641-4936-9c99-1593e64bb54c.png"
+    },
+    {
+      "id": "r09c05",
+      "image": "images/r09c05.png",
+      "sha256": "9e560494d661f61d26bcda0ee3dab0a152ccf4222aee8dd28862fa7c26fed548",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r09c05.md",
+      "promptSha256": "8dc753f56af6dd3182102cd00bee505b3207fc677f6c88d70059ac25ec72c0da",
+      "guide": {
+        "path": "references/22ba1ef92a82ddb6fc38dca357ba47b588210ca6e13d5270496452da22b73053.png",
+        "sha256": "22ba1ef92a82ddb6fc38dca357ba47b588210ca6e13d5270496452da22b73053"
+      },
+      "targets": {
+        "path": "references/22ba1ef92a82ddb6fc38dca357ba47b588210ca6e13d5270496452da22b73053.png",
+        "sha256": "22ba1ef92a82ddb6fc38dca357ba47b588210ca6e13d5270496452da22b73053"
+      },
+      "input": {
+        "path": "references/35817005de64f4ff486d13bc5780c9a091a3f7ba6d3cf9898020b56ad3db2479.png",
+        "sha256": "35817005de64f4ff486d13bc5780c9a091a3f7ba6d3cf9898020b56ad3db2479"
+      },
+      "references": [
+        {
+          "path": "references/35817005de64f4ff486d13bc5780c9a091a3f7ba6d3cf9898020b56ad3db2479.png",
+          "sha256": "35817005de64f4ff486d13bc5780c9a091a3f7ba6d3cf9898020b56ad3db2479"
+        },
+        {
+          "path": "references/22ba1ef92a82ddb6fc38dca357ba47b588210ca6e13d5270496452da22b73053.png",
+          "sha256": "22ba1ef92a82ddb6fc38dca357ba47b588210ca6e13d5270496452da22b73053"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r09c06",
+        "r08c05"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-08822f36-f337-483b-ae85-467b0672f8e0.png"
+    },
+    {
+      "id": "r10c06",
+      "image": "images/r10c06.png",
+      "sha256": "ebfcea775a04f2b29a841ecd9bd28d9808ac0eb2fc15312e8c2732c5a2127fa0",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r10c06.md",
+      "promptSha256": "70e968bd2b3c695e0a9b9d45f79c850ade006ed94ea1a4c6a04ff3863e5c5af9",
+      "guide": {
+        "path": "references/e0bdea9e7c8b6ba2702c1494eb6f26d0c80adb130bfc5827937384cb60300bc2.png",
+        "sha256": "e0bdea9e7c8b6ba2702c1494eb6f26d0c80adb130bfc5827937384cb60300bc2"
+      },
+      "targets": {
+        "path": "references/e0bdea9e7c8b6ba2702c1494eb6f26d0c80adb130bfc5827937384cb60300bc2.png",
+        "sha256": "e0bdea9e7c8b6ba2702c1494eb6f26d0c80adb130bfc5827937384cb60300bc2"
+      },
+      "input": {
+        "path": "references/2962bce5db3ff5f638b9ac7519663d3f68f57c6889510aeb814f64e29e4d4852.png",
+        "sha256": "2962bce5db3ff5f638b9ac7519663d3f68f57c6889510aeb814f64e29e4d4852"
+      },
+      "references": [
+        {
+          "path": "references/2962bce5db3ff5f638b9ac7519663d3f68f57c6889510aeb814f64e29e4d4852.png",
+          "sha256": "2962bce5db3ff5f638b9ac7519663d3f68f57c6889510aeb814f64e29e4d4852"
+        },
+        {
+          "path": "references/e0bdea9e7c8b6ba2702c1494eb6f26d0c80adb130bfc5827937384cb60300bc2.png",
+          "sha256": "e0bdea9e7c8b6ba2702c1494eb6f26d0c80adb130bfc5827937384cb60300bc2"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r09c06",
+        "r10c07"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-8af78f47-666d-4db8-be86-e66eb76e87df.png"
+    },
+    {
+      "id": "r07c03",
+      "image": "images/r07c03.png",
+      "sha256": "feb04b897168625ce18b38c756a30ec2c4c260413e9b27c094e08672a43bddd8",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r07c03.md",
+      "promptSha256": "bfcee0fb2dda8d0514c23e1f32f5a57dc114f68d0ed5940bf3fc7fe48f90109e",
+      "guide": {
+        "path": "references/e919229bd92307f8748579daadd29f906d28793d284469dd6d17c73ae101fc5d.png",
+        "sha256": "e919229bd92307f8748579daadd29f906d28793d284469dd6d17c73ae101fc5d"
+      },
+      "targets": {
+        "path": "references/e919229bd92307f8748579daadd29f906d28793d284469dd6d17c73ae101fc5d.png",
+        "sha256": "e919229bd92307f8748579daadd29f906d28793d284469dd6d17c73ae101fc5d"
+      },
+      "input": {
+        "path": "references/f8084c2cb57ac6dd81c4722b20641c3e883f0f56708f8e1100218ab5bd615bed.png",
+        "sha256": "f8084c2cb57ac6dd81c4722b20641c3e883f0f56708f8e1100218ab5bd615bed"
+      },
+      "references": [
+        {
+          "path": "references/f8084c2cb57ac6dd81c4722b20641c3e883f0f56708f8e1100218ab5bd615bed.png",
+          "sha256": "f8084c2cb57ac6dd81c4722b20641c3e883f0f56708f8e1100218ab5bd615bed"
+        },
+        {
+          "path": "references/e919229bd92307f8748579daadd29f906d28793d284469dd6d17c73ae101fc5d.png",
+          "sha256": "e919229bd92307f8748579daadd29f906d28793d284469dd6d17c73ae101fc5d"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r07c04"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-7098bfcf-6c6f-475f-812a-a576c4cfdbbe.png"
+    },
+    {
+      "id": "r09c13",
+      "image": "images/r09c13.png",
+      "sha256": "8c34db53baffbb835b69ae39632932a755ffb04a7e827a52170c64177e6357f4",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r09c13.md",
+      "promptSha256": "18d9e5fe6f1f4f2d366bfaeac26cafbf2f5c80b739666355002dc456e76d3da1",
+      "guide": {
+        "path": "references/5b5a2e0743fd0c07521581b841d7bce9b4501d233a8a9d8b692c94bee8f7c421.png",
+        "sha256": "5b5a2e0743fd0c07521581b841d7bce9b4501d233a8a9d8b692c94bee8f7c421"
+      },
+      "targets": {
+        "path": "references/5b5a2e0743fd0c07521581b841d7bce9b4501d233a8a9d8b692c94bee8f7c421.png",
+        "sha256": "5b5a2e0743fd0c07521581b841d7bce9b4501d233a8a9d8b692c94bee8f7c421"
+      },
+      "input": {
+        "path": "references/5b5a2e0743fd0c07521581b841d7bce9b4501d233a8a9d8b692c94bee8f7c421.png",
+        "sha256": "5b5a2e0743fd0c07521581b841d7bce9b4501d233a8a9d8b692c94bee8f7c421"
+      },
+      "references": [
+        {
+          "path": "references/5b5a2e0743fd0c07521581b841d7bce9b4501d233a8a9d8b692c94bee8f7c421.png",
+          "sha256": "5b5a2e0743fd0c07521581b841d7bce9b4501d233a8a9d8b692c94bee8f7c421"
+        },
+        {
+          "path": "references/5b5a2e0743fd0c07521581b841d7bce9b4501d233a8a9d8b692c94bee8f7c421.png",
+          "sha256": "5b5a2e0743fd0c07521581b841d7bce9b4501d233a8a9d8b692c94bee8f7c421"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-375ddb2e-e0f8-42c0-be29-df325e40d47f.png"
+    },
+    {
+      "id": "r10c12",
+      "image": "images/r10c12.png",
+      "sha256": "9105a27817608d6b839457db7402b7479b7d2986b6692be3d74371a1baa39374",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r10c12.md",
+      "promptSha256": "bb26add17ca5f8949615e3b8849289456818e816987d40c21d083e269f9f5d46",
+      "guide": {
+        "path": "references/5a980d4d629f6324b9a6061d41a7cfd7abe8c2511abcb683018e6b0797ae6c40.png",
+        "sha256": "5a980d4d629f6324b9a6061d41a7cfd7abe8c2511abcb683018e6b0797ae6c40"
+      },
+      "targets": {
+        "path": "references/5a980d4d629f6324b9a6061d41a7cfd7abe8c2511abcb683018e6b0797ae6c40.png",
+        "sha256": "5a980d4d629f6324b9a6061d41a7cfd7abe8c2511abcb683018e6b0797ae6c40"
+      },
+      "input": {
+        "path": "references/1d911b4eecec51be7231859fb5e72fa8aa9e7bb09158a9709ab2e47c3bee6180.png",
+        "sha256": "1d911b4eecec51be7231859fb5e72fa8aa9e7bb09158a9709ab2e47c3bee6180"
+      },
+      "references": [
+        {
+          "path": "references/1d911b4eecec51be7231859fb5e72fa8aa9e7bb09158a9709ab2e47c3bee6180.png",
+          "sha256": "1d911b4eecec51be7231859fb5e72fa8aa9e7bb09158a9709ab2e47c3bee6180"
+        },
+        {
+          "path": "references/5a980d4d629f6324b9a6061d41a7cfd7abe8c2511abcb683018e6b0797ae6c40.png",
+          "sha256": "5a980d4d629f6324b9a6061d41a7cfd7abe8c2511abcb683018e6b0797ae6c40"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r10c11"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-656e502c-8044-49c2-b23f-ef206b62b742.png"
+    },
+    {
+      "id": "r02c07",
+      "image": "images/r02c07.png",
+      "sha256": "dcd3d5944ae23d956cd55e7354136e895546e25f259af420fd49ce2d18442229",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r02c07.md",
+      "promptSha256": "2e66d43a58a9136bdfc0c603a31323a43b077aa6416d5311a26d2c1751f1baa4",
+      "guide": {
+        "path": "references/1173187cf44c27df7970a1345e0b6c1e728b951524aab76a7568b614ae308a29.png",
+        "sha256": "1173187cf44c27df7970a1345e0b6c1e728b951524aab76a7568b614ae308a29"
+      },
+      "targets": {
+        "path": "references/1173187cf44c27df7970a1345e0b6c1e728b951524aab76a7568b614ae308a29.png",
+        "sha256": "1173187cf44c27df7970a1345e0b6c1e728b951524aab76a7568b614ae308a29"
+      },
+      "input": {
+        "path": "references/a19c09fc9a037dc128a9aba33c17248ed93490f3225134f840dfe891275af6e0.png",
+        "sha256": "a19c09fc9a037dc128a9aba33c17248ed93490f3225134f840dfe891275af6e0"
+      },
+      "references": [
+        {
+          "path": "references/a19c09fc9a037dc128a9aba33c17248ed93490f3225134f840dfe891275af6e0.png",
+          "sha256": "a19c09fc9a037dc128a9aba33c17248ed93490f3225134f840dfe891275af6e0"
+        },
+        {
+          "path": "references/1173187cf44c27df7970a1345e0b6c1e728b951524aab76a7568b614ae308a29.png",
+          "sha256": "1173187cf44c27df7970a1345e0b6c1e728b951524aab76a7568b614ae308a29"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r03c07"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-2cba2d7b-5b2b-47a8-bee0-5563dde93066.png"
+    },
+    {
+      "id": "r03c06",
+      "image": "images/r03c06.png",
+      "sha256": "eac700569863d2379ca050a275a017d20c8456ebd312b59d7e63c086d9b80518",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r03c06.md",
+      "promptSha256": "ccd2a805a6ffb4740c12ba5edff0b2f69ded803c3156dc5766cf91f5f3b2a1cd",
+      "guide": {
+        "path": "references/831e9dafc8acaa89cbb5da6df36a89e568ba5a2e461f364553e7de59efa4961a.png",
+        "sha256": "831e9dafc8acaa89cbb5da6df36a89e568ba5a2e461f364553e7de59efa4961a"
+      },
+      "targets": {
+        "path": "references/831e9dafc8acaa89cbb5da6df36a89e568ba5a2e461f364553e7de59efa4961a.png",
+        "sha256": "831e9dafc8acaa89cbb5da6df36a89e568ba5a2e461f364553e7de59efa4961a"
+      },
+      "input": {
+        "path": "references/d978d51d2ae3c87f6da22b520dc2a88f3f6e6ff4aff1235e807405da6bc834bb.png",
+        "sha256": "d978d51d2ae3c87f6da22b520dc2a88f3f6e6ff4aff1235e807405da6bc834bb"
+      },
+      "references": [
+        {
+          "path": "references/d978d51d2ae3c87f6da22b520dc2a88f3f6e6ff4aff1235e807405da6bc834bb.png",
+          "sha256": "d978d51d2ae3c87f6da22b520dc2a88f3f6e6ff4aff1235e807405da6bc834bb"
+        },
+        {
+          "path": "references/831e9dafc8acaa89cbb5da6df36a89e568ba5a2e461f364553e7de59efa4961a.png",
+          "sha256": "831e9dafc8acaa89cbb5da6df36a89e568ba5a2e461f364553e7de59efa4961a"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r03c07",
+        "r04c06"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-ab09db68-4969-49ca-8e12-344b6ed1803a.png"
+    },
+    {
+      "id": "r04c05",
+      "image": "images/r04c05.png",
+      "sha256": "74e87e7e80ad13153e7b0891955cc03ff9c5b99e1e3a1754594e5663715178e7",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r04c05.md",
+      "promptSha256": "9b9d88c748ce71ae1ab4183fac37d5a42b05f0d50daab947f4697768e92ed86e",
+      "guide": {
+        "path": "references/58254f2db542c7c3fad4add24673dde06be8b2c61f4dd13a4962f821a9a35762.png",
+        "sha256": "58254f2db542c7c3fad4add24673dde06be8b2c61f4dd13a4962f821a9a35762"
+      },
+      "targets": {
+        "path": "references/58254f2db542c7c3fad4add24673dde06be8b2c61f4dd13a4962f821a9a35762.png",
+        "sha256": "58254f2db542c7c3fad4add24673dde06be8b2c61f4dd13a4962f821a9a35762"
+      },
+      "input": {
+        "path": "references/d646f27914572eb28f868bb4f9f622470fe66b7094da3bf5e4135f9047eb9318.png",
+        "sha256": "d646f27914572eb28f868bb4f9f622470fe66b7094da3bf5e4135f9047eb9318"
+      },
+      "references": [
+        {
+          "path": "references/d646f27914572eb28f868bb4f9f622470fe66b7094da3bf5e4135f9047eb9318.png",
+          "sha256": "d646f27914572eb28f868bb4f9f622470fe66b7094da3bf5e4135f9047eb9318"
+        },
+        {
+          "path": "references/58254f2db542c7c3fad4add24673dde06be8b2c61f4dd13a4962f821a9a35762.png",
+          "sha256": "58254f2db542c7c3fad4add24673dde06be8b2c61f4dd13a4962f821a9a35762"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r04c06",
+        "r05c05"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-e6248d85-62ac-4ae6-8dab-9006b3bc1f6a.png"
+    },
+    {
+      "id": "r05c04",
+      "image": "images/r05c04.png",
+      "sha256": "0e1279b4c4a0a7d30e96b713e7a53cbf6ebb3c9a43ae80fcef20411a55fb606d",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r05c04.md",
+      "promptSha256": "afc33e501403b8f4920c908052d1eb68b676dafef33e66e5ac71401b653e6163",
+      "guide": {
+        "path": "references/b029f8621134795cda6ca60daa62728287672356aa1f9f840304b5dc01b8f3da.png",
+        "sha256": "b029f8621134795cda6ca60daa62728287672356aa1f9f840304b5dc01b8f3da"
+      },
+      "targets": {
+        "path": "references/b029f8621134795cda6ca60daa62728287672356aa1f9f840304b5dc01b8f3da.png",
+        "sha256": "b029f8621134795cda6ca60daa62728287672356aa1f9f840304b5dc01b8f3da"
+      },
+      "input": {
+        "path": "references/a4ddc4df073a329ace2d0e9f9eebb25ad36dd0cbb559e530b6fa43bc2f25e603.png",
+        "sha256": "a4ddc4df073a329ace2d0e9f9eebb25ad36dd0cbb559e530b6fa43bc2f25e603"
+      },
+      "references": [
+        {
+          "path": "references/a4ddc4df073a329ace2d0e9f9eebb25ad36dd0cbb559e530b6fa43bc2f25e603.png",
+          "sha256": "a4ddc4df073a329ace2d0e9f9eebb25ad36dd0cbb559e530b6fa43bc2f25e603"
+        },
+        {
+          "path": "references/b029f8621134795cda6ca60daa62728287672356aa1f9f840304b5dc01b8f3da.png",
+          "sha256": "b029f8621134795cda6ca60daa62728287672356aa1f9f840304b5dc01b8f3da"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r05c05",
+        "r06c04"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-f4dedd21-feee-469f-b122-37ab5ec4fbe4.png"
+    },
+    {
+      "id": "r06c03",
+      "image": "images/r06c03.png",
+      "sha256": "4d33497359e53c0c33d65f70920e79f477b33346fc7467c3fba29479d0bfb3a9",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r06c03.md",
+      "promptSha256": "67f671b8543e7f06a44e2cd3c207c9e2449595d3b233be136b0588ad617a3c29",
+      "guide": {
+        "path": "references/07d0fcfb06de4fe0f39bf31709561f907f2a6f94e4037470678c0f1db41ebac5.png",
+        "sha256": "07d0fcfb06de4fe0f39bf31709561f907f2a6f94e4037470678c0f1db41ebac5"
+      },
+      "targets": {
+        "path": "references/07d0fcfb06de4fe0f39bf31709561f907f2a6f94e4037470678c0f1db41ebac5.png",
+        "sha256": "07d0fcfb06de4fe0f39bf31709561f907f2a6f94e4037470678c0f1db41ebac5"
+      },
+      "input": {
+        "path": "references/a19ddd688ae0b674d2c3c638704a5a4793ea1786ff4d9195c0a483f251df2f24.png",
+        "sha256": "a19ddd688ae0b674d2c3c638704a5a4793ea1786ff4d9195c0a483f251df2f24"
+      },
+      "references": [
+        {
+          "path": "references/a19ddd688ae0b674d2c3c638704a5a4793ea1786ff4d9195c0a483f251df2f24.png",
+          "sha256": "a19ddd688ae0b674d2c3c638704a5a4793ea1786ff4d9195c0a483f251df2f24"
+        },
+        {
+          "path": "references/07d0fcfb06de4fe0f39bf31709561f907f2a6f94e4037470678c0f1db41ebac5.png",
+          "sha256": "07d0fcfb06de4fe0f39bf31709561f907f2a6f94e4037470678c0f1db41ebac5"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r06c04",
+        "r07c03"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-8adcb41d-29d0-4aee-900f-95bb697f9aee.png"
+    },
+    {
+      "id": "r02c06",
+      "image": "images/r02c06.png",
+      "sha256": "f66e1294d26a6bf864173be36959a5254cb82f2bcb12990e61569b2d3dcd2cda",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r02c06.md",
+      "promptSha256": "c2727cb18eb13746b57348cfc55093988aa221751d8be622975cade1c6dae2a6",
+      "guide": {
+        "path": "references/24af5eb3e1778cecdab067a9531d124317bffe5a18a50bb7ff5e5a4a0482e58f.png",
+        "sha256": "24af5eb3e1778cecdab067a9531d124317bffe5a18a50bb7ff5e5a4a0482e58f"
+      },
+      "targets": {
+        "path": "references/24af5eb3e1778cecdab067a9531d124317bffe5a18a50bb7ff5e5a4a0482e58f.png",
+        "sha256": "24af5eb3e1778cecdab067a9531d124317bffe5a18a50bb7ff5e5a4a0482e58f"
+      },
+      "input": {
+        "path": "references/7e07eb4b75b63364c83147231ff107bb7158ef2801cfe6b5373f283045cd76a4.png",
+        "sha256": "7e07eb4b75b63364c83147231ff107bb7158ef2801cfe6b5373f283045cd76a4"
+      },
+      "references": [
+        {
+          "path": "references/7e07eb4b75b63364c83147231ff107bb7158ef2801cfe6b5373f283045cd76a4.png",
+          "sha256": "7e07eb4b75b63364c83147231ff107bb7158ef2801cfe6b5373f283045cd76a4"
+        },
+        {
+          "path": "references/24af5eb3e1778cecdab067a9531d124317bffe5a18a50bb7ff5e5a4a0482e58f.png",
+          "sha256": "24af5eb3e1778cecdab067a9531d124317bffe5a18a50bb7ff5e5a4a0482e58f"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r02c07",
+        "r03c06"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-e096e6b2-c8fc-4608-a2e6-bbd6a246bb79.png"
+    },
+    {
+      "id": "r03c05",
+      "image": "images/r03c05.png",
+      "sha256": "ecbd7b30ec44954fa5ec10776492cd5e3399029b75ce88a0b2d19d019357c6f3",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r03c05.md",
+      "promptSha256": "c09d9553ff24af9f40b9c8f9b2a1cff7061702542d69445c1fb19deda9d02c17",
+      "guide": {
+        "path": "references/4d40e3649419e7463e25c763619ce41e98dfd21fafcab188b18b2625c16abc6a.png",
+        "sha256": "4d40e3649419e7463e25c763619ce41e98dfd21fafcab188b18b2625c16abc6a"
+      },
+      "targets": {
+        "path": "references/4d40e3649419e7463e25c763619ce41e98dfd21fafcab188b18b2625c16abc6a.png",
+        "sha256": "4d40e3649419e7463e25c763619ce41e98dfd21fafcab188b18b2625c16abc6a"
+      },
+      "input": {
+        "path": "references/e8b0e286af014bdb2eb9fd7d9cc1e6f29a25d0d2e5efc170245aaeed277be7c2.png",
+        "sha256": "e8b0e286af014bdb2eb9fd7d9cc1e6f29a25d0d2e5efc170245aaeed277be7c2"
+      },
+      "references": [
+        {
+          "path": "references/e8b0e286af014bdb2eb9fd7d9cc1e6f29a25d0d2e5efc170245aaeed277be7c2.png",
+          "sha256": "e8b0e286af014bdb2eb9fd7d9cc1e6f29a25d0d2e5efc170245aaeed277be7c2"
+        },
+        {
+          "path": "references/4d40e3649419e7463e25c763619ce41e98dfd21fafcab188b18b2625c16abc6a.png",
+          "sha256": "4d40e3649419e7463e25c763619ce41e98dfd21fafcab188b18b2625c16abc6a"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r03c06",
+        "r04c05"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-9cf57e47-1997-4230-bccc-d73e16721508.png"
+    },
+    {
+      "id": "r04c04",
+      "image": "images/r04c04.png",
+      "sha256": "a3079ef96819e98101404c60a063c71ea104ec2dcb3b7cfa7d7d4dfff0276f06",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r04c04.md",
+      "promptSha256": "215943caf77ed7edee9519372b884f842d959cf0d8f327ef382de9f32f58de86",
+      "guide": {
+        "path": "references/de045fdcdb8540093f44eb1d70d63266a384ca43a40965c9670581ce80add263.png",
+        "sha256": "de045fdcdb8540093f44eb1d70d63266a384ca43a40965c9670581ce80add263"
+      },
+      "targets": {
+        "path": "references/de045fdcdb8540093f44eb1d70d63266a384ca43a40965c9670581ce80add263.png",
+        "sha256": "de045fdcdb8540093f44eb1d70d63266a384ca43a40965c9670581ce80add263"
+      },
+      "input": {
+        "path": "references/3f92e1fdf66f90e89066b7ec635fce1eedc92a3286bd40d38b46eac6bede177d.png",
+        "sha256": "3f92e1fdf66f90e89066b7ec635fce1eedc92a3286bd40d38b46eac6bede177d"
+      },
+      "references": [
+        {
+          "path": "references/3f92e1fdf66f90e89066b7ec635fce1eedc92a3286bd40d38b46eac6bede177d.png",
+          "sha256": "3f92e1fdf66f90e89066b7ec635fce1eedc92a3286bd40d38b46eac6bede177d"
+        },
+        {
+          "path": "references/de045fdcdb8540093f44eb1d70d63266a384ca43a40965c9670581ce80add263.png",
+          "sha256": "de045fdcdb8540093f44eb1d70d63266a384ca43a40965c9670581ce80add263"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r04c05",
+        "r05c04"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-3750195c-700c-4121-ad12-e20fd0ba0f85.png"
+    },
+    {
+      "id": "r05c03",
+      "image": "images/r05c03.png",
+      "sha256": "28b1b668dd7cc7a7ce6d22b1753c196e1b7a46fe7bccb8bfe765a3ede24afe94",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r05c03.md",
+      "promptSha256": "2b7d1e653f05259d7798dbe76c258317cc6d95a4b51ec72c171aa44e11db4966",
+      "guide": {
+        "path": "references/228f4481c5c21d7f7e3bc81706eb3cbdc4c0e9b0b5d6c10bae6b56c4fbd9afa7.png",
+        "sha256": "228f4481c5c21d7f7e3bc81706eb3cbdc4c0e9b0b5d6c10bae6b56c4fbd9afa7"
+      },
+      "targets": {
+        "path": "references/228f4481c5c21d7f7e3bc81706eb3cbdc4c0e9b0b5d6c10bae6b56c4fbd9afa7.png",
+        "sha256": "228f4481c5c21d7f7e3bc81706eb3cbdc4c0e9b0b5d6c10bae6b56c4fbd9afa7"
+      },
+      "input": {
+        "path": "references/8434c4bebe314a6a6ce6b788349f6f449e8e1ac1298bb5071c62907f3d182221.png",
+        "sha256": "8434c4bebe314a6a6ce6b788349f6f449e8e1ac1298bb5071c62907f3d182221"
+      },
+      "references": [
+        {
+          "path": "references/8434c4bebe314a6a6ce6b788349f6f449e8e1ac1298bb5071c62907f3d182221.png",
+          "sha256": "8434c4bebe314a6a6ce6b788349f6f449e8e1ac1298bb5071c62907f3d182221"
+        },
+        {
+          "path": "references/228f4481c5c21d7f7e3bc81706eb3cbdc4c0e9b0b5d6c10bae6b56c4fbd9afa7.png",
+          "sha256": "228f4481c5c21d7f7e3bc81706eb3cbdc4c0e9b0b5d6c10bae6b56c4fbd9afa7"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r05c04",
+        "r06c03"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-54502f07-0a5c-4730-b03f-2bb09aeb5188.png"
+    },
+    {
+      "id": "r06c02",
+      "image": "images/r06c02.png",
+      "sha256": "22f5a2d91185d9ac0eb75052166923e7c231e275fd4f920b702d7b7046819947",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r06c02.md",
+      "promptSha256": "5713047fc5c0ba39111f21fa88dc0c47e92d2ed174f08b623942030770f0797e",
+      "guide": {
+        "path": "references/aceb8f6fc51af8839310110c5e9e253fecfb4f312b94407e895270c662c909a3.png",
+        "sha256": "aceb8f6fc51af8839310110c5e9e253fecfb4f312b94407e895270c662c909a3"
+      },
+      "targets": {
+        "path": "references/aceb8f6fc51af8839310110c5e9e253fecfb4f312b94407e895270c662c909a3.png",
+        "sha256": "aceb8f6fc51af8839310110c5e9e253fecfb4f312b94407e895270c662c909a3"
+      },
+      "input": {
+        "path": "references/8864c2238aab296aef20132c74298183e585c19a229e3375ca8e58e5ddaf700d.png",
+        "sha256": "8864c2238aab296aef20132c74298183e585c19a229e3375ca8e58e5ddaf700d"
+      },
+      "references": [
+        {
+          "path": "references/8864c2238aab296aef20132c74298183e585c19a229e3375ca8e58e5ddaf700d.png",
+          "sha256": "8864c2238aab296aef20132c74298183e585c19a229e3375ca8e58e5ddaf700d"
+        },
+        {
+          "path": "references/aceb8f6fc51af8839310110c5e9e253fecfb4f312b94407e895270c662c909a3.png",
+          "sha256": "aceb8f6fc51af8839310110c5e9e253fecfb4f312b94407e895270c662c909a3"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r06c03"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-f2f3bdb0-c986-4143-9eb7-2103c49991bc.png"
+    },
+    {
+      "id": "r04c03",
+      "image": "images/r04c03.png",
+      "sha256": "5b06ce70dd6ec670ffebeeb0f35c2f46548574936344338c6f8aced52d7b633b",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r04c03.md",
+      "promptSha256": "8416bbedb5dad6b4fdef5d76482f78ac649660d1e19c53315237ae2b28a19f1f",
+      "guide": {
+        "path": "references/134e8753036d8c8082d702178e26c37fe88c3445aba6e496a820adc38bf61c2d.png",
+        "sha256": "134e8753036d8c8082d702178e26c37fe88c3445aba6e496a820adc38bf61c2d"
+      },
+      "targets": {
+        "path": "references/134e8753036d8c8082d702178e26c37fe88c3445aba6e496a820adc38bf61c2d.png",
+        "sha256": "134e8753036d8c8082d702178e26c37fe88c3445aba6e496a820adc38bf61c2d"
+      },
+      "input": {
+        "path": "references/fe76204be87f66683b47507c3318fcd6732af724b7362b383c2f9157e51e719e.png",
+        "sha256": "fe76204be87f66683b47507c3318fcd6732af724b7362b383c2f9157e51e719e"
+      },
+      "references": [
+        {
+          "path": "references/fe76204be87f66683b47507c3318fcd6732af724b7362b383c2f9157e51e719e.png",
+          "sha256": "fe76204be87f66683b47507c3318fcd6732af724b7362b383c2f9157e51e719e"
+        },
+        {
+          "path": "references/134e8753036d8c8082d702178e26c37fe88c3445aba6e496a820adc38bf61c2d.png",
+          "sha256": "134e8753036d8c8082d702178e26c37fe88c3445aba6e496a820adc38bf61c2d"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r04c04",
+        "r05c03"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-1c78d04e-2b6e-4396-be26-9c15cd58581a.png"
+    },
+    {
+      "id": "r05c02",
+      "image": "images/r05c02.png",
+      "sha256": "0ee1f4b0cb96134d9fb3b7c021162f1f8c5fe53519fce8198d490ca5d057ee1e",
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "prompts/r05c02.md",
+      "promptSha256": "0b375f749fb86be5c1fb1fd608b6f0209b48170189c167d0296c0b57395d3dc1",
+      "guide": {
+        "path": "references/529fdf9c7abb3a35bbb69cfa9a5ea6cf495e6414209806ca2850f33ed6acf235.png",
+        "sha256": "529fdf9c7abb3a35bbb69cfa9a5ea6cf495e6414209806ca2850f33ed6acf235"
+      },
+      "targets": {
+        "path": "references/529fdf9c7abb3a35bbb69cfa9a5ea6cf495e6414209806ca2850f33ed6acf235.png",
+        "sha256": "529fdf9c7abb3a35bbb69cfa9a5ea6cf495e6414209806ca2850f33ed6acf235"
+      },
+      "input": {
+        "path": "references/3edb31ba508325ed239c66c42e4e4c10f7b7f11c93cb56f6b7d1105525f7fd09.png",
+        "sha256": "3edb31ba508325ed239c66c42e4e4c10f7b7f11c93cb56f6b7d1105525f7fd09"
+      },
+      "references": [
+        {
+          "path": "references/3edb31ba508325ed239c66c42e4e4c10f7b7f11c93cb56f6b7d1105525f7fd09.png",
+          "sha256": "3edb31ba508325ed239c66c42e4e4c10f7b7f11c93cb56f6b7d1105525f7fd09"
+        },
+        {
+          "path": "references/529fdf9c7abb3a35bbb69cfa9a5ea6cf495e6414209806ca2850f33ed6acf235.png",
+          "sha256": "529fdf9c7abb3a35bbb69cfa9a5ea6cf495e6414209806ca2850f33ed6acf235"
+        },
+        {
+          "path": "references/9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c.png",
+          "sha256": "9109f00699ff145084a93998db4d01ad249862ab297cce6faf58b8efa15c7e8c"
+        }
+      ],
+      "dependencies": [
+        "r05c03",
+        "r06c02"
+      ],
+      "generatedSource": "C:\\Users\\andre\\.codex\\generated_images\\01a1988c-3881-78c2-b977-b5da0511fa32\\exec-b00cb51e-51e1-46ad-ac6d-4669f8e6d7d4.png"
+    }
+  ],
+  "scope": "The first delivered 75-section atlas. Preserved original image and prompt bytes.",
+  "geography": "Illustrated interpretation; exact streets and landmark bases are approximate."
+}

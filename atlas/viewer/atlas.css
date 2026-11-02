@@ -1,0 +1,20 @@
+#event-map { background:#f0eddf; }
+.atlas-context-label { color:#7c856a; font:italic 15px Georgia,serif; text-align:center; white-space:nowrap; pointer-events:none; }
+.atlas-outside { position:absolute; z-index:430; left:50%; top:18px; transform:translateX(-50%); max-width:calc(100% - 32px); padding:11px 18px; background:#fffdf3ed; color:#52614d; border:1px solid #cbd0bb; border-radius:6px; font-size:13px; text-align:center; pointer-events:none; }
+.atlas-outside[hidden] { display:none; }
+.atlas-scope { font-size:15px; line-height:1.5; margin:0 0 20px; padding:12px 15px; background:#e5e9d9; border-radius:6px; }
+.atlas-scope span { display:block; font-size:13px; }
+.atlas-comparison { font-size:13px; line-height:2; }
+.atlas-comparison a { display:inline-block; min-height:36px; padding:0 4px; }
+.atlas-package-label { display:grid; gap:6px; font-size:14px; font-weight:600; margin-bottom:4px; }
+.atlas-package-label select { font:inherit; color:var(--ink); background:var(--white); border:1px solid #bdc6af; border-radius:6px; min-height:44px; width:100%; padding:8px 10px; }
+.atlas-package-status { font-size:13px; min-height:1.5em; margin:4px 0 14px; }
+.atlas-artwork-only .prototype-labels,.atlas-artwork-only .prototype-wires,.atlas-artwork-only .leaflet-marker-pane,.atlas-artwork-only .prototype-missing,.atlas-artwork-only .prototype-warning { display:none; }
+.prototype-label[hidden] { display:none; }
+.prototype-corner-note { max-width:calc(100% - 20px); }
+@media(max-width:700px) {
+  .prototype-map-tools { gap:4px; }
+  .prototype-map-button { font-size:11px; padding:7px 8px; }
+  .atlas-outside { top:61px; left:10px; transform:none; max-width:calc(100% - 77px); font-size:11px; padding:8px 10px; }
+  .prototype-corner-note { font-size:10px; }
+}
