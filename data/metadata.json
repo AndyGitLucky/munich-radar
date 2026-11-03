@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-03T12:48:48+01:00",
+  "last_updated": "2026-11-03T21:31:41+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
@@ -95,7 +95,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -103,7 +103,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 34,
+      "events": 33,
       "warnings": []
     },
     {
@@ -150,17 +150,17 @@
   },
   "views": {
     "today": [
-      "1049edcafbe70b03fa94",
-      "560bd9c683c12b8bbcfe",
-      "5d52389f3ce54e379bb9",
-      "87ecdc9420f5e28962b0",
-      "cf864581a585aa90656c"
+      "7d27ad597b4be38a25d8",
+      "f804c88a1096b66cddba",
+      "8c96e582d9765c17ce84",
+      "3b525ae80888ac851a9a",
+      "7f577690a31d55eaf0c3"
     ],
     "tomorrow": [
       "f71c43b53cef158156f9",
       "f804c88a1096b66cddba",
       "103a3af6b89a5a1df674",
-      "b7e4c584cd83ab3251db",
+      "25487c446faf43c12927",
       "ddd9407876aab87c4d0d"
     ],
     "weekend": [
@@ -172,17 +172,17 @@
     ],
     "upcoming": [
       "f71c43b53cef158156f9",
+      "c2659e1bf18fc75cfab6",
       "436374188ebebd0501e8",
       "cd42c98a704bb7be1014",
-      "fdf7b2d2288462a71862",
-      "cee8ca092aada06e07ed"
+      "fdf7b2d2288462a71862"
     ],
     "new": [
-      "1049edcafbe70b03fa94",
-      "560bd9c683c12b8bbcfe",
-      "5d52389f3ce54e379bb9",
-      "87ecdc9420f5e28962b0",
-      "cf864581a585aa90656c"
+      "7d27ad597b4be38a25d8",
+      "f71c43b53cef158156f9",
+      "c2659e1bf18fc75cfab6",
+      "f804c88a1096b66cddba",
+      "ff6058ef0045eb5225a4"
     ]
   },
   "heads_up": [
@@ -191,12 +191,12 @@
       "days_until": 1
     },
     {
-      "event_id": "32a60ae9bf09dfeb177f",
+      "event_id": "25487c446faf43c12927",
       "days_until": 1
     },
     {
-      "event_id": "46dcd990c5fc7e88c830",
-      "days_until": 3
+      "event_id": "32a60ae9bf09dfeb177f",
+      "days_until": 1
     }
   ],
   "heads_up_rules": {
@@ -336,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "5aa124fecfe85bc013f81467a1176c4577b39cbfb3171c636f87616bd6fe2056"
+  "data_hash": "8f705337cd89a29558ae03c276e085f3223757461e364699cae7849c7578ba92"
 }
