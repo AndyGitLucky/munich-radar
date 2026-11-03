@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-02T23:53:03+01:00",
+  "last_updated": "2026-11-03T12:48:48+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 707,
-  "events_after_deduplication": 657,
-  "stale_events": 20,
+  "events_collected": 734,
+  "events_after_deduplication": 665,
+  "stale_events": 0,
   "sources": [
     {
       "id": "oktoberfest",
@@ -29,7 +29,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 149,
+      "events": 157,
       "warnings": []
     },
     {
@@ -54,18 +54,16 @@
       "id": "deutsches_museum",
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
-      "status": "partial",
-      "events": 40,
-      "warnings": [
-        "Kalenderseite fehlgeschlagen: ReadTimeout"
-      ]
+      "status": "ok",
+      "events": 60,
+      "warnings": []
     },
     {
       "id": "lenbachhaus",
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 70,
+      "events": 71,
       "warnings": []
     },
     {
@@ -81,7 +79,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 40,
+      "events": 39,
       "warnings": []
     },
     {
@@ -105,7 +103,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 35,
+      "events": 34,
       "warnings": []
     },
     {
@@ -152,53 +150,53 @@
   },
   "views": {
     "today": [
-      "f804c88a1096b66cddba",
-      "ddd9407876aab87c4d0d",
-      "5266c0be656345e6618f",
-      "568e183ee11c5b81cf8d",
-      "892a78e4033d44738306"
-    ],
-    "tomorrow": [
       "1049edcafbe70b03fa94",
       "560bd9c683c12b8bbcfe",
       "5d52389f3ce54e379bb9",
+      "87ecdc9420f5e28962b0",
+      "cf864581a585aa90656c"
+    ],
+    "tomorrow": [
+      "f71c43b53cef158156f9",
       "f804c88a1096b66cddba",
+      "103a3af6b89a5a1df674",
+      "b7e4c584cd83ab3251db",
       "ddd9407876aab87c4d0d"
     ],
     "weekend": [
-      "ddd9407876aab87c4d0d",
       "436374188ebebd0501e8",
-      "869f2207d9c37a580630",
       "cd42c98a704bb7be1014",
-      "fdf7b2d2288462a71862"
+      "fdf7b2d2288462a71862",
+      "616b56923aeea078a4ee",
+      "b4c6a4378e95c63a88fa"
     ],
     "upcoming": [
-      "1049edcafbe70b03fa94",
-      "560bd9c683c12b8bbcfe",
-      "5d52389f3ce54e379bb9",
       "f71c43b53cef158156f9",
+      "436374188ebebd0501e8",
+      "cd42c98a704bb7be1014",
+      "fdf7b2d2288462a71862",
       "cee8ca092aada06e07ed"
     ],
     "new": [
       "1049edcafbe70b03fa94",
       "560bd9c683c12b8bbcfe",
       "5d52389f3ce54e379bb9",
-      "f71c43b53cef158156f9",
-      "f804c88a1096b66cddba"
+      "87ecdc9420f5e28962b0",
+      "cf864581a585aa90656c"
     ]
   },
   "heads_up": [
     {
-      "event_id": "1049edcafbe70b03fa94",
+      "event_id": "f71c43b53cef158156f9",
       "days_until": 1
     },
     {
-      "event_id": "560bd9c683c12b8bbcfe",
+      "event_id": "32a60ae9bf09dfeb177f",
       "days_until": 1
     },
     {
-      "event_id": "5d52389f3ce54e379bb9",
-      "days_until": 1
+      "event_id": "46dcd990c5fc7e88c830",
+      "days_until": 3
     }
   ],
   "heads_up_rules": {
@@ -338,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "00b37b1cc98f8337bc9feea2c64e8a69e8bda487acf0cf55571d87348b3145e5"
+  "data_hash": "5aa124fecfe85bc013f81467a1176c4577b39cbfb3171c636f87616bd6fe2056"
 }
