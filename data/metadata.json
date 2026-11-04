@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-04T13:01:08+01:00",
+  "last_updated": "2026-11-04T21:46:24+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 745,
-  "events_after_deduplication": 673,
+  "events_collected": 742,
+  "events_after_deduplication": 671,
   "stale_events": 0,
   "sources": [
     {
@@ -71,7 +71,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 250,
+      "events": 248,
       "warnings": []
     },
     {
@@ -103,7 +103,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 33,
+      "events": 32,
       "warnings": []
     },
     {
@@ -150,39 +150,39 @@
   },
   "views": {
     "today": [
-      "103a3af6b89a5a1df674",
-      "25487c446faf43c12927",
-      "6d8175cb1bf814a91169",
+      "f242cec7ce2cc6e20a6d",
       "e37d56d63490cbebbc5d",
-      "c0817f78cd8f8a22122f"
+      "c0817f78cd8f8a22122f",
+      "f804c88a1096b66cddba",
+      "279f1a72af3143b97f8b"
     ],
     "tomorrow": [
       "f804c88a1096b66cddba",
-      "b31b17600e5ad8ef3047",
-      "fd387948a4d2ff00cd91",
       "ddd9407876aab87c4d0d",
-      "16634171c0e2e9165a8c"
+      "b31b17600e5ad8ef3047",
+      "c86b7f7d31b911c753fc",
+      "fd387948a4d2ff00cd91"
     ],
     "weekend": [
       "80e7279cc24549906b47",
       "5b1c079457aee7f3a787",
       "6f2517175e99da6ab807",
-      "616b56923aeea078a4ee",
-      "b4c6a4378e95c63a88fa"
+      "b4c6a4378e95c63a88fa",
+      "2401cffd56c07ffe7ab3"
     ],
     "upcoming": [
+      "c2659e1bf18fc75cfab6",
       "80e7279cc24549906b47",
       "5b1c079457aee7f3a787",
       "6f2517175e99da6ab807",
-      "cee8ca092aada06e07ed",
-      "b31b17600e5ad8ef3047"
+      "cee8ca092aada06e07ed"
     ],
     "new": [
-      "103a3af6b89a5a1df674",
-      "25487c446faf43c12927",
-      "6d8175cb1bf814a91169",
+      "f242cec7ce2cc6e20a6d",
       "e37d56d63490cbebbc5d",
-      "c0817f78cd8f8a22122f"
+      "c0817f78cd8f8a22122f",
+      "c2659e1bf18fc75cfab6",
+      "f804c88a1096b66cddba"
     ]
   },
   "heads_up": [
@@ -336,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "04fa32c52ed43577d3524dc9ec6be0191eeaf80668e91424aea45a2f7b3450bb"
+  "data_hash": "279b6827e7cbd8db61eba4a7653ae8aab6e1807f66ba1ed22409bbf88f8c08d4"
 }
