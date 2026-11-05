@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-05T13:07:26+01:00",
+  "last_updated": "2026-11-05T22:00:50+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 743,
-  "events_after_deduplication": 669,
+  "events_collected": 740,
+  "events_after_deduplication": 668,
   "stale_events": 0,
   "sources": [
     {
@@ -71,7 +71,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 251,
+      "events": 249,
       "warnings": []
     },
     {
@@ -103,7 +103,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 32,
+      "events": 31,
       "warnings": []
     },
     {
@@ -150,11 +150,11 @@
   },
   "views": {
     "today": [
-      "60a430e002f1b699d381",
-      "80e89f1f87264d79fefc",
-      "337ca4016f38d08e9ae2",
+      "23b934f768afa1fd134c",
       "47b542f83d9aacba1dc9",
-      "01e337d0ca92bff7434e"
+      "f804c88a1096b66cddba",
+      "16634171c0e2e9165a8c",
+      "5c7e4a3abdfae8d52673"
     ],
     "tomorrow": [
       "f804c88a1096b66cddba",
@@ -164,38 +164,38 @@
       "e4832073dcf85c52e51c"
     ],
     "weekend": [
-      "80e7279cc24549906b47",
-      "5b1c079457aee7f3a787",
-      "6f2517175e99da6ab807",
+      "384b79245252f4c3938a",
       "b4c6a4378e95c63a88fa",
-      "2401cffd56c07ffe7ab3"
+      "2401cffd56c07ffe7ab3",
+      "f9e818a9fa55fbe59922",
+      "ddd9407876aab87c4d0d"
     ],
     "upcoming": [
       "c2659e1bf18fc75cfab6",
-      "80e7279cc24549906b47",
-      "5b1c079457aee7f3a787",
-      "6f2517175e99da6ab807",
-      "cee8ca092aada06e07ed"
+      "384b79245252f4c3938a",
+      "cee8ca092aada06e07ed",
+      "b4c6a4378e95c63a88fa",
+      "2401cffd56c07ffe7ab3"
     ],
     "new": [
-      "60a430e002f1b699d381",
-      "80e89f1f87264d79fefc",
-      "337ca4016f38d08e9ae2",
+      "23b934f768afa1fd134c",
       "47b542f83d9aacba1dc9",
-      "01e337d0ca92bff7434e"
+      "c2659e1bf18fc75cfab6",
+      "384b79245252f4c3938a",
+      "5c7e4a3abdfae8d52673"
     ]
   },
   "heads_up": [
+    {
+      "event_id": "701343cb0c244652e8ac",
+      "days_until": 3
+    },
     {
       "event_id": "80e7279cc24549906b47",
       "days_until": 3
     },
     {
       "event_id": "5b1c079457aee7f3a787",
-      "days_until": 3
-    },
-    {
-      "event_id": "6f2517175e99da6ab807",
       "days_until": 3
     }
   ],
@@ -336,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "b836e1a48a683179e24d88386d05f0a15fddcdec5cbf8d120af146799a42d938"
+  "data_hash": "5e2ce54301f7ebefeacb441d4b44d2a952c1b1d25f1ceb82b1b6c9deedb64483"
 }
