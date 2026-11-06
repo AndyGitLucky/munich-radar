@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-05T22:00:50+01:00",
+  "last_updated": "2026-11-06T21:22:03+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 740,
-  "events_after_deduplication": 668,
+  "events_collected": 729,
+  "events_after_deduplication": 659,
   "stale_events": 0,
   "sources": [
     {
@@ -21,7 +21,7 @@
       "name": "München – Shopping & Sonderöffnungen",
       "url": "https://www.muenchen.de/shopping/aktuell/shopping-naechte-und-abendoeffnungen-muenchen",
       "status": "ok",
-      "events": 2,
+      "events": 3,
       "warnings": []
     },
     {
@@ -29,7 +29,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 166,
+      "events": 158,
       "warnings": []
     },
     {
@@ -63,7 +63,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 74,
+      "events": 71,
       "warnings": []
     },
     {
@@ -79,7 +79,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 40,
+      "events": 39,
       "warnings": []
     },
     {
@@ -87,7 +87,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 42,
+      "events": 41,
       "warnings": []
     },
     {
@@ -103,7 +103,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 31,
+      "events": 32,
       "warnings": []
     },
     {
@@ -150,53 +150,53 @@
   },
   "views": {
     "today": [
-      "23b934f768afa1fd134c",
-      "47b542f83d9aacba1dc9",
-      "f804c88a1096b66cddba",
-      "16634171c0e2e9165a8c",
-      "5c7e4a3abdfae8d52673"
+      "c0ae311dc262a078cd5e",
+      "7ef498f4e5e7018290cb",
+      "dcdc2d6eba71ce61eddf",
+      "27e89b734480411307fe",
+      "f804c88a1096b66cddba"
     ],
     "tomorrow": [
-      "f804c88a1096b66cddba",
-      "ddd9407876aab87c4d0d",
-      "f88b8e7c15f024e3883b",
-      "cde4e008ced8ad6de37d",
-      "e4832073dcf85c52e51c"
-    ],
-    "weekend": [
+      "714f0938fc785c5d1ade",
+      "4616124d0dddf64b6b86",
       "384b79245252f4c3938a",
-      "b4c6a4378e95c63a88fa",
-      "2401cffd56c07ffe7ab3",
-      "f9e818a9fa55fbe59922",
+      "be52bd20cbca8b72d35e",
       "ddd9407876aab87c4d0d"
     ],
+    "weekend": [
+      "714f0938fc785c5d1ade",
+      "4616124d0dddf64b6b86",
+      "384b79245252f4c3938a",
+      "be52bd20cbca8b72d35e",
+      "8ab124c8be97a6bc8ae7"
+    ],
     "upcoming": [
+      "714f0938fc785c5d1ade",
+      "4616124d0dddf64b6b86",
       "c2659e1bf18fc75cfab6",
       "384b79245252f4c3938a",
-      "cee8ca092aada06e07ed",
-      "b4c6a4378e95c63a88fa",
-      "2401cffd56c07ffe7ab3"
+      "cee8ca092aada06e07ed"
     ],
     "new": [
-      "23b934f768afa1fd134c",
-      "47b542f83d9aacba1dc9",
-      "c2659e1bf18fc75cfab6",
-      "384b79245252f4c3938a",
-      "5c7e4a3abdfae8d52673"
+      "c0ae311dc262a078cd5e",
+      "7ef498f4e5e7018290cb",
+      "dcdc2d6eba71ce61eddf",
+      "714f0938fc785c5d1ade",
+      "c2659e1bf18fc75cfab6"
     ]
   },
   "heads_up": [
     {
-      "event_id": "701343cb0c244652e8ac",
-      "days_until": 3
+      "event_id": "714f0938fc785c5d1ade",
+      "days_until": 1
     },
     {
-      "event_id": "80e7279cc24549906b47",
-      "days_until": 3
+      "event_id": "4616124d0dddf64b6b86",
+      "days_until": 1
     },
     {
-      "event_id": "5b1c079457aee7f3a787",
-      "days_until": 3
+      "event_id": "384b79245252f4c3938a",
+      "days_until": 1
     }
   ],
   "heads_up_rules": {
@@ -336,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "5e2ce54301f7ebefeacb441d4b44d2a952c1b1d25f1ceb82b1b6c9deedb64483"
+  "data_hash": "72a4764484c1fe1e81737a367239a9ea23f3c9cca5da96ac2ed7e7d0694bd32f"
 }
