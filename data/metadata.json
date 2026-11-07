@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-07T12:00:01+01:00",
+  "last_updated": "2026-11-07T19:38:25+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
@@ -154,28 +154,28 @@
       "714f0938fc785c5d1ade",
       "4616124d0dddf64b6b86",
       "384b79245252f4c3938a",
-      "be52bd20cbca8b72d35e"
+      "436374188ebebd0501e8"
     ],
     "tomorrow": [
+      "85f4ea12e4b63f8a53d8",
       "4874e3aada79f35d5ea6",
+      "0cec241c783c123b2a19",
       "ddd9407876aab87c4d0d",
-      "701343cb0c244652e8ac",
-      "80e7279cc24549906b47",
-      "5b1c079457aee7f3a787"
+      "701343cb0c244652e8ac"
     ],
     "weekend": [
       "27553412bcede89bd58c",
       "714f0938fc785c5d1ade",
       "4616124d0dddf64b6b86",
       "384b79245252f4c3938a",
-      "4874e3aada79f35d5ea6"
+      "85f4ea12e4b63f8a53d8"
     ],
     "upcoming": [
+      "85f4ea12e4b63f8a53d8",
       "4874e3aada79f35d5ea6",
+      "0cec241c783c123b2a19",
       "c2659e1bf18fc75cfab6",
-      "cee8ca092aada06e07ed",
-      "a8e63e1670b1afc93449",
-      "548644959963af5abcc3"
+      "cee8ca092aada06e07ed"
     ],
     "new": [
       "27553412bcede89bd58c",
@@ -187,16 +187,16 @@
   },
   "heads_up": [
     {
+      "event_id": "85f4ea12e4b63f8a53d8",
+      "days_until": 1
+    },
+    {
       "event_id": "4874e3aada79f35d5ea6",
       "days_until": 1
     },
     {
-      "event_id": "c2659e1bf18fc75cfab6",
-      "days_until": 3
-    },
-    {
-      "event_id": "dc9072427dae638923ce",
-      "days_until": 3
+      "event_id": "0cec241c783c123b2a19",
+      "days_until": 1
     }
   ],
   "heads_up_rules": {
@@ -336,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "d02e059feedfc2934f65ad95824ee3c8830ff17bd4ef44789c8fc2a2fd2a9773"
+  "data_hash": "1df02b0c3c6fe46c4e5b321037f549f5a0bcd9a56437c4ff17dc75296f828434"
 }
