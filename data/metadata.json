@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-06T21:22:03+01:00",
+  "last_updated": "2026-11-07T12:00:01+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 729,
-  "events_after_deduplication": 659,
+  "events_collected": 712,
+  "events_after_deduplication": 643,
   "stale_events": 0,
   "sources": [
     {
@@ -29,7 +29,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 158,
+      "events": 146,
       "warnings": []
     },
     {
@@ -47,7 +47,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 8,
+      "events": 7,
       "warnings": []
     },
     {
@@ -63,7 +63,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 71,
+      "events": 72,
       "warnings": []
     },
     {
@@ -71,7 +71,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 249,
+      "events": 246,
       "warnings": []
     },
     {
@@ -87,7 +87,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 41,
+      "events": 39,
       "warnings": []
     },
     {
@@ -150,53 +150,53 @@
   },
   "views": {
     "today": [
-      "c0ae311dc262a078cd5e",
-      "7ef498f4e5e7018290cb",
-      "dcdc2d6eba71ce61eddf",
-      "27e89b734480411307fe",
-      "f804c88a1096b66cddba"
+      "27553412bcede89bd58c",
+      "714f0938fc785c5d1ade",
+      "4616124d0dddf64b6b86",
+      "384b79245252f4c3938a",
+      "be52bd20cbca8b72d35e"
     ],
     "tomorrow": [
-      "714f0938fc785c5d1ade",
-      "4616124d0dddf64b6b86",
-      "384b79245252f4c3938a",
-      "be52bd20cbca8b72d35e",
-      "ddd9407876aab87c4d0d"
+      "4874e3aada79f35d5ea6",
+      "ddd9407876aab87c4d0d",
+      "701343cb0c244652e8ac",
+      "80e7279cc24549906b47",
+      "5b1c079457aee7f3a787"
     ],
     "weekend": [
+      "27553412bcede89bd58c",
       "714f0938fc785c5d1ade",
       "4616124d0dddf64b6b86",
       "384b79245252f4c3938a",
-      "be52bd20cbca8b72d35e",
-      "8ab124c8be97a6bc8ae7"
+      "4874e3aada79f35d5ea6"
     ],
     "upcoming": [
-      "714f0938fc785c5d1ade",
-      "4616124d0dddf64b6b86",
+      "4874e3aada79f35d5ea6",
       "c2659e1bf18fc75cfab6",
-      "384b79245252f4c3938a",
-      "cee8ca092aada06e07ed"
+      "cee8ca092aada06e07ed",
+      "a8e63e1670b1afc93449",
+      "548644959963af5abcc3"
     ],
     "new": [
-      "c0ae311dc262a078cd5e",
-      "7ef498f4e5e7018290cb",
-      "dcdc2d6eba71ce61eddf",
+      "27553412bcede89bd58c",
       "714f0938fc785c5d1ade",
-      "c2659e1bf18fc75cfab6"
+      "4616124d0dddf64b6b86",
+      "384b79245252f4c3938a",
+      "4874e3aada79f35d5ea6"
     ]
   },
   "heads_up": [
     {
-      "event_id": "714f0938fc785c5d1ade",
+      "event_id": "4874e3aada79f35d5ea6",
       "days_until": 1
     },
     {
-      "event_id": "4616124d0dddf64b6b86",
-      "days_until": 1
+      "event_id": "c2659e1bf18fc75cfab6",
+      "days_until": 3
     },
     {
-      "event_id": "384b79245252f4c3938a",
-      "days_until": 1
+      "event_id": "dc9072427dae638923ce",
+      "days_until": 3
     }
   ],
   "heads_up_rules": {
@@ -336,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "72a4764484c1fe1e81737a367239a9ea23f3c9cca5da96ac2ed7e7d0694bd32f"
+  "data_hash": "d02e059feedfc2934f65ad95824ee3c8830ff17bd4ef44789c8fc2a2fd2a9773"
 }
