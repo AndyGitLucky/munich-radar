@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-08T19:46:09+01:00",
+  "last_updated": "2026-11-08T23:46:06+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 701,
-  "events_after_deduplication": 632,
+  "events_collected": 700,
+  "events_after_deduplication": 631,
   "stale_events": 0,
   "sources": [
     {
@@ -47,7 +47,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 7,
+      "events": 6,
       "warnings": []
     },
     {
@@ -191,12 +191,12 @@
       "days_until": 1
     },
     {
-      "event_id": "acf5e566f2235719aabf",
-      "days_until": 3
+      "event_id": "acd82c419a9c8b7a731a",
+      "days_until": 1
     },
     {
-      "event_id": "901e7663ea3a28bbc74d",
-      "days_until": 3
+      "event_id": "a32cd2aea3c88bdbb7b5",
+      "days_until": 1
     }
   ],
   "heads_up_rules": {
@@ -336,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "c8ffdbb9bc233e6ca1c68d371113d2a9d0f8c29733cffe680baf4842d291b251"
+  "data_hash": "de0291eb171becd5498d50220c400812bb3ecbbe2c87368a2629327a594a7cb5"
 }
