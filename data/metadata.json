@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-10T00:22:40+01:00",
+  "last_updated": "2026-11-10T21:47:32+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 712,
-  "events_after_deduplication": 638,
+  "events_collected": 708,
+  "events_after_deduplication": 636,
   "stale_events": 0,
   "sources": [
     {
@@ -47,7 +47,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 7,
+      "events": 6,
       "warnings": []
     },
     {
@@ -87,7 +87,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 36,
+      "events": 35,
       "warnings": []
     },
     {
@@ -95,7 +95,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 40,
+      "events": 39,
       "warnings": []
     },
     {
@@ -103,7 +103,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 29,
+      "events": 28,
       "warnings": []
     },
     {
@@ -150,11 +150,11 @@
   },
   "views": {
     "today": [
-      "7967573d41e5ea8a1d68",
       "0b4a4f9defe446ca9b2a",
-      "0218ba2ee4751cab3447",
       "4e2f5e00aeb09610bb65",
-      "38e570f81335e95b4938"
+      "fb7d1e4e16518a2166ec",
+      "65f6e4b33164242b9808",
+      "9bb3654bbd5bd03a5db5"
     ],
     "tomorrow": [
       "4e2f5e00aeb09610bb65",
@@ -173,16 +173,16 @@
     "upcoming": [
       "1a6feeb2d60bd2ff52d3",
       "cdc2e7ad573e4e7fe965",
+      "fe62bf2aa4bc9702de4e",
       "dcaab828acfaf0d43b3c",
-      "c98d169042c0a3c24624",
-      "77a22d80b104be101fea"
+      "c98d169042c0a3c24624"
     ],
     "new": [
-      "7967573d41e5ea8a1d68",
       "0b4a4f9defe446ca9b2a",
-      "0218ba2ee4751cab3447",
       "4e2f5e00aeb09610bb65",
-      "38e570f81335e95b4938"
+      "fb7d1e4e16518a2166ec",
+      "65f6e4b33164242b9808",
+      "9bb3654bbd5bd03a5db5"
     ]
   },
   "heads_up": [
@@ -336,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "499a3e61c543f77d4faf9c83810ad02751e6e98b8cce16618258f45c572bc5c8"
+  "data_hash": "b2a4b5f2369920f0b4f385a03b4c2c7ab83fa101e67162a4621d39e709100253"
 }
