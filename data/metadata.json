@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-10T21:47:32+01:00",
+  "last_updated": "2026-11-11T12:49:18+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 708,
-  "events_after_deduplication": 636,
+  "events_collected": 720,
+  "events_after_deduplication": 648,
   "stale_events": 0,
   "sources": [
     {
@@ -29,7 +29,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 157,
+      "events": 167,
       "warnings": []
     },
     {
@@ -47,7 +47,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 6,
+      "events": 7,
       "warnings": []
     },
     {
@@ -87,7 +87,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 35,
+      "events": 33,
       "warnings": []
     },
     {
@@ -95,7 +95,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 39,
+      "events": 40,
       "warnings": []
     },
     {
@@ -103,7 +103,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 28,
+      "events": 30,
       "warnings": []
     },
     {
@@ -150,53 +150,53 @@
   },
   "views": {
     "today": [
-      "0b4a4f9defe446ca9b2a",
       "4e2f5e00aeb09610bb65",
-      "fb7d1e4e16518a2166ec",
-      "65f6e4b33164242b9808",
-      "9bb3654bbd5bd03a5db5"
+      "0a9ce99b9fa3303d91ba",
+      "a0420cb80e376ad91bf1",
+      "acf5e566f2235719aabf",
+      "8503aa7a696a607d91a3"
     ],
     "tomorrow": [
       "4e2f5e00aeb09610bb65",
       "ddd9407876aab87c4d0d",
       "f88b8e7c15f024e3883b",
-      "acf5e566f2235719aabf",
-      "901e7663ea3a28bbc74d"
+      "aacb97bb1b2314ca7d3c",
+      "cf162c758633d1756a68"
     ],
     "weekend": [
       "4e2f5e00aeb09610bb65",
       "dcaab828acfaf0d43b3c",
-      "c98d169042c0a3c24624",
-      "77a22d80b104be101fea",
-      "b3eac5f39df4d000443c"
+      "45725aa9d7065ac161fd",
+      "619ad39b5465336ba1e7",
+      "7c1ff0948552ee1e646a"
     ],
     "upcoming": [
       "1a6feeb2d60bd2ff52d3",
       "cdc2e7ad573e4e7fe965",
       "fe62bf2aa4bc9702de4e",
       "dcaab828acfaf0d43b3c",
-      "c98d169042c0a3c24624"
+      "45725aa9d7065ac161fd"
     ],
     "new": [
-      "0b4a4f9defe446ca9b2a",
       "4e2f5e00aeb09610bb65",
-      "fb7d1e4e16518a2166ec",
-      "65f6e4b33164242b9808",
-      "9bb3654bbd5bd03a5db5"
+      "0a9ce99b9fa3303d91ba",
+      "a0420cb80e376ad91bf1",
+      "1a6feeb2d60bd2ff52d3",
+      "cdc2e7ad573e4e7fe965"
     ]
   },
   "heads_up": [
     {
-      "event_id": "cee8ca092aada06e07ed",
-      "days_until": 14
+      "event_id": "c98d169042c0a3c24624",
+      "days_until": 3
     },
     {
-      "event_id": "acf5e566f2235719aabf",
-      "days_until": 1
+      "event_id": "77a22d80b104be101fea",
+      "days_until": 3
     },
     {
-      "event_id": "901e7663ea3a28bbc74d",
-      "days_until": 1
+      "event_id": "b3eac5f39df4d000443c",
+      "days_until": 3
     }
   ],
   "heads_up_rules": {
@@ -336,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "b2a4b5f2369920f0b4f385a03b4c2c7ab83fa101e67162a4621d39e709100253"
+  "data_hash": "53067854a71e3f26afd76f78a79e795246222410b38188ffdbc3e8a44acbc6b6"
 }
