@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-12T13:28:25+01:00",
+  "last_updated": "2026-11-12T22:25:16+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
-  "sources_successful": 14,
-  "events_collected": 657,
+  "sources_successful": 15,
+  "events_collected": 717,
   "events_after_deduplication": 648,
-  "stale_events": 60,
+  "stale_events": 0,
   "sources": [
     {
       "id": "oktoberfest",
@@ -54,12 +54,9 @@
       "id": "deutsches_museum",
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "Kalenderseite fehlgeschlagen: ReadTimeout",
-        "ValueError: Keine gültigen Termine geliefert; vorherigen Stand beibehalten"
-      ]
+      "status": "ok",
+      "events": 60,
+      "warnings": []
     },
     {
       "id": "lenbachhaus",
@@ -153,11 +150,11 @@
   },
   "views": {
     "today": [
-      "4e2f5e00aeb09610bb65",
       "42d3384cd8ea09258a3c",
       "7c7194f6f3d9fa78604b",
       "d893c75ef3e6e29b4326",
-      "d11ab3bf57e57db30160"
+      "d11ab3bf57e57db30160",
+      "4e2f5e00aeb09610bb65"
     ],
     "tomorrow": [
       "4e2f5e00aeb09610bb65",
@@ -168,24 +165,24 @@
     ],
     "weekend": [
       "4e2f5e00aeb09610bb65",
+      "502288a241ce4555999c",
       "dcaab828acfaf0d43b3c",
-      "45725aa9d7065ac161fd",
-      "619ad39b5465336ba1e7",
-      "7c1ff0948552ee1e646a"
+      "34f0f3d0c91c77ed236f",
+      "52d0f5305a94c7c74813"
     ],
     "upcoming": [
       "cdc2e7ad573e4e7fe965",
       "2954b71aa4ec16c13624",
       "82b325c496949fff002f",
-      "dcaab828acfaf0d43b3c",
-      "45725aa9d7065ac161fd"
+      "502288a241ce4555999c",
+      "dcaab828acfaf0d43b3c"
     ],
     "new": [
-      "4e2f5e00aeb09610bb65",
       "42d3384cd8ea09258a3c",
       "7c7194f6f3d9fa78604b",
       "d893c75ef3e6e29b4326",
-      "d11ab3bf57e57db30160"
+      "d11ab3bf57e57db30160",
+      "cdc2e7ad573e4e7fe965"
     ]
   },
   "heads_up": [
@@ -194,11 +191,11 @@
       "days_until": 3
     },
     {
-      "event_id": "45725aa9d7065ac161fd",
+      "event_id": "34f0f3d0c91c77ed236f",
       "days_until": 3
     },
     {
-      "event_id": "619ad39b5465336ba1e7",
+      "event_id": "52d0f5305a94c7c74813",
       "days_until": 3
     }
   ],
@@ -339,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "63024808011e39a778b014754ac54fc2d77469876c579fd35041c9f91829a5e2"
+  "data_hash": "e2d9ae6ccd2e5af922344f1178d10f314ecf5cfa0537ba01a567d04276be9e4c"
 }
