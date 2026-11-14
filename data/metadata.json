@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-13T21:51:25+01:00",
+  "last_updated": "2026-11-14T12:21:36+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 738,
-  "events_after_deduplication": 647,
+  "events_collected": 697,
+  "events_after_deduplication": 628,
   "stale_events": 0,
   "sources": [
     {
@@ -29,7 +29,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 158,
+      "events": 146,
       "warnings": []
     },
     {
@@ -47,7 +47,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 7,
+      "events": 6,
       "warnings": []
     },
     {
@@ -63,7 +63,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 71,
+      "events": 72,
       "warnings": []
     },
     {
@@ -71,7 +71,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 268,
+      "events": 241,
       "warnings": []
     },
     {
@@ -87,7 +87,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 30,
+      "events": 28,
       "warnings": []
     },
     {
@@ -103,7 +103,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 32,
+      "events": 34,
       "warnings": []
     },
     {
@@ -127,7 +127,7 @@
       "name": "Messe München",
       "url": "https://messe-muenchen.de/de/veranstaltungen/",
       "status": "ok",
-      "events": 5,
+      "events": 3,
       "warnings": []
     },
     {
@@ -150,53 +150,53 @@
   },
   "views": {
     "today": [
-      "1a84fdd9d02062709d9b",
-      "4ee7d9d6f5ed04cc2ca8",
-      "4181785ee0e7b9f7beff",
-      "b8b44f2fb998792bd0ff",
-      "5c179a3e57cbd949a90f"
+      "a42af0f6c8225414f784",
+      "de5212e8c09dd7645f5c",
+      "502288a241ce4555999c",
+      "61fb448d3eea72f853bf",
+      "5d88fd98171cf39b6b08"
     ],
     "tomorrow": [
       "4e2f5e00aeb09610bb65",
-      "502288a241ce4555999c",
-      "5d88fd98171cf39b6b08",
-      "da8238ccb14ec72d3914",
-      "ddd9407876aab87c4d0d"
+      "dcaab828acfaf0d43b3c",
+      "4c3cf5c69edc520247f1",
+      "ddd9407876aab87c4d0d",
+      "45725aa9d7065ac161fd"
     ],
     "weekend": [
-      "4e2f5e00aeb09610bb65",
+      "a42af0f6c8225414f784",
+      "de5212e8c09dd7645f5c",
       "502288a241ce4555999c",
-      "dcaab828acfaf0d43b3c",
-      "5d88fd98171cf39b6b08",
-      "da8238ccb14ec72d3914"
+      "61fb448d3eea72f853bf",
+      "5d88fd98171cf39b6b08"
     ],
     "upcoming": [
       "cdc2e7ad573e4e7fe965",
-      "2954b71aa4ec16c13624",
-      "82b325c496949fff002f",
-      "502288a241ce4555999c",
-      "dcaab828acfaf0d43b3c"
+      "dcaab828acfaf0d43b3c",
+      "1a6feeb2d60bd2ff52d3",
+      "4c3cf5c69edc520247f1",
+      "cee8ca092aada06e07ed"
     ],
     "new": [
-      "1a84fdd9d02062709d9b",
-      "4ee7d9d6f5ed04cc2ca8",
-      "4181785ee0e7b9f7beff",
-      "b8b44f2fb998792bd0ff",
-      "5c179a3e57cbd949a90f"
+      "a42af0f6c8225414f784",
+      "de5212e8c09dd7645f5c",
+      "502288a241ce4555999c",
+      "61fb448d3eea72f853bf",
+      "5d88fd98171cf39b6b08"
     ]
   },
   "heads_up": [
     {
-      "event_id": "502288a241ce4555999c",
+      "event_id": "dcaab828acfaf0d43b3c",
       "days_until": 1
     },
     {
-      "event_id": "5d88fd98171cf39b6b08",
+      "event_id": "4c3cf5c69edc520247f1",
       "days_until": 1
     },
     {
-      "event_id": "da8238ccb14ec72d3914",
-      "days_until": 1
+      "event_id": "0166bd7e507c8058a64b",
+      "days_until": 3
     }
   ],
   "heads_up_rules": {
@@ -336,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "fac3999d82ac2aad21d22d2c23d2e16c2f115e327bcb8b55114b89ff80bf3bdf"
+  "data_hash": "43d0b7c735e98ec6623fa55c3645483cd2164b228da3a153c01fa4a44265cb18"
 }
