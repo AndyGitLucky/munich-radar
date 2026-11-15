@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-15T12:53:31+01:00",
+  "last_updated": "2026-11-15T20:42:14+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
-  "sources_successful": 14,
-  "events_collected": 550,
+  "sources_successful": 15,
+  "events_collected": 690,
   "events_after_deduplication": 619,
-  "stale_events": 140,
+  "stale_events": 0,
   "sources": [
     {
       "id": "oktoberfest",
@@ -28,11 +28,9 @@
       "id": "weekly_markets",
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "ValueError: Empty HTTP response"
-      ]
+      "status": "ok",
+      "events": 142,
+      "warnings": []
     },
     {
       "id": "corso_leopold",
@@ -49,7 +47,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 5,
+      "events": 6,
       "warnings": []
     },
     {
@@ -73,7 +71,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 244,
+      "events": 243,
       "warnings": []
     },
     {
@@ -97,7 +95,7 @@
       "name": "Haus der Kunst",
       "url": "https://www.hausderkunst.de/kalender",
       "status": "ok",
-      "events": 40,
+      "events": 38,
       "warnings": []
     },
     {
@@ -153,10 +151,10 @@
   "views": {
     "today": [
       "2795829a583e780c1678",
-      "38b684bf3884dfa6066e",
       "82288faabd69431b2715",
-      "e26afd132a36340b1379",
-      "e056d88943779f150468"
+      "bc17025427a9e76fedbf",
+      "dcaab828acfaf0d43b3c",
+      "4e2f5e00aeb09610bb65"
     ],
     "tomorrow": [
       "4e2f5e00aeb09610bb65",
@@ -167,10 +165,10 @@
     ],
     "weekend": [
       "2795829a583e780c1678",
-      "38b684bf3884dfa6066e",
       "82288faabd69431b2715",
-      "e26afd132a36340b1379",
-      "e056d88943779f150468"
+      "bc17025427a9e76fedbf",
+      "dcaab828acfaf0d43b3c",
+      "4e2f5e00aeb09610bb65"
     ],
     "upcoming": [
       "cdc2e7ad573e4e7fe965",
@@ -181,10 +179,10 @@
     ],
     "new": [
       "2795829a583e780c1678",
-      "38b684bf3884dfa6066e",
       "82288faabd69431b2715",
-      "e26afd132a36340b1379",
-      "e056d88943779f150468"
+      "bc17025427a9e76fedbf",
+      "cdc2e7ad573e4e7fe965",
+      "2954b71aa4ec16c13624"
     ]
   },
   "heads_up": [
@@ -338,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "108bac781dbb0ab1f2d1228958e298a0f4fff9c8546f17381c279b07fda58e96"
+  "data_hash": "a0d0efd47129d07f3e07d107afe80d4749d790b86a90dc7610ac81fac0113a6e"
 }
