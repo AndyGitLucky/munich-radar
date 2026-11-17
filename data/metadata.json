@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-17T14:01:08+01:00",
+  "last_updated": "2026-11-17T23:09:55+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 709,
-  "events_after_deduplication": 637,
+  "events_collected": 707,
+  "events_after_deduplication": 635,
   "stale_events": 0,
   "sources": [
     {
@@ -103,7 +103,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 38,
+      "events": 36,
       "warnings": []
     },
     {
@@ -151,10 +151,10 @@
   "views": {
     "today": [
       "3a9adfc88b28b9271453",
-      "8e93f583a9494cc3a949",
-      "52a149f5ef8c7a8ed181",
-      "de401b4aceb36b76e21d",
-      "05039a2ab45ef8bcd68a"
+      "982615a7a47b88fd82b3",
+      "31b213a52841141601cd",
+      "0a06c144e627ce98c748",
+      "7e9f540f265c9d94c5f4"
     ],
     "tomorrow": [
       "4e2f5e00aeb09610bb65",
@@ -164,25 +164,25 @@
       "02641101d6a4ebed6d07"
     ],
     "weekend": [
-      "2954b71aa4ec16c13624",
-      "82b325c496949fff002f",
-      "fe62bf2aa4bc9702de4e",
+      "a25081d156a37d54bea5",
+      "8b046eccdd32739e4d14",
+      "d68dfb0a33466c8b4df5",
       "4e2f5e00aeb09610bb65",
       "977455f6d84df865fd83"
     ],
     "upcoming": [
-      "2954b71aa4ec16c13624",
-      "82b325c496949fff002f",
-      "fe62bf2aa4bc9702de4e",
+      "a25081d156a37d54bea5",
+      "8b046eccdd32739e4d14",
+      "d68dfb0a33466c8b4df5",
       "977455f6d84df865fd83",
       "e3e973ed27ebcbdfd5c2"
     ],
     "new": [
       "3a9adfc88b28b9271453",
-      "2954b71aa4ec16c13624",
-      "82b325c496949fff002f",
-      "fe62bf2aa4bc9702de4e",
-      "8e93f583a9494cc3a949"
+      "a25081d156a37d54bea5",
+      "8b046eccdd32739e4d14",
+      "d68dfb0a33466c8b4df5",
+      "982615a7a47b88fd82b3"
     ]
   },
   "heads_up": [
@@ -195,7 +195,7 @@
       "days_until": 7
     },
     {
-      "event_id": "cd631832918cd962e724",
+      "event_id": "69a27f3ae0ccd9e63b42",
       "days_until": 1
     }
   ],
@@ -336,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "a686a48baed1f7ec07d06035d09feb311ebe0fe467a2254ff0e7eebf68739b6f"
+  "data_hash": "6e71193124058329bee092baada39815eda1ee4edcf49898d37a8eaff9a09599"
 }
