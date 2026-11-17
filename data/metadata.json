@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-17T00:19:06+01:00",
+  "last_updated": "2026-11-17T14:01:08+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 669,
-  "events_after_deduplication": 621,
-  "stale_events": 24,
+  "events_collected": 709,
+  "events_after_deduplication": 637,
+  "stale_events": 0,
   "sources": [
     {
       "id": "oktoberfest",
@@ -54,11 +54,9 @@
       "id": "deutsches_museum",
       "name": "Deutsches Museum",
       "url": "https://www.deutsches-museum.de/museumsinsel/programm/kalender",
-      "status": "partial",
-      "events": 20,
-      "warnings": [
-        "Kalenderseite fehlgeschlagen: ReadTimeout"
-      ]
+      "status": "ok",
+      "events": 60,
+      "warnings": []
     },
     {
       "id": "lenbachhaus",
@@ -154,9 +152,9 @@
     "today": [
       "3a9adfc88b28b9271453",
       "8e93f583a9494cc3a949",
-      "0166bd7e507c8058a64b",
-      "982615a7a47b88fd82b3",
-      "244b0baeed77c4650aaf"
+      "52a149f5ef8c7a8ed181",
+      "de401b4aceb36b76e21d",
+      "05039a2ab45ef8bcd68a"
     ],
     "tomorrow": [
       "4e2f5e00aeb09610bb65",
@@ -338,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "7460976e8ef188542d02e03f1cf95bdfb016934e8967994c0531f783788ebf81"
+  "data_hash": "a686a48baed1f7ec07d06035d09feb311ebe0fe467a2254ff0e7eebf68739b6f"
 }
