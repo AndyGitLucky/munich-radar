@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-19T13:45:47+01:00",
+  "last_updated": "2026-11-19T23:05:25+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 724,
-  "events_after_deduplication": 650,
+  "events_collected": 722,
+  "events_after_deduplication": 648,
   "stale_events": 0,
   "sources": [
     {
@@ -47,7 +47,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 7,
+      "events": 6,
       "warnings": []
     },
     {
@@ -71,7 +71,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 244,
+      "events": 245,
       "warnings": []
     },
     {
@@ -103,7 +103,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 43,
+      "events": 41,
       "warnings": []
     },
     {
@@ -150,11 +150,11 @@
   },
   "views": {
     "today": [
+      "6cdee29d0fa31865a5d8",
       "f49aca60ec89db19a315",
       "84667c888653d0bc36b9",
-      "67d24e0334d32285083e",
-      "4abd9227cdb6a1fda67c",
-      "2335d797e0797aa896c9"
+      "8788ec58e6ddf657312e",
+      "40886ec9d5a674f6cba5"
     ],
     "tomorrow": [
       "ddd9407876aab87c4d0d",
@@ -178,11 +178,11 @@
       "cee8ca092aada06e07ed"
     ],
     "new": [
+      "6cdee29d0fa31865a5d8",
       "f49aca60ec89db19a315",
       "84667c888653d0bc36b9",
-      "67d24e0334d32285083e",
-      "4abd9227cdb6a1fda67c",
-      "2335d797e0797aa896c9"
+      "8788ec58e6ddf657312e",
+      "40886ec9d5a674f6cba5"
     ]
   },
   "heads_up": [
@@ -336,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "4145d9be1e7bbead8916fc648fc036be82127e6c38fe08c1a88b5069575ed263"
+  "data_hash": "0da5959198ab6bde69fec7183ed69f11fc07374e7f0999f7339bc5711a2dda0c"
 }
