@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-17T23:09:55+01:00",
+  "last_updated": "2026-11-19T13:45:47+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 707,
-  "events_after_deduplication": 635,
+  "events_collected": 724,
+  "events_after_deduplication": 650,
   "stale_events": 0,
   "sources": [
     {
@@ -29,7 +29,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 157,
+      "events": 166,
       "warnings": []
     },
     {
@@ -63,7 +63,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 70,
+      "events": 73,
       "warnings": []
     },
     {
@@ -71,7 +71,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 245,
+      "events": 244,
       "warnings": []
     },
     {
@@ -79,7 +79,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 38,
+      "events": 40,
       "warnings": []
     },
     {
@@ -87,7 +87,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 24,
+      "events": 21,
       "warnings": []
     },
     {
@@ -103,7 +103,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 36,
+      "events": 43,
       "warnings": []
     },
     {
@@ -150,53 +150,53 @@
   },
   "views": {
     "today": [
-      "3a9adfc88b28b9271453",
-      "982615a7a47b88fd82b3",
-      "31b213a52841141601cd",
-      "0a06c144e627ce98c748",
-      "7e9f540f265c9d94c5f4"
+      "f49aca60ec89db19a315",
+      "84667c888653d0bc36b9",
+      "67d24e0334d32285083e",
+      "4abd9227cdb6a1fda67c",
+      "2335d797e0797aa896c9"
     ],
     "tomorrow": [
-      "4e2f5e00aeb09610bb65",
-      "1a6feeb2d60bd2ff52d3",
       "ddd9407876aab87c4d0d",
       "0a06c144e627ce98c748",
-      "02641101d6a4ebed6d07"
+      "b44850981c4f7cfd22f2",
+      "89714cb89c90bd09bf94",
+      "cf162c758633d1756a68"
     ],
     "weekend": [
-      "a25081d156a37d54bea5",
-      "8b046eccdd32739e4d14",
-      "d68dfb0a33466c8b4df5",
-      "4e2f5e00aeb09610bb65",
-      "977455f6d84df865fd83"
+      "cdc2e7ad573e4e7fe965",
+      "2954b71aa4ec16c13624",
+      "82b325c496949fff002f",
+      "61c17d0a61fdf920f4fb",
+      "ddd9407876aab87c4d0d"
     ],
     "upcoming": [
-      "a25081d156a37d54bea5",
-      "8b046eccdd32739e4d14",
-      "d68dfb0a33466c8b4df5",
-      "977455f6d84df865fd83",
-      "e3e973ed27ebcbdfd5c2"
+      "cdc2e7ad573e4e7fe965",
+      "2954b71aa4ec16c13624",
+      "82b325c496949fff002f",
+      "61c17d0a61fdf920f4fb",
+      "cee8ca092aada06e07ed"
     ],
     "new": [
-      "3a9adfc88b28b9271453",
-      "a25081d156a37d54bea5",
-      "8b046eccdd32739e4d14",
-      "d68dfb0a33466c8b4df5",
-      "982615a7a47b88fd82b3"
+      "f49aca60ec89db19a315",
+      "84667c888653d0bc36b9",
+      "67d24e0334d32285083e",
+      "4abd9227cdb6a1fda67c",
+      "2335d797e0797aa896c9"
     ]
   },
   "heads_up": [
     {
-      "event_id": "1a6feeb2d60bd2ff52d3",
-      "days_until": 1
+      "event_id": "2954b71aa4ec16c13624",
+      "days_until": 3
     },
     {
-      "event_id": "cee8ca092aada06e07ed",
-      "days_until": 7
+      "event_id": "82b325c496949fff002f",
+      "days_until": 3
     },
     {
-      "event_id": "69a27f3ae0ccd9e63b42",
-      "days_until": 1
+      "event_id": "fe62bf2aa4bc9702de4e",
+      "days_until": 3
     }
   ],
   "heads_up_rules": {
@@ -336,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "6e71193124058329bee092baada39815eda1ee4edcf49898d37a8eaff9a09599"
+  "data_hash": "4145d9be1e7bbead8916fc648fc036be82127e6c38fe08c1a88b5069575ed263"
 }
