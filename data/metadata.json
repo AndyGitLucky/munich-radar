@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-19T23:05:25+01:00",
+  "last_updated": "2026-11-20T13:43:11+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 722,
-  "events_after_deduplication": 648,
+  "events_collected": 765,
+  "events_after_deduplication": 692,
   "stale_events": 0,
   "sources": [
     {
@@ -21,7 +21,7 @@
       "name": "München – Shopping & Sonderöffnungen",
       "url": "https://www.muenchen.de/shopping/aktuell/shopping-naechte-und-abendoeffnungen-muenchen",
       "status": "ok",
-      "events": 5,
+      "events": 6,
       "warnings": []
     },
     {
@@ -29,7 +29,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 166,
+      "events": 158,
       "warnings": []
     },
     {
@@ -47,7 +47,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 6,
+      "events": 7,
       "warnings": []
     },
     {
@@ -71,7 +71,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 245,
+      "events": 293,
       "warnings": []
     },
     {
@@ -79,7 +79,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 40,
+      "events": 38,
       "warnings": []
     },
     {
@@ -87,7 +87,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 21,
+      "events": 20,
       "warnings": []
     },
     {
@@ -103,7 +103,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "ok",
-      "events": 41,
+      "events": 45,
       "warnings": []
     },
     {
@@ -150,53 +150,53 @@
   },
   "views": {
     "today": [
-      "6cdee29d0fa31865a5d8",
-      "f49aca60ec89db19a315",
-      "84667c888653d0bc36b9",
-      "8788ec58e6ddf657312e",
-      "40886ec9d5a674f6cba5"
+      "dbfd7dd8f53f3cbe3275",
+      "5389432a4825f8ad07f2",
+      "0b5d7dbc45a07bf52795",
+      "3cc5044f918103b1398e",
+      "0a05f496f500792d9852"
     ],
     "tomorrow": [
-      "ddd9407876aab87c4d0d",
-      "0a06c144e627ce98c748",
-      "b44850981c4f7cfd22f2",
-      "89714cb89c90bd09bf94",
-      "cf162c758633d1756a68"
+      "e9fe218f011d4048dd58",
+      "d4f56319fbe1e6834800",
+      "cdc2e7ad573e4e7fe965",
+      "5ad11e95c9117def81a4",
+      "61c17d0a61fdf920f4fb"
     ],
     "weekend": [
+      "e9fe218f011d4048dd58",
+      "d4f56319fbe1e6834800",
       "cdc2e7ad573e4e7fe965",
       "2954b71aa4ec16c13624",
-      "82b325c496949fff002f",
-      "61c17d0a61fdf920f4fb",
-      "ddd9407876aab87c4d0d"
+      "82b325c496949fff002f"
     ],
     "upcoming": [
+      "cee8ca092aada06e07ed",
+      "e9fe218f011d4048dd58",
       "cdc2e7ad573e4e7fe965",
       "2954b71aa4ec16c13624",
-      "82b325c496949fff002f",
-      "61c17d0a61fdf920f4fb",
-      "cee8ca092aada06e07ed"
+      "82b325c496949fff002f"
     ],
     "new": [
-      "6cdee29d0fa31865a5d8",
-      "f49aca60ec89db19a315",
-      "84667c888653d0bc36b9",
-      "8788ec58e6ddf657312e",
-      "40886ec9d5a674f6cba5"
+      "fe81500ba790da49f99e",
+      "dbfd7dd8f53f3cbe3275",
+      "0b5d7dbc45a07bf52795",
+      "3cc5044f918103b1398e",
+      "0a05f496f500792d9852"
     ]
   },
   "heads_up": [
     {
-      "event_id": "2954b71aa4ec16c13624",
-      "days_until": 3
+      "event_id": "cdc2e7ad573e4e7fe965",
+      "days_until": 1
     },
     {
-      "event_id": "82b325c496949fff002f",
-      "days_until": 3
+      "event_id": "5ad11e95c9117def81a4",
+      "days_until": 1
     },
     {
-      "event_id": "fe62bf2aa4bc9702de4e",
-      "days_until": 3
+      "event_id": "61c17d0a61fdf920f4fb",
+      "days_until": 1
     }
   ],
   "heads_up_rules": {
@@ -336,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "0da5959198ab6bde69fec7183ed69f11fc07374e7f0999f7339bc5711a2dda0c"
+  "data_hash": "56e9fe91ebddb8b08c50dd3019383161e77d89eb9a428a36a8e96e2e562fdcbc"
 }
