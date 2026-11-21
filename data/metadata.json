@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-21T13:23:56+01:00",
+  "last_updated": "2026-11-21T21:27:41+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 743,
-  "events_after_deduplication": 672,
+  "events_collected": 747,
+  "events_after_deduplication": 675,
   "stale_events": 0,
   "sources": [
     {
@@ -46,11 +46,9 @@
       "id": "gasteig",
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
-      "status": "partial",
-      "events": 6,
-      "warnings": [
-        "Detailseite ohne Event-JSON-LD"
-      ]
+      "status": "ok",
+      "events": 7,
+      "warnings": []
     },
     {
       "id": "deutsches_museum",
@@ -73,7 +71,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 290,
+      "events": 293,
       "warnings": []
     },
     {
@@ -154,9 +152,9 @@
     "today": [
       "e9fe218f011d4048dd58",
       "38ccbde38b21a160dcd5",
-      "cdc2e7ad573e4e7fe965",
       "42a6a50753531e81cf3c",
-      "91e08a4ac2448bdb7725"
+      "91e08a4ac2448bdb7725",
+      "61c17d0a61fdf920f4fb"
     ],
     "tomorrow": [
       "d4f56319fbe1e6834800",
@@ -168,9 +166,9 @@
     "weekend": [
       "e9fe218f011d4048dd58",
       "38ccbde38b21a160dcd5",
-      "cdc2e7ad573e4e7fe965",
       "42a6a50753531e81cf3c",
-      "91e08a4ac2448bdb7725"
+      "91e08a4ac2448bdb7725",
+      "61c17d0a61fdf920f4fb"
     ],
     "upcoming": [
       "cee8ca092aada06e07ed",
@@ -338,5 +336,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "a1ab4e3216459d13e7e947a6a857138535ee8c7e1a34dd3d19058e3be75222ec"
+  "data_hash": "c3a3a4efbc6ad8e13353ccf8fc272104ca8cfadf7a4449511e723877d22f1bc3"
 }
