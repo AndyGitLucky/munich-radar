@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-22T13:27:28+01:00",
+  "last_updated": "2026-11-22T21:40:14+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 750,
-  "events_after_deduplication": 676,
+  "events_collected": 752,
+  "events_after_deduplication": 679,
   "stale_events": 0,
   "sources": [
     {
@@ -46,11 +46,9 @@
       "id": "gasteig",
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
-      "status": "partial",
-      "events": 5,
-      "warnings": [
-        "Detailseite ohne Event-JSON-LD"
-      ]
+      "status": "ok",
+      "events": 7,
+      "warnings": []
     },
     {
       "id": "deutsches_museum",
@@ -156,9 +154,9 @@
     "today": [
       "d4f56319fbe1e6834800",
       "984e6031a0c28d6ff23a",
-      "fe62bf2aa4bc9702de4e",
-      "332818d19cee7f980af8",
-      "d68dfb0a33466c8b4df5"
+      "2733aa6ddbf577cb9848",
+      "27252178475c725a13d9",
+      "f0e5f8e232e737d24510"
     ],
     "tomorrow": [
       "d4f56319fbe1e6834800",
@@ -170,26 +168,30 @@
     "weekend": [
       "d4f56319fbe1e6834800",
       "984e6031a0c28d6ff23a",
-      "fe62bf2aa4bc9702de4e",
-      "332818d19cee7f980af8",
-      "d68dfb0a33466c8b4df5"
+      "2733aa6ddbf577cb9848",
+      "27252178475c725a13d9",
+      "f0e5f8e232e737d24510"
     ],
     "upcoming": [
       "cee8ca092aada06e07ed",
       "52056d230f70dae204c2",
+      "ee7797c70fb2293ff044",
       "e9b6857cb482fa2309e2",
-      "77c1d9108150d019a1a5",
-      "4a3b4ad2755df8fa5f67"
+      "2e619a6df58f3c382f09"
     ],
     "new": [
       "fe81500ba790da49f99e",
       "53493313de1355b2c7f4",
       "2733aa6ddbf577cb9848",
-      "9e9bf8a96b97a7a0be58",
-      "bdddc6db8d896f150ff7"
+      "ee7797c70fb2293ff044",
+      "e9b6857cb482fa2309e2"
     ]
   },
   "heads_up": [
+    {
+      "event_id": "ee7797c70fb2293ff044",
+      "days_until": 3
+    },
     {
       "event_id": "4a3b4ad2755df8fa5f67",
       "days_until": 1
@@ -197,10 +199,6 @@
     {
       "event_id": "2dc23faf83f4ad50387b",
       "days_until": 1
-    },
-    {
-      "event_id": "12b53fb001bf6aedd2b7",
-      "days_until": 3
     }
   ],
   "heads_up_rules": {
@@ -340,5 +338,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "b09738cf2d30cd7a0374da364368b8fd9915eb02c2b394a7da65bbcb97913dc5"
+  "data_hash": "97e588c3fd526ae81a8c41dc2db0ef26ff9ba579630d0a839e398173965827fe"
 }
