@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-24T05:16:56+01:00",
+  "last_updated": "2026-11-24T21:06:16+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 758,
-  "events_after_deduplication": 684,
-  "stale_events": 2,
+  "events_collected": 760,
+  "events_after_deduplication": 688,
+  "stale_events": 3,
   "sources": [
     {
       "id": "oktoberfest",
@@ -71,7 +71,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 295,
+      "events": 297,
       "warnings": []
     },
     {
@@ -154,9 +154,9 @@
     "today": [
       "cee8ca092aada06e07ed",
       "46caf96e28049a60eb90",
-      "77c1d9108150d019a1a5",
-      "6d38f72fd2c4819444c3",
-      "002f3857ae70c9634de7"
+      "3f80e1078cd3c7d7575c",
+      "7360b26a926671547cd0",
+      "8f15eb8554623f91e898"
     ],
     "tomorrow": [
       "cee8ca092aada06e07ed",
@@ -174,17 +174,17 @@
     ],
     "upcoming": [
       "5fde2148e8d3cfc84a04",
-      "8282d6b66f3a2532fd99",
+      "f900af8b58a156fddcd7",
       "c2e568c35d81d3913870",
       "ee7797c70fb2293ff044",
       "e9b6857cb482fa2309e2"
     ],
     "new": [
       "5fde2148e8d3cfc84a04",
-      "8282d6b66f3a2532fd99",
+      "f900af8b58a156fddcd7",
       "c2e568c35d81d3913870",
       "ee7797c70fb2293ff044",
-      "6d38f72fd2c4819444c3"
+      "3f80e1078cd3c7d7575c"
     ]
   },
   "heads_up": [
@@ -338,5 +338,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "25f65e9ca2dfabc413afc1b7df754eb62d52c164fb9b75179a1fa195e8df1cc4"
+  "data_hash": "8574a1f066e13dfa48d959bf55de2e1814cc4a624a168c1da753fd40b915b445"
 }
