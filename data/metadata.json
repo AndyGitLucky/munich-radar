@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-24T21:06:16+01:00",
+  "last_updated": "2026-11-25T15:06:21+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
-  "sources_successful": 15,
-  "events_collected": 760,
-  "events_after_deduplication": 688,
-  "stale_events": 3,
+  "sources_successful": 13,
+  "events_collected": 638,
+  "events_after_deduplication": 658,
+  "stale_events": 61,
   "sources": [
     {
       "id": "oktoberfest",
@@ -29,7 +29,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 145,
+      "events": 143,
       "warnings": []
     },
     {
@@ -47,7 +47,7 @@
       "name": "Gasteig",
       "url": "https://www.gasteig.de/veranstaltungen/",
       "status": "ok",
-      "events": 8,
+      "events": 7,
       "warnings": []
     },
     {
@@ -62,32 +62,36 @@
       "id": "lenbachhaus",
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
-      "status": "ok",
-      "events": 70,
-      "warnings": []
+      "status": "error",
+      "events": 0,
+      "warnings": [
+        "ReadTimeout: HTTPSConnectionPool(host='www.lenbachhaus.de', port=443): Read timed out. (read timeout=20)"
+      ]
     },
     {
       "id": "muenchen",
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 297,
+      "events": 293,
       "warnings": []
     },
     {
       "id": "stadtbibliothek",
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
-      "status": "ok",
-      "events": 38,
-      "warnings": []
+      "status": "error",
+      "events": 0,
+      "warnings": [
+        "ValueError: Keine datierten Kalendereinträge gefunden"
+      ]
     },
     {
       "id": "stadtmuseum",
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 15,
+      "events": 12,
       "warnings": []
     },
     {
@@ -103,7 +107,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "partial",
-      "events": 55,
+      "events": 51,
       "warnings": [
         "Termin verworfen: Event ends before it starts"
       ]
@@ -153,52 +157,52 @@
   "views": {
     "today": [
       "cee8ca092aada06e07ed",
-      "46caf96e28049a60eb90",
-      "3f80e1078cd3c7d7575c",
-      "7360b26a926671547cd0",
-      "8f15eb8554623f91e898"
+      "38d62e8435f8b674820c",
+      "49dec5040654f838ae30",
+      "7eca7ac18ccde28b3759",
+      "0bbc01c99e1a0f1c2ce6"
     ],
     "tomorrow": [
       "cee8ca092aada06e07ed",
       "d4f56319fbe1e6834800",
-      "ee7797c70fb2293ff044",
-      "ddd9407876aab87c4d0d",
-      "4e33fddccf2609ac34cf"
+      "79a5b337788a99575f26",
+      "ce9dd986e42c7be560a2",
+      "ddd9407876aab87c4d0d"
     ],
     "weekend": [
       "cee8ca092aada06e07ed",
       "5fde2148e8d3cfc84a04",
       "c2e568c35d81d3913870",
       "73cfaad53aac13555ad7",
-      "850bc2c222bc7be7283d"
+      "79fdb89a445a9e442688"
     ],
     "upcoming": [
+      "8282d6b66f3a2532fd99",
       "5fde2148e8d3cfc84a04",
-      "f900af8b58a156fddcd7",
+      "79a5b337788a99575f26",
       "c2e568c35d81d3913870",
-      "ee7797c70fb2293ff044",
-      "e9b6857cb482fa2309e2"
+      "7085585a2a3230cdeec9"
     ],
     "new": [
+      "8282d6b66f3a2532fd99",
       "5fde2148e8d3cfc84a04",
-      "f900af8b58a156fddcd7",
+      "79a5b337788a99575f26",
       "c2e568c35d81d3913870",
-      "ee7797c70fb2293ff044",
-      "3f80e1078cd3c7d7575c"
+      "49dec5040654f838ae30"
     ]
   },
   "heads_up": [
     {
-      "event_id": "ee7797c70fb2293ff044",
+      "event_id": "79a5b337788a99575f26",
       "days_until": 1
     },
     {
-      "event_id": "e9b6857cb482fa2309e2",
+      "event_id": "c2e568c35d81d3913870",
       "days_until": 3
     },
     {
-      "event_id": "12b53fb001bf6aedd2b7",
-      "days_until": 1
+      "event_id": "73cfaad53aac13555ad7",
+      "days_until": 3
     }
   ],
   "heads_up_rules": {
@@ -338,5 +342,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "8574a1f066e13dfa48d959bf55de2e1814cc4a624a168c1da753fd40b915b445"
+  "data_hash": "3aa4b054a5a955b44c3513750b5433739f76f6c0204bfb28157151bedea9accd"
 }
