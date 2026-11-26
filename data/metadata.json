@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-26T03:09:22+01:00",
+  "last_updated": "2026-11-26T14:45:31+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
-  "sources_successful": 15,
-  "events_collected": 741,
+  "sources_successful": 14,
+  "events_collected": 671,
   "events_after_deduplication": 662,
-  "stale_events": 2,
+  "stale_events": 38,
   "sources": [
     {
       "id": "oktoberfest",
@@ -62,16 +62,18 @@
       "id": "lenbachhaus",
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
-      "status": "ok",
-      "events": 71,
-      "warnings": []
+      "status": "error",
+      "events": 0,
+      "warnings": [
+        "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      ]
     },
     {
       "id": "muenchen",
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 296,
+      "events": 297,
       "warnings": []
     },
     {
@@ -79,7 +81,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 37,
+      "events": 38,
       "warnings": []
     },
     {
@@ -103,7 +105,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "partial",
-      "events": 54,
+      "events": 53,
       "warnings": [
         "Termin verworfen: Event ends before it starts"
       ]
@@ -155,8 +157,8 @@
       "cee8ca092aada06e07ed",
       "86aebf57b7c336965355",
       "79a5b337788a99575f26",
-      "19776b811330459b5402",
-      "32f738ef47d8c52b71de"
+      "d959a147ba780de01c92",
+      "19776b811330459b5402"
     ],
     "tomorrow": [
       "cee8ca092aada06e07ed",
@@ -184,7 +186,7 @@
       "5fde2148e8d3cfc84a04",
       "79a5b337788a99575f26",
       "c2e568c35d81d3913870",
-      "19776b811330459b5402"
+      "d959a147ba780de01c92"
     ]
   },
   "heads_up": [
@@ -338,5 +340,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "aa4a6fa4251f52d93d1877214e9bd6ff5e9f330e41a789121fe12bd19f895d1f"
+  "data_hash": "3848a930cc002789d6aff840fdbc6a03bf872eda1ce2f4f55ced6b818bc560c4"
 }
