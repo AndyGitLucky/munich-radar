@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-26T14:45:31+01:00",
+  "last_updated": "2026-11-26T23:55:42+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
-  "sources_successful": 14,
-  "events_collected": 671,
-  "events_after_deduplication": 662,
-  "stale_events": 38,
+  "sources_successful": 15,
+  "events_collected": 739,
+  "events_after_deduplication": 658,
+  "stale_events": 3,
   "sources": [
     {
       "id": "oktoberfest",
@@ -62,18 +62,16 @@
       "id": "lenbachhaus",
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-      ]
+      "status": "ok",
+      "events": 71,
+      "warnings": []
     },
     {
       "id": "muenchen",
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 297,
+      "events": 294,
       "warnings": []
     },
     {
@@ -156,37 +154,37 @@
     "today": [
       "cee8ca092aada06e07ed",
       "86aebf57b7c336965355",
-      "79a5b337788a99575f26",
+      "939495239b2a44ac5fb4",
       "d959a147ba780de01c92",
-      "19776b811330459b5402"
+      "7d0616a691b16ea0a612"
     ],
     "tomorrow": [
       "cee8ca092aada06e07ed",
       "d4f56319fbe1e6834800",
       "e9b6857cb482fa2309e2",
       "ddd9407876aab87c4d0d",
-      "ce27ffbb2b5b91df89fe"
+      "e2186c9af1ce016e0993"
     ],
     "weekend": [
       "cee8ca092aada06e07ed",
-      "5fde2148e8d3cfc84a04",
+      "f900af8b58a156fddcd7",
       "c2e568c35d81d3913870",
       "73cfaad53aac13555ad7",
-      "79fdb89a445a9e442688"
+      "ffef9cbfdcb4096a032f"
     ],
     "upcoming": [
       "8282d6b66f3a2532fd99",
-      "5fde2148e8d3cfc84a04",
+      "f900af8b58a156fddcd7",
       "c2e568c35d81d3913870",
-      "7085585a2a3230cdeec9",
-      "170ca372d35862a6254e"
+      "170ca372d35862a6254e",
+      "ffef9cbfdcb4096a032f"
     ],
     "new": [
-      "8282d6b66f3a2532fd99",
-      "5fde2148e8d3cfc84a04",
-      "79a5b337788a99575f26",
-      "c2e568c35d81d3913870",
-      "d959a147ba780de01c92"
+      "f900af8b58a156fddcd7",
+      "86aebf57b7c336965355",
+      "939495239b2a44ac5fb4",
+      "d959a147ba780de01c92",
+      "7085585a2a3230cdeec9"
     ]
   },
   "heads_up": [
@@ -195,11 +193,11 @@
       "days_until": 1
     },
     {
-      "event_id": "79fdb89a445a9e442688",
+      "event_id": "508ba583cceadeaef7ae",
       "days_until": 3
     },
     {
-      "event_id": "5fde2148e8d3cfc84a04",
+      "event_id": "fc17e871a04f8e18d8c1",
       "days_until": 3
     }
   ],
@@ -340,5 +338,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "3848a930cc002789d6aff840fdbc6a03bf872eda1ce2f4f55ced6b818bc560c4"
+  "data_hash": "0d0bec0fe4e9bef2aa24e3236109af9e06666003a1454c26d927dd4e64a94980"
 }
