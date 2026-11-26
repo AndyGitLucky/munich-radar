@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-25T15:06:21+01:00",
+  "last_updated": "2026-11-26T03:09:22+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
-  "sources_successful": 13,
-  "events_collected": 638,
-  "events_after_deduplication": 658,
-  "stale_events": 61,
+  "sources_successful": 15,
+  "events_collected": 741,
+  "events_after_deduplication": 662,
+  "stale_events": 2,
   "sources": [
     {
       "id": "oktoberfest",
@@ -29,7 +29,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 143,
+      "events": 136,
       "warnings": []
     },
     {
@@ -62,36 +62,32 @@
       "id": "lenbachhaus",
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "ReadTimeout: HTTPSConnectionPool(host='www.lenbachhaus.de', port=443): Read timed out. (read timeout=20)"
-      ]
+      "status": "ok",
+      "events": 71,
+      "warnings": []
     },
     {
       "id": "muenchen",
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 293,
+      "events": 296,
       "warnings": []
     },
     {
       "id": "stadtbibliothek",
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
-      "status": "error",
-      "events": 0,
-      "warnings": [
-        "ValueError: Keine datierten Kalendereinträge gefunden"
-      ]
+      "status": "ok",
+      "events": 37,
+      "warnings": []
     },
     {
       "id": "stadtmuseum",
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 12,
+      "events": 9,
       "warnings": []
     },
     {
@@ -107,7 +103,7 @@
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
       "status": "partial",
-      "events": 51,
+      "events": 54,
       "warnings": [
         "Termin verworfen: Event ends before it starts"
       ]
@@ -133,7 +129,7 @@
       "name": "Messe München",
       "url": "https://messe-muenchen.de/de/veranstaltungen/",
       "status": "ok",
-      "events": 3,
+      "events": 2,
       "warnings": []
     },
     {
@@ -157,17 +153,17 @@
   "views": {
     "today": [
       "cee8ca092aada06e07ed",
-      "38d62e8435f8b674820c",
-      "49dec5040654f838ae30",
-      "7eca7ac18ccde28b3759",
-      "0bbc01c99e1a0f1c2ce6"
+      "86aebf57b7c336965355",
+      "79a5b337788a99575f26",
+      "19776b811330459b5402",
+      "32f738ef47d8c52b71de"
     ],
     "tomorrow": [
       "cee8ca092aada06e07ed",
       "d4f56319fbe1e6834800",
-      "79a5b337788a99575f26",
-      "ce9dd986e42c7be560a2",
-      "ddd9407876aab87c4d0d"
+      "e9b6857cb482fa2309e2",
+      "ddd9407876aab87c4d0d",
+      "ce27ffbb2b5b91df89fe"
     ],
     "weekend": [
       "cee8ca092aada06e07ed",
@@ -179,29 +175,29 @@
     "upcoming": [
       "8282d6b66f3a2532fd99",
       "5fde2148e8d3cfc84a04",
-      "79a5b337788a99575f26",
       "c2e568c35d81d3913870",
-      "7085585a2a3230cdeec9"
+      "7085585a2a3230cdeec9",
+      "170ca372d35862a6254e"
     ],
     "new": [
       "8282d6b66f3a2532fd99",
       "5fde2148e8d3cfc84a04",
       "79a5b337788a99575f26",
       "c2e568c35d81d3913870",
-      "49dec5040654f838ae30"
+      "19776b811330459b5402"
     ]
   },
   "heads_up": [
     {
-      "event_id": "79a5b337788a99575f26",
+      "event_id": "e9b6857cb482fa2309e2",
       "days_until": 1
     },
     {
-      "event_id": "c2e568c35d81d3913870",
+      "event_id": "79fdb89a445a9e442688",
       "days_until": 3
     },
     {
-      "event_id": "73cfaad53aac13555ad7",
+      "event_id": "5fde2148e8d3cfc84a04",
       "days_until": 3
     }
   ],
@@ -342,5 +338,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "3aa4b054a5a955b44c3513750b5433739f76f6c0204bfb28157151bedea9accd"
+  "data_hash": "aa4a6fa4251f52d93d1877214e9bd6ff5e9f330e41a789121fe12bd19f895d1f"
 }
