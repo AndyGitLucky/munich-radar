@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-26T23:55:42+01:00",
+  "last_updated": "2026-11-27T14:41:34+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
   "sources_successful": 15,
-  "events_collected": 739,
-  "events_after_deduplication": 658,
-  "stale_events": 3,
+  "events_collected": 733,
+  "events_after_deduplication": 649,
+  "stale_events": 2,
   "sources": [
     {
       "id": "oktoberfest",
@@ -29,7 +29,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 136,
+      "events": 129,
       "warnings": []
     },
     {
@@ -63,7 +63,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 71,
+      "events": 76,
       "warnings": []
     },
     {
@@ -71,7 +71,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 294,
+      "events": 293,
       "warnings": []
     },
     {
@@ -79,7 +79,7 @@
       "name": "Münchner Stadtbibliothek",
       "url": "https://www.muenchner-stadtbibliothek.de/veranstaltungen",
       "status": "ok",
-      "events": 38,
+      "events": 37,
       "warnings": []
     },
     {
@@ -87,7 +87,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 9,
+      "events": 7,
       "warnings": []
     },
     {
@@ -153,17 +153,17 @@
   "views": {
     "today": [
       "cee8ca092aada06e07ed",
-      "86aebf57b7c336965355",
-      "939495239b2a44ac5fb4",
-      "d959a147ba780de01c92",
-      "7d0616a691b16ea0a612"
+      "43bd8ba41c4594e994da",
+      "e9b6857cb482fa2309e2",
+      "4c680d353c23d5bde5ab",
+      "237d1fa0c59219321e5a"
     ],
     "tomorrow": [
       "cee8ca092aada06e07ed",
-      "d4f56319fbe1e6834800",
-      "e9b6857cb482fa2309e2",
-      "ddd9407876aab87c4d0d",
-      "e2186c9af1ce016e0993"
+      "f900af8b58a156fddcd7",
+      "c2e568c35d81d3913870",
+      "73cfaad53aac13555ad7",
+      "ffef9cbfdcb4096a032f"
     ],
     "weekend": [
       "cee8ca092aada06e07ed",
@@ -181,24 +181,24 @@
     ],
     "new": [
       "f900af8b58a156fddcd7",
-      "86aebf57b7c336965355",
-      "939495239b2a44ac5fb4",
-      "d959a147ba780de01c92",
-      "7085585a2a3230cdeec9"
+      "2b5e512c3773ddc6a679",
+      "4c680d353c23d5bde5ab",
+      "237d1fa0c59219321e5a",
+      "5335daef3427b8c1afa2"
     ]
   },
   "heads_up": [
     {
-      "event_id": "e9b6857cb482fa2309e2",
+      "event_id": "c2e568c35d81d3913870",
       "days_until": 1
     },
     {
-      "event_id": "508ba583cceadeaef7ae",
-      "days_until": 3
+      "event_id": "73cfaad53aac13555ad7",
+      "days_until": 1
     },
     {
-      "event_id": "fc17e871a04f8e18d8c1",
-      "days_until": 3
+      "event_id": "ffef9cbfdcb4096a032f",
+      "days_until": 1
     }
   ],
   "heads_up_rules": {
@@ -338,5 +338,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "0d0bec0fe4e9bef2aa24e3236109af9e06666003a1454c26d927dd4e64a94980"
+  "data_hash": "c6fb82018c37c9d50e8d1ed4873a42e244ce8c9995e4f9cd73f8f2587082e47e"
 }
