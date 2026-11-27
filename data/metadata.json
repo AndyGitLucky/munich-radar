@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-27T14:41:34+01:00",
+  "last_updated": "2026-11-27T23:37:45+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
-  "sources_successful": 15,
-  "events_collected": 733,
-  "events_after_deduplication": 649,
-  "stale_events": 2,
+  "sources_successful": 14,
+  "events_collected": 678,
+  "events_after_deduplication": 647,
+  "stale_events": 54,
   "sources": [
     {
       "id": "oktoberfest",
@@ -71,7 +71,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 293,
+      "events": 292,
       "warnings": []
     },
     {
@@ -102,10 +102,10 @@
       "id": "pinakotheken",
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
-      "status": "partial",
-      "events": 53,
+      "status": "error",
+      "events": 0,
       "warnings": [
-        "Termin verworfen: Event ends before it starts"
+        "ValueError: Kein Pinakotheken-Kalendertag abrufbar"
       ]
     },
     {
@@ -154,9 +154,9 @@
     "today": [
       "cee8ca092aada06e07ed",
       "43bd8ba41c4594e994da",
-      "e9b6857cb482fa2309e2",
       "4c680d353c23d5bde5ab",
-      "237d1fa0c59219321e5a"
+      "237d1fa0c59219321e5a",
+      "41f837fa2be3126dc5e1"
     ],
     "tomorrow": [
       "cee8ca092aada06e07ed",
@@ -167,24 +167,24 @@
     ],
     "weekend": [
       "cee8ca092aada06e07ed",
-      "f900af8b58a156fddcd7",
+      "5fde2148e8d3cfc84a04",
       "c2e568c35d81d3913870",
       "73cfaad53aac13555ad7",
       "ffef9cbfdcb4096a032f"
     ],
     "upcoming": [
-      "8282d6b66f3a2532fd99",
-      "f900af8b58a156fddcd7",
+      "e08fcc006e16724e294f",
+      "767f899739edfe9c132e",
       "c2e568c35d81d3913870",
       "170ca372d35862a6254e",
       "ffef9cbfdcb4096a032f"
     ],
     "new": [
-      "f900af8b58a156fddcd7",
-      "2b5e512c3773ddc6a679",
+      "e08fcc006e16724e294f",
+      "767f899739edfe9c132e",
       "4c680d353c23d5bde5ab",
       "237d1fa0c59219321e5a",
-      "5335daef3427b8c1afa2"
+      "7cfe0939066d255f67c7"
     ]
   },
   "heads_up": [
@@ -338,5 +338,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "c6fb82018c37c9d50e8d1ed4873a42e244ce8c9995e4f9cd73f8f2587082e47e"
+  "data_hash": "d0ad32a7ec8e40dab4ddecc01f6d715a99c3a44fe20b63ec5f24501a73108b34"
 }
