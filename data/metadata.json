@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-27T23:37:45+01:00",
+  "last_updated": "2026-11-28T13:51:55+01:00",
   "timezone": "Europe/Berlin",
   "sources_checked": 16,
-  "sources_successful": 14,
-  "events_collected": 678,
-  "events_after_deduplication": 647,
-  "stale_events": 54,
+  "sources_successful": 15,
+  "events_collected": 715,
+  "events_after_deduplication": 630,
+  "stale_events": 2,
   "sources": [
     {
       "id": "oktoberfest",
@@ -21,7 +21,7 @@
       "name": "München – Shopping & Sonderöffnungen",
       "url": "https://www.muenchen.de/shopping/aktuell/shopping-naechte-und-abendoeffnungen-muenchen",
       "status": "ok",
-      "events": 6,
+      "events": 5,
       "warnings": []
     },
     {
@@ -29,7 +29,7 @@
       "name": "Märkte München",
       "url": "https://maerkte-muenchen.de/unsere-maerkte/wochenmaerkte.html",
       "status": "ok",
-      "events": 129,
+      "events": 117,
       "warnings": []
     },
     {
@@ -63,7 +63,7 @@
       "name": "Lenbachhaus",
       "url": "https://www.lenbachhaus.de/besuchen/kalender",
       "status": "ok",
-      "events": 76,
+      "events": 74,
       "warnings": []
     },
     {
@@ -71,7 +71,7 @@
       "name": "muenchen.de",
       "url": "https://www.muenchen.de/veranstaltungen/event/",
       "status": "ok",
-      "events": 292,
+      "events": 293,
       "warnings": []
     },
     {
@@ -87,7 +87,7 @@
       "name": "Münchner Stadtmuseum",
       "url": "https://www.muenchner-stadtmuseum.de/veranstaltungen/details",
       "status": "ok",
-      "events": 7,
+      "events": 4,
       "warnings": []
     },
     {
@@ -102,10 +102,10 @@
       "id": "pinakotheken",
       "name": "Pinakotheken",
       "url": "https://www.pinakothek.de/de/programm/programm-uebersicht",
-      "status": "error",
-      "events": 0,
+      "status": "partial",
+      "events": 53,
       "warnings": [
-        "ValueError: Kein Pinakotheken-Kalendertag abrufbar"
+        "Termin verworfen: Event ends before it starts"
       ]
     },
     {
@@ -153,51 +153,51 @@
   "views": {
     "today": [
       "cee8ca092aada06e07ed",
-      "43bd8ba41c4594e994da",
-      "4c680d353c23d5bde5ab",
-      "237d1fa0c59219321e5a",
-      "41f837fa2be3126dc5e1"
+      "f900af8b58a156fddcd7",
+      "f4863eca5247ad51cd8a",
+      "ae76123974b0f6ed3a01",
+      "07a746b6f2dc94218f54"
     ],
     "tomorrow": [
       "cee8ca092aada06e07ed",
-      "f900af8b58a156fddcd7",
-      "c2e568c35d81d3913870",
-      "73cfaad53aac13555ad7",
-      "ffef9cbfdcb4096a032f"
+      "5fde2148e8d3cfc84a04",
+      "ddd9407876aab87c4d0d",
+      "79fdb89a445a9e442688",
+      "6a837a550a15bdd0d1b4"
     ],
     "weekend": [
       "cee8ca092aada06e07ed",
-      "5fde2148e8d3cfc84a04",
-      "c2e568c35d81d3913870",
-      "73cfaad53aac13555ad7",
-      "ffef9cbfdcb4096a032f"
+      "f900af8b58a156fddcd7",
+      "f4863eca5247ad51cd8a",
+      "ae76123974b0f6ed3a01",
+      "07a746b6f2dc94218f54"
     ],
     "upcoming": [
+      "8282d6b66f3a2532fd99",
       "e08fcc006e16724e294f",
-      "767f899739edfe9c132e",
-      "c2e568c35d81d3913870",
+      "7085585a2a3230cdeec9",
       "170ca372d35862a6254e",
-      "ffef9cbfdcb4096a032f"
+      "9d43ba46b07aeb19f114"
     ],
     "new": [
       "e08fcc006e16724e294f",
-      "767f899739edfe9c132e",
-      "4c680d353c23d5bde5ab",
-      "237d1fa0c59219321e5a",
-      "7cfe0939066d255f67c7"
+      "42ff458950bfd62c986d",
+      "ae76123974b0f6ed3a01",
+      "07a746b6f2dc94218f54",
+      "da8562d794e092b6d8b5"
     ]
   },
   "heads_up": [
     {
-      "event_id": "c2e568c35d81d3913870",
+      "event_id": "7085585a2a3230cdeec9",
+      "days_until": 3
+    },
+    {
+      "event_id": "79fdb89a445a9e442688",
       "days_until": 1
     },
     {
-      "event_id": "73cfaad53aac13555ad7",
-      "days_until": 1
-    },
-    {
-      "event_id": "ffef9cbfdcb4096a032f",
+      "event_id": "5fde2148e8d3cfc84a04",
       "days_until": 1
     }
   ],
@@ -338,5 +338,5 @@
       "points": 6.0
     }
   ],
-  "data_hash": "d0ad32a7ec8e40dab4ddecc01f6d715a99c3a44fe20b63ec5f24501a73108b34"
+  "data_hash": "ac8c36bb5735d719e0e6ec706d6fca965cddc78a4b462322d0f13a70871f9b72"
 }
